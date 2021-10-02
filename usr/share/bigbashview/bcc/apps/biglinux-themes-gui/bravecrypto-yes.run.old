@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-themes
+
+windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
+
+rm -f "$HOME/.config/browser-brave-disable-crypto"
+
+kdialog  --attach="$windowID" --msgbox $"Configuração alterada, se estiver utilizando o navegador, reinicie-o para que a nova configuração seja aplicada."

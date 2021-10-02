@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=first-login-theme
+Icon=
+Exec=/usr/bin/first-login-theme
+Terminal=false
+Type=Application

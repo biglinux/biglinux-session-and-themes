@@ -1,0 +1,15 @@
+[Unit]
+Description=Latte dock
+After=plasma-ksmserver.service plasma-kcminit.service
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/latte-dock-start
+Restart=always
+Type=dbus
+BusName=org.kde.lattedock
+Slice=session.slice
+TimeoutSec=40sec
+
+[Install]
+WantedBy=plasma-core.target

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ "$(file -i /usr/bin/ksplashqml | grep 'charset=binary')" != "" ]; then
+    mv -f /usr/bin/ksplashqml /usr/bin/ksplashqml.distrib
+    cp -f /usr/share/divert/ksplashqml /usr/bin/ksplashqml
+fi
+
+mv -f /usr/share/xsessions/plasma.desktop /usr/share/divert/plasma.desktop 2> /dev/null
+
+sed -i 's|Restart=on-failure|Restart=always|g' /usr/lib/systemd/user/plasma-plasmashell.service

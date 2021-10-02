@@ -1,0 +1,112 @@
+#!/bin/bash
+
+if [ "$1" = "" ]; then
+    exit
+fi
+
+#list of files you want to save
+kde=(
+kactivitymanagerdrc
+kscreenlockerrc
+ksmserverrc
+ksplashrc
+plasmarc
+plasma-org.kde.plasma.desktop-appletsrc
+plasmashellrc
+enable_latte
+lattedockrc
+latte
+kwin_left
+kwin_maximized_disable
+)
+
+mkdir -p ~/.kdebiglinux
+mkdir -p ~/.config/latte
+
+systemctl --user stop plasma-plasmashell
+systemctl --user stop lattedock
+
+LAST_USED="$(cat "$HOME/.kdebiglinux/lastused")"
+
+
+# Backup config
+if [ "$LAST_USED" != "" ]; then
+    mkdir -p "$HOME/.kdebiglinux/$LAST_USED"
+    #Move config to use later
+    for i in "${kde[@]}"; do
+        cp -Rf "$HOME/.config/$i" "$HOME/.kdebiglinux/$LAST_USED"
+    done
+fi
+
+# Clean
+if [ "$2" = "clean" ] && [ -e "/usr/share/biglinux/kdebiglinux/$1" ]; then
+    rm -Rf "$HOME/.kdebiglinux/$1"
+fi
+
+# Apply config
+if [ -e "$HOME/.kdebiglinux/$1" ]; then
+
+    #Fix autostart lattedock
+    rm -f "$HOME/.config/enable_latte"
+    #Fix kwin button
+    rm -f "$HOME/.config/kwin_left"
+    #Fix kwin maximized
+    rm -f "$HOME/.config/kwin_maximized_disable"
+    #Move config to use now
+    for i in "${kde[@]}"; do
+        cp -Rf "$HOME/.kdebiglinux/$1/$i" "/$HOME/.config/$i"
+        echo "$1" > $HOME/.kdebiglinux/lastused
+    done
+else
+    if [ -e "/usr/share/biglinux/kdebiglinux/$1" ]; then
+        #Fix autostart lattedock
+        rm -f "$HOME/.config/enable_latte"
+        #Fix kwin button
+        rm -Rf "$HOME/.config/kwin_left"
+        #Fix kwin maximized
+        rm -f "$HOME/.config/kwin_maximized_disable"
+        #Move config to use now
+        for i in "${kde[@]}"; do
+            cp -Rf /usr/share/biglinux/kdebiglinux/$1/$i ~/.config/
+            echo "$1" > $HOME/.kdebiglinux/lastused
+        done
+    fi
+fi
+
+if [ "$(cat "$HOME/.config/kwin_left")" = "1" ]; then
+    kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
+    kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
+    kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
+else
+    kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
+    kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
+    kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
+fi
+
+
+
+# Disable kwin border in maximized windows
+if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
+    #Chromium Brave Chrome
+    sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
+    #Firefox
+    sed -i 's|user_pref("browser.tabs.drawInTitlebar", true);|user_pref("browser.tabs.drawInTitlebar", false);|g' ~/.mozilla/firefox/*.default/prefs.js
+    #Kwin
+    sed -i '/BorderlessMaximizedWindows=false/d' ~/.config/kwinrc
+else
+    #Chromium Brave Chrome
+    sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
+    #Firefox
+    sed -i 's|user_pref("browser.tabs.drawInTitlebar", false);|user_pref("browser.tabs.drawInTitlebar", true);|g' ~/.mozilla/firefox/*.default/prefs.js
+    #Kwin
+    sed -i '/BorderlessMaximizedWindows=true/d' ~/.config/kwinrc
+fi
+
+
+qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
+
+systemctl --user start plasma-plasmashell
+
+if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
+    systemctl --user start lattedock
+fi

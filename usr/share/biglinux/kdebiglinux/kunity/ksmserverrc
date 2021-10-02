@@ -1,0 +1,10 @@
+[General]
+confirmLogout=true
+excludeApps=
+loginMode=restoreSavedSession
+offerShutdown=true
+screenCount=1
+shutdownType=0
+
+[LegacySession: saved at previous logout]
+count=0

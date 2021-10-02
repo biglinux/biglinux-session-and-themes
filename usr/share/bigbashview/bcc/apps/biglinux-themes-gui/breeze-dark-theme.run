@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-themes
+
+windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
+
+biglinux-themes.sh --apply breeze-dark
+
+echo "breeze-dark" > "$HOME/.big_desktop_theme"
+
+
+kdialog --attach="$windowID" --msgbox $"Tema aplicado!
+
+Finalize a sessão e faça login novamente
+Para que todos os programas utilizem a 
+nova configuração de tema." --title "Tema"

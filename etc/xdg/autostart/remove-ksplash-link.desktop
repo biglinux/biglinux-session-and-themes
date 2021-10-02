@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=remove-ksplash-icon
+Icon=
+Exec=rm -f /tmp/bigksplash.jpg
+Terminal=false
+Type=Application
+OnlyShowIn=KDE
+X-KDE-autostart-phase=2

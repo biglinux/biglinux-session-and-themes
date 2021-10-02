@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ "$(file -i /usr/bin/ksplashqml | grep 'charset=binary')" = "" ]; then
+    mv -f /usr/bin/ksplashqml.distrib /usr/bin/ksplashqml
+fi
+
+mv -f /usr/share/divert/plasma.desktop /usr/share/xsessions/plasma.desktop 2> /dev/null

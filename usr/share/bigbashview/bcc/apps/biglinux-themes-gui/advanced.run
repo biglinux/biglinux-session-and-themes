@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# if [ -e "/rofs" ]; then
+# 
+#     kcmshell5 kcm_style kcm_cursortheme kwincompositing kcm_kwin_effects kcm_icons kcm_fonts kcm_desktoptheme kcm_colors kcm_workspace kwinscreenedges
+# 
+# else
+# 
+#     kcmshell5 kcm_style kcm_cursortheme kwindecoration kwincompositing kcm_kwin_effects kcm_icons kcm_fonts kcm_desktoptheme kcm_colors kcm_workspace kwinscreenedges
+# 
+# fi
+
+kcmshell5 kcm_style kcm_cursortheme kwindecoration kwincompositing kcm_kwin_effects kcm_icons kcm_fonts kcm_desktoptheme kcm_colors kcm_workspace kwinscreenedges

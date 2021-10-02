@@ -1,0 +1,9 @@
+[Trigger]
+Type = Package
+Operation = Remove
+Target = biglinux-multi-kde
+
+[Action]
+Description = Disable multi kde configuration
+When = PreTransaction
+Exec = /usr/share/libalpm/scripts/biglinux-multi-kde-remove

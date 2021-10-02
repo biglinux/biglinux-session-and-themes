@@ -1,0 +1,4 @@
+#!/bin/bash
+
+QT_QUICK_BACKEND=software exec /usr/bin/ksplashqml.distrib ${1+"$@"}
+

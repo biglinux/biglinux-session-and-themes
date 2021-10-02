@@ -1,0 +1,9 @@
+[Trigger]
+Type = Package
+Operation = Install
+Target =  materia-gtk-theme
+
+[Action]
+Description = Change tab color from materia theme
+When = PostTransaction
+Exec = sed -i 's|background-color: #121212;|background-color: #171717;|g' /usr/share/themes/Materia-dark/gtk-3.0/gtk.css
