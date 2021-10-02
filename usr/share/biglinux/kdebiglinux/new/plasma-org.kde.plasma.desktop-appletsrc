@@ -55,7 +55,7 @@ immutability=1
 plugin=org.biglinux.appsmenu
 
 [Containments][2][Applets][31][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][2][Applets][31][Configuration][ConfigDialog]
 DialogHeight=600
@@ -131,9 +131,9 @@ PreloadWeight=0
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=471
 arrangement=1
-iconSize=1
+iconSize=0
 labelWidth=3
-positions=1,9,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1,desktop:/bigcontrolcenter.desktop,0,2
+positions=1,10,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1,desktop:/bigcontrolcenter.desktop,0,2
 sizeIcon=3
 sortMode=-1
 textLines=3
@@ -290,4 +290,4 @@ immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/bigcontrolcenter.desktop,0,desktop:/home.desktop,0,desktop:/calamares.desktop,0,desktop:/trash.desktop,0
+screenMapping=desktop:/bigcontrolcenter.desktop,0,desktop:/trash.desktop,0,desktop:/home.desktop,0,desktop:/calamares.desktop,0

@@ -147,11 +147,11 @@ XftAntialias=true
 XftHintStyle=hintfull
 XftSubPixel=rgb
 fixed=Ubuntu Mono,13,-1,5,50,0,0,0,0,0
-font=Lato Semibold,11,-1,5,63,0,0,0,0,0,Regular
-menuFont=Lato Semibold,11,-1,5,63,0,0,0,0,0,Regular
+font=Lato Medium,11,-1,5,63,0,0,0,0,0,Regular
+menuFont=Lato Medium,11,-1,5,63,0,0,0,0,0,Regular
 shadeSortColumn=true
-smallestReadableFont=Lato Semibold,9,-1,5,63,0,0,0,0,0,Regular
-toolBarFont=Lato Semibold,11,-1,5,63,0,0,0,0,0,Regular
+smallestReadableFont=Lato Medium,9,-1,5,63,0,0,0,0,0,Regular
+toolBarFont=Lato Medium,11,-1,5,63,0,0,0,0,0,Regular
 widgetStyle=Breeze
 
 [KDE]

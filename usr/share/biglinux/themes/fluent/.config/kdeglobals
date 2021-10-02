@@ -146,11 +146,11 @@ Name=Breeze Light
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=Ubuntu Mono,13,-1,5,50,0,0,0,0,0
-font=Carlito,12,-1,5,63,0,0,0,0,0,Regular
-menuFont=Carlito,12,-1,5,63,0,0,0,0,0,Regular
+font=Lato Medium,11,-1,5,63,0,0,0,0,0,Regular
+menuFont=Lato Medium,11,-1,5,63,0,0,0,0,0,Regular
 shadeSortColumn=true
-smallestReadableFont=Carlito,10,-1,5,63,0,0,0,0,0,Regular
-toolBarFont=Carlito,12,-1,5,63,0,0,0,0,0,Regular
+smallestReadableFont=Lato Medium,9,-1,5,63,0,0,0,0,0,Regular
+toolBarFont=Lato Medium,11,-1,5,63,0,0,0,0,0,Regular
 widgetStyle=Breeze
 
 [Icons]
@@ -197,7 +197,7 @@ ToolButtonStyleOtherToolbars=TextBesideIcon
 [WM]
 activeBackground=247,247,247
 activeBlend=153,153,153
-activeFont=Carlito,12,-1,5,63,0,0,0,0,0,Regular
+activeFont=Lato Semibold,12,-1,5,63,0,0,0,0,0,Regular
 activeForeground=120,120,120
 inactiveBackground=242,242,242
 inactiveBlend=221,221,221
