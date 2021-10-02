@@ -1,7 +1,7 @@
 [Trigger]
 Type = Package
 Operation = Remove
-Target = biglinux-multi-kde
+Target = biglinux-session-and-themes
 
 [Action]
 Description = Disable multi kde configuration

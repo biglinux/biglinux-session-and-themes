@@ -3,7 +3,7 @@ Type = Package
 Operation = Install
 Operation = Upgrade
 Target = plasma-workspace
-Target = biglinux-multi-kde
+Target = biglinux-session-and-themes
 
 [Action]
 Description = Multi configurations to login on KDE
