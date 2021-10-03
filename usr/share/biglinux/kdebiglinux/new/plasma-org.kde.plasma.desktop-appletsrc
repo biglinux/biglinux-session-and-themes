@@ -44,7 +44,7 @@ plugin=org.kde.plasma.icontasks
 PreloadWeight=0
 
 [Containments][2][Applets][29][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:brave-browser.desktop,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:brave-browser.desktop,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
 
 [Containments][2][Applets][3][Configuration][General]
@@ -55,7 +55,7 @@ immutability=1
 plugin=org.biglinux.appsmenu
 
 [Containments][2][Applets][31][Configuration]
-PreloadWeight=5
+PreloadWeight=15
 
 [Containments][2][Applets][31][Configuration][ConfigDialog]
 DialogHeight=600
@@ -73,12 +73,21 @@ global=
 immutability=1
 plugin=org.kde.plasma.win7showdesktop
 
-[Containments][2][Applets][4]
+[Containments][2][Applets][35]
 immutability=1
-plugin=org.kde.plasma.pager
+plugin=com.github.zren.presentwindows
 
-[Containments][2][Applets][4][Configuration]
-PreloadWeight=0
+[Containments][2][Applets][36]
+immutability=1
+plugin=com.github.zren.presentwindows
+
+[Containments][2][Applets][36][Configuration][ConfigDialog]
+DialogHeight=620
+DialogWidth=800
+
+[Containments][2][Applets][36][Configuration][General]
+clickCommand=ShowDesktopGrid
+icon=virtual-desktops
 
 [Containments][2][Applets][5][Configuration][General]
 groupingStrategy=0
@@ -100,14 +109,14 @@ plugin=org.kde.plasma.digitalclock
 PreloadWeight=1
 
 [Containments][2][ConfigDialog]
-DialogHeight=82
+DialogHeight=86
 DialogWidth=1920
 
 [Containments][2][Configuration]
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=31;29;4;6;8;33
+AppletOrder=31;29;36;35;6;8;33
 
 [Containments][27]
 ItemGeometries-1920x940=
@@ -129,11 +138,11 @@ PreloadWeight=0
 
 [Containments][27][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=471
+ToolBoxButtonX=467
 arrangement=1
 iconSize=0
 labelWidth=3
-positions=1,10,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1,desktop:/bigcontrolcenter.desktop,0,2
+positions=1,9,desktop:/home.desktop,0,1,desktop:/trash.desktop,0,0,desktop:/bigcontrolcenter.desktop,0,2
 sizeIcon=3
 sortMode=-1
 textLines=3
@@ -290,4 +299,4 @@ immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/bigcontrolcenter.desktop,0,desktop:/trash.desktop,0,desktop:/home.desktop,0,desktop:/calamares.desktop,0
+screenMapping=desktop:/bigcontrolcenter.desktop,0,desktop:/calamares.desktop,0,desktop:/trash.desktop,0,desktop:/home.desktop,0

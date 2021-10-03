@@ -107,6 +107,11 @@ qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
 
 systemctl --user start plasma-plasmashell
 
+# Change lattedock autostart mode
+rm -f ~/.config/autostart/org.kde.latte-dock.desktop
 if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
     systemctl --user start lattedock
+else
+    systemctl --user stop lattedock
+    killall latte-dock
 fi

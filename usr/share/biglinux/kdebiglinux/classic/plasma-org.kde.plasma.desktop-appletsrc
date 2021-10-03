@@ -77,23 +77,21 @@ plugin=org.kde.plasma.icon
 PreloadWeight=42
 url=file:///usr/share/applications/brave-browser.desktop
 
-[Containments][2][Applets][32]
+[Containments][2][Applets][34]
 immutability=1
-plugin=org.kde.netspeedWidget
+plugin=com.github.zren.presentwindows
 
-[Containments][2][Applets][32][Configuration][ConfigDialog]
-DialogHeight=600
+[Containments][2][Applets][35]
+immutability=1
+plugin=com.github.zren.presentwindows
+
+[Containments][2][Applets][35][Configuration][ConfigDialog]
+DialogHeight=620
 DialogWidth=800
 
-[Containments][2][Applets][32][Configuration][General]
-shortUnits=true
-
-[Containments][2][Applets][4]
-immutability=1
-plugin=org.kde.plasma.pager
-
-[Containments][2][Applets][4][Configuration]
-PreloadWeight=0
+[Containments][2][Applets][35][Configuration][General]
+clickCommand=ShowDesktopGrid
+icon=virtual-desktops
 
 [Containments][2][Applets][5]
 immutability=1
@@ -109,8 +107,8 @@ DialogWidth=720
 [Containments][2][Applets][5][Configuration][General]
 groupingStrategy=0
 launchers=
-sortingStrategy=1
 middleClickAction=None
+sortingStrategy=1
 
 [Containments][2][Applets][6]
 immutability=1
@@ -125,7 +123,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][2][Applets][8][Configuration][Appearance]
 showDate=false
@@ -142,9 +140,10 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=19;4;30;20;25;5;32;6;8
+AppletOrder=19;30;20;25;5;35;34;6;8
 
 [Containments][27]
+ItemGeometries-1920x940=
 ItemGeometriesHorizontal=
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
 formfactor=0
@@ -163,11 +162,11 @@ PreloadWeight=0
 
 [Containments][27][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=557
+ToolBoxButtonX=467
 arrangement=1
-iconSize=3
+iconSize=2
 labelWidth=3
-positions=1,7,desktop:/calamares.desktop,0,2,desktop:/bigcontrolcenter.desktop,0,3,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1
+positions=1,7,desktop:/bigcontrolcenter.desktop,0,3,desktop:/home.desktop,0,1,desktop:/trash.desktop,0,0
 sizeIcon=3
 sortMode=-1
 textLines=3
@@ -284,7 +283,7 @@ plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][7][Applets][33]
 immutability=1
-plugin=org.kwinft.kdisplay
+plugin=org.kde.plasma.keyboardlayout
 
 [Containments][7][Applets][33][Configuration]
 PreloadWeight=42
@@ -311,9 +310,9 @@ DialogWidth=720
 PreloadWeight=0
 
 [Containments][7][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.kscreen
+extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.kscreen
 hiddenItems=org.kde.plasma.vault,org.kde.redshiftControl,org.kde.plasma.mediacontroller
-knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout
 shownItems=qBittorrent
 
 [General]
@@ -321,4 +320,4 @@ immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/home.desktop,0,desktop:/bigcontrolcenter.desktop,0,desktop:/calamares.desktop,0,desktop:/trash.desktop,0
+screenMapping=desktop:/home.desktop,0,desktop:/trash.desktop,0,desktop:/bigcontrolcenter.desktop,0,desktop:/calamares.desktop,0

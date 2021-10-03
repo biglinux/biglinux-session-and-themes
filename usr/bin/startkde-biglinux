@@ -1,11 +1,6 @@
 #!/bin/bash
 
 
-#if user is running another kde instance, just exit
-if [ "$(ps -aux | grep "$USER" | grep /usr/bin/startplasma-x11$)" != "" ]; then
-    exit 0
-fi
-
 # Virtualization fix open
 if [ "$(lspci | grep -i vga | grep -i vmware)" != "" ]; then
     kwriteconfig5 --file ~/.config/kded5rc --group Module-kscreen --key autoload false
@@ -13,65 +8,33 @@ fi
 # Virtualization fix close
 
 
-#sessão atual (definido pelo xsession/.desktop)
-nowlogin=$1
+
+nowlogin="$(cat "$HOME/.kdebiglinux/lastused")"
 #ultimo login
 lastlogin=$(cat "$HOME/.kdebiglinux/lastlogin")
 
+
 # Copy config from skel if needed
-if [ ! -e "$HOME/.kdebiglinux/$nowlogin" ]; then
-    cp -Rf "/etc/skel/.kdebiglinux/$nowlogin" "$HOME/.kdebiglinux/$nowlogin"
-    mkdir -p "$HOME/.kdebiglinux/$nowlogin"
-fi
-
-#list of files you want to save (use "whith spaces")
-kde=(
-kactivitymanagerdrc
-kcminputrc
-kglobalshortcutsrc
-khotkeysrc
-kscreenlockerrc
-ksmserverrc
-ksplashrc
-mimeapps.list
-plasmarc
-plasma-org.kde.plasma.desktop-appletsrc
-plasmashellrc
-powermanagementprofilesrc
-touchpadxlibinputrc
-)
-
-if [ "$lastlogin" != "$nowlogin" ]; then
-    #Move config to use later
-    for i in "${kde[@]}"; do cp -f ~/.config/$i ~/.kdebiglinux/$lastlogin/$i; done
-    #Move config to use now
-    for i in "${kde[@]}"; do cp -f ~/.kdebiglinux/$nowlogin/$i ~/.config/$i; done
-fi
-
-#If never used, replace actual config
-if [ ! -e "$HOME/.kdebiglinux/lastlogin" ]; then
-    mkdir -p ~/.kdebiglinux/backup
-    for i in "${kde[@]}"; do
-    cp -f ~/.config/$i ~/.kdebiglinux/backup/$i
-    done
-    for i in "${kde[@]}"; do
-    cp -f ~/.kdebiglinux/$nowlogin/$i ~/.config/$i;
-    done
-fi
-
-echo "$nowlogin" > ~/.kdebiglinux/lastlogin
+# if [ ! -e "$HOME/.kdebiglinux/$nowlogin" ]; then
+#     cp -Rf "/etc/skel/.kdebiglinux/$nowlogin" "$HOME/.kdebiglinux/$nowlogin"
+#     mkdir -p "$HOME/.kdebiglinux/$nowlogin"
+# fi
 
 #Link from wallpaper to ksplash
 ln -sf "$(grep '\[Wallpaper\]' -A2 -m1 ~/.config/plasma-org.kde.plasma.desktop-appletsrc | grep -m1 "Image=" | sed 's|Image=file://||g'
 /usr/share/wallpapers/BigLinux01.jpg)" /tmp/bigksplash.jpg
 chmod 777 /tmp/bigksplash.jpg
 
-
 feh --bg-fill "/tmp/bigksplash.jpg" &
 
 # Fix full screen when switch desktop
-if [ "$lastlogin" != "$nowlogin" ]; then
-    if [ "$nowlogin" = "classic" ] || [ "$nowlogin" = "new" ]; then
+if [ "$nowlogin" != "$lastlogin" ]; then
+    if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
+        sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
+        sed -i 's|user_pref("browser.tabs.drawInTitlebar", true);|user_pref("browser.tabs.drawInTitlebar", false);|g' ~/.mozilla/firefox/*.default/prefs.js
+        #Kwin
+        sed -i '/BorderlessMaximizedWindows=false/d' ~/.config/kwinrc
+    else
         #Chromium Brave Chrome
         sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
         #Firefox
@@ -80,18 +43,10 @@ if [ "$lastlogin" != "$nowlogin" ]; then
         sed -i '/MenuBar=Disabled/d' ~/.config/okularrc
         #Kwin
         sed -i '/BorderlessMaximizedWindows=true/d' ~/.config/kwinrc
-        
-    fi
-    if [ "$nowlogin" = "topbar" ]; then
-        sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
-        sed -i 's|user_pref("browser.tabs.drawInTitlebar", true);|user_pref("browser.tabs.drawInTitlebar", false);|g' ~/.mozilla/firefox/*.default/prefs.js
     fi
 fi
 
-
-
-/usr/share/biglinux/multi-kde/$nowlogin 2> /dev/null
-
+echo "$nowlogin" > "$HOME/.kdebiglinux/lastlogin"
 
 if [ ! -e "$HOME/.big_performance" ]; then
     if [ "$(cat /etc/default-performance-biglinux)" = "0" ]; then
@@ -154,12 +109,18 @@ done
 export KWIN_EFFECTS_FORCE_ANIMATIONS=1
 export MULTIKDE=$nowlogin
 
+# Change way to autostart latte
+rm -r "$HOME/.config/autostart/org.kde.latte-dock.desktop"
+
 if [ -e "$HOME/.config/kdelight" ]; then
     QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic exec startplasma-x11
 else
     exec startplasma-x11
 fi
 
+if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
+    systemctl --user start lattedock
+fi
 
 killall feh
 sleep 20

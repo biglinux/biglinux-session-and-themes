@@ -10,6 +10,3 @@ Type=dbus
 BusName=org.kde.lattedock
 Slice=session.slice
 TimeoutSec=40sec
-
-[Install]
-WantedBy=plasma-core.target

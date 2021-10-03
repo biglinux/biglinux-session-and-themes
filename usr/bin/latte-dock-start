@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. /usr/share/biglinux/multi-kde/$MULTIKDE
+ENABLE_LATTE="$(cat ~/.config/enable_latte)"
 
 rm -f ~/.config/autostart/org.kde.latte-dock.desktop
 
