@@ -39,6 +39,15 @@ favoritesPortedToKAstats=true
 immutability=1
 plugin=org.kde.plasma.win7showdesktop
 
+[Containments][2][Applets][34][Configuration][ConfigDialog]
+DialogHeight=496
+DialogWidth=640
+
+[Containments][2][Applets][34][Configuration][General]
+click_command=qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut ShowDesktopGrid
+mousewheel_down=qdbus org.kde.kglobalaccel /component/kwin invokeShortcut "Switch One Desktop to the Right"
+mousewheel_up=qdbus org.kde.kglobalaccel /component/kwin invokeShortcut "Switch One Desktop to the Left"
+
 [Containments][2][Applets][35]
 immutability=1
 plugin=org.kde.windowappmenu
@@ -50,6 +59,7 @@ DialogWidth=640
 [Containments][2][Applets][35][Configuration][General]
 containmentType=Plasma
 fillWidth=true
+spacing=5
 toggleMaximizedOnDoubleClick=true
 
 [Containments][2][Applets][36]
@@ -75,32 +85,47 @@ DialogWidth=640
 
 [Containments][2][Applets][37][Configuration][Preferences]
 AddDesktopButtonShow=false
+AddingDesktopsSwitchTo=false
+DesktopButtonsShowOnlyForCurrentDesktop=true
+DesktopIndicatorsDistinctForOccupiedIdleDesktops=false
 DesktopIndicatorsStyleLineThickness=2
-DesktopLabelsMaximumLength=16
+DesktopLabelsMaximumLength=12
 DesktopLabelsStyle=3
 MouseWheelRemoveDesktopOnClick=false
+MouseWheelWrapDesktopNavigationWhenScrolling=true
 
-[Containments][2][Applets][38]
+[Containments][2][Applets][41]
 immutability=1
-plugin=org.kde.windowtitle
+plugin=org.biglinux.appsmenu
 
-[Containments][2][Applets][38][Configuration][ConfigDialog]
+[Containments][2][Applets][41][Configuration]
+PreloadWeight=100
+
+[Containments][2][Applets][41][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments][2][Applets][42]
+immutability=1
+plugin=com.github.zren.presentwindows
+
+[Containments][2][Applets][42][Configuration][ConfigDialog]
 DialogHeight=496
 DialogWidth=640
 
-[Containments][2][Applets][38][Configuration][General]
-actionScrollMinimize=false
-containmentType=Plasma
-iconFillThickness=false
-iconSize=22
-style=NoText
+[Containments][2][Applets][42][Configuration][General]
+clickCommand=ShowDesktopGrid
+icon=virtual-desktops
+
+[Containments][2][Applets][43]
+immutability=1
+plugin=com.github.zren.presentwindows
 
 [Containments][2][Applets][6]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=5
+PreloadWeight=75
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -108,9 +133,13 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=0
+PreloadWeight=15
 
 [Containments][2][Applets][8][Configuration][Appearance]
+customDateFormat=ddd
+dateDisplayFormat=BesideTime
+dateFormat=custom
+fontFamily=Lato Light
 showDate=false
 
 [Containments][2][Applets][8][Configuration][ConfigDialog]
@@ -119,15 +148,17 @@ DialogWidth=800
 
 [Containments][2][ConfigDialog]
 DialogHeight=82
-DialogWidth=1920
+DialogWidth=1280
 
 [Containments][2][Configuration]
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=34;38;37;35;6;8;36
+AppletOrder=41;37;35;42;43;6;8;36;34
 
 [Containments][27]
+ItemGeometries-1121x585=
+ItemGeometries-1280x800=
 ItemGeometries-1920x940=
 ItemGeometriesHorizontal=
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
@@ -147,12 +178,12 @@ PreloadWeight=0
 
 [Containments][27][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=471
-ToolBoxButtonY=36
+ToolBoxButtonX=151
+ToolBoxButtonY=30
 arrangement=1
 iconSize=3
 labelWidth=3
-positions=1,7,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1,desktop:/bigcontrolcenter.desktop,0,3
+positions=1,6,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1,desktop:/bigcontrolcenter.desktop,0,2
 sizeIcon=3
 sortMode=-1
 textLines=3
@@ -212,7 +243,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][7][Applets][15][Configuration][ConfigDialog]
 DialogHeight=540
@@ -227,7 +258,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][7][Applets][16][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][7][Applets][17]
 immutability=1
@@ -241,7 +272,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][18][Configuration]
-PreloadWeight=0
+PreloadWeight=30
 
 [Containments][7][Applets][22]
 immutability=1
@@ -262,7 +293,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][28][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][7][Applets][32]
 immutability=1
@@ -307,4 +338,4 @@ immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/bigcontrolcenter.desktop,0,desktop:/calamares.desktop,0,desktop:/trash.desktop,0,desktop:/home.desktop,0
+screenMapping=desktop:/home.desktop,0,desktop:/calamares.desktop,0,desktop:/trash.desktop,0,desktop:/bigcontrolcenter.desktop,0

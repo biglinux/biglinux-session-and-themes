@@ -14,9 +14,13 @@ WindowsBlockCompositing=true
 XRenderSmoothScale=false
 
 [Desktops]
-Id_1=77e3a8d9-802a-45cd-b14a-8a1ea3cb6cb6
-Number=1
-Rows=1
+Id_1=e7e511d8-9d8d-43ba-b0f2-d1ebf8006f06
+Id_2=2805b42b-7d4f-4c7a-8c72-3a16149e1e7b
+Id_3=05df9911-7757-461e-b0f0-2b2ff9b8d66f
+Id_4=f310045b-a2f0-4f2a-af56-95f6e4e8a201
+Name_4=Nova área de trabalho
+Number=4
+Rows=2
 
 [MouseBindings]
 CommandAllKey=Alt
