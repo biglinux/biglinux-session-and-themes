@@ -66,4 +66,4 @@ immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/trash.desktop,0,desktop:/bigcontrolcenter.desktop,0,desktop:/home.desktop,0,desktop:/calamares.desktop,0
+screenMapping=desktop:/home.desktop,0,desktop:/trash.desktop,0,desktop:/calamares.desktop,0,desktop:/bigcontrolcenter.desktop,0
