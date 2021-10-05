@@ -108,9 +108,10 @@ toolBarFont=Lato Medium,11,-1,5,63,0,0,0,0,0,Regular
 widgetStyle=Breeze
 
 [Icons]
-Theme=breeze
+Theme=Fluent
 
 [KDE]
+AnimationDurationFactor=0.5
 ColorScheme=BreezeLight
 LookAndFeelPackage=org.kde.breeze.desktop
 ShowDeleteCommand=true

@@ -1,8 +1,9 @@
 #!/bin/bash
 
-if [ "$1" = "" ]; then
-    exit
-fi
+case "$1" in
+
+    --apply)
+
 
 #list of files you want to save
 kde=(
@@ -39,12 +40,12 @@ if [ "$LAST_USED" != "" ]; then
 fi
 
 # Clean
-if [ "$2" = "clean" ] && [ -e "/usr/share/biglinux/kdebiglinux/$1" ]; then
-    rm -Rf "$HOME/.kdebiglinux/$1"
+if [ "$3" = "clean" ] && [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
+    rm -Rf "$HOME/.kdebiglinux/$2"
 fi
 
 # Apply config
-if [ -e "$HOME/.kdebiglinux/$1" ]; then
+if [ -e "$HOME/.kdebiglinux/$2" ]; then
 
     #Fix autostart lattedock
     rm -f "$HOME/.config/enable_latte"
@@ -54,11 +55,11 @@ if [ -e "$HOME/.kdebiglinux/$1" ]; then
     rm -f "$HOME/.config/kwin_maximized_disable"
     #Move config to use now
     for i in "${kde[@]}"; do
-        cp -Rf "$HOME/.kdebiglinux/$1/$i" "/$HOME/.config/$i"
-        echo "$1" > $HOME/.kdebiglinux/lastused
+        cp -Rf "$HOME/.kdebiglinux/$2/$i" "/$HOME/.config/$i"
+        echo "$2" > $HOME/.kdebiglinux/lastused
     done
 else
-    if [ -e "/usr/share/biglinux/kdebiglinux/$1" ]; then
+    if [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
         #Fix autostart lattedock
         rm -f "$HOME/.config/enable_latte"
         #Fix kwin button
@@ -67,8 +68,8 @@ else
         rm -f "$HOME/.config/kwin_maximized_disable"
         #Move config to use now
         for i in "${kde[@]}"; do
-            cp -Rf /usr/share/biglinux/kdebiglinux/$1/$i ~/.config/
-            echo "$1" > $HOME/.kdebiglinux/lastused
+            cp -Rf /usr/share/biglinux/kdebiglinux/$2/$i ~/.config/
+            echo "$2" > $HOME/.kdebiglinux/lastused
         done
     fi
 fi
@@ -115,3 +116,34 @@ else
     systemctl --user stop lattedock
     killall latte-dock
 fi
+
+;;
+
+
+
+    --list)
+for i  in  $(ls /usr/share/biglinux/kdebiglinux/); do
+    echo "$i"
+done
+exit
+;;
+
+    *)
+echo " Usage:
+--list
+--apply name-of-theme
+--clean to restart theme
+
+Example:
+
+change-plasma-theme --apply new
+or
+change-plasma-theme --apply classic clean
+
+If use clean, remove configuration in home folder and use clean configuration."
+exit
+;;
+
+esac
+
+
