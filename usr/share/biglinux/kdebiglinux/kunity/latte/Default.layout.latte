@@ -44,12 +44,15 @@ icon=big-logo
 immutability=1
 plugin=org.kde.plasma.trash
 
+[Containments][13][Applets][139][Configuration]
+PreloadWeight=42
+
 [Containments][13][Applets][53]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
 
 [Containments][13][Applets][53][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][13][Applets][53][Configuration][ConfigDialog]
 DialogHeight=620
@@ -60,7 +63,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][13][Applets][54][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][13][Applets][54][Configuration][ConfigDialog]
 DialogHeight=540
@@ -138,70 +141,70 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][17][Applets][88][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][17][Applets][89]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][17][Applets][89][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][17][Applets][91]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][17][Applets][91][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][17][Applets][92]
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][17][Applets][92][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][17][Applets][93]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][17][Applets][93][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][17][Applets][94]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][17][Applets][94][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][17][Applets][95]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][17][Applets][95][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][17][Applets][97]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][17][Applets][97][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][17][Applets][98]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][17][Applets][98][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][17][Applets][99]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
 [Containments][17][Applets][99][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][17][ConfigDialog]
 DialogHeight=1025
@@ -272,14 +275,14 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][19][Applets][113][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][19][Applets][114]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][19][Applets][114][Configuration]
-PreloadWeight=57
+PreloadWeight=54
 SystrayContainmentId=17
 
 [Containments][19][Applets][116]
@@ -287,11 +290,14 @@ immutability=1
 plugin=org.kde.plasma.marginsseparator
 
 [Containments][19][Applets][116][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][19][Applets][136]
 immutability=1
 plugin=org.kde.windowappmenu
+
+[Containments][19][Applets][136][Configuration]
+PreloadWeight=42
 
 [Containments][19][Applets][136][Configuration][ConfigDialog]
 DialogHeight=620
@@ -309,6 +315,9 @@ windowTitleIsPresent=true
 immutability=1
 plugin=org.kde.windowtitle
 
+[Containments][19][Applets][137][Configuration]
+PreloadWeight=42
+
 [Containments][19][Applets][137][Configuration][ConfigDialog]
 DialogHeight=620
 DialogWidth=800
@@ -318,10 +327,14 @@ appMenuIsPresent=true
 boldFont=false
 containmentType=Latte
 showAppMenuOnMouseEnter=true
+style=TitleApplication
 
 [Containments][19][Applets][138]
 immutability=1
 plugin=org.kde.windowbuttons
+
+[Containments][19][Applets][138][Configuration]
+PreloadWeight=42
 
 [Containments][19][Applets][138][Configuration][ConfigDialog]
 DialogHeight=620
@@ -331,6 +344,23 @@ DialogWidth=800
 buttons=5|3|4|10|2|9
 containmentType=Latte
 visibility=ActiveMaximizedWindow
+
+[Containments][19][Applets][140]
+immutability=1
+plugin=com.github.zren.presentwindows
+
+[Containments][19][Applets][141]
+immutability=1
+plugin=com.github.zren.presentwindows
+
+[Containments][19][Applets][141][Configuration][ConfigDialog]
+DialogHeight=620
+DialogWidth=800
+
+[Containments][19][Applets][141][Configuration][General]
+clickCommand=ShowDesktopGrid
+icon=virtual-desktops
+useUnityTheme=2
 
 [Containments][19][ConfigDialog]
 DialogHeight=1254
@@ -343,7 +373,7 @@ PreloadWeight=0
 advanced=true
 alignment=10
 alignmentUpgraded=true
-appletOrder=138;137;136;116;114;113
+appletOrder=138;137;136;116;141;140;114;113
 appletShadowsEnabled=false
 autoDecreaseIconSize=false
 autoSizeEnabled=false

@@ -1,14 +1,12 @@
 [ActionPlugins][0]
-MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
-wheel:Vertical;NoModifier=org.kde.switchdesktop
 
 [ActionPlugins][0][RightButton;NoModifier]
 _add panel=true
 _context=true
 _lock_screen=false
 _logout=false
-_run_command=true
+_run_command=false
 _sep1=true
 _sep2=true
 _sep3=true
@@ -16,18 +14,18 @@ _wallpaper=true
 add widgets=false
 configure=true
 configure shortcuts=false
+edit mode=true
 lock widgets=true
 manage activities=false
 remove=true
-run associated application=true
+run associated application=false
 
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][27]
-ItemGeometries-1360x768=
-ItemGeometries-1366x768=
-ItemGeometries-1600x900=
+ItemGeometries-1121x585=
+ItemGeometries-1280x800=
 ItemGeometries-1920x940=
 ItemGeometriesHorizontal=
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
@@ -39,122 +37,33 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][27][ConfigDialog]
-DialogHeight=732
-DialogWidth=1366
+DialogHeight=600
+DialogWidth=800
 
 [Containments][27][Configuration]
 PreloadWeight=0
 
 [Containments][27][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=187
+ToolBoxButtonX=467
 ToolBoxButtonY=34
 arrangement=1
-iconSize=2
+iconSize=3
 labelWidth=3
-positions=1,6,desktop:/bigcontrolcenter.desktop,0,1,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,2
-showToolbox=false
+positions=1,5,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1,desktop:/bigcontrolcenter.desktop,0,2
 sizeIcon=3
 sortMode=-1
 textLines=3
+toolTips=true
 
 [Containments][27][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=file:///usr/share/wallpapers/green-and-blue.jpg
+Image=file:///usr/share/wallpapers/summer_1am/contents/images/2560x1600.jpg
 SlidePaths=/usr/share/wallpapers
-
-[Containments][38]
-ItemGeometries-1280x1024=
-ItemGeometriesHorizontal=
-activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
-formfactor=0
-immutability=1
-lastScreen=1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][38][ConfigDialog]
-DialogHeight=620
-DialogWidth=800
-
-[Containments][38][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/green-and-blue.jpg
-SlidePaths=/usr/share/wallpapers
-
-[Containments][46]
-ItemGeometries-1366x768=
-ItemGeometries-1600x900=
-ItemGeometriesHorizontal=
-activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
-formfactor=0
-immutability=1
-lastScreen=2
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][46][ConfigDialog]
-DialogHeight=620
-DialogWidth=800
-
-[Containments][46][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=305
-ToolBoxButtonY=30
-
-[Containments][46][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/green-and-blue.jpg
-SlidePaths=/usr/share/wallpapers
-
-[Containments][48]
-activityId=
-formfactor=2
-immutability=1
-lastScreen=2
-location=3
-plugin=org.kde.panel
-wallpaperplugin=org.kde.image
-
-[Containments][48][Applets][49]
-immutability=1
-plugin=org.kde.plasma.appmenu
-
-[Containments][48][Applets][50]
-immutability=1
-plugin=org.kde.activeWindowControl
-
-[Containments][48][Applets][50][Configuration][Appearance]
-buttonSize=1
-buttonsDynamicWidth=true
-buttonsStandalone=true
-buttonsVerticalCenter=true
-controlButtonsSpacing=3
-doNotHideControlButtons=true
-horizontalScreenWidthPercent=0.083
-showButtonOnlyWhenMaximized=true
-showMaximize=true
-showMinimize=true
-showWindowTitle=false
-windowIconOnTheRight=true
-
-[Containments][48][Applets][50][Configuration][Behaviour]
-showForCurrentScreenOnly=true
-
-[Containments][48][Applets][50][Configuration][ConfigDialog]
-DialogHeight=738
-DialogWidth=1366
-
-[Containments][48][ConfigDialog]
-DialogHeight=86
-DialogWidth=1600
-
-[Containments][48][General]
-AppletOrder=50;49
 
 [General]
 immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/calamares.desktop,0,desktop:/home.desktop,0,desktop:/trash.desktop,0,desktop:/bigcontrolcenter.desktop,0
+screenMapping=desktop:/trash.desktop,0,desktop:/bigcontrolcenter.desktop,0,desktop:/home.desktop,0,desktop:/calamares.desktop,0
