@@ -25,7 +25,7 @@ mkdir -p ~/.kdebiglinux
 mkdir -p ~/.config/latte
 
 systemctl --user stop plasma-plasmashell
-systemctl --user stop lattedock
+
 
 LAST_USED="$(cat "$HOME/.kdebiglinux/lastused")"
 
@@ -111,10 +111,11 @@ systemctl --user start plasma-plasmashell
 # Change lattedock autostart mode
 rm -f ~/.config/autostart/org.kde.latte-dock.desktop
 if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
+    qdbus org.kde.lattedock /Latte org.kde.LatteDock.switchToLayout /home/bruno/.config/latte/Default.layout.latte
     systemctl --user start lattedock
 else
     systemctl --user stop lattedock
-    killall latte-dock
+    qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
 fi
 
 ;;

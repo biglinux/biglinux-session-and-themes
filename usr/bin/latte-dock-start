@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 ENABLE_LATTE="$(cat ~/.config/enable_latte)"
 
@@ -8,11 +8,13 @@ if [ "$(qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.isShutting
 
     if [ "$(cat "$HOME/.big_performance")" != "0" ] && [ "$(cat "$HOME/.big_performance")" != "" ]; then
         if [ "$ENABLE_LATTE" = "1" ]; then
-            QT_QUICK_BACKEND=software latte-dock --replace
+            qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
+            QT_QUICK_BACKEND=software latte-dock 
         fi
-    else
+else
         if [ "$ENABLE_LATTE" = "1" ]; then
-            QT_QUICK_BACKEND="" QSG_RENDER_LOOP="" latte-dock --replace
+            qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
+            QT_QUICK_BACKEND="" QSG_RENDER_LOOP="" latte-dock
         fi
     fi
 
