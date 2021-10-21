@@ -24,8 +24,9 @@ kwin_maximized_disable
 mkdir -p ~/.kdebiglinux
 mkdir -p ~/.config/latte
 
-systemctl --user stop plasma-plasmashell
-
+if [ "$4" != "quiet" ]; then
+    systemctl --user stop plasma-plasmashell
+fi
 
 LAST_USED="$(cat "$HOME/.kdebiglinux/lastused")"
 
@@ -33,14 +34,18 @@ LAST_USED="$(cat "$HOME/.kdebiglinux/lastused")"
 # Backup config
 if [ "$LAST_USED" != "" ]; then
     mkdir -p "$HOME/.kdebiglinux/$LAST_USED"
+    #Clean latte
+    rm -Rf "$HOME/.kdebiglinux/$LAST_USED/latte"
     #Move config to use later
     for i in "${kde[@]}"; do
         cp -Rf "$HOME/.config/$i" "$HOME/.kdebiglinux/$LAST_USED"
     done
 fi
 
+
 # Clean
 if [ "$3" = "clean" ] && [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
+    chmod 644 ~/.config/latte/*.latte
     rm -Rf "$HOME/.kdebiglinux/$2"
 fi
 
@@ -53,6 +58,9 @@ if [ -e "$HOME/.kdebiglinux/$2" ]; then
     rm -f "$HOME/.config/kwin_left"
     #Fix kwin maximized
     rm -f "$HOME/.config/kwin_maximized_disable"
+    #Clean latte
+    rm -Rf "$HOME/.config/latte"
+
     #Move config to use now
     for i in "${kde[@]}"; do
         cp -Rf "$HOME/.kdebiglinux/$2/$i" "/$HOME/.config/$i"
@@ -103,21 +111,34 @@ else
     sed -i '/BorderlessMaximizedWindows=true/d' ~/.config/kwinrc
 fi
 
-
-qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
-
-systemctl --user start plasma-plasmashell
-
 # Change lattedock autostart mode
 rm -f ~/.config/autostart/org.kde.latte-dock.desktop
-if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
-    qdbus org.kde.lattedock /Latte org.kde.LatteDock.switchToLayout /home/bruno/.config/latte/Default.layout.latte
-    systemctl --user start lattedock
-else
-    systemctl --user stop lattedock
-    qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
+    
+if [ "$4" != "quiet" ]; then
+    qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
+    systemctl --user start plasma-plasmashell
+
+    if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
+        qdbus org.kde.lattedock /Latte org.kde.LatteDock.switchToLayout /home/bruno/.config/latte/Default.layout.latte
+        systemctl --user stop lattedock
+        systemctl --user start lattedock
+    else
+        systemctl --user stop lattedock
+        qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
+    fi
+
+    qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.gtkTheme)
+    gtk-reload.py
 fi
 
+
+if [ -e "$HOME/.config/lockplasma" ]; then
+    chmod 444 ~/.config/latte/*.latte
+    qdbus org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(true)"
+else
+    chmod 644 ~/.config/latte/*.latte
+    qdbus org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(false)"
+fi
 ;;
 
 
@@ -135,13 +156,22 @@ echo " Usage:
 --apply name-of-theme
 --clean to restart theme
 
-Example:
+Example to apply classic theme:
 
-change-plasma-theme --apply new
+change-plasma-theme --apply classic
 or
 change-plasma-theme --apply classic clean
+or
+change-plasma-theme --apply classic cleanquiet
+or
+change-plasma-theme --apply classic quiet
 
-If use clean, remove configuration in home folder and use clean configuration."
+
+If use clean, remove configuration in home folder and use clean configuration.
+
+Use quiet to change files but not instant apply
+
+Use cleanquiet to remove user configuration and clean user configuration"
 exit
 ;;
 

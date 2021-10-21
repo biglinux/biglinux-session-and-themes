@@ -48,9 +48,9 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=467
 ToolBoxButtonY=34
 arrangement=1
-iconSize=3
+iconSize=2
 labelWidth=3
-positions=1,5,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1,desktop:/bigcontrolcenter.desktop,0,2
+positions=1,7,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1,desktop:/bigcontrolcenter.desktop,0,2
 sizeIcon=3
 sortMode=-1
 textLines=3
@@ -66,4 +66,4 @@ immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/home.desktop,0,desktop:/trash.desktop,0,desktop:/calamares.desktop,0,desktop:/bigcontrolcenter.desktop,0
+screenMapping=desktop:/home.desktop,0,desktop:/trash.desktop,0,desktop:/bigcontrolcenter.desktop,0,desktop:/calamares.desktop,0
