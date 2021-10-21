@@ -23,7 +23,7 @@ Tema_translate=$"Tema dos aplicativos"
 More_themes_translate=$"Temas"
 CLOSE=$"Fechar"
 orchis=$"Bordas arredondadas."
-lightly=$"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em computadores<br>antigos ou ambientes virtualizados."
+fluent=$"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em computadores<br>antigos ou ambientes virtualizados."
 
 
 browser="$(cat "$HOME/.config/browser-optimize")"
@@ -48,6 +48,7 @@ if [ "$theme_actual" = "" ]; then
     checked_arc="checked"
 fi
 
+
 # if [ "$theme_actual" = "arc" ]; then
 #     checked_arc="checked"
 # fi
@@ -60,6 +61,25 @@ fi
 #     checked_dark="checked"
 # fi
 
+desktop_actual="$(cat ~/.kdebiglinux/lastused)"
+
+if [ "$desktop_actual" = "classic" ]; then
+    checked_desktop_classic="checked"
+fi
+
+if [ "$desktop_actual" = "kunity" ]; then
+    checked_desktop_kunity="checked"
+fi
+
+if [ "$desktop_actual" = "new" ]; then
+    checked_desktop_new="checked"
+fi
+
+if [ "$desktop_actual" = "nextg" ]; then
+    checked_desktop_nextg="checked"
+fi
+
+
 if [ "$theme_actual" = "breeze" ]; then
     checked_breeze="checked"
 fi
@@ -68,12 +88,21 @@ if [ "$theme_actual" = "breeze-dark" ]; then
     checked_breeze_dark="checked"
 fi
 
-if [ "$theme_actual" = "lightly" ]; then
-    checked_lightly="checked"
+if [ "$theme_actual" = "fluent" ]; then
+    checked_fluent="checked"
 fi
 
-if [ "$theme_actual" = "lightly-dark" ]; then
-    checked_lightly_dark="checked"
+if [ "$theme_actual" = "fluent-dark" ]; then
+    checked_fluent_dark="checked"
+fi
+
+
+if [ "$theme_actual" = "fluent-opaque" ]; then
+    checked_fluent="checked"
+fi
+
+if [ "$theme_actual" = "fluent-dark-opaque" ]; then
+    checked_fluent_dark="checked"
 fi
 
 if [ "$theme_actual" = "orchis" ]; then
@@ -107,7 +136,7 @@ if [ "$performance_actual" = "2" ]; then
     checked_performance="checked"
 fi
 
-if [ "$(kreadconfig5  --group "General" --key "immutability" --file ~/.config/plasma-org.kde.plasma.desktop-appletsrc)" = "2" ]; then
+if [ -e "$HOME/.config/lockplasma" ]; then
     checked_lock_desktop="checked"
 fi
 
@@ -536,9 +565,9 @@ CLOSE=$"Fechar"
 NORMAL=$"Essa deve ser a melhor opção de desempenho<br>
     para esse computador, mas você pode alternar<br>
     entre os modos e escolher a sua preferência.<br><br>
-    As opções Otimizado e Performance, são dedicadas<br>
-    a computadores de baixo desempenho e não melhoram o<br>
-    desempenho em computadores de maior capacidade."
+    A opção 'Otimizado' é dedicada a computadores<br>
+    de baixo desempenho e não melhora o desempenho<br>
+    em computadores de maior capacidade."
     
 TOOLTIP_OTIMIZADO=$"Reduz o uso de memória e da placa de vídeo,
       <br>com pequena redução dos recursos do sistema.<br><br>
@@ -548,10 +577,17 @@ TOOLTIP_OTIMIZADO=$"Reduz o uso de memória e da placa de vídeo,
       gráficos em tempo real, por exemplo, o uso do monitor de<br>
       processamento."
       
-TOOLTIP_PERFORMANCE=$"Essa é a opção recomendada para computadores antigos.<br><br>Aplica as configurações do modo Otimizado<br>
-      e adiciona o uso do XRender no gerênciador de janelas,<br>
-      economizando mais recursos do computador.<br>
-      Removendo a maior parte dos efeitos das janelas."
+TOOLTIP_PERFORMANCE=$"Aplica as configurações do modo
+<br>
+otimizado e não utiliza aceleração
+<br>
+OpenGL da placa de vídeo.
+<br><br>
+Essa opção é útil em computadores que a placa
+<br>
+de vídeo não suporta OpenGL, também pode ser
+<br>
+útil em virtualizações."
 
 TOOLTIP_LEFT_BUTTON=$"Utiliza os botões das bordas das janelas<br>
 no lado esquerdo."
@@ -598,109 +634,80 @@ cat << EOF
 <div id=theme>
 <h2>$Tema_translate</h2>
       <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/breeze-theme.run')" name="option" type="radio" id="breeze" value="breeze" $checked_breeze />
-      <label for="breeze" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=breeze.png>">
+      <label for="breeze" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=breeze.jpg>">
 EOF
 echo $"Breeze"
 cat << EOF
 </label>
       <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/breeze-dark-theme.run')" name="option" type="radio" id="breeze-dark" value="breeze-dark" $checked_breeze_dark />
-      <label for="breeze-dark" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=breeze-dark.png>">
+      <label for="breeze-dark" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=breeze-dark.jpg>">
 EOF
 echo $"Breeze Dark"
 echo "</label>"
 
 cat << EOF
 </label>
-      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/lightly-theme.run')" name="option" type="radio" id="lightly" value="lightly" $checked_lightly />
-      <label for="lightly" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="$lightly<br><br><img src=lightly.png>">
+      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-theme.run')" name="option" type="radio" id="fluent" value="fluent" $checked_fluent />
+      <label for="fluent" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="$fluent<br><br><img src=fluent.jpg>">
 EOF
-echo $"Lightly"
+echo $"Fluent"
 cat << EOF
 </label>
-      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/lightly-dark-theme.run')" name="option" type="radio" id="lightly-dark" value="lightly-dark" $checked_lightly_dark />
-      <label for="lightly-dark" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="$lightly<br><br><img src=lightly-dark.png>">
+      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-dark-theme.run')" name="option" type="radio" id="fluent-dark" value="fluent-dark" $checked_fluent_dark />
+      <label for="fluent-dark" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="$fluent<br><br><img src=fluent-dark.jpg>">
 EOF
-echo $"Lightly Dark"
+echo $"Fluent Dark"
+cat << EOF
+</label>
+      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-opaque-theme.run')" name="option" type="radio" id="fluent-opaque" value="fluent-opaque" $checked_fluent-opaque />
+      <label for="fluent-opaque" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=fluent-opaque.jpg>">
+EOF
+echo $"Fluent Opaque"
+cat << EOF
+</label>
+      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-dark-opaque-theme.run')" name="option" type="radio" id="fluent-dark-opaque" value="fluent-dark-opaque" $checked_fluent_dark />
+      <label for="fluent-dark-opaque" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=fluent-dark-opaque.jpg>">
+EOF
+echo $"Fluent Dark Opaque"
+
 
 cat << EOF
 </label>
       <input onclick="_run('./materia-theme.run')" name="option" type="radio" id="materia" value="materia" $checked_materia />
-      <label for="materia" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=materia.png>">
+      <label for="materia" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=materia.jpg>">
 EOF
 echo $"Materia"
 cat << EOF
 </label>
       <input onclick="_run('./materia-dark-theme.run')" name="option" type="radio" id="materia-dark" value="materia-dark" $checked_materia_dark />
-      <label for="materia-dark" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=materia-dark.png>">
+      <label for="materia-dark" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=materia-dark.jpg>">
 EOF
 echo $"Materia Dark"
-
-cat << EOF
-</label>
-      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/orchis-theme.run')" name="option" type="radio" id="orchis" value="orchis" $checked_orchis />
-      <label for="orchis" class="tooltipped with-gap" data-position="right" data-delay="50" data-tooltip="$orchis<br><br><img src=orchis.png>">
-EOF
-      echo $"Orchis"
-cat << EOF
-</label>
-      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/orchis-dark-theme.run')" name="option" type="radio" id="orchis-dark" value="orchis-dark" $checked_orchis_dark />
-      <label for="orchis-dark" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="$orchis<br><br><img src=orchis-dark.png>">
-EOF
-echo $"Orchis Dark" '</label>'
 
 echo '</div>'
 
 
-# MORE THEMES
 
 cat << EOF
-<div id=contentbig>
-<div id=theme>
-<h2>$More_themes_translate</h2>
-
-EOF
-
-
-echo '<a class="waves-effect waves-light btn-large"' "onclick=\"_run('./run.run kcmshell5 kcm_desktoptheme')\">" $"Área de trabalho" '</a>'
-
-echo '<a class="waves-effect waves-light btn-large"' "onclick=\"_run('./run.run kcmshell5 kcm_colors')\">" $"Cores" '</a>'
-
-echo '<a class="waves-effect waves-light btn-large"' "onclick=\"_run('./run.run kcmshell5 kcm_kwin_effects kwincompositing')\">" $"Efeitos" '</a>'
-
-echo '<a class="waves-effect waves-light btn-large"' "onclick=\"_run('./run.run kcmshell5 kcm_fonts')\">" $"Fontes" '</a>'
-
-echo '<a class="waves-effect waves-light btn-large"' "onclick=\"_run('./run.run kcmshell5 kcm_icons')\">" $"Ícones" '</a>'
-
-echo '<a class="waves-effect waves-light btn-large"' "onclick=\"_run('./run.run kcmshell5 kcm_cursortheme')\">" $"Mouse" '</a>'
-
-
-
-
-
-
-
-
-cat << EOF
-</div>
 <div id=performancebase>
 <div id=performance>
 <h2>$Desempenho_translate</h2>
       <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/normal.run')" name="option2" type="radio" id="normal" value="normal" $checked_normal>
-      <label for="normal" class="tooltipped with-gap" data-position="left" data-delay="50" data-tooltip="<br>$NORMAL<br><br>">
+      <label for="normal" class="tooltipped with-gap" data-position="bottom" data-delay="50" data-tooltip="<br>$NORMAL<br><br>">
 EOF
       echo $"Normal"
 cat << EOF
 </label>
       <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/optimized.run')" name="option2" type="radio" id="optimized" value="optimized" $checked_optimized>
-      <label for="optimized" class="tooltipped with-gap" data-position="left" data-delay="50" data-tooltip="<br>$TOOLTIP_OTIMIZADO<br><br>">
+      <label for="optimized" class="tooltipped with-gap" data-position="bottom" data-delay="50" data-tooltip="<br>$TOOLTIP_OTIMIZADO<br><br>">
 EOF
 echo $"Otimizado"
 cat << EOF
 </label>
       <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/performance.run')" name="option2" type="radio" id="performance2" value="performance2" $checked_performance>
-      <label for="performance2" class="tooltipped with-gap" data-position="left" data-delay="50" data-tooltip="<br>$TOOLTIP_PERFORMANCE<br><br>">
+      <label for="performance2" class="tooltipped with-gap" data-position="bottom" data-delay="50" data-tooltip="<br>$TOOLTIP_PERFORMANCE<br><br>">
 EOF
-echo $"Performance"
+echo $"Compatibilidade"
 echo '</label>'
 
 echo '<div id=brave>' '<a class="waves-effect waves-light btn modal-trigger" href="#modal2">' $"Configurações de Preload" '</a>' '</div>'
@@ -711,23 +718,96 @@ cat << EOF
 <div id=performance>
 <h2>$Browser_translate</h2>
       <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/browser-auto.run')" name="browser" type="radio" id="browser_auto" value="browser_auto" $checked_browser_auto>
-      <label for="browser_auto" class="tooltipped with-gap" data-position="left" data-delay="50" data-tooltip="<br>$BROWSER_AUTO<br><br>$BROWSER_LIST<br><br>">
+      <label for="browser_auto" class="tooltipped with-gap" data-position="top" data-delay="50" data-tooltip="<br>$BROWSER_AUTO<br><br>$BROWSER_LIST<br><br>">
 EOF
       echo $"Automática"
 cat << EOF
 </label>
       <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/browser-yes.run')" name="browser" type="radio" id="browser_yes" value="browser_yes" $checked_browser_yes>
-      <label for="browser_yes" class="tooltipped with-gap" data-position="left" data-delay="50" data-tooltip="<br>$BROWSER_YES<br><br>$BROWSER_LIST<br><br>">
+      <label for="browser_yes" class="tooltipped with-gap" data-position="top" data-delay="50" data-tooltip="<br>$BROWSER_YES<br><br>$BROWSER_LIST<br><br>">
 EOF
 echo $"Ativar"
 cat << EOF
 </label>
       <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/browser-no.run')" name="browser" type="radio" id="browser_no" value="browser_no" $checked_browser_no>
-      <label for="browser_no" class="tooltipped with-gap" data-position="left" data-delay="50" data-tooltip="<br>$BROWSER_NO<br><br>$BROWSER_LIST<br><br>">
+      <label for="browser_no" class="tooltipped with-gap" data-position="top" data-delay="50" data-tooltip="<br>$BROWSER_NO<br><br>$BROWSER_LIST<br><br>">
 EOF
 echo $"Desativar"
 echo '</label>'
 echo '<div id=brave>' '<a class="waves-effect waves-light btn modal-trigger" href="#modal1">' $"Configurações do Brave" '</a>' '</div></div></div>'
+
+
+CLOSE_BROWSER=$"<br><br>* Antes de executar essa ação, recomendo que
+<br>
+feche os navegadores de internet."
+
+# MORE THEMES
+Desktop_style=$"Área de trabalho"
+
+DESKTOP_CLASSIC=$"Desktop tradicional, seguindo a mesma usabilidade
+<br>
+que o BigLinux utilizou ao longo dos anos.
+<br><br>
+Esta é a configuração de desktop mais leve."
+
+DESKTOP_NEW=$"Desktop com barra de ferramentas apenas com ícones
+<br>
+e que remete um pouco a usabilidade dos smartphones.
+<br><br>
+Esta configuração é a segunda mais leve."
+
+DESKTOP_KUNITY=$"Desktop com barra de ferramentas na lateral esquerda e
+<br>
+remete à forma de uso do desktop Unity.
+<br><br>
+Esta configuração utiliza a latte-dock para adicionar recursos,
+<br>
+isto faz o ambiente consumir um pouco mais de memória e processamento."
+
+DESKTOP_NEXTG=$"Desktop com uma dock na parte de baixo da tela e
+<br>
+remete à forma de uso do desktop Gnome.
+<br><br>
+Esta configuração utiliza a latte-dock para adicionar recursos,
+<br>
+isto faz o ambiente consumir um pouco mais de memória e processamento."
+
+cat << EOF
+<div id=contentbig>
+<div id=theme>
+<h2>$Desktop_style</h2>
+      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop_config.run classic')" name="option3" type="radio" id="desktop_classic" value="desktop_classic" $checked_desktop_classic>
+      <label for="desktop_classic" class="tooltipped with-gap" data-position="left" data-delay="50" data-tooltip="<br>${DESKTOP_CLASSIC}${CLOSE_BROWSER}<br><br><img src=desktop_classic.jpg width=500><br>">
+EOF
+      echo "Classic"
+cat << EOF
+</label>
+      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop_config.run new')" name="option3" type="radio" id="desktop_new" value="desktop_new" $checked_desktop_new>
+      <label for="desktop_new" class="tooltipped with-gap" data-position="left" data-delay="50" data-tooltip="<br>${DESKTOP_NEW}${CLOSE_BROWSER}<br><br><img src=desktop_new.jpg width=500><br>">
+EOF
+echo "New"
+cat << EOF
+</label>
+      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop_config.run kunity')" name="option3" type="radio" id="desktop_kunity" value="desktop_kunity" $checked_desktop_kunity>
+      <label for="desktop_kunity" class="tooltipped with-gap" data-position="left" data-delay="50" data-tooltip="<br>${DESKTOP_KUNITY}${CLOSE_BROWSER}<br><br><img src=desktop_kunity.jpg width=500><br>">
+EOF
+echo $"K-unity"
+cat << EOF
+</label>
+      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop_config.run nextg')" name="option3" type="radio" id="desktop_nextg" value="desktop_nextg" $checked_desktop_nextg>
+      <label for="desktop_nextg" class="tooltipped with-gap" data-position="left" data-delay="50" data-tooltip="<br>${DESKTOP_NEXTG}${CLOSE_BROWSER}<br><br><img src=desktop_nextg.jpg width=500><br>">
+EOF
+echo $"Next-G"
+echo '</label>'
+
+
+echo '</label>'
+
+
+echo '</div>'
+
+
+
 
 button_text=$"Botões da janela no lado esquerdo"
 cat << EOF
