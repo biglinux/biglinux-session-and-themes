@@ -110,7 +110,9 @@ export KWIN_EFFECTS_FORCE_ANIMATIONS=1
 export MULTIKDE=$nowlogin
 
 # Change way to autostart latte
-rm -r "$HOME/.config/autostart/org.kde.latte-dock.desktop"
+chmod 000 "$HOME/.config/autostart/org.kde.latte-dock.desktop"
+
+
 
 if [ -e "$HOME/.config/kdelight" ]; then
     QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic exec startplasma-x11

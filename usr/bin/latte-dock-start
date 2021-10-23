@@ -1,8 +1,12 @@
 #!/bin/bash
 
-ENABLE_LATTE="$(cat ~/.config/enable_latte)"
 
-rm -f ~/.config/autostart/org.kde.latte-dock.desktop
+ENABLE_LATTE="$(cat ~/.config/enable_latte)"
+if [ "$ENABLE_LATTE" != "1" ]; then
+    systemctl --user stop lattedock
+    exit
+fi
+
 
 if [ "$(qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.isShuttingDown)" = "false" ]; then
 
@@ -11,13 +15,12 @@ if [ "$(qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.isShutting
             qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
             QT_QUICK_BACKEND=software latte-dock 
         fi
-else
+    else
         if [ "$ENABLE_LATTE" = "1" ]; then
             qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
             QT_QUICK_BACKEND="" QSG_RENDER_LOOP="" latte-dock
         fi
     fi
-
 fi
 
 sleep 1

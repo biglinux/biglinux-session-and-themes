@@ -113,13 +113,13 @@ fi
 
 # Change lattedock autostart mode
 rm -f ~/.config/autostart/org.kde.latte-dock.desktop
-    
+
 if [ "$4" != "quiet" ]; then
     qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
     systemctl --user start plasma-plasmashell
 
     if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
-        qdbus org.kde.lattedock /Latte org.kde.LatteDock.switchToLayout /home/bruno/.config/latte/Default.layout.latte
+        qdbus org.kde.lattedock /Latte org.kde.LatteDock.switchToLayout "$HOME/.config/latte/Default.layout.latte"
         systemctl --user stop lattedock
         systemctl --user start lattedock
     else
