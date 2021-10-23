@@ -1,0 +1,10 @@
+[Trigger]
+Type = Path
+Operation = Remove
+Target = usr/bin/lattedock
+
+[Action]
+Description = Change lattedock folder
+When = PostTransaction
+Exec = /bin/sh -c 'rm -f /usr/local/bin/latte-dock'
+
