@@ -1,7 +1,7 @@
 [Trigger]
 Type = Path
 Operation = Remove
-Target = usr/bin/lattedock
+Target = usr/bin/latte-dock
 
 [Action]
 Description = Change lattedock folder
