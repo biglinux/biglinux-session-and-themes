@@ -83,6 +83,36 @@ case "$1" in
 		fi
 
 
+
+        if [ "$(cat "$HOME/.config/kwin_left")" = "1" ]; then
+            kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
+            kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
+            kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
+        else
+            kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
+            kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
+            kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
+        fi
+
+
+
+        # Disable kwin border in maximized windows
+        if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
+            #Chromium Brave Chrome
+            sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
+            #Firefox
+            sed -i 's|user_pref("browser.tabs.drawInTitlebar", true);|user_pref("browser.tabs.drawInTitlebar", false);|g' ~/.mozilla/firefox/*.default/prefs.js
+            #Kwin
+            kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows true
+        else
+            #Chromium Brave Chrome
+            sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
+            #Firefox
+            sed -i 's|user_pref("browser.tabs.drawInTitlebar", false);|user_pref("browser.tabs.drawInTitlebar", true);|g' ~/.mozilla/firefox/*.default/prefs.js
+            #Kwin
+            kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
+        fi
+
         #Change blur in real machine
         if [ "$(systemd-detect-virt)" = "none" ]
 		then

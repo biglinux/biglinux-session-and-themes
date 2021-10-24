@@ -81,18 +81,6 @@ url=file:///usr/share/applications/brave-browser.desktop
 immutability=1
 plugin=com.github.zren.presentwindows
 
-[Containments][2][Applets][35]
-immutability=1
-plugin=com.github.zren.presentwindows
-
-[Containments][2][Applets][35][Configuration][ConfigDialog]
-DialogHeight=620
-DialogWidth=800
-
-[Containments][2][Applets][35][Configuration][General]
-clickCommand=ShowDesktopGrid
-icon=virtual-desktops
-
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.taskmanager
@@ -140,7 +128,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=19;30;20;25;5;35;34;6;8
+AppletOrder=19;30;20;25;5;34;6;8
 
 [Containments][27]
 ItemGeometries-1920x940=

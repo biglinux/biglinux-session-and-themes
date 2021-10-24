@@ -325,6 +325,7 @@ DialogHeight=620
 DialogWidth=800
 
 [Containments][19][Applets][138][Configuration][General]
+buttonSizePercentage=60
 buttons=3|4|5|10|2|9
 containmentType=Latte
 visibility=ActiveMaximizedWindow
@@ -335,22 +336,6 @@ plugin=com.github.zren.presentwindows
 
 [Containments][19][Applets][140][Configuration]
 PreloadWeight=42
-
-[Containments][19][Applets][141]
-immutability=1
-plugin=com.github.zren.presentwindows
-
-[Containments][19][Applets][141][Configuration]
-PreloadWeight=42
-
-[Containments][19][Applets][141][Configuration][ConfigDialog]
-DialogHeight=620
-DialogWidth=800
-
-[Containments][19][Applets][141][Configuration][General]
-clickCommand=ShowDesktopGrid
-icon=virtual-desktops
-useUnityTheme=2
 
 [Containments][19][Applets][142]
 immutability=1
@@ -409,11 +394,12 @@ PreloadWeight=0
 advanced=true
 alignment=10
 alignmentUpgraded=true
-appletOrder=142;144;143;136;116;141;140;114;113;138
+appletOrder=142;144;143;136;116;140;114;113;138
 appletShadowsEnabled=false
 autoDecreaseIconSize=false
 autoSizeEnabled=false
 blurEnabled=false
+disablePanelShadowForMaximized=true
 dragActiveWindowEnabled=true
 floatingInternalGapIsForced=false
 iconSize=28
@@ -428,6 +414,7 @@ screenEdgeMargin=0
 shadowOpacity=25
 shadows=None
 shadowsUpgraded=true
+solidBackgroundForMaximized=true
 splitterPosition=5
 splitterPosition2=6
 taskScrollAction=ScrollNone

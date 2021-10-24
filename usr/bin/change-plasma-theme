@@ -111,8 +111,6 @@ else
     sed -i '/BorderlessMaximizedWindows=true/d' ~/.config/kwinrc
 fi
 
-# Change lattedock autostart mode
-rm -f ~/.config/autostart/org.kde.latte-dock.desktop
 
 if [ "$4" != "quiet" ]; then
     qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
