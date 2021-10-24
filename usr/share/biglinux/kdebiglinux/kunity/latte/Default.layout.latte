@@ -21,7 +21,7 @@ raiseOnDesktopChange=false
 settingsComplexity=4
 timerHide=700
 timerShow=200
-viewType=1
+viewType=0
 visibility=0
 wallpaperplugin=org.kde.image
 
@@ -30,7 +30,7 @@ immutability=1
 plugin=org.biglinux.appsmenu
 
 [Containments][13][Applets][134][Configuration]
-PreloadWeight=100
+PreloadWeight=97
 
 [Containments][13][Applets][134][Configuration][ConfigDialog]
 DialogHeight=620
@@ -45,7 +45,7 @@ immutability=1
 plugin=org.kde.plasma.trash
 
 [Containments][13][Applets][139][Configuration]
-PreloadWeight=42
+PreloadWeight=26
 
 [Containments][13][Applets][53]
 immutability=1
@@ -85,9 +85,9 @@ advanced=true
 alignment=10
 alignmentUpgraded=true
 appletOrder=134;54;139;53
-appletShadowsEnabled=false
 autoDecreaseIconSize=false
 autoSizeEnabled=false
+backgroundShadowSize=4
 blurEnabled=false
 configurationSticker=true
 dragActiveWindowEnabled=true
@@ -101,9 +101,11 @@ panelSize=100
 panelTransparency=70
 plasmaBackgroundForPopups=true
 screenEdgeMargin=0
-shadowOpacity=25
+shadowOpacity=50
+shadowSize=50
 shadows=None
 shadowsUpgraded=true
+solidBackgroundForMaximized=true
 splitterPosition=5
 splitterPosition2=6
 taskScrollAction=ScrollNone
@@ -139,6 +141,9 @@ wallpaperplugin=org.kde.image
 [Containments][17][Applets][143]
 immutability=1
 plugin=org.kde.kscreen
+
+[Containments][17][Applets][143][Configuration]
+PreloadWeight=34
 
 [Containments][17][Applets][88]
 immutability=1
@@ -279,7 +284,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][19][Applets][113][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][19][Applets][113][Configuration][Appearance]
 showDate=false
@@ -293,7 +298,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][19][Applets][114][Configuration]
-PreloadWeight=64
+PreloadWeight=48
 SystrayContainmentId=17
 
 [Containments][19][Applets][116]
@@ -308,7 +313,7 @@ immutability=1
 plugin=org.kde.windowappmenu
 
 [Containments][19][Applets][136][Configuration]
-PreloadWeight=42
+PreloadWeight=26
 
 [Containments][19][Applets][136][Configuration][ConfigDialog]
 DialogHeight=620
@@ -326,7 +331,7 @@ immutability=1
 plugin=org.kde.windowbuttons
 
 [Containments][19][Applets][138][Configuration]
-PreloadWeight=42
+PreloadWeight=26
 
 [Containments][19][Applets][138][Configuration][ConfigDialog]
 DialogHeight=620
@@ -342,26 +347,22 @@ visibility=ActiveMaximizedWindow
 immutability=1
 plugin=com.github.zren.presentwindows
 
-[Containments][19][Applets][141]
-immutability=1
-plugin=com.github.zren.presentwindows
-
-[Containments][19][Applets][141][Configuration][ConfigDialog]
-DialogHeight=620
-DialogWidth=800
-
-[Containments][19][Applets][141][Configuration][General]
-clickCommand=ShowDesktopGrid
-icon=virtual-desktops
-useUnityTheme=2
+[Containments][19][Applets][140][Configuration]
+PreloadWeight=34
 
 [Containments][19][Applets][144]
 immutability=1
 plugin=org.kde.plasma.win7showdesktop
 
+[Containments][19][Applets][144][Configuration]
+PreloadWeight=34
+
 [Containments][19][Applets][146]
 immutability=1
 plugin=org.kde.plasma.virtualdesktopbar
+
+[Containments][19][Applets][146][Configuration]
+PreloadWeight=34
 
 [Containments][19][Applets][146][Configuration][ConfigDialog]
 DialogHeight=620
@@ -380,6 +381,9 @@ MouseWheelWrapDesktopNavigationWhenScrolling=true
 [Containments][19][Applets][147]
 immutability=1
 plugin=org.kde.windowtitle
+
+[Containments][19][Applets][147][Configuration]
+PreloadWeight=34
 
 [Containments][19][Applets][147][Configuration][ConfigDialog]
 DialogHeight=620
@@ -401,7 +405,7 @@ PreloadWeight=0
 advanced=true
 alignment=10
 alignmentUpgraded=true
-appletOrder=138;147;146;136;116;141;140;114;113;144
+appletOrder=138;147;146;136;116;140;114;113;144
 appletShadowsEnabled=false
 autoDecreaseIconSize=false
 autoSizeEnabled=false
@@ -420,6 +424,7 @@ screenEdgeMargin=0
 shadowOpacity=25
 shadows=None
 shadowsUpgraded=true
+solidBackgroundForMaximized=true
 splitterPosition=5
 splitterPosition2=6
 taskScrollAction=ScrollNone
