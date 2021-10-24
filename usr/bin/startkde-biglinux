@@ -7,6 +7,9 @@ if [ "$(lspci | grep -i vga | grep -i vmware)" != "" ]; then
 fi
 # Virtualization fix close
 
+if [ ! -e "$HOME/.kdebiglinux/lastlogin" ]; then
+    change-plasma-theme --apply $(cut -f2 -d" " /etc/big_desktop_changed) quiet
+fi
 
 
 nowlogin="$(cat "$HOME/.kdebiglinux/lastused")"
