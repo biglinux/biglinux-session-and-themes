@@ -10,7 +10,7 @@ fi
 
 windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
 
-if [ -e "$HOME/.kdebiglinux/$2" ]; then
+if [ -e "$HOME/.kdebiglinux/$1" ]; then
 
     kdialog --attach="$windowID" --title "Restaurar configuração" --yesno $"
 A configuração de desktop selecionada já foi utilizada nesse sistema,

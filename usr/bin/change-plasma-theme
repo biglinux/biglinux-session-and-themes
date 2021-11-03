@@ -113,18 +113,20 @@ fi
 
 
 if [ "$4" != "quiet" ]; then
-    qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
     systemctl --user start plasma-plasmashell
 
     if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
         qdbus org.kde.lattedock /Latte org.kde.LatteDock.switchToLayout "$HOME/.config/latte/Default.layout.latte"
+        kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key "Meta" "org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu"
         systemctl --user stop lattedock
         systemctl --user start lattedock
     else
         systemctl --user stop lattedock
         qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
+        kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key "Meta" "org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu"
     fi
 
+    qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
     qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.gtkTheme)
     gtk-reload.py
 fi

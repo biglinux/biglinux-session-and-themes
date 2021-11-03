@@ -1,6 +1,3 @@
-[KFileDialog Settings]
-Recent Files[$e]=
-
 [PlasmaRunnerManager]
 LaunchCounts=5 services_org.kde.konsole.desktop,1 services_org.kde.kfind.desktop
 pluginWhiteList=services,desktopsessions,PowerDevil,shell,bookmarks,baloosearch,locations

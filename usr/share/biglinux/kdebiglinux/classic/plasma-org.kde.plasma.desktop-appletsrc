@@ -14,7 +14,6 @@ _wallpaper=true
 add widgets=false
 configure=true
 configure shortcuts=false
-edit mode=true
 lock widgets=true
 manage activities=false
 remove=true
@@ -32,23 +31,23 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][2][Applets][19]
+[Containments][2][Applets][31]
 immutability=1
 plugin=org.kde.plasma.kicker
 
-[Containments][2][Applets][19][Configuration]
-PreloadWeight=100
+[Containments][2][Applets][31][Configuration]
+PreloadWeight=15
 
-[Containments][2][Applets][19][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+[Containments][2][Applets][31][Configuration][ConfigDialog]
+DialogHeight=620
+DialogWidth=800
 
-[Containments][2][Applets][19][Configuration][General]
+[Containments][2][Applets][31][Configuration][General]
 customButtonImage=/usr/share/pixmaps/biglinux.png
 favoritesPortedToKAstats=true
 useCustomButtonImage=true
 
-[Containments][2][Applets][19][Shortcuts]
+[Containments][2][Applets][31][Shortcuts]
 global=Alt+F1
 
 [Containments][2][Applets][20]
@@ -128,7 +127,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=19;30;20;25;5;34;6;8
+AppletOrder=31;30;20;25;5;34;6;8
 
 [Containments][27]
 ItemGeometries-1920x940=
