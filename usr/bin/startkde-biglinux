@@ -111,6 +111,7 @@ done
 
 export KWIN_EFFECTS_FORCE_ANIMATIONS=1
 export MULTIKDE=$nowlogin
+export GDK_BACKEND=x11
 
 # Change way to autostart latte
 #rm -f ~/.config/autostart/org.kde.latte-dock.desktop
