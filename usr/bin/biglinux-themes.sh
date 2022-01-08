@@ -105,14 +105,14 @@ case "$1" in
             #Chromium Brave Chrome
             sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
             #Firefox
-            sed -i 's|user_pref("browser.tabs.InTitlebar", true);|user_pref("browser.tabs.InTitlebar", false);|g' ~/.mozilla/firefox/*.default/prefs.js
+            sed -i 's|user_pref("browser.tabs.InTitlebar", 1);|user_pref("browser.tabs.InTitlebar", 0);|g' ~/.mozilla/firefox/*.default/prefs.js
             #Kwin
             kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows true
         else
             #Chromium Brave Chrome
             sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
             #Firefox
-            sed -i 's|user_pref("browser.tabs.InTitlebar", false);|user_pref("browser.tabs.InTitlebar", true);|g' ~/.mozilla/firefox/*.default/prefs.js
+            sed -i 's|user_pref("browser.tabs.InTitlebar", 0);|user_pref("browser.tabs.InTitlebar", 1);|g' ~/.mozilla/firefox/*.default/prefs.js
             #Kwin
             kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
         fi
