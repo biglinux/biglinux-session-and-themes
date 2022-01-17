@@ -64,6 +64,7 @@ WindowSnapZone=10
 Placement=Centered
 
 [org.kde.kdecoration2]
+BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=MSF
 ButtonsOnRight=HIAX

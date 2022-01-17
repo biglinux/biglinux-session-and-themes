@@ -19,6 +19,7 @@ lattedockrc
 latte
 kwin_left
 kwin_maximized_disable
+classikrc
 )
 
 mkdir -p ~/.kdebiglinux

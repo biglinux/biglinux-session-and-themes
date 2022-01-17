@@ -1,0 +1,9 @@
+[Common]
+ButtonIconStyle=StyleRedmond
+ButtonShape=ShapeSmallCircle
+
+[Windeco]
+ButtonSpacingLeft=3
+ButtonSpacingRight=3
+IconSize=IconSmall
+TitlebarSideMargins=3
