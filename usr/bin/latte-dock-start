@@ -7,8 +7,8 @@ if [ "$ENABLE_LATTE" != "1" ]; then
     exit
 fi
 
-# Change sistray applet
-if [ ! -e "$HOME/.local/share/plasma/plasmoids" ]; then
+# Change systray applet
+if [ ! -e "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
 
     if [ -e "/usr/share/latte/org.kde.plasma.systemtray" ]; then
         mkdir -p ~/.local/share/plasma/plasmoids
