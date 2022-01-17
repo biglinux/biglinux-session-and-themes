@@ -116,6 +116,13 @@ export GDK_BACKEND=x11
 # Change way to autostart latte
 #rm -f ~/.config/autostart/org.kde.latte-dock.desktop
 
+# Remove link to sistray tweaks to latte
+if [ -L "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
+  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray"
+  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray"
+fi
+
+
 if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
     systemctl --user start lattedock
 fi

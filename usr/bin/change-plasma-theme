@@ -49,6 +49,12 @@ if [ "$3" = "clean" ] && [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
     rm -Rf "$HOME/.kdebiglinux/$2"
 fi
 
+# Remove link to sistray tweaks to latte
+if [ -L "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
+  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray"
+  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray"
+fi
+
 # Apply config
 if [ -e "$HOME/.kdebiglinux/$2" ]; then
 
