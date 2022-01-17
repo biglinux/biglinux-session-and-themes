@@ -9,3 +9,4 @@ ButtonSpacingLeft=3
 ButtonSpacingRight=3
 IconSize=IconSmall
 TitlebarSideMargins=3
+thinWindowOutlineStyle=WindowOutlineBlendToShadow
