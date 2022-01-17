@@ -64,5 +64,5 @@ BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=MSF
 ButtonsOnRight=HIAX
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Fluent-round-light
+library=org.kde.classik
+theme=ClassiK
