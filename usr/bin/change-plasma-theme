@@ -19,6 +19,7 @@ lattedockrc
 latte
 kwin_left
 kwin_maximized_disable
+classikrc
 )
 
 mkdir -p ~/.kdebiglinux
@@ -47,6 +48,12 @@ fi
 if [ "$3" = "clean" ] && [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
     chmod 644 ~/.config/latte/*.latte
     rm -Rf "$HOME/.kdebiglinux/$2"
+fi
+
+# Remove link to sistray tweaks to latte
+if [ -L "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
+  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray"
+  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray"
 fi
 
 # Apply config
@@ -99,14 +106,14 @@ if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
     #Chromium Brave Chrome
     sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
     #Firefox
-    sed -i 's|user_pref("browser.tabs.drawInTitlebar", true);|user_pref("browser.tabs.drawInTitlebar", false);|g' ~/.mozilla/firefox/*.default/prefs.js
+    sed -i 's|user_pref("browser.tabs.InTitlebar", 1);|user_pref("browser.tabs.InTitlebar", 0);|g' ~/.mozilla/firefox/*.default/prefs.js
     #Kwin
     sed -i '/BorderlessMaximizedWindows=false/d' ~/.config/kwinrc
 else
     #Chromium Brave Chrome
     sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
     #Firefox
-    sed -i 's|user_pref("browser.tabs.drawInTitlebar", false);|user_pref("browser.tabs.drawInTitlebar", true);|g' ~/.mozilla/firefox/*.default/prefs.js
+    sed -i 's|user_pref("browser.tabs.InTitlebar", 0);|user_pref("browser.tabs.InTitlebar", 1);|g' ~/.mozilla/firefox/*.default/prefs.js
     #Kwin
     sed -i '/BorderlessMaximizedWindows=true/d' ~/.config/kwinrc
 fi

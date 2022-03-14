@@ -53,14 +53,18 @@ case "$1" in
         fi
 
         if [ "$performance_actual" = "2" ]; then
-            # Animation 0
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key AnimationSpeed 2
-            kwriteconfig5 --file ~/.config/kdeglobals --group KDE --key AnimationDurationFactor 0.25
+            # Animation 2
+            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key AnimationSpeed 1
+            kwriteconfig5 --file ~/.config/kdeglobals --group KDE --key AnimationDurationFactor 0.5
             kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Blinking true
             kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Bouncing false
 
-            # XRender
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Backend XRender
+            # Composition on
+            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Enabled true
+
+            # Opengl 2
+            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key GLCore false
+            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Backend OpenGL
         fi
 
         echo "$2" > "$HOME/.big_desktop_theme"
@@ -101,14 +105,14 @@ case "$1" in
             #Chromium Brave Chrome
             sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
             #Firefox
-            sed -i 's|user_pref("browser.tabs.drawInTitlebar", true);|user_pref("browser.tabs.drawInTitlebar", false);|g' ~/.mozilla/firefox/*.default/prefs.js
+            sed -i 's|user_pref("browser.tabs.InTitlebar", 1);|user_pref("browser.tabs.InTitlebar", 0);|g' ~/.mozilla/firefox/*.default/prefs.js
             #Kwin
             kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows true
         else
             #Chromium Brave Chrome
             sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
             #Firefox
-            sed -i 's|user_pref("browser.tabs.drawInTitlebar", false);|user_pref("browser.tabs.drawInTitlebar", true);|g' ~/.mozilla/firefox/*.default/prefs.js
+            sed -i 's|user_pref("browser.tabs.InTitlebar", 0);|user_pref("browser.tabs.InTitlebar", 1);|g' ~/.mozilla/firefox/*.default/prefs.js
             #Kwin
             kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
         fi

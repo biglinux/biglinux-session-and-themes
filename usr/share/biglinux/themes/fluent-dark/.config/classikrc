@@ -1,0 +1,12 @@
+[Common]
+ActiveTitlebarOpacity=75
+ButtonIconStyle=StyleRedmond
+ButtonShape=ShapeSmallCircle
+InactiveTitlebarOpacity=75
+
+[Windeco]
+ButtonSpacingLeft=3
+ButtonSpacingRight=3
+IconSize=IconSmall
+TitlebarSideMargins=3
+thinWindowOutlineStyle=WindowOutlineBlendToShadow

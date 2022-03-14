@@ -27,7 +27,7 @@ if [ "$1" != "quiet" ]; then
     #systemctl --user restart plasma-plasmashell
 
     # Apply
-    qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
+    systemctl --user restart plasma-kwin_x11
 
     kdialog  --attach="$windowID" --msgbox $"Desempenho em modo normal!" &
     

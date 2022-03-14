@@ -34,14 +34,14 @@ feh --bg-fill "/tmp/bigksplash.jpg" &
 if [ "$nowlogin" != "$lastlogin" ]; then
     if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
         sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
-        sed -i 's|user_pref("browser.tabs.drawInTitlebar", true);|user_pref("browser.tabs.drawInTitlebar", false);|g' ~/.mozilla/firefox/*.default/prefs.js
+        sed -i 's|user_pref("browser.tabs.InTitlebar", 1);|user_pref("browser.tabs.InTitlebar", 0);|g' ~/.mozilla/firefox/*.default/prefs.js
         #Kwin
         sed -i '/BorderlessMaximizedWindows=false/d' ~/.config/kwinrc
     else
         #Chromium Brave Chrome
         sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
         #Firefox
-        sed -i 's|user_pref("browser.tabs.drawInTitlebar", false);|user_pref("browser.tabs.drawInTitlebar", true);|g' ~/.mozilla/firefox/*.default/prefs.js
+        sed -i 's|user_pref("browser.tabs.InTitlebar", 0);|user_pref("browser.tabs.InTitlebar", 1);|g' ~/.mozilla/firefox/*.default/prefs.js
         #Menubar to kde apps
         sed -i '/MenuBar=Disabled/d' ~/.config/okularrc
         #Kwin
@@ -115,6 +115,13 @@ export GDK_BACKEND=x11
 
 # Change way to autostart latte
 #rm -f ~/.config/autostart/org.kde.latte-dock.desktop
+
+# Remove link to sistray tweaks to latte
+if [ -L "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
+  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray"
+  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray"
+fi
+
 
 if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
     systemctl --user start lattedock

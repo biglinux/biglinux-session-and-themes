@@ -63,8 +63,9 @@ WindowSnapZone=10
 Placement=Centered
 
 [org.kde.kdecoration2]
+BorderSize=NoSides
 BorderSizeAuto=false
 ButtonsOnLeft=MSF
 ButtonsOnRight=HIAX
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Fluent-round-light-opaque
+library=org.kde.classik
+theme=ClassiK

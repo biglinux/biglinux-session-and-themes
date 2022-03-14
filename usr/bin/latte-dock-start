@@ -7,6 +7,16 @@ if [ "$ENABLE_LATTE" != "1" ]; then
     exit
 fi
 
+# Change systray applet
+if [ ! -e "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
+
+    if [ -e "/usr/share/latte/org.kde.plasma.systemtray" ]; then
+        mkdir -p ~/.local/share/plasma/plasmoids
+        ln -s /usr/share/latte/org.kde.plasma.systemtray ~/.local/share/plasma/plasmoids/org.kde.plasma.systemtray
+        ln -s /usr/share/latte/org.kde.plasma.private.systemtray ~/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray
+    fi
+
+fi
 
 if [ "$(qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.isShuttingDown)" = "false" ]; then
 
