@@ -1,0 +1,201 @@
+[$Version]
+update_info=fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,filepicker.upd:filepicker-remove-old-previews-entry
+
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=112,111,110
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=239,239,239
+BackgroundNormal=252,252,252
+DecorationFocus=66,133,244
+DecorationHover=220,220,220
+ForegroundActive=255,255,255
+ForegroundInactive=0,0,0,50
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=51,51,51
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:Complementary]
+BackgroundAlternate=54,57,62
+BackgroundNormal=33,35,41
+DecorationFocus=66,133,244
+DecorationHover=79,83,91
+ForegroundActive=255,128,224
+ForegroundInactive=0,0,0,50
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=51,51,51
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:Header]
+BackgroundAlternate=245,245,245
+BackgroundNormal=255,255,255
+DecorationFocus=66,133,244
+DecorationHover=120,167,244
+ForegroundActive=255,128,224
+ForegroundInactive=0,0,0,50
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=51,51,51
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:Header][Inactive]
+BackgroundAlternate=230,230,230
+BackgroundNormal=237,237,237
+DecorationFocus=52,118,207
+DecorationHover=127,170,207
+ForegroundActive=255,128,224,150
+ForegroundInactive=0,0,0,25
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=51,51,51,150
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:Selection]
+BackgroundAlternate=82,148,226
+BackgroundNormal=50,129,234
+DecorationFocus=88,177,244
+DecorationHover=111,181,255
+ForegroundActive=255,128,224
+ForegroundInactive=142,203,233
+ForegroundLink=138,204,244
+ForegroundNegative=156,14,14
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=224,64,251
+
+[Colors:Tooltip]
+BackgroundAlternate=54,57,62
+BackgroundNormal=33,35,41
+DecorationFocus=66,133,244
+DecorationHover=79,83,91
+ForegroundActive=255,128,224
+ForegroundInactive=136,136,136
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=221,221,221
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:View]
+BackgroundAlternate=245,245,245
+BackgroundNormal=255,255,255
+DecorationFocus=66,133,244
+DecorationHover=220,220,220
+ForegroundActive=255,128,224
+ForegroundInactive=0,0,0,50
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=51,51,51
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:Window]
+BackgroundAlternate=245,245,245
+BackgroundNormal=245,245,245
+DecorationFocus=66,133,244
+DecorationHover=220,220,220
+ForegroundActive=255,128,224
+ForegroundInactive=0,0,0,50
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=51,51,51
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[DirSelect Dialog]
+DirSelectDialog Size=850,584
+History Items[$e]=
+
+[General]
+ColorScheme=Orchis
+Name[pt_BR]=Breeze Light
+Name=Breeze Light
+XftAntialias=true
+XftHintStyle=hintfull
+XftSubPixel=rgb
+fixed=Ubuntu Mono,13,-1,5,50,0,0,0,0,0
+font=Lato Semibold,11,-1,5,63,0,0,0,0,0,Regular
+menuFont=Lato Semibold,11,-1,5,63,0,0,0,0,0,Regular
+shadeSortColumn=true
+smallestReadableFont=Lato Semibold,9,-1,5,63,0,0,0,0,0,Regular
+toolBarFont=Lato Semibold,11,-1,5,63,0,0,0,0,0,Regular
+widgetStyle=Breeze
+
+[KDE]
+ColorScheme=Breeze
+LookAndFeelPackage=org.kde.breeze.desktop
+ShowDeleteCommand=true
+ShowIconsInMenuItems=true
+ShowIconsOnPushButtons=true
+SingleClick=false
+contrast=4
+widgetStyle=kvantum
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=false
+Breadcrumb Navigation=false
+Decoration position=0
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+Speedbar Width=200
+View Style=Simple
+listViewIconSize=29
+
+[PreviewSettings]
+MaximumRemoteSize=0
+
+[Toolbar style]
+ToolButtonStyle=TextBesideIcon
+ToolButtonStyleOtherToolbars=TextBesideIcon
+
+[WM]
+activeBackground=238,238,238
+activeBlend=153,153,153
+activeFont=Lato Semibold,12,-1,5,63,0,0,0,0,0,Regular
+activeForeground=120,120,120
+inactiveBackground=240,240,240
+inactiveBlend=221,221,221
+inactiveForeground=170,170,170

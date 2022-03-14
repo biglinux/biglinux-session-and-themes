@@ -1,0 +1,16 @@
+[Common]
+CornerRadius=8
+ShadowSize=ShadowSmall
+
+[Style]
+DolphinSidebarOpacity=100
+ScrollBarAddLineButtons=1
+ScrollBarSubLineButtons=1
+TabDrawHighlight=true
+ToolBarDrawItemSeparator=true
+TransparentDolphinView=false
+WidgetDrawShadow=false
+
+[Windeco]
+ButtonSize=ButtonSmall
+DrawBackgroundGradient=false

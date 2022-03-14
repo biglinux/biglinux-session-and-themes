@@ -18,7 +18,6 @@ Id_1=e7e511d8-9d8d-43ba-b0f2-d1ebf8006f06
 Id_2=2805b42b-7d4f-4c7a-8c72-3a16149e1e7b
 Id_3=05df9911-7757-461e-b0f0-2b2ff9b8d66f
 Id_4=5a9c02fb-73f3-452a-969d-fc875cb3439f
-
 Number=4
 Rows=1
 
@@ -61,6 +60,7 @@ TopRight=None
 Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
 
 [Plugins]
+overviewEnabled=true
 contrastEnabled=true
 kwin4_effect_translucencyEnabled=false
 wobblywindowsEnabled=true
@@ -69,8 +69,11 @@ kwin4_effect_lightlyshadersEnabled=false
 kwin4_effect_shapecornersEnabled=false
 
 [TabBox]
+ActivitiesMode=0
+DesktopMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
+LayoutName=coverswitch
 
 [Windows]
 ActiveMouseScreen=true
