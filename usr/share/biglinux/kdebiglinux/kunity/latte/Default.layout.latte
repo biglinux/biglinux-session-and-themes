@@ -70,8 +70,10 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][13][Applets][54][Configuration][General]
+groupedTaskVisualization=2
 launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,applications:bigtts.desktop
 maxStripes=1
+showToolTips=false
 
 [Containments][13][ConfigDialog]
 DialogHeight=1254
@@ -350,7 +352,17 @@ DialogWidth=800
 buttonSizePercentage=60
 buttons=5|3|4|10|2|9
 containmentType=Latte
-visibility=ActiveMaximizedWindow
+visibility=ActiveWindow
+
+[Containments][19][Applets][140]
+immutability=1
+plugin=com.github.zren.presentwindows
+
+[Containments][19][Applets][140][Configuration]
+PreloadWeight=34
+
+[Containments][19][Applets][140][Configuration][General]
+clickCommand=Overview
 
 [Containments][19][Applets][144]
 immutability=1

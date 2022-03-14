@@ -133,7 +133,9 @@ else
     exec startplasma-x11
 fi
 
-
+if [ -e /usr/share/kconf_update/kwin-5.23-remove-cover-switch.py ]; then
+    rm /usr/share/kconf_update/kwin-5.23-remove-cover-switch.py
+fi
 
 killall feh
 sleep 20
