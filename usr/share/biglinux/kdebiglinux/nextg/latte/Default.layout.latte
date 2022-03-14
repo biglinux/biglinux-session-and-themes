@@ -38,7 +38,7 @@ DialogWidth=800
 
 [Containments][13][Applets][134][Configuration][General]
 favoritesPortedToKAstats=true
-icon=big-logo
+icon=/usr/share/icons/hicolor/scalable/apps/big-logo.svg
 
 [Containments][13][Applets][134][Shortcuts]
 global=Alt+F1
@@ -73,6 +73,21 @@ PreloadWeight=0
 DialogHeight=600
 DialogWidth=800
 
+[Containments][13][Applets][157]
+immutability=1
+plugin=com.github.zren.presentwindows
+
+[Containments][13][Applets][157][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][13][Applets][157][Configuration][General]
+clickCommand=Overview
+icon[$e]=big-mission-control
+
+[Containments][13][Applets][157][Shortcuts]
+global=Meta+W
+
 [Containments][13][ConfigDialog]
 DialogHeight=1254
 DialogWidth=529
@@ -83,7 +98,7 @@ PreloadWeight=0
 [Containments][13][General]
 advanced=true
 alignmentUpgraded=true
-appletOrder=134;150;152;139
+appletOrder=134;157;150;152;139
 autoDecreaseIconSize=false
 autoSizeEnabled=false
 backgroundRadius=17
@@ -92,6 +107,7 @@ configurationSticker=true
 dragActiveWindowEnabled=true
 floatingInternalGapIsForced=false
 iconSize=16
+inConfigureAppletsMode=true
 lengthExtMargin=1
 mouseWheelActions=false
 panelPosition=10
@@ -109,7 +125,7 @@ taskScrollAction=ScrollNone
 tasksUpgraded=true
 themeColors=LightThemeColors
 thickMargin=14
-userBlocksColorizingApplets=134;139
+userBlocksColorizingApplets=134;157;139
 zoomLevel=0
 
 [Containments][13][Indicator]
@@ -190,6 +206,10 @@ plugin=org.kde.kscreen
 [Containments][17][Applets][154][Configuration]
 PreloadWeight=42
 
+[Containments][17][Applets][155]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
 [Containments][17][Applets][156]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
@@ -216,11 +236,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][17][Applets][91][Configuration]
-PreloadWeight=12
-
-[Containments][17][Applets][91][Configuration][General]
-currentTab=streams
-globalMute=true
+PreloadWeight=17
 
 [Containments][17][Applets][92]
 immutability=1
@@ -280,10 +296,10 @@ PreloadWeight=26
 
 [Containments][17][General]
 blockedAutoColorItems=AnyDesk,Nextcloud
-extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.nightcolorcontrol,org.kde.plasma.manage-inputmethod,touchpad,org.kde.plasma.keyboardlayout,org.kde.kscreen
+extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.nightcolorcontrol,org.kde.plasma.manage-inputmethod,touchpad,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.printmanager
 hiddenItems=Plasma,org.kde.plasma.manage-inputmethod,touchpad,org.kde.plasma.networkmanagement
 iconsSpacing=5
-knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager
 scaleIconsToFit=true
 shownItems=org.kde.plasma.volume,org.kde.plasma.clipboard
 
@@ -349,8 +365,8 @@ PreloadWeight=3
 
 [Containments][19][Applets][113][Configuration][Appearance]
 dateDisplayFormat=BesideTime
+dateFormat=custom
 fontFamily=Lato
-showDate=false
 
 [Containments][19][Applets][113][Configuration][ConfigDialog]
 DialogHeight=620
@@ -408,13 +424,6 @@ containmentType=Latte
 selectedPlugin=
 visibility=ActiveMaximizedWindow
 
-[Containments][19][Applets][140]
-immutability=1
-plugin=com.github.zren.presentwindows
-
-[Containments][19][Applets][140][Configuration]
-PreloadWeight=0
-
 [Containments][19][Applets][142]
 immutability=1
 plugin=org.kde.plasma.win7showdesktop
@@ -428,27 +437,6 @@ DialogWidth=880
 
 [Containments][19][Applets][142][Configuration][General]
 size=10
-
-[Containments][19][Applets][143]
-immutability=1
-plugin=org.kde.plasma.virtualdesktopbar
-
-[Containments][19][Applets][143][Configuration]
-PreloadWeight=0
-
-[Containments][19][Applets][143][Configuration][ConfigDialog]
-DialogHeight=620
-DialogWidth=800
-
-[Containments][19][Applets][143][Configuration][Preferences]
-AddDesktopButtonShow=false
-DesktopButtonsHorizontalMargin=5
-DesktopButtonsShowOnlyForCurrentDesktop=true
-DesktopLabelsCustomFontSize=15
-DesktopLabelsMaximumLength=16
-DesktopLabelsStyle=3
-MouseWheelRemoveDesktopOnClick=false
-MouseWheelWrapDesktopNavigationWhenScrolling=true
 
 [Containments][19][Applets][144]
 immutability=1
@@ -468,18 +456,15 @@ capitalFont=false
 containmentType=Latte
 style=NoText
 
-[Containments][19][Applets][155]
+[Containments][19][Applets][156]
 immutability=1
 plugin=org.kde.latte.spacer
 
-[Containments][19][Applets][155][Configuration]
-PreloadWeight=42
+[Containments][19][Applets][156][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
-[Containments][19][Applets][155][Configuration][ConfigDialog]
-DialogHeight=660
-DialogWidth=880
-
-[Containments][19][Applets][155][Configuration][General]
+[Containments][19][Applets][156][Configuration][General]
 containmentType=Latte
 lengthPixels=10
 
@@ -494,7 +479,7 @@ PreloadWeight=0
 advanced=true
 alignment=10
 alignmentUpgraded=true
-appletOrder=142;144;143;136;116;140;114;113;155;138
+appletOrder=142;144;136;116;114;113;156;138
 appletShadowsEnabled=false
 autoDecreaseIconSize=false
 autoSizeEnabled=false
@@ -504,6 +489,7 @@ disablePanelShadowForMaximized=true
 dragActiveWindowEnabled=true
 floatingInternalGapIsForced=false
 iconSize=28
+inConfigureAppletsMode=true
 lockedZoomApplets=113
 mouseWheelActions=false
 panelPosition=10
@@ -515,8 +501,8 @@ shadowOpacity=25
 shadows=None
 shadowsUpgraded=true
 solidBackgroundForMaximized=true
-splitterPosition=5
-splitterPosition2=6
+splitterPosition=4
+splitterPosition2=5
 taskScrollAction=ScrollNone
 tasksUpgraded=true
 themeColors=SmartThemeColors
