@@ -40,6 +40,10 @@ BorderActivate=9
 BorderActivateAll=9
 BorderActivateClass=9
 
+[Effect-PresentWindows]
+BorderActivate=7
+BorderActivateAll=9
+
 [Effect-Wobbly]
 Drag=70
 MoveFactor=25
@@ -62,6 +66,7 @@ contrastEnabled=true
 kwin4_effect_translucencyEnabled=false
 wobblywindowsEnabled=true
 kwin4_effect_fadingpopupsEnabled=true
+screenedgeEnabled=false
 
 [TabBox]
 ActivitiesMode=0
