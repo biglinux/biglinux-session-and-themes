@@ -19,6 +19,10 @@ CommandAllKey=Alt
 BlurStrength=4
 NoiseStrength=0
 
+[Effect-PresentWindows]
+BorderActivate=7
+BorderActivateAll=9
+
 [Effect-Wobbly]
 Drag=70
 MoveFactor=25
@@ -34,6 +38,7 @@ blurEnabled=true
 kwin4_effect_lightlyshadersEnabled=false
 kwin4_effect_shapecornersEnabled=false
 kwin4_effect_translucencyEnabled=false
+screenedgeEnabled=false
 
 [TabBox]
 ActivitiesMode=0
