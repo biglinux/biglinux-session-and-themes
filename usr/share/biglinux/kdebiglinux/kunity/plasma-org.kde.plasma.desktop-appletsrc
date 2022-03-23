@@ -58,7 +58,7 @@ toolTips=true
 
 [Containments][27][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=file:///usr/share/wallpapers/summer_1am/contents/images/2560x1600.jpg
+Image=file:///usr/share/wallpapers/green-and-blue.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][28]
@@ -71,7 +71,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][28][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/summer_1am/contents/images/2560x1600.jpg
+Image=file:///usr/share/wallpapers/green-and-blue.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][29]
@@ -84,7 +84,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][29][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/summer_1am/contents/images/2560x1600.jpg
+Image=file:///usr/share/wallpapers/green-and-blue.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][30]
@@ -97,7 +97,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][30][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/summer_1am/contents/images/2560x1600.jpg
+Image=file:///usr/share/wallpapers/green-and-blue.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][33]
@@ -146,8 +146,6 @@ DialogWidth=1360
 
 [Containments][33][General]
 AppletOrder=37;38;39
-
-
 
 [Containments][34]
 activityId=
