@@ -43,8 +43,9 @@ DialogHeight=620
 DialogWidth=800
 
 [Containments][2][Applets][31][Configuration][General]
-customButtonImage=/usr/share/pixmaps/biglinux.png
+customButtonImage=big-favicon-classic
 favoritesPortedToKAstats=true
+icon=big-favicon-classic
 useCustomButtonImage=true
 
 [Containments][2][Applets][31][Shortcuts]
