@@ -1,0 +1,9 @@
+#!/bin/bash
+
+performance_actual="$(cat "$HOME/.big_performance")"
+
+if [ "$performance_actual" = "1" ]; then
+        ./normal.run
+else
+        ./optimized.run
+fi

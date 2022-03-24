@@ -1,174 +1,3 @@
-#!/bin/bash
-
-#Translation
-export TEXTDOMAINDIR="/usr/share/locale"
-export TEXTDOMAIN=biglinux-themes
-
-# Don't group windows
-xprop -id "$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" -f WM_CLASS 8s -set WM_CLASS "$$"
-
-
-# Import BigControlCenter base modules / Importa os módulos básicos do BigControlCenter
-# That's include jquery and materialize / Isso inclui o jquery e o materialize
-# http://materializecss.com/
-# . /usr/share/bigbashview/bcc/shell/base.sh
-
-theme_actual="$(cat "$HOME/.big_desktop_theme")"
-
-
-Desempenho_translate=$"Desempenho do desktop"
-Browser_translate=$"Aceleração do navegador"
-Use_translate=$"Usabilidade"
-Tema_translate=$"Tema dos aplicativos"
-More_themes_translate=$"Temas"
-CLOSE=$"Fechar"
-orchis=$"Bordas arredondadas."
-fluent=$"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em computadores<br>antigos ou ambientes virtualizados."
-
-
-browser="$(cat "$HOME/.config/browser-optimize")"
-
-
-if [ "$browser" = "" ]; then
-    checked_browser_auto="checked"
-fi
-
-if [ "$browser" = "performance" ]; then
-    checked_browser_yes="checked"
-fi
-
-if [ "$browser" = "optimize" ]; then
-    checked_browser_no="checked"
-fi
-
-
-
-if [ "$theme_actual" = "" ]; then
-    biglinux-themes.sh --apply orchis
-    checked_arc="checked"
-fi
-
-
-# if [ "$theme_actual" = "arc" ]; then
-#     checked_arc="checked"
-# fi
-# 
-# if [ "$theme_actual" = "adapta" ]; then
-#     checked_adapta="checked"
-# fi
-# 
-# if [ "$theme_actual" = "dark" ]; then
-#     checked_dark="checked"
-# fi
-
-desktop_actual="$(cat ~/.kdebiglinux/lastused)"
-
-if [ "$desktop_actual" = "classic" ]; then
-    checked_desktop_classic="checked"
-fi
-
-if [ "$desktop_actual" = "kunity" ]; then
-    checked_desktop_kunity="checked"
-fi
-
-if [ "$desktop_actual" = "new" ]; then
-    checked_desktop_new="checked"
-fi
-
-if [ "$desktop_actual" = "nextg" ]; then
-    checked_desktop_nextg="checked"
-fi
-
-
-if [ "$theme_actual" = "breeze" ]; then
-    checked_breeze="checked"
-fi
-
-if [ "$theme_actual" = "breeze-dark" ]; then
-    checked_breeze_dark="checked"
-fi
-
-if [ "$theme_actual" = "fluent" ]; then
-    checked_fluent="checked"
-fi
-
-if [ "$theme_actual" = "fluent-dark" ]; then
-    checked_fluent_dark="checked"
-fi
-
-
-if [ "$theme_actual" = "fluent-opaque" ]; then
-    checked_fluent="checked"
-fi
-
-if [ "$theme_actual" = "fluent-dark-opaque" ]; then
-    checked_fluent_dark="checked"
-fi
-
-if [ "$theme_actual" = "orchis" ]; then
-    checked_orchis="checked"
-fi
-
-if [ "$theme_actual" = "orchis-dark" ]; then
-    checked_orchis_dark="checked"
-fi
-
-if [ "$theme_actual" = "materia" ]; then
-    checked_materia="checked"
-fi
-
-if [ "$theme_actual" = "materia-dark" ]; then
-    checked_materia_dark="checked"
-fi
-
-
-performance_actual="$(cat "$HOME/.big_performance")"
-
-if [ "$performance_actual" = "" ] || [ "$performance_actual" = "0" ]; then
-    checked_normal="checked"
-fi
-
-if [ "$performance_actual" = "1" ]; then
-    checked_optimized="checked"
-fi
-
-if [ "$performance_actual" = "2" ]; then
-    checked_performance="checked"
-fi
-
-if [ -e "$HOME/.config/lockplasma" ]; then
-    checked_lock_desktop="checked"
-fi
-
-if [ "$(LANG=C balooctl status 2>&1| grep 'is running')" != "" ]; then
-    checked_search="checked"
-fi
-
-if [ "$(kreadconfig5  --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc")" = "true" ]; then
-    checked_scrool_natural="checked"
-fi
-
-if [ "$(grep 'FSM' ~/.config/kwinrc)" != "" ]; then
-    checked_left_button="checked"
-fi
-
-
-if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
-    checked_braveblock_no="checked"
-else
-    checked_braveblock_yes="checked"
-fi
-
-if [ -e "$HOME/.config/browser-brave-disable-crypto" ]; then
-    checked_bravecrypto_no="checked"
-else
-    checked_bravecrypto_yes="checked"
-fi
-
-
-  
-  
-cat << EOF
 
 <html>
 <head>
@@ -176,12 +5,6 @@ cat << EOF
   <title>Temas, Desktop e Desempenho</title>
   <link rel='stylesheet'><link rel="stylesheet" href="./style.css">
 </head>
-EOF
-
-# Get body tag with color light or not
-/usr/share/bigbashview/bcc/shell/getbgcolor.sh
-
-cat << EOF
 <body>
 <!-- partial:index.partial.html -->
 <div class="dark-light">
@@ -295,8 +118,7 @@ cat << EOF
                 </li>
               </ul>
             </div>        
-          </div>
-          </div>
+          </div>       </div>     
 
 
 
@@ -328,25 +150,38 @@ cat << EOF
               </ul>
             </div>
             <div id="desc">
-              <h4>Usabilidade</h4>
+
+
+
+              <h4>Desempenho</h4>
 
               <ul>
-                <li style="padding: 2px;" onchange="_run('./kwin_button.run')">
-                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_left_button>
+                <li style="padding: 2px;">
+                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                  <span for="s0">Reduzir efeitos visuais<br><small>(Indicado para computadores antigos)</small></span>
+                </li>                    
+                <li style="padding-top: 2px;">
+                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                  <span for="s0">Utilizar GPU nos navegadores <br><small>(Desative no caso de distorção no vídeo)</small></span>
+                </li>
+              </ul>
+              <ul>
+                <li style="padding: 2px;">
+                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
                   <span for="s0">Botões da janela no lado esquerdo<br><small></small></span>
                 </li>                    
-                <li style="padding-top: 2px;" onchange="_run('./mouse.run')">
-                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_scrool_natural>
+                <li style="padding-top: 2px;">
+                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
                   <span for="s0">Rolagem do mouse invertida<br><small></small></span>
                 </li> 
               </ul>
               <ul>
-                <li style="padding: 2px;" onchange="_run('./search.run')">
-                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_search>
+                <li style="padding: 2px;">
+                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
                   <span for="s0">Pesquisar arquivos<br><small></small></span>
                 </li>                    
-                <li style="padding-top: 2px;" onchange="_run('./lock-desktop.run')">
-                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_lock_desktop>
+                <li style="padding-top: 2px;">
+                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
                   <span for="s0">Bloquear a área de trabalho<br><small></small></span>
                 </li>                    
               </ul>
@@ -363,9 +198,6 @@ cat << EOF
             </div>
           </div>
 
-
-
-
           <div class="centertext">
           </div>
           <div class="biglinux-dashboard">
@@ -374,7 +206,7 @@ cat << EOF
               <div class="biglinux-card" style="height: 75%; position: relative;">
 
 
-                <input id="s0" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/change_performance.run')" type="checkbox" class="switch" style="top: 11px;" $checked_optimized>
+                <input id="s0" type="checkbox" class="switch" style="top: 11px;">
                 <span for="s0">Reduzir efeitos visuais<br><small>(Indicado para computadores antigos)</small></span>               
 
                 <br style="clear: left;" />
@@ -395,53 +227,55 @@ cat << EOF
                   </svg>
 
                 </div>
-
-EOF
-
-
-
-
-
-func-preload() {
-
-    if [ -e "/etc/big-preload/enable-$1" ]; then
-        preload_checked="checked"
-    else
-        preload_checked=""    
-    fi
-
-
-cat << EOF
-    <li>
-    <div class="checkbox-wrapper">
-        <input name="$1" id="$1" type="checkbox" class="switch" style="display: inline-block; float: left;" onchange="_run('./change-preload.run $1')" $preload_checked><span for="$1">$2</span>
-    </div>
-    </li> 
-EOF
-
-}
-
-
-CAT << EOF
+                
                 <div class="pop-up__subtitle">O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:</a></div>
               <div id="desc">
                 <ul id="menu">
-EOF
-
-func-preload firefox "Firefox"
-func-preload brave "Brave"
-func-preload chrome "Google Chrome"
-func-preload chromium "Chromium"
-func-preload palemoon "Palemoon"
-func-preload opera "Opera"
-func-preload vivaldi "Vivaldi"
-func-preload epiphany "Epiphany"
-func-preload libreoffice "LibreOffice"
-func-preload kde "Desktop KDE"
-
-cat << EOF
+                  <li>
+                    <div class="checkbox-wrapper">
+                      <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                      <span for="check1">FireFox</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="checkbox-wrapper">
+                      <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                      <span for="check2">Brave</span>
+                    </div>
+                  </li> 
+                  <li><div class="checkbox-wrapper">
+                    <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                    <span for="check2">Google Chrome</span>
+                    </div></li> 
+                  <li><div class="checkbox-wrapper">
+                    <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                    <span for="check2">Chromium</span>
+                    </div></li> 
+                  <li><div class="checkbox-wrapper">
+                    <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                    <span for="check2">Palemoon</span>
+                    </div></li> 
+                  <li><div class="checkbox-wrapper">
+                    <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                    <span for="check2">Opera</span>
+                    </div></li> 
+                  <li><div class="checkbox-wrapper">
+                    <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                    <span for="check2">Vivaldi</span>
+                    </div></li> 
+                  <li><div class="checkbox-wrapper">
+                    <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                    <span for="check2">LibreOffice</span>
+                    </div></li> 
+                  <li><div class="checkbox-wrapper">
+                    <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                    <span for="check2">Desktop KDE</span>
+                    </div></li>
                 </ul>
-                        
+              </div>              
+
+
+
               <div class="content-button-wrapper">
                 <button class="content-button status-button2 open close">Fechar</button>
               </div>
@@ -451,13 +285,14 @@ cat << EOF
           <div class="biglinux-left-panel">
             <h4>Aceleração do navegador</h4>
             <div class="biglinux-card" style="height: 75%; position: relative;">
-              <input id="r1" type="radio" name="radio" value="1" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/browser-auto.run')" $checked_browser_auto>
+              <input id="r1" type="radio" name="radio" value="1">
+
               <span for="Automático">Automático</span>
               <br style="clear: left;" />
-              <input id="r2" type="radio" name="radio" value="2" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/browser-yes.run')" $checked_browser_yes>
+              <input id="r2" type="radio" name="radio" value="2" checked>
               <span for="Ativar">Ativar</span>
               <br style="clear: left;" />
-              <input id="r3" type="radio" name="radio" value="2" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/browser-no.run')" $checked_browser_no>
+              <input id="r3" type="radio" name="radio" value="2" checked>
               <span for="Desativar">Desativar</span>
 
               <br style="clear: left;" />
@@ -479,19 +314,16 @@ cat << EOF
               </div>
               <div class="pop-up__subtitle">Escolha a opção desejada:</div>
 
-
-
-
               <div id="desc">
                 <ul id="menu">
                   <li><div class="checkbox-wrapper">
-                    <input id="braveblock" type="checkbox" class="switch" style="display: inline-block; float: left;" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/braveblock-change.run')" $checked_braveblock_yes>
-                    <span for="braveblock">Remover propagandas</span>
+                    <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                    <span for="check1">Remover propagandas</span>
                     </div>
                   </li>
                   <li><div class="checkbox-wrapper">
-                    <input id="bravecrypto" type="checkbox" class="switch" style="display: inline-block; float: left;" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/bravecrypto-change.run')" $checked_bravecrypto_yes>
-                    <span for="bravecrypto">Suportar criptomoedas</span>
+                    <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;">
+                    <span for="check2">Suportar criptomoedas</span>
                     </div>
                   </li>
                 </ul>
@@ -523,7 +355,3 @@ cat << EOF
 </body>
 </html>
       
-EOF
-
-
-
