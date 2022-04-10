@@ -97,11 +97,11 @@ if [ "$theme_actual" = "fluent-dark" ]; then
 fi
 
 
-if [ "$theme_actual" = "fluent-opaque" ]; then
+if [ "$theme_actual" = "fluent-solid" ]; then
     checked_fluent="checked"
 fi
 
-if [ "$theme_actual" = "fluent-dark-opaque" ]; then
+if [ "$theme_actual" = "fluent-dark-solid" ]; then
     checked_fluent_dark="checked"
 fi
 
@@ -659,16 +659,16 @@ EOF
 echo $"Fluent Dark"
 cat << EOF
 </label>
-      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-opaque-theme.run')" name="option" type="radio" id="fluent-opaque" value="fluent-opaque" $checked_fluent-opaque />
-      <label for="fluent-opaque" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=fluent-opaque.jpg>">
+      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-solid-theme.run')" name="option" type="radio" id="fluent-solid" value="fluent-solid" $checked_fluent-solid />
+      <label for="fluent-solid" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=fluent-solid.jpg>">
 EOF
-echo $"Fluent Opaque"
+echo $"Fluent Solid"
 cat << EOF
 </label>
-      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-dark-opaque-theme.run')" name="option" type="radio" id="fluent-dark-opaque" value="fluent-dark-opaque" $checked_fluent_dark />
-      <label for="fluent-dark-opaque" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=fluent-dark-opaque.jpg>">
+      <input onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-dark-solid-theme.run')" name="option" type="radio" id="fluent-dark-solid" value="fluent-dark-solid" $checked_fluent_dark />
+      <label for="fluent-dark-solid" class="tooltipped with-gap tool03" data-position="right" data-delay="50" data-tooltip="<img src=fluent-dark-solid.jpg>">
 EOF
-echo $"Fluent Dark Opaque"
+echo $"Fluent Dark Solid"
 
 
 cat << EOF
