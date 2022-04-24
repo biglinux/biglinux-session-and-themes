@@ -1,3 +1,60 @@
+:root {
+  --body-bg-color: #3d4550;
+  --theme-bg-color: rgba(16 18 27 / 40%);
+  --border-color: rgba(113 119 144 / 25%);
+  --theme-color: #f9fafb;
+  --inactive-color: rgb(113 119 144 / 78%);
+  --hover-menu-bg: rgba(12 15 25 / 30%);
+  --content-title-color: #797e84;
+  --content-bg: rgb(146 151 179 / 13%);
+  --button-inactive: rgb(249 250 251 / 55%);
+  --border-card-color: rgb(70 70 70);
+  --dropdown-bg: #21242d;
+  --dropdown-hover: rgb(42 46 60);
+  --popup-bg: rgb(22 25 37);
+  --subtitle-bg: rgb(0 102 153);
+  --search-bg: rgb(255 255 255 / 8%);
+  --overlay-bg: rgba(36, 39, 59, 0.3);
+  --scrollbar-bg: #428bff;
+  --border-box: #777;
+  --shador-color-icons: rgb(79 79 79 / 100%);
+  --subtitle: rgb(255 255 255 / 100%);
+  --search-color: rgb(155 155 155 / 100%);
+  --search-color-over: #fff;
+  --footer-bg-color: #2a303a;
+  --box-color-shadow-01: rgba(0, 0, 0, 0.2);
+  --text-a-color: #ccc;
+}
+
+.light-mode {
+  --body-bg-color: #252d37;
+  --theme-bg-color: rgb(255 255 255 / 31%);
+  --theme-color: #3c3a3a;
+  --inactive-color: #333333;
+  --button-inactive: #3c3a3a;
+  --border-card-color: rgb(188 191 193);
+  --search-bg: rgb(255 255 255 / 31%);
+  --dropdown-bg: #f7f7f7;
+  --overlay-bg: rgb(255 255 255 / 30%);
+  --dropdown-hover: rgb(236 236 236);
+  --border-color: rgb(255 255 255 / 35%);
+  --popup-bg: rgb(255 255 255);
+  --subtitle-bg: rgb(255 255 255);
+  --hover-menu-bg: rgba(255 255 255 / 35%);
+  --scrollbar-bg: rgb(255 253 253 / 57%);
+  --content-title-color: --theme-color;
+  --content-bg: rgb(255 255 255 / 19%);
+  --border-box: #aaa;
+  --logo-big: invert(100%);
+  --shador-color-icons: rgb(0 0 0 / 28%);
+  --subtitle: rgb(0 0 0 / 100%);
+  --search-color: rgb(100 100 100 / 100%);
+  --search-color-over: #000;
+  --footer-bg-color: #6c6d6d;
+  --box-color-shadow-01: rgba(0, 0, 0, 0.2);
+  --text-a-color: #444;
+}
+
 .dark-light {
   position: fixed;
   bottom: 50px;
@@ -18,8 +75,6 @@
   stroke: #ffce45;
   transition: 0.5s;
 }
-
-
 
 .light-mode .dark-light svg {
   fill: transparent;
@@ -47,7 +102,7 @@ body.light-mode .video-bg:before {
   width: 100%;
   height: 100vh;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.45) 100%);
-  backdrop-filter: saturate(3);
+  /*backdrop-filter: saturate(3);*/
 }
 
 .app {
@@ -60,8 +115,8 @@ body.light-mode .video-bg:before {
   overflow: hidden;
   width: 100%;
   border-radius: 14px;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  /*backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);*/
   font-size: 15px;
   font-weight: 500;
 }
@@ -190,10 +245,10 @@ input[type=radio] + label {
   input[type=checkbox] + span,
 input[type=radio] + span {
     font-size: 14px;
-    line-height: 21px;
+    line-height: 25px;
     display: inline-block;
     vertical-align: top;
-    cursor: pointer;
+    /*cursor: pointer;*/
     margin-left: 4px;
   }
 
@@ -403,23 +458,27 @@ a.button:hover {
 }
 
 /* LOGO */
+.logo-biglinux {
+    filter: var(--logo-big);
+}
 .logo {
-  z-index: 2;
-  position: absolute;
-  top: 93%;
-  left: 10px;
-  width: 40px;
-  height: 40px;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    display: block;
 }
 
 .logo img {
   position: absolute;
-  margin: auto;
+  margin-top: auto;
   top: 0;
   right: 0;
-  bottom: 0;
-  left: 0;
-  width: 30px;
+  bottom: 20px;
+  left: 20px;
+  width: 40px
 }
 
 .logo a {
@@ -1136,7 +1195,7 @@ input {
 }
 
 .biglinux-center-panel h4 {
-  color: #fff;
+  color: var(--text-a-color);
   margin: 1rem 1rem 0;
 }
 
@@ -1150,7 +1209,7 @@ input {
 }
 
 .biglinux-left-panel h4 {
-  color: #fff;
+  color: var(--text-a-color);
   margin: 1rem 1rem 0;
 }
 
@@ -1175,7 +1234,7 @@ input {
   border: 1px solid #5a6374;
   color: var(--text-a-color);
   text-decoration: none;
-  margin: 10px 0 0 0;
+  margin: 15px 0 0 0;
   border-radius: 5px;
   box-shadow: 0 0 8px 2px #3a404f;
 }
@@ -1211,8 +1270,8 @@ li {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    /*margin-bottom: 10px;*/
+    /*margin-top: 5px;*/
 }
 li label {
   display: block;
@@ -1227,10 +1286,10 @@ li label {
   margin-right: 20px;
   font-weight: 600;
   text-align: right;
-  margin-top: -35px;
-  padding: 0 0 28px 0;
+  margin-top: -42px;
+  padding: 0 0 22px 0;
   font-size: 20px;
-  text-shadow: 1px 1px 2px #444;
+  text-shadow: 1px 1px 2px #44444478;
 }
 
 li img {
@@ -1251,7 +1310,6 @@ li img {
 }
 
 .fc-card {
-  height: 100vh;
   width: 100vw;
   color: var(--text-a-color);
   /*width: 60%;*/
@@ -1259,7 +1317,7 @@ li img {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px;
+  padding: 25px;
   font-size: 1.1em;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1393,9 +1451,6 @@ li img {
   left: 50%;
   transform: translateX(-50%);
   position: relative;
-  padding: 10px;
-  margin-top: 20px;
-  margin-bottom: 40px;
   box-shadow: 0 28px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   border-radius: 5px;
   min-width: 180px;
@@ -1816,42 +1871,6 @@ li img {
 * {
   outline: none;
   box-sizing: border-box;
-}
-
-:root {
-  --theme-bg-color: rgba(16 18 27 / 40%);
-  --border-color: rgba(113 119 144 / 25%);
-  --theme-color: #f9fafb;
-  --inactive-color: rgb(113 119 144 / 78%);
-  --body-font: "Poppins", sans-serif;
-  --hover-menu-bg: rgba(12 15 25 / 30%);
-  --content-title-color: #797e84;
-  --content-bg: rgb(146 151 179 / 13%);
-  --button-inactive: rgb(249 250 251 / 55%);
-  --dropdown-bg: #21242d;
-  --dropdown-hover: rgb(42 46 60);
-  --popup-bg: rgb(22 25 37);
-  --search-bg: #253244;
-  --overlay-bg: rgba(36, 39, 59, 0.3);
-  --scrollbar-bg: #428bff;
-  --text-a-color: #ccc;
-}
-
-.light-mode {
-  --theme-bg-color: rgb(255 255 255 / 31%);
-  --theme-color: #3c3a3a;
-  --inactive-color: #333333;
-  --button-inactive: #3c3a3a;
-  --search-bg: rgb(255 255 255 / 31%);
-  --dropdown-bg: #f7f7f7;
-  --overlay-bg: rgb(255 255 255 / 30%);
-  --dropdown-hover: rgb(236 236 236);
-  --border-color: rgb(255 255 255 / 35%);
-  --popup-bg: rgb(255 255 255);
-  --hover-menu-bg: rgba(255 255 255 / 35%);
-  --scrollbar-bg: rgb(255 253 253 / 57%);
-  --content-title-color: --theme-color;
-  --text-a-color: #444;
 }
 
 input[type=button] {

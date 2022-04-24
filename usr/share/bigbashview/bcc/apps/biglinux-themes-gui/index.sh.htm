@@ -202,7 +202,7 @@ cat << EOF
       </div>
 
   <div class="logo">
-    <a href="#"><img src="logo-big-trans-branco.png" alt=""></a>
+    <a href="#"><img src="logo-big-trans-branco.png" alt="" class="logo-biglinux"></a>
   </div>
 
 
@@ -212,11 +212,9 @@ cat << EOF
           <a class="help" href="#desktop-tab-content">Opção 1</a><a class="faq" href="#login-tab-content">Opção 2</a>
         </div>-->
     <div class="form-wrap">
-      <div class="form-wrap tabs-content">
-
+      <!-- <div class="form-wrap tabs-content">
         <h2>Aparência, desempenho e usabilidade</h2>
-
-      </div>
+      </div> -->
       <!-- TABS -->
       <div class="tabs">
 
@@ -229,17 +227,13 @@ cat << EOF
         <input type="radio" id="tab3" name="tab-control">  
         <input type="radio" id="tab4" name="tab-control">
         <ul>
-          <li title="Features"><label for="tab1" role="button" id="#login-tab-content"><svg  viewBox="0 0 512 512"><path d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg><br><span > Temas</span></label></li>
+          <li title="Features"><label for="tab1" role="button" id="#login-tab-content"><svg  viewBox="0 0 512 512"><path d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg><br><span> Temas</span></label></li>
+          
           <li title="Delivery Contents"><label for="tab2" role="button" id="#desktop-tab-content">
-
-            <svg viewBox="0 0 576 512"><path d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z"/></svg>
-
-            <br><span> Desktop</span></label></li>
+          <svg viewBox="0 0 576 512"><path d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z"/></svg><br><span> Desktop</span></label></li>
           
           <li title="Shipping"><label for="tab3" role="button" id="#desempenho-tab-content">
-            <svg viewBox="0 0 640 512"><path d="M544 224l-128-16-48-16h-24L227.158 44h39.509C278.333 44 288 41.375 288 38s-9.667-6-21.333-6H152v12h16v164h-48l-66.667-80H18.667L8 138.667V208h8v16h48v2.666l-64 8v42.667l64 8V288H16v16H8v69.333L18.667 384h34.667L120 304h48v164h-16v12h114.667c11.667 0 21.333-2.625 21.333-6s-9.667-6-21.333-6h-39.509L344 320h24l48-16 128-16c96-21.333 96-26.583 96-32 0-5.417 0-10.667-96-32z"/></svg>      
-
-            <br><span> Desempenho</span></label></li>
+          <svg viewBox="0 0 640 512"><path d="M544 224l-128-16-48-16h-24L227.158 44h39.509C278.333 44 288 41.375 288 38s-9.667-6-21.333-6H152v12h16v164h-48l-66.667-80H18.667L8 138.667V208h8v16h48v2.666l-64 8v42.667l64 8V288H16v16H8v69.333L18.667 384h34.667L120 304h48v164h-16v12h114.667c11.667 0 21.333-2.625 21.333-6s-9.667-6-21.333-6h-39.509L344 320h24l48-16 128-16c96-21.333 96-26.583 96-32 0-5.417 0-10.667-96-32z"/></svg><br><span> Desempenho</span></label></li>
         </ul>
 
         <div class="slider"><div class="indicator"></div></div>          
@@ -261,42 +255,52 @@ cat << EOF
         <!-- TABS CONTENT LOGIN -->
         <div id="login-tab-content" class="fc-card active">
 
-          <div class="centretext" style="margin-bottom: 30px;">
+          <!-- <div class="centretext" style="margin-bottom: 30px;">
             <div id="desc">
               <h3>Escolha o tema dos aplicativos:</h3>
             </div>
-          </div>
+          </div> -->
           <div class="centertext">
             <div id="desc">            
               <ul id="menu" class="img-label">
+              
                 <li>
                   <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/breeze-theme.run')"><img src="breeze.jpg"> <label>Breeze</label></a>
                 </li>
+                
                 <li>
-                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/breeze-dark-theme.run')"><img src="breeze-dark.jpg"> <label>Breeze Dark</label></a>
-                </li>
+                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-theme.run')"><img src="fluent.jpg"> <label>Fluent</label></a>
+                </li>                
+                
                 <li>
                   <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-solid-theme.run')"><img src="fluent-solid.jpg"> <label>Fluent Solid</label></a>
                 </li>
-                <li>
-                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-dark-solid-theme.run')"><img src="fluent-dark-solid.jpg"> <label>Fluent Solid Dark</label></a>
-                </li>
-                <li>
-                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-theme.run')"><img src="fluent.jpg"> <label>Fluent</label></a>
-                </li>
-                <li>
-                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-dark-theme.run')"><img src="fluent-dark.jpg"> <label>Fluent Dark</label></a>
-                </li>
+                
                 <li>
                   <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/materia-theme.run')"><img src="materia.jpg"> <label>Materia</label></a>
                 </li>
+                
+                <li>
+                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/breeze-dark-theme.run')"><img src="breeze-dark.jpg"> <label>Breeze Dark</label></a>
+                </li>
+                
+                <li>
+                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-dark-theme.run')"><img src="fluent-dark.jpg"> <label>Fluent Dark</label></a>
+                </li>
+                
+                <li>
+                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/fluent-dark-solid-theme.run')"><img src="fluent-dark-solid.jpg"> <label>Fluent Solid Dark</label></a>
+                </li>
+                
                 <li>
                   <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/materia-dark-theme.run')"><img src="materia-dark.jpg"> <label>Materia Dark</label></a>
                 </li>
+              
               </ul>
-            </div>        
+            </div> 
+            <br><br>
           </div>
-          </div>
+        </div>
 
 
 
@@ -304,50 +308,59 @@ cat << EOF
         <!-- TABS CONTENT DESKTOP -->
         <div id="desktop-tab-content" class="fc-card">
 
-          <div class="centretext" style="margin-bottom: 30px;">
+          <!-- <div class="centretext" style="margin-bottom: 30px;">
             <div id="desc">
               <h3>Escolha o desktop:</h3>
             </div>
-          </div>
+          </div> -->
 
           <div class="centertext">
             <div id="desc">
               <ul id="menu">
                 <li>
-                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop_config.run classic')"><img src="icon-big-desktop-classic.png"></a>
+                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop_config.run classic')"><img src="desktop-classic.svg"></a>
                 </li>
                 <li>
-                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop_config.run kunity')"><img src="icon-big-desktop-kunity.png"></a>
+                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop_config.run kunity')"><img src="desktop-k-unity.svg"></a>
                 </li>              
                 <li>
-                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop_config.run new')"><img src="icon-big-desktop-new.png"></a>
+                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop_config.run new')"><img src="desktop-new.svg"></a>
                 </li>              
                 <li>
-                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop_config.run nextg')"><img src="icon-big-desktop-nextg.png"></a>
+                  <a onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/desktop_config.run nextg')"><img src="desktop-next-g.svg"></a>
                 </li>
               </ul>
             </div>
+
             <div id="desc">
-              <h4>Usabilidade</h4>
+              <h4 style="margin: 15px 0 15px 0;">Usabilidade</h4>
 
               <ul>
                 <li style="padding: 2px;" onchange="_run('./kwin_button.run')">
-                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_left_button>
-                  <span for="s0">Botões da janela no lado esquerdo<br><small></small></span>
+                  
+                    <input id="desktop1" name="bb1" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_left_button>
+                    <span for="desktop1">Botões da janela no lado esquerdo<br><small></small></span>
+                  
                 </li>                    
                 <li style="padding-top: 2px;" onchange="_run('./mouse.run')">
-                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_scrool_natural>
-                  <span for="s0">Rolagem do mouse invertida<br><small></small></span>
+                  
+                    <input id="desktop2" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_scrool_natural>
+                    <span for="desktop2">Rolagem do mouse invertida<br><small></small></span>
+                  
                 </li> 
               </ul>
               <ul>
                 <li style="padding: 2px;" onchange="_run('./search.run')">
-                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_search>
-                  <span for="s0">Pesquisar arquivos<br><small></small></span>
+                  
+                    <input id="desktop3" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_search>
+                    <span for="desktop3">Pesquisar arquivos<br><small></small></span>
+                  
                 </li>                    
                 <li style="padding-top: 2px;" onchange="_run('./lock-desktop.run')">
-                  <input id="s0" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_lock_desktop>
-                  <span for="s0">Bloquear a área de trabalho<br><small></small></span>
+                  
+                    <input id="desktop4" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_lock_desktop>
+                    <span for="desktop4">Bloquear a área de trabalho<br><small></small></span>
+                  
                 </li>                    
               </ul>
 
@@ -357,17 +370,12 @@ cat << EOF
 
         <div id="desempenho-tab-content" class="fc-card">
 
-          <div class="centretext" style="margin-bottom: 30px;">
+          <!-- <div class="centretext" style="margin-bottom: 30px;">
             <div id="desc">
               <h3>Escolha o desempenho:</h3>
             </div>
-          </div>
-
-
-
-
-          <div class="centertext">
-          </div>
+          </div> -->
+          
           <div class="biglinux-dashboard">
             <div class="biglinux-left-panel">
               <h4>Desempenho do desktop</h4>
@@ -395,6 +403,7 @@ cat << EOF
                   </svg>
 
                 </div>
+                <br>
 
 EOF
 
