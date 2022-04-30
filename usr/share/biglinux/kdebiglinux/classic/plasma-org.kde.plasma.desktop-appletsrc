@@ -162,7 +162,7 @@ toolTips=true
 
 [Containments][27][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=file:///usr/share/wallpapers/green-and-blue.jpg
+Image=file:///usr/share/wallpapers/Big-retro.jpg
 
 [Containments][36]
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
@@ -174,7 +174,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][36][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/green-and-blue.jpg
+Image=/usr/share/wallpapers/Big-retro.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][37]
@@ -187,7 +187,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][37][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/green-and-blue.jpg
+Image=/usr/share/wallpapers/Big-retro.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][38]
@@ -200,7 +200,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][38][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/green-and-blue.jpg
+Image=/usr/share/wallpapers/Big-retro.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][7]

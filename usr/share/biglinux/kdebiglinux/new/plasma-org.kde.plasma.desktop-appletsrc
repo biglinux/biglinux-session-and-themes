@@ -153,7 +153,7 @@ textLines=3
 
 [Containments][27][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=file:///usr/share/wallpapers/Big-Ruscher.png
+Image=file:///usr/share/wallpapers/Big-retro.jpg
 
 [Containments][3]
 activityId=
@@ -247,7 +247,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][36][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Big-Ruscher.png
+Image=file:///usr/share/wallpapers/Big-retro.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][37]
@@ -261,7 +261,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][37][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Big-Ruscher.png
+Image=/usr/share/wallpapers/Big-retro.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][38]
@@ -275,7 +275,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][38][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Big-Ruscher.png
+Image=/usr/share/wallpapers/Big-retro.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][4]
