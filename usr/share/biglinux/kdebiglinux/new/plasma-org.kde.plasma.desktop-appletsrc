@@ -84,6 +84,10 @@ plugin=org.kde.plasma.win7showdesktop
 immutability=1
 plugin=com.github.zren.presentwindows
 
+[Containments][2][Applets][35][Configuration][General]
+clickCommand=Overview
+icon[$e]=mission-control
+
 [Containments][2][Applets][35][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800

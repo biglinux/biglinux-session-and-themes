@@ -81,6 +81,10 @@ url=file:///usr/share/applications/brave-browser.desktop
 immutability=1
 plugin=com.github.zren.presentwindows
 
+[Containments][2][Applets][34][Configuration][General]
+clickCommand=Overview
+icon[$e]=mission-control
+
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.taskmanager
