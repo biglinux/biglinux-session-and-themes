@@ -21,51 +21,58 @@ Image {
     source: "/tmp/bigksplash.jpg"
     fillMode: Image.PreserveAspectCrop
 
+
     property int stage
 
     onStageChanged: {
         if (stage == 1) {
-            introAnimation.running = true
+            introAnimation.running = true;
+        } else if (stage == 2) {
+            introAnimation.target = busyIndicator;
+            introAnimation.from = 2;
+            introAnimation.to = 20;
+            introAnimation.running = true;
         }
     }
-
 
     Item {
         id: content
         anchors.fill: parent
-        opacity: 1
+        opacity: 0
         TextMetrics {
             id: units
             text: "M"
-            property int gridUnit: boundingRect.height
-            property int largeSpacing: units.gridUnit
-            property int smallSpacing: Math.max(2, gridUnit/4)
         }
 
         Image {
             id: logo
-            property real size: units.gridUnit * 8
-
-            anchors.centerIn: parent
-
+            source: "images/logo.png"
+            anchors.verticalCenter: parent.verticalCenter
+            anchors.horizontalCenter: parent.horizontalCenter
         }
 
         Image {
             id: busyIndicator
-            y: parent.height - (parent.height - logo.y) / 2 - height/2
+            anchors.verticalCenter: parent.verticalCenter
             anchors.horizontalCenter: parent.horizontalCenter
-            source: "images/busy.png"
-            sourceSize.height: units.gridUnit * 2
-            sourceSize.width: units.gridUnit * 2
+            source: "images/busywidget.png"
+
             RotationAnimator on rotation {
                 id: rotationAnimator
                 from: 360
                 to: 0
-                duration: 800
+                duration: 1500
                 loops: Animation.Infinite
             }
         }
-
+        Row {
+            spacing: units.smallSpacing*2
+            anchors {
+                bottom: parent.bottom
+                right: parent.right
+                margins: units.gridUnit
+            }
+        }
     }
 
     OpacityAnimator {
