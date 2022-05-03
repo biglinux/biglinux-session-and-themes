@@ -1,6 +1,13 @@
 #!/bin/bash
 
 
+STARTPLASMA=startplasma-x11
+
+if [ "$1" = "wayland" ]; then
+    STARTPLASMA=startplasma-wayland
+fi
+
+
 # Virtualization fix open
 if [ "$(lspci | grep -i vga | grep -i vmware)" != "" ]; then
     kwriteconfig5 --file ~/.config/kded5rc --group Module-kscreen --key autoload false
@@ -128,9 +135,9 @@ if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
 fi
 
 if [ -e "$HOME/.config/kdelight" ]; then
-    QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic exec startplasma-x11
+    QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic exec $STARTPLASMA
 else
-    exec startplasma-x11
+    exec $STARTPLASMA
 fi
 
 if [ -e /usr/share/kconf_update/kwin-5.23-remove-cover-switch.py ]; then
