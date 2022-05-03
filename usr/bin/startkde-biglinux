@@ -5,6 +5,8 @@ STARTPLASMA=startplasma-x11
 
 if [ "$1" = "wayland" ]; then
     STARTPLASMA=startplasma-wayland
+else
+    export GDK_BACKEND=x11
 fi
 
 
@@ -118,11 +120,11 @@ done
 
 export KWIN_EFFECTS_FORCE_ANIMATIONS=1
 export MULTIKDE=$nowlogin
-export GDK_BACKEND=x11
 
 # Change way to autostart latte
 #rm -f ~/.config/autostart/org.kde.latte-dock.desktop
 
+> $HOME/.config/autostart/org.kde.latte-dock.desktop
 # Remove link to sistray tweaks to latte
 if [ -L "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
   rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray"
@@ -144,8 +146,8 @@ if [ -e /usr/share/kconf_update/kwin-5.23-remove-cover-switch.py ]; then
     rm /usr/share/kconf_update/kwin-5.23-remove-cover-switch.py
 fi
 
-killall feh
-sleep 20
-feh --bg-fill "/usr/share/sddm/themes/breeze/black.jpg" &
-sleep 2
-killall feh
+#killall feh
+#sleep 20
+#feh --bg-fill "/usr/share/sddm/themes/breeze/black.jpg" &
+#sleep 2
+#killall feh
