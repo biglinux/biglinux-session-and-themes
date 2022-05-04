@@ -24,12 +24,12 @@ if [ "$(qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.isShutting
     if [ "$(cat "$HOME/.big_performance")" != "0" ] && [ "$(cat "$HOME/.big_performance")" != "" ]; then
         if [ "$ENABLE_LATTE" = "1" ]; then
             qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
-            QT_QUICK_BACKEND=software /usr/bin/latte-dock
+            QT_QUICK_BACKEND=software /usr/bin/latte-dock -d
         fi
     else
         if [ "$ENABLE_LATTE" = "1" ]; then
             qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
-            QT_QUICK_BACKEND="" QSG_RENDER_LOOP="" /usr/bin/latte-dock
+            QT_QUICK_BACKEND="" QSG_RENDER_LOOP="" /usr/bin/latte-dock -d
         fi
     fi
 fi
