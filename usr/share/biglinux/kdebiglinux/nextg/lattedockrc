@@ -1,34 +1,5 @@
-[FileDialogSize]
-LVDS-1 Height 1280x800=433
-LVDS-1 Width 1280x800=590
-
-[KFileDialog Settings]
-Recent Files[$e]=CupertinoNeue.layout.latte,file:///usr/share/icons/hicolor/lbig.png,file:///usr/share/icons/breeze/apps/22/logo-big.svg,file:$HOME/Downloads/CupertinoNeue.layout.latte
-Recent URLs[$e]=file:///usr/share/icons/hicolor/,file:///usr/share/icons/breeze/apps/22/,file:$HOME/Downloads/,file:$HOME/,file:///usr/share/icons/breeze/,file:$HOME/Documentos/
-listViewIconSize=29
-
-[KPropertiesDialog]
-Virtual-1 Height 1920x940=442
-Virtual-1 Width 1920x940=485
-
-[LatteSettingsDialog]
-downloadWindowSize=980,600
-windowSize=1100,734
-
-[LatteSettingsDialog][DetailsDialog]
-windowSize=608,640
-
-[LatteSettingsDialog][TabLayouts]
-columnWidths=48,508,129,104
-sortColumn=3
-sortOrder=1
-
 [PlasmaThemeExtended]
 outlineWidth=1
-
-[ScreenConnectors]
-10=LVDS-1:::0,0 1280x800
-11=Virtual-1:::0,0 1920x940
 
 [UniversalSettings]
 badges3DStyle=false
