@@ -208,7 +208,33 @@ wallpaperplugin=org.kde.image
 Image=/usr/share/wallpapers/Big-retro.jpg
 SlidePaths=/usr/share/wallpapers
 
+[Containments][39]
+activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
+formfactor=0
+immutability=1
+lastScreen=4
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][39][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Big-retro.jpg
+SlidePaths=/usr/share/wallpapers
+
 [Containments][40]
+activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
+formfactor=0
+immutability=1
+lastScreen=5
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][40][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Big-retro.jpg
+SlidePaths=/usr/share/wallpapers
+
+[Containments][3]
 activityId=
 formfactor=2
 immutability=1
@@ -217,105 +243,105 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][40][Applets][20]
+[Containments][3][Applets][20]
 immutability=1
 plugin=org.kde.plasma.icon
 
-[Containments][40][Applets][20][Configuration]
+[Containments][3][Applets][20][Configuration]
 PreloadWeight=0
 localPath=/home/biglinux/.local/share/plasma_icons/org.kde.dolphin.desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
-[Containments][40][Applets][25]
+[Containments][3][Applets][25]
 immutability=1
 plugin=org.kde.plasma.minimizeall
 
-[Containments][40][Applets][25][Configuration]
+[Containments][3][Applets][25][Configuration]
 PreloadWeight=0
 
-[Containments][40][Applets][3][Configuration][General]
+[Containments][3][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
 
-[Containments][40][Applets][30]
+[Containments][3][Applets][30]
 immutability=1
 plugin=org.kde.plasma.icon
 
-[Containments][40][Applets][30][Configuration]
+[Containments][3][Applets][30][Configuration]
 PreloadWeight=42
 localPath=/home/biglinux/.local/share/plasma_icons/brave-browser.desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
-[Containments][40][Applets][31]
+[Containments][3][Applets][31]
 immutability=1
 plugin=org.kde.plasma.kicker
 
-[Containments][40][Applets][31][Configuration]
+[Containments][3][Applets][31][Configuration]
 PreloadWeight=20
 
-[Containments][40][Applets][31][Configuration][ConfigDialog]
+[Containments][3][Applets][31][Configuration][ConfigDialog]
 DialogHeight=620
 DialogWidth=800
 
-[Containments][40][Applets][31][Configuration][General]
+[Containments][3][Applets][31][Configuration][General]
 customButtonImage=big-favicon-classic
 favoritesPortedToKAstats=true
 icon=big-favicon-classic
 useCustomButtonImage=true
 
-[Containments][40][Applets][31][Shortcuts]
+[Containments][3][Applets][31][Shortcuts]
 global=Alt+F1
 
-[Containments][40][Applets][34]
+[Containments][3][Applets][34]
 immutability=1
 plugin=com.github.zren.presentwindows
 
-[Containments][40][Applets][34][Configuration][General]
+[Containments][3][Applets][34][Configuration][General]
 clickCommand=Overview
 icon[$e]=mission-control
 
-[Containments][40][Applets][5]
+[Containments][3][Applets][5]
 immutability=1
 plugin=org.kde.plasma.taskmanager
 
-[Containments][40][Applets][5][Configuration]
+[Containments][3][Applets][5][Configuration]
 PreloadWeight=0
 
-[Containments][40][Applets][5][Configuration][ConfigDialog]
+[Containments][3][Applets][5][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][40][Applets][5][Configuration][General]
+[Containments][3][Applets][5][Configuration][General]
 groupingStrategy=0
 launchers=
 middleClickAction=None
 showOnlyCurrentScreen=true
 sortingStrategy=1
 
-[Containments][40][Applets][8]
+[Containments][3][Applets][8]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][40][Applets][8][Configuration]
+[Containments][3][Applets][8][Configuration]
 PreloadWeight=5
 
-[Containments][40][Applets][8][Configuration][Appearance]
+[Containments][3][Applets][8][Configuration][Appearance]
 showDate=false
 
-[Containments][40][Applets][8][Configuration][ConfigDialog]
+[Containments][3][Applets][8][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
-[Containments][40][ConfigDialog]
+[Containments][3][ConfigDialog]
 DialogHeight=86
 DialogWidth=1920
 
-[Containments][40][Configuration]
+[Containments][3][Configuration]
 PreloadWeight=0
 
-[Containments][40][General]
+[Containments][3][General]
 AppletOrder=31;30;20;25;5;34;8
 
-[Containments][50]
+[Containments][4]
 activityId=
 formfactor=2
 immutability=1
@@ -324,105 +350,105 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][50][Applets][20]
+[Containments][4][Applets][20]
 immutability=1
 plugin=org.kde.plasma.icon
 
-[Containments][50][Applets][20][Configuration]
+[Containments][4][Applets][20][Configuration]
 PreloadWeight=0
 localPath=/home/biglinux/.local/share/plasma_icons/org.kde.dolphin.desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
-[Containments][50][Applets][25]
+[Containments][4][Applets][25]
 immutability=1
 plugin=org.kde.plasma.minimizeall
 
-[Containments][50][Applets][25][Configuration]
+[Containments][4][Applets][25][Configuration]
 PreloadWeight=0
 
-[Containments][50][Applets][3][Configuration][General]
+[Containments][4][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
 
-[Containments][50][Applets][30]
+[Containments][4][Applets][30]
 immutability=1
 plugin=org.kde.plasma.icon
 
-[Containments][50][Applets][30][Configuration]
+[Containments][4][Applets][30][Configuration]
 PreloadWeight=42
 localPath=/home/biglinux/.local/share/plasma_icons/brave-browser.desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
-[Containments][50][Applets][31]
+[Containments][4][Applets][31]
 immutability=1
 plugin=org.kde.plasma.kicker
 
-[Containments][50][Applets][31][Configuration]
+[Containments][4][Applets][31][Configuration]
 PreloadWeight=20
 
-[Containments][50][Applets][31][Configuration][ConfigDialog]
+[Containments][4][Applets][31][Configuration][ConfigDialog]
 DialogHeight=620
 DialogWidth=800
 
-[Containments][50][Applets][31][Configuration][General]
+[Containments][4][Applets][31][Configuration][General]
 customButtonImage=big-favicon-classic
 favoritesPortedToKAstats=true
 icon=big-favicon-classic
 useCustomButtonImage=true
 
-[Containments][50][Applets][31][Shortcuts]
+[Containments][4][Applets][31][Shortcuts]
 global=Alt+F1
 
-[Containments][50][Applets][34]
+[Containments][4][Applets][34]
 immutability=1
 plugin=com.github.zren.presentwindows
 
-[Containments][50][Applets][34][Configuration][General]
+[Containments][4][Applets][34][Configuration][General]
 clickCommand=Overview
 icon[$e]=mission-control
 
-[Containments][50][Applets][5]
+[Containments][4][Applets][5]
 immutability=1
 plugin=org.kde.plasma.taskmanager
 
-[Containments][50][Applets][5][Configuration]
+[Containments][4][Applets][5][Configuration]
 PreloadWeight=0
 
-[Containments][50][Applets][5][Configuration][ConfigDialog]
+[Containments][4][Applets][5][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][50][Applets][5][Configuration][General]
+[Containments][4][Applets][5][Configuration][General]
 groupingStrategy=0
 launchers=
 middleClickAction=None
 showOnlyCurrentScreen=true
 sortingStrategy=1
 
-[Containments][50][Applets][8]
+[Containments][4][Applets][8]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][50][Applets][8][Configuration]
+[Containments][4][Applets][8][Configuration]
 PreloadWeight=5
 
-[Containments][50][Applets][8][Configuration][Appearance]
+[Containments][4][Applets][8][Configuration][Appearance]
 showDate=false
 
-[Containments][50][Applets][8][Configuration][ConfigDialog]
+[Containments][4][Applets][8][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
-[Containments][50][ConfigDialog]
+[Containments][4][ConfigDialog]
 DialogHeight=86
 DialogWidth=1920
 
-[Containments][50][Configuration]
+[Containments][4][Configuration]
 PreloadWeight=0
 
-[Containments][50][General]
+[Containments][4][General]
 AppletOrder=31;30;20;25;5;34;8
 
-[Containments][60]
+[Containments][5]
 activityId=
 formfactor=2
 immutability=1
@@ -431,102 +457,316 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][60][Applets][20]
+[Containments][5][Applets][20]
 immutability=1
 plugin=org.kde.plasma.icon
 
-[Containments][60][Applets][20][Configuration]
+[Containments][5][Applets][20][Configuration]
 PreloadWeight=0
 localPath=/home/biglinux/.local/share/plasma_icons/org.kde.dolphin.desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
-[Containments][60][Applets][25]
+[Containments][5][Applets][25]
 immutability=1
 plugin=org.kde.plasma.minimizeall
 
-[Containments][60][Applets][25][Configuration]
+[Containments][5][Applets][25][Configuration]
 PreloadWeight=0
 
-[Containments][60][Applets][3][Configuration][General]
+[Containments][5][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
 
-[Containments][60][Applets][30]
+[Containments][5][Applets][30]
 immutability=1
 plugin=org.kde.plasma.icon
 
-[Containments][60][Applets][30][Configuration]
+[Containments][5][Applets][30][Configuration]
 PreloadWeight=42
 localPath=/home/biglinux/.local/share/plasma_icons/brave-browser.desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
-[Containments][60][Applets][31]
+[Containments][5][Applets][31]
 immutability=1
 plugin=org.kde.plasma.kicker
 
-[Containments][60][Applets][31][Configuration]
+[Containments][5][Applets][31][Configuration]
 PreloadWeight=20
 
-[Containments][60][Applets][31][Configuration][ConfigDialog]
+[Containments][5][Applets][31][Configuration][ConfigDialog]
 DialogHeight=620
 DialogWidth=800
 
-[Containments][60][Applets][31][Configuration][General]
+[Containments][5][Applets][31][Configuration][General]
 customButtonImage=big-favicon-classic
 favoritesPortedToKAstats=true
 icon=big-favicon-classic
 useCustomButtonImage=true
 
-[Containments][60][Applets][31][Shortcuts]
+[Containments][5][Applets][31][Shortcuts]
 global=Alt+F1
 
-[Containments][60][Applets][34]
+[Containments][5][Applets][34]
 immutability=1
 plugin=com.github.zren.presentwindows
 
-[Containments][60][Applets][34][Configuration][General]
+[Containments][5][Applets][34][Configuration][General]
 clickCommand=Overview
 icon[$e]=mission-control
 
-[Containments][60][Applets][5]
+[Containments][5][Applets][5]
 immutability=1
 plugin=org.kde.plasma.taskmanager
 
-[Containments][60][Applets][5][Configuration]
+[Containments][5][Applets][5][Configuration]
 PreloadWeight=0
 
-[Containments][60][Applets][5][Configuration][ConfigDialog]
+[Containments][5][Applets][5][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][60][Applets][5][Configuration][General]
+[Containments][5][Applets][5][Configuration][General]
 groupingStrategy=0
 launchers=
 middleClickAction=None
 showOnlyCurrentScreen=true
 sortingStrategy=1
 
-[Containments][60][Applets][8]
+[Containments][5][Applets][8]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][60][Applets][8][Configuration]
+[Containments][5][Applets][8][Configuration]
 PreloadWeight=5
 
-[Containments][60][Applets][8][Configuration][Appearance]
+[Containments][5][Applets][8][Configuration][Appearance]
 showDate=false
 
-[Containments][60][Applets][8][Configuration][ConfigDialog]
+[Containments][5][Applets][8][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
-[Containments][60][ConfigDialog]
+[Containments][5][ConfigDialog]
 DialogHeight=86
 DialogWidth=1920
 
-[Containments][60][Configuration]
+[Containments][5][Configuration]
 PreloadWeight=0
 
-[Containments][60][General]
+[Containments][5][General]
+AppletOrder=31;30;20;25;5;34;8
+
+[Containments][6]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=4
+location=4
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][6][Applets][20]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][6][Applets][20][Configuration]
+PreloadWeight=0
+localPath=/home/biglinux/.local/share/plasma_icons/org.kde.dolphin.desktop
+url=file:///usr/share/applications/org.kde.dolphin.desktop
+
+[Containments][6][Applets][25]
+immutability=1
+plugin=org.kde.plasma.minimizeall
+
+[Containments][6][Applets][25][Configuration]
+PreloadWeight=0
+
+[Containments][6][Applets][3][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments][6][Applets][30]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][6][Applets][30][Configuration]
+PreloadWeight=42
+localPath=/home/biglinux/.local/share/plasma_icons/brave-browser.desktop
+url=file:///usr/share/applications/brave-browser.desktop
+
+[Containments][6][Applets][31]
+immutability=1
+plugin=org.kde.plasma.kicker
+
+[Containments][6][Applets][31][Configuration]
+PreloadWeight=20
+
+[Containments][6][Applets][31][Configuration][ConfigDialog]
+DialogHeight=620
+DialogWidth=800
+
+[Containments][6][Applets][31][Configuration][General]
+customButtonImage=big-favicon-classic
+favoritesPortedToKAstats=true
+icon=big-favicon-classic
+useCustomButtonImage=true
+
+[Containments][6][Applets][31][Shortcuts]
+global=Alt+F1
+
+[Containments][6][Applets][34]
+immutability=1
+plugin=com.github.zren.presentwindows
+
+[Containments][6][Applets][34][Configuration][General]
+clickCommand=Overview
+icon[$e]=mission-control
+
+[Containments][6][Applets][5]
+immutability=1
+plugin=org.kde.plasma.taskmanager
+
+[Containments][6][Applets][5][Configuration]
+PreloadWeight=0
+
+[Containments][6][Applets][5][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][6][Applets][5][Configuration][General]
+groupingStrategy=0
+launchers=
+middleClickAction=None
+showOnlyCurrentScreen=true
+sortingStrategy=1
+
+[Containments][6][Applets][8]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][6][Applets][8][Configuration]
+PreloadWeight=5
+
+[Containments][6][Applets][8][Configuration][Appearance]
+showDate=false
+
+[Containments][6][Applets][8][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][6][ConfigDialog]
+DialogHeight=86
+DialogWidth=1920
+
+[Containments][6][Configuration]
+PreloadWeight=0
+
+[Containments][6][General]
+AppletOrder=31;30;20;25;5;34;8
+
+[Containments][8]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=5
+location=4
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][8][Applets][20]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][8][Applets][20][Configuration]
+PreloadWeight=0
+localPath=/home/biglinux/.local/share/plasma_icons/org.kde.dolphin.desktop
+url=file:///usr/share/applications/org.kde.dolphin.desktop
+
+[Containments][8][Applets][25]
+immutability=1
+plugin=org.kde.plasma.minimizeall
+
+[Containments][8][Applets][25][Configuration]
+PreloadWeight=0
+
+[Containments][8][Applets][3][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments][8][Applets][30]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][8][Applets][30][Configuration]
+PreloadWeight=42
+localPath=/home/biglinux/.local/share/plasma_icons/brave-browser.desktop
+url=file:///usr/share/applications/brave-browser.desktop
+
+[Containments][8][Applets][31]
+immutability=1
+plugin=org.kde.plasma.kicker
+
+[Containments][8][Applets][31][Configuration]
+PreloadWeight=20
+
+[Containments][8][Applets][31][Configuration][ConfigDialog]
+DialogHeight=620
+DialogWidth=800
+
+[Containments][8][Applets][31][Configuration][General]
+customButtonImage=big-favicon-classic
+favoritesPortedToKAstats=true
+icon=big-favicon-classic
+useCustomButtonImage=true
+
+[Containments][8][Applets][31][Shortcuts]
+global=Alt+F1
+
+[Containments][8][Applets][34]
+immutability=1
+plugin=com.github.zren.presentwindows
+
+[Containments][8][Applets][34][Configuration][General]
+clickCommand=Overview
+icon[$e]=mission-control
+
+[Containments][8][Applets][5]
+immutability=1
+plugin=org.kde.plasma.taskmanager
+
+[Containments][8][Applets][5][Configuration]
+PreloadWeight=0
+
+[Containments][8][Applets][5][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][8][Applets][5][Configuration][General]
+groupingStrategy=0
+launchers=
+middleClickAction=None
+showOnlyCurrentScreen=true
+sortingStrategy=1
+
+[Containments][8][Applets][8]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][8][Applets][8][Configuration]
+PreloadWeight=5
+
+[Containments][8][Applets][8][Configuration][Appearance]
+showDate=false
+
+[Containments][8][Applets][8][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][8][ConfigDialog]
+DialogHeight=86
+DialogWidth=1920
+
+[Containments][8][Configuration]
+PreloadWeight=0
+
+[Containments][8][General]
 AppletOrder=31;30;20;25;5;34;8
 
 [Containments][7]
