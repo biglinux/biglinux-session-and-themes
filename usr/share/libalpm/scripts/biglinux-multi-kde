@@ -6,5 +6,11 @@ if [ "$(file -i /usr/bin/ksplashqml | grep 'charset=binary')" != "" ]; then
 fi
 
 mv -f /usr/share/xsessions/plasma.desktop /usr/share/divert/plasma.desktop 2> /dev/null
-
+sed -i 's|Exec=.*|Exec=/usr/bin/startkde-biglinux wayland|g' /usr/share/wayland-sessions/plasmawayland.desktop
+sed -i 's|TryExec=.*|TryExec=/usr/bin/startkde-biglinux|g' /usr/share/wayland-sessions/plasmawayland.desktop
 sed -i 's|Restart=on-failure|Restart=always|g' /usr/lib/systemd/user/plasma-plasmashell.service
+
+if [ -e "/usr/local/bin/latte-dock" ]; then
+    mv -f /usr/local/bin/latte-dock /usr/bin/latte-dock
+fi
+
