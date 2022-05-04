@@ -5,12 +5,17 @@ pluginWhiteList=services,desktopsessions,PowerDevil,shell,bookmarks,baloosearch,
 [PlasmaViews][Panel 2][Defaults]
 thickness=36
 
-[PlasmaViews][Panel 40][Defaults]
+[PlasmaViews][Panel 3][Defaults]
 thickness=36
 
-[PlasmaViews][Panel 50][Defaults]
+[PlasmaViews][Panel 4][Defaults]
 thickness=36
 
-[PlasmaViews][Panel 60][Defaults]
+[PlasmaViews][Panel 5][Defaults]
 thickness=36
 
+[PlasmaViews][Panel 6][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 8][Defaults]
+thickness=36
