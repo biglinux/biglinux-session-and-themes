@@ -121,6 +121,16 @@ done
 export KWIN_EFFECTS_FORCE_ANIMATIONS=1
 export MULTIKDE=$nowlogin
 
+
+
+# Fix to GTK4 theme
+if [ "$(grep gtk-application-prefer-dark-theme=true ~/.config/gtk-3.0/settings.ini)" = "" ]; then
+    export GTK_THEME=$(grep gtk-theme-name= ~/.config/gtk-3.0/settings.ini | cut -f2 -d=)
+else
+    export GTK_THEME=$(grep gtk-theme-name= ~/.config/gtk-3.0/settings.ini | cut -f2 -d=):dark
+fi
+
+
 # Change way to autostart latte
 #rm -f ~/.config/autostart/org.kde.latte-dock.desktop
 
