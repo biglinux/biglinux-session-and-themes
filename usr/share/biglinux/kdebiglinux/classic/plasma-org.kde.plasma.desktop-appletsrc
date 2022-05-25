@@ -249,7 +249,6 @@ plugin=org.kde.plasma.icon
 
 [Containments][3][Applets][20][Configuration]
 PreloadWeight=0
-localPath=/home/biglinux/.local/share/plasma_icons/org.kde.dolphin.desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
 [Containments][3][Applets][25]
@@ -268,7 +267,6 @@ plugin=org.kde.plasma.icon
 
 [Containments][3][Applets][30][Configuration]
 PreloadWeight=42
-localPath=/home/biglinux/.local/share/plasma_icons/brave-browser.desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
 [Containments][3][Applets][31]
@@ -356,7 +354,6 @@ plugin=org.kde.plasma.icon
 
 [Containments][4][Applets][20][Configuration]
 PreloadWeight=0
-localPath=/home/biglinux/.local/share/plasma_icons/org.kde.dolphin.desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
 [Containments][4][Applets][25]
@@ -375,7 +372,6 @@ plugin=org.kde.plasma.icon
 
 [Containments][4][Applets][30][Configuration]
 PreloadWeight=42
-localPath=/home/biglinux/.local/share/plasma_icons/brave-browser.desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
 [Containments][4][Applets][31]
@@ -463,7 +459,6 @@ plugin=org.kde.plasma.icon
 
 [Containments][5][Applets][20][Configuration]
 PreloadWeight=0
-localPath=/home/biglinux/.local/share/plasma_icons/org.kde.dolphin.desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
 [Containments][5][Applets][25]
@@ -482,7 +477,6 @@ plugin=org.kde.plasma.icon
 
 [Containments][5][Applets][30][Configuration]
 PreloadWeight=42
-localPath=/home/biglinux/.local/share/plasma_icons/brave-browser.desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
 [Containments][5][Applets][31]
@@ -570,7 +564,6 @@ plugin=org.kde.plasma.icon
 
 [Containments][6][Applets][20][Configuration]
 PreloadWeight=0
-localPath=/home/biglinux/.local/share/plasma_icons/org.kde.dolphin.desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
 [Containments][6][Applets][25]
@@ -589,7 +582,6 @@ plugin=org.kde.plasma.icon
 
 [Containments][6][Applets][30][Configuration]
 PreloadWeight=42
-localPath=/home/biglinux/.local/share/plasma_icons/brave-browser.desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
 [Containments][6][Applets][31]
@@ -677,7 +669,6 @@ plugin=org.kde.plasma.icon
 
 [Containments][8][Applets][20][Configuration]
 PreloadWeight=0
-localPath=/home/biglinux/.local/share/plasma_icons/org.kde.dolphin.desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
 [Containments][8][Applets][25]
@@ -696,7 +687,6 @@ plugin=org.kde.plasma.icon
 
 [Containments][8][Applets][30][Configuration]
 PreloadWeight=42
-localPath=/home/biglinux/.local/share/plasma_icons/brave-browser.desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
 [Containments][8][Applets][31]
