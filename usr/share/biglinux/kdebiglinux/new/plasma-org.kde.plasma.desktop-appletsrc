@@ -48,7 +48,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][2][Applets][29][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:brave-browser.desktop,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
 showOnlyCurrentScreen=true
 showOnlyCurrentDesktop=false
@@ -185,7 +185,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][3][Applets][29][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:brave-browser.desktop,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
 showOnlyCurrentScreen=true
 showOnlyCurrentDesktop=false
@@ -347,7 +347,7 @@ plugin=org.kde.plasma.icontasks
 PreloadWeight=0
 
 [Containments][4][Applets][29][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:brave-browser.desktop,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
 showOnlyCurrentScreen=true
 showOnlyCurrentDesktop=false
@@ -510,7 +510,7 @@ plugin=org.kde.plasma.icontasks
 PreloadWeight=0
 
 [Containments][5][Applets][29][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:brave-browser.desktop,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
 showOnlyCurrentScreen=true
 showOnlyCurrentDesktop=false
@@ -600,7 +600,7 @@ plugin=org.kde.plasma.icontasks
 PreloadWeight=0
 
 [Containments][6][Applets][29][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:brave-browser.desktop,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
 showOnlyCurrentScreen=true
 showOnlyCurrentDesktop=false
@@ -690,7 +690,7 @@ plugin=org.kde.plasma.icontasks
 PreloadWeight=0
 
 [Containments][7][Applets][29][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:brave-browser.desktop,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
 showOnlyCurrentScreen=true
 showOnlyCurrentDesktop=false

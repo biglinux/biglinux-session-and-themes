@@ -118,6 +118,12 @@ else
     sed -i '/BorderlessMaximizedWindows=true/d' ~/.config/kwinrc
 fi
 
+if [ "$2" = "classic" ]; then
+    #descobrir browser padrão do sistema
+    DEFAULTWEB=$(xdg-settings get default-web-browser)
+    #se não achar browser padrão jultar que é brave-browser
+    sed -i "s|url=file:///usr/share/applications/brave-browser.desktop|url=file:///usr/share/applications/$DEFAULTWEB|" ~/.config/plasma-org.kde.plasma.desktop-appletsrc
+fi
 
 if [ "$4" != "quiet" ]; then
     systemctl --user start plasma-plasmashell
