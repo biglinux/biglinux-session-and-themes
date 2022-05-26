@@ -10,11 +10,15 @@ if [ "$1" = "wayland" ]; then
     STARTPLASMA=startplasma-wayland
     # export EGL_PLATFORM=wayland
     # export GDK_BACKEND=wayland
-    export KWIN_OPENGL_INTERFACE=egl
     # export QT_QPA_PLATFORM=wayland-egl 
     # export SDL_VIDEODRIVER=wayland
+    export EGL_PLATFORM=wayland
+    export GDK_BACKEND=wayland
+    export KWIN_OPENGL_INTERFACE=egl
+    export QT_QPA_PLATFORM=wayland-egl 
+    export SDL_VIDEODRIVER=wayland
     export QT_XCB_GL_INTEGRATION=xcb_egl
-    export QT_WAYLAND_CLIENT_BUFFER_INTEGRATION=xcomposite-egl
+    export QSG_RENDER_LOOP=basic
 
 else
     export GDK_BACKEND=x11
