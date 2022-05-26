@@ -5,6 +5,14 @@ STARTPLASMA=startplasma-x11
 
 if [ "$1" = "wayland" ]; then
     STARTPLASMA=startplasma-wayland
+    # export EGL_PLATFORM=wayland
+    # export GDK_BACKEND=wayland
+    export KWIN_OPENGL_INTERFACE=egl
+    # export QT_QPA_PLATFORM=wayland-egl 
+    # export SDL_VIDEODRIVER=wayland
+    export QT_XCB_GL_INTEGRATION=xcb_egl
+    export QT_WAYLAND_CLIENT_BUFFER_INTEGRATION=xcomposite-egl
+
 else
     export GDK_BACKEND=x11
     export GSK_RENDERER=cairo
@@ -148,9 +156,9 @@ if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
 fi
 
 if [ -e "$HOME/.config/kdelight" ]; then
-    QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic exec $STARTPLASMA
+    QT_XCB_GL_INTEGRATION=none QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic exec $STARTPLASMA
 else
-    exec $STARTPLASMA
+    QSG_RENDER_LOOP=basic exec $STARTPLASMA
 fi
 
 if [ -e /usr/share/kconf_update/kwin-5.23-remove-cover-switch.py ]; then
