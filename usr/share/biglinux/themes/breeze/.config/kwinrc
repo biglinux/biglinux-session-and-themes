@@ -106,7 +106,8 @@ WindowSnapZone=10
 
 [org.kde.kdecoration2]
 BorderSize=None
+BorderSizeAuto=false
 ButtonsOnLeft=MSF
 ButtonsOnRight=HIAX
-CloseOnDoubleClickOnMenu=false
-library=org.kde.breeze
+library=org.kde.classik
+theme=ClassiK
