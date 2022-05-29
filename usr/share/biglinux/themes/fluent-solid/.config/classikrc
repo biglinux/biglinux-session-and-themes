@@ -1,7 +1,7 @@
 [Common]
 ButtonIconStyle=StyleRedmond
 ButtonShape=ShapeSmallCircle
-ShadowStrength=36
+ShadowSize=ShadowSmall
 
 [Windeco]
 ButtonSpacingLeft=3
