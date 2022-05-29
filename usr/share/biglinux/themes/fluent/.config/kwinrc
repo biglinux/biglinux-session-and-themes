@@ -34,7 +34,6 @@ overviewEnabled=true
 contrastEnabled=true
 kwin4_effect_fadingpopupsEnabled=true
 wobblywindowsEnabled=true
-blurEnabled=true
 kwin4_effect_lightlyshadersEnabled=false
 kwin4_effect_shapecornersEnabled=false
 kwin4_effect_translucencyEnabled=false

@@ -15,6 +15,10 @@ Rows=1
 [MouseBindings]
 CommandAllKey=Alt
 
+[Effect-Blur]
+BlurStrength=4
+NoiseStrength=0
+
 [Effect-PresentWindows]
 BorderActivate=7
 BorderActivateAll=9
@@ -30,7 +34,6 @@ overviewEnabled=true
 contrastEnabled=true
 kwin4_effect_fadingpopupsEnabled=true
 wobblywindowsEnabled=true
-blurEnabled=false
 kwin4_effect_lightlyshadersEnabled=false
 kwin4_effect_shapecornersEnabled=false
 kwin4_effect_translucencyEnabled=false

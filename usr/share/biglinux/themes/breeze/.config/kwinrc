@@ -25,6 +25,7 @@ Rows=1
 CommandAllKey=Alt
 
 [Effect-Blur]
+BlurStrength=4
 NoiseStrength=0
 
 [Effect-Cube]
