@@ -136,7 +136,16 @@ case "$1" in
 			#Configure GTK
 			qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
         fi
-
+        
+        
+        #Fluent theme without blur using llvmpipe to 3D render
+        if [ "$2" = "fluent" ] && [ "$(glxinfo | grep llvmpipe)" != "" ]; then
+            sed -i 's|Fluent-round|Fluent-roundsw|g' ~/.config/Kvantum/kvantum.kvconfig
+        fi
+        
+        if [ "$2" = "fluent-dark" ] && [ "$(glxinfo | grep llvmpipe)" != "" ]; then
+            sed -i 's|Fluent-roundDark|Fluent-roundswDark|g' ~/.config/Kvantum/kvantum.kvconfig        
+        fi
 
    else
         echo "Theme not found."

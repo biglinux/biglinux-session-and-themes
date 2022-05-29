@@ -2,16 +2,7 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
 
 [Compositing]
-AnimationSpeed=3
-Backend=OpenGL
-Enabled=true
-GLCore=false
-GLPreferBufferSwap=a
-GLTextureFilter=0
-HiddenPreviews=5
 OpenGLIsUnsafe=false
-WindowsBlockCompositing=true
-XRenderSmoothScale=false
 
 [Desktops]
 Id_1=e7e511d8-9d8d-43ba-b0f2-d1ebf8006f06
@@ -28,19 +19,6 @@ CommandAllKey=Alt
 BlurStrength=4
 NoiseStrength=0
 
-[Effect-Cube]
-BorderActivate=9
-BorderActivateCylinder=9
-BorderActivateSphere=9
-
-[Effect-DesktopGrid]
-BorderActivate=9
-
-[Effect-PresentWindows]
-BorderActivate=9
-BorderActivateAll=9
-BorderActivateClass=9
-
 [Effect-PresentWindows]
 BorderActivate=7
 BorderActivateAll=9
@@ -50,19 +28,6 @@ Drag=70
 MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
-
-[ElectricBorders]
-Bottom=None
-BottomLeft=None
-BottomRight=None
-Left=None
-Right=None
-Top=None
-TopLeft=None
-TopRight=None
-
-[ModifierOnlyShortcuts]
-Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
 
 [Plugins]
 overviewEnabled=true
@@ -100,14 +65,15 @@ FocusPolicy=ClickToFocus
 FocusStealingPreventionLevel=0
 GeometryTip=false
 NextFocusPrefersMouse=false
-Placement=Centered
 SeparateScreenFocus=false
 SnapOnlyWhenOverlapping=false
 WindowSnapZone=10
+Placement=Centered
 
 [org.kde.kdecoration2]
+BorderSize=NoSides
+BorderSizeAuto=false
 ButtonsOnLeft=MSF
 ButtonsOnRight=HIAX
-CloseOnDoubleClickOnMenu=false
-library=org.kde.lightly
-theme=Lightly
+library=org.kde.classik
+theme=ClassiK

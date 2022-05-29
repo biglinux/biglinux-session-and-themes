@@ -162,8 +162,65 @@ if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
     systemctl --user start lattedock
 fi
 
+# Less transparent Fluent plasma theme if dont have 3d accel
+if [ "$(glxinfo | grep llvmpipe)" = "" ]; then
+    rm -Rf ~/.local/share/plasma/desktoptheme/Fluent/
+    rm -Rf ~/.local/share/plasma/desktoptheme/Fluent-round/
+else
+    mkdir -p ~/.local/share/plasma/desktoptheme/Fluent
+    echo '[Desktop Entry]
+Name=Fluent
+Comment=Fluent theme for plasma
+
+X-KDE-PluginInfo-Author=Vince Liuice
+X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
+X-KDE-PluginInfo-Name=Fluent
+X-KDE-PluginInfo-Version=5.78.0
+X-KDE-PluginInfo-Website=https://plasma.kde.org
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-License=LGPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[ContrastEffect]
+enabled=true
+contrast=0.25
+intensity=1
+saturation=5
+
+[AdaptiveTransparency]
+enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent/metadata.desktop
+
+    mkdir -p ~/.local/share/plasma/desktoptheme/Fluent-round
+
+    echo '[Desktop Entry]
+Name=Fluent-round
+Comment=Fluent theme for plasma
+
+X-KDE-PluginInfo-Author=Vince Liuice
+X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
+X-KDE-PluginInfo-Name=Fluent-round
+X-KDE-PluginInfo-Version=5.78.0
+X-KDE-PluginInfo-Website=https://plasma.kde.org
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-License=LGPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[ContrastEffect]
+enabled=true
+contrast=0.25
+intensity=1
+saturation=5
+
+[AdaptiveTransparency]
+enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent-round
+
+fi
+
+
 if [ -e "$HOME/.config/kdelight" ]; then
-    QT_XCB_GL_INTEGRATION=none QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic exec $STARTPLASMA
+    QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic exec $STARTPLASMA
 else
     QSG_RENDER_LOOP=basic exec $STARTPLASMA
 fi
