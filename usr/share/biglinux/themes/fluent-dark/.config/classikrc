@@ -3,10 +3,14 @@ ActiveTitlebarOpacity=75
 ButtonIconStyle=StyleRedmond
 ButtonShape=ShapeSmallCircle
 InactiveTitlebarOpacity=75
+ShadowSize=ShadowMedium
+ShadowStrength=36
 
 [Windeco]
 ButtonSpacingLeft=3
 ButtonSpacingRight=3
 IconSize=IconSmall
+OpaqueMaximizedTitlebars=false
 TitlebarSideMargins=3
+UseTitlebarColorForAllBorders=true
 thinWindowOutlineStyle=WindowOutlineBlendToShadow
