@@ -109,10 +109,34 @@ sortingStrategy=1
 
 [Containments][2][Applets][8]
 immutability=1
-plugin=org.kde.plasma.digitalclock
+plugin=org.kde.plasma.eventcalendar
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=1
+PreloadWeight=90
+
+[Containments][2][Applets][8][Configuration][Agenda]
+twoColumns=false
+
+[Containments][2][Applets][8][Configuration][Calendar]
+monthHeightSingleColumn=350
+monthShowBorder=true
+monthShowWeekNumbers=true
+monthTodayStyle=bigNumber
+
+[Containments][2][Applets][8][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][2][Applets][8][Configuration][General]
+clockShowLine2=true
+leftColumnWidth=500
+v71Migration=true
+v72Migration=true
+widgetShowMeteogram=false
+
+[Containments][2][Applets][8][Configuration][Google Calendar]
+calendarList=W10=
+tasklistList=W10=
 
 [Containments][2][ConfigDialog]
 DialogHeight=91
@@ -238,10 +262,34 @@ sortingStrategy=1
 
 [Containments][3][Applets][8]
 immutability=1
-plugin=org.kde.plasma.digitalclock
+plugin=org.kde.plasma.eventcalendar
 
 [Containments][3][Applets][8][Configuration]
-PreloadWeight=6
+PreloadWeight=90
+
+[Containments][3][Applets][8][Configuration][Agenda]
+twoColumns=false
+
+[Containments][3][Applets][8][Configuration][Calendar]
+monthHeightSingleColumn=350
+monthShowBorder=true
+monthShowWeekNumbers=true
+monthTodayStyle=bigNumber
+
+[Containments][3][Applets][8][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][3][Applets][8][Configuration][General]
+clockShowLine2=true
+leftColumnWidth=500
+v71Migration=true
+v72Migration=true
+widgetShowMeteogram=false
+
+[Containments][3][Applets][8][Configuration][Google Calendar]
+calendarList=W10=
+tasklistList=W10=
 
 [Containments][3][ConfigDialog]
 DialogHeight=91
@@ -400,10 +448,34 @@ sortingStrategy=1
 
 [Containments][4][Applets][8]
 immutability=1
-plugin=org.kde.plasma.digitalclock
+plugin=org.kde.plasma.eventcalendar
 
 [Containments][4][Applets][8][Configuration]
-PreloadWeight=1
+PreloadWeight=90
+
+[Containments][4][Applets][8][Configuration][Agenda]
+twoColumns=false
+
+[Containments][4][Applets][8][Configuration][Calendar]
+monthHeightSingleColumn=350
+monthShowBorder=true
+monthShowWeekNumbers=true
+monthTodayStyle=bigNumber
+
+[Containments][4][Applets][8][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][4][Applets][8][Configuration][General]
+clockShowLine2=true
+leftColumnWidth=500
+v71Migration=true
+v72Migration=true
+widgetShowMeteogram=false
+
+[Containments][4][Applets][8][Configuration][Google Calendar]
+calendarList=W10=
+tasklistList=W10=
 
 [Containments][4][ConfigDialog]
 DialogHeight=86
@@ -563,10 +635,34 @@ sortingStrategy=1
 
 [Containments][5][Applets][8]
 immutability=1
-plugin=org.kde.plasma.digitalclock
+plugin=org.kde.plasma.eventcalendar
 
 [Containments][5][Applets][8][Configuration]
-PreloadWeight=1
+PreloadWeight=90
+
+[Containments][5][Applets][8][Configuration][Agenda]
+twoColumns=false
+
+[Containments][5][Applets][8][Configuration][Calendar]
+monthHeightSingleColumn=350
+monthShowBorder=true
+monthShowWeekNumbers=true
+monthTodayStyle=bigNumber
+
+[Containments][5][Applets][8][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][5][Applets][8][Configuration][General]
+clockShowLine2=true
+leftColumnWidth=500
+v71Migration=true
+v72Migration=true
+widgetShowMeteogram=false
+
+[Containments][5][Applets][8][Configuration][Google Calendar]
+calendarList=W10=
+tasklistList=W10=
 
 [Containments][5][ConfigDialog]
 DialogHeight=86
@@ -653,10 +749,34 @@ sortingStrategy=1
 
 [Containments][6][Applets][8]
 immutability=1
-plugin=org.kde.plasma.digitalclock
+plugin=org.kde.plasma.eventcalendar
 
 [Containments][6][Applets][8][Configuration]
-PreloadWeight=1
+PreloadWeight=90
+
+[Containments][6][Applets][8][Configuration][Agenda]
+twoColumns=false
+
+[Containments][6][Applets][8][Configuration][Calendar]
+monthHeightSingleColumn=350
+monthShowBorder=true
+monthShowWeekNumbers=true
+monthTodayStyle=bigNumber
+
+[Containments][6][Applets][8][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][6][Applets][8][Configuration][General]
+clockShowLine2=true
+leftColumnWidth=500
+v71Migration=true
+v72Migration=true
+widgetShowMeteogram=false
+
+[Containments][6][Applets][8][Configuration][Google Calendar]
+calendarList=W10=
+tasklistList=W10=
 
 [Containments][6][ConfigDialog]
 DialogHeight=86
@@ -743,10 +863,34 @@ sortingStrategy=1
 
 [Containments][7][Applets][8]
 immutability=1
-plugin=org.kde.plasma.digitalclock
+plugin=org.kde.plasma.eventcalendar
 
 [Containments][7][Applets][8][Configuration]
-PreloadWeight=1
+PreloadWeight=90
+
+[Containments][7][Applets][8][Configuration][Agenda]
+twoColumns=false
+
+[Containments][7][Applets][8][Configuration][Calendar]
+monthHeightSingleColumn=350
+monthShowBorder=true
+monthShowWeekNumbers=true
+monthTodayStyle=bigNumber
+
+[Containments][7][Applets][8][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][7][Applets][8][Configuration][General]
+clockShowLine2=true
+leftColumnWidth=500
+v71Migration=true
+v72Migration=true
+widgetShowMeteogram=false
+
+[Containments][7][Applets][8][Configuration][Google Calendar]
+calendarList=W10=
+tasklistList=W10=
 
 [Containments][7][ConfigDialog]
 DialogHeight=86
