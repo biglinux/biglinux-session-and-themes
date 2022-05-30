@@ -3,12 +3,14 @@
 
 if [ "$(kreadconfig5  --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc")" = "true" ]; then
     kwriteconfig5 --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc" "false"
-    kcminit mouse
+#     kcminit mouse
     kwriteconfig5 --group "SynPS/2 Synaptics TouchPad" --key "naturalScroll" --file "$HOME/.config/touchpadxlibinputrc" "false"
-    kcminit kcm_touchpad
+#     kcminit kcm_touchpad
 else
     kwriteconfig5 --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc" "true"
-    kcminit mouse
+#     kcminit mouse
     kwriteconfig5 --group "SynPS/2 Synaptics TouchPad" --key "naturalScroll" --file "$HOME/.config/touchpadxlibinputrc" "true"
-    kcminit kcm_touchpad
+#     kcminit kcm_touchpad
 fi
+
+kcminit_startup
