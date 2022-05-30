@@ -11,10 +11,7 @@ $(function () {
   });
 });
 
-
-
-/* LOGIN - MAIN.JS - dp 2017 */
-// LOGIN TABS
+// PRINCIAL TABS
 $(function () {
   var tab = $(".tabs h3 a");
   tab.on("click", function (event) {
