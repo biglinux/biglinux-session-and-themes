@@ -214,7 +214,7 @@ intensity=1
 saturation=5
 
 [AdaptiveTransparency]
-enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent-round
+enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent-round/metadata.desktop
 
 fi
 

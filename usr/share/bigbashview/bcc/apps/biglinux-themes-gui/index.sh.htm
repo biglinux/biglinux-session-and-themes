@@ -24,6 +24,12 @@ More_themes_translate=$"Temas"
 CLOSE=$"Fechar"
 orchis=$"Bordas arredondadas."
 fluent=$"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em computadores<br>antigos ou ambientes virtualizados."
+DESKTOP_FASTER=$"<b>Classic</b> e <b>New</b> têm melhor desempenho."
+
+
+if [ "$(glxinfo | grep llvmpipe)" != "" ]; then
+  NO_OGL=$"Utilizando renderização por software, a qualidade das transparências está reduzida."
+fi
 
 
 browser="$(cat "$HOME/.config/browser-optimize")"
@@ -233,7 +239,7 @@ cat << EOF
           <svg viewBox="0 0 576 512"><path d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z"/></svg><br><span> Desktop</span></label></li>
           
           <li title="Shipping"><label for="tab3" role="button" id="#desempenho-tab-content">
-          <svg viewBox="0 0 640 512"><path d="M544 224l-128-16-48-16h-24L227.158 44h39.509C278.333 44 288 41.375 288 38s-9.667-6-21.333-6H152v12h16v164h-48l-66.667-80H18.667L8 138.667V208h8v16h48v2.666l-64 8v42.667l64 8V288H16v16H8v69.333L18.667 384h34.667L120 304h48v164h-16v12h114.667c11.667 0 21.333-2.625 21.333-6s-9.667-6-21.333-6h-39.509L344 320h24l48-16 128-16c96-21.333 96-26.583 96-32 0-5.417 0-10.667-96-32z"/></svg><br><span> Desempenho</span></label></li>
+          <svg viewBox="0 0 640 512"><path d="M544 224l-128-16-48-16h-24L227.158 44h39.509C278.333 44 288 41.375 288 38s-9.667-6-21.333-6H152v12h16v164h-48l-66.667-80H18.667L8 138.667V208h8v16h48v2.666l-64 8v42.667l64 8V288H16v16H8v69.333L18.667 384h34.667L120 304h48v164h-16v12h114.667c11.667 0 21.333-2.625 21.333-6s-9.667-6-21.333-6h-39.509L344 320h24l48-16 128-16c96-21.333 96-26.583 96-32 0-5.417 0-10.667-96-32z"/></svg><br><span> Ajustes</span></label></li>
         </ul>
 
         <div class="slider"><div class="indicator"></div></div>          
@@ -260,6 +266,8 @@ cat << EOF
               <h3>Escolha o tema dos aplicativos:</h3>
             </div>
           </div> -->
+          <p>$NO_OGL</p>
+          
           <div class="centertext">
             <div id="desc">            
               <ul id="menu" class="img-label">
@@ -313,7 +321,8 @@ cat << EOF
               <h3>Escolha o desktop:</h3>
             </div>
           </div> -->
-
+            <p style="text-align:center">$DESKTOP_FASTER</p>
+          
           <div class="centertext">
             <div id="desc">
               <ul id="menu">
@@ -332,39 +341,7 @@ cat << EOF
               </ul>
             </div>
 
-            <div id="desc">
-              <h4 style="margin: 15px 0 15px 0;">Usabilidade</h4>
-
-              <ul>
-                <li style="padding: 2px;" onchange="_run('./kwin_button.run')">
-                  
-                    <input id="desktop1" name="bb1" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_left_button>
-                    <span for="desktop1">Botões da janela no lado esquerdo<br><small></small></span>
-                  
-                </li>                    
-                <li style="padding-top: 2px;" onchange="_run('./mouse.run')">
-                  
-                    <input id="desktop2" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_scrool_natural>
-                    <span for="desktop2">Rolagem do mouse invertida<br><small></small></span>
-                  
-                </li> 
-              </ul>
-              <ul>
-                <li style="padding: 2px;" onchange="_run('./search.run')">
-                  
-                    <input id="desktop3" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_search>
-                    <span for="desktop3">Pesquisar arquivos<br><small></small></span>
-                  
-                </li>                    
-                <li style="padding-top: 2px;" onchange="_run('./lock-desktop.run')">
-                  
-                    <input id="desktop4" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_lock_desktop>
-                    <span for="desktop4">Bloquear a área de trabalho<br><small></small></span>
-                  
-                </li>                    
-              </ul>
-
-            </div>          
+                   
           </div>
         </div>
 
@@ -513,7 +490,49 @@ cat << EOF
               </div>
             </div>            
           </div>
-        </div>
+          
+          </div>
+
+          <div class="biglinux-dashboard">
+          <div class="biglinux-center-panel">
+            <h4>Usabilidade</h4>
+            <div class="biglinux-card" style="height: 75%; position: relative;">
+
+              <ul>
+                <li style="padding: 2px;" onchange="_run('./kwin_button.run')">
+                  
+                    <input id="desktop1" name="bb1" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_left_button>
+                    <span for="desktop1">Botões da janela no lado esquerdo<br><small></small></span>
+                  
+                </li>                    
+                <li style="padding-top: 2px;" onchange="_run('./mouse.run')">
+                  
+                    <input id="desktop2" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_scrool_natural>
+                    <span for="desktop2">Rolagem do mouse invertida<br><small></small></span>
+                  
+                </li> 
+              </ul>
+              <ul>
+                <li style="padding: 2px;" onchange="_run('./search.run')">
+                  
+                    <input id="desktop3" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_search>
+                    <span for="desktop3">Pesquisar arquivos<br><small></small></span>
+                  
+                </li>                    
+                <li style="padding-top: 2px;" onchange="_run('./lock-desktop.run')">
+                  
+                    <input id="desktop4" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_lock_desktop>
+                    <span for="desktop4">Bloquear a área de trabalho<br><small></small></span>
+                  
+                </li>                    
+              </ul>
+</div>
+            </div>
+            </div>
+          
+          
+          
+          
       </div>
     </div>
   </div>
