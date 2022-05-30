@@ -14,8 +14,10 @@ xprop -id "$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" -f WM_CLASS 8s -
 # . /usr/share/bigbashview/bcc/shell/base.sh
 
 theme_actual="$(cat "$HOME/.big_desktop_theme")"
-
-
+TAB1=$"Temas"
+TAB2=$"Desktop"
+TAB3=$"Ajustes"
+Title=$"Temas, Desktop e Ajustes"
 Desempenho_translate=$"Desempenho do desktop"
 Browser_translate=$"Aceleração do navegador"
 Use_translate=$"Usabilidade"
@@ -25,6 +27,25 @@ CLOSE=$"Fechar"
 orchis=$"Bordas arredondadas."
 fluent=$"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em computadores<br>antigos ou ambientes virtualizados."
 DESKTOP_FASTER=$"<b>Classic</b> e <b>New</b> têm melhor desempenho."
+Reduce_Visual_Effects=$"Reduzir efeitos visuais<br><small>(Indicado para computadores antigos)</small>"
+Configure_Preload=$"Configurar Preload"
+Preload_loads_program_files=$"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+
+Browser_acceleration=$"Aceleração do navegador"
+Automatic=$"Automático"
+Activate=$"Ativar"
+Disable=$"Desativar"
+Brave_Settings=$"Configurações do Brave"
+Choose_the_desired_option=$"Escolha a opção desejada:"
+Remove_advertisements=$"Remover propagandas"
+Support_cryptocurrencies=$"Suportar criptomoedas"
+Usability=$"Usabilidade"
+Window_buttons_on_the_left_side=$"Botões da janela no lado esquerdo"
+Inverted_mouse_scroll=$"Rolagem do mouse invertida"
+Search_files=$"Pesquisar arquivos"
+Lock_the_workspace=$"Bloquear a área de trabalho"
+
+
 
 
 if [ "$(glxinfo | grep llvmpipe)" != "" ]; then
@@ -179,7 +200,7 @@ cat << EOF
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Temas, Desktop e Desempenho</title>
+  <title>$Title</title>
   <link rel='stylesheet'><link rel="stylesheet" href="./style.css">
 </head>
 EOF
@@ -189,13 +210,12 @@ EOF
 
 cat << EOF
 <body>
-<!-- partial:index.partial.html -->
 <div class="dark-light">
   <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
   </svg>
 </div>
-<div class="login">
+<div class="principal">
   <div class="wrap">
     <div class="user">
       <div id="toggle-wrap">
@@ -214,58 +234,32 @@ cat << EOF
 
   <div class="user">
     <!-- ACTIONS -->
-    <!--<div class="actions">
-          <a class="help" href="#desktop-tab-content">Opção 1</a><a class="faq" href="#login-tab-content">Opção 2</a>
-        </div>-->
     <div class="form-wrap">
-      <!-- <div class="form-wrap tabs-content">
-        <h2>Aparência, desempenho e usabilidade</h2>
-      </div> -->
       <!-- TABS -->
       <div class="tabs">
-
-      
-      
-
-
         <input type="radio" id="tab1" name="tab-control" checked>
         <input type="radio" id="tab2" name="tab-control">
         <input type="radio" id="tab3" name="tab-control">  
         <input type="radio" id="tab4" name="tab-control">
         <ul>
-          <li title="Features"><label for="tab1" role="button" id="#login-tab-content"><svg  viewBox="0 0 512 512"><path d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg><br><span> Temas</span></label></li>
+          <li title="Temas"><label for="tab1" role="button" id="#theme-tab-content"><svg  viewBox="0 0 512 512"><path d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg><br><span> $TAB1</span></label></li>
           
-          <li title="Delivery Contents"><label for="tab2" role="button" id="#desktop-tab-content">
-          <svg viewBox="0 0 576 512"><path d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z"/></svg><br><span> Desktop</span></label></li>
+          <li title="Desktop"><label for="tab2" role="button" id="#desktop-tab-content">
+          <svg viewBox="0 0 576 512"><path d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z"/></svg><br><span> $TAB2</span></label></li>
+
           
-          <li title="Shipping"><label for="tab3" role="button" id="#desempenho-tab-content">
-          <svg viewBox="0 0 640 512"><path d="M544 224l-128-16-48-16h-24L227.158 44h39.509C278.333 44 288 41.375 288 38s-9.667-6-21.333-6H152v12h16v164h-48l-66.667-80H18.667L8 138.667V208h8v16h48v2.666l-64 8v42.667l64 8V288H16v16H8v69.333L18.667 384h34.667L120 304h48v164h-16v12h114.667c11.667 0 21.333-2.625 21.333-6s-9.667-6-21.333-6h-39.509L344 320h24l48-16 128-16c96-21.333 96-26.583 96-32 0-5.417 0-10.667-96-32z"/></svg><br><span> Ajustes</span></label></li>
+          <li title="Ajustes"><label for="tab3" role="button" id="#desempenho-tab-content">
+          <svg viewBox="0 0 512 512"><path d="M495.9 166.6C499.2 175.2 496.4 184.9 489.6 191.2L446.3 230.6C447.4 238.9 448 247.4 448 256C448 264.6 447.4 273.1 446.3 281.4L489.6 320.8C496.4 327.1 499.2 336.8 495.9 345.4C491.5 357.3 486.2 368.8 480.2 379.7L475.5 387.8C468.9 398.8 461.5 409.2 453.4 419.1C447.4 426.2 437.7 428.7 428.9 425.9L373.2 408.1C359.8 418.4 344.1 427 329.2 433.6L316.7 490.7C314.7 499.7 307.7 506.1 298.5 508.5C284.7 510.8 270.5 512 255.1 512C241.5 512 227.3 510.8 213.5 508.5C204.3 506.1 197.3 499.7 195.3 490.7L182.8 433.6C167 427 152.2 418.4 138.8 408.1L83.14 425.9C74.3 428.7 64.55 426.2 58.63 419.1C50.52 409.2 43.12 398.8 36.52 387.8L31.84 379.7C25.77 368.8 20.49 357.3 16.06 345.4C12.82 336.8 15.55 327.1 22.41 320.8L65.67 281.4C64.57 273.1 64 264.6 64 256C64 247.4 64.57 238.9 65.67 230.6L22.41 191.2C15.55 184.9 12.82 175.3 16.06 166.6C20.49 154.7 25.78 143.2 31.84 132.3L36.51 124.2C43.12 113.2 50.52 102.8 58.63 92.95C64.55 85.8 74.3 83.32 83.14 86.14L138.8 103.9C152.2 93.56 167 84.96 182.8 78.43L195.3 21.33C197.3 12.25 204.3 5.04 213.5 3.51C227.3 1.201 241.5 0 256 0C270.5 0 284.7 1.201 298.5 3.51C307.7 5.04 314.7 12.25 316.7 21.33L329.2 78.43C344.1 84.96 359.8 93.56 373.2 103.9L428.9 86.14C437.7 83.32 447.4 85.8 453.4 92.95C461.5 102.8 468.9 113.2 475.5 124.2L480.2 132.3C486.2 143.2 491.5 154.7 495.9 166.6V166.6zM256 336C300.2 336 336 300.2 336 255.1C336 211.8 300.2 175.1 256 175.1C211.8 175.1 176 211.8 176 255.1C176 300.2 211.8 336 256 336z"/></svg><br><span> $TAB3</span></label></li>
         </ul>
 
         <div class="slider"><div class="indicator"></div></div>          
-
-
-
-
-
-
-        <!--          <h3 class="login-tab"><a class="log-in active" href="#login-tab-content"><span>Temas<span></a></h3>
-            <h3 class="desktop-tab"><a class="sign-up" href="#desktop-tab-content"><span>Desktop</span></a></h3>
-            <h3 class="desempenho-tab"><a class="desempenho-up" href="#desempenho-tab-content"><span>Desempenho</span></a></h3> -->
       </div>
-
-      
 
       <!-- TABS CONTENT -->
       <div class="tabs-content"> 
-        <!-- TABS CONTENT LOGIN -->
-        <div id="login-tab-content" class="fc-card active">
+        <!-- TABS CONTENT THEME -->
+        <div id="theme-tab-content" class="fc-card active">
 
-          <!-- <div class="centretext" style="margin-bottom: 30px;">
-            <div id="desc">
-              <h3>Escolha o tema dos aplicativos:</h3>
-            </div>
-          </div> -->
           <p>$NO_OGL</p>
           
           <div class="centertext">
@@ -310,18 +304,10 @@ cat << EOF
           </div>
         </div>
 
-
-
-
         <!-- TABS CONTENT DESKTOP -->
         <div id="desktop-tab-content" class="fc-card">
 
-          <!-- <div class="centretext" style="margin-bottom: 30px;">
-            <div id="desc">
-              <h3>Escolha o desktop:</h3>
-            </div>
-          </div> -->
-            <p style="text-align:center">$DESKTOP_FASTER</p>
+          <p style="text-align:center">$DESKTOP_FASTER</p>
           
           <div class="centertext">
             <div id="desc">
@@ -346,34 +332,27 @@ cat << EOF
         </div>
 
         <div id="desempenho-tab-content" class="fc-card">
-
-          <!-- <div class="centretext" style="margin-bottom: 30px;">
-            <div id="desc">
-              <h3>Escolha o desempenho:</h3>
-            </div>
-          </div> -->
-          
+         
           <div class="biglinux-dashboard">
             <div class="biglinux-left-panel">
-              <h4>Desempenho do desktop</h4>
+              <h4>$Desempenho_translate</h4>
               <div class="biglinux-card" style="height: 75%; position: relative;">
 
 
                 <input id="s0" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/change_performance.run')" type="checkbox" class="switch" style="top: 11px;" $checked_optimized>
-                <span for="s0">Reduzir efeitos visuais<br><small>(Indicado para computadores antigos)</small></span>               
+                <span for="s0">$Reduce_Visual_Effects</span>               
 
                 <br style="clear: left;" />
                 <br style="clear: left;" />
                 <div class="button-wrapper" style="position: absolute; bottom: 15px; ">
-                  <button class="content-button status-button">Configurar Preload</button>
+                  <button class="content-button status-button">$Configure_Preload</button>
 
                 </div>
-
 
               </div>
 
               <div class="pop-up">
-                <div class="pop-up__title">Configurações do Preload
+                <div class="pop-up__title">$Configure_Preload
                   <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
                     <circle cx="12" cy="12" r="10" />
                     <path d="M15 9l-6 6M9 9l6 6" />
@@ -381,12 +360,7 @@ cat << EOF
 
                 </div>
                 <br>
-
 EOF
-
-
-
-
 
 func-preload() {
 
@@ -395,7 +369,6 @@ func-preload() {
     else
         preload_checked=""    
     fi
-
 
 cat << EOF
     <li>
@@ -409,7 +382,7 @@ EOF
 
 
 CAT << EOF
-                <div class="pop-up__subtitle">O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:</a></div>
+              <div class="pop-up__subtitle">$Preload_loads_program_files</a></div>
               <div id="desc">
                 <ul id="menu">
 EOF
@@ -428,120 +401,110 @@ func-preload kde "Desktop KDE"
 cat << EOF
                 </ul>
                         
-              <div class="content-button-wrapper">
-                <button class="content-button status-button2 open close">Fechar</button>
-              </div>
-            </div>              
-
-          </div>
-          <div class="biglinux-left-panel">
-            <h4>Aceleração do navegador</h4>
-            <div class="biglinux-card" style="height: 75%; position: relative;">
-              <input id="r1" type="radio" name="radio" value="1" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/browser-auto.run')" $checked_browser_auto>
-              <span for="Automático">Automático</span>
-              <br style="clear: left;" />
-              <input id="r2" type="radio" name="radio" value="2" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/browser-yes.run')" $checked_browser_yes>
-              <span for="Ativar">Ativar</span>
-              <br style="clear: left;" />
-              <input id="r3" type="radio" name="radio" value="2" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/browser-no.run')" $checked_browser_no>
-              <span for="Desativar">Desativar</span>
-
-              <br style="clear: left;" />
-              <br style="clear: left;" />
-              <div class="button-wrapper" style="position: absolute; bottom: 15px; ">
-                <button class="content-button status-button2">Configurações do Brave</button>
+                <div class="content-button-wrapper">
+                  <button class="content-button status-button2 open close">$CLOSE</button>
+                </div>
+              </div>              
 
               </div>
+              
+              <div class="biglinux-left-panel">
+                <h4>$Browser_acceleration</h4>
+                <div class="biglinux-card" style="height: 75%; position: relative;">
+                  <input id="r1" type="radio" name="radio" value="1" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/browser-auto.run')" $checked_browser_auto>
+                  <span for="Automático">$Automatic</span>
+                  <br style="clear: left;" />
+                  <input id="r2" type="radio" name="radio" value="2" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/browser-yes.run')" $checked_browser_yes>
+                  <span for="Ativar">$Activate</span>
+                  <br style="clear: left;" />
+                  <input id="r3" type="radio" name="radio" value="2" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/browser-no.run')" $checked_browser_no>
+                  <span for="Desativar">$Disable</span>
 
-              <br style="clear: left;" />
-            </div>
+                  <br style="clear: left;" />
+                  <br style="clear: left;" />
+                  <div class="button-wrapper" style="position: absolute; bottom: 15px; ">
+                    <button class="content-button status-button2">$Brave_Settings</button>
 
-            <div class="pop-up2">
-              <div class="pop-up__title">Configurações do Brave
-                <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
-                  <circle cx="12" cy="12" r="10" />
-                  <path d="M15 9l-6 6M9 9l6 6" />
-                </svg>
+                  </div>
+
+                  <br style="clear: left;" />
+                </div>
+
+                <div class="pop-up2">
+                  <div class="pop-up__title">$Brave_Settings
+                    <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
+                      <circle cx="12" cy="12" r="10" />
+                      <path d="M15 9l-6 6M9 9l6 6" />
+                    </svg>
+                  </div>
+                  <div class="pop-up__subtitle">$Choose_the_desired_option</div>
+
+                  <div id="desc">
+                    <ul id="menu">
+                      <li><div class="checkbox-wrapper">
+                        <input id="braveblock" type="checkbox" class="switch" style="display: inline-block; float: left;" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/braveblock-change.run')" $checked_braveblock_yes>
+                        <span for="braveblock">$Remove_advertisements</span>
+                        </div>
+                      </li>
+                      <li><div class="checkbox-wrapper">
+                        <input id="bravecrypto" type="checkbox" class="switch" style="display: inline-block; float: left;" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/bravecrypto-change.run')" $checked_bravecrypto_yes>
+                        <span for="bravecrypto">$Support_cryptocurrencies</span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="content-button-wrapper">
+                    <button class="content-button status-button2 open close">$CLOSE</button>
+                  </div>
+                </div>            
               </div>
-              <div class="pop-up__subtitle">Escolha a opção desejada:</div>
-
-
-
-
-              <div id="desc">
-                <ul id="menu">
-                  <li><div class="checkbox-wrapper">
-                    <input id="braveblock" type="checkbox" class="switch" style="display: inline-block; float: left;" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/braveblock-change.run')" $checked_braveblock_yes>
-                    <span for="braveblock">Remover propagandas</span>
-                    </div>
-                  </li>
-                  <li><div class="checkbox-wrapper">
-                    <input id="bravecrypto" type="checkbox" class="switch" style="display: inline-block; float: left;" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/bravecrypto-change.run')" $checked_bravecrypto_yes>
-                    <span for="bravecrypto">Suportar criptomoedas</span>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-
-
-              <div class="content-button-wrapper">
-                <button class="content-button status-button2 open close">Fechar</button>
-              </div>
-            </div>            
-          </div>
           
-          </div>
-
-          <div class="biglinux-dashboard">
-          <div class="biglinux-center-panel">
-            <h4>Usabilidade</h4>
-            <div class="biglinux-card" style="height: 75%; position: relative;">
-
-              <ul>
-                <li style="padding: 2px;" onchange="_run('./kwin_button.run')">
-                  
-                    <input id="desktop1" name="bb1" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_left_button>
-                    <span for="desktop1">Botões da janela no lado esquerdo<br><small></small></span>
-                  
-                </li>                    
-                <li style="padding-top: 2px;" onchange="_run('./mouse.run')">
-                  
-                    <input id="desktop2" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_scrool_natural>
-                    <span for="desktop2">Rolagem do mouse invertida<br><small></small></span>
-                  
-                </li> 
-              </ul>
-              <ul>
-                <li style="padding: 2px;" onchange="_run('./search.run')">
-                  
-                    <input id="desktop3" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_search>
-                    <span for="desktop3">Pesquisar arquivos<br><small></small></span>
-                  
-                </li>                    
-                <li style="padding-top: 2px;" onchange="_run('./lock-desktop.run')">
-                  
-                    <input id="desktop4" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_lock_desktop>
-                    <span for="desktop4">Bloquear a área de trabalho<br><small></small></span>
-                  
-                </li>                    
-              </ul>
-</div>
             </div>
+            
+              <div class="biglinux-dashboard">
+                <div class="biglinux-center-panel">
+                  <h4>$Usability</h4>
+                  <div class="biglinux-card" style="height: 75%; position: relative;">
+
+                    <ul>
+                      <li style="padding: 2px;" onchange="_run('./kwin_button.run')">
+                        
+                          <input id="desktop1" name="bb1" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_left_button>
+                          <span for="desktop1">$Window_buttons_on_the_left_side<br><small></small></span>
+                        
+                      </li>                    
+                      <li style="padding-top: 2px;" onchange="_run('./mouse.run')">
+                        
+                          <input id="desktop2" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_scrool_natural>
+                          <span for="desktop2">$Inverted_mouse_scroll<br><small></small></span>
+                        
+                      </li> 
+                    </ul>
+                    <ul>
+                      <li style="padding: 2px;" onchange="_run('./search.run')">
+                        
+                          <input id="desktop3" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_search>
+                          <span for="desktop3">$Search_files<br><small></small></span>
+                        
+                      </li>                    
+                      <li style="padding-top: 2px;" onchange="_run('./lock-desktop.run')">
+                        
+                          <input id="desktop4" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_lock_desktop>
+                          <span for="desktop4">$Lock_the_workspace<br><small></small></span>
+                        
+                      </li>                    
+                    </ul>
+                </div>
+              </div>
             </div>
           
-          
-          
-          
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
-</div>
-
-
-
-
-
 </div>
 </div>
 </div>
