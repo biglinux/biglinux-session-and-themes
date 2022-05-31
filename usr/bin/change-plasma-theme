@@ -19,6 +19,7 @@ lattedockrc
 latte
 kwin_left
 kwin_maximized_disable
+kglobalshortcutsrc
 classikrc
 )
 
@@ -127,6 +128,7 @@ fi
 
 if [ "$4" != "quiet" ]; then
     systemctl --user start plasma-plasmashell
+    systemctl --user restart plasma-kglobalaccel.service
 
     if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
         qdbus org.kde.lattedock /Latte org.kde.LatteDock.switchToLayout "$HOME/.config/latte/Default.layout.latte"
