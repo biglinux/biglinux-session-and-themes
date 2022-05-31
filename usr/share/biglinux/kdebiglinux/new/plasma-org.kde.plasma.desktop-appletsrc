@@ -80,6 +80,9 @@ global=Alt+F1
 immutability=1
 plugin=org.kde.plasma.win7showdesktop
 
+[Containments][2][Applets][33][Configuration][General]
+size=5
+
 [Containments][2][Applets][35]
 immutability=1
 plugin=com.github.zren.presentwindows
@@ -240,6 +243,9 @@ global=Alt+F1
 [Containments][3][Applets][33]
 immutability=1
 plugin=org.kde.plasma.win7showdesktop
+
+[Containments][3][Applets][33][Configuration][General]
+size=5
 
 [Containments][3][Applets][35]
 immutability=1
@@ -426,6 +432,9 @@ global=Alt+F1
 [Containments][4][Applets][33]
 immutability=1
 plugin=org.kde.plasma.win7showdesktop
+
+[Containments][4][Applets][33][Configuration][General]
+size=5
 
 [Containments][4][Applets][35]
 immutability=1
@@ -614,6 +623,9 @@ global=Alt+F1
 immutability=1
 plugin=org.kde.plasma.win7showdesktop
 
+[Containments][5][Applets][33][Configuration][General]
+size=5
+
 [Containments][5][Applets][35]
 immutability=1
 plugin=com.github.zren.presentwindows
@@ -728,6 +740,9 @@ global=Alt+F1
 immutability=1
 plugin=org.kde.plasma.win7showdesktop
 
+[Containments][6][Applets][33][Configuration][General]
+size=5
+
 [Containments][6][Applets][35]
 immutability=1
 plugin=com.github.zren.presentwindows
@@ -841,6 +856,9 @@ global=Alt+F1
 [Containments][7][Applets][33]
 immutability=1
 plugin=org.kde.plasma.win7showdesktop
+
+[Containments][7][Applets][33][Configuration][General]
+size=5
 
 [Containments][7][Applets][35]
 immutability=1
