@@ -146,6 +146,8 @@ case "$1" in
         if [ "$2" = "fluent-dark" ] && [ "$(glxinfo | grep llvmpipe)" != "" ]; then
             sed -i 's|Fluent-roundDark|Fluent-roundswDark|g' ~/.config/Kvantum/kvantum.kvconfig        
         fi
+        
+        rm -R ~/.config/kdedefaults/
 
    else
         echo "Theme not found."
