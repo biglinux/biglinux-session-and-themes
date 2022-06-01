@@ -1,0 +1,23 @@
+[Desktop Entry]
+
+Name=Autocomposer
+Icon=preferences-desktop-effects
+Comment=Blocks compositing on applications started in fullscreen, to improve their graphical performance
+
+X-KDE-PluginInfo-Name=kwin-autocomposer
+X-KDE-PluginInfo-Version=1
+X-KDE-PluginInfo-Category=Kwin Script
+
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-Author=Alberto Salvia Novella
+X-KDE-PluginInfo-Email=es20490446e@gmail.com
+X-KDE-PluginInfo-Website=https://store.kde.org/p/1502826/
+
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+X-KWin-Border-Activate=true
+
+Type=Service
+X-KDE-ServiceTypes=KWin/Script
+X-KDE-PluginInfo-EnabledByDefault=true
+
