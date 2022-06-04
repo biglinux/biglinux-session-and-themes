@@ -10,6 +10,7 @@ folder="/usr/share/biglinux/themes"
 case "$1" in
 
     --apply)
+      
 	#Confere se o arquivo, diretório, link, ou arquivo especial NÃO existe
     if [ -e "$folder/$2" ]; then
         if [ "$(ps -e | grep kwin)" != "" ]
@@ -149,6 +150,8 @@ case "$1" in
         
         rm -R ~/.config/kdedefaults/
 
+        echo "$2" > "$HOME/.big_desktop_theme"        
+        
    else
         echo "Theme not found."
     fi

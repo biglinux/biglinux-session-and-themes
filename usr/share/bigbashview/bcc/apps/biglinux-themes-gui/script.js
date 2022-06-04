@@ -1,3 +1,62 @@
+//REFRESH
+$(document).on('click', '#btnClick', function(){ 
+    //$("#desktop-tab-content").load(location.href+" #desktop-tab-content>*","");
+    location.href="index.sh.htm?checked_refresh=checked";  
+});
+
+//APLICAR MARCA E ATIVA/DESATIVA CSS
+$(document).ready(function(){
+    // Set div display to Classic
+    $(".show-classic").click(function(){
+        $("#myDivClassic").css("display", "block");
+        $("#myDivNew").css("display", "none");
+        $("#myDivKunity").css("display", "none");
+        $("#myDivNextg").css("display", "none");
+        
+        $('a[id$="linkClassic"]').toggleClass("disabled-link");
+        $('a[id$="linkNew"]').removeClass("disabled-link");
+        $('a[id$="linkKunity"]').removeClass("disabled-link");
+        $('a[id$="linkNextg"]').removeClass("disabled-link");
+    });
+    // Set div display to New
+    $(".show-new").click(function(){
+        $("#myDivClassic").css("display", "none");
+        $("#myDivNew").css("display", "block");
+        $("#myDivKunity").css("display", "none");
+        $("#myDivNextg").css("display", "none");
+        
+        $('a[id$="linkClassic"]').removeClass("disabled-link");
+        $('a[id$="linkNew"]').toggleClass("disabled-link");
+        $('a[id$="linkKunity"]').removeClass("disabled-link");
+        $('a[id$="linkNextg"]').removeClass("disabled-link");
+    });
+    // Set div display Kunity
+    $(".show-kunity").click(function(){
+        $("#myDivClassic").css("display", "none");
+        $("#myDivNew").css("display", "none");
+        $("#myDivKunity").css("display", "block");
+        $("#myDivNextg").css("display", "none");
+        
+        $('a[id$="linkClassic"]').removeClass("disabled-link");
+        $('a[id$="linkNew"]').removeClass("disabled-link");
+        $('a[id$="linkKunity"]').toggleClass("disabled-link");
+        $('a[id$="linkNextg"]').removeClass("disabled-link");
+    });
+    // Set div display Nextg
+    $(".show-nextg").click(function(){
+        $("#myDivClassic").css("display", "none");
+        $("#myDivNew").css("display", "none");
+        $("#myDivKunity").css("display", "none");
+        $("#myDivNextg").css("display", "block");
+        
+        $('a[id$="linkClassic"]').removeClass("disabled-link");
+        $('a[id$="linkNew"]').removeClass("disabled-link");
+        $('a[id$="linkKunity"]').removeClass("disabled-link");
+        $('a[id$="linkNextg"]').toggleClass("disabled-link");
+    });
+});
+//APLICAR MARCA E ATIVA/DESATIVA CSS FIM
+
 $(function () {
   var tab = $("li label");
   tab.on("click", function (event) {
@@ -26,9 +85,6 @@ $(function () {
   });
 });
 
-
-
-
 // SLIDESHOW
 $(function () {
   $("#slideshow > div:gt(0)").hide();
@@ -52,7 +108,6 @@ $(function () {
 })(jQuery);
 
 // SHOW/HIDE PANEL ROUTINE (needs better methods)
-// I'll optimize when time permits.
 $(function () {
   $(".agree,.forgot, #toggle-terms, .log-in, .sign-up").on(
     "click",
@@ -217,6 +272,168 @@ $(".status-button2:not(.open)").click(function () {
 $(".pop-up2 .close").click(function () {
   $(".pop-up2").removeClass("visible");
 });
+
+// MODAL TEMA APLICADO
+$(document).click(function (e) {
+  var container = $(".status-button-themeapply");
+  var dd = $(".dropdown");
+  if (!container.is(e.target) && container.has(e.target).length === 0) {
+    dd.removeClass("is-active");
+  }
+});
+
+$(function () {
+  $(".status-button-themeapply:not(.open)").on("click", function (e) {
+    $(".overlay-app").addClass("is-active");
+  });
+  $(".pop-up-themeapply .close").click(function () {
+    $(".overlay-app").removeClass("is-active");
+  });
+});
+
+$(".status-button-themeapply:not(.open)").click(function () {
+  $(".pop-up-themeapply").addClass("visible");
+});
+
+$(".pop-up-themeapply .close").click(function () {
+  $(".pop-up-themeapply").removeClass("visible");
+});
+// MODAL TEMA APLICADO FIM
+
+// MODAL DESKTOP APLICADO
+$(document).click(function (e) {
+  var container = $(".status-button-desktopapply");
+  var dd = $(".dropdown");
+  if (!container.is(e.target) && container.has(e.target).length === 0) {
+    dd.removeClass("is-active");
+  }
+});
+
+$(function () {
+  $(".status-button-desktopapply:not(.open)").on("click", function (e) {
+    $(".overlay-app").addClass("is-active");
+  });
+  $(".pop-up-desktopapply .close").click(function () {
+    $(".overlay-app").removeClass("is-active");
+  });
+});
+
+$(".status-button-desktopapply:not(.open)").click(function () {
+  $(".pop-up-desktopapply").addClass("visible");
+});
+
+$(".pop-up-desktopapply .close").click(function () {
+  $(".pop-up-desktopapply").removeClass("visible");
+});
+// MODAL DESKTOP APLICADO FIM
+
+// MODAL CLASSIC
+$(document).click(function (e) {
+  var container = $(".status-button-classic");
+  var dd = $(".dropdown");
+  if (!container.is(e.target) && container.has(e.target).length === 0) {
+    dd.removeClass("is-active");
+  }
+});
+
+$(function () {
+  $(".status-button-classic:not(.open)").on("click", function (e) {
+    $(".overlay-app").addClass("is-active");
+  });
+  $(".pop-up-classic .close").click(function () {
+    $(".overlay-app").removeClass("is-active");
+  });
+});
+
+$(".status-button-classic:not(.open)").click(function () {
+  $(".pop-up-classic").addClass("visible");
+});
+
+$(".pop-up-classic .close").click(function () {
+  $(".pop-up-classic").removeClass("visible");
+});
+// MODAL CLASSIC FIM
+
+// MODAL NEW
+$(document).click(function (e) {
+  var container = $(".status-button-new");
+  var dd = $(".dropdown");
+  if (!container.is(e.target) && container.has(e.target).length === 0) {
+    dd.removeClass("is-active");
+  }
+});
+
+$(function () {
+  $(".status-button-new:not(.open)").on("click", function (e) {
+    $(".overlay-app").addClass("is-active");
+  });
+  $(".pop-up-new .close").click(function () {
+    $(".overlay-app").removeClass("is-active");
+  });
+});
+
+$(".status-button-new:not(.open)").click(function () {
+  $(".pop-up-new").addClass("visible");
+});
+
+$(".pop-up-new .close").click(function () {
+  $(".pop-up-new").removeClass("visible");
+});
+// MODAL NEW FIM
+
+// MODAL KUNITY
+$(document).click(function (e) {
+  var container = $(".status-button-kunity");
+  var dd = $(".dropdown");
+  if (!container.is(e.target) && container.has(e.target).length === 0) {
+    dd.removeClass("is-active");
+  }
+});
+
+$(function () {
+  $(".status-button-kunity:not(.open)").on("click", function (e) {
+    $(".overlay-app").addClass("is-active");
+  });
+  $(".pop-up-kunity .close").click(function () {
+    $(".overlay-app").removeClass("is-active");
+  });
+});
+
+$(".status-button-kunity:not(.open)").click(function () {
+  $(".pop-up-kunity").addClass("visible");
+});
+
+$(".pop-up-kunity .close").click(function () {
+  $(".pop-up-kunity").removeClass("visible");
+});
+// MODAL KUNITY FIM
+
+// MODAL NEXTG
+$(document).click(function (e) {
+  var container = $(".status-button-nextg");
+  var dd = $(".dropdown");
+  if (!container.is(e.target) && container.has(e.target).length === 0) {
+    dd.removeClass("is-active");
+  }
+});
+
+$(function () {
+  $(".status-button-nextg:not(.open)").on("click", function (e) {
+    $(".overlay-app").addClass("is-active");
+  });
+  $(".pop-up-nextg .close").click(function () {
+    $(".overlay-app").removeClass("is-active");
+  });
+});
+
+$(".status-button-nextg:not(.open)").click(function () {
+  $(".pop-up-nextg").addClass("visible");
+});
+
+$(".pop-up-nextg .close").click(function () {
+  $(".pop-up-nextg").removeClass("visible");
+});
+// MODAL NEXTG FIM
 
 
 const toggleButton = document.querySelector(".dark-light");
