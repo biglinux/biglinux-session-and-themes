@@ -25,6 +25,11 @@
   --box-color-shadow-01: rgba(0, 0, 0, 0.2);
   --text-a-color: #ccc;
 }
+.close {
+    cursor: pointer;
+    pointer-events: visible; 
+}
+
 
 .disabled-link{
     cursor: default;
