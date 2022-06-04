@@ -23,6 +23,9 @@ if [ "$1" = "wayland" ]; then
 else
     export GDK_BACKEND=x11
     export GSK_RENDERER=cairo
+
+    # Nvidia tweak
+    export __GL_MaxFramesAllowed=1
 fi
 
 
