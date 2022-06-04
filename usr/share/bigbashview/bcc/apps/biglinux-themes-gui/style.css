@@ -93,6 +93,7 @@
 .pop-up-themeapply.visible {
   visibility: visible;
   opacity: 1;
+  position: fixed;
 }
 .pop-up-themeapply__title {
   padding-bottom: 20px;
