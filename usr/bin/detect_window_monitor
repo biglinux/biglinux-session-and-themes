@@ -1,0 +1,156 @@
+#!/bin/bash
+
+
+# Original code from: https://gitlab.com/Kamcuk/kamilscripts/-/blob/master/bin/,x_lib
+# That's only simplified version
+
+# This is a collection of libraries that I seem to use over and over
+# again and again inm every script I write.
+# It's here to simplify my use of it.
+# Written by Kamil Cukrowski
+# Licensed jointly under MIT License and Beerware License
+# SPDX-License-Identifier: MIT + Beerware
+
+# shellcheck disable=SC2034
+
+# Library start [[[
+
+# x-server functions functions
+
+# @return name width height xoff yoff
+x_get_monitors() {
+	xrandr |
+	sed -E '
+		/^([^ ]*) connected /!d
+		s/^([^ ]*).*[^-0-9]([-0-9]+)x([-0-9]+)\+([-0-9]+)\+([-0-9]+)[^-0-9].*$/\1 \2 \3 \4 \5/
+	'
+}
+
+# @param X position X
+# @param Y position Y
+# @return window name and parameters for that position
+x_find_monitor_for_position() {
+	x_get_monitors |
+	awk -v x="$1" -v y="$2" '
+	function eprint(x) {
+		print x > "/dev/stderr"
+	}
+	{ name=$1; width=$2; height=$3; xoff=$4; yoff=$5; }
+	{ windows[NR]=$0 }
+	x >= xoff && y >= yoff && x < xoff + width && y < yoff + height { found=1; print; exit }
+	END {
+		if (!found) {
+			eprint("Could not find any monitor for given position: " x " " y)
+			for (i in windows) {
+				eprint("Window "i": "windows[i])
+			}
+			exit 1
+		}
+	}
+	'
+}
+
+x_get_window_geometry() {
+	x_get_monitors | grep "^$1 "
+}
+
+# @return windowid positionX positionY geometryX geometryY
+x_get_window_geometry() {
+	if (($#)); then
+		xdotool getwindowgeometry "$1"
+	else
+		xdotool getactivewindow getwindowgeometry
+	fi |
+	sed -nE '
+	/Window ([0-9]+).*/{
+		s//\1/
+		H
+	}
+	/.*Position: ([^,]*),([^ ]+).*/{
+		s//\1 \2/
+		H
+	}
+	/.*Geometry: ([^x]+)x([^ ]+).*/{
+		s//\1 \2/
+		H
+		g
+		s/\n/ /g
+		s/^ //
+		p
+	}
+	'
+}
+
+x_get_window_geometry2() {
+	local tmp n a b c d
+	tmp=$(x_get_window_geometry "$1")
+	IFS=' ' read -r n a b c d <<<"$tmp"
+	printf "%s" "$n "
+	x_offset_GTK_FRAME_EXTENTS "$1" "$a" "$b" "$c" "$d"
+}
+
+# @return @see x_get_monitors
+x_get_window_monitor() {
+	local pos
+# 	pos=$(x_get_window_geometry2 "$@" | awk '{print $2,$3}') &&
+# 	x_find_monitor_for_position $pos
+	pos=$(x_get_window_geometry2 "$@" | awk '{print $2,$3}') &&
+	x_find_monitor_for_position $pos
+}
+
+x_get_desktop_geometry() {
+	xrandr | sed -E '/Screen 0:.*current *([0-9]+) *x *([0-9]+).*/!d; s//\1 \2/'
+}
+
+# http://unix.stackexchange.com/questions/14159/how-do-i-find-the-window-dimensions-and-position-accurately-including-decoration
+# @returns left right top bottom
+x_get_window_border_info() {
+	xprop _NET_FRAME_EXTENTS -id "$1" |
+	sed -n 's/.*= \([0-9]*\), \([0-9]*\), \([0-9]*\), \([0-9]*\)/\1 \2 \3 \4/p'
+}
+
+
+x_get_monitor_from_mouse() {
+	# Get the window position
+	eval "$(xdotool getmouselocation --shell)"
+
+	# Loop through each screen and compare the offset with the window
+	# coordinates.
+	x_get_monitors |
+	{
+		while read -r name width height xoff yoff; do
+		    if ((
+					X >= xoff &&
+					Y >= yoff &&
+					X < xoff + width &&
+					Y < yoff + width
+					)); then
+		        printf "%s\n" "$name" "$width" "$height" "$xoff" "$yoff" "$X" "$Y" | paste -sd' '
+				exit 0
+		    fi
+		done
+		echo "Could not find any monitor for the current mouse position." >&2
+		exit 1
+	}
+}
+
+x_get_GTK_FRAME_EXTENTS() {
+	local tmp IFS
+	tmp=$(xprop -id "$1" _GTK_FRAME_EXTENTS)
+	if grep -q 'not found' <<<"$tmp"; then
+		echo "0 0 0 0"
+	else
+		echo "$(sed 's/.*=//; s/,/ /g' <<<"$tmp")"
+	fi
+}
+
+
+x_offset_GTK_FRAME_EXTENTS() {
+	local tmp
+	tmp=$(x_get_GTK_FRAME_EXTENTS "$1")
+	IFS=' ' read -r a c b d <<<"$tmp"
+	echo $(($2 + a)) $(($3 + b)) $(($4 - a - c)) $(($5 - b - d))
+}
+
+
+x_get_window_monitor "$@" 2> /dev/null | cut -f1 -d" "

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+active_window_id=$(xdotool getactivewindow)
+MONITOR_WITH_FULLSCREEN=$(detect_window_monitor $active_window_id)
+
+# rm ~/.cache/minimizedallwindows
+
+for window_id in $(xdotool search --onlyvisible --name ".")
+do
+    if [ $window_id != $active_window_id ] && [ "$MONITOR_WITH_FULLSCREEN" = "$(detect_window_monitor $window_id)" ]
+    then
+        xdotool windowminimize $window_id
+#         echo "$window_id" >> ~/.cache/minimizedallwindows
+    fi
+done
+
