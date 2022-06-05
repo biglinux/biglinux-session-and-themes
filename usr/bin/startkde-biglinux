@@ -26,7 +26,7 @@ else
 
     # Nvidia tweak
     export __GL_MaxFramesAllowed=1
-    export KWIN_TRIPLE_BUFFER=0
+    #export KWIN_TRIPLE_BUFFER=0
     #export __GL_YIELD=NOTHING
     # export __GL_YIELD=USLEEP
 
