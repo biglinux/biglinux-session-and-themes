@@ -25,7 +25,10 @@ else
     export GSK_RENDERER=cairo
 
     # Nvidia tweak
-    export __GL_MaxFramesAllowed=1
+    if [ "$(lsmod | grep nvidia_drm)" != "" ]; then
+        export __GL_MaxFramesAllowed=1
+    fi
+    #
     #export KWIN_TRIPLE_BUFFER=0
     #export __GL_YIELD=NOTHING
     # export __GL_YIELD=USLEEP
