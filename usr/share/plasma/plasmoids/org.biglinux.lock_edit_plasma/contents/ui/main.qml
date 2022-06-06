@@ -42,18 +42,23 @@ Item {
 		}
 	}
 
-	Timer {
-		id: timer
-		// Wait in ms
-		interval: 3500
-		onTriggered: runCommand()
-	}
 	function runCommand() {
 		// Change to run your command
 		// 
 		executable.exec('cat $HOME/.config/lockplasma')
  		//executable.exec('qdbus org.kde.plasmashell /PlasmaShell org.freedesktop.DBus.Properties.Get "" editMode')
 
+	}
+
+	Timer {
+		id: timer
+		
+		// Wait in ms
+		interval: 7000
+		onTriggered: runCommand()
+		Component.onCompleted: {
+			triggered()
+		}
 	}
 
     Plasmoid.icon: outputText ? 'biglinux-lock' : 'biglinux-unlock'
