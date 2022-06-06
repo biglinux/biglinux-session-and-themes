@@ -1767,7 +1767,7 @@ li img {
   margin-top: 16px;
   cursor: pointer;
   transition: 0.3s;
-  white-space: nowrap;
+  margin-right: 10px;
 }
 
 /* SCROLL BARRA DE ROLAGEM */

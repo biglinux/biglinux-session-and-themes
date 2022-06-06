@@ -27,8 +27,9 @@ CLOSE=$"Fechar"
 orchis=$"Bordas arredondadas."
 fluent=$"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em computadores<br>antigos ou ambientes virtualizados."
 DESKTOP_FASTER=$"<b>Classic</b> e <b>New</b> têm melhor desempenho."
-Reduce_Visual_Effects=$"Reduzir efeitos visuais<br><small>(Indicado para computadores antigos)</small>"
-Configure_Preload=$"Configurar Preload"
+Reduce_Visual_Effects=$"Renderizar o desktop via software"
+Reduce_Visual_Effects2=$"(Pode ser útil em máquina virtual ou computadores antigos)"
+Configure_Preload=$"Escolher programas a serem carregados na memória durante boot"
 Preload_loads_program_files=$"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
 
 Browser_acceleration=$"Aceleração do navegador"
@@ -568,8 +569,9 @@ cat << EOF
               <div class="biglinux-card" style="height: 75%; position: relative;">
 
 
-                <input id="s0" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/change_performance.run')" type="checkbox" class="switch" style="top: 11px;" $checked_optimized>
-                <span for="s0">$Reduce_Visual_Effects</span>               
+                <input id="s0" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/change_performance.run')" type="checkbox" class="switch" style="top: 3px;" $checked_optimized>
+                <span for="s0">$Reduce_Visual_Effects</span><br>
+                <small><small>$Reduce_Visual_Effects2</small></small>
 
                 <br style="clear: left;" />
                 <br style="clear: left;" />
