@@ -33,7 +33,7 @@ Item {
 		signal exited(string cmd, int exitCode, int exitStatus, string stdout, string stderr)
 	}
 
-	property string outputText: ''
+	property string outputText: 'true'
 	Connections {
 		target: executable
 		onExited: {
