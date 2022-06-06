@@ -1011,7 +1011,7 @@ PreloadWeight=0
 AppletOrder=31;30;20;25;5;34;8
 
 [General]
-immutability=1
+immutability=2
 
 [ScreenMapping]
 itemsOnDisabledScreens=

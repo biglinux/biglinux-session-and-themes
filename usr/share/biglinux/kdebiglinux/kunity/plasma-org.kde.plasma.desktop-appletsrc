@@ -153,7 +153,7 @@ Image=file:///usr/share/wallpapers/Big-retro.jpg
 SlidePaths=/usr/share/wallpapers
 
 [General]
-immutability=1
+immutability=2
 
 [ScreenMapping]
 itemsOnDisabledScreens=
