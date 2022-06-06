@@ -10,9 +10,7 @@ if [ ! -e "/etc/default-theme-biglinux" ] || [ -e "$HOME/.big_desktop_theme" ] |
     exit
 
 else
-    echo true > "$HOME/.config/lockplasma"
-    chmod 444 ~/.config/latte/*.latte
-    qdbus org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(true)"
+
     BIG_THEME="$(cat /etc/default-theme-biglinux)"
     biglinux-themes.sh --apply $BIG_THEME
     systemctl --user enable big-welcome
