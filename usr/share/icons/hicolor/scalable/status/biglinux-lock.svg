@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg"
+   version="1.1"
+   viewBox="0 0 22 22"
+   sodipodi:docname="biglinux-lock.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1008"
+     id="namedview40"
+     showgrid="true"
+     inkscape:zoom="29.950886"
+     inkscape:cx="0.63437188"
+     inkscape:cy="12.503804"
+     inkscape:window-x="1680"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg"
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:snap-smooth-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4298" />
+  </sodipodi:namedview>
+  <defs
+     id="defs81">
+      <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#31363b;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }
+      </style>
+  </defs>
+  <rect
+     id="rect3832"
+     x="0"
+     y="0"
+     width="22"
+     height="22"
+     fill-opacity="0" />
+  <path
+     id="rect2020"
+     style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0369954"
+     class="ColorScheme-Text"
+     d="M 3.2089844 3.5019531 C 2.1525024 3.5019531 1.3027344 4.3517219 1.3027344 5.4082031 L 1.3027344 13.992188 C 1.3027334 15.048668 2.1525024 15.900391 3.2089844 15.900391 L 9.1972656 15.900391 L 9.1972656 17.898438 L 6.4863281 17.898438 C 6.2153621 17.898438 5.9980469 17.920268 5.9980469 18.197266 C 5.9980469 18.474266 6.2155121 18.48902 6.4863281 18.498047 L 9.4863281 18.498047 L 9.5097656 18.498047 L 12.476562 18.498047 L 12.519531 18.498047 L 15.509766 18.498047 C 15.780724 18.498047 15.998047 18.474268 15.998047 18.197266 C 15.998047 17.920266 15.780533 17.888071 15.509766 17.898438 L 12.798828 17.898438 L 12.798828 15.900391 L 18.791016 15.900391 C 19.847496 15.900391 20.697266 15.048668 20.697266 13.992188 L 20.697266 5.4082031 C 20.697266 4.3517219 19.847496 3.5019531 18.791016 3.5019531 L 3.2089844 3.5019531 z M 3.2324219 4.0019531 L 18.767578 4.0019531 C 19.56094 4.0019531 20.199219 4.640233 20.199219 5.4335938 L 20.199219 13.96875 C 20.199219 14.762111 19.560938 15.400391 18.767578 15.400391 L 3.2324219 15.400391 C 2.4390609 15.400391 1.8007813 14.762111 1.8007812 13.96875 L 1.8007812 5.4335938 C 1.8007812 4.6402329 2.4390619 4.0019531 3.2324219 4.0019531 z M 11 5.7578125 C 9.6301075 5.7578125 8.5253906 6.7041448 8.5253906 7.8789062 L 8.5253906 10 L 7.2910156 10 L 7.2910156 13.179688 L 14.708984 13.179688 L 14.708984 10 L 13.470703 10 L 13.470703 7.8789062 C 13.470703 6.7041448 12.369892 5.7578125 11 5.7578125 z M 11 6.8183594 C 11.684946 6.8183594 12.236328 7.2915255 12.236328 7.8789062 L 12.236328 10 L 9.7636719 10 L 9.7636719 7.8789062 C 9.7636719 7.2915254 10.315054 6.8183594 11 6.8183594 z M 9.7988281 15.900391 L 12.197266 15.900391 L 12.197266 17.898438 L 9.7988281 17.898438 L 9.7988281 15.900391 z " />
+</svg>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg"
+   version="1.1"
+   viewBox="0 0 22 22"
+   sodipodi:docname="biglinux-unlock5.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1008"
+     id="namedview40"
+     showgrid="true"
+     inkscape:zoom="32"
+     inkscape:cx="10.40625"
+     inkscape:cy="9.671875"
+     inkscape:window-x="1680"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg"
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:snap-smooth-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4298" />
+  </sodipodi:namedview>
+  <defs
+     id="defs81">
+      <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#31363b;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }
+      </style>
+  </defs>
+  <rect
+     id="rect3832"
+     x="0"
+     y="0"
+     width="22"
+     height="22"
+     fill-opacity="0" />
+  <path
+     id="path21407"
+     style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0369954"
+     d="M 3.2109375 3.4042969 C 2.1544555 3.4042969 1.3046875 4.2540657 1.3046875 5.3105469 L 1.3046875 13.894531 C 1.3046865 14.951012 2.1544555 15.802734 3.2109375 15.802734 L 9.1992188 15.802734 L 9.1992188 17.800781 L 6.4882812 17.800781 C 6.2173153 17.800781 6 17.822609 6 18.099609 C 6 18.376609 6.2174652 18.391364 6.4882812 18.400391 L 9.4882812 18.400391 L 9.5117188 18.400391 L 12.478516 18.400391 L 12.521484 18.400391 L 15.511719 18.400391 C 15.782677 18.400391 16 18.376611 16 18.099609 C 16 17.822609 15.782487 17.790414 15.511719 17.800781 L 12.800781 17.800781 L 12.800781 15.802734 L 18.792969 15.802734 C 19.84945 15.802734 20.699219 14.951012 20.699219 13.894531 L 20.699219 5.3105469 C 20.699219 4.2540657 19.84945 3.4042969 18.792969 3.4042969 L 3.2109375 3.4042969 z M 3.234375 3.9042969 L 18.769531 3.9042969 C 19.562892 3.9042969 20.201172 4.5425767 20.201172 5.3359375 L 20.201172 13.871094 C 20.201172 14.664455 19.562892 15.302734 18.769531 15.302734 L 3.234375 15.302734 C 2.441014 15.302734 1.8027344 14.664455 1.8027344 13.871094 L 1.8027344 5.3359375 C 1.8027344 4.5425767 2.441014 3.9042969 3.234375 3.9042969 z M 7.1542969 5.8574219 C 5.7765609 5.8862609 4.6777344 6.848206 4.6777344 8.0371094 L 4.6777344 10.21875 L 5.9511719 10.21875 L 5.9511719 8.0371094 C 5.9511719 7.4332237 6.5184634 6.9472656 7.2226562 6.9472656 C 7.9268982 6.9472656 8.4921875 7.4332231 8.4921875 8.0371094 L 8.4921875 10.099609 L 7.296875 10.099609 L 7.296875 13.279297 L 14.712891 13.279297 L 14.712891 10.099609 L 9.7636719 10.099609 L 9.7636719 8.0371094 C 9.7636719 6.8293374 8.6310442 5.8574219 7.2226562 5.8574219 C 7.1986362 5.8574219 7.1778362 5.8569386 7.1542969 5.8574219 z M 9.8007812 15.802734 L 12.199219 15.802734 L 12.199219 17.800781 L 9.8007812 17.800781 L 9.8007812 15.802734 z " class="ColorScheme-Text"/>
+</svg>
