@@ -14,7 +14,7 @@
         "Description": "Prevents the desktop from being accidentally misconfigured.",
         "Description[pt_BR]": "Evita que o desktop seja desconfigurado acidentalmente",
         "EnabledByDefault": true,
-        "Icon": "desktop-lock",
+        "Icon": "biglinux-lock",
         "Id": "org.biglinux.lock_edit_plasma",
         "License": "GPL-2.0+",
         "Name": "Block desktop changes",
