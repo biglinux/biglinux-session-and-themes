@@ -1,5 +1,7 @@
 #!/bin/bash
 
+/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/lock-desktop.run
+
 if [ ! -e "$HOME/.local/share/user-places-big.xbel" ]; then
     #Hide recent files in dolphin
     sed -i 's|<GroupState-RecentlySaved-IsHidden>false</GroupState-RecentlySaved-IsHidden>|<GroupState-RecentlySaved-IsHidden>true</GroupState-RecentlySaved-IsHidden>|g' ~/.local/share/user-places.xbel
