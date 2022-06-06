@@ -85,10 +85,10 @@ fi
 
 
 
-if [ "$theme_actual" = "" ]; then
-    biglinux-themes.sh --apply orchis
-    checked_arc="checked"
-fi
+# if [ "$theme_actual" = "" ]; then
+#     biglinux-themes.sh --apply orchis
+#     checked_arc="checked"
+# fi
 
 if [ "$theme_actual" = "breeze" ]; then
     checked_breeze="checked"
@@ -243,35 +243,35 @@ cat << EOF
               <ul id="menu" class="img-label">
               
                 <li>
-                  <a href="#" class="status-button-themeapply show-classic" onclick="_run('biglinux-themes.sh --apply breeze')"><img src="breeze.jpg"> <label>Breeze</label></a>
+                  <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply breeze')"><img src="breeze.jpg"> <label>Breeze</label></a>
                 </li>
                 
                 <li>
-                  <a href="#" class="status-button-themeapply show-classic" onclick="_run('biglinux-themes.sh --apply fluent')"><img src="fluent.jpg"> <label>Fluent</label></a>
+                  <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply fluent')"><img src="fluent.jpg"> <label>Fluent</label></a>
                 </li>                
                 
                 <li>
-                  <a href="#" class="status-button-themeapply show-classic" onclick="_run('biglinux-themes.sh --apply fluent-solid')"><img src="fluent-solid.jpg"> <label>Fluent Solid</label></a>
+                  <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply fluent-solid')"><img src="fluent-solid.jpg"> <label>Fluent Solid</label></a>
                 </li>
                 
                 <li>
-                  <a href="#" class="status-button-themeapply show-classic" onclick="_run('biglinux-themes.sh --apply materia')"><img src="materia.jpg"> <label>Materia</label></a>
+                  <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply materia')"><img src="materia.jpg"> <label>Materia</label></a>
                 </li>
                 
                 <li>
-                  <a href="#" class="status-button-themeapply show-classic" onclick="_run('biglinux-themes.sh --apply breeze-dark')"><img src="breeze-dark.jpg"> <label>Breeze Dark</label></a>
+                  <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply breeze-dark')"><img src="breeze-dark.jpg"> <label>Breeze Dark</label></a>
                 </li>
                 
                 <li>
-                  <a href="#" class="status-button-themeapply show-classic" onclick="_run('biglinux-themes.sh --apply fluent-dark')"><img src="fluent-dark.jpg"> <label>Fluent Dark</label></a>
+                  <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply fluent-dark')"><img src="fluent-dark.jpg"> <label>Fluent Dark</label></a>
                 </li>
                 
                 <li>
-                  <a href="#" class="status-button-themeapply show-classic" onclick="_run('biglinux-themes.sh --apply fluent-dark-solid')"><img src="fluent-dark-solid.jpg"> <label>Fluent Solid Dark</label></a>
+                  <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply fluent-dark-solid')"><img src="fluent-dark-solid.jpg"> <label>Fluent Solid Dark</label></a>
                 </li>
                 
                 <li>
-                  <a href="#" class="status-button-themeapply show-classic" onclick="_run('biglinux-themes.sh --apply materia-dark')"><img src="materia-dark.jpg"> <label>Materia Dark</label></a>
+                  <a href="#" class="status-button-themeapply" onclick="_run('biglinux-themes.sh --apply materia-dark')"><img src="materia-dark.jpg"> <label>Materia Dark</label></a>
                 </li>
               
               </ul>
