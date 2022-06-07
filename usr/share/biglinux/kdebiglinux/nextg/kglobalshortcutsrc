@@ -81,3 +81,8 @@ switch to next activity=none,,Mudar para a próxima atividade
 switch to previous activity=none,,Mudar para a atividade anterior
 toggle do not disturb=none,,Alternar o "Não perturbe"
 
+[org.kde.konsole.desktop]
+NewTab=none,none,Abre uma nova aba
+NewWindow=none,none,Abre uma nova janela
+_k_friendly_name=Terminal
+_launch=Ctrl+Alt+T,Ctrl+Alt+T,Terminal
