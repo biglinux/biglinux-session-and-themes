@@ -34,7 +34,7 @@ PreloadWeight=0
 [Containments][1][Applets][2][Configuration][General]
 isInLatteDock=true
 isPreferredForDroppedLaunchers=false
-launchers59=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop,file:///latte-separator1.desktop,file:///latte-separator2.desktop
+launchers59=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop,file:///latte-separator1.desktop,file:///latte-separator2.desktop
 manualScrollTasksType=Disabled
 middleClickAction=None
 
@@ -51,7 +51,7 @@ DialogWidth=800
 
 [Containments][1][Applets][4][Configuration][General]
 favoritesPortedToKAstats=true
-icon=big-favicon-nextg
+icon=big-favicon-kunity
 
 [Containments][1][Applets][4][Shortcuts]
 global=
@@ -75,21 +75,6 @@ DialogWidth=800
 containmentType=Latte
 lengthType=Expanding
 
-[Containments][1][Applets][7]
-immutability=1
-plugin=com.github.zren.presentwindows
-
-[Containments][1][Applets][7][Configuration]
-PreloadWeight=2
-
-[Containments][1][Applets][7][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][1][Applets][7][Configuration][General]
-clickCommand=Overview
-icon[$e]=mission-control
-
 [Containments][1][ConfigDialog]
 DialogHeight=600
 DialogWidth=586
@@ -101,18 +86,19 @@ PreloadWeight=0
 advanced=false
 alignment=3
 alignmentUpgraded=true
-appletOrder=4;7;2;55;5
+appletOrder=4;2;55;5
 autoSizeEnabled=false
-backgroundShadowSize=4
 blurEnabled=false
 configurationSticker=true
 floatingInternalGapIsForced=false
 iconSize=40
-lengthExtMargin=3
+lengthExtMargin=20
 minLength=100
 mouseWheelActions=false
+panelShadows=false
 panelSize=100
 panelTransparency=70
+proportionIconSize=3.7
 scrollAction=ScrollDesktops
 shadowOpacity=50
 shadowSize=50
@@ -121,9 +107,9 @@ shadowsUpgraded=true
 showGlow=false
 solidBackgroundForMaximized=true
 tasksUpgraded=true
-thickMargin=11
+thickMargin=25
 titleTooltips=false
-userBlocksColorizingApplets=4;5;7
+userBlocksColorizingApplets=4;5
 zoomLevel=0
 
 [Containments][1][Indicator]
@@ -278,6 +264,18 @@ DialogWidth=800
 containmentType=Latte
 lengthPixels=10
 
+[Containments][25][Applets][59]
+immutability=1
+plugin=com.github.zren.presentwindows
+
+[Containments][25][Applets][59][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][25][Applets][59][Configuration][General]
+clickCommand=Overview
+icon[$e]=big-mission-control
+
 [Containments][25][ConfigDialog]
 DialogHeight=1254
 DialogWidth=529
@@ -288,7 +286,7 @@ PreloadWeight=0
 [Containments][25][General]
 alignment=10
 alignmentUpgraded=true
-appletOrder=43;27;28;29;46;47;26
+appletOrder=43;27;28;59;29;46;47;26
 appletShadowsEnabled=false
 autoDecreaseIconSize=false
 autoSizeEnabled=false
@@ -441,6 +439,18 @@ plugin=touchpad
 [Containments][30][Applets][45][Configuration]
 PreloadWeight=10
 
+[Containments][30][Applets][56]
+immutability=1
+plugin=org.biglinux.lock_edit_plasma
+
+[Containments][30][Applets][57]
+immutability=1
+plugin=org.biglinux.micnoise
+
+[Containments][30][Applets][58]
+immutability=1
+plugin=org.biglinux.performance
+
 [Containments][30][Applets][74]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
@@ -454,10 +464,10 @@ DialogWidth=800
 
 [Containments][30][General]
 canFillThickness=true
-extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.kscreen,touchpad
+extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.kscreen,touchpad,org.biglinux.lock_edit_plasma,org.biglinux.micnoise,org.biglinux.performance
 hiddenItems=touchpad,org.kde.plasma.manage-inputmethod
 iconsSpacing=9
-knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.lock_edit_plasma,org.biglinux.micnoise,org.biglinux.performance
 shownItems=org.kde.plasma.volume,org.kde.plasma.clipboard
 
 [LayoutSettings]
