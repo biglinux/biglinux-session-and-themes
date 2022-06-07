@@ -127,6 +127,13 @@ if [ "$2" = "classic" ]; then
     sed -i "s|url=file:///usr/share/applications/brave-browser.desktop|url=file:///usr/share/applications/$DEFAULTWEB|" ~/.config/plasma-org.kde.plasma.desktop-appletsrc
 fi
 
+#desativar autocomposerEnabled
+if [ -e ~/.config/enable_latte ]; then
+    kwriteconfig5 --file ~/.config/kwinrc --group Plugins --key "autocomposerEnabled" "false"
+else
+    kwriteconfig5 --file ~/.config/kwinrc --group Plugins --key "autocomposerEnabled" "true"
+fi
+
 if [ "$4" != "quiet" ]; then
     systemctl --user start plasma-plasmashell
     systemctl --user restart plasma-kglobalaccel.service

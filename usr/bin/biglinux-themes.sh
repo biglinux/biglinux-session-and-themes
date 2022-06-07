@@ -88,7 +88,7 @@ case "$1" in
 		fi
 
 
-
+        #se latte tiver ativo colocar icons de fechar, maximizar e fechar do lado esquerdo
         if [ "$(cat "$HOME/.config/kwin_left")" = "1" ]; then
             kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
             kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
@@ -98,8 +98,13 @@ case "$1" in
             kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
             kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
         fi
-
-
+        
+        #desativar autocomposerEnabled
+        if [ -e ~/.config/enable_latte ]; then
+            kwriteconfig5 --file ~/.config/kwinrc --group Plugins --key "autocomposerEnabled" "false"
+        else
+            kwriteconfig5 --file ~/.config/kwinrc --group Plugins --key "autocomposerEnabled" "true"
+        fi
 
         # Disable kwin border in maximized windows
         if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
