@@ -22,6 +22,168 @@ run associated application=false
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
+[Containments][114]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=4
+location=4
+plugin=org.kde.plasma.private.systemtray
+wallpaperplugin=org.kde.image
+
+[Containments][114][Applets][115]
+immutability=1
+plugin=org.kde.kdeconnect
+
+[Containments][114][Applets][116]
+immutability=1
+plugin=org.kde.plasma.clipboard
+
+[Containments][114][Applets][117]
+immutability=1
+plugin=org.kde.plasma.devicenotifier
+
+[Containments][114][Applets][118]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][114][Applets][119]
+immutability=1
+plugin=org.kde.plasma.keyboardlayout
+
+[Containments][114][Applets][120]
+immutability=1
+plugin=org.kde.plasma.manage-inputmethod
+
+[Containments][114][Applets][121]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][114][Applets][122]
+immutability=1
+plugin=org.kde.plasma.notifications
+
+[Containments][114][Applets][123]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
+[Containments][114][Applets][124]
+immutability=1
+plugin=org.kde.plasma.volume
+
+[Containments][114][Applets][125]
+immutability=1
+plugin=org.biglinux.performance
+
+[Containments][114][Applets][126]
+immutability=1
+plugin=org.biglinux.micnoise
+
+[Containments][114][Applets][127]
+immutability=1
+plugin=org.biglinux.lock_edit_plasma
+
+[Containments][114][Applets][128]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][114][Applets][129]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][114][Applets][130]
+immutability=1
+plugin=org.kde.kscreen
+
+[Containments][114][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][114][General]
+extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kscreen
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma
+
+[Containments][132]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=5
+location=4
+plugin=org.kde.plasma.private.systemtray
+wallpaperplugin=org.kde.image
+
+[Containments][132][Applets][133]
+immutability=1
+plugin=org.kde.kdeconnect
+
+[Containments][132][Applets][134]
+immutability=1
+plugin=org.kde.plasma.clipboard
+
+[Containments][132][Applets][135]
+immutability=1
+plugin=org.kde.plasma.devicenotifier
+
+[Containments][132][Applets][136]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][132][Applets][137]
+immutability=1
+plugin=org.kde.plasma.keyboardlayout
+
+[Containments][132][Applets][138]
+immutability=1
+plugin=org.kde.plasma.manage-inputmethod
+
+[Containments][132][Applets][139]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][132][Applets][140]
+immutability=1
+plugin=org.kde.plasma.notifications
+
+[Containments][132][Applets][141]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
+[Containments][132][Applets][142]
+immutability=1
+plugin=org.kde.plasma.volume
+
+[Containments][132][Applets][143]
+immutability=1
+plugin=org.biglinux.performance
+
+[Containments][132][Applets][144]
+immutability=1
+plugin=org.biglinux.micnoise
+
+[Containments][132][Applets][145]
+immutability=1
+plugin=org.biglinux.lock_edit_plasma
+
+[Containments][132][Applets][146]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][132][Applets][147]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][132][Applets][148]
+immutability=1
+plugin=org.kde.kscreen
+
+[Containments][132][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][132][General]
+extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kscreen
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma
+
 [Containments][2]
 activityId=
 formfactor=2
@@ -50,8 +212,8 @@ DialogWidth=800
 [Containments][2][Applets][29][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
-showOnlyCurrentScreen=true
 showOnlyCurrentDesktop=false
+showOnlyCurrentScreen=true
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -61,7 +223,7 @@ immutability=1
 plugin=org.biglinux.appsmenu
 
 [Containments][2][Applets][31][Configuration]
-PreloadWeight=15
+PreloadWeight=30
 
 [Containments][2][Applets][31][Configuration][ConfigDialog]
 DialogHeight=600
@@ -87,16 +249,13 @@ size=5
 immutability=1
 plugin=com.github.zren.presentwindows
 
-[Containments][2][Applets][35][Configuration][General]
-clickCommand=Overview
-icon[$e]=mission-control
-
 [Containments][2][Applets][35][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
 [Containments][2][Applets][35][Configuration][General]
 clickCommand=Overview
+icon[$e]=mission-control
 
 [Containments][2][Applets][40]
 immutability=1
@@ -154,6 +313,8 @@ AppletOrder=31;29;35;40;8;33
 [Containments][27]
 ItemGeometries-1074x813=
 ItemGeometries-1074x868=
+ItemGeometries-1280x800=
+ItemGeometries-1550x823=
 ItemGeometries-1920x940=
 ItemGeometriesHorizontal=
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
@@ -175,9 +336,9 @@ PreloadWeight=0
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=43
 arrangement=1
-iconSize=3
+iconSize=2
 labelWidth=3
-positions=1,6,desktop:/bigcontrolcenter.desktop,0,2,desktop:/calamares-biglinux.desktop,0,3,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1
+positions={"1550x823":["1"\\,"6"\\,"desktop:/trash.desktop"\\,"0"\\,"0"\\,"desktop:/home.desktop"\\,"0"\\,"1"\\,"desktop:/bigcontrolcenter.desktop"\\,"0"\\,"2"]\\,"1280x800":["1"\\,"6"\\,"desktop:/trash.desktop"\\,"0"\\,"0"\\,"desktop:/bigcontrolcenter.desktop"\\,"0"\\,"1"\\,"desktop:/home.desktop"\\,"0"\\,"2"]}
 sizeIcon=3
 sortMode=-1
 textLines=3
@@ -214,8 +375,8 @@ DialogWidth=800
 [Containments][3][Applets][29][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
-showOnlyCurrentScreen=true
 showOnlyCurrentDesktop=false
+showOnlyCurrentScreen=true
 
 [Containments][3][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -251,20 +412,37 @@ size=5
 immutability=1
 plugin=com.github.zren.presentwindows
 
-[Containments][3][Applets][35][Configuration][General]
-clickCommand=Overview
-icon[$e]=mission-control
-
 [Containments][3][Applets][35][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
 [Containments][3][Applets][35][Configuration][General]
 clickCommand=Overview
+icon[$e]=mission-control
 
 [Containments][3][Applets][5][Configuration][General]
 groupingStrategy=0
 sortingStrategy=1
+
+[Containments][3][Applets][58]
+activityId=
+formfactor=0
+immutability=1
+lastScreen=-1
+location=0
+plugin=org.kde.plasma.systemtray
+wallpaperplugin=
+
+[Containments][3][Applets][58][Configuration]
+PreloadWeight=55
+SystrayContainmentId=59
+activityId=
+formfactor=0
+immutability=1
+lastScreen=-1
+location=0
+plugin=org.kde.plasma.systemtray
+wallpaperplugin=
 
 [Containments][3][Applets][8]
 immutability=1
@@ -299,15 +477,16 @@ tasklistList=W10=
 
 [Containments][3][ConfigDialog]
 DialogHeight=91
-DialogWidth=809
+DialogWidth=1260
 
 [Containments][3][Configuration]
 PreloadWeight=0
 
 [Containments][3][General]
-AppletOrder=31;29;35;8;33
+AppletOrder=31;29;35;58;8;33
 
 [Containments][36]
+ItemGeometries-1260x691=
 ItemGeometries-802x725=
 ItemGeometries-809x564=
 ItemGeometriesHorizontal=
@@ -318,6 +497,10 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][36][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=136
 
 [Containments][36][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Big-retro.jpg
@@ -333,8 +516,12 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][37][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=136
+
 [Containments][37][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Big-retro.jpg
+Image=file:///usr/share/wallpapers/Big-retro.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][38]
@@ -348,7 +535,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][38][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Big-retro.jpg
+Image=file:///usr/share/wallpapers/Big-retro.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][39]
@@ -361,22 +548,12 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][39][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=136
+
 [Containments][39][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Big-retro.jpg
-SlidePaths=/usr/share/wallpapers
-
-[Containments][40]
-ItemGeometriesHorizontal=
-activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
-formfactor=0
-immutability=1
-lastScreen=5
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][40][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Big-retro.jpg
+Image=file:///usr/share/wallpapers/Big-retro.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][4]
@@ -403,8 +580,8 @@ PreloadWeight=0
 [Containments][4][Applets][29][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
-showOnlyCurrentScreen=true
 showOnlyCurrentDesktop=false
+showOnlyCurrentScreen=true
 
 [Containments][4][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -440,20 +617,25 @@ size=5
 immutability=1
 plugin=com.github.zren.presentwindows
 
-[Containments][4][Applets][35][Configuration][General]
-clickCommand=Overview
-icon[$e]=mission-control
-
 [Containments][4][Applets][35][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
 [Containments][4][Applets][35][Configuration][General]
 clickCommand=Overview
+icon[$e]=mission-control
 
 [Containments][4][Applets][5][Configuration][General]
 groupingStrategy=0
 sortingStrategy=1
+
+[Containments][4][Applets][77]
+immutability=1
+plugin=org.kde.plasma.systemtray
+
+[Containments][4][Applets][77][Configuration]
+PreloadWeight=55
+SystrayContainmentId=78
 
 [Containments][4][Applets][8]
 immutability=1
@@ -487,14 +669,28 @@ calendarList=W10=
 tasklistList=W10=
 
 [Containments][4][ConfigDialog]
-DialogHeight=86
-DialogWidth=1920
+DialogHeight=91
+DialogWidth=1260
 
 [Containments][4][Configuration]
 PreloadWeight=0
 
 [Containments][4][General]
-AppletOrder=31;29;35;8;33
+AppletOrder=31;29;35;77;8;33
+
+[Containments][40]
+ItemGeometriesHorizontal=
+activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
+formfactor=0
+immutability=1
+lastScreen=5
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][40][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Big-retro.jpg
+SlidePaths=/usr/share/wallpapers
 
 [Containments][41]
 activityId=
@@ -560,14 +756,26 @@ plugin=org.kde.kscreen
 [Containments][41][Applets][54][Configuration]
 PreloadWeight=55
 
+[Containments][41][Applets][55]
+immutability=1
+plugin=org.biglinux.performance
+
+[Containments][41][Applets][56]
+immutability=1
+plugin=org.biglinux.micnoise
+
+[Containments][41][Applets][57]
+immutability=1
+plugin=org.biglinux.lock_edit_plasma
+
 [Containments][41][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
 [Containments][41][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.kscreen
+extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.kscreen,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma
 hiddenItems=MSM Notifier for Plasma5
-knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma
 
 [Containments][5]
 activityId=
@@ -593,8 +801,8 @@ PreloadWeight=0
 [Containments][5][Applets][29][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
-showOnlyCurrentScreen=true
 showOnlyCurrentDesktop=false
+showOnlyCurrentScreen=true
 
 [Containments][5][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -630,16 +838,13 @@ size=5
 immutability=1
 plugin=com.github.zren.presentwindows
 
-[Containments][5][Applets][35][Configuration][General]
-clickCommand=Overview
-icon[$e]=mission-control
-
 [Containments][5][Applets][35][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
 [Containments][5][Applets][35][Configuration][General]
 clickCommand=Overview
+icon[$e]=mission-control
 
 [Containments][5][Applets][5][Configuration][General]
 groupingStrategy=0
@@ -676,15 +881,104 @@ widgetShowMeteogram=false
 calendarList=W10=
 tasklistList=W10=
 
+[Containments][5][Applets][95]
+immutability=1
+plugin=org.kde.plasma.systemtray
+
+[Containments][5][Applets][95][Configuration]
+PreloadWeight=55
+SystrayContainmentId=96
+
 [Containments][5][ConfigDialog]
-DialogHeight=86
-DialogWidth=1920
+DialogHeight=91
+DialogWidth=1260
 
 [Containments][5][Configuration]
 PreloadWeight=0
 
 [Containments][5][General]
-AppletOrder=31;29;35;8;33
+AppletOrder=31;29;35;95;8;33
+
+[Containments][59]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=1
+location=4
+plugin=org.kde.plasma.private.systemtray
+wallpaperplugin=org.kde.image
+
+[Containments][59][Applets][60]
+immutability=1
+plugin=org.kde.kdeconnect
+
+[Containments][59][Applets][61]
+immutability=1
+plugin=org.kde.plasma.clipboard
+
+[Containments][59][Applets][62]
+immutability=1
+plugin=org.kde.plasma.devicenotifier
+
+[Containments][59][Applets][63]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][59][Applets][64]
+immutability=1
+plugin=org.kde.plasma.keyboardlayout
+
+[Containments][59][Applets][65]
+immutability=1
+plugin=org.kde.plasma.manage-inputmethod
+
+[Containments][59][Applets][66]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][59][Applets][67]
+immutability=1
+plugin=org.kde.plasma.notifications
+
+[Containments][59][Applets][68]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
+[Containments][59][Applets][69]
+immutability=1
+plugin=org.kde.plasma.volume
+
+[Containments][59][Applets][70]
+immutability=1
+plugin=org.biglinux.performance
+
+[Containments][59][Applets][71]
+immutability=1
+plugin=org.biglinux.micnoise
+
+[Containments][59][Applets][72]
+immutability=1
+plugin=org.biglinux.lock_edit_plasma
+
+[Containments][59][Applets][73]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][59][Applets][74]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][59][Applets][75]
+immutability=1
+plugin=org.kde.kscreen
+
+[Containments][59][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][59][General]
+extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kscreen
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma
 
 [Containments][6]
 activityId=
@@ -694,6 +988,14 @@ lastScreen=4
 location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
+
+[Containments][6][Applets][113]
+immutability=1
+plugin=org.kde.plasma.systemtray
+
+[Containments][6][Applets][113][Configuration]
+PreloadWeight=55
+SystrayContainmentId=114
 
 [Containments][6][Applets][19][Configuration][General]
 customButtonImage=big-favicon-new
@@ -710,8 +1012,8 @@ PreloadWeight=0
 [Containments][6][Applets][29][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
-showOnlyCurrentScreen=true
 showOnlyCurrentDesktop=false
+showOnlyCurrentScreen=true
 
 [Containments][6][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -747,16 +1049,13 @@ size=5
 immutability=1
 plugin=com.github.zren.presentwindows
 
-[Containments][6][Applets][35][Configuration][General]
-clickCommand=Overview
-icon[$e]=mission-control
-
 [Containments][6][Applets][35][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
 [Containments][6][Applets][35][Configuration][General]
 clickCommand=Overview
+icon[$e]=mission-control
 
 [Containments][6][Applets][5][Configuration][General]
 groupingStrategy=0
@@ -794,14 +1093,14 @@ calendarList=W10=
 tasklistList=W10=
 
 [Containments][6][ConfigDialog]
-DialogHeight=86
-DialogWidth=1920
+DialogHeight=91
+DialogWidth=1260
 
 [Containments][6][Configuration]
 PreloadWeight=0
 
 [Containments][6][General]
-AppletOrder=31;29;35;8;33
+AppletOrder=31;29;35;113;8;33
 
 [Containments][7]
 activityId=
@@ -811,6 +1110,14 @@ lastScreen=5
 location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
+
+[Containments][7][Applets][131]
+immutability=1
+plugin=org.kde.plasma.systemtray
+
+[Containments][7][Applets][131][Configuration]
+PreloadWeight=55
+SystrayContainmentId=132
 
 [Containments][7][Applets][19][Configuration][General]
 customButtonImage=big-favicon-new
@@ -827,8 +1134,8 @@ PreloadWeight=0
 [Containments][7][Applets][29][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 middleClickAction=None
-showOnlyCurrentScreen=true
 showOnlyCurrentDesktop=false
+showOnlyCurrentScreen=true
 
 [Containments][7][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -864,16 +1171,13 @@ size=5
 immutability=1
 plugin=com.github.zren.presentwindows
 
-[Containments][7][Applets][35][Configuration][General]
-clickCommand=Overview
-icon[$e]=mission-control
-
 [Containments][7][Applets][35][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
 [Containments][7][Applets][35][Configuration][General]
 clickCommand=Overview
+icon[$e]=mission-control
 
 [Containments][7][Applets][5][Configuration][General]
 groupingStrategy=0
@@ -918,11 +1222,173 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][7][General]
-AppletOrder=31;29;35;8;33
+AppletOrder=31;29;35;131;8;33
+
+[Containments][78]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=2
+location=4
+plugin=org.kde.plasma.private.systemtray
+wallpaperplugin=org.kde.image
+
+[Containments][78][Applets][79]
+immutability=1
+plugin=org.kde.kdeconnect
+
+[Containments][78][Applets][80]
+immutability=1
+plugin=org.kde.plasma.clipboard
+
+[Containments][78][Applets][81]
+immutability=1
+plugin=org.kde.plasma.devicenotifier
+
+[Containments][78][Applets][82]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][78][Applets][83]
+immutability=1
+plugin=org.kde.plasma.keyboardlayout
+
+[Containments][78][Applets][84]
+immutability=1
+plugin=org.kde.plasma.manage-inputmethod
+
+[Containments][78][Applets][85]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][78][Applets][86]
+immutability=1
+plugin=org.kde.plasma.notifications
+
+[Containments][78][Applets][87]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
+[Containments][78][Applets][88]
+immutability=1
+plugin=org.kde.plasma.volume
+
+[Containments][78][Applets][89]
+immutability=1
+plugin=org.biglinux.performance
+
+[Containments][78][Applets][90]
+immutability=1
+plugin=org.biglinux.micnoise
+
+[Containments][78][Applets][91]
+immutability=1
+plugin=org.biglinux.lock_edit_plasma
+
+[Containments][78][Applets][92]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][78][Applets][93]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][78][Applets][94]
+immutability=1
+plugin=org.kde.kscreen
+
+[Containments][78][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][78][General]
+extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kscreen
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma
+
+[Containments][96]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=3
+location=4
+plugin=org.kde.plasma.private.systemtray
+wallpaperplugin=org.kde.image
+
+[Containments][96][Applets][100]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][96][Applets][101]
+immutability=1
+plugin=org.kde.plasma.keyboardlayout
+
+[Containments][96][Applets][102]
+immutability=1
+plugin=org.kde.plasma.manage-inputmethod
+
+[Containments][96][Applets][103]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][96][Applets][104]
+immutability=1
+plugin=org.kde.plasma.notifications
+
+[Containments][96][Applets][105]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
+[Containments][96][Applets][106]
+immutability=1
+plugin=org.kde.plasma.volume
+
+[Containments][96][Applets][107]
+immutability=1
+plugin=org.biglinux.performance
+
+[Containments][96][Applets][108]
+immutability=1
+plugin=org.biglinux.micnoise
+
+[Containments][96][Applets][109]
+immutability=1
+plugin=org.biglinux.lock_edit_plasma
+
+[Containments][96][Applets][110]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][96][Applets][111]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][96][Applets][112]
+immutability=1
+plugin=org.kde.kscreen
+
+[Containments][96][Applets][97]
+immutability=1
+plugin=org.kde.kdeconnect
+
+[Containments][96][Applets][98]
+immutability=1
+plugin=org.kde.plasma.clipboard
+
+[Containments][96][Applets][99]
+immutability=1
+plugin=org.kde.plasma.devicenotifier
+
+[Containments][96][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][96][General]
+extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kscreen
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma
 
 [General]
-immutability=2
+immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/calamares.desktop,0,desktop:/calamares-biglinux.desktop,0,desktop:/bigcontrolcenter.desktop,0,desktop:/trash.desktop,0,desktop:/home.desktop,0
+screenMapping=desktop:/trash.desktop,0,desktop:/bigcontrolcenter.desktop,0,desktop:/home.desktop,0,desktop:/calamares.desktop,0,desktop:/calamares-biglinux.desktop,0
