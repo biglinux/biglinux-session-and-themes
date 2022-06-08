@@ -2,7 +2,7 @@
 
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
-export TEXTDOMAIN=biglinux-themes
+export TEXTDOMAIN=biglinux-session-and-themes
 
 if [ "$1" = "" ]; then
     exit
