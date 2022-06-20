@@ -66,9 +66,6 @@ Item {
 
 				if (client.fullScreen && compositionPreference != "on") {
 					composition.connectSource("minimizeallwindows")
-					client.blocksCompositing = true
-				} else if (!client.fullScreen && compositionPreference != "off") {
-					client.blocksCompositing = false
 				}
 			}
 

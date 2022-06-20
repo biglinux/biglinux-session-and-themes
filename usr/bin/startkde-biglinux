@@ -108,6 +108,7 @@ if [ "$(grep -i 'SingleClick=' ~/.config/kdeglobals)" = "" ]; then
 fi
 
 # Fix ssh agent
+SSH_ASKPASS=/usr/bin/ksshaskpass
 if [ -z "$SSH_AGENT_PID" ]; then
   eval "$(ssh-agent -s)"
 fi
