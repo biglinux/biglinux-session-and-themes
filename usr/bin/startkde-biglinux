@@ -145,7 +145,6 @@ done
 
 /usr/lib/pam_kwallet_init &
 
-export KWIN_EFFECTS_FORCE_ANIMATIONS=1
 export MULTIKDE=$nowlogin
 
 
@@ -177,7 +176,9 @@ fi
 if [ "$(glxinfo | grep llvmpipe)" = "" ]; then
     rm -Rf ~/.local/share/plasma/desktoptheme/Fluent/
     rm -Rf ~/.local/share/plasma/desktoptheme/Fluent-round/
+    export GALLIUM_DRIVER=swrast
 else
+    export KWIN_EFFECTS_FORCE_ANIMATIONS=1
     mkdir -p ~/.local/share/plasma/desktoptheme/Fluent
     echo '[Desktop Entry]
 Name=Fluent
