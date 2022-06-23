@@ -176,9 +176,9 @@ fi
 if [ "$(glxinfo | grep llvmpipe)" = "" ]; then
     rm -Rf ~/.local/share/plasma/desktoptheme/Fluent/
     rm -Rf ~/.local/share/plasma/desktoptheme/Fluent-round/
-    export GALLIUM_DRIVER=swrast
-else
     export KWIN_EFFECTS_FORCE_ANIMATIONS=1
+else
+    export GALLIUM_DRIVER=swrast
     mkdir -p ~/.local/share/plasma/desktoptheme/Fluent
     echo '[Desktop Entry]
 Name=Fluent
