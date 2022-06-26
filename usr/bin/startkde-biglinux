@@ -35,6 +35,18 @@ else
 
 fi
 
+#Faster AMD GPU
+export RADV_FORCE_VRS=2x2
+export RADV_PERFTEST=sam,ngcc
+
+#Best wine scale
+export WINE_FULLSCREEN_FSR=1
+export WINE_FULLSCREEN_FSR_STRENGTH=3
+
+#More cache to 3D
+__GL_SHADER_DISK_CACHE=1
+__GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
+
 
 # Virtualization fix open
 if [ "$(lspci | grep -i vga | grep -i vmware)" != "" ]; then
@@ -178,6 +190,15 @@ if [ "$(glxinfo | grep llvmpipe)" = "" ]; then
     rm -Rf ~/.local/share/plasma/desktoptheme/Fluent-round/
     export KWIN_EFFECTS_FORCE_ANIMATIONS=1
 else
+#     export QT_QUICK_BACKEND=software
+#     export QSG_RENDER_LOOP=basic
+#     export MESA_NO_ERROR=1
+#     export MESA_SHADER_CACHE_DISABLE=true
+#     export MESA_XSYNC=0
+#     export LIBGL_ALWAYS_SOFTWARE=1
+#     export DRI_NO_MSAA=1
+#     export MESA_GL_VERSION_OVERRIDE=4.4
+#     export MESA_GLSL_VERSION_OVERRIDE=120
     export GALLIUM_DRIVER=swrast
     mkdir -p ~/.local/share/plasma/desktoptheme/Fluent
     echo '[Desktop Entry]
