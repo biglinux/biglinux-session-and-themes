@@ -188,7 +188,7 @@ fi
 if [ "$(glxinfo | grep llvmpipe)" = "" ]; then
     rm -Rf ~/.local/share/plasma/desktoptheme/Fluent/
     rm -Rf ~/.local/share/plasma/desktoptheme/Fluent-round/
-    export KWIN_EFFECTS_FORCE_ANIMATIONS=1
+    #export KWIN_EFFECTS_FORCE_ANIMATIONS=1
 else
 #     export QT_QUICK_BACKEND=software
 #     export QSG_RENDER_LOOP=basic
@@ -199,7 +199,7 @@ else
 #     export DRI_NO_MSAA=1
 #     export MESA_GL_VERSION_OVERRIDE=4.4
 #     export MESA_GLSL_VERSION_OVERRIDE=120
-    export GALLIUM_DRIVER=swrast
+    #export GALLIUM_DRIVER=swrast
     mkdir -p ~/.local/share/plasma/desktoptheme/Fluent
     echo '[Desktop Entry]
 Name=Fluent
