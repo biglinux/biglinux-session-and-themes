@@ -12,8 +12,6 @@ Id_4=5a9c02fb-73f3-452a-969d-fc875cb3439f
 Number=4
 Rows=1
 
-[MouseBindings]
-CommandAllKey=Alt
 
 [Effect-PresentWindows]
 BorderActivate=7
