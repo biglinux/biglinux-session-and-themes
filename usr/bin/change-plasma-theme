@@ -48,7 +48,7 @@ fi
 
 # Clean
 if [ "$3" = "clean" ] && [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
-    chmod 644 ~/.config/latte/*.latte
+    #chmod 644 ~/.config/latte/*.latte
     rm -Rf "$HOME/.kdebiglinux/$2"
 fi
 
@@ -154,10 +154,10 @@ fi
 
 
 if [ -e "$HOME/.config/lockplasma" ]; then
-    chmod 444 ~/.config/latte/*.latte
+    #chmod 444 ~/.config/latte/*.latte
     qdbus org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(true)"
 else
-    chmod 644 ~/.config/latte/*.latte
+    #chmod 644 ~/.config/latte/*.latte
     qdbus org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(false)"
 fi
 ;;
