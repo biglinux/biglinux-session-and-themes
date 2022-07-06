@@ -1,3 +1,9 @@
+[kwin]
+Switch One Desktop Down=Meta+Ctrl+Down,none,Mudar para a área de trabalho abaixo
+Switch One Desktop Up=Meta+Ctrl+Up,none,Mudar para a área de trabalho acima
+Switch One Desktop to the Left=Meta+Ctrl+Left,none,Mudar para a área de trabalho à esquerda
+Switch One Desktop to the Right=Meta+Ctrl+Right,none,Mudar para a área de trabalho à direita
+
 [lattedock]
 _k_friendly_name=Latte Dock
 activate entry 1=Meta+1,Meta+1,Activate Entry 1
