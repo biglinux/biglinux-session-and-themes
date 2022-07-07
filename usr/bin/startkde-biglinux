@@ -47,6 +47,7 @@ export WINE_FULLSCREEN_FSR_STRENGTH=3
 if [ -e "/usr/bin/obs-vkcapture" ]; then
     export OBS_USE_EGL=1
     export OBS_VKCAPTURE=1
+    export VK_INSTANCE_LAYERS=VK_LAYER_OBS_vkcapture_64:VK_LAYER_VALVE_steam_overlay_64 #Fix MangoHUD overlay
 fi
 
 #More cache to 3D
