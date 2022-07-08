@@ -44,6 +44,8 @@ Window_buttons_on_the_left_side=$"Botões da janela no lado esquerdo"
 Inverted_mouse_scroll=$"Rolagem do mouse invertida"
 Search_files=$"Pesquisar arquivos"
 Lock_the_workspace=$"Bloquear a área de trabalho"
+HideGrub_text=$"Ocultar Gerenciador de Boot (GRUB)"
+NumLock_text=$"Teclado numérico (NumLock)"
 
 Theme_change=$"Tema aplicado"
 Need_restart=$"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
@@ -737,13 +739,13 @@ cat << EOF
                       <li style="padding: 2px;" onchange="_run('pkexec ./grub.run')">
                         
                           <input id="desktop3" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_hidegrub>
-                          <span for="desktop3">Ocultar Gerenciador de Boot (GRUB)<br><small></small></span>
+                          <span for="desktop3">$HideGrub_text<br><small></small></span>
                         
                       </li>                    
                       <li style="padding-top: 2px;" onchange="_run('./numlock.run')">
                         
                           <input id="desktop4" type="checkbox" class="switch" style="display: inline-block; float: left;" $checked_confnumlock>
-                          <span for="desktop4">Teclado numérico (NumLock)<br><small></small></span>
+                          <span for="desktop4">$NumLock_text<br><small></small></span>
                         
                       </li>                    
                     </ul>
