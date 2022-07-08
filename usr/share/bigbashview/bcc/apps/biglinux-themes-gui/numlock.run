@@ -1,0 +1,10 @@
+#!/bin/bash
+#desligar Numlock
+
+INPUT=$(grep Numlock=on /etc/sddm.conf)
+
+if [ -n "$INPUT" ]; then
+    bigsudo kwriteconfig5 --group "General" --key "Numlock" --file "/etc/sddm.conf" "none"
+else
+    bigsudo kwriteconfig5 --group "General" --key "Numlock" --file "/etc/sddm.conf" "on"
+fi
