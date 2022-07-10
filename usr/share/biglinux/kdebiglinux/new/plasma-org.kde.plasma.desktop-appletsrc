@@ -203,7 +203,6 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][2][Applets][29][Configuration]
-PreloadWeight=0
 
 [Containments][2][Applets][29][Configuration][ConfigDialog]
 DialogHeight=600
@@ -223,7 +222,6 @@ immutability=1
 plugin=org.biglinux.appsmenu
 
 [Containments][2][Applets][31][Configuration]
-PreloadWeight=30
 
 [Containments][2][Applets][31][Configuration][ConfigDialog]
 DialogHeight=600
@@ -262,7 +260,6 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][40][Configuration]
-PreloadWeight=90
 SystrayContainmentId=41
 
 [Containments][2][Applets][5][Configuration][General]
@@ -274,7 +271,6 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=90
 
 [Containments][2][Applets][8][Configuration][Agenda]
 twoColumns=false
@@ -305,7 +301,6 @@ DialogHeight=91
 DialogWidth=1074
 
 [Containments][2][Configuration]
-PreloadWeight=0
 
 [Containments][2][General]
 AppletOrder=31;29;35;40;8;33
@@ -330,7 +325,6 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][27][Configuration]
-PreloadWeight=0
 
 [Containments][27][General]
 ToolBoxButtonState=topcenter
@@ -366,7 +360,6 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][3][Applets][29][Configuration]
-PreloadWeight=0
 
 [Containments][3][Applets][29][Configuration][ConfigDialog]
 DialogHeight=600
@@ -386,7 +379,6 @@ immutability=1
 plugin=org.biglinux.appsmenu
 
 [Containments][3][Applets][31][Configuration]
-PreloadWeight=15
 
 [Containments][3][Applets][31][Configuration][ConfigDialog]
 DialogHeight=600
@@ -434,7 +426,6 @@ plugin=org.kde.plasma.systemtray
 wallpaperplugin=
 
 [Containments][3][Applets][58][Configuration]
-PreloadWeight=55
 SystrayContainmentId=59
 activityId=
 formfactor=0
@@ -449,7 +440,6 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][3][Applets][8][Configuration]
-PreloadWeight=90
 
 [Containments][3][Applets][8][Configuration][Agenda]
 twoColumns=false
@@ -480,7 +470,6 @@ DialogHeight=91
 DialogWidth=1260
 
 [Containments][3][Configuration]
-PreloadWeight=0
 
 [Containments][3][General]
 AppletOrder=31;29;35;58;8;33
@@ -575,7 +564,6 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][4][Applets][29][Configuration]
-PreloadWeight=0
 
 [Containments][4][Applets][29][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
@@ -591,7 +579,6 @@ immutability=1
 plugin=org.biglinux.appsmenu
 
 [Containments][4][Applets][31][Configuration]
-PreloadWeight=15
 
 [Containments][4][Applets][31][Configuration][ConfigDialog]
 DialogHeight=600
@@ -634,7 +621,6 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][4][Applets][77][Configuration]
-PreloadWeight=55
 SystrayContainmentId=78
 
 [Containments][4][Applets][8]
@@ -642,7 +628,6 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][4][Applets][8][Configuration]
-PreloadWeight=90
 
 [Containments][4][Applets][8][Configuration][Agenda]
 twoColumns=false
@@ -673,7 +658,6 @@ DialogHeight=91
 DialogWidth=1260
 
 [Containments][4][Configuration]
-PreloadWeight=0
 
 [Containments][4][General]
 AppletOrder=31;29;35;77;8;33
@@ -754,7 +738,6 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][41][Applets][54][Configuration]
-PreloadWeight=55
 
 [Containments][41][Applets][55]
 immutability=1
@@ -796,7 +779,6 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][5][Applets][29][Configuration]
-PreloadWeight=0
 
 [Containments][5][Applets][29][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
@@ -812,7 +794,6 @@ immutability=1
 plugin=org.biglinux.appsmenu
 
 [Containments][5][Applets][31][Configuration]
-PreloadWeight=15
 
 [Containments][5][Applets][31][Configuration][ConfigDialog]
 DialogHeight=600
@@ -855,7 +836,6 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][5][Applets][8][Configuration]
-PreloadWeight=90
 
 [Containments][5][Applets][8][Configuration][Agenda]
 twoColumns=false
@@ -886,7 +866,6 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][5][Applets][95][Configuration]
-PreloadWeight=55
 SystrayContainmentId=96
 
 [Containments][5][ConfigDialog]
@@ -894,7 +873,6 @@ DialogHeight=91
 DialogWidth=1260
 
 [Containments][5][Configuration]
-PreloadWeight=0
 
 [Containments][5][General]
 AppletOrder=31;29;35;95;8;33
@@ -994,7 +972,6 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][6][Applets][113][Configuration]
-PreloadWeight=55
 SystrayContainmentId=114
 
 [Containments][6][Applets][19][Configuration][General]
@@ -1007,7 +984,6 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][6][Applets][29][Configuration]
-PreloadWeight=0
 
 [Containments][6][Applets][29][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
@@ -1023,7 +999,6 @@ immutability=1
 plugin=org.biglinux.appsmenu
 
 [Containments][6][Applets][31][Configuration]
-PreloadWeight=15
 
 [Containments][6][Applets][31][Configuration][ConfigDialog]
 DialogHeight=600
@@ -1066,7 +1041,6 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][6][Applets][8][Configuration]
-PreloadWeight=90
 
 [Containments][6][Applets][8][Configuration][Agenda]
 twoColumns=false
@@ -1097,7 +1071,6 @@ DialogHeight=91
 DialogWidth=1260
 
 [Containments][6][Configuration]
-PreloadWeight=0
 
 [Containments][6][General]
 AppletOrder=31;29;35;113;8;33
@@ -1116,7 +1089,6 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][7][Applets][131][Configuration]
-PreloadWeight=55
 SystrayContainmentId=132
 
 [Containments][7][Applets][19][Configuration][General]
@@ -1129,7 +1101,6 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][7][Applets][29][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][29][Configuration][General]
 launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.gnome.Calculator.desktop,applications:libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
@@ -1145,7 +1116,6 @@ immutability=1
 plugin=org.biglinux.appsmenu
 
 [Containments][7][Applets][31][Configuration]
-PreloadWeight=15
 
 [Containments][7][Applets][31][Configuration][ConfigDialog]
 DialogHeight=600
@@ -1188,7 +1158,6 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][7][Applets][8][Configuration]
-PreloadWeight=90
 
 [Containments][7][Applets][8][Configuration][Agenda]
 twoColumns=false
@@ -1219,7 +1188,6 @@ DialogHeight=86
 DialogWidth=1920
 
 [Containments][7][Configuration]
-PreloadWeight=0
 
 [Containments][7][General]
 AppletOrder=31;29;35;131;8;33

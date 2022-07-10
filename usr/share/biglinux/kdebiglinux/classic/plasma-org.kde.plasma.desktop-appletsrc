@@ -198,7 +198,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][20][Configuration]
-PreloadWeight=0
 localPath=/home/barnabe/.local/share/plasma_icons/org.kde.dolphin (6).desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
@@ -207,7 +206,6 @@ immutability=1
 plugin=org.kde.plasma.minimizeall
 
 [Containments][2][Applets][25][Configuration]
-PreloadWeight=0
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -217,7 +215,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][30][Configuration]
-PreloadWeight=42
 localPath=/home/barnabe/.local/share/plasma_icons/brave-browser (6).desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
@@ -226,7 +223,6 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][31][Configuration]
-PreloadWeight=15
 
 [Containments][2][Applets][31][Configuration][ConfigDialog]
 DialogHeight=620
@@ -254,7 +250,6 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][2][Applets][42][Configuration]
-PreloadWeight=90
 
 [Containments][2][Applets][42][Configuration][Agenda]
 twoColumns=false
@@ -285,7 +280,6 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][2][Applets][5][Configuration]
-PreloadWeight=0
 
 [Containments][2][Applets][5][Configuration][ConfigDialog]
 DialogHeight=540
@@ -303,7 +297,6 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=5
 SystrayContainmentId=7
 
 [Containments][2][ConfigDialog]
@@ -311,7 +304,6 @@ DialogHeight=91
 DialogWidth=1920
 
 [Containments][2][Configuration]
-PreloadWeight=0
 
 [Containments][2][General]
 AppletOrder=31;30;20;25;5;34;6;42
@@ -334,7 +326,6 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][27][Configuration]
-PreloadWeight=0
 
 [Containments][27][General]
 ToolBoxButtonState=topcenter
@@ -366,7 +357,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][3][Applets][20][Configuration]
-PreloadWeight=0
 localPath=/home/barnabe/.local/share/plasma_icons/org.kde.dolphin (7).desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
@@ -375,7 +365,6 @@ immutability=1
 plugin=org.kde.plasma.minimizeall
 
 [Containments][3][Applets][25][Configuration]
-PreloadWeight=0
 
 [Containments][3][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -385,7 +374,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][3][Applets][30][Configuration]
-PreloadWeight=42
 localPath=/home/barnabe/.local/share/plasma_icons/brave-browser (7).desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
@@ -394,7 +382,6 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][3][Applets][31][Configuration]
-PreloadWeight=20
 
 [Containments][3][Applets][31][Configuration][ConfigDialog]
 DialogHeight=620
@@ -422,7 +409,6 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][3][Applets][42][Configuration]
-PreloadWeight=90
 
 [Containments][3][Applets][42][Configuration][Agenda]
 twoColumns=false
@@ -453,7 +439,6 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][3][Applets][46][Configuration]
-PreloadWeight=55
 SystrayContainmentId=47
 
 [Containments][3][Applets][5]
@@ -461,7 +446,6 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][3][Applets][5][Configuration]
-PreloadWeight=0
 
 [Containments][3][Applets][5][Configuration][ConfigDialog]
 DialogHeight=540
@@ -479,7 +463,6 @@ DialogHeight=86
 DialogWidth=1920
 
 [Containments][3][Configuration]
-PreloadWeight=0
 
 [Containments][3][General]
 AppletOrder=31;30;20;25;5;34;46;42
@@ -558,7 +541,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][4][Applets][20][Configuration]
-PreloadWeight=0
 localPath=/home/barnabe/.local/share/plasma_icons/org.kde.dolphin (8).desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
@@ -567,7 +549,6 @@ immutability=1
 plugin=org.kde.plasma.minimizeall
 
 [Containments][4][Applets][25][Configuration]
-PreloadWeight=0
 
 [Containments][4][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -577,7 +558,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][4][Applets][30][Configuration]
-PreloadWeight=42
 localPath=/home/barnabe/.local/share/plasma_icons/brave-browser (8).desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
@@ -586,7 +566,6 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][4][Applets][31][Configuration]
-PreloadWeight=20
 
 [Containments][4][Applets][31][Configuration][ConfigDialog]
 DialogHeight=620
@@ -614,7 +593,6 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][4][Applets][42][Configuration]
-PreloadWeight=90
 
 [Containments][4][Applets][42][Configuration][Agenda]
 twoColumns=false
@@ -645,7 +623,6 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][4][Applets][5][Configuration]
-PreloadWeight=0
 
 [Containments][4][Applets][5][Configuration][ConfigDialog]
 DialogHeight=540
@@ -663,7 +640,6 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][4][Applets][64][Configuration]
-PreloadWeight=55
 SystrayContainmentId=65
 
 [Containments][4][ConfigDialog]
@@ -671,7 +647,6 @@ DialogHeight=86
 DialogWidth=1920
 
 [Containments][4][Configuration]
-PreloadWeight=0
 
 [Containments][4][General]
 AppletOrder=31;30;20;25;5;34;64;42
@@ -786,7 +761,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][5][Applets][20][Configuration]
-PreloadWeight=0
 localPath=/home/barnabe/.local/share/plasma_icons/org.kde.dolphin (9).desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
@@ -795,7 +769,6 @@ immutability=1
 plugin=org.kde.plasma.minimizeall
 
 [Containments][5][Applets][25][Configuration]
-PreloadWeight=0
 
 [Containments][5][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -805,7 +778,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][5][Applets][30][Configuration]
-PreloadWeight=42
 localPath=/home/barnabe/.local/share/plasma_icons/brave-browser (9).desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
@@ -814,7 +786,6 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][5][Applets][31][Configuration]
-PreloadWeight=20
 
 [Containments][5][Applets][31][Configuration][ConfigDialog]
 DialogHeight=620
@@ -842,7 +813,6 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][5][Applets][42][Configuration]
-PreloadWeight=90
 
 [Containments][5][Applets][42][Configuration][Agenda]
 twoColumns=false
@@ -873,7 +843,6 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][5][Applets][5][Configuration]
-PreloadWeight=0
 
 [Containments][5][Applets][5][Configuration][ConfigDialog]
 DialogHeight=540
@@ -891,7 +860,6 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][5][Applets][82][Configuration]
-PreloadWeight=55
 SystrayContainmentId=83
 
 [Containments][5][ConfigDialog]
@@ -899,7 +867,6 @@ DialogHeight=86
 DialogWidth=1920
 
 [Containments][5][Configuration]
-PreloadWeight=0
 
 [Containments][5][General]
 AppletOrder=31;30;20;25;5;34;82;42
@@ -918,7 +885,6 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][6][Applets][100][Configuration]
-PreloadWeight=55
 SystrayContainmentId=101
 
 [Containments][6][Applets][20]
@@ -926,7 +892,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][6][Applets][20][Configuration]
-PreloadWeight=0
 localPath=/home/barnabe/.local/share/plasma_icons/org.kde.dolphin (10).desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
@@ -935,7 +900,6 @@ immutability=1
 plugin=org.kde.plasma.minimizeall
 
 [Containments][6][Applets][25][Configuration]
-PreloadWeight=0
 
 [Containments][6][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -945,7 +909,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][6][Applets][30][Configuration]
-PreloadWeight=42
 localPath=/home/barnabe/.local/share/plasma_icons/brave-browser (10).desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
@@ -954,7 +917,6 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][6][Applets][31][Configuration]
-PreloadWeight=20
 
 [Containments][6][Applets][31][Configuration][ConfigDialog]
 DialogHeight=620
@@ -982,7 +944,6 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][6][Applets][42][Configuration]
-PreloadWeight=90
 
 [Containments][6][Applets][42][Configuration][Agenda]
 twoColumns=false
@@ -1013,7 +974,6 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][6][Applets][5][Configuration]
-PreloadWeight=0
 
 [Containments][6][Applets][5][Configuration][ConfigDialog]
 DialogHeight=540
@@ -1031,7 +991,6 @@ DialogHeight=86
 DialogWidth=1920
 
 [Containments][6][Configuration]
-PreloadWeight=0
 
 [Containments][6][General]
 AppletOrder=31;30;20;25;5;34;100;42
@@ -1131,42 +1090,36 @@ immutability=1
 plugin=org.kde.plasma.vault
 
 [Containments][7][Applets][10][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][11]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][7][Applets][11][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][12]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][13]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][13][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][14]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][14][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][15]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][15][Configuration][ConfigDialog]
 DialogHeight=540
@@ -1181,42 +1134,36 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][7][Applets][16][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][17]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][18]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][18][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][22]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][7][Applets][22][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][27]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][7][Applets][27][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][28]
 immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][28][Configuration]
-PreloadWeight=0
 
 [Containments][7][Applets][32]
 immutability=1
@@ -1227,7 +1174,6 @@ immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
 [Containments][7][Applets][33][Configuration]
-PreloadWeight=42
 
 [Containments][7][Applets][33][Configuration][ConfigDialog]
 DialogHeight=600
@@ -1257,14 +1203,12 @@ immutability=1
 plugin=org.kde.discovernotifier
 
 [Containments][7][Applets][9][Configuration]
-PreloadWeight=0
 
 [Containments][7][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][7][Configuration]
-PreloadWeight=0
 
 [Containments][7][General]
 extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma
@@ -1286,7 +1230,6 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][8][Applets][118][Configuration]
-PreloadWeight=55
 SystrayContainmentId=119
 
 [Containments][8][Applets][20]
@@ -1294,7 +1237,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][8][Applets][20][Configuration]
-PreloadWeight=0
 localPath=/home/barnabe/.local/share/plasma_icons/org.kde.dolphin (11).desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
@@ -1303,7 +1245,6 @@ immutability=1
 plugin=org.kde.plasma.minimizeall
 
 [Containments][8][Applets][25][Configuration]
-PreloadWeight=0
 
 [Containments][8][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -1313,7 +1254,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][8][Applets][30][Configuration]
-PreloadWeight=42
 localPath=/home/barnabe/.local/share/plasma_icons/brave-browser (11).desktop
 url=file:///usr/share/applications/brave-browser.desktop
 
@@ -1322,7 +1262,6 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][8][Applets][31][Configuration]
-PreloadWeight=20
 
 [Containments][8][Applets][31][Configuration][ConfigDialog]
 DialogHeight=620
@@ -1350,7 +1289,6 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][8][Applets][42][Configuration]
-PreloadWeight=90
 
 [Containments][8][Applets][42][Configuration][Agenda]
 twoColumns=false
@@ -1381,7 +1319,6 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][8][Applets][5][Configuration]
-PreloadWeight=0
 
 [Containments][8][Applets][5][Configuration][ConfigDialog]
 DialogHeight=540
@@ -1399,7 +1336,6 @@ DialogHeight=86
 DialogWidth=1920
 
 [Containments][8][Configuration]
-PreloadWeight=0
 
 [Containments][8][General]
 AppletOrder=31;30;20;25;5;34;118;42

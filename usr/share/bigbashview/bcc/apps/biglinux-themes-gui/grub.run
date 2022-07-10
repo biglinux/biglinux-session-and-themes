@@ -1,0 +1,23 @@
+#!/bin/bash
+
+INPUT=$(grep "timeout_style=menu" /etc/grub.d/30_os-prober)
+
+if [ -n "$INPUT" ]; then
+    sed -i '/set timeout_style/s/=.*/=hidden/' /etc/grub.d/30_os-prober
+else
+    sed -i '/set timeout_style/s/=.*/=menu/' /etc/grub.d/30_os-prober
+fi
+update-grub
+
+ 
+# #ocultar o grub
+# if [ -e "$HOME/.config/hidegrub" ]; then
+#     rm -f "$HOME/.config/hidegrub"
+#     bigsudo sed -i '/set timeout_style/s/=.*/=hidden/' /etc/grub.d/30_os-prober
+#     bigsudo update-grub
+# #desocultar o grub
+# else
+#     echo true > "$HOME/.config/hidegrub"
+#     bigsudo sed -i '/set timeout_style/s/=.*/=menu/' /etc/grub.d/30_os-prober
+#     
+# fi
