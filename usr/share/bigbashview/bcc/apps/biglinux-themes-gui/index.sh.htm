@@ -2,7 +2,8 @@
 
 ##################################
 #  Author1: Bruno Goncalves (www.biglinux.com.br) 
-#  Author2: Rafael Ruscher (rruscher@gmail.com)  
+#  Author2: Barnabé di Kartola
+#  Author3: Rafael Ruscher (rruscher@gmail.com)  
 #  Date:    2022/02/28 
 #  Modified:2022/07/10 
 #  
@@ -68,15 +69,12 @@ Original=$"Original"
 Restore=$"Restaurar"
 Desktop_apply=$"Desktop aplicado"
 
-
 if [ "$checked_refresh" = "checked" ]; then
   active_refresh_2="active"
-  
 else
   active_refresh_1="active"
   check_default="checked"
 fi
-
 
 if [ "$(glxinfo | grep llvmpipe)" != "" ]; then
   NO_OGL=$"Utilizando renderização por software, a qualidade das transparências está reduzida."
@@ -95,8 +93,6 @@ fi
 if [ "$browser" = "optimize" ]; then
     checked_browser_no="checked"
 fi
-
-
 
 # if [ "$theme_actual" = "" ]; then
 #     biglinux-themes.sh --apply orchis
@@ -161,7 +157,7 @@ if [ -e "$HOME/.config/lockplasma" ]; then
     checked_lock_desktop="checked"
 fi
 
-if [ -e "$HOME/.config/hidegrub" ]; then
+if [ -n "$(grep timeout_style=hidden /etc/grub.d/30_os-prober)" ]; then
     checked_hidegrub="checked"
 fi
 
@@ -681,7 +677,6 @@ cat << EOF
               <h4>$Desempenho_translate</h4>
               <div class="biglinux-card" style="height: 75%; position: relative;">
 
-
                 <input id="s0" onclick="_run('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/change_performance.run')" type="checkbox" class="switch" style="top: 3px;" $checked_optimized>
                 <span for="s0">$Reduce_Visual_Effects</span><br>
                 <small><small>$Reduce_Visual_Effects2</small></small>
@@ -690,7 +685,6 @@ cat << EOF
                 <br style="clear: left;" />
                 <div class="button-wrapper" style="position: absolute; bottom: 15px; ">
                   <button class="content-button status-button">$Configure_Preload</button>
-
                 </div>
 
               </div>
@@ -895,8 +889,4 @@ fi
 cat << EOF
 </body>
 </html>
-      
 EOF
-
-
-
