@@ -150,7 +150,7 @@ if [ -e "$HOME/.config/lockplasma" ]; then
     checked_lock_desktop="checked"
 fi
 
-if [ -e "$HOME/.config/hidegrub" ]; then
+if [ -n "$(grep timeout_style=hidden /etc/grub.d/30_os-prober)" ]; then
     checked_hidegrub="checked"
 fi
 
