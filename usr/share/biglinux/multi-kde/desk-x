@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# #resolucao horizontal
+# resolucao_horizontal="$(LANG=C xdpyinfo  | grep 'dimensions:' | sed 's|.*dimensions: *||g;s|x.*||g')"
+# 
+# if [ "$(grep "$resolucao_horizontal" ~/.config/plasmashellrc)" = "" ]; then
+#     echo "[PlasmaViews][Panel 2][Horizontal$resolucao_horizontal]
+# thickness=60" >> ~/.config/plasmashellrc
+#     echo "[PlasmaViews][Panel 34][Horizontal$resolucao_horizontal]
+# thickness=28" >> ~/.config/plasmashellrc
+# fi 
+
+ENABLE_LATTE=1
