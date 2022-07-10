@@ -457,9 +457,9 @@ cat << EOF
 EOF
 
   if [ -e "$HOME/.kdebiglinux/modern" ]; then
-    echo '<a id="linkModen" href="#" class="status-button-modern"><img src="desktop-modern.svg"></a>'
+    echo '<a id="linkModern" href="#" class="status-button-modern"><img src="desktop-modern.svg"></a>'
   else
-    echo '<a id="linkModen" href="#" class="status-button-desktopapply show-modern" onclick="_run(`change-plasma-theme --apply modern`)"><img src="desktop-modern.svg"></a>'
+    echo '<a id="linkModern" href="#" class="status-button-desktopapply show-modern" onclick="_run(`change-plasma-theme --apply modern`)"><img src="desktop-modern.svg"></a>'
   fi
 
   if [ "$desktop_actual" = "modern" ]; then
