@@ -10,49 +10,97 @@ $(document).ready(function(){
     $(".show-classic").click(function(){
         $("#myDivClassic").css("display", "block");
         $("#myDivNew").css("display", "none");
+        $("#myDivModern").css("display", "none");
         $("#myDivKunity").css("display", "none");
         $("#myDivNextg").css("display", "none");
+        $("#myDivDeskx").css("display", "none");
         
         $('a[id$="linkClassic"]').toggleClass("disabled-link");
         $('a[id$="linkNew"]').removeClass("disabled-link");
+        $('a[id$="linkModern"]').removeClass("disabled-link");
         $('a[id$="linkKunity"]').removeClass("disabled-link");
         $('a[id$="linkNextg"]').removeClass("disabled-link");
+        $('a[id$="linkDesk-x"]').removeClass("disabled-link");
     });
     // Set div display to New
     $(".show-new").click(function(){
         $("#myDivClassic").css("display", "none");
         $("#myDivNew").css("display", "block");
+        $("#myDivModern").css("display", "none");
         $("#myDivKunity").css("display", "none");
         $("#myDivNextg").css("display", "none");
+        $("#myDivDeskx").css("display", "none");
         
         $('a[id$="linkClassic"]').removeClass("disabled-link");
         $('a[id$="linkNew"]').toggleClass("disabled-link");
+        $('a[id$="linkModern"]').removeClass("disabled-link");
         $('a[id$="linkKunity"]').removeClass("disabled-link");
         $('a[id$="linkNextg"]').removeClass("disabled-link");
+        $('a[id$="linkDesk-x"]').removeClass("disabled-link");
+    });
+    // Set div display to Modern
+    $(".show-modern").click(function(){
+        $("#myDivClassic").css("display", "none");
+        $("#myDivNew").css("display", "none");
+        $("#myDivModern").css("display", "block");
+        $("#myDivKunity").css("display", "none");
+        $("#myDivNextg").css("display", "none");
+        $("#myDivDeskx").css("display", "none");
+        
+        $('a[id$="linkClassic"]').removeClass("disabled-link");
+        $('a[id$="linkNew"]').removeClass("disabled-link");
+        $('a[id$="linkModern"]').toggleClass("disabled-link");
+        $('a[id$="linkKunity"]').removeClass("disabled-link");
+        $('a[id$="linkNextg"]').removeClass("disabled-link");
+        $('a[id$="linkDesk-x"]').removeClass("disabled-link");
     });
     // Set div display Kunity
     $(".show-kunity").click(function(){
         $("#myDivClassic").css("display", "none");
         $("#myDivNew").css("display", "none");
+        $("#myDivModern").css("display", "none");
         $("#myDivKunity").css("display", "block");
         $("#myDivNextg").css("display", "none");
+        $("#myDivDeskx").css("display", "none");
         
         $('a[id$="linkClassic"]').removeClass("disabled-link");
         $('a[id$="linkNew"]').removeClass("disabled-link");
+        $('a[id$="linkModern"]').removeClass("disabled-link");
         $('a[id$="linkKunity"]').toggleClass("disabled-link");
         $('a[id$="linkNextg"]').removeClass("disabled-link");
+        $('a[id$="linkDesk-x"]').removeClass("disabled-link");
     });
     // Set div display Nextg
     $(".show-nextg").click(function(){
         $("#myDivClassic").css("display", "none");
         $("#myDivNew").css("display", "none");
+        $("#myDivModern").css("display", "none");
         $("#myDivKunity").css("display", "none");
         $("#myDivNextg").css("display", "block");
+        $("#myDivDeskx").css("display", "none");
         
         $('a[id$="linkClassic"]').removeClass("disabled-link");
         $('a[id$="linkNew"]').removeClass("disabled-link");
+        $('a[id$="linkModern"]').removeClass("disabled-link");
         $('a[id$="linkKunity"]').removeClass("disabled-link");
         $('a[id$="linkNextg"]').toggleClass("disabled-link");
+        $('a[id$="linkDesk-x"]').removeClass("disabled-link");
+    });
+    // Set div display Desk-x
+    $(".show-desk-x").click(function(){
+        $("#myDivClassic").css("display", "none");
+        $("#myDivNew").css("display", "none");
+        $("#myDivModern").css("display", "none");
+        $("#myDivKunity").css("display", "none");
+        $("#myDivNextg").css("display", "none");
+        $("#myDivDeskx").css("display", "block");
+        
+        $('a[id$="linkClassic"]').removeClass("disabled-link");
+        $('a[id$="linkNew"]').removeClass("disabled-link");
+        $('a[id$="linkModern"]').removeClass("disabled-link");
+        $('a[id$="linkKunity"]').removeClass("disabled-link");
+        $('a[id$="linkNextg"]').removeClass("disabled-link");
+        $('a[id$="linkDesk-x"]').toggleClass("disabled-link");
     });
 });
 //APLICAR MARCA E ATIVA/DESATIVA CSS FIM
@@ -381,6 +429,33 @@ $(".pop-up-new .close").click(function () {
 });
 // MODAL NEW FIM
 
+// MODAL MODERN
+$(document).click(function (e) {
+  var container = $(".status-button-modern");
+  var dd = $(".dropdown");
+  if (!container.is(e.target) && container.has(e.target).length === 0) {
+    dd.removeClass("is-active");
+  }
+});
+
+$(function () {
+  $(".status-button-modern:not(.open)").on("click", function (e) {
+    $(".overlay-app").addClass("is-active");
+  });
+  $(".pop-up-modern .close").click(function () {
+    $(".overlay-app").removeClass("is-active");
+  });
+});
+
+$(".status-button-modern:not(.open)").click(function () {
+  $(".pop-up-modern").addClass("visible");
+});
+
+$(".pop-up-modern .close").click(function () {
+  $(".pop-up-modern").removeClass("visible");
+});
+// MODAL MODERN FIM
+
 // MODAL KUNITY
 $(document).click(function (e) {
   var container = $(".status-button-kunity");
@@ -432,6 +507,33 @@ $(".status-button-nextg:not(.open)").click(function () {
 
 $(".pop-up-nextg .close").click(function () {
   $(".pop-up-nextg").removeClass("visible");
+});
+// MODAL NEXTG FIM
+
+// MODAL DESK-X
+$(document).click(function (e) {
+  var container = $(".status-button-desk-x");
+  var dd = $(".dropdown");
+  if (!container.is(e.target) && container.has(e.target).length === 0) {
+    dd.removeClass("is-active");
+  }
+});
+
+$(function () {
+  $(".status-button-desk-x:not(.open)").on("click", function (e) {
+    $(".overlay-app").addClass("is-active");
+  });
+  $(".pop-up-desk-x .close").click(function () {
+    $(".overlay-app").removeClass("is-active");
+  });
+});
+
+$(".status-button-desk-x:not(.open)").click(function () {
+  $(".pop-up-desk-x").addClass("visible");
+});
+
+$(".pop-up-desk-x .close").click(function () {
+  $(".pop-up-desk-x").removeClass("visible");
 });
 // MODAL NEXTG FIM
 
