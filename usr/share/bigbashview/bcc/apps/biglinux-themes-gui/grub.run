@@ -7,7 +7,7 @@ if [ -n "$INPUT" ]; then
 else
     sed -i '/set timeout_style/s/=.*/=menu/' /etc/grub.d/30_os-prober
 fi
-update-grub
+update-grub | zenity --progress --pulsate --no-cancel --auto-close --text $"Aplicando, aguarde o termino."
 
  
 # #ocultar o grub
