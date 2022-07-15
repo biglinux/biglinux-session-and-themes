@@ -1972,12 +1972,12 @@ get_memory() {
             done < /proc/meminfo
 
             if [[ $mem_avail ]]; then
-                mem_used=$(((mem_total - mem_avail) / 1024))
-            else
-                mem_used="$((mem_used / 1024))"
+                mem_used="$(free -m | awk 'NR==2{print $3}')"
+                else
+                mem_used="$(free -m | awk 'NR==2{print $3}')"
             fi
 
-            mem_total="$((mem_total / 1024))"
+            mem_total="$(free -m | awk 'NR==2{print $2}')"
         ;;
     esac
 
