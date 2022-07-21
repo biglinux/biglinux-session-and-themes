@@ -29,6 +29,8 @@ mkdir -p ~/.config/latte
 if [ "$4" != "quiet" ]; then
     systemctl --user stop plasma-plasmashell
     systemctl --user stop lattedock
+    systemctl --user stop plasma-kglobalaccel.service
+
 fi
 
 LAST_USED="$(cat "$HOME/.kdebiglinux/lastused")"
@@ -136,7 +138,7 @@ fi
 
 if [ "$4" != "quiet" ]; then
     systemctl --user start plasma-plasmashell
-    systemctl --user restart plasma-kglobalaccel.service
+    systemctl --user start plasma-kglobalaccel.service
 
     if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
         qdbus org.kde.lattedock /Latte org.kde.LatteDock.switchToLayout "$HOME/.config/latte/Default.layout.latte"
