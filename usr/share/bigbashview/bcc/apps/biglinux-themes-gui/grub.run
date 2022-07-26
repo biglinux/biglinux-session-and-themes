@@ -1,3 +1,9 @@
 #!/bin/bash
 
-pkexec ./grub1.run | zenity --width=300 --progress --title=Grub --pulsate --no-cancel --auto-close --text $"Aplicando, aguarde o termino."
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-session-and-themes
+
+pkexec ./grub1.run | zenity --width=300 --progress --title=Grub --pulsate --no-cancel --auto-close --text $"Aplicando, aguarde..."
+
+zenity --info --text --title=Grub $"Concluído!"
