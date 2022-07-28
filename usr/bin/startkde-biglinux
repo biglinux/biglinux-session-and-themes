@@ -55,6 +55,12 @@ __GL_SHADER_DISK_CACHE=1
 __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
 
 
+#Fix to disable-fsync
+if [ "$(grep '^/usr/lib/disable-fsync.so' /etc/ld.so.preload)" != "" ]; then
+    export LD_PRELOAD='/$LIB/disable-fsync.so'
+fi
+
+
 # Virtualization fix open
 if [ "$(lspci | grep -i vga | grep -i vmware)" != "" ]; then
     kwriteconfig5 --file ~/.config/kded5rc --group Module-kscreen --key autoload false
