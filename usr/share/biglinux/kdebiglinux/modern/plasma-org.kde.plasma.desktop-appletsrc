@@ -213,8 +213,9 @@ DialogHeight=546
 DialogWidth=760
 
 [Containments][2][Applets][141][Configuration][General]
-launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 maxStripes=1
+showOnlyCurrentScreen=true
 showToolTips=false
 
 [Containments][2][Applets][144]
@@ -353,8 +354,9 @@ DialogWidth=760
 
 [Containments][3][Applets][147][Configuration][General]
 highlightWindows=false
-launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 maxStripes=1
+showOnlyCurrentScreen=true
 showToolTips=false
 
 [Containments][3][Applets][148]
@@ -533,8 +535,9 @@ DialogWidth=760
 
 [Containments][4][Applets][151][Configuration][General]
 highlightWindows=false
-launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 maxStripes=1
+showOnlyCurrentScreen=true
 showToolTips=false
 
 [Containments][4][Applets][152]
@@ -738,8 +741,9 @@ DialogWidth=760
 
 [Containments][5][Applets][145][Configuration][General]
 highlightWindows=false
-launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 maxStripes=1
+showOnlyCurrentScreen=true
 showToolTips=false
 
 [Containments][5][Applets][146]
@@ -844,8 +848,9 @@ DialogWidth=760
 
 [Containments][6][Applets][149][Configuration][General]
 highlightWindows=false
-launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 maxStripes=1
+showOnlyCurrentScreen=true
 showToolTips=false
 
 [Containments][6][Applets][150]
@@ -1182,8 +1187,9 @@ DialogWidth=760
 
 [Containments][8][Applets][142][Configuration][General]
 highlightWindows=false
-launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 maxStripes=1
+showOnlyCurrentScreen=true
 showToolTips=false
 
 [Containments][8][Applets][143]
