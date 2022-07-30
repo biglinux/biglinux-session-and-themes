@@ -327,12 +327,11 @@ PreloadWeight=0
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=273
 arrangement=1
-iconSize=2
+iconSize=3
 labelWidth=3
 positions={"1920x955":["1"\\,"7"\\,"desktop:/bigcontrolcenter.desktop"\\,"0"\\,"3"\\,"desktop:/trash.desktop"\\,"0"\\,"0"\\,"desktop:/home.desktop"\\,"0"\\,"1"]\\,"1550x823":[]\\,"1366x768":["1"\\,"5"\\,"desktop:/home.desktop"\\,"0"\\,"2"\\,"desktop:/bigcontrolcenter.desktop"\\,"0"\\,"1"\\,"desktop:/trash.desktop"\\,"0"\\,"0"]\\,"1366x634":["1"\\,"5"\\,"desktop:/home.desktop"\\,"0"\\,"2"\\,"desktop:/trash.desktop"\\,"0"\\,"0"\\,"desktop:/bigcontrolcenter.desktop"\\,"0"\\,"1"]\\,"1366x662":[""]\\,"1280x800":["1"\\,"6"\\,"desktop:/calamares-biglinux.desktop"\\,"0"\\,"3"\\,"desktop:/home.desktop"\\,"0"\\,"2"\\,"desktop:/bigcontrolcenter.desktop"\\,"0"\\,"1"\\,"desktop:/trash.desktop"\\,"0"\\,"0"]}
 sizeIcon=3
 sortMode=-1
-textLines=3
 toolTips=true
 
 [Containments][27][Wallpaper][org.kde.image][General]
@@ -1374,4 +1373,4 @@ immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/home.desktop,0,file:///home/biglinux/82dd571b-19a5-41da-b9fa-e65d403c625b,0,desktop:/trash.desktop,0,desktop:/calamares.desktop,0,file:///home/biglinux/0,0,desktop:/calamares-biglinux.desktop,0,desktop:/bigcontrolcenter.desktop,0
+screenMapping=desktop:/home.desktop,0,desktop:/trash.desktop,0,desktop:/bigcontrolcenter.desktop,0,desktop:/calamares.desktop,0
