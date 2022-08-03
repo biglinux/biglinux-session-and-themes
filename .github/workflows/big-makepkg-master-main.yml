@@ -35,6 +35,9 @@ jobs:
           branch: stable
           gpg-key: ${{ secrets.GPG_PRIVATE_KEY }}
           gpg-passphrase: ${{ secrets.PASSPHRASE }}
+          bigrepo-host:
+          bigrepo-target:
+          ssh-key:
     
       - name: Create local changes
         run: git add pkgbuild/PKGBUILD
@@ -61,31 +64,26 @@ jobs:
           find -iname *$i -exec gh release upload ${release} --repo ${GITHUB_REPOSITORY} --clobber {} \;
           done
           
+      - name: prepare upload
+        shell: bash
+        run: |
+          echo "## ssh setup"
+          mkdir -p /home/runner/.ssh
+          touch /home/runner/.ssh/github_actions
+          chmod 600 /home/runner/.ssh/github_actions
+          ssh-agent -a /tmp/ssh_agent.sock > /dev/null
           
-          
-        
-      #- name: prepare upload
-        #shell: bash
-        #run: |
-          #echo "## ssh setup"
-          #mkdir -p /home/runner/.ssh
-          #touch /home/runner/.ssh/github_actions
-          #chmod 600 /home/runner/.ssh/github_actions
-          #ssh-agent -a /tmp/ssh_agent.sock > /dev/null
-      #- name: push to boxit
-        #shell: bash -O extglob {0}
-        #env:
-          #SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        #run: |
-          #if [ -z "${{ inputs.boxit-host }}" ] || [ -z "${{ inputs.boxit-target }}" ] || [ -z "${{ inputs.ssh-key }}" ]; then 
-            #echo "## not (all) credentials given for boxit push"
-            #exit 0
-          #fi
-          #ssh-keyscan -t rsa ${{ inputs.boxit-host }} >> /home/runner/.ssh/known_hosts
-          #echo "${{ inputs.ssh-key }}" >> /home/runner/.ssh/github_actions
-          #ssh-add /home/runner/.ssh/github_actions
-          #rsync -vaPzz --stats -e ssh ./*tar ${{ inputs.boxit-target }}
-        
+      - name: push to bigrepo
+        shell: bash -O extglob {0}
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          ssh-keyscan -t rsa ${{ secrets.PKGBUILD_HOST }} >> /home/runner/.ssh/known_hosts
+          echo "${{ secrets.PKGBUILD_KEY }}" >> /home/runner/.ssh/github_actions
+          ssh-add /home/runner/.ssh/github_actions
+          for i in .zst .sig .tar; do
+          rsync -vaPpz -e "ssh -p ${{ secrets.PKGBUILD_PORT }}" $i ${{ secrets.PKGBUILD_USER }}@${{ secrets.PKGBUILD_HOST }}:${{ secrets.PKGBUILD_DIR_TESTING }}
+          done
         
 #      - name: upload-cdn77
 #        shell: bash -O extglob {0}
