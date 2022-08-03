@@ -68,8 +68,6 @@ jobs:
         shell: bash
         run: |
           echo "## ssh setup"
-          echo "${{ secrets.PKGBUILD_HOST }}"
-          echo ${{ secrets.PKGBUILD_HOST }}
           mkdir -p /home/runner/.ssh
           touch /home/runner/.ssh/github_actions
           chmod 600 /home/runner/.ssh/github_actions
@@ -85,7 +83,6 @@ jobs:
           PKGBUILD_HOST: ${{ secrets.PKGBUILD_HOST }}
           PKGBUILD_PORT: ${{ secrets.PKGBUILD_PORT }}
           PKGBUILD_USER: ${{ secrets.PKGBUILD_USER }}
-          PKGBUILD_HOST: ${{ secrets.PKGBUILD_HOST }}
           PKGBUILD_DIR_TESTING: ${{ secrets.PKGBUILD_DIR_TESTING }}
         run: |
           ssh-keyscan -t rsa $PKGBUILD_HOST >> /home/runner/.ssh/known_hosts
