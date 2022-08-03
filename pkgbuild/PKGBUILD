@@ -2,7 +2,7 @@
 
 pkgname=biglinux-session-and-themes
 pkgver=1.6.1
-pkgrel=1
+pkgrel=2
 arch=('any')
 license=('GPL')
 depends=('plasma-workspace' 'plasma-systray-latte-tweaks-git' 'classik' 'plasma5-applets-latte-spacer' 'latte-dock>=0.10.9-2' 'plasma5-applets-eventcalendar' 'biglinux-metapackage')
