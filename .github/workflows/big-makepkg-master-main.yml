@@ -90,7 +90,7 @@ jobs:
           eval $(ssh-agent -s)
           ssh-add /home/runner/.ssh/github_actions
           for i in .zst .sig .tar; do
-          rsync -vaPpz -e "ssh -p $secrets.PKGBUILD_PORT" $i $PKGBUILD_USER@$PKGBUILD_HOST:$PKGBUILD_DIR_TESTING
+          rsync -vaPpz -e "ssh -p $PKGBUILD_PORT" $i $PKGBUILD_USER@$PKGBUILD_HOST:$PKGBUILD_DIR_TESTING
           done
 
 
