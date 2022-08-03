@@ -76,21 +76,43 @@ jobs:
           ssh-agent -a /tmp/ssh_agent.sock > /dev/null
           
 
-      ### Tmate ##
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
 
       - name: push to bigrepo
         shell: bash -O extglob {0}
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+          PKGBUILD_KEY: ${{ secrets.PKGBUILD_KEY }}
+          PKGBUILD_HOST: ${{ secrets.PKGBUILD_HOST }}
+          PKGBUILD_PORT: ${{ secrets.PKGBUILD_PORT }}
+          PKGBUILD_USER: ${{ secrets.PKGBUILD_USER }}
+          PKGBUILD_HOST: ${{ secrets.PKGBUILD_HOST }}
+          PKGBUILD_DIR_TESTING: ${{ secrets.PKGBUILD_DIR_TESTING }}
         run: |
-          ssh-keyscan -t rsa ${{ secrets.PKGBUILD_HOST }} >> /home/runner/.ssh/known_hosts
-          echo "${{ secrets.PKGBUILD_KEY }}" >> /home/runner/.ssh/github_actions
+          ssh-keyscan -t rsa $PKGBUILD_HOST >> /home/runner/.ssh/known_hosts
+          echo "$PKGBUILD_KEY" >> /home/runner/.ssh/github_actions
+          eval $(ssh-agent -s)
           ssh-add /home/runner/.ssh/github_actions
           for i in .zst .sig .tar; do
-          rsync -vaPpz -e "ssh -p ${{ secrets.PKGBUILD_PORT }}" $i ${{ secrets.PKGBUILD_USER }}@${{ secrets.PKGBUILD_HOST }}:${{ secrets.PKGBUILD_DIR_TESTING }}
+          rsync -vaPpz -e "ssh -p $secrets.PKGBUILD_PORT" $i $PKGBUILD_USER@$PKGBUILD_HOST:$PKGBUILD_DIR_TESTING
           done
+
+
+      ### Tmate ##
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
+
+
+      #- name: push to bigrepo
+        #shell: bash -O extglob {0}
+        #env:
+          #SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        #run: |
+          #ssh-keyscan -t rsa ${{ secrets.PKGBUILD_HOST }} >> /home/runner/.ssh/known_hosts
+          #echo "${{ secrets.PKGBUILD_KEY }}" >> /home/runner/.ssh/github_actions
+          #ssh-add /home/runner/.ssh/github_actions
+          #for i in .zst .sig .tar; do
+          #rsync -vaPpz -e "ssh -p ${{ secrets.PKGBUILD_PORT }}" $i ${{ secrets.PKGBUILD_USER }}@${{ secrets.PKGBUILD_HOST }}:${{ secrets.PKGBUILD_DIR_TESTING }}
+          #done
         
 #      - name: upload-cdn77
 #        shell: bash -O extglob {0}
