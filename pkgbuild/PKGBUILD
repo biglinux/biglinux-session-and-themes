@@ -5,7 +5,7 @@ pkgver=1.6.1
 pkgrel=11
 arch=('any')
 license=('GPL')
-#depends=('plasma-workspace' 'plasma-systray-latte-tweaks-git' 'classik' 'plasma5-applets-latte-spacer' 'latte-dock>=0.10.9-2' 'plasma5-applets-eventcalendar' 'biglinux-metapackage')
+depends=('plasma-workspace' 'plasma-systray-latte-tweaks-git' 'classik' 'plasma5-applets-latte-spacer' 'latte-dock>=0.10.9-2' 'plasma5-applets-eventcalendar' 'biglinux-metapackage')
 conflicts=('biglinux-themes' 'biglinux-multi-kde')
 url="https://github.com/biglinux/biglinux-session-and-themes"
 pkgdesc="Essential package to BigLinux KDE session"
