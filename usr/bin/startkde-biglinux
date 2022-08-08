@@ -37,7 +37,7 @@ fi
 
 #Faster AMD GPU
 export RADV_FORCE_VRS=2x2
-export RADV_PERFTEST=sam,ngcc
+#export RADV_PERFTEST=sam,ngcc
 
 #Best wine scale
 export WINE_FULLSCREEN_FSR=1
