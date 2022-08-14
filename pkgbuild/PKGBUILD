@@ -1,8 +1,8 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
 pkgname=biglinux-session-and-themes
-pkgver=1.6.1
-pkgrel=12
+pkgver=2.0.0
+pkgrel=0
 arch=('any')
 license=('GPL')
 depends=('plasma-workspace' 'plasma-systray-latte-tweaks-git' 'classik' 'plasma5-applets-latte-spacer' 'latte-dock>=0.10.9-2' 'plasma5-applets-eventcalendar' 'biglinux-metapackage')
@@ -11,6 +11,12 @@ url="https://github.com/biglinux/biglinux-session-and-themes"
 pkgdesc="Essential package to BigLinux KDE session"
 source=("git+https://github.com/biglinux/biglinux-session-and-themes.git")
 md5sums=(SKIP)
+
+pkgver() {
+  cd "$srcdir/${pkgname%}"
+  printf "2.0.0.r%s.%s" \
+    "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
 
 package() {
     cp -r "${srcdir}/biglinux-session-and-themes/usr/" "${pkgdir}/"

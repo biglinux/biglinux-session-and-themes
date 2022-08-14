@@ -23,22 +23,22 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
     
-      - name: Update pkgrel
-        run: |
-          git add pkgbuild/PKGBUILD
-          pkgrelorg=$(grep pkgrel pkgbuild/PKGBUILD | cut -d "=" -f2)
-          pkgrelnew=$(($pkgrelorg+1))
-          sed -i "/pkgrel=/s/=.*/=$pkgrelnew/" pkgbuild/PKGBUILD
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git commit -m "pkgrel+1" -a
-          echo ${{ github.repository }}
+      #- name: Update pkgrel
+        #run: |
+          #git add pkgbuild/PKGBUILD
+          #pkgrelorg=$(grep pkgrel pkgbuild/PKGBUILD | cut -d "=" -f2)
+          #pkgrelnew=$(($pkgrelorg+1))
+          #sed -i "/pkgrel=/s/=.*/=$pkgrelnew/" pkgbuild/PKGBUILD
+          #git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          #git config --local user.name "github-actions[bot]"
+          #git commit -m "pkgrel+1" -a
+          #echo ${{ github.repository }}
           
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+      #- name: Push changes
+        #uses: ad-m/github-push-action@master
+        #with:
+          #github_token: ${{ secrets.GITHUB_TOKEN }}
+          #branch: ${{ github.ref }}
           
       - name: Send Hooks
         env:
@@ -46,7 +46,7 @@ jobs:
         shell: bash
         run: |
           curl -X POST -H "Accept: application/json" -H "Authorization: token ${{ secrets.WEBHOOK_TOKEN }}" --data '{"event_type": "${{ github.repository }}", "client_payload": { "pkgbuild": "${{ env.pkgbuild_folder }}", "branch": "${{ github.ref_name }}", "url": "https://github.com/${{ github.repository }}", "version": "1.2.3"}}' https://api.github.com/repos/BigLinux-Package-Build/build-package/dispatches
-      
+
       
       ## Tmate ##
       #- name: Setup tmate session
