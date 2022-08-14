@@ -108,11 +108,7 @@ $(document).ready(function(){
 $(function () {
   var tab = $("li label");
   tab.on("click", function (event) {
-    //event.preventDefault();
-    //tab.removeClass("active");
-    //$(this).addClass("active");
     tab_content = $(this).attr("id");
-    //alert(tab_content);
     $('div[id$="tab-content"]').removeClass("active");
     $(tab_content).addClass("active");
   });
@@ -126,8 +122,6 @@ $(function () {
     tab.removeClass("active");
     $(this).addClass("active");
     tab_content = $(this).attr("href");
-    
-    alert(tab_content);
     $('div[id$="tab-content"]').removeClass("active");
     $(tab_content).addClass("active");
   });
@@ -226,6 +220,20 @@ $(function () {
     return false;
   });
 });
+
+
+
+
+$(document).on("click", "#point-container", function () {
+  var show = $(this).data("show");
+  $(show).removeClass("hide").siblings().addClass("hide");
+});
+
+
+
+
+
+
 
 //NEW ACTION
 $(function () {
@@ -544,3 +552,9 @@ toggleButton.addEventListener("click", () => {
   document.body.classList.toggle("light-mode");
   _run('/usr/share/bigbashview/bcc/shell/setbgcolor.sh "' + document.body.classList.contains('light-mode') + '"');
 });
+
+
+
+
+
+
