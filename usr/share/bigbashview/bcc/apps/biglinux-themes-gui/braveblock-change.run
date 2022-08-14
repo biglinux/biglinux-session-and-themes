@@ -2,7 +2,7 @@
 
 
 if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
-    ./braveblock-yes.run
-else
     ./braveblock-no.run
+else
+    ./braveblock-yes.run
 fi
