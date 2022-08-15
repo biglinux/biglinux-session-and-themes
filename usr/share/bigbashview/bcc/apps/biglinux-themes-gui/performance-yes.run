@@ -6,13 +6,15 @@ export TEXTDOMAIN=biglinux-session-and-themes
 
 windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
 
-rm -f ~/.config/browser-optimize
+#echo "optimize" > ~/.config/browser-optimize
+#echo "performance" > ~/.config/browser-optimize
+rm -f "$HOME/.config/browser-optimize"
 
 if [ "$1" != "quiet" ]; then
     # Restart plasmashell
     # systemctl --user restart plasma-plasmashell
     
-    kdialog  --attach="$windowID" --msgbox $"Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações." &
+    kdialog  --attach="$windowID" --msgbox $"Se estiver utilizando algum navegador, feche-o e abra novamente!" &
     
     # Restart plasmashell
     # systemctl --user restart plasma-plasmashell
