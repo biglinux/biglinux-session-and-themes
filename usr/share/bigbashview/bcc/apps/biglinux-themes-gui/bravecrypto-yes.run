@@ -9,5 +9,5 @@ windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
 rm -f "$HOME/.config/browser-brave-disable-crypto"
 
 if [ "$1" != "quiet" ]; then
-    kdialog  --attach="$windowID" --msgbox $"Configuração alterada, se estiver utilizando o navegador, reinicie-o para que a nova configuração seja aplicada."
+    kdialog  --attach="$windowID" --msgbox $"Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 fi
