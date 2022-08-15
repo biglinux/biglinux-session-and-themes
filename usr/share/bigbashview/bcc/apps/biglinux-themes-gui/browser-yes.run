@@ -14,7 +14,7 @@ if [ "$1" != "quiet" ]; then
     # Restart plasmashell
     # systemctl --user restart plasma-plasmashell
     
-    kdialog  --attach="$windowID" --msgbox $"Se estiver utilizando algum navegador, feche-o e abra novamente!" &
+    kdialog  --attach="$windowID" --msgbox $"Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações." &
     
     # Restart plasmashell
     # systemctl --user restart plasma-plasmashell
