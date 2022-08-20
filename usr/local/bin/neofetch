@@ -4717,7 +4717,6 @@ ${c3} dddddddddddddddddddd.      .dddddddddddddddddddd
 EOF
         ;;
     
-    
     esac
 
     # Overwrite distro colors if '$ascii_colors' doesn't
