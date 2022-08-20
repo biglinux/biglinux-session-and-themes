@@ -4695,6 +4695,29 @@ ${c3} .X.       oMMMMW.                      l.
       ':MM:"      Made in Brazil
 EOF
         ;;
+    
+    "XIVAStudio"*)
+            set_colors 4 12 4
+            read -rd '' ascii_data <<'EOF'        
+${c3} dddddddddddddddddddd.      .dddddddddddddddddddd 
+   xxxxxxxxxxxxxxxxxxx:    :xxxxxxxxxxxxxxxxxxx   
+     xxxxxxxxxxxxxxxxxxx::xxxxxxxxxxxxxxxxxxx     
+       dddddddddddddl        cddddddddddddd       
+         ddddddddd'            .ddddddddd.        
+          .dddddd'              .dddddd.          
+            .dddd   ${c3}XIVAStudio${c3}   dddd.            
+              .oo.              .oo.              
+             ${c6};Ok${c3}oo.            .oo${c6}kO;             
+           ${c6},OKKK0${c3}koc'.      .cok'${c6}0KKKO,           
+         ${c6},kKKKKKKK0${c3}kolllcclllox${c6}0KKKKKKKk,         
+       ${c6}'kKKKKKKKKKKK0${c3}xllllllx${c6}0KKKKKKKKKKKk,       
+     ${c6}'kKKKKKKKKKKKKKKK0${c3}xllx${c6}0KKKKKKKKKKKKKKKk'     
+   ${c6}'xKKKKKKKKKKKKKKKKKKd  dKKKKKKKKKKKKKKKKKKk'   
+ ${c6}.xKKKKKKKKKKKKKKKKKKx      xKKKKKKKKKKKKKKKKKKx. 
+EOF
+        ;;
+    
+    
     esac
 
     # Overwrite distro colors if '$ascii_colors' doesn't
