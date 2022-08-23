@@ -7,7 +7,7 @@ on:
   push:
     #branches: [ "master", "main", "*" ]
     branches: [ "*" ]
-  pull_request:
+  #pull_request:
     #branches: [ "master", "main", "*" ]
     #branches: [ "*" ]
 
