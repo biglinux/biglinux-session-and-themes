@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: biglinux-session-and-themes\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2022-08-01 06:12-0300\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+msgid   "Temas, Desktop e Ajustes"
+msgstr  ""
+
+msgid   "Configuração alterada, se estiver utilizando o navegador, reinicie-o "
+        "para que a nova configuração seja aplicada."
+msgstr  ""
+
+msgid   "Se estiver utilizando algum navegador, feche-o e abra novamente!"
+msgstr  ""
+
+msgid   "\n"
+        "A configuração de desktop selecionada já foi utilizada nesse "
+        "sistema,\n"
+        "deseja restaurar a configuração que já foi utilizada?\n"
+        "\n"
+        "Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr  ""
+
+msgid   "Configuração aplicada!\n"
+        "\n"
+        "Finalize a sessão e faça login novamente\n"
+        "para que a configuração termine de\n"
+        "ser aplicada."
+msgstr  ""
+
+msgid   "Aplicando, aguarde..."
+msgstr  ""
+
+msgid   "Concluído!"
+msgstr  ""
+
+msgid   "Temas"
+msgstr  ""
+
+msgid   "Desktop"
+msgstr  ""
+
+msgid   "Ajustes"
+msgstr  ""
+
+msgid   "Desempenho do desktop"
+msgstr  ""
+
+msgid   "Aceleração do navegador"
+msgstr  ""
+
+msgid   "Usabilidade"
+msgstr  ""
+
+msgid   "Tema dos aplicativos"
+msgstr  ""
+
+msgid   "Fechar"
+msgstr  ""
+
+msgid   "Bordas arredondadas."
+msgstr  ""
+
+msgid   "Esse tema possui transparências com efeitos que<br>podem tornar o "
+        "sistema lento em computadores<br>antigos ou ambientes virtualizados."
+msgstr  ""
+
+msgid   "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr  ""
+
+msgid   "Renderizar o desktop via software"
+msgstr  ""
+
+msgid   "(Pode ser útil em computadores antigos, porém alguns programas param "
+        "de funcionar)"
+msgstr  ""
+
+msgid   "Escolher programas a serem carregados na memória durante boot"
+msgstr  ""
+
+msgid   "O Preload carrega arquivos dos programas na memória, para que "
+        "iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção "
+        "desejada:"
+msgstr  ""
+
+msgid   "Automático"
+msgstr  ""
+
+msgid   "Ativar"
+msgstr  ""
+
+msgid   "Desativar"
+msgstr  ""
+
+msgid   "Configurações do Brave"
+msgstr  ""
+
+msgid   "Escolha a opção desejada:"
+msgstr  ""
+
+msgid   "Remover propagandas"
+msgstr  ""
+
+msgid   "Suportar criptomoedas"
+msgstr  ""
+
+msgid   "Botões da janela no lado esquerdo"
+msgstr  ""
+
+msgid   "Rolagem do mouse invertida"
+msgstr  ""
+
+msgid   "Pesquisar arquivos"
+msgstr  ""
+
+msgid   "Bloquear a edição da área de trabalho"
+msgstr  ""
+
+msgid   "Ocultar Gerenciador de Boot (GRUB)"
+msgstr  ""
+
+msgid   "Ativar o NumLock ao ligar o sistema"
+msgstr  ""
+
+msgid   "Tema aplicado"
+msgstr  ""
+
+msgid   "É preciso reiniciar a sessão para concluir a configuração. Deseja "
+        "fazer agora?"
+msgstr  ""
+
+msgid   "Configuração do Desktop"
+msgstr  ""
+
+msgid   "Você já utilizou esse desktop antes, deseja  restaurar sua "
+        "personalização ou utilizar a configuração original?"
+msgstr  ""
+
+msgid   "Sim"
+msgstr  ""
+
+msgid   "Não"
+msgstr  ""
+
+msgid   "Original"
+msgstr  ""
+
+msgid   "Restaurar"
+msgstr  ""
+
+msgid   "Desktop aplicado"
+msgstr  ""
+
+msgid   "Utilizando renderização por software, a qualidade das transparências "
+        "está reduzida."
+msgstr  ""
+
+msgid   "Desempenho em modo normal!"
+msgstr  ""
+
+msgid   "Desempenho em modo otimizado!"
+msgstr  ""
+
+msgid   "Desempenho em modo performance!"
+msgstr  ""

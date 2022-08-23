@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 06:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Odabrana konfiguracija radne površine već je korištena na ovom sustavu,\n"
+"želite li vratiti konfiguraciju koja je već korištena?\n"
+"\n"
+"Odaberite ne da biste koristili zadanu postavku sustava.\n"
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klasični</b>,<b>novi</b>i<b>moderni imaju</b>bolji učinak."
+
+msgid "Aceleração do navegador"
+msgstr "Ubrzanje preglednika"
+
+msgid "Ajustes"
+msgstr "ugađanje"
+
+msgid "Ativar"
+msgstr "Aktiviraj"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Aktivirajte NumLock prilikom uključivanja sustava"
+
+msgid "Automático"
+msgstr "Auto"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Zaključajte radnu površinu"
+
+msgid "Bordas arredondadas."
+msgstr "Zaobljeni rubovi."
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Gumbi prozora na lijevoj strani"
+
+msgid ""
+"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
+"que a nova configuração seja aplicada."
+msgstr ""
+"Konfiguracija je promijenjena, ako koristite preglednik, ponovno ga "
+"pokrenite kako biste primijenili novu postavku."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Primijenjena konfiguracija!\n"
+"\n"
+"Odjavite se i ponovno se prijavite\n"
+"kako bi konfiguracija završila\n"
+"primjenjivati."
+
+msgid "Configuração do Desktop"
+msgstr "Postavljanje radne površine"
+
+msgid "Configurações do Brave"
+msgstr "Brave postavke"
+
+msgid "Desativar"
+msgstr "Deaktiviraj"
+
+msgid "Desempenho do desktop"
+msgstr "Učinak radne površine"
+
+msgid "Desempenho em modo normal!"
+msgstr "Izvedba u normalnom načinu rada!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Performanse u optimiziranom načinu!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Performanse u načinu rada!"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Desktop aplicado"
+msgstr "Primijenjena radna površina"
+
+msgid "Escolha a opção desejada:"
+msgstr "Odaberite željenu opciju:"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Odaberite programe za učitavanje u memoriju tijekom pokretanja"
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
+"lento em computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Ova tema ima prozirne folije s efektima koji <br>mogu usporiti sustav na "
+"<br>starim računalima ili virtualiziranim okruženjima."
+
+msgid "Fechar"
+msgstr "Zatvoriti"
+
+msgid "Não"
+msgstr "Ne"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem "
+"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Prethodno učitavanje učitava programske datoteke u memoriju tako da brzo "
+"počnu. Prekomjerna upotreba uzrokuje sporost. Odaberite željenu opciju:"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Sakrij upravitelja pokretanja (GRUB)"
+
+msgid "Original"
+msgstr "Izvorni"
+
+msgid "Pesquisar arquivos"
+msgstr "Pretraživanje datoteka"
+
+msgid "Remover propagandas"
+msgstr "Ukloni oglase"
+
+msgid "Renderizar o desktop via software"
+msgstr "Render radnu površinu putem softvera"
+
+msgid "Restaurar"
+msgstr "Vrati"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Obrnuto pomicanje miša"
+
+msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
+msgstr "Ako koristite preglednik, zatvorite ga i ponovo otvorite!"
+
+msgid "Sim"
+msgstr "Da"
+
+msgid "Suportar criptomoedas"
+msgstr "Podržite kriptovalute"
+
+msgid "Tema aplicado"
+msgstr "Primijenjena tema"
+
+msgid "Tema dos aplicativos"
+msgstr "Tema aplikacija"
+
+msgid "Temas"
+msgstr "Teme"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Teme, radna površina i prilagodbe"
+
+msgid "Usabilidade"
+msgstr "Upotrebljivost"
+
+msgid ""
+"Utilizando renderização por software, a qualidade das transparências está "
+"reduzida."
+msgstr ""
+"Korištenjem prikazivanja softvera smanjuje se kvaliteta prozirnih folija."
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
+"utilizar a configuração original?"
+msgstr ""
+"Jeste li prije koristili ovu radnu površinu, želite li vratiti njezinu "
+"personalizaciju ili upotrijebiti izvornu konfiguraciju?"
+
+msgid ""
+"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
+"agora?"
+msgstr ""
+"Morate ponovno pokrenuti sesiju da biste dovršili postavljanje. Želite li to "
+"učiniti sada?"
+
+#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
+#~ msgstr "(Može biti korisno na virtualnim strojevima ili starim računalima)"
+
+#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
+#~ msgstr "<b>Klasični</b> i<b>novi</b> rade bolje."

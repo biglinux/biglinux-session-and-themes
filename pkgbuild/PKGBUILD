@@ -1,8 +1,8 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
 pkgname=biglinux-session-and-themes
-pkgver=2.0.0
-pkgrel=0
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
 arch=('any')
 license=('GPL')
 depends=('plasma-workspace' 'plasma-systray-latte-tweaks-git' 'classik' 'plasma5-applets-latte-spacer' 'latte-dock>=0.10.9-2' 'plasma5-applets-eventcalendar' 'biglinux-metapackage')
@@ -12,15 +12,26 @@ pkgdesc="Essential package to BigLinux KDE session"
 source=("git+https://github.com/biglinux/biglinux-session-and-themes.git")
 md5sums=(SKIP)
 
-pkgver() {
-  cd "$srcdir/${pkgname%}"
-  printf "2.0.0.r%s.%s" \
-    "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
-}
-
 package() {
-    cp -r "${srcdir}/biglinux-session-and-themes/usr/" "${pkgdir}/"
-    cp -r "${srcdir}/biglinux-session-and-themes/etc/" "${pkgdir}/"
-}
+    # Verify default folder
+    if [ -d "${srcdir}/${pkgname}/${pkgname}" ]; then
+        InternalDir="${srcdir}/${pkgname}/${pkgname}"
+    else
+        InternalDir="${srcdir}/${pkgname}"
+    fi
 
+
+    # Copy files
+    if [ -d "${InternalDir}/usr" ]; then
+        cp -r "${InternalDir}/usr" "${pkgdir}/"
+    fi
+
+    if [ -d "${InternalDir}/etc" ]; then
+        cp -r "${InternalDir}/etc" "${pkgdir}/"
+    fi
+
+    if [ -d "${InternalDir}/opt" ]; then
+        cp -r "${InternalDir}/opt" "${pkgdir}/"
+    fi
+}
 

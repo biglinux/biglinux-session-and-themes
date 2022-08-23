@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 06:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Valittua työpöydän kokoonpanoa on jo käytetty tässä järjestelmässä,\n"
+"haluatko palauttaa jo käytetyn kokoonpanon?\n"
+"\n"
+"Valitse no, jos haluat käyttää järjestelmän oletuskokoonpanoa.\n"
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klassinen</b>, <b>uusi</b> ja <b>moderni</b> toimivat parhaiten."
+
+msgid "Aceleração do navegador"
+msgstr "Selaimen kiihdytys"
+
+msgid "Ajustes"
+msgstr "Asetukset"
+
+msgid "Ativar"
+msgstr "Aktivoi"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Ota NumLock käyttöön järjestelmän käynnistyessä"
+
+msgid "Automático"
+msgstr "Automaattinen"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Lukitse työpöytä"
+
+msgid "Bordas arredondadas."
+msgstr "Pyöristetyt reunat."
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Ikkunan painikkeet vasemmalla puolella"
+
+msgid ""
+"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
+"que a nova configuração seja aplicada."
+msgstr ""
+"Jos käytät selainta, käynnistä se uudelleen, jotta uudet asetukset tulevat "
+"käyttöön."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfiguraatio käytössä!\n"
+"\n"
+"Kirjaudu ulos ja kirjaudu uudelleen sisään\n"
+"jotta konfigurointi saadaan valmiiksi\n"
+"sovellettu."
+
+msgid "Configuração do Desktop"
+msgstr "Työpöydän kokoonpano"
+
+msgid "Configurações do Brave"
+msgstr "Rohkeat kokoonpanot"
+
+msgid "Desativar"
+msgstr "Deaktivoi"
+
+msgid "Desempenho do desktop"
+msgstr "Työpöydän suorituskyky"
+
+msgid "Desempenho em modo normal!"
+msgstr "Suorituskyky normaalitilassa!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Suorituskyky tehostetussa tilassa!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Suorituskyky suoritustilassa!"
+
+msgid "Desktop"
+msgstr "Työpöytä"
+
+msgid "Desktop aplicado"
+msgstr "Työpöytä sovellettu"
+
+msgid "Escolha a opção desejada:"
+msgstr "Valitse haluamasi vaihtoehto:"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Valitse ohjelmat, jotka ladataan muistiin käynnistyksen yhteydessä"
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
+"lento em computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Tässä teemassa on läpinäkyviä tehosteita, jotka voivat "
+"hidastaa<br>järjestelmän toimintaa vanhoissa tietokoneissa<br>tai "
+"virtualisoiduissa ympäristöissä."
+
+msgid "Fechar"
+msgstr "Sulje"
+
+msgid "Não"
+msgstr "Ei"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem "
+"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Preload lataa ohjelmatiedostot muistiin, jotta ne käynnistyvät nopeasti. "
+"Liiallinen käyttö aiheuttaa hidastuksia. Valitse haluamasi vaihtoehto:"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Piilota käynnistyksenhallinta (GRUB)"
+
+msgid "Original"
+msgstr "Alkuperäinen"
+
+msgid "Pesquisar arquivos"
+msgstr "Etsi arkistoista"
+
+msgid "Remover propagandas"
+msgstr "Poista mainokset"
+
+msgid "Renderizar o desktop via software"
+msgstr "Työpöydän renderöinti ohjelmiston avulla"
+
+msgid "Restaurar"
+msgstr "Palauta"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Käänteinen hiiren vieritys"
+
+msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
+msgstr "Jos käytät selainta, sulje se ja avaa se uudelleen!"
+
+msgid "Sim"
+msgstr "Kyllä"
+
+msgid "Suportar criptomoedas"
+msgstr "Kryptovaluuttojen tukeminen"
+
+msgid "Tema aplicado"
+msgstr "Sovellettu teema"
+
+msgid "Tema dos aplicativos"
+msgstr "Sovelluksen teema"
+
+msgid "Temas"
+msgstr "Teemat"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Teemat, työpöytä ja asetukset"
+
+msgid "Usabilidade"
+msgstr "Käytettävyys"
+
+msgid ""
+"Utilizando renderização por software, a qualidade das transparências está "
+"reduzida."
+msgstr ""
+"Ohjelmiston renderöintiä käytettäessä läpinäkyvien kuvien laatu heikkenee."
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
+"utilizar a configuração original?"
+msgstr ""
+"Oletko käyttänyt tätä työpöytää aiemmin, haluatko palauttaa sen mukautukset "
+"vai käyttää alkuperäistä kokoonpanoa?"
+
+msgid ""
+"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
+"agora?"
+msgstr ""
+"Sinun on kirjauduttava uudelleen sisään, jotta voit suorittaa määrityksen "
+"loppuun. Haluatko tehdä sen nyt?"
+
+#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
+#~ msgstr ""
+#~ "(Voi olla hyödyllinen virtuaalikoneessa tai vanhoissa tietokoneissa)"
+
+#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
+#~ msgstr "<b>Classic</b> ja <b>New</b> ovat suorituskyvyltään parempia."

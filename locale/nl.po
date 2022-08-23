@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 06:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"De gekozen bureaubladconfiguratie is al gebruikt op dit systeem,\n"
+"wilt u de reeds gebruikte configuratie herstellen?\n"
+"\n"
+"Kies no om de standaard systeemconfiguratie te gebruiken.\n"
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klassiek</b>, <b>Nieuw</b> en <b>Modern</b> presteren het best."
+
+msgid "Aceleração do navegador"
+msgstr "Browserversnelling"
+
+msgid "Ajustes"
+msgstr "Instellingen"
+
+msgid "Ativar"
+msgstr "Activeer"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "NumLock inschakelen bij het opstarten van het systeem"
+
+msgid "Automático"
+msgstr "Automatisch"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Het bureaublad vergrendelen"
+
+msgid "Bordas arredondadas."
+msgstr "Afgeronde randen."
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Venster knoppen aan de linkerkant"
+
+msgid ""
+"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
+"que a nova configuração seja aplicada."
+msgstr ""
+"Configuratie gewijzigd, als u de browser gebruikt, herstart die dan om de "
+"nieuwe configuratie toe te passen."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Configuratie toegepast!\n"
+"\n"
+"Log uit en log weer in\n"
+"om de configuratie te voltooien\n"
+"toegepast."
+
+msgid "Configuração do Desktop"
+msgstr "Desktopconfiguratie"
+
+msgid "Configurações do Brave"
+msgstr "Moedige configuraties"
+
+msgid "Desativar"
+msgstr "Deactiveer"
+
+msgid "Desempenho do desktop"
+msgstr "Desktop prestaties"
+
+msgid "Desempenho em modo normal!"
+msgstr "Prestaties in de normale modus!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Prestaties in verbeterde modus!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Prestaties in de prestatiemodus!"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Desktop aplicado"
+msgstr "Desktop toegepast"
+
+msgid "Escolha a opção desejada:"
+msgstr "Kies de gewenste optie:"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr ""
+"Kies programma's die in het geheugen geladen moeten worden bij het opstarten"
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
+"lento em computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Dit thema heeft transparanten met effecten die<br>het systeem kunnen "
+"vertragen<br>op oude computers of gevirtualiseerde omgevingen."
+
+msgid "Fechar"
+msgstr "Sluiten"
+
+msgid "Não"
+msgstr "Nee"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem "
+"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Preload laadt programmabestanden in het geheugen zodat ze snel starten. "
+"Overdadig gebruik veroorzaakt vertragingen. Kies de gewenste optie:"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Verberg Boot Manager (GRUB)"
+
+msgid "Original"
+msgstr "Origineel"
+
+msgid "Pesquisar arquivos"
+msgstr "Zoek archieven"
+
+msgid "Remover propagandas"
+msgstr "Verwijder advertenties"
+
+msgid "Renderizar o desktop via software"
+msgstr "Weergave van het bureaublad via software"
+
+msgid "Restaurar"
+msgstr "Herstel"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Omgekeerd scrollen met de muis"
+
+msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
+msgstr "Als u een browser gebruikt, sluit hem dan en open hem opnieuw!"
+
+msgid "Sim"
+msgstr "Ja"
+
+msgid "Suportar criptomoedas"
+msgstr "Ondersteunende cryptocurrencies"
+
+msgid "Tema aplicado"
+msgstr "Thema toegepast"
+
+msgid "Tema dos aplicativos"
+msgstr "Toepassingsthema"
+
+msgid "Temas"
+msgstr "Thema's"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Thema's, Bureaublad en Instellingen"
+
+msgid "Usabilidade"
+msgstr "Bruikbaarheid"
+
+msgid ""
+"Utilizando renderização por software, a qualidade das transparências está "
+"reduzida."
+msgstr ""
+"Met software rendering wordt de kwaliteit van transparanten verminderd."
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
+"utilizar a configuração original?"
+msgstr ""
+"Hebt u deze desktop al eerder gebruikt, wilt u de aanpassingen herstellen of "
+"de oorspronkelijke configuratie gebruiken?"
+
+msgid ""
+"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
+"agora?"
+msgstr ""
+"U moet opnieuw ingelogd zijn om de configuratie te voltooien. Wilt u het nu "
+"doen?"
+
+#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
+#~ msgstr "(Kan nuttig zijn op virtuele machines of oude computers)"
+
+#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
+#~ msgstr "<b>Classic</b> en <b>New</b> hebben betere prestaties."

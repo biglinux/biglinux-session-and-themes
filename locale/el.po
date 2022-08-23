@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 06:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Η επιλεγμένη διαμόρφωση επιφάνειας εργασίας έχει ήδη χρησιμοποιηθεί σε αυτό "
+"το σύστημα,\n"
+"θέλετε να επαναφέρετε τη διαμόρφωση που έχει ήδη χρησιμοποιηθεί\n"
+"\n"
+"Επιλέξτε no για να χρησιμοποιήσετε την προεπιλεγμένη διαμόρφωση του "
+"συστήματος.\n"
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr ""
+"Τα <b>κλασικά</b>, τα <b>νέα</b> και τα <b>μοντέρνα</b> αποδίδουν καλύτερα."
+
+msgid "Aceleração do navegador"
+msgstr "Επιτάχυνση του προγράμματος περιήγησης"
+
+msgid "Ajustes"
+msgstr "Ρυθμίσεις"
+
+msgid "Ativar"
+msgstr "Ενεργοποίηση"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Ενεργοποίηση του NumLock κατά την εκκίνηση του συστήματος"
+
+msgid "Automático"
+msgstr "Αυτόματο"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Κλείδωμα της επιφάνειας εργασίας"
+
+msgid "Bordas arredondadas."
+msgstr "Στρογγυλεμένες άκρες."
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Κουμπιά παραθύρου στην αριστερή πλευρά"
+
+msgid ""
+"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
+"que a nova configuração seja aplicada."
+msgstr ""
+"Η διαμόρφωση άλλαξε, αν χρησιμοποιείτε το πρόγραμμα περιήγησης, "
+"επανεκκινήστε το για να εφαρμοστεί η νέα διαμόρφωση."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Εφαρμόζεται η διαμόρφωση!\n"
+"\n"
+"Αποσυνδεθείτε και συνδεθείτε ξανά\n"
+"για να ολοκληρωθεί η διαμόρφωση\n"
+"εφαρμόζεται."
+
+msgid "Configuração do Desktop"
+msgstr "Διαμόρφωση επιφάνειας εργασίας"
+
+msgid "Configurações do Brave"
+msgstr "Γενναίες διαμορφώσεις"
+
+msgid "Desativar"
+msgstr "Απενεργοποίηση"
+
+msgid "Desempenho do desktop"
+msgstr "Επιδόσεις επιφάνειας εργασίας"
+
+msgid "Desempenho em modo normal!"
+msgstr "Απόδοση σε κανονική λειτουργία!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Απόδοση σε βελτιωμένη λειτουργία!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Απόδοση σε λειτουργία απόδοσης!"
+
+msgid "Desktop"
+msgstr "Επιτραπέζια επιφάνεια εργασίας"
+
+msgid "Desktop aplicado"
+msgstr "Εφαρμόζεται στην επιφάνεια εργασίας"
+
+msgid "Escolha a opção desejada:"
+msgstr "Επιλέξτε την επιθυμητή επιλογή:"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Επιλέξτε προγράμματα που θα φορτωθούν στη μνήμη κατά την εκκίνηση"
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
+"lento em computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Αυτό το θέμα έχει διαφάνειες με εφέ που μπορεί να επιβραδύνουν<br>το σύστημα "
+"σε παλιούς υπολογιστές<br>ή εικονικά περιβάλλοντα."
+
+msgid "Fechar"
+msgstr "Κλείστε το"
+
+msgid "Não"
+msgstr "Όχι"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem "
+"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Η προφόρτωση φορτώνει τα αρχεία του προγράμματος στη μνήμη, ώστε να "
+"ξεκινήσει γρήγορα. Η υπερβολική χρήση προκαλεί επιβραδύνσεις. Επιλέξτε την "
+"επιθυμητή επιλογή:"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Απόκρυψη του διαχειριστή εκκίνησης (GRUB)"
+
+msgid "Original"
+msgstr "Αρχικό"
+
+msgid "Pesquisar arquivos"
+msgstr "Αναζήτηση στα αρχεία"
+
+msgid "Remover propagandas"
+msgstr "Αφαίρεση διαφημίσεων"
+
+msgid "Renderizar o desktop via software"
+msgstr "Απεικόνιση της επιφάνειας εργασίας μέσω λογισμικού"
+
+msgid "Restaurar"
+msgstr "Επαναφορά"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Αντεστραμμένη κύλιση ποντικιού"
+
+msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
+msgstr ""
+"Αν χρησιμοποιείτε πρόγραμμα περιήγησης, κλείστε το και ανοίξτε το ξανά!"
+
+msgid "Sim"
+msgstr "Ναι"
+
+msgid "Suportar criptomoedas"
+msgstr "Υποστήριξη κρυπτονομισμάτων"
+
+msgid "Tema aplicado"
+msgstr "Εφαρμοσμένο θέμα"
+
+msgid "Tema dos aplicativos"
+msgstr "Θέμα εφαρμογής"
+
+msgid "Temas"
+msgstr "Θέματα"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Θέματα, επιφάνεια εργασίας και ρυθμίσεις"
+
+msgid "Usabilidade"
+msgstr "Ευχρηστία"
+
+msgid ""
+"Utilizando renderização por software, a qualidade das transparências está "
+"reduzida."
+msgstr ""
+"Χρησιμοποιώντας λογισμικό απόδοσης, η ποιότητα των διαφανειών μειώνεται."
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
+"utilizar a configuração original?"
+msgstr ""
+"Έχετε χρησιμοποιήσει αυτή την επιφάνεια εργασίας στο παρελθόν, θέλετε να "
+"επαναφέρετε την παραμετροποίησή της ή να χρησιμοποιήσετε την αρχική "
+"διαμόρφωση"
+
+msgid ""
+"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
+"agora?"
+msgstr ""
+"Πρέπει να συνδεθείτε ξανά για να ολοκληρώσετε τη διαμόρφωση. Θέλετε να το "
+"κάνετε τώρα"
+
+#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
+#~ msgstr ""
+#~ "(Μπορεί να είναι χρήσιμο σε εικονικές μηχανές ή παλιούς υπολογιστές)"
+
+#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
+#~ msgstr "Το<b>Classic</b> και το <b>New</b> έχουν καλύτερες επιδόσεις."

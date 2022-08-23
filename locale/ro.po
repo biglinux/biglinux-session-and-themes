@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 06:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Configurația de birou selectată a fost deja utilizată pe acest sistem,\n"
+"doriți să restaurați configurația care a fost deja utilizată?\n"
+"\n"
+"Selectați nu pentru a utiliza configurația implicită a sistemului.\n"
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Clasic</b>, <b>Nou</b> și <b>Modern</b> au cele mai bune rezultate."
+
+msgid "Aceleração do navegador"
+msgstr "Accelerarea browserului"
+
+msgid "Ajustes"
+msgstr "Setări"
+
+msgid "Ativar"
+msgstr "Activați"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Activați NumLock la pornirea sistemului"
+
+msgid "Automático"
+msgstr "Automat"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Blocați desktop-ul"
+
+msgid "Bordas arredondadas."
+msgstr "Margini rotunjite."
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Butoanele ferestrei din partea stângă"
+
+msgid ""
+"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
+"que a nova configuração seja aplicada."
+msgstr ""
+"Configurația s-a schimbat, dacă utilizați browserul, reporniți-l pentru ca "
+"noua configurație să fie aplicată."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Configurație aplicată!\n"
+"\n"
+"Deconectați-vă și conectați-vă din nou\n"
+"pentru finalizarea configurării\n"
+"aplicat."
+
+msgid "Configuração do Desktop"
+msgstr "Configurarea desktop-ului"
+
+msgid "Configurações do Brave"
+msgstr "Configurații curajoase"
+
+msgid "Desativar"
+msgstr "Dezactivați"
+
+msgid "Desempenho do desktop"
+msgstr "Performanță desktop"
+
+msgid "Desempenho em modo normal!"
+msgstr "Performanță în modul normal!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Performanță în modul îmbunătățit!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Performanță în modul performanță!"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Desktop aplicado"
+msgstr "Desktop aplicat"
+
+msgid "Escolha a opção desejada:"
+msgstr "Alegeți opțiunea dorită:"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Alegeți programele care vor fi încărcate în memorie la pornire"
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
+"lento em computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Această temă are transparențe cu efecte care pot<br>încetini sistemul pe "
+"calculatoarele vechi<br>sau în mediile virtualizate."
+
+msgid "Fechar"
+msgstr "Închideți"
+
+msgid "Não"
+msgstr "Nu"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem "
+"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Preîncărcarea încarcă fișierele de program în memorie, astfel încât acestea "
+"să pornească rapid. Utilizarea excesivă cauzează încetiniri. Alegeți "
+"opțiunea dorită:"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Ascundeți Managerul de pornire (GRUB)"
+
+msgid "Original"
+msgstr "Original"
+
+msgid "Pesquisar arquivos"
+msgstr "Căutați în arhive"
+
+msgid "Remover propagandas"
+msgstr "Eliminați reclamele"
+
+msgid "Renderizar o desktop via software"
+msgstr "Redarea desktop-ului prin intermediul unui software"
+
+msgid "Restaurar"
+msgstr "Restaurați"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Derulare inversată a mouse-ului"
+
+msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
+msgstr "Dacă folosiți un browser, închideți-l și deschideți-l din nou!"
+
+msgid "Sim"
+msgstr "Da"
+
+msgid "Suportar criptomoedas"
+msgstr "Sprijinirea criptomonedelor"
+
+msgid "Tema aplicado"
+msgstr "Tema aplicată"
+
+msgid "Tema dos aplicativos"
+msgstr "Tema aplicației"
+
+msgid "Temas"
+msgstr "Teme"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Teme, desktop și setări"
+
+msgid "Usabilidade"
+msgstr "Utilizare"
+
+msgid ""
+"Utilizando renderização por software, a qualidade das transparências está "
+"reduzida."
+msgstr ""
+"Prin utilizarea randării software, calitatea transparențelor este redusă."
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
+"utilizar a configuração original?"
+msgstr ""
+"Ați mai folosit acest desktop înainte, doriți să restaurați personalizarea "
+"acestuia sau să utilizați configurația originală?"
+
+msgid ""
+"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
+"agora?"
+msgstr ""
+"Trebuie să vă conectați din nou pentru a finaliza configurarea. Vrei să o "
+"faci acum?"
+
+#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
+#~ msgstr "(Poate fi utilă pe mașinile virtuale sau pe calculatoarele vechi)"
+
+#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
+#~ msgstr "<b>Classic</b> și <b>New</b> au performanțe mai bune."

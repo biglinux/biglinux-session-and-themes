@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 06:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Valin skjáborðsstilling hefur þegar verið notuð á þessu kerfi,\n"
+"viltu endurheimta stillingarnar sem þegar hafa verið notaðar?\n"
+"\n"
+"Veldu nei til að nota sjálfgefna kerfisstillingu.\n"
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Classic</b>,<b>New</b>, og<b>Modern</b>standa sig betur."
+
+msgid "Aceleração do navegador"
+msgstr "Browser hröðun"
+
+msgid "Ajustes"
+msgstr "klípur"
+
+msgid "Ativar"
+msgstr "Virkja"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Virkja NumLock þegar kveikt er á kerfinu"
+
+msgid "Automático"
+msgstr "Sjálfvirkt"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Læsa skjáborðinu"
+
+msgid "Bordas arredondadas."
+msgstr "Ávalar brúnir."
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Gluggahnappar á vinstri hlið"
+
+msgid ""
+"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
+"que a nova configuração seja aplicada."
+msgstr ""
+"Stillingar breytt, ef þú ert að nota vafrann skaltu endurræsa hann fyrir "
+"nýja stillinguna sem á að beita."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Stillingar beitt!\n"
+"\n"
+"Skráðu þig út og skráðu þig aftur inn\n"
+"fyrir stillingar til að klára\n"
+"vera beitt."
+
+msgid "Configuração do Desktop"
+msgstr "Desktop skipulag"
+
+msgid "Configurações do Brave"
+msgstr "Hugrakkir stillingar"
+
+msgid "Desativar"
+msgstr "Slökkva"
+
+msgid "Desempenho do desktop"
+msgstr "Desktop árangur"
+
+msgid "Desempenho em modo normal!"
+msgstr "Flutningur í venjulegri stillingu!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Árangur í bjartsýni ham!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Árangur í frammistöðu ham!"
+
+msgid "Desktop"
+msgstr "Skrifborð"
+
+msgid "Desktop aplicado"
+msgstr "Applied skrifborð"
+
+msgid "Escolha a opção desejada:"
+msgstr "Veldu viðeigandi valkost:"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Veldu forrit til að hlaða inn í minni meðan á stígvél stendur"
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
+"lento em computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Þetta þema hefur gagnsæi með áhrifum sem <br>hægt er að hægja á kerfinu á "
+"<br>gömlum tölvum eða virtualized umhverfi."
+
+msgid "Fechar"
+msgstr "Loka"
+
+msgid "Não"
+msgstr "Neibb"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem "
+"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Forhlaða hleðst forritaskrár í minni svo þær byrja fljótt. Ofnotkun veldur "
+"seinlæti. Veldu viðeigandi valkost:"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Fela Boot Manager (GRUB)"
+
+msgid "Original"
+msgstr "Upprunalega"
+
+msgid "Pesquisar arquivos"
+msgstr "Leita að skrám"
+
+msgid "Remover propagandas"
+msgstr "Fjarlægja auglýsingar"
+
+msgid "Renderizar o desktop via software"
+msgstr "Gátu skjáborðið í gegnum hugbúnað"
+
+msgid "Restaurar"
+msgstr "Restore"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Reversed mús fletta"
+
+msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
+msgstr "Ef þú ert að nota vafra skaltu loka honum og opna hann aftur!"
+
+msgid "Sim"
+msgstr "Já"
+
+msgid "Suportar criptomoedas"
+msgstr "Styðja dulritunargjaldmiðla"
+
+msgid "Tema aplicado"
+msgstr "Notað þema"
+
+msgid "Tema dos aplicativos"
+msgstr "Apps þema"
+
+msgid "Temas"
+msgstr "Topics"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Þemu, skrifborð og klip"
+
+msgid "Usabilidade"
+msgstr "Notagildi"
+
+msgid ""
+"Utilizando renderização por software, a qualidade das transparências está "
+"reduzida."
+msgstr "Með því að nota hugbúnað flutningur, gæði af the transparent minnkar."
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
+"utilizar a configuração original?"
+msgstr ""
+"Hefur þú notað þetta skjáborð áður, viltu endurheimta sérsniðið eða nota "
+"upprunalegu stillingarnar?"
+
+msgid ""
+"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
+"agora?"
+msgstr ""
+"Þú verður að endurræsa fundinn til að ljúka uppsetningunni. Viltu gera það "
+"núna?"
+
+#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
+#~ msgstr "(Getur verið gagnlegt á sýndarvélum eða gömlum tölvum)"
+
+#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
+#~ msgstr "<b>Classic</b> og<b>New</b> standa sig betur."

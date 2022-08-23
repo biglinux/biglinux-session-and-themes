@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 06:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"La configuration de bureau sélectionnée a déjà été utilisée sur ce système,\n"
+"voulez-vous restaurer la configuration qui a déjà été utilisée ?\n"
+"\n"
+"Sélectionnez non pour utiliser la configuration système par défaut.\n"
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr ""
+"<b>Classique</b>, <b>Nouveau</b> et <b>Moderne</b> sont les plus performants."
+
+msgid "Aceleração do navegador"
+msgstr "Accélération du navigateur"
+
+msgid "Ajustes"
+msgstr "Paramètres"
+
+msgid "Ativar"
+msgstr "Activez"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Activer NumLock au démarrage du système"
+
+msgid "Automático"
+msgstr "Automatique"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Verrouiller le bureau"
+
+msgid "Bordas arredondadas."
+msgstr "Bords arrondis."
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Boutons de la fenêtre sur le côté gauche"
+
+msgid ""
+"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
+"que a nova configuração seja aplicada."
+msgstr ""
+"La configuration a changé, si vous utilisez le navigateur, redémarrez-le "
+"pour que la nouvelle configuration soit appliquée."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Configuration appliquée !\n"
+"\n"
+"Se déconnecter et se reconnecter\n"
+"pour que la configuration soit terminée\n"
+"appliqué."
+
+msgid "Configuração do Desktop"
+msgstr "Configuration du bureau"
+
+msgid "Configurações do Brave"
+msgstr "Des configurations courageuses"
+
+msgid "Desativar"
+msgstr "Désactiver"
+
+msgid "Desempenho do desktop"
+msgstr "Performances du poste de travail"
+
+msgid "Desempenho em modo normal!"
+msgstr "Performance en mode normal !"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Des performances en mode amélioré !"
+
+msgid "Desempenho em modo performance!"
+msgstr "La performance en mode performance !"
+
+msgid "Desktop"
+msgstr "Bureau"
+
+msgid "Desktop aplicado"
+msgstr "Bureau appliqué"
+
+msgid "Escolha a opção desejada:"
+msgstr "Choisissez l'option souhaitée :"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Choisir les programmes à charger en mémoire au moment du démarrage"
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
+"lento em computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Ce thème comporte des transparences avec des effets qui peuvent<br>ralentir "
+"le système sur les vieux ordinateurs<br>ou les environnements virtualisés."
+
+msgid "Fechar"
+msgstr "Fermer"
+
+msgid "Não"
+msgstr "Non"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem "
+"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Preload charge les fichiers du programme dans la mémoire pour qu'ils "
+"démarrent rapidement. Une utilisation excessive entraîne des "
+"ralentissements. Choisissez l'option souhaitée :"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Cacher le gestionnaire de démarrage (GRUB)"
+
+msgid "Original"
+msgstr "Original"
+
+msgid "Pesquisar arquivos"
+msgstr "Recherche dans les archives"
+
+msgid "Remover propagandas"
+msgstr "Supprimer les publicités"
+
+msgid "Renderizar o desktop via software"
+msgstr "Rendre le bureau par logiciel"
+
+msgid "Restaurar"
+msgstr "Restaurer"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Défilement inversé de la souris"
+
+msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
+msgstr "Si vous utilisez un navigateur, fermez-le et ouvrez-le à nouveau !"
+
+msgid "Sim"
+msgstr "Oui"
+
+msgid "Suportar criptomoedas"
+msgstr "Prise en charge des crypto-monnaies"
+
+msgid "Tema aplicado"
+msgstr "Thème appliqué"
+
+msgid "Tema dos aplicativos"
+msgstr "Thème de l'application"
+
+msgid "Temas"
+msgstr "Thèmes"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Thèmes, bureau et paramètres"
+
+msgid "Usabilidade"
+msgstr "Utilisabilité"
+
+msgid ""
+"Utilizando renderização por software, a qualidade das transparências está "
+"reduzida."
+msgstr ""
+"En utilisant le rendu logiciel, la qualité des transparents est réduite."
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
+"utilizar a configuração original?"
+msgstr ""
+"Avez-vous déjà utilisé ce bureau auparavant, voulez-vous restaurer sa "
+"personnalisation ou utiliser la configuration originale ?"
+
+msgid ""
+"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
+"agora?"
+msgstr ""
+"Vous devez vous reconnecter pour terminer la configuration. Vous voulez le "
+"faire maintenant ?"
+
+#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
+#~ msgstr ""
+#~ "(Peut être utile sur les machines virtuelles ou les vieux ordinateurs)"
+
+#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
+#~ msgstr "<b>Classic</b> et <b>New</b> ont de meilleures performances."
