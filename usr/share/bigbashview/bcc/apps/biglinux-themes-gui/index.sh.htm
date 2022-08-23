@@ -55,6 +55,7 @@ Support_cryptocurrencies=$"Suportar criptomoedas"
 Usability=$"Usabilidade"
 Window_buttons_on_the_left_side=$"Botões da janela no lado esquerdo"
 Inverted_mouse_scroll=$"Rolagem do mouse invertida"
+Inverted_touchpad_scroll=$"Rolagem do touchpad invertida"
 Search_files=$"Pesquisar arquivos"
 Lock_the_workspace=$"Bloquear a edição da área de trabalho"
 HideGrub_text=$"Ocultar Gerenciador de Boot (GRUB)"
@@ -794,6 +795,16 @@ cat << EOF
                 </div>        
                 <div class="button-wrapper">
                   <input id="desktop2" onclick="_run('./mouse.run')" type="checkbox" class="switch" style="top: 3px;" $checked_scrool_natural>
+                </div>
+              </li>
+
+              <li>
+                <div class="products">
+                  <svg viewBox="0 0 64 50"><path fill="currentColor" d="m 4.1853223,0.28475038 c -2.1427419,0 -3.86771239,1.82537012 -3.86771239,4.09319262 V 35.896679 H 63.68239 V 4.377943 c 0,-2.2678225 -1.724969,-4.09319262 -3.867712,-4.09319262 z M 31.990909,3.9469849 c 0.0029,0 0.0061,-3.53e-5 0.0091,0 0.219477,-0.0023 0.439164,0.080637 0.607342,0.2491192 l 6.97049,6.9826119 c 0.331828,0.332416 0.331829,0.867112 0,1.19953 -0.331827,0.332419 -0.866489,0.332419 -1.198318,0 l -6.38012,-6.3910291 -6.380119,6.3910291 c -0.33183,0.332419 -0.865886,0.332419 -1.197712,0 -0.331828,-0.332406 -0.331829,-0.867126 0,-1.19953 l 6.970537,-6.9826119 c 0.165916,-0.1662084 0.382333,-0.2491193 0.598857,-0.2491193 z m 6.988067,19.5828321 c 0.216471,0 0.432942,0.08351 0.598856,0.249726 0.331827,0.332407 0.331828,0.867124 0,1.199531 l -6.969884,6.982612 c -0.165914,0.16621 -0.382329,0.249119 -0.598855,0.249119 h -6.07e-4 c -0.0029,0 -0.0054,3.5e-5 -0.0084,0 -0.219476,0.0023 -0.439769,-0.08064 -0.607948,-0.249119 l -6.970534,-6.982612 c -0.331828,-0.332419 -0.33183,-0.867113 0,-1.199531 0.165912,-0.166213 0.382861,-0.249119 0.599462,-0.249119 0.216596,0 0.432941,0.08291 0.598856,0.249119 l 6.380725,6.39103 6.379513,-6.39103 c 0.165916,-0.166209 0.382385,-0.249726 0.598857,-0.249726 z M 0.31760991,40.170528 v 5.45153 c 0,2.267822 1.72497049,4.093192 3.86771239,4.093192 H 30.590749 v -9.544722 z m 33.48320109,0 v 9.544722 h 26.013867 c 2.142743,0 3.867712,-1.82537 3.867712,-4.093192 v -5.45153 z"></path></svg>
+                  $Inverted_touchpad_scroll
+                </div>        
+                <div class="button-wrapper">
+                  <input id="desktop2" onclick="_run('./touchpad.run')" type="checkbox" class="switch" style="top: 3px;" $checked_scrool_natural>
                 </div>
               </li>
 
