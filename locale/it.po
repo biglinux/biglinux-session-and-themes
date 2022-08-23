@@ -114,6 +114,9 @@ msgstr "Pulsanti della finestra sul lato sinistro"
 msgid "Rolagem do mouse invertida"
 msgstr "Scorrimento del mouse invertito"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Scorrimento invertito del touchpad"
+
 msgid "Pesquisar arquivos"
 msgstr "Cerca negli archivi"
 

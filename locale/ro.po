@@ -114,6 +114,9 @@ msgstr "Butoanele ferestrei din partea stângă"
 msgid "Rolagem do mouse invertida"
 msgstr "Derulare inversată a mouse-ului"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Defilare touchpad inversat"
+
 msgid "Pesquisar arquivos"
 msgstr "Căutați în arhive"
 

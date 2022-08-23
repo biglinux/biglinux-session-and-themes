@@ -114,6 +114,9 @@ msgstr "Akna nupud vasakul pool"
 msgid "Rolagem do mouse invertida"
 msgstr "Ümberpööratud hiire kerimine"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Ümberpööratud puuteplaadi kerimine"
+
 msgid "Pesquisar arquivos"
 msgstr "Otsi arhiivides"
 

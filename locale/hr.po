@@ -114,6 +114,9 @@ msgstr "Gumbi prozora na lijevoj strani"
 msgid "Rolagem do mouse invertida"
 msgstr "Obrnuto pomicanje miša"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Preokrenuto pomicanje dodirne pločice"
+
 msgid "Pesquisar arquivos"
 msgstr "Pretraživanje datoteka"
 

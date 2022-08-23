@@ -110,6 +110,9 @@ msgstr "왼쪽에 있는 윈도우 버튼"
 msgid "Rolagem do mouse invertida"
 msgstr "반전된 마우스 스크롤"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "반전된 터치패드 스크롤"
+
 msgid "Pesquisar arquivos"
 msgstr "파일 검색"
 

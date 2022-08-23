@@ -114,6 +114,9 @@ msgstr "Window buttons on the left side"
 msgid "Rolagem do mouse invertida"
 msgstr "Mouse scrolling inverted"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Inverted touchpad scrolling"
+
 msgid "Pesquisar arquivos"
 msgstr "Search archives"
 

@@ -114,6 +114,9 @@ msgstr "Бутони на прозореца от лявата страна"
 msgid "Rolagem do mouse invertida"
 msgstr "Обърнато превъртане на мишката"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Обърнато превъртане на тъчпада"
+
 msgid "Pesquisar arquivos"
 msgstr "Търсене в архивите"
 

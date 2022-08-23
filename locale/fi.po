@@ -114,6 +114,9 @@ msgstr "Ikkunan painikkeet vasemmalla puolella"
 msgid "Rolagem do mouse invertida"
 msgstr "Käänteinen hiiren vieritys"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Käänteisen kosketuslevyn vieritys"
+
 msgid "Pesquisar arquivos"
 msgstr "Etsi arkistoista"
 

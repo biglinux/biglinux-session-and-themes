@@ -110,6 +110,9 @@ msgstr "לחצני חלון בצד שמאל"
 msgid "Rolagem do mouse invertida"
 msgstr "גלילת עכבר הפוכה"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "גלילת לוח מגע הפוך"
+
 msgid "Pesquisar arquivos"
 msgstr "חפש קבצים"
 

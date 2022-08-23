@@ -114,6 +114,9 @@ msgstr "Ablak gombok a bal oldalon"
 msgid "Rolagem do mouse invertida"
 msgstr "Invertált egér görgetés"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Fordított érintőpad görgetése"
+
 msgid "Pesquisar arquivos"
 msgstr "Keresés az archívumban"
 

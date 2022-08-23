@@ -114,6 +114,9 @@ msgstr "Botones de la ventana en el lado izquierdo"
 msgid "Rolagem do mouse invertida"
 msgstr "Desplazamiento invertido del ratón"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Desplazamiento del panel táctil invertido"
+
 msgid "Pesquisar arquivos"
 msgstr "Buscar en los archivos"
 

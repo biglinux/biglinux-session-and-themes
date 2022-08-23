@@ -114,6 +114,9 @@ msgstr "Vinduesknapper i venstre side"
 msgid "Rolagem do mouse invertida"
 msgstr "Inverteret musebladsering"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Omvendt touchpad-rulning"
+
 msgid "Pesquisar arquivos"
 msgstr "Søg i arkiverne"
 

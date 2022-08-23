@@ -114,6 +114,9 @@ msgstr "Venster knoppen aan de linkerkant"
 msgid "Rolagem do mouse invertida"
 msgstr "Omgekeerd scrollen met de muis"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Omgekeerd touchpad scrollen"
+
 msgid "Pesquisar arquivos"
 msgstr "Zoek archieven"
 

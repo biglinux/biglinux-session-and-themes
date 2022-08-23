@@ -114,6 +114,9 @@ msgstr "Tlačítka okna na levé straně"
 msgid "Rolagem do mouse invertida"
 msgstr "Obrácené posouvání myší"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Posouvání invertovaného touchpadu"
+
 msgid "Pesquisar arquivos"
 msgstr "Vyhledávání v archivech"
 

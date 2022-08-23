@@ -110,6 +110,9 @@ msgstr "左手边的窗口按钮"
 msgid "Rolagem do mouse invertida"
 msgstr "颠倒的鼠标滚动"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "倒置触摸板滚动"
+
 msgid "Pesquisar arquivos"
 msgstr "搜索档案"
 

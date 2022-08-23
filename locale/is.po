@@ -114,6 +114,9 @@ msgstr "Gluggahnappar á vinstri hlið"
 msgid "Rolagem do mouse invertida"
 msgstr "Reversed mús fletta"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Öfugt snertiborð skrun"
+
 msgid "Pesquisar arquivos"
 msgstr "Leita að skrám"
 

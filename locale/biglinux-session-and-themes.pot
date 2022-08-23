@@ -109,6 +109,9 @@ msgstr  ""
 msgid   "Rolagem do mouse invertida"
 msgstr  ""
 
+msgid   "Rolagem do touchpad invertida"
+msgstr  ""
+
 msgid   "Pesquisar arquivos"
 msgstr  ""
 

@@ -114,6 +114,9 @@ msgstr "Fenstertasten auf der linken Seite"
 msgid "Rolagem do mouse invertida"
 msgstr "Umgekehrter Maus-Scroll"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Invertiertes Scrollen des Touchpads"
+
 msgid "Pesquisar arquivos"
 msgstr "Archive durchsuchen"
 

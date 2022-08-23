@@ -110,6 +110,9 @@ msgstr "左側にあるウィンドウのボタン"
 msgid "Rolagem do mouse invertida"
 msgstr "マウスのスクロールが反転する"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "反転タッチパッドスクロール"
+
 msgid "Pesquisar arquivos"
 msgstr "アーカイブを検索する"
 

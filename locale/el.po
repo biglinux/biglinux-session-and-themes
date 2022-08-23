@@ -116,6 +116,9 @@ msgstr "Κουμπιά παραθύρου στην αριστερή πλευρά
 msgid "Rolagem do mouse invertida"
 msgstr "Αντεστραμμένη κύλιση ποντικιού"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Ανεστραμμένη κύλιση επιφάνειας αφής"
+
 msgid "Pesquisar arquivos"
 msgstr "Αναζήτηση στα αρχεία"
 

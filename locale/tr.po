@@ -114,6 +114,9 @@ msgstr "Sol taraftaki pencere düğmeleri"
 msgid "Rolagem do mouse invertida"
 msgstr "Ters çevrilmiş fare kaydırma"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Ters dokunmatik yüzey kaydırma"
+
 msgid "Pesquisar arquivos"
 msgstr "Arama arşivleri"
 

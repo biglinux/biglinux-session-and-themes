@@ -114,6 +114,9 @@ msgstr "Przyciski okienne po lewej stronie"
 msgid "Rolagem do mouse invertida"
 msgstr "Odwrócony scroll myszy"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Odwrócone przewijanie płytki dotykowej"
+
 msgid "Pesquisar arquivos"
 msgstr "Archiwa wyszukiwania"
 

@@ -116,6 +116,9 @@ msgstr "Boutons de la fenêtre sur le côté gauche"
 msgid "Rolagem do mouse invertida"
 msgstr "Défilement inversé de la souris"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Défilement inversé du pavé tactile"
+
 msgid "Pesquisar arquivos"
 msgstr "Recherche dans les archives"
 

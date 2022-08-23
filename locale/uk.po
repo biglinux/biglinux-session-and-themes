@@ -114,6 +114,9 @@ msgstr "Кнопки вікна з лівого боку"
 msgid "Rolagem do mouse invertida"
 msgstr "Перевернута прокрутка миші"
 
+msgid "Rolagem do touchpad invertida"
+msgstr "Інвертована прокрутка тачпада"
+
 msgid "Pesquisar arquivos"
 msgstr "пошук файлів"
 
