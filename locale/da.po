@@ -2,20 +2,173 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 06:12-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Temaer, skrivebord og indstillinger"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Hvis du bruger en browser, skal du genstarte den for at anvende ændringerne."
+
+msgid "Aplicando, aguarde..."
+msgstr "Ansøg, vent..."
+
+msgid "Concluído!"
+msgstr "Gjort!"
+
+msgid "Temas"
+msgstr "Temaer"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Ajustes"
+msgstr "Indstillinger"
+
+msgid "Desempenho do desktop"
+msgstr "Ydelse på skrivebordet"
+
+msgid "Desempenho"
+msgstr "Præstation"
+
+msgid "Aceleração do navegador"
+msgstr "Browser-acceleration"
+
+msgid "Usabilidade"
+msgstr "Brugervenlighed"
+
+msgid "Tema dos aplicativos"
+msgstr "Ansøgningstema"
+
+msgid "Abrir"
+msgstr "Åben"
+
+msgid "Fechar"
+msgstr "Luk"
+
+msgid "Bordas arredondadas."
+msgstr "Afrundede kanter."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Dette tema har transparenter med effekter, der kan gøre<br>systemet langsommere på gamle "
+"computere<br>eller i virtualiserede miljøer."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klassisk</b>, <b>ny</b> og <b>moderne</b> er bedst."
+
+msgid "Renderizar o desktop via software"
+msgstr "Gengivelse af skrivebordet via software"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Det kan være nyttigt på ældre computere, men nogle programmer holder op med at fungere)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Vælg programmer, der skal indlæses i hukommelsen ved opstart"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Preload indlæser programfiler i hukommelsen, så de starter hurtigt. Overdreven brug forårsager "
+"langsommere opbremsninger. Vælg den ønskede indstilling:"
+
+msgid "Automático"
+msgstr "Automatisk"
+
+msgid "Ativar"
+msgstr "Aktivér"
+
+msgid "Desativar"
+msgstr "Deaktivere"
+
+msgid "Configurações do Brave"
+msgstr "Modige konfigurationer"
+
+msgid "Escolha a opção desejada:"
+msgstr "Vælg den ønskede indstilling:"
+
+msgid "Remover propagandas"
+msgstr "Fjern reklamer"
+
+msgid "Suportar criptomoedas"
+msgstr "Understøttelse af kryptovalutaer"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Vinduesknapper i venstre side"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Inverteret musebladsering"
+
+msgid "Pesquisar arquivos"
+msgstr "Søg i arkiverne"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Lås skrivebordet"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Skjul Boot Manager (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Aktiver NumLock ved systemstart"
+
+msgid "Tema aplicado"
+msgstr "Anvendt tema"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
+msgstr "Du skal være logget ind igen for at fuldføre konfigurationen. Vil du gøre det nu?"
+
+msgid "Configuração do Desktop"
+msgstr "Konfiguration af skrivebord"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Har du brugt dette skrivebord før, og vil du gendanne tilpasningen eller bruge den oprindelige "
+"konfiguration?"
+
+msgid "Sim"
+msgstr "Ja"
+
+msgid "Não"
+msgstr "Nej"
+
+msgid "Original"
+msgstr "Original"
+
+msgid "Restaurar"
+msgstr "Gendan"
+
+msgid "Desktop aplicado"
+msgstr "Desktop anvendt"
+
+msgid "Modo performance"
+msgstr "Ydeevne tilstand"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Ved brug af softwarerensning reduceres kvaliteten af transparenter."
+
+msgid "Desempenho em modo performance!"
+msgstr "Præstation i præstationstilstand!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Ydeevne i forbedret tilstand!"
 
 msgid ""
 "\n"
@@ -25,46 +178,10 @@ msgid ""
 "Selecione não para utilizar a configuração padrão do sistema.\n"
 msgstr ""
 "\n"
-"Den valgte skrivebordskonfiguration er allerede blevet brugt på dette "
-"system,\n"
+"Den valgte skrivebordskonfiguration er allerede blevet brugt på dette system,\n"
 "ønsker du at gendanne den konfiguration, der allerede er blevet brugt?\n"
 "\n"
 "Vælg nej for at bruge standardkonfigurationen af systemet.\n"
-
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Klassisk</b>, <b>ny</b> og <b>moderne</b> er bedst."
-
-msgid "Aceleração do navegador"
-msgstr "Browser-acceleration"
-
-msgid "Ajustes"
-msgstr "Indstillinger"
-
-msgid "Ativar"
-msgstr "Aktivér"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktiver NumLock ved systemstart"
-
-msgid "Automático"
-msgstr "Automatisk"
-
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Lås skrivebordet"
-
-msgid "Bordas arredondadas."
-msgstr "Afrundede kanter."
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Vinduesknapper i venstre side"
-
-msgid ""
-"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
-"que a nova configuração seja aplicada."
-msgstr ""
-"Konfigurationen er ændret, hvis du bruger browseren, skal du genstarte den, "
-"for at den nye konfiguration kan anvendes."
 
 msgid ""
 "Configuração aplicada!\n"
@@ -79,126 +196,5 @@ msgstr ""
 "for at konfigurationen er færdig\n"
 "anvendes."
 
-msgid "Configuração do Desktop"
-msgstr "Konfiguration af skrivebord"
-
-msgid "Configurações do Brave"
-msgstr "Modige konfigurationer"
-
-msgid "Desativar"
-msgstr "Deaktivere"
-
-msgid "Desempenho do desktop"
-msgstr "Ydelse på skrivebordet"
-
 msgid "Desempenho em modo normal!"
 msgstr "Ydelse i normal tilstand!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Ydeevne i forbedret tilstand!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Præstation i præstationstilstand!"
-
-msgid "Desktop"
-msgstr "Desktop"
-
-msgid "Desktop aplicado"
-msgstr "Desktop anvendt"
-
-msgid "Escolha a opção desejada:"
-msgstr "Vælg den ønskede indstilling:"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Vælg programmer, der skal indlæses i hukommelsen ved opstart"
-
-msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
-"lento em computadores<br>antigos ou ambientes virtualizados."
-msgstr ""
-"Dette tema har transparenter med effekter, der kan gøre<br>systemet "
-"langsommere på gamle computere<br>eller i virtualiserede miljøer."
-
-msgid "Fechar"
-msgstr "Luk"
-
-msgid "Não"
-msgstr "Nej"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem "
-"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Preload indlæser programfiler i hukommelsen, så de starter hurtigt. "
-"Overdreven brug forårsager langsommere opbremsninger. Vælg den ønskede "
-"indstilling:"
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Skjul Boot Manager (GRUB)"
-
-msgid "Original"
-msgstr "Original"
-
-msgid "Pesquisar arquivos"
-msgstr "Søg i arkiverne"
-
-msgid "Remover propagandas"
-msgstr "Fjern reklamer"
-
-msgid "Renderizar o desktop via software"
-msgstr "Gengivelse af skrivebordet via software"
-
-msgid "Restaurar"
-msgstr "Gendan"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Inverteret musebladsering"
-
-msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
-msgstr "Hvis du bruger en browser, skal du lukke den og åbne den igen!"
-
-msgid "Sim"
-msgstr "Ja"
-
-msgid "Suportar criptomoedas"
-msgstr "Understøttelse af kryptovalutaer"
-
-msgid "Tema aplicado"
-msgstr "Anvendt tema"
-
-msgid "Tema dos aplicativos"
-msgstr "Ansøgningstema"
-
-msgid "Temas"
-msgstr "Temaer"
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Temaer, skrivebord og indstillinger"
-
-msgid "Usabilidade"
-msgstr "Brugervenlighed"
-
-msgid ""
-"Utilizando renderização por software, a qualidade das transparências está "
-"reduzida."
-msgstr "Ved brug af softwarerensning reduceres kvaliteten af transparenter."
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
-"utilizar a configuração original?"
-msgstr ""
-"Har du brugt dette skrivebord før, og vil du gendanne tilpasningen eller "
-"bruge den oprindelige konfiguration?"
-
-msgid ""
-"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
-"agora?"
-msgstr ""
-"Du skal være logget ind igen for at fuldføre konfigurationen. Vil du gøre "
-"det nu?"
-
-#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
-#~ msgstr "(Kan være nyttig på virtuelle maskiner eller gamle computere)"
-
-#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
-#~ msgstr "<b>Classic</b> og <b>New</b> har bedre ydeevne."

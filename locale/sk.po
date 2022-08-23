@@ -2,20 +2,173 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 06:12-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Témy, pracovná plocha a nastavenia"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ak používate prehliadač, reštartujte ho, aby ste použili zmeny."
+
+msgid "Aplicando, aguarde..."
+msgstr "Aplikácia, počkajte..."
+
+msgid "Concluído!"
+msgstr "Robené!"
+
+msgid "Temas"
+msgstr "Témy"
+
+msgid "Desktop"
+msgstr "Stolný počítač"
+
+msgid "Ajustes"
+msgstr "Nastavenia"
+
+msgid "Desempenho do desktop"
+msgstr "Výkon stolových počítačov"
+
+msgid "Desempenho"
+msgstr "Výkon"
+
+msgid "Aceleração do navegador"
+msgstr "Zrýchlenie prehliadača"
+
+msgid "Usabilidade"
+msgstr "Použiteľnosť"
+
+msgid "Tema dos aplicativos"
+msgstr "Téma aplikácie"
+
+msgid "Abrir"
+msgstr "Otvorený"
+
+msgid "Fechar"
+msgstr "Zatvoriť"
+
+msgid "Bordas arredondadas."
+msgstr "Zaoblené hrany."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Táto téma obsahuje priehľadné obrázky s efektmi, ktoré môžu spomaliť<br>systém na starých "
+"počítačoch<br>alebo vo virtualizovaných prostrediach."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "Najlepšie sa osvedčili <b>klasické</b>, <b>nové</b> a <b>moderné</b>."
+
+msgid "Renderizar o desktop via software"
+msgstr "Vykresľovanie pracovnej plochy pomocou softvéru"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Môže to byť užitočné na starších počítačoch, ale niektoré programy prestanú fungovať)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Výber programov, ktoré sa majú načítať do pamäte pri štarte systému"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Predbežné načítanie načíta súbory programu do pamäte, aby sa rýchlo spustili. Nadmerné používanie "
+"spôsobuje spomalenie. Vyberte požadovanú možnosť:"
+
+msgid "Automático"
+msgstr "Automatické"
+
+msgid "Ativar"
+msgstr "Aktivácia stránky"
+
+msgid "Desativar"
+msgstr "Deaktivácia stránky"
+
+msgid "Configurações do Brave"
+msgstr "Odvážne konfigurácie"
+
+msgid "Escolha a opção desejada:"
+msgstr "Vyberte požadovanú možnosť:"
+
+msgid "Remover propagandas"
+msgstr "Odstránenie reklám"
+
+msgid "Suportar criptomoedas"
+msgstr "Podpora kryptomien"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Tlačidlá okna na ľavej strane"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Invertované posúvanie myšou"
+
+msgid "Pesquisar arquivos"
+msgstr "Vyhľadávanie v archívoch"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Uzamknutie pracovnej plochy"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Skrytie správcu zavádzania systému (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Povolenie funkcie NumLock pri spustení systému"
+
+msgid "Tema aplicado"
+msgstr "Použitá téma"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
+msgstr "Na dokončenie konfigurácie musíte byť znova prihlásení. Chcete to urobiť hneď?"
+
+msgid "Configuração do Desktop"
+msgstr "Konfigurácia pracovnej plochy"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Používali ste túto plochu už predtým, chcete obnoviť jej prispôsobenie alebo použiť pôvodnú "
+"konfiguráciu?"
+
+msgid "Sim"
+msgstr "Áno"
+
+msgid "Não"
+msgstr "Nie"
+
+msgid "Original"
+msgstr "Originál"
+
+msgid "Restaurar"
+msgstr "Obnovenie"
+
+msgid "Desktop aplicado"
+msgstr "Aplikovaná pracovná plocha"
+
+msgid "Modo performance"
+msgstr "Režim výkonu"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Pri softvérovom vykresľovaní sa znižuje kvalita priehľadov."
+
+msgid "Desempenho em modo performance!"
+msgstr "Výkon v režime výkonu!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Výkon v rozšírenom režime!"
 
 msgid ""
 "\n"
@@ -30,40 +183,6 @@ msgstr ""
 "\n"
 "Ak chcete použiť predvolenú konfiguráciu systému, vyberte možnosť nie.\n"
 
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "Najlepšie sa osvedčili <b>klasické</b>, <b>nové</b> a <b>moderné</b>."
-
-msgid "Aceleração do navegador"
-msgstr "Zrýchlenie prehliadača"
-
-msgid "Ajustes"
-msgstr "Nastavenia"
-
-msgid "Ativar"
-msgstr "Aktivácia stránky"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Povolenie funkcie NumLock pri spustení systému"
-
-msgid "Automático"
-msgstr "Automatické"
-
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Uzamknutie pracovnej plochy"
-
-msgid "Bordas arredondadas."
-msgstr "Zaoblené hrany."
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Tlačidlá okna na ľavej strane"
-
-msgid ""
-"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
-"que a nova configuração seja aplicada."
-msgstr ""
-"Ak používate prehliadač, reštartujte ho, aby sa nová konfigurácia použila."
-
 msgid ""
 "Configuração aplicada!\n"
 "\n"
@@ -77,128 +196,5 @@ msgstr ""
 "na dokončenie konfigurácie\n"
 "použité."
 
-msgid "Configuração do Desktop"
-msgstr "Konfigurácia pracovnej plochy"
-
-msgid "Configurações do Brave"
-msgstr "Odvážne konfigurácie"
-
-msgid "Desativar"
-msgstr "Deaktivácia stránky"
-
-msgid "Desempenho do desktop"
-msgstr "Výkon stolových počítačov"
-
 msgid "Desempenho em modo normal!"
 msgstr "Výkon v normálnom režime!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Výkon v rozšírenom režime!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Výkon v režime výkonu!"
-
-msgid "Desktop"
-msgstr "Stolný počítač"
-
-msgid "Desktop aplicado"
-msgstr "Aplikovaná pracovná plocha"
-
-msgid "Escolha a opção desejada:"
-msgstr "Vyberte požadovanú možnosť:"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Výber programov, ktoré sa majú načítať do pamäte pri štarte systému"
-
-msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
-"lento em computadores<br>antigos ou ambientes virtualizados."
-msgstr ""
-"Táto téma obsahuje priehľadné obrázky s efektmi, ktoré môžu "
-"spomaliť<br>systém na starých počítačoch<br>alebo vo virtualizovaných "
-"prostrediach."
-
-msgid "Fechar"
-msgstr "Zatvoriť"
-
-msgid "Não"
-msgstr "Nie"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem "
-"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Predbežné načítanie načíta súbory programu do pamäte, aby sa rýchlo "
-"spustili. Nadmerné používanie spôsobuje spomalenie. Vyberte požadovanú "
-"možnosť:"
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Skrytie správcu zavádzania systému (GRUB)"
-
-msgid "Original"
-msgstr "Originál"
-
-msgid "Pesquisar arquivos"
-msgstr "Vyhľadávanie v archívoch"
-
-msgid "Remover propagandas"
-msgstr "Odstránenie reklám"
-
-msgid "Renderizar o desktop via software"
-msgstr "Vykresľovanie pracovnej plochy pomocou softvéru"
-
-msgid "Restaurar"
-msgstr "Obnovenie"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Invertované posúvanie myšou"
-
-msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
-msgstr "Ak používate prehliadač, zatvorte ho a znova otvorte!"
-
-msgid "Sim"
-msgstr "Áno"
-
-msgid "Suportar criptomoedas"
-msgstr "Podpora kryptomien"
-
-msgid "Tema aplicado"
-msgstr "Použitá téma"
-
-msgid "Tema dos aplicativos"
-msgstr "Téma aplikácie"
-
-msgid "Temas"
-msgstr "Témy"
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Témy, pracovná plocha a nastavenia"
-
-msgid "Usabilidade"
-msgstr "Použiteľnosť"
-
-msgid ""
-"Utilizando renderização por software, a qualidade das transparências está "
-"reduzida."
-msgstr "Pri softvérovom vykresľovaní sa znižuje kvalita priehľadov."
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
-"utilizar a configuração original?"
-msgstr ""
-"Používali ste túto plochu už predtým, chcete obnoviť jej prispôsobenie alebo "
-"použiť pôvodnú konfiguráciu?"
-
-msgid ""
-"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
-"agora?"
-msgstr ""
-"Na dokončenie konfigurácie musíte byť znova prihlásení. Chcete to urobiť "
-"hneď?"
-
-#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
-#~ msgstr ""
-#~ "(Môže byť užitočné na virtuálnom počítači alebo na starých počítačoch)"
-
-#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
-#~ msgstr "<b>Klasické</b> a <b>nové</b> majú lepší výkon."

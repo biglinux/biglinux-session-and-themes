@@ -2,20 +2,167 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 06:12-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "テーマ、デスクトップ、設定"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "ブラウザーを使用している場合は、ブラウザーを再始動して変更を適用します。"
+
+msgid "Aplicando, aguarde..."
+msgstr "適用中、待機中..."
+
+msgid "Concluído!"
+msgstr "完成です！"
+
+msgid "Temas"
+msgstr "テーマ"
+
+msgid "Desktop"
+msgstr "デスクトップ"
+
+msgid "Ajustes"
+msgstr "設定"
+
+msgid "Desempenho do desktop"
+msgstr "デスクトップパフォーマンス"
+
+msgid "Desempenho"
+msgstr "パフォーマンス"
+
+msgid "Aceleração do navegador"
+msgstr "ブラウザーアクセラレーション"
+
+msgid "Usabilidade"
+msgstr "ユーザビリティ"
+
+msgid "Tema dos aplicativos"
+msgstr "アプリケーションテーマ"
+
+msgid "Abrir"
+msgstr "開ける"
+
+msgid "Fechar"
+msgstr "閉じる"
+
+msgid "Bordas arredondadas."
+msgstr "エッジを丸くした。"
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr "このテーマには、<br>\">古いコンピューターや仮想化環境でシステムの速度を低下させる可能性のある<br>効果のある透明度があります。"
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>クラシック</b>、<b>ニュー</b>、<b>モダンの</b>3つがベストパフォーマンスです。"
+
+msgid "Renderizar o desktop via software"
+msgstr "ソフトウェアによるデスクトップのレンダリング"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(古いコンピュータでは便利かもしれませんが、一部のプログラムは動作を停止します)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "起動時にメモリに読み込むプログラムを選択する"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr "プリロードは、プログラムファイルをメモリにロードし、素早く起動できるようにします。過剰に使用すると、動作が遅くなる。希望するオプションを選択します。"
+
+msgid "Automático"
+msgstr "自動"
+
+msgid "Ativar"
+msgstr "アクティベート"
+
+msgid "Desativar"
+msgstr "非アクティブ化"
+
+msgid "Configurações do Brave"
+msgstr "ブレイブコンフィギュレーション"
+
+msgid "Escolha a opção desejada:"
+msgstr "希望するオプションを選択します。"
+
+msgid "Remover propagandas"
+msgstr "広告を削除する"
+
+msgid "Suportar criptomoedas"
+msgstr "暗号通貨への対応"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "左側にあるウィンドウのボタン"
+
+msgid "Rolagem do mouse invertida"
+msgstr "マウスのスクロールが反転する"
+
+msgid "Pesquisar arquivos"
+msgstr "アーカイブを検索する"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "デスクトップをロックする"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "ブートマネージャ（GRUB）の非表示"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "システム起動時にNumLockを有効にする"
+
+msgid "Tema aplicado"
+msgstr "適用テーマ"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
+msgstr "設定を完了するには、再度ログインする必要があります。今すぐやりたい？"
+
+msgid "Configuração do Desktop"
+msgstr "デスクトップ構成"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr "このデスクトップを以前に使用したことがあり、そのカスタマイズを復元したいのか、それとも元の設定を使用したいのか？"
+
+msgid "Sim"
+msgstr "はい"
+
+msgid "Não"
+msgstr "いいえ"
+
+msgid "Original"
+msgstr "オリジナル"
+
+msgid "Restaurar"
+msgstr "リストア"
+
+msgid "Desktop aplicado"
+msgstr "デスクトップ適用"
+
+msgid "Modo performance"
+msgstr "パフォーマンスモード"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "ソフトウェアレンダリングを使用すると、透明度の高い画質が低下します。"
+
+msgid "Desempenho em modo performance!"
+msgstr "パフォーマンスモードでのパフォーマンス!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "エンハンスドモードでのパフォーマンス!"
 
 msgid ""
 "\n"
@@ -30,43 +177,6 @@ msgstr ""
 "\n"
 "デフォルトのシステム構成を使用する場合は、no を選択します。\n"
 
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr ""
-"<b>クラシック</b>、<b>ニュー</b>、<b>モダンの</b>3つがベストパフォーマンスで"
-"す。"
-
-msgid "Aceleração do navegador"
-msgstr "ブラウザーアクセラレーション"
-
-msgid "Ajustes"
-msgstr "設定"
-
-msgid "Ativar"
-msgstr "アクティベート"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "システム起動時にNumLockを有効にする"
-
-msgid "Automático"
-msgstr "自動"
-
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "デスクトップをロックする"
-
-msgid "Bordas arredondadas."
-msgstr "エッジを丸くした。"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "左側にあるウィンドウのボタン"
-
-msgid ""
-"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
-"que a nova configuração seja aplicada."
-msgstr ""
-"コンフィギュレーションが変更されました。新しいコンフィギュレーションを適用す"
-"るために、ブラウザを使用している場合は、ブラウザを再起動してください。"
-
 msgid ""
 "Configuração aplicada!\n"
 "\n"
@@ -80,123 +190,5 @@ msgstr ""
 "コンフィギュレーションが終了するまでの間\n"
 "を適用しました。"
 
-msgid "Configuração do Desktop"
-msgstr "デスクトップ構成"
-
-msgid "Configurações do Brave"
-msgstr "ブレイブコンフィギュレーション"
-
-msgid "Desativar"
-msgstr "非アクティブ化"
-
-msgid "Desempenho do desktop"
-msgstr "デスクトップパフォーマンス"
-
 msgid "Desempenho em modo normal!"
 msgstr "ノーマルモードでのパフォーマンス!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "エンハンスドモードでのパフォーマンス!"
-
-msgid "Desempenho em modo performance!"
-msgstr "パフォーマンスモードでのパフォーマンス!"
-
-msgid "Desktop"
-msgstr "デスクトップ"
-
-msgid "Desktop aplicado"
-msgstr "デスクトップ適用"
-
-msgid "Escolha a opção desejada:"
-msgstr "希望するオプションを選択します。"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "起動時にメモリに読み込むプログラムを選択する"
-
-msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
-"lento em computadores<br>antigos ou ambientes virtualizados."
-msgstr ""
-"このテーマには、<br>\">古いコンピューターや仮想化環境でシステムの速度を低下さ"
-"せる可能性のある<br>効果のある透明度があります。"
-
-msgid "Fechar"
-msgstr "閉じる"
-
-msgid "Não"
-msgstr "いいえ"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem "
-"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"プリロードは、プログラムファイルをメモリにロードし、素早く起動できるようにし"
-"ます。過剰に使用すると、動作が遅くなる。希望するオプションを選択します。"
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "ブートマネージャ（GRUB）の非表示"
-
-msgid "Original"
-msgstr "オリジナル"
-
-msgid "Pesquisar arquivos"
-msgstr "アーカイブを検索する"
-
-msgid "Remover propagandas"
-msgstr "広告を削除する"
-
-msgid "Renderizar o desktop via software"
-msgstr "ソフトウェアによるデスクトップのレンダリング"
-
-msgid "Restaurar"
-msgstr "リストア"
-
-msgid "Rolagem do mouse invertida"
-msgstr "マウスのスクロールが反転する"
-
-msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
-msgstr "ブラウザをお使いの方は、一度閉じてからもう一度開いてみてください"
-
-msgid "Sim"
-msgstr "はい"
-
-msgid "Suportar criptomoedas"
-msgstr "暗号通貨への対応"
-
-msgid "Tema aplicado"
-msgstr "適用テーマ"
-
-msgid "Tema dos aplicativos"
-msgstr "アプリケーションテーマ"
-
-msgid "Temas"
-msgstr "テーマ"
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "テーマ、デスクトップ、設定"
-
-msgid "Usabilidade"
-msgstr "ユーザビリティ"
-
-msgid ""
-"Utilizando renderização por software, a qualidade das transparências está "
-"reduzida."
-msgstr "ソフトウェアレンダリングを使用すると、透明度の高い画質が低下します。"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
-"utilizar a configuração original?"
-msgstr ""
-"このデスクトップを以前に使用したことがあり、そのカスタマイズを復元したいの"
-"か、それとも元の設定を使用したいのか？"
-
-msgid ""
-"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
-"agora?"
-msgstr "設定を完了するには、再度ログインする必要があります。今すぐやりたい？"
-
-#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
-#~ msgstr "(仮想マシンや古いコンピュータで有効です)"
-
-#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
-#~ msgstr "<b>Classicと</b> <b>Newは</b>性能が向上しています。"

@@ -2,20 +2,167 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 06:12-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "ערכות נושא, שולחן עבודה והתאמות"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "אם אתה משתמש בדפדפן, הפעל אותו מחדש כדי להחיל את השינויים."
+
+msgid "Aplicando, aguarde..."
+msgstr "הגשת מועמדות, חכה..."
+
+msgid "Concluído!"
+msgstr "לעשות!"
+
+msgid "Temas"
+msgstr "נושאים"
+
+msgid "Desktop"
+msgstr "שולחן עבודה"
+
+msgid "Ajustes"
+msgstr "tweaks"
+
+msgid "Desempenho do desktop"
+msgstr "ביצועי מחשב שולחני"
+
+msgid "Desempenho"
+msgstr "ביצועים"
+
+msgid "Aceleração do navegador"
+msgstr "האצת דפדפן"
+
+msgid "Usabilidade"
+msgstr "שמישות"
+
+msgid "Tema dos aplicativos"
+msgstr "נושא אפליקציות"
+
+msgid "Abrir"
+msgstr "פתוח"
+
+msgid "Fechar"
+msgstr "סגור"
+
+msgid "Bordas arredondadas."
+msgstr "קצוות מעוגלים."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr "לנושא זה שקפים עם אפקטים <br>שיכולים להאט את המערכת <br>במחשבים ישנים או בסביבות וירטואליות."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>קלאסי</b>,<b>חדש</b><b>ומודרני</b>ביצועים טובים יותר."
+
+msgid "Renderizar o desktop via software"
+msgstr "לעבד את שולחן העבודה באמצעות תוכנה"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(זה עשוי להיות שימושי במחשבים ישנים יותר, אבל תוכניות מסוימות מפסיקות לעבוד)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "בחר תוכניות לטעינה לזיכרון במהלך האתחול"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr "טען מראש טוען קבצי תוכנית לזיכרון כך שהם יתחילו במהירות. שימוש יתר גורם לאיטיות. בחר באפשרות הרצויה:"
+
+msgid "Automático"
+msgstr "אוטומטי"
+
+msgid "Ativar"
+msgstr "הפעל"
+
+msgid "Desativar"
+msgstr "בטל הפעלה"
+
+msgid "Configurações do Brave"
+msgstr "הגדרות אמיצות"
+
+msgid "Escolha a opção desejada:"
+msgstr "בחר באפשרות הרצויה:"
+
+msgid "Remover propagandas"
+msgstr "הסרת מודעות"
+
+msgid "Suportar criptomoedas"
+msgstr "תמיכה בקריפטו"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "לחצני חלון בצד שמאל"
+
+msgid "Rolagem do mouse invertida"
+msgstr "גלילת עכבר הפוכה"
+
+msgid "Pesquisar arquivos"
+msgstr "חפש קבצים"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "נעל את שולחן העבודה"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "הסתר את מנהל האתחול (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "הפעל את NumLock בעת הפעלת המערכת"
+
+msgid "Tema aplicado"
+msgstr "נושא יישומי"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
+msgstr "עליך להפעיל מחדש את ההפעלה כדי להשלים את ההתקנה. רוצה לעשות את זה עכשיו?"
+
+msgid "Configuração do Desktop"
+msgstr "הגדרת שולחן עבודה"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr "האם השתמשת בשולחן העבודה הזה בעבר, האם ברצונך לשחזר את ההתאמה האישית שלו או להשתמש בתצורה המקורית?"
+
+msgid "Sim"
+msgstr "הן"
+
+msgid "Não"
+msgstr "לא"
+
+msgid "Original"
+msgstr "מקורי"
+
+msgid "Restaurar"
+msgstr "שחזור"
+
+msgid "Desktop aplicado"
+msgstr "שולחן עבודה יישומי"
+
+msgid "Modo performance"
+msgstr "מצב ביצועים"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "על ידי שימוש בעיבוד תוכנה, איכות השקפים מופחתת."
+
+msgid "Desempenho em modo performance!"
+msgstr "ביצועים במצב ביצועים!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "ביצועים במצב מותאם!"
 
 msgid ""
 "\n"
@@ -30,40 +177,6 @@ msgstr ""
 "\n"
 "בחר לא כדי להשתמש בהגדרת ברירת המחדל של המערכת.\n"
 
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>קלאסי</b>,<b>חדש</b><b>ומודרני</b>ביצועים טובים יותר."
-
-msgid "Aceleração do navegador"
-msgstr "האצת דפדפן"
-
-msgid "Ajustes"
-msgstr "tweaks"
-
-msgid "Ativar"
-msgstr "הפעל"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "הפעל את NumLock בעת הפעלת המערכת"
-
-msgid "Automático"
-msgstr "אוטומטי"
-
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "נעל את שולחן העבודה"
-
-msgid "Bordas arredondadas."
-msgstr "קצוות מעוגלים."
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "לחצני חלון בצד שמאל"
-
-msgid ""
-"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
-"que a nova configuração seja aplicada."
-msgstr ""
-"התצורה השתנתה, אם אתה משתמש בדפדפן, הפעל אותו מחדש כדי להחיל את ההגדרה החדשה."
-
 msgid ""
 "Configuração aplicada!\n"
 "\n"
@@ -77,124 +190,5 @@ msgstr ""
 "עבור התצורה כדי לסיים\n"
 "להיות מיושם."
 
-msgid "Configuração do Desktop"
-msgstr "הגדרת שולחן עבודה"
-
-msgid "Configurações do Brave"
-msgstr "הגדרות אמיצות"
-
-msgid "Desativar"
-msgstr "בטל הפעלה"
-
-msgid "Desempenho do desktop"
-msgstr "ביצועי מחשב שולחני"
-
 msgid "Desempenho em modo normal!"
 msgstr "ביצועים במצב רגיל!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "ביצועים במצב מותאם!"
-
-msgid "Desempenho em modo performance!"
-msgstr "ביצועים במצב ביצועים!"
-
-msgid "Desktop"
-msgstr "שולחן עבודה"
-
-msgid "Desktop aplicado"
-msgstr "שולחן עבודה יישומי"
-
-msgid "Escolha a opção desejada:"
-msgstr "בחר באפשרות הרצויה:"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "בחר תוכניות לטעינה לזיכרון במהלך האתחול"
-
-msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
-"lento em computadores<br>antigos ou ambientes virtualizados."
-msgstr ""
-"לנושא זה שקפים עם אפקטים <br>שיכולים להאט את המערכת <br>במחשבים ישנים או "
-"בסביבות וירטואליות."
-
-msgid "Fechar"
-msgstr "סגור"
-
-msgid "Não"
-msgstr "לא"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem "
-"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"טען מראש טוען קבצי תוכנית לזיכרון כך שהם יתחילו במהירות. שימוש יתר גורם "
-"לאיטיות. בחר באפשרות הרצויה:"
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "הסתר את מנהל האתחול (GRUB)"
-
-msgid "Original"
-msgstr "מקורי"
-
-msgid "Pesquisar arquivos"
-msgstr "חפש קבצים"
-
-msgid "Remover propagandas"
-msgstr "הסרת מודעות"
-
-msgid "Renderizar o desktop via software"
-msgstr "לעבד את שולחן העבודה באמצעות תוכנה"
-
-msgid "Restaurar"
-msgstr "שחזור"
-
-msgid "Rolagem do mouse invertida"
-msgstr "גלילת עכבר הפוכה"
-
-msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
-msgstr "אם אתה משתמש בדפדפן, סגור אותו ופתח אותו שוב!"
-
-msgid "Sim"
-msgstr "הן"
-
-msgid "Suportar criptomoedas"
-msgstr "תמיכה בקריפטו"
-
-msgid "Tema aplicado"
-msgstr "נושא יישומי"
-
-msgid "Tema dos aplicativos"
-msgstr "נושא אפליקציות"
-
-msgid "Temas"
-msgstr "נושאים"
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "ערכות נושא, שולחן עבודה והתאמות"
-
-msgid "Usabilidade"
-msgstr "שמישות"
-
-msgid ""
-"Utilizando renderização por software, a qualidade das transparências está "
-"reduzida."
-msgstr "על ידי שימוש בעיבוד תוכנה, איכות השקפים מופחתת."
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
-"utilizar a configuração original?"
-msgstr ""
-"האם השתמשת בשולחן העבודה הזה בעבר, האם ברצונך לשחזר את ההתאמה האישית שלו או "
-"להשתמש בתצורה המקורית?"
-
-msgid ""
-"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
-"agora?"
-msgstr ""
-"עליך להפעיל מחדש את ההפעלה כדי להשלים את ההתקנה. רוצה לעשות את זה עכשיו?"
-
-#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
-#~ msgstr "(עשוי להיות שימושי במחשבים וירטואליים או במחשבים ישנים)"
-
-#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
-#~ msgstr "<b>קלאסי</b> <b>חדש</b> ביצועים טובים יותר."

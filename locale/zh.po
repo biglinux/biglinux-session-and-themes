@@ -2,20 +2,167 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 06:12-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "主题、桌面和设置"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "如果您使用的是浏览器，请重新启动它以应用更改。"
+
+msgid "Aplicando, aguarde..."
+msgstr "正在申请，等待..."
+
+msgid "Concluído!"
+msgstr "做！"
+
+msgid "Temas"
+msgstr "主题"
+
+msgid "Desktop"
+msgstr "桌面"
+
+msgid "Ajustes"
+msgstr "设置"
+
+msgid "Desempenho do desktop"
+msgstr "桌面性能"
+
+msgid "Desempenho"
+msgstr "性能"
+
+msgid "Aceleração do navegador"
+msgstr "浏览器加速"
+
+msgid "Usabilidade"
+msgstr "可用性"
+
+msgid "Tema dos aplicativos"
+msgstr "应用主题"
+
+msgid "Abrir"
+msgstr "打开"
+
+msgid "Fechar"
+msgstr "关闭"
+
+msgid "Bordas arredondadas."
+msgstr "圆形的边缘。"
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr "此主題具有透明效果，<br>可能會降低舊<br>計算機或虛擬化環境中的系統速度。"
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>经典</b>的、<b>新的</b>和<b>现代</b>的表现最好。"
+
+msgid "Renderizar o desktop via software"
+msgstr "通过软件渲染桌面"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "（它可能在较旧的计算机上有用，但某些程序停止工作）"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "选择在启动时加载到内存中的程序"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr "预加载将程序文件加载到内存中，以便它们快速启动。过度使用会导致速度减慢。选择所需的选项。"
+
+msgid "Automático"
+msgstr "自动的"
+
+msgid "Ativar"
+msgstr "激活"
+
+msgid "Desativar"
+msgstr "停用"
+
+msgid "Configurações do Brave"
+msgstr "勇敢的配置"
+
+msgid "Escolha a opção desejada:"
+msgstr "选择所需的选项。"
+
+msgid "Remover propagandas"
+msgstr "删除广告"
+
+msgid "Suportar criptomoedas"
+msgstr "支持加密货币"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "左手边的窗口按钮"
+
+msgid "Rolagem do mouse invertida"
+msgstr "颠倒的鼠标滚动"
+
+msgid "Pesquisar arquivos"
+msgstr "搜索档案"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "锁定桌面"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "隐藏启动管理器（GRUB）"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "在系统启动时启用NumLock"
+
+msgid "Tema aplicado"
+msgstr "应用的主题"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
+msgstr "你必须再次登录才能完成配置。现在想做吗？"
+
+msgid "Configuração do Desktop"
+msgstr "桌面配置"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr "你以前是否使用过这个桌面，你想恢复它的定制还是使用原始配置？"
+
+msgid "Sim"
+msgstr "是"
+
+msgid "Não"
+msgstr "没有"
+
+msgid "Original"
+msgstr "原创"
+
+msgid "Restaurar"
+msgstr "恢复"
+
+msgid "Desktop aplicado"
+msgstr "应用的桌面"
+
+msgid "Modo performance"
+msgstr "性能模式"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "使用软件渲染，透明胶片的质量会降低。"
+
+msgid "Desempenho em modo performance!"
+msgstr "性能模式下的表现!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "增强模式下的性能!"
 
 msgid ""
 "\n"
@@ -30,39 +177,6 @@ msgstr ""
 "\n"
 "选择 \"否\"，使用默认的系统配置。\n"
 
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>经典</b>的、<b>新的</b>和<b>现代</b>的表现最好。"
-
-msgid "Aceleração do navegador"
-msgstr "浏览器加速"
-
-msgid "Ajustes"
-msgstr "设置"
-
-msgid "Ativar"
-msgstr "激活"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "在系统启动时启用NumLock"
-
-msgid "Automático"
-msgstr "自动的"
-
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "锁定桌面"
-
-msgid "Bordas arredondadas."
-msgstr "圆形的边缘。"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "左手边的窗口按钮"
-
-msgid ""
-"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
-"que a nova configuração seja aplicada."
-msgstr "配置改变了，如果你正在使用浏览器，请重新启动它以应用新的配置。"
-
 msgid ""
 "Configuração aplicada!\n"
 "\n"
@@ -76,120 +190,5 @@ msgstr ""
 "以使配置完成\n"
 "适用。"
 
-msgid "Configuração do Desktop"
-msgstr "桌面配置"
-
-msgid "Configurações do Brave"
-msgstr "勇敢的配置"
-
-msgid "Desativar"
-msgstr "停用"
-
-msgid "Desempenho do desktop"
-msgstr "桌面性能"
-
 msgid "Desempenho em modo normal!"
 msgstr "正常模式下的表现!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "增强模式下的性能!"
-
-msgid "Desempenho em modo performance!"
-msgstr "性能模式下的表现!"
-
-msgid "Desktop"
-msgstr "桌面"
-
-msgid "Desktop aplicado"
-msgstr "应用的桌面"
-
-msgid "Escolha a opção desejada:"
-msgstr "选择所需的选项。"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "选择在启动时加载到内存中的程序"
-
-msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
-"lento em computadores<br>antigos ou ambientes virtualizados."
-msgstr ""
-"此主題具有透明效果，<br>可能會降低舊<br>計算機或虛擬化環境中的系統速度。"
-
-msgid "Fechar"
-msgstr "关闭"
-
-msgid "Não"
-msgstr "没有"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem "
-"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"预加载将程序文件加载到内存中，以便它们快速启动。过度使用会导致速度减慢。选择"
-"所需的选项。"
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "隐藏启动管理器（GRUB）"
-
-msgid "Original"
-msgstr "原创"
-
-msgid "Pesquisar arquivos"
-msgstr "搜索档案"
-
-msgid "Remover propagandas"
-msgstr "删除广告"
-
-msgid "Renderizar o desktop via software"
-msgstr "通过软件渲染桌面"
-
-msgid "Restaurar"
-msgstr "恢复"
-
-msgid "Rolagem do mouse invertida"
-msgstr "颠倒的鼠标滚动"
-
-msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
-msgstr "如果你使用的是浏览器，请关闭它，然后再打开它!"
-
-msgid "Sim"
-msgstr "是"
-
-msgid "Suportar criptomoedas"
-msgstr "支持加密货币"
-
-msgid "Tema aplicado"
-msgstr "应用的主题"
-
-msgid "Tema dos aplicativos"
-msgstr "应用主题"
-
-msgid "Temas"
-msgstr "主题"
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "主题、桌面和设置"
-
-msgid "Usabilidade"
-msgstr "可用性"
-
-msgid ""
-"Utilizando renderização por software, a qualidade das transparências está "
-"reduzida."
-msgstr "使用软件渲染，透明胶片的质量会降低。"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
-"utilizar a configuração original?"
-msgstr "你以前是否使用过这个桌面，你想恢复它的定制还是使用原始配置？"
-
-msgid ""
-"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
-"agora?"
-msgstr "你必须再次登录才能完成配置。现在想做吗？"
-
-#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
-#~ msgstr "(在虚拟机或旧电脑上可能有用)"
-
-#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
-#~ msgstr "<b>经典</b>和<b>新版</b>有更好的性能。"

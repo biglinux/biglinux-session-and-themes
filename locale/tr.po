@@ -2,20 +2,173 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 06:12-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Temalar, Masaüstü ve Ayarlar"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Tarayıcı kullanıyorsanız, değişiklikleri uygulamak için tarayıcıyı yeniden başlatın."
+
+msgid "Aplicando, aguarde..."
+msgstr "Başvuru, bekle..."
+
+msgid "Concluído!"
+msgstr "Yapılmış!"
+
+msgid "Temas"
+msgstr "Temalar"
+
+msgid "Desktop"
+msgstr "Masaüstü"
+
+msgid "Ajustes"
+msgstr "Ayarlar"
+
+msgid "Desempenho do desktop"
+msgstr "Masaüstü performansı"
+
+msgid "Desempenho"
+msgstr "Performans"
+
+msgid "Aceleração do navegador"
+msgstr "Tarayıcı hızlandırma"
+
+msgid "Usabilidade"
+msgstr "Kullanılabilirlik"
+
+msgid "Tema dos aplicativos"
+msgstr "Uygulama teması"
+
+msgid "Abrir"
+msgstr "Açık"
+
+msgid "Fechar"
+msgstr "Kapat"
+
+msgid "Bordas arredondadas."
+msgstr "Yuvarlatılmış kenarlar."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Bu tema, eski bilgisayarlarda<br>veya sanallaştırılmış ortamlarda sistemi <br>yavaşlatabilecek "
+"efektler içeren saydamlara sahiptir. "
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klasik</b>, <b>Yeni</b> ve <b>Modern</b> en iyi performansı gösterir."
+
+msgid "Renderizar o desktop via software"
+msgstr "Masaüstünü yazılım aracılığıyla oluşturma"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Eski bilgisayarlarda yararlı olabilir, ancak bazı programlar çalışmayı durdurur)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Önyükleme sırasında belleğe yüklenecek programları seçin"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Ön yükleme, program dosyalarını belleğe yükler, böylece hızlı bir şekilde başlarlar. Aşırı kullanım "
+"yavaşlamalara neden olur. İstediğiniz seçeneği seçin:"
+
+msgid "Automático"
+msgstr "Otomatik"
+
+msgid "Ativar"
+msgstr "Etkinleştir"
+
+msgid "Desativar"
+msgstr "Devre dışı bırak"
+
+msgid "Configurações do Brave"
+msgstr "Cesur konfigürasyonlar"
+
+msgid "Escolha a opção desejada:"
+msgstr "İstediğiniz seçeneği seçin:"
+
+msgid "Remover propagandas"
+msgstr "Reklamları kaldırın"
+
+msgid "Suportar criptomoedas"
+msgstr "Kripto para birimlerini destekleme"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Sol taraftaki pencere düğmeleri"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Ters çevrilmiş fare kaydırma"
+
+msgid "Pesquisar arquivos"
+msgstr "Arama arşivleri"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Masaüstünü kilitleme"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Önyükleme Yöneticisini Gizle (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Sistem başlangıcında NumLock'u etkinleştirme"
+
+msgid "Tema aplicado"
+msgstr "Uygulanan tema"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
+msgstr "Yapılandırmayı tamamlamak için tekrar oturum açmanız gerekir. Şimdi yapmak ister misin?"
+
+msgid "Configuração do Desktop"
+msgstr "Masaüstü Yapılandırması"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Bu masaüstünü daha önce kullandınız mı, özelleştirmesini geri yüklemek mi yoksa orijinal "
+"yapılandırmayı kullanmak mı istiyorsunuz?"
+
+msgid "Sim"
+msgstr "Evet"
+
+msgid "Não"
+msgstr "Hayır"
+
+msgid "Original"
+msgstr "Orijinal"
+
+msgid "Restaurar"
+msgstr "Geri Yükleme"
+
+msgid "Desktop aplicado"
+msgstr "Masaüstü uygulandı"
+
+msgid "Modo performance"
+msgstr "Performans modu"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Yazılım oluşturma kullanılarak asetatların kalitesi düşürülür."
+
+msgid "Desempenho em modo performance!"
+msgstr "Performans modunda performans!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Gelişmiş modda performans!"
 
 msgid ""
 "\n"
@@ -30,42 +183,6 @@ msgstr ""
 "\n"
 "Varsayılan sistem yapılandırmasını kullanmak için hayır öğesini seçin.\n"
 
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr ""
-"<b>Klasik</b>, <b>Yeni</b> ve <b>Modern</b> en iyi performansı gösterir."
-
-msgid "Aceleração do navegador"
-msgstr "Tarayıcı hızlandırma"
-
-msgid "Ajustes"
-msgstr "Ayarlar"
-
-msgid "Ativar"
-msgstr "Etkinleştir"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Sistem başlangıcında NumLock'u etkinleştirme"
-
-msgid "Automático"
-msgstr "Otomatik"
-
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Masaüstünü kilitleme"
-
-msgid "Bordas arredondadas."
-msgstr "Yuvarlatılmış kenarlar."
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Sol taraftaki pencere düğmeleri"
-
-msgid ""
-"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
-"que a nova configuração seja aplicada."
-msgstr ""
-"Yapılandırma değişti, tarayıcıyı kullanıyorsanız yeni yapılandırmanın "
-"uygulanması için yeniden başlatın."
-
 msgid ""
 "Configuração aplicada!\n"
 "\n"
@@ -79,126 +196,5 @@ msgstr ""
 "yapılandırmanın bitmesi için\n"
 "uygulandı."
 
-msgid "Configuração do Desktop"
-msgstr "Masaüstü Yapılandırması"
-
-msgid "Configurações do Brave"
-msgstr "Cesur konfigürasyonlar"
-
-msgid "Desativar"
-msgstr "Devre dışı bırak"
-
-msgid "Desempenho do desktop"
-msgstr "Masaüstü performansı"
-
 msgid "Desempenho em modo normal!"
 msgstr "Normal modda performans!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Gelişmiş modda performans!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Performans modunda performans!"
-
-msgid "Desktop"
-msgstr "Masaüstü"
-
-msgid "Desktop aplicado"
-msgstr "Masaüstü uygulandı"
-
-msgid "Escolha a opção desejada:"
-msgstr "İstediğiniz seçeneği seçin:"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Önyükleme sırasında belleğe yüklenecek programları seçin"
-
-msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
-"lento em computadores<br>antigos ou ambientes virtualizados."
-msgstr ""
-"Bu tema, eski bilgisayarlarda<br>veya sanallaştırılmış ortamlarda sistemi "
-"<br>yavaşlatabilecek efektler içeren saydamlara sahiptir. "
-
-msgid "Fechar"
-msgstr "Kapat"
-
-msgid "Não"
-msgstr "Hayır"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem "
-"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Ön yükleme, program dosyalarını belleğe yükler, böylece hızlı bir şekilde "
-"başlarlar. Aşırı kullanım yavaşlamalara neden olur. İstediğiniz seçeneği "
-"seçin:"
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Önyükleme Yöneticisini Gizle (GRUB)"
-
-msgid "Original"
-msgstr "Orijinal"
-
-msgid "Pesquisar arquivos"
-msgstr "Arama arşivleri"
-
-msgid "Remover propagandas"
-msgstr "Reklamları kaldırın"
-
-msgid "Renderizar o desktop via software"
-msgstr "Masaüstünü yazılım aracılığıyla oluşturma"
-
-msgid "Restaurar"
-msgstr "Geri Yükleme"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Ters çevrilmiş fare kaydırma"
-
-msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
-msgstr "Eğer bir tarayıcı kullanıyorsanız, tarayıcıyı kapatın ve tekrar açın!"
-
-msgid "Sim"
-msgstr "Evet"
-
-msgid "Suportar criptomoedas"
-msgstr "Kripto para birimlerini destekleme"
-
-msgid "Tema aplicado"
-msgstr "Uygulanan tema"
-
-msgid "Tema dos aplicativos"
-msgstr "Uygulama teması"
-
-msgid "Temas"
-msgstr "Temalar"
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Temalar, Masaüstü ve Ayarlar"
-
-msgid "Usabilidade"
-msgstr "Kullanılabilirlik"
-
-msgid ""
-"Utilizando renderização por software, a qualidade das transparências está "
-"reduzida."
-msgstr "Yazılım oluşturma kullanılarak asetatların kalitesi düşürülür."
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
-"utilizar a configuração original?"
-msgstr ""
-"Bu masaüstünü daha önce kullandınız mı, özelleştirmesini geri yüklemek mi "
-"yoksa orijinal yapılandırmayı kullanmak mı istiyorsunuz?"
-
-msgid ""
-"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
-"agora?"
-msgstr ""
-"Yapılandırmayı tamamlamak için tekrar oturum açmanız gerekir. Şimdi yapmak "
-"ister misin?"
-
-#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
-#~ msgstr "(Sanal makinelerde veya eski bilgisayarlarda faydalı olabilir)"
-
-#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
-#~ msgstr "<b>Klasik</b> ve <b>Yeni</b> daha iyi performansa sahiptir."

@@ -2,20 +2,173 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 06:12-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Témák, Asztal és beállítások"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ha böngészőt használ, indítsa újra a módosítások alkalmazásához."
+
+msgid "Aplicando, aguarde..."
+msgstr "Jelentkezés, várakozás..."
+
+msgid "Concluído!"
+msgstr "Kész!"
+
+msgid "Temas"
+msgstr "Témák"
+
+msgid "Desktop"
+msgstr "Asztali"
+
+msgid "Ajustes"
+msgstr "Beállítások"
+
+msgid "Desempenho do desktop"
+msgstr "Asztali teljesítmény"
+
+msgid "Desempenho"
+msgstr "Teljesítmény"
+
+msgid "Aceleração do navegador"
+msgstr "Böngésző gyorsítás"
+
+msgid "Usabilidade"
+msgstr "Használhatóság"
+
+msgid "Tema dos aplicativos"
+msgstr "Alkalmazás témája"
+
+msgid "Abrir"
+msgstr "Nyitott"
+
+msgid "Fechar"
+msgstr "Zárja be a"
+
+msgid "Bordas arredondadas."
+msgstr "Lekerekített élek."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Ez a téma olyan transzparenciákkal rendelkezik<br>, amelyek effektusai lelassíthatják a "
+"rendszert<br>régebbi számítógépeken vagy virtualizált környezetekben."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "A <b>klasszikus</b>, az <b>új</b> és a <b>modern</b> a legjobban teljesít."
+
+msgid "Renderizar o desktop via software"
+msgstr "Az asztal megjelenítése szoftveresen"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Hasznos lehet régebbi számítógépeken, de egyes programok nem működnek)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "A memóriába betöltendő programok kiválasztása a rendszerindításkor"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Az előtöltés a programfájlokat tölti be a memóriába, így azok gyorsan elindulnak. A túlzott "
+"használat lassulást okoz. Válassza ki a kívánt opciót:"
+
+msgid "Automático"
+msgstr "Automatikus"
+
+msgid "Ativar"
+msgstr "Aktiválja a  címet"
+
+msgid "Desativar"
+msgstr "A  deaktiválása"
+
+msgid "Configurações do Brave"
+msgstr "Bátor konfigurációk"
+
+msgid "Escolha a opção desejada:"
+msgstr "Válassza ki a kívánt opciót:"
+
+msgid "Remover propagandas"
+msgstr "Reklámok eltávolítása"
+
+msgid "Suportar criptomoedas"
+msgstr "Kriptovaluták támogatása"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Ablak gombok a bal oldalon"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Invertált egér görgetés"
+
+msgid "Pesquisar arquivos"
+msgstr "Keresés az archívumban"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Az asztal zárolása"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Elrejteni a Boot Manager (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "A NumLock engedélyezése a rendszer indításakor"
+
+msgid "Tema aplicado"
+msgstr "Alkalmazott téma"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
+msgstr "A konfiguráció befejezéséhez újra be kell jelentkeznie. Most akarja megtenni?"
+
+msgid "Configuração do Desktop"
+msgstr "Asztali konfiguráció"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Használtad már korábban ezt az asztalt, vissza akarod állítani a testreszabását, vagy az eredeti "
+"konfigurációt szeretnéd használni?"
+
+msgid "Sim"
+msgstr "Igen"
+
+msgid "Não"
+msgstr "Nem"
+
+msgid "Original"
+msgstr "Eredeti"
+
+msgid "Restaurar"
+msgstr "Visszaállítás"
+
+msgid "Desktop aplicado"
+msgstr "Asztali alkalmazás"
+
+msgid "Modo performance"
+msgstr "Teljesítmény mód"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "A szoftveres rendereléssel a fóliák minősége csökken."
+
+msgid "Desempenho em modo performance!"
+msgstr "Teljesítmény teljesítmény üzemmódban!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Teljesítmény továbbfejlesztett üzemmódban!"
 
 msgid ""
 "\n"
@@ -28,44 +181,7 @@ msgstr ""
 "A kiválasztott asztali konfiguráció már használatban van ezen a rendszeren,\n"
 "vissza szeretné állítani a már használt konfigurációt?\n"
 "\n"
-"Válassza a no lehetőséget az alapértelmezett rendszerkonfiguráció "
-"használatához.\n"
-
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr ""
-"A <b>klasszikus</b>, az <b>új</b> és a <b>modern</b> a legjobban teljesít."
-
-msgid "Aceleração do navegador"
-msgstr "Böngésző gyorsítás"
-
-msgid "Ajustes"
-msgstr "Beállítások"
-
-msgid "Ativar"
-msgstr "Aktiválja a  címet"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "A NumLock engedélyezése a rendszer indításakor"
-
-msgid "Automático"
-msgstr "Automatikus"
-
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Az asztal zárolása"
-
-msgid "Bordas arredondadas."
-msgstr "Lekerekített élek."
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Ablak gombok a bal oldalon"
-
-msgid ""
-"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
-"que a nova configuração seja aplicada."
-msgstr ""
-"A konfiguráció megváltozott, ha a böngészőt használja, indítsa újra, hogy az "
-"új konfiguráció érvényesüljön."
+"Válassza a no lehetőséget az alapértelmezett rendszerkonfiguráció használatához.\n"
 
 msgid ""
 "Configuração aplicada!\n"
@@ -80,125 +196,5 @@ msgstr ""
 "a konfiguráció befejezéséhez\n"
 "alkalmazott."
 
-msgid "Configuração do Desktop"
-msgstr "Asztali konfiguráció"
-
-msgid "Configurações do Brave"
-msgstr "Bátor konfigurációk"
-
-msgid "Desativar"
-msgstr "A  deaktiválása"
-
-msgid "Desempenho do desktop"
-msgstr "Asztali teljesítmény"
-
 msgid "Desempenho em modo normal!"
 msgstr "Teljesítmény normál üzemmódban!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Teljesítmény továbbfejlesztett üzemmódban!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Teljesítmény teljesítmény üzemmódban!"
-
-msgid "Desktop"
-msgstr "Asztali"
-
-msgid "Desktop aplicado"
-msgstr "Asztali alkalmazás"
-
-msgid "Escolha a opção desejada:"
-msgstr "Válassza ki a kívánt opciót:"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "A memóriába betöltendő programok kiválasztása a rendszerindításkor"
-
-msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
-"lento em computadores<br>antigos ou ambientes virtualizados."
-msgstr ""
-"Ez a téma olyan transzparenciákkal rendelkezik<br>, amelyek effektusai "
-"lelassíthatják a rendszert<br>régebbi számítógépeken vagy virtualizált "
-"környezetekben."
-
-msgid "Fechar"
-msgstr "Zárja be a"
-
-msgid "Não"
-msgstr "Nem"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem "
-"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Az előtöltés a programfájlokat tölti be a memóriába, így azok gyorsan "
-"elindulnak. A túlzott használat lassulást okoz. Válassza ki a kívánt opciót:"
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Elrejteni a Boot Manager (GRUB)"
-
-msgid "Original"
-msgstr "Eredeti"
-
-msgid "Pesquisar arquivos"
-msgstr "Keresés az archívumban"
-
-msgid "Remover propagandas"
-msgstr "Reklámok eltávolítása"
-
-msgid "Renderizar o desktop via software"
-msgstr "Az asztal megjelenítése szoftveresen"
-
-msgid "Restaurar"
-msgstr "Visszaállítás"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Invertált egér görgetés"
-
-msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
-msgstr "Ha böngészőt használ, zárja be, majd nyissa meg újra!"
-
-msgid "Sim"
-msgstr "Igen"
-
-msgid "Suportar criptomoedas"
-msgstr "Kriptovaluták támogatása"
-
-msgid "Tema aplicado"
-msgstr "Alkalmazott téma"
-
-msgid "Tema dos aplicativos"
-msgstr "Alkalmazás témája"
-
-msgid "Temas"
-msgstr "Témák"
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Témák, Asztal és beállítások"
-
-msgid "Usabilidade"
-msgstr "Használhatóság"
-
-msgid ""
-"Utilizando renderização por software, a qualidade das transparências está "
-"reduzida."
-msgstr "A szoftveres rendereléssel a fóliák minősége csökken."
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
-"utilizar a configuração original?"
-msgstr ""
-"Használtad már korábban ezt az asztalt, vissza akarod állítani a "
-"testreszabását, vagy az eredeti konfigurációt szeretnéd használni?"
-
-msgid ""
-"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
-"agora?"
-msgstr ""
-"A konfiguráció befejezéséhez újra be kell jelentkeznie. Most akarja megtenni?"
-
-#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
-#~ msgstr "(Hasznos lehet virtuális gépen vagy régi számítógépeken)"
-
-#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
-#~ msgstr "A<b>Classic</b> és a <b>New</b> jobb teljesítményt nyújt."

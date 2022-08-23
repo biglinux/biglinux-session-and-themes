@@ -2,20 +2,173 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 06:12-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Теми, работен плот и настройки"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ако използвате браузър, рестартирайте го, за да приложите промените."
+
+msgid "Aplicando, aguarde..."
+msgstr "Кандидатстване, чакай..."
+
+msgid "Concluído!"
+msgstr "Направи!"
+
+msgid "Temas"
+msgstr "Теми"
+
+msgid "Desktop"
+msgstr "Настолен компютър"
+
+msgid "Ajustes"
+msgstr "Настройки"
+
+msgid "Desempenho do desktop"
+msgstr "Производителност на работния плот"
+
+msgid "Desempenho"
+msgstr "Изпълнение"
+
+msgid "Aceleração do navegador"
+msgstr "Ускоряване на браузъра"
+
+msgid "Usabilidade"
+msgstr "Ползваемост"
+
+msgid "Tema dos aplicativos"
+msgstr "Тема на приложението"
+
+msgid "Abrir"
+msgstr "Отворя"
+
+msgid "Fechar"
+msgstr "Затвори"
+
+msgid "Bordas arredondadas."
+msgstr "Заоблени ръбове."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Тази тема има прозрачни изображения с ефекти, които могат да<br>забавят системата на стари "
+"компютри<br>или виртуални среди."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Класически</b>, <b>нови</b> и <b>модерни</b> се представят най-добре."
+
+msgid "Renderizar o desktop via software"
+msgstr "Изобразяване на работния плот чрез софтуер"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Може да е полезно на по-стари компютри, но някои програми спират да работят)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Избор на програми, които да се зареждат в паметта по време на зареждане"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Предварителното зареждане зарежда програмните файлове в паметта, за да се стартират бързо. "
+"Прекомерната употреба води до забавяне на работата. Изберете желаната опция:"
+
+msgid "Automático"
+msgstr "Автоматичен"
+
+msgid "Ativar"
+msgstr "Активиране на"
+
+msgid "Desativar"
+msgstr "Деактивиране на"
+
+msgid "Configurações do Brave"
+msgstr "Смели конфигурации"
+
+msgid "Escolha a opção desejada:"
+msgstr "Изберете желаната опция:"
+
+msgid "Remover propagandas"
+msgstr "Премахване на реклами"
+
+msgid "Suportar criptomoedas"
+msgstr "Поддръжка на криптовалути"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Бутони на прозореца от лявата страна"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Обърнато превъртане на мишката"
+
+msgid "Pesquisar arquivos"
+msgstr "Търсене в архивите"
+
+#, fuzzy
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Заключване на работния плот"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Скриване на мениджъра за зареждане (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Активиране на NumLock при стартиране на системата"
+
+msgid "Tema aplicado"
+msgstr "Приложена тема"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
+msgstr "За да завършите конфигурацията, трябва да влезете отново в системата. Искате да го направите сега?"
+
+msgid "Configuração do Desktop"
+msgstr "Конфигурация на работния плот"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Използвали ли сте този десктоп преди, искате ли да възстановите персонализирането му или да "
+"използвате оригиналната конфигурация?"
+
+msgid "Sim"
+msgstr "Да"
+
+msgid "Não"
+msgstr "Не"
+
+msgid "Original"
+msgstr "Оригинал"
+
+msgid "Restaurar"
+msgstr "Възстановяване на"
+
+msgid "Desktop aplicado"
+msgstr "Приложен работен плот"
+
+msgid "Modo performance"
+msgstr "Режим на производителност"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "При използване на софтуерно визуализиране качеството на прозрачните изображения се намалява."
+
+msgid "Desempenho em modo performance!"
+msgstr "Изпълнение в режим на изпълнение!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Изпълнение в подобрен режим!"
 
 msgid ""
 "\n"
@@ -25,47 +178,10 @@ msgid ""
 "Selecione não para utilizar a configuração padrão do sistema.\n"
 msgstr ""
 "\n"
-"Избраната конфигурация на работния плот вече е била използвана в тази "
-"система,\n"
+"Избраната конфигурация на работния плот вече е била използвана в тази система,\n"
 "искате ли да възстановите вече използваната конфигурация?\n"
 "\n"
 "Изберете no, за да използвате конфигурацията на системата по подразбиране.\n"
-
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr ""
-"<b>Класически</b>, <b>нови</b> и <b>модерни</b> се представят най-добре."
-
-msgid "Aceleração do navegador"
-msgstr "Ускоряване на браузъра"
-
-msgid "Ajustes"
-msgstr "Настройки"
-
-msgid "Ativar"
-msgstr "Активиране на"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Активиране на NumLock при стартиране на системата"
-
-msgid "Automático"
-msgstr "Автоматичен"
-
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Заключване на работния плот"
-
-msgid "Bordas arredondadas."
-msgstr "Заоблени ръбове."
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Бутони на прозореца от лявата страна"
-
-msgid ""
-"Configuração alterada, se estiver utilizando o navegador, reinicie-o para "
-"que a nova configuração seja aplicada."
-msgstr ""
-"Конфигурацията е променена, ако използвате браузъра, рестартирайте го, за да "
-"се приложи новата конфигурация."
 
 msgid ""
 "Configuração aplicada!\n"
@@ -80,129 +196,5 @@ msgstr ""
 "за завършване на конфигурацията\n"
 "прилага се."
 
-msgid "Configuração do Desktop"
-msgstr "Конфигурация на работния плот"
-
-msgid "Configurações do Brave"
-msgstr "Смели конфигурации"
-
-msgid "Desativar"
-msgstr "Деактивиране на"
-
-msgid "Desempenho do desktop"
-msgstr "Производителност на работния плот"
-
 msgid "Desempenho em modo normal!"
 msgstr "Изпълнение в нормален режим!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Изпълнение в подобрен режим!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Изпълнение в режим на изпълнение!"
-
-msgid "Desktop"
-msgstr "Настолен компютър"
-
-msgid "Desktop aplicado"
-msgstr "Приложен работен плот"
-
-msgid "Escolha a opção desejada:"
-msgstr "Изберете желаната опция:"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr ""
-"Избор на програми, които да се зареждат в паметта по време на зареждане"
-
-msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
-"lento em computadores<br>antigos ou ambientes virtualizados."
-msgstr ""
-"Тази тема има прозрачни изображения с ефекти, които могат да<br>забавят "
-"системата на стари компютри<br>или виртуални среди."
-
-msgid "Fechar"
-msgstr "Затвори"
-
-msgid "Não"
-msgstr "Не"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem "
-"rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Предварителното зареждане зарежда програмните файлове в паметта, за да се "
-"стартират бързо. Прекомерната употреба води до забавяне на работата. "
-"Изберете желаната опция:"
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Скриване на мениджъра за зареждане (GRUB)"
-
-msgid "Original"
-msgstr "Оригинал"
-
-msgid "Pesquisar arquivos"
-msgstr "Търсене в архивите"
-
-msgid "Remover propagandas"
-msgstr "Премахване на реклами"
-
-msgid "Renderizar o desktop via software"
-msgstr "Изобразяване на работния плот чрез софтуер"
-
-msgid "Restaurar"
-msgstr "Възстановяване на"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Обърнато превъртане на мишката"
-
-msgid "Se estiver utilizando algum navegador, feche-o e abra novamente!"
-msgstr "Ако използвате браузър, затворете го и го отворете отново!"
-
-msgid "Sim"
-msgstr "Да"
-
-msgid "Suportar criptomoedas"
-msgstr "Поддръжка на криптовалути"
-
-msgid "Tema aplicado"
-msgstr "Приложена тема"
-
-msgid "Tema dos aplicativos"
-msgstr "Тема на приложението"
-
-msgid "Temas"
-msgstr "Теми"
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Теми, работен плот и настройки"
-
-msgid "Usabilidade"
-msgstr "Ползваемост"
-
-msgid ""
-"Utilizando renderização por software, a qualidade das transparências está "
-"reduzida."
-msgstr ""
-"При използване на софтуерно визуализиране качеството на прозрачните "
-"изображения се намалява."
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
-"utilizar a configuração original?"
-msgstr ""
-"Използвали ли сте този десктоп преди, искате ли да възстановите "
-"персонализирането му или да използвате оригиналната конфигурация?"
-
-msgid ""
-"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer "
-"agora?"
-msgstr ""
-"За да завършите конфигурацията, трябва да влезете отново в системата. Искате "
-"да го направите сега?"
-
-#~ msgid "(Pode ser útil em máquina virtual ou computadores antigos)"
-#~ msgstr "(Може да бъде полезно за виртуални машини или стари компютри)"
-
-#~ msgid "<b>Classic</b> e <b>New</b> têm melhor desempenho."
-#~ msgstr "<b>Класическият</b> и <b>новият</b> имат по-добри характеристики."
