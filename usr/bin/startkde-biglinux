@@ -23,6 +23,7 @@ if [ "$1" = "wayland" ]; then
 else
     export GDK_BACKEND=x11
     export GSK_RENDERER=cairo
+    export KWIN_EFFECTS_FORCE_ANIMATIONS=1
 
     # Nvidia tweak
     if [ "$(lsmod | grep nvidia_drm)" != "" ]; then
