@@ -67,6 +67,9 @@ if [ "$(lspci | grep -i vga | grep -i vmware)" != "" ]; then
 fi
 # Virtualization fix close
 
+# Theme in first login
+first-login-theme
+
 if [ ! -e "$HOME/.kdebiglinux/lastlogin" ]; then
     change-plasma-theme --apply $(cut -f2 -d" " /etc/big_desktop_changed) quiet
 fi
@@ -84,8 +87,7 @@ lastlogin=$(cat "$HOME/.kdebiglinux/lastlogin")
 # fi
 
 #Link from wallpaper to ksplash
-ln -sf "$(grep '\[Wallpaper\]' -A2 -m1 ~/.config/plasma-org.kde.plasma.desktop-appletsrc | grep -m1 "Image=" | sed 's|Image=file://||g'
-/usr/share/wallpapers/BigLinux01.jpg)" /tmp/bigksplash.jpg
+ln -sf "$(grep '\[Wallpaper\]' -A2 -m1 ~/.config/plasma-org.kde.plasma.desktop-appletsrc | grep -m1 "Image=" | sed 's|Image=file://||g')" /tmp/bigksplash.jpg
 chmod 777 /tmp/bigksplash.jpg
 
 feh --bg-fill "/tmp/bigksplash.jpg" &
@@ -112,21 +114,17 @@ fi
 echo "$nowlogin" > "$HOME/.kdebiglinux/lastlogin"
 
 if [ ! -e "$HOME/.big_performance" ]; then
-    if [ "$(cat /etc/default-performance-biglinux)" = "0" ]; then
-        /usr/share/bigbashview/bcc/apps/biglinux-themes-gui/normal.run quiet
-    fi
+    echo "0" > "$HOME/.big_performance"
 
-    if [ "$(cat /etc/default-performance-biglinux)" = "1" ]; then
-        /usr/share/bigbashview/bcc/apps/biglinux-themes-gui/optimized.run quiet
-    fi
+    # Animation 1
+    kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key AnimationSpeed 3
+    kwriteconfig5 --file ~/.config/kdeglobals --group KDE --key AnimationDurationFactor ""
+    kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Blinking false
+    kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Bouncing true
 
-    if [ "$(cat /etc/default-performance-biglinux)" = "2" ]; then
-        /usr/share/bigbashview/bcc/apps/biglinux-themes-gui/performance.run quiet
-    fi
+    # Composition on
+    kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Enabled true
 fi
-
-# Theme in first login
-first-login-theme
 
 if [ "$(grep -i 'SingleClick=' ~/.config/kdeglobals)" = "" ]; then
     kwriteconfig5 --group KDE --key SingleClick true
@@ -170,9 +168,6 @@ done
 
 /usr/lib/pam_kwallet_init &
 
-export MULTIKDE=$nowlogin
-
-
 
 # Fix to GTK4 theme
 if [ "$(grep gtk-application-prefer-dark-theme=true ~/.config/gtk-3.0/settings.ini)" = "" ]; then
@@ -183,8 +178,6 @@ fi
 
 
 # Change way to autostart latte
-#rm -f ~/.config/autostart/org.kde.latte-dock.desktop
-
 > $HOME/.config/autostart/org.kde.latte-dock.desktop
 # Remove link to sistray tweaks to latte
 if [ -L "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
@@ -265,15 +258,12 @@ enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent-round/metadata.desktop
 fi
 
 
-if [ -e "$HOME/.config/kdelight" ]; then
-    QT_QUICK_BACKEND=software QSG_RENDER_LOOP=basic exec $STARTPLASMA
-else
-    QSG_RENDER_LOOP=basic exec $STARTPLASMA
-fi
+QSG_RENDER_LOOP=basic exec $STARTPLASMA
 
-if [ -e /usr/share/kconf_update/kwin-5.23-remove-cover-switch.py ]; then
-    rm /usr/share/kconf_update/kwin-5.23-remove-cover-switch.py
-fi
+
+# if [ -e /usr/share/kconf_update/kwin-5.23-remove-cover-switch.py ]; then
+#     rm /usr/share/kconf_update/kwin-5.23-remove-cover-switch.py
+# fi
 
 #killall feh
 #sleep 20

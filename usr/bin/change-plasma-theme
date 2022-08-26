@@ -26,7 +26,7 @@ classikrc
 mkdir -p ~/.kdebiglinux
 mkdir -p ~/.config/latte
 
-if [ "$4" != "quiet" ]; then
+if [ "$3" != "quiet" ]; then
     systemctl --user stop plasma-plasmashell
     systemctl --user stop lattedock
     systemctl --user stop plasma-kglobalaccel.service
@@ -71,24 +71,28 @@ if [ -e "$HOME/.kdebiglinux/$2" ]; then
     rm -f "$HOME/.config/kwin_maximized_disable"
     #Clean latte
     rm -Rf "$HOME/.config/latte"
+    #Save lastused
+    echo "$2" > $HOME/.kdebiglinux/lastused
 
     #Move config to use now
     for i in "${kde[@]}"; do
         cp -Rf "$HOME/.kdebiglinux/$2/$i" "/$HOME/.config/$i"
-        echo "$2" > $HOME/.kdebiglinux/lastused
     done
 else
     if [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
+
         #Fix autostart lattedock
         rm -f "$HOME/.config/enable_latte"
         #Fix kwin button
         rm -Rf "$HOME/.config/kwin_left"
         #Fix kwin maximized
         rm -f "$HOME/.config/kwin_maximized_disable"
+        #Save lastused
+        echo "$2" > $HOME/.kdebiglinux/lastused
+
         #Move config to use now
         for i in "${kde[@]}"; do
             cp -Rf /usr/share/biglinux/kdebiglinux/$2/$i ~/.config/
-            echo "$2" > $HOME/.kdebiglinux/lastused
         done
     fi
 fi
@@ -129,14 +133,8 @@ if [ "$2" = "classic" ]; then
     sed -i "s|url=file:///usr/share/applications/brave-browser.desktop|url=file:///usr/share/applications/$DEFAULTWEB|" ~/.config/plasma-org.kde.plasma.desktop-appletsrc
 fi
 
-#desativar autocomposerEnabled
-if [ -e ~/.config/enable_latte ]; then
-    kwriteconfig5 --file ~/.config/kwinrc --group Plugins --key "autocomposerEnabled" "false"
-else
-    kwriteconfig5 --file ~/.config/kwinrc --group Plugins --key "autocomposerEnabled" "true"
-fi
 
-if [ "$4" != "quiet" ]; then
+if [ "$3" != "quiet" ]; then
     systemctl --user start plasma-plasmashell
     systemctl --user start plasma-kglobalaccel.service
 
@@ -184,8 +182,6 @@ Example to apply classic theme:
 change-plasma-theme --apply classic
 or
 change-plasma-theme --apply classic clean
-or
-change-plasma-theme --apply classic cleanquiet
 or
 change-plasma-theme --apply classic quiet
 

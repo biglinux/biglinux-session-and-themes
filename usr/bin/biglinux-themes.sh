@@ -20,55 +20,55 @@ case "$1" in
 
         cp -Rf $folder/$2/. "$HOME"
         
-        # Fix performance
-        performance_actual="$(cat "$HOME/.big_performance")"
+#         # Fix performance
+#         performance_actual="$(cat "$HOME/.big_performance")"
+# 
+#         if [ "$performance_actual" = "" ] || [ "$performance_actual" = "0" ]; then
+#             # Animation 1
+#             kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key AnimationSpeed 3
+#             kwriteconfig5 --file ~/.config/kdeglobals --group KDE --key AnimationDurationFactor ""
+#             kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Blinking false
+#             kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Bouncing true
+# 
+#             # Composition on
+#             kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Enabled true
+# 
+#             # Opengl 2
+#             kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key GLCore false
+#             kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Backend OpenGL
+#         fi
+# 
+#         if [ "$performance_actual" = "1" ]; then
+#             # Animation 2
+#             kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key AnimationSpeed 1
+#             kwriteconfig5 --file ~/.config/kdeglobals --group KDE --key AnimationDurationFactor 0.5
+#             kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Blinking true
+#             kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Bouncing false
+# 
+#             # Composition on
+#             kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Enabled true
+# 
+#             # Opengl 2
+#             kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key GLCore false
+#             kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Backend OpenGL
+#         fi
+# 
+#         if [ "$performance_actual" = "2" ]; then
+#             # Animation 2
+#             kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key AnimationSpeed 1
+#             kwriteconfig5 --file ~/.config/kdeglobals --group KDE --key AnimationDurationFactor 0.5
+#             kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Blinking true
+#             kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Bouncing false
+# 
+#             # Composition on
+#             kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Enabled true
+# 
+#             # Opengl 2
+#             kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key GLCore false
+#             kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Backend OpenGL
+#         fi
 
-        if [ "$performance_actual" = "" ] || [ "$performance_actual" = "0" ]; then
-            # Animation 1
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key AnimationSpeed 3
-            kwriteconfig5 --file ~/.config/kdeglobals --group KDE --key AnimationDurationFactor ""
-            kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Blinking false
-            kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Bouncing true
 
-            # Composition on
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Enabled true
-
-            # Opengl 2
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key GLCore false
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Backend OpenGL
-        fi
-
-        if [ "$performance_actual" = "1" ]; then
-            # Animation 2
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key AnimationSpeed 1
-            kwriteconfig5 --file ~/.config/kdeglobals --group KDE --key AnimationDurationFactor 0.5
-            kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Blinking true
-            kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Bouncing false
-
-            # Composition on
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Enabled true
-
-            # Opengl 2
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key GLCore false
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Backend OpenGL
-        fi
-
-        if [ "$performance_actual" = "2" ]; then
-            # Animation 2
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key AnimationSpeed 1
-            kwriteconfig5 --file ~/.config/kdeglobals --group KDE --key AnimationDurationFactor 0.5
-            kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Blinking true
-            kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Bouncing false
-
-            # Composition on
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Enabled true
-
-            # Opengl 2
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key GLCore false
-            kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Backend OpenGL
-        fi
-
-        echo "$2" > "$HOME/.big_desktop_theme"
         if [ "$XDG_CURRENT_DESKTOP" = "LXQt" ]; then
             openbox --restart
             pcmanfm-qt --desktop-off
@@ -88,7 +88,7 @@ case "$1" in
 		fi
 
 
-        #se latte tiver ativo colocar icons de fechar, maximizar e fechar do lado esquerdo
+        #se necessario colocar icons de fechar, maximizar e fechar do lado esquerdo
         if [ "$(cat "$HOME/.config/kwin_left")" = "1" ]; then
             kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
             kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
@@ -97,13 +97,6 @@ case "$1" in
             kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
             kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
             kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
-        fi
-        
-        #desativar autocomposerEnabled
-        if [ -e ~/.config/enable_latte ]; then
-            kwriteconfig5 --file ~/.config/kwinrc --group Plugins --key "autocomposerEnabled" "false"
-        else
-            kwriteconfig5 --file ~/.config/kwinrc --group Plugins --key "autocomposerEnabled" "true"
         fi
 
         # Disable kwin border in maximized windows
@@ -153,7 +146,7 @@ case "$1" in
             sed -i 's|Fluent-roundDark|Fluent-roundswDark|g' ~/.config/Kvantum/kvantum.kvconfig        
         fi
         
-        rm -R ~/.config/kdedefaults/
+        #rm -R ~/.config/kdedefaults/
 
         echo "$2" > "$HOME/.big_desktop_theme"        
         
