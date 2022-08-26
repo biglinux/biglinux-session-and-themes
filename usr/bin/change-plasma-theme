@@ -26,7 +26,7 @@ classikrc
 mkdir -p ~/.kdebiglinux
 mkdir -p ~/.config/latte
 
-if [ "$3" != "quiet" ]; then
+if [ "$3" != "quiet" ] || [ "$4" != "quiet" ]; then
     systemctl --user stop plasma-plasmashell
     systemctl --user stop lattedock
     systemctl --user stop plasma-kglobalaccel.service
@@ -134,7 +134,7 @@ if [ "$2" = "classic" ]; then
 fi
 
 
-if [ "$3" != "quiet" ]; then
+if [ "$3" != "quiet" ] || [ "$4" != "quiet" ]; then
     systemctl --user start plasma-plasmashell
     systemctl --user start plasma-kglobalaccel.service
 
