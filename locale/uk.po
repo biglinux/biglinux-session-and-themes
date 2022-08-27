@@ -46,9 +46,6 @@ msgstr "Продуктивність"
 msgid "Aceleração do navegador"
 msgstr "прискорення браузера"
 
-msgid "Usabilidade"
-msgstr "Зручність використання"
-
 msgid "Tema dos aplicativos"
 msgstr "Тема додатків"
 
@@ -108,6 +105,9 @@ msgstr "видалити рекламу"
 msgid "Suportar criptomoedas"
 msgstr "підтримка криптовалюти"
 
+msgid "Usabilidade"
+msgstr "Зручність використання"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Кнопки вікна з лівого боку"
 
@@ -120,9 +120,8 @@ msgstr "Інвертована прокрутка тачпада"
 msgid "Pesquisar arquivos"
 msgstr "пошук файлів"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Заблокуйте робочу область"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Блокування редагування робочого столу "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Приховати менеджер завантаження (GRUB)"

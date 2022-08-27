@@ -46,9 +46,6 @@ msgstr "Performance"
 msgid "Aceleração do navegador"
 msgstr "Browser acceleration"
 
-msgid "Usabilidade"
-msgstr "Usability"
-
 msgid "Tema dos aplicativos"
 msgstr "Application theme"
 
@@ -108,6 +105,9 @@ msgstr "Remove advertisements"
 msgid "Suportar criptomoedas"
 msgstr "Support cryptocurrencies"
 
+msgid "Usabilidade"
+msgstr "Usability"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Window buttons on the left side"
 
@@ -120,9 +120,8 @@ msgstr "Inverted touchpad scrolling"
 msgid "Pesquisar arquivos"
 msgstr "Search archives"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Lock the desktop"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Block desktop editing "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Hide Boot Manager (GRUB)"

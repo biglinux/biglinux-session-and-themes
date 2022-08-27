@@ -46,9 +46,6 @@ msgstr "Představení"
 msgid "Aceleração do navegador"
 msgstr "Zrychlení prohlížeče"
 
-msgid "Usabilidade"
-msgstr "Použitelnost"
-
 msgid "Tema dos aplicativos"
 msgstr "Téma aplikace"
 
@@ -108,6 +105,9 @@ msgstr "Odstranění reklam"
 msgid "Suportar criptomoedas"
 msgstr "Podpora kryptoměn"
 
+msgid "Usabilidade"
+msgstr "Použitelnost"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Tlačítka okna na levé straně"
 
@@ -120,9 +120,8 @@ msgstr "Posouvání invertovaného touchpadu"
 msgid "Pesquisar arquivos"
 msgstr "Vyhledávání v archivech"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Uzamčení plochy"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Blokovat úpravy plochy "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Skrytí správce spouštění systému (GRUB)"

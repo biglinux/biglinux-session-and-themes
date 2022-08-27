@@ -46,9 +46,6 @@ msgstr "Izvedba"
 msgid "Aceleração do navegador"
 msgstr "Ubrzanje preglednika"
 
-msgid "Usabilidade"
-msgstr "Upotrebljivost"
-
 msgid "Tema dos aplicativos"
 msgstr "Tema aplikacija"
 
@@ -108,6 +105,9 @@ msgstr "Ukloni oglase"
 msgid "Suportar criptomoedas"
 msgstr "Podržite kriptovalute"
 
+msgid "Usabilidade"
+msgstr "Upotrebljivost"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Gumbi prozora na lijevoj strani"
 
@@ -120,9 +120,8 @@ msgstr "Preokrenuto pomicanje dodirne pločice"
 msgid "Pesquisar arquivos"
 msgstr "Pretraživanje datoteka"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Zaključajte radnu površinu"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Blokiranje uređivanja radne površine "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Sakrij upravitelja pokretanja (GRUB)"

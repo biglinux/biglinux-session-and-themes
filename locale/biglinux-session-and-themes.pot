@@ -45,9 +45,6 @@ msgstr  ""
 msgid   "Aceleração do navegador"
 msgstr  ""
 
-msgid   "Usabilidade"
-msgstr  ""
-
 msgid   "Tema dos aplicativos"
 msgstr  ""
 
@@ -103,6 +100,9 @@ msgstr  ""
 msgid   "Suportar criptomoedas"
 msgstr  ""
 
+msgid   "Usabilidade"
+msgstr  ""
+
 msgid   "Botões da janela no lado esquerdo"
 msgstr  ""
 
@@ -115,7 +115,7 @@ msgstr  ""
 msgid   "Pesquisar arquivos"
 msgstr  ""
 
-msgid   "Bloquear a edição da área de trabalho"
+msgid   "Bloquear a edição da área de trabalho "
 msgstr  ""
 
 msgid   "Ocultar Gerenciador de Boot (GRUB)"

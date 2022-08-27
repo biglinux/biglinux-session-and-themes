@@ -46,9 +46,6 @@ msgstr "ביצועים"
 msgid "Aceleração do navegador"
 msgstr "האצת דפדפן"
 
-msgid "Usabilidade"
-msgstr "שמישות"
-
 msgid "Tema dos aplicativos"
 msgstr "נושא אפליקציות"
 
@@ -104,6 +101,9 @@ msgstr "הסרת מודעות"
 msgid "Suportar criptomoedas"
 msgstr "תמיכה בקריפטו"
 
+msgid "Usabilidade"
+msgstr "שמישות"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "לחצני חלון בצד שמאל"
 
@@ -116,9 +116,8 @@ msgstr "גלילת לוח מגע הפוך"
 msgid "Pesquisar arquivos"
 msgstr "חפש קבצים"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "נעל את שולחן העבודה"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "חסום עריכת שולחן עבודה "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "הסתר את מנהל האתחול (GRUB)"

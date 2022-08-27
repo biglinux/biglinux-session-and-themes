@@ -46,9 +46,6 @@ msgstr "性能"
 msgid "Aceleração do navegador"
 msgstr "浏览器加速"
 
-msgid "Usabilidade"
-msgstr "可用性"
-
 msgid "Tema dos aplicativos"
 msgstr "应用主题"
 
@@ -104,6 +101,9 @@ msgstr "删除广告"
 msgid "Suportar criptomoedas"
 msgstr "支持加密货币"
 
+msgid "Usabilidade"
+msgstr "可用性"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "左手边的窗口按钮"
 
@@ -116,9 +116,8 @@ msgstr "倒置触摸板滚动"
 msgid "Pesquisar arquivos"
 msgstr "搜索档案"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "锁定桌面"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "阻止桌面编辑 "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "隐藏启动管理器（GRUB）"

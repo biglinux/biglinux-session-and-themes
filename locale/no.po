@@ -46,9 +46,6 @@ msgstr "Prestasjon"
 msgid "Aceleração do navegador"
 msgstr "Browser akselerasjon"
 
-msgid "Usabilidade"
-msgstr "Brukervennlighet"
-
 msgid "Tema dos aplicativos"
 msgstr "Apps tema"
 
@@ -108,6 +105,9 @@ msgstr "Fjern annonser"
 msgid "Suportar criptomoedas"
 msgstr "Støtte kryptovalutaer"
 
+msgid "Usabilidade"
+msgstr "Brukervennlighet"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Vindusknapper på venstre side"
 
@@ -120,9 +120,8 @@ msgstr "Invertert styreputerulling"
 msgid "Pesquisar arquivos"
 msgstr "Søk etter filer"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Lås skrivebordet"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Blokkere skrivebordsredigering "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Skjul Boot Manager (GRUB)"

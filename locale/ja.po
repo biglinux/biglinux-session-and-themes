@@ -46,9 +46,6 @@ msgstr "パフォーマンス"
 msgid "Aceleração do navegador"
 msgstr "ブラウザーアクセラレーション"
 
-msgid "Usabilidade"
-msgstr "ユーザビリティ"
-
 msgid "Tema dos aplicativos"
 msgstr "アプリケーションテーマ"
 
@@ -104,6 +101,9 @@ msgstr "広告を削除する"
 msgid "Suportar criptomoedas"
 msgstr "暗号通貨への対応"
 
+msgid "Usabilidade"
+msgstr "ユーザビリティ"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "左側にあるウィンドウのボタン"
 
@@ -116,9 +116,8 @@ msgstr "反転タッチパッドスクロール"
 msgid "Pesquisar arquivos"
 msgstr "アーカイブを検索する"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "デスクトップをロックする"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "デスクトップ編集をブロックする "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "ブートマネージャ（GRUB）の非表示"

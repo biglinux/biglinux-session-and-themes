@@ -46,9 +46,6 @@ msgstr "Teljesítmény"
 msgid "Aceleração do navegador"
 msgstr "Böngésző gyorsítás"
 
-msgid "Usabilidade"
-msgstr "Használhatóság"
-
 msgid "Tema dos aplicativos"
 msgstr "Alkalmazás témája"
 
@@ -108,6 +105,9 @@ msgstr "Reklámok eltávolítása"
 msgid "Suportar criptomoedas"
 msgstr "Kriptovaluták támogatása"
 
+msgid "Usabilidade"
+msgstr "Használhatóság"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Ablak gombok a bal oldalon"
 
@@ -120,9 +120,8 @@ msgstr "Fordított érintőpad görgetése"
 msgid "Pesquisar arquivos"
 msgstr "Keresés az archívumban"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Az asztal zárolása"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Asztali szerkesztés blokkolása "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Elrejteni a Boot Manager (GRUB)"

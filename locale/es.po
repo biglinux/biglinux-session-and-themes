@@ -46,9 +46,6 @@ msgstr "Rendimiento"
 msgid "Aceleração do navegador"
 msgstr "Aceleración del navegador"
 
-msgid "Usabilidade"
-msgstr "Usabilidad"
-
 msgid "Tema dos aplicativos"
 msgstr "Tema de aplicación"
 
@@ -108,6 +105,9 @@ msgstr "Eliminar la publicidad"
 msgid "Suportar criptomoedas"
 msgstr "Apoyo a las criptomonedas"
 
+msgid "Usabilidade"
+msgstr "Usabilidad"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Botones de la ventana en el lado izquierdo"
 
@@ -120,9 +120,8 @@ msgstr "Desplazamiento del panel táctil invertido"
 msgid "Pesquisar arquivos"
 msgstr "Buscar en los archivos"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Bloquear el escritorio"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Bloquear la edición de escritorio "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Ocultar el gestor de arranque (GRUB)"

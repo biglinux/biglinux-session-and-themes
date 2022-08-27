@@ -46,9 +46,6 @@ msgstr "Performans"
 msgid "Aceleração do navegador"
 msgstr "Tarayıcı hızlandırma"
 
-msgid "Usabilidade"
-msgstr "Kullanılabilirlik"
-
 msgid "Tema dos aplicativos"
 msgstr "Uygulama teması"
 
@@ -108,6 +105,9 @@ msgstr "Reklamları kaldırın"
 msgid "Suportar criptomoedas"
 msgstr "Kripto para birimlerini destekleme"
 
+msgid "Usabilidade"
+msgstr "Kullanılabilirlik"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Sol taraftaki pencere düğmeleri"
 
@@ -120,9 +120,8 @@ msgstr "Ters dokunmatik yüzey kaydırma"
 msgid "Pesquisar arquivos"
 msgstr "Arama arşivleri"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Masaüstünü kilitleme"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Masaüstü düzenlemeyi engelleme "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Önyükleme Yöneticisini Gizle (GRUB)"

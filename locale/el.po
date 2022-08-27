@@ -46,9 +46,6 @@ msgstr "Εκτέλεση"
 msgid "Aceleração do navegador"
 msgstr "Επιτάχυνση του προγράμματος περιήγησης"
 
-msgid "Usabilidade"
-msgstr "Ευχρηστία"
-
 msgid "Tema dos aplicativos"
 msgstr "Θέμα εφαρμογής"
 
@@ -110,6 +107,9 @@ msgstr "Αφαίρεση διαφημίσεων"
 msgid "Suportar criptomoedas"
 msgstr "Υποστήριξη κρυπτονομισμάτων"
 
+msgid "Usabilidade"
+msgstr "Ευχρηστία"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Κουμπιά παραθύρου στην αριστερή πλευρά"
 
@@ -122,9 +122,8 @@ msgstr "Ανεστραμμένη κύλιση επιφάνειας αφής"
 msgid "Pesquisar arquivos"
 msgstr "Αναζήτηση στα αρχεία"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Κλείδωμα της επιφάνειας εργασίας"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Αποκλεισμός επεξεργασίας επιφάνειας εργασίας "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Απόκρυψη του διαχειριστή εκκίνησης (GRUB)"

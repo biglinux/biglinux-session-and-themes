@@ -46,9 +46,6 @@ msgstr "Framkvæmd"
 msgid "Aceleração do navegador"
 msgstr "Browser hröðun"
 
-msgid "Usabilidade"
-msgstr "Notagildi"
-
 msgid "Tema dos aplicativos"
 msgstr "Apps þema"
 
@@ -108,6 +105,9 @@ msgstr "Fjarlægja auglýsingar"
 msgid "Suportar criptomoedas"
 msgstr "Styðja dulritunargjaldmiðla"
 
+msgid "Usabilidade"
+msgstr "Notagildi"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Gluggahnappar á vinstri hlið"
 
@@ -120,9 +120,8 @@ msgstr "Öfugt snertiborð skrun"
 msgid "Pesquisar arquivos"
 msgstr "Leita að skrám"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Læsa skjáborðinu"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Loka fyrir skjáborðsbreytingu "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Fela Boot Manager (GRUB)"

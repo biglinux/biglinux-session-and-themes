@@ -46,9 +46,6 @@ msgstr "Производительность"
 msgid "Aceleração do navegador"
 msgstr "Ускорение работы браузера"
 
-msgid "Usabilidade"
-msgstr "Юзабилити"
-
 msgid "Tema dos aplicativos"
 msgstr "Тема приложения"
 
@@ -108,6 +105,9 @@ msgstr "Удалить рекламу"
 msgid "Suportar criptomoedas"
 msgstr "Поддержка криптовалют"
 
+msgid "Usabilidade"
+msgstr "Юзабилити"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Кнопки окна с левой стороны"
 
@@ -120,9 +120,8 @@ msgstr "Инвертированная прокрутка сенсорной п�
 msgid "Pesquisar arquivos"
 msgstr "Поисковые архивы"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Блокировка рабочего стола"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Блокировка редактирования рабочего стола "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Скрыть Менеджер загрузки (GRUB)"

@@ -46,9 +46,6 @@ msgstr "Föreställning"
 msgid "Aceleração do navegador"
 msgstr "Acceleration av webbläsare"
 
-msgid "Usabilidade"
-msgstr "Användbarhet"
-
 msgid "Tema dos aplicativos"
 msgstr "Tema för ansökan"
 
@@ -108,6 +105,9 @@ msgstr "Ta bort annonser"
 msgid "Suportar criptomoedas"
 msgstr "Stöd för kryptovalutor"
 
+msgid "Usabilidade"
+msgstr "Användbarhet"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Fönsterknappar på vänster sida"
 
@@ -120,9 +120,8 @@ msgstr "Inverterad pekplatta rullning"
 msgid "Pesquisar arquivos"
 msgstr "Sök i arkiven"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Låsa skrivbordet"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Blockera skrivbordsredigering "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Dölj Boot Manager (GRUB)"

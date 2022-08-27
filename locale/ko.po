@@ -46,9 +46,6 @@ msgstr "공연"
 msgid "Aceleração do navegador"
 msgstr "브라우저 가속"
 
-msgid "Usabilidade"
-msgstr "사용성"
-
 msgid "Tema dos aplicativos"
 msgstr "앱 테마"
 
@@ -104,6 +101,9 @@ msgstr "광고 삭제"
 msgid "Suportar criptomoedas"
 msgstr "암호화폐 지원"
 
+msgid "Usabilidade"
+msgstr "사용성"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "왼쪽에 있는 윈도우 버튼"
 
@@ -116,9 +116,8 @@ msgstr "반전된 터치패드 스크롤"
 msgid "Pesquisar arquivos"
 msgstr "파일 검색"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "데스크톱 잠금"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "데스크톱 편집 차단 "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "부트 관리자 숨기기 (GRUB)"

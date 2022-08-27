@@ -46,9 +46,6 @@ msgstr "Suorituskyky"
 msgid "Aceleração do navegador"
 msgstr "Selaimen kiihdytys"
 
-msgid "Usabilidade"
-msgstr "Käytettävyys"
-
 msgid "Tema dos aplicativos"
 msgstr "Sovelluksen teema"
 
@@ -108,6 +105,9 @@ msgstr "Poista mainokset"
 msgid "Suportar criptomoedas"
 msgstr "Kryptovaluuttojen tukeminen"
 
+msgid "Usabilidade"
+msgstr "Käytettävyys"
+
 msgid "Botões da janela no lado esquerdo"
 msgstr "Ikkunan painikkeet vasemmalla puolella"
 
@@ -120,9 +120,8 @@ msgstr "Käänteisen kosketuslevyn vieritys"
 msgid "Pesquisar arquivos"
 msgstr "Etsi arkistoista"
 
-#, fuzzy
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Lukitse työpöytä"
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Estä työpöydän muokkaus "
 
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Piilota käynnistyksenhallinta (GRUB)"
