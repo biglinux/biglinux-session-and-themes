@@ -151,9 +151,6 @@ if [ "$performance_actual" = "1" ]; then
     checked_optimized="checked"
 fi
 
-if [ "$performance_actual" = "2" ]; then
-    checked_performance="checked"
-fi
 
 if [ -e "$HOME/.config/lockplasma" ]; then
     checked_lock_desktop="checked"
@@ -177,7 +174,7 @@ if [ "$(kreadconfig5  --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME
 fi
 
 
-if [ -e "$(kreadconfig5  --group "Compositing" --key "Enabled" --file "$HOME/.config/kwinrc")" = "false" ]; then
+if [ "$(kreadconfig5  --group "Compositing" --key "Enabled" --file "$HOME/.config/kwinrc")" = "false" ]; then
     checked_performance="checked"
 fi
 
