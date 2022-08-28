@@ -3,7 +3,7 @@
 #INPUTFALSE=$(grep -w "Enabled=false" ~/.config/kwinrc | head -n 1)
 #if [ -n "$INPUTTRUE" ]; then
 
-if [ -e "$(kreadconfig5  --group "Compositing" --key "Enabled" --file "$HOME/.config/kwinrc")" = "false" ]; then
+if [ "$(kreadconfig5  --group "Compositing" --key "Enabled" --file "$HOME/.config/kwinrc")" = "false" ]; then
 
 #Desativa o performance
 qdbus org.kde.kglobalaccel /component/kwin invokeShortcut "Suspend Compositing"
