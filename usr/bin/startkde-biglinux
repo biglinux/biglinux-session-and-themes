@@ -10,12 +10,12 @@ if [ "$1" = "wayland" ]; then
     STARTPLASMA=startplasma-wayland
     # export EGL_PLATFORM=wayland
     # export GDK_BACKEND=wayland
-    # export QT_QPA_PLATFORM=wayland-egl 
+    # export QT_QPA_PLATFORM=wayland-egl
     # export SDL_VIDEODRIVER=wayland
     export EGL_PLATFORM=wayland
     export GDK_BACKEND=wayland
     export KWIN_OPENGL_INTERFACE=egl
-    export QT_QPA_PLATFORM=wayland-egl 
+    export QT_QPA_PLATFORM=wayland-egl
     export SDL_VIDEODRIVER=wayland
     export QT_XCB_GL_INTEGRATION=xcb_egl
     export QSG_RENDER_LOOP=basic
@@ -87,8 +87,14 @@ lastlogin=$(cat "$HOME/.kdebiglinux/lastlogin")
 #     mkdir -p "$HOME/.kdebiglinux/$nowlogin"
 # fi
 
+#Get id from last wallpaper
+ID=$(grep '\[Containments\]\[[0-9][0-9]\]\[Wallpaper\]\[org.kde.image\]' ~/.config/plasma-org.kde.plasma.desktop-appletsrc|tail -n 1|sed 's|\[||g;s|\]| |g'|cut -f2 -d' ')
+
+#Get path from last wallpaper
+WALLPAPER=$(kreadconfig5 --file ~/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $ID --group Wallpaper --group org.kde.image --group General --key Image|sed 's|file://||')
+
 #Link from wallpaper to ksplash
-ln -sf "$(grep '\[Wallpaper\]' -A2 -m1 ~/.config/plasma-org.kde.plasma.desktop-appletsrc | grep -m1 "Image=" | sed 's|Image=file://||g')" /tmp/bigksplash.jpg
+ln -sf "$WALLPAPER" /tmp/bigksplash.jpg
 chmod 777 /tmp/bigksplash.jpg
 
 feh --bg-fill "/tmp/bigksplash.jpg" &
@@ -156,9 +162,9 @@ for i in "$HOME/.config/konsolerc" "$HOME/.config/dolphinrc"; do
     if [ -e "$i" ] && [ "$(grep "$RESOLUTION" "$i")" = "" ]; then
 
         kwriteconfig5 --group "MainWindow" --key "$SCREEN Height $RESOLUTION" --file "$i" "$WINDOW_HEIGHT"
-        
+
         kwriteconfig5 --group "MainWindow" --key "$SCREEN Width $RESOLUTION" --file "$i" "$WINDOW_WIDTH"
-        
+
         kwriteconfig5 --group "MainWindow" --key "$SCREEN YPosition $RESOLUTION" --file "$i" "$WINDOW_HEIGHT"
 
         kwriteconfig5 --group "MainWindow" --key "$SCREEN XPosition $RESOLUTION" --file "$i" "$WINDOW_WIDTH"
