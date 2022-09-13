@@ -113,5 +113,5 @@ BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=MSF
 ButtonsOnRight=HIAX
-library=org.kde.classik
-theme=ClassiK
+library=org.kde.klassy
+theme=Klassy
