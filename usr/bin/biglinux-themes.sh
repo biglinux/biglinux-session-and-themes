@@ -146,7 +146,11 @@ case "$1" in
             sed -i 's|Fluent-roundDark|Fluent-roundswDark|g' ~/.config/Kvantum/kvantum.kvconfig        
         fi
         
-        #rm -R ~/.config/kdedefaults/
+        # Double apply to fix error
+        if [ "$(ps -e | grep kwin)" != "" ]
+		then
+			plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
+		fi
 
         echo "$2" > "$HOME/.big_desktop_theme"        
         
