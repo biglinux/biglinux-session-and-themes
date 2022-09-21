@@ -36,6 +36,9 @@ else
 
 fi
 
+# Use KDE dialog in some GTK apps like Firefox
+GTK_USE_PORTAL=1
+
 #Faster AMD GPU
 export RADV_FORCE_VRS=2x2
 #export RADV_PERFTEST=sam,ngcc
@@ -55,6 +58,15 @@ fi
 __GL_SHADER_DISK_CACHE=1
 __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
 
+#Fix to samba in dolphin
+if [ ! -e "$HOME/.config/kioslaverc" ]; then
+    echo '[Browser Settings/SMBro]
+Encoding=iso 8859-1
+Password=
+ShowHiddenShares=true
+User=.
+Workgroup=' > "$HOME/.config/kioslaverc"
+fi
 
 #Fix to disable-fsync
 if [ "$(grep '^/usr/lib/disable-fsync.so' /etc/ld.so.preload)" != "" ]; then
