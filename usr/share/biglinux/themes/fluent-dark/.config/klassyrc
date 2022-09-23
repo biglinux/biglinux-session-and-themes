@@ -1,8 +1,9 @@
 [Common]
 ActiveTitlebarOpacity=70
 AlwaysShowIconHighlightUsing=AlwaysShowIconHighlightUsingBackground
-ButtonIconStyle=StyleRedmond
-ButtonShape=ShapeSmallSquare
+ButtonIconStyle=StyleSystemIconTheme
+ButtonShape=ShapeSmallCircle
+ColorizeSystemIcons=false
 InactiveTitlebarOpacity=70
 ShadowSize=ShadowSmall
 TranslucentButtonBackgrounds=false
@@ -19,11 +20,11 @@ OpaqueTitleBar=true
 PreventApplyOpacityToHeader=true
 
 [Windeco]
-ButtonSpacingLeft=3
-ButtonSpacingRight=3
+ButtonSpacingLeft=5
 ColorizeThinWindowOutlineWithButton=false
 IconSize=IconSmall
 OpaqueMaximizedTitlebars=false
+SystemIconSize=SystemIcon14
 ThinWindowOutlineThickness=1
 TitlebarLeftMargin=3
 TitlebarRightMargin=3

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Usage
+#
+# change-keyboard-led on
+# change-keyboard-led off
+# change-keyboard-led
+# if not use on or off, just switch
+
+if [ "$1" = "on" ]; then
+   echo > "$HOME/.config/ledkeyboard"
+   xset led named "Scroll Lock"
+   xset led
+
+elif [ "$1" = "off" ]; then
+   rm -f "$HOME/.config/ledkeyboard"
+   xset -led named "Scroll Lock"
+   xset -led
+else
+
+   Led_on=$(xset -q | grep -o 'Scroll Lock:.*')
+   if [ "$Led_on" = "Scroll Lock: off" ]; then
+      change-keyboard-led on
+   else
+      change-keyboard-led off
+   fi 
+
+fi
+
+
