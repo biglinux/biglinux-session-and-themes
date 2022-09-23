@@ -54,6 +54,11 @@ if [ -e "/usr/bin/obs-vkcapture" ]; then
     export VK_INSTANCE_LAYERS=VK_LAYER_OBS_vkcapture_64:VK_LAYER_VALVE_steam_overlay_64 #Fix MangoHUD overlay
 fi
 
+#Keyboard LED
+if [ -e "$HOME/.config/ledkeyboard" ]; then
+   change-keyboard-led on
+fi
+
 #More cache to 3D
 __GL_SHADER_DISK_CACHE=1
 __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
