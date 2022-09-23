@@ -83,6 +83,14 @@ fi
 # Theme in first login
 first-login-theme
 
+
+# Verify to add konsole list of commands
+if [ ! -e "$HOME/.config/konsolequickcommandsconfig" ] && [ ! -e "/usr/share/biglinux/konsolequickcommandsconfig-${LANG%%.*}" ]; then
+    cp -f "/usr/share/biglinux/konsolequickcommandsconfig-${LANG%%.*}" "$HOME/.config/konsolequickcommandsconfig" 
+fi
+
+
+
 if [ ! -e "$HOME/.kdebiglinux/lastlogin" ]; then
     change-plasma-theme --apply $(cut -f2 -d" " /etc/big_desktop_changed) quiet
 fi
