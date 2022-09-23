@@ -264,3 +264,7 @@ msgstr ""
 #
 msgid "Desempenho em modo normal!"
 msgstr "Desempenho em modo normal!"
+
+#
+msgid "Ligar RGB do teclado"
+msgstr "Ligar RGB do teclado"
