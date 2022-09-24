@@ -10,8 +10,8 @@ DataCount=1
 [Data_1]
 Comment=Global keyboard shortcut to launch chnage led using Scroll Lock
 Enabled=true
-CommandURL=change-keyboard-led
-Type=COMMAND_URL
+Name=Launch change-keyboard-led
+Type=COMMAND_URL_SHORTCUT_ACTION_DATA
 
 [Data_1Actions]
 ActionsCount=1
