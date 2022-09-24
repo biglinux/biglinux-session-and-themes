@@ -5,10 +5,11 @@ PartOf=graphical-session.target
 
 [Service]
 ExecStart=/usr/bin/latte-dock-start
-Type=simple
-#BusName=org.kde.lattedock
-#Slice=session.slice
-#TimeoutSec=40sec
+Restart=always
+Type=dbus
+BusName=org.kde.lattedock
+Slice=session.slice
+TimeoutSec=1sec
 
 [Install]
 WantedBy=plasma-core.target
