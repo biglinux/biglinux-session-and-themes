@@ -2,7 +2,6 @@
 AlwaysShowIconHighlightUsing=AlwaysShowIconHighlightUsingBackground
 ButtonIconStyle=StyleSystemIconTheme
 ButtonShape=ShapeSmallCircle
-ColorizeSystemIcons=false
 ShadowSize=ShadowSmall
 TranslucentButtonBackgrounds=false
 

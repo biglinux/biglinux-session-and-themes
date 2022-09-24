@@ -3,7 +3,7 @@
 
 include "/usr/share/themes/Adapta-Eta/gtk-2.0/gtkrc"
 gtk-font-name="Cabin Regular 12"
-gtk-theme-name="Breeze"
+gtk-theme-name="Breeze-Dark"
 gtk-icon-theme-name="breeze"
 gtk-fallback-icon-theme="Adwaita"
 gtk-cursor-theme-name="Breeze_Snow"

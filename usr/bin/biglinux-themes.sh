@@ -10,14 +10,16 @@ folder="/usr/share/biglinux/themes"
 case "$1" in
 
     --apply)
-      
+
+    rm -Rf ~/.cache/plasma*
+    rm -Rf ~/.cache/kwin
+    rm -Rf ~/.cache/gtk-3.0
+    rm -Rf ~/.cache/gtk-4.0
+    rm -Rf ~/.cache/icon-cache.kcache
+    rm -R ~/.cache/kcmshell5
+
 	#Confere se o arquivo, diretório, link, ou arquivo especial NÃO existe
     if [ -e "$folder/$2" ]; then
-        if [ "$(ps -e | grep kwin)" != "" ]
-		then
-			plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
-		fi
-
         cp -Rf $folder/$2/. "$HOME"
         
 #         # Fix performance
@@ -88,7 +90,7 @@ case "$1" in
 		fi
 
 
-        #se necessario colocar icons de fechar, maximizar e fechar do lado esquerdo
+        #se necessario coloca os icons de fechar, maximizar e fechar do lado esquerdo
         if [ "$(cat "$HOME/.config/kwin_left")" = "1" ]; then
             kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
             kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
@@ -124,16 +126,27 @@ case "$1" in
 
         if [ "$(ps -e | grep kwin)" != "" ]
 		then
-			#Configure kwin
-			qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
-			
+			#qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
 			#Fix to correct reconfigure kwin
-			sleep 1
-			qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Show Desktop"
-			qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Show Desktop"
-			
+# 			sleep 1
+# 			qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Show Desktop"
+# 			qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Show Desktop"
+
 			#Configure GTK
 			qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
+
+			plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
+
+            # Clean icon theme and apply again to fix kwin buttons
+            kwriteconfig5 --group Icons --key Theme ""
+            /usr/lib/plasma-changeicons $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
+
+#          kdialog --msgbox "Icone: $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
+#          GTK: $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)"
+
+			#Configure kwin
+			qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
+
         fi
         
         
@@ -146,11 +159,7 @@ case "$1" in
             sed -i 's|Fluent-roundDark|Fluent-roundswDark|g' ~/.config/Kvantum/kvantum.kvconfig        
         fi
         
-        # Double apply to fix error
-        if [ "$(ps -e | grep kwin)" != "" ]
-		then
-			plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
-		fi
+
 
         echo "$2" > "$HOME/.big_desktop_theme"        
         

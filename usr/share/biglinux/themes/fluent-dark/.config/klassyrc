@@ -3,7 +3,6 @@ ActiveTitlebarOpacity=70
 AlwaysShowIconHighlightUsing=AlwaysShowIconHighlightUsingBackground
 ButtonIconStyle=StyleSystemIconTheme
 ButtonShape=ShapeSmallCircle
-ColorizeSystemIcons=false
 InactiveTitlebarOpacity=70
 ShadowSize=ShadowSmall
 TranslucentButtonBackgrounds=false
