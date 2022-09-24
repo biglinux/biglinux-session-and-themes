@@ -1067,6 +1067,7 @@ DialogWidth=720
 [Containments][7][Applets][15][Configuration][General]
 maximumVolume=150
 raiseMaximumVolume=true
+showVirtualDevices=true
 
 [Containments][7][Applets][16]
 immutability=1
