@@ -202,10 +202,19 @@ done
 
 
 # Fix to GTK4 theme
-if [ "$(grep gtk-application-prefer-dark-theme=true ~/.config/gtk-3.0/settings.ini)" = "" ]; then
-    export GTK_THEME=$(grep gtk-theme-name= ~/.config/gtk-3.0/settings.ini | cut -f2 -d=)
-else
-    export GTK_THEME=$(grep gtk-theme-name= ~/.config/gtk-3.0/settings.ini | cut -f2 -d=):dark
+
+export GTK_THEME=$(grep gtk-theme-name= ~/.config/gtk-3.0/settings.ini | cut -f2 -d=)
+if [ "$(grep gtk-application-prefer-dark-theme=true ~/.config/gtk-3.0/settings.ini)" != "" ]; then
+
+    if [ -e "/usr/share/themes/${GTK_THEME}-Dark" ]; then
+        export GTK_THEME=${GTK_THEME}-Dark
+    elif  [ -e "/usr/share/themes/${GTK_THEME}-dark" ]; then
+        export GTK_THEME=${GTK_THEME}-Dark
+    elif  [ "$(echo $GTK_THEME | grep -i dark)" != "" ]; then
+        :
+    else
+        export GTK_THEME=Adwaita-dark
+    fi
 fi
 
 
