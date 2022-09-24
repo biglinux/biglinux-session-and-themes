@@ -1,9 +1,9 @@
 [Common]
-ActiveTitlebarOpacity=70
+ActiveTitlebarOpacity=80
 AlwaysShowIconHighlightUsing=AlwaysShowIconHighlightUsingBackground
 ButtonIconStyle=StyleSystemIconTheme
 ButtonShape=ShapeSmallCircle
-InactiveTitlebarOpacity=70
+InactiveTitlebarOpacity=80
 ShadowSize=ShadowSmall
 TranslucentButtonBackgrounds=false
 

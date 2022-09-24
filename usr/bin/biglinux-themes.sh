@@ -132,20 +132,31 @@ case "$1" in
 # 			qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Show Desktop"
 # 			qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Show Desktop"
 
-			#Configure GTK
-			qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
 
-			plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
+                #Configure GTK
+                qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
 
-            # Clean icon theme and apply again to fix kwin buttons
-            kwriteconfig5 --group Icons --key Theme ""
-            /usr/lib/plasma-changeicons $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
+                plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
 
-#          kdialog --msgbox "Icone: $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
-#          GTK: $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)"
+                # Clean icon theme and apply again to fix kwin buttons
+                kwriteconfig5 --group Icons --key Theme ""
+                /usr/lib/plasma-changeicons $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
 
-			#Configure kwin
-			qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
+    #          kdialog --msgbox "Icone: $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
+    #          GTK: $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)"
+
+            if [ "$(ps -e | grep kwin_x11)" != "" ]
+            then
+                systemctl --user restart plasma-kwin_x11.service
+            else
+                #Configure kwin
+                qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
+            fi
+
+            if [ "$(ps -e | grep latte-dock)" != "" ]
+            then
+                systemctl --user restart lattedock.service
+            fi
 
         fi
         

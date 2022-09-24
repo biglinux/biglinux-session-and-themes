@@ -35,7 +35,8 @@ if [ "$(qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.isShutting
 
 
     if [ "$ENABLE_LATTE" = "1" ]; then
-        qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
+        #qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
+        killall latte-dock
         QT_QUICK_BACKEND="" QSG_RENDER_LOOP=basic /usr/bin/latte-dock
     fi
 
