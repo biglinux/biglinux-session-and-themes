@@ -227,9 +227,9 @@ if [ -L "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
 fi
 
 
-if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
-    systemctl --user start lattedock
-fi
+# if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
+#     systemctl --user start lattedock
+# fi
 
 # Less transparent Fluent plasma theme if dont have 3d accel
 if [ "$(glxinfo | grep llvmpipe)" = "" ]; then

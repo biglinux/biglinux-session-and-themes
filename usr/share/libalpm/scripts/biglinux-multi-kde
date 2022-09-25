@@ -13,6 +13,8 @@ sed -i 's|Restart=on-failure|Restart=always|g' /usr/lib/systemd/user/plasma-plas
 # systemd more relaxed to stop apps like plasmashell
 sed -i 's|#DefaultRestartSec=100ms|DefaultRestartSec=1000ms|g;s|#DefaultStartLimitBurst=5|DefaultStartLimitBurst=10|g' /etc/systemd/user.conf  2> /dev/null
 
+systemctl --global enable lattedock 2> /dev/null
+
 if [ -e "/usr/local/bin/latte-dock" ]; then
     mv -f /usr/local/bin/latte-dock /usr/bin/latte-dock
 fi
