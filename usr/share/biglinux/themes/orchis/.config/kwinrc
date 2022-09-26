@@ -23,6 +23,12 @@ MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
 
+[Effect-overview]
+BorderActivate=7
+
+[Effect-windowview]
+BorderActivateAll=9
+
 [Plugins]
 overviewEnabled=true
 contrastEnabled=true
