@@ -4,14 +4,14 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][0][RightButton;NoModifier]
 _add panel=true
 _context=true
-_lock_screen=false
+_lock_screen=true
 _logout=true
 _run_command=false
 _sep1=true
 _sep2=true
 _sep3=true
 _wallpaper=true
-add widgets=false
+add widgets=true
 configure=true
 configure shortcuts=false
 lock widgets=true
