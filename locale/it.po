@@ -200,3 +200,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "Prestazioni in modalità normale!"
+
+msgid "Ligar RGB do teclado"
+msgstr "Collega RGB dalla tastiera"

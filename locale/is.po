@@ -198,3 +198,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "Flutningur í venjulegri stillingu!"
+
+msgid "Ligar RGB do teclado"
+msgstr "Tengdu RGB við lyklaborð"

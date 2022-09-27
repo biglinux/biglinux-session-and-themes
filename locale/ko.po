@@ -194,3 +194,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "일반 모드에서의 성능!"
+
+msgid "Ligar RGB do teclado"
+msgstr "키보드에서 RGB 연결"

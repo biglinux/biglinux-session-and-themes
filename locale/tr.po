@@ -200,3 +200,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "Normal modda performans!"
+
+msgid "Ligar RGB do teclado"
+msgstr "RGB'yi klavyeden bağlama"

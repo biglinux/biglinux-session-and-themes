@@ -202,3 +202,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "Performance en mode normal !"
+
+msgid "Ligar RGB do teclado"
+msgstr "Connecter RVB à partir du clavier"

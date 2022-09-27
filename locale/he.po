@@ -194,3 +194,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "ביצועים במצב רגיל!"
+
+msgid "Ligar RGB do teclado"
+msgstr "חיבור RGB מהמקלדת"

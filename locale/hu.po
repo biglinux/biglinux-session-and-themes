@@ -200,3 +200,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "Teljesítmény normál üzemmódban!"
+
+msgid "Ligar RGB do teclado"
+msgstr "RGB csatlakoztatása a billentyűzetről"

@@ -200,3 +200,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "Производительность в нормальном режиме!"
+
+msgid "Ligar RGB do teclado"
+msgstr "Подключение RGB с клавиатуры"

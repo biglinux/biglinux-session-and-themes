@@ -200,3 +200,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "Výkon v normálním režimu!"
+
+msgid "Ligar RGB do teclado"
+msgstr "Připojení RGB z klávesnice"

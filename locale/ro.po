@@ -200,3 +200,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "Performanță în modul normal!"
+
+msgid "Ligar RGB do teclado"
+msgstr "Conectați RGB de la tastatură"

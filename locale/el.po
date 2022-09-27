@@ -202,3 +202,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "Απόδοση σε κανονική λειτουργία!"
+
+msgid "Ligar RGB do teclado"
+msgstr "Σύνδεση RGB από πληκτρολόγιο"

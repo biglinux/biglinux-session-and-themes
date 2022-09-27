@@ -194,3 +194,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "ノーマルモードでのパフォーマンス!"
+
+msgid "Ligar RGB do teclado"
+msgstr "キーボードからRGBを接続する"

@@ -198,3 +198,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "Продуктивність в оптимізованому режимі!"
+
+msgid "Ligar RGB do teclado"
+msgstr "Підключення RGB з клавіатури"

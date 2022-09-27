@@ -194,3 +194,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "正常模式下的表现!"
+
+msgid "Ligar RGB do teclado"
+msgstr "从键盘连接红绿蓝"

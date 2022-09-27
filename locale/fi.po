@@ -202,3 +202,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "Suorituskyky normaalitilassa!"
+
+msgid "Ligar RGB do teclado"
+msgstr "Yhdistä RGB näppäimistöltä"

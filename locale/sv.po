@@ -200,3 +200,6 @@ msgstr ""
 
 msgid "Desempenho em modo normal!"
 msgstr "Prestanda i normalt läge!"
+
+msgid "Ligar RGB do teclado"
+msgstr "Anslut RGB från tangentbordet"
