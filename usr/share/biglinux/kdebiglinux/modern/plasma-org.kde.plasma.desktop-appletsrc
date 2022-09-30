@@ -213,6 +213,7 @@ DialogHeight=546
 DialogWidth=760
 
 [Containments][2][Applets][141][Configuration][General]
+forceStripes=true
 groupedTaskVisualization=2
 launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 maxStripes=1
@@ -354,6 +355,7 @@ DialogWidth=760
 
 [Containments][3][Applets][147][Configuration][General]
 highlightWindows=false
+forceStripes=true
 groupedTaskVisualization=2
 launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 maxStripes=1
@@ -536,6 +538,7 @@ DialogWidth=760
 
 [Containments][4][Applets][151][Configuration][General]
 highlightWindows=false
+forceStripes=true
 groupedTaskVisualization=2
 launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 maxStripes=1
@@ -743,6 +746,7 @@ DialogWidth=760
 
 [Containments][5][Applets][145][Configuration][General]
 highlightWindows=false
+forceStripes=true
 groupedTaskVisualization=2
 launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 maxStripes=1
@@ -851,6 +855,7 @@ DialogWidth=760
 
 [Containments][6][Applets][149][Configuration][General]
 highlightWindows=false
+forceStripes=true
 groupedTaskVisualization=2
 launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 maxStripes=1
@@ -1192,6 +1197,7 @@ DialogWidth=760
 
 [Containments][8][Applets][142][Configuration][General]
 highlightWindows=false
+forceStripes=true
 groupedTaskVisualization=2
 launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 maxStripes=1
