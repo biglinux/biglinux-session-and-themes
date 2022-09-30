@@ -23,6 +23,10 @@ MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
 
+[Effect-mouseclick]
+RingLife=400
+ShowText=false
+
 [Effect-overview]
 BorderActivate=7
 
@@ -41,6 +45,7 @@ wobblywindowsEnabled=true
 kwin4_effect_lightlyshadersEnabled=false
 kwin4_effect_shapecornersEnabled=false
 kwin4_effect_translucencyEnabled=false
+mouseclickEnabled=true
 screenedgeEnabled=false
 
 [TabBox]

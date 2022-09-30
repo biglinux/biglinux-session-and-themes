@@ -12,7 +12,6 @@ Id_4=5a9c02fb-73f3-452a-969d-fc875cb3439f
 Number=4
 Rows=1
 
-
 [Effect-PresentWindows]
 BorderActivate=7
 BorderActivateAll=9
@@ -22,6 +21,10 @@ Drag=70
 MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
+
+[Effect-mouseclick]
+RingLife=400
+ShowText=false
 
 [Effect-overview]
 BorderActivate=7
@@ -41,6 +44,7 @@ blurEnabled=true
 kwin4_effect_lightlyshadersEnabled=false
 kwin4_effect_shapecornersEnabled=false
 kwin4_effect_translucencyEnabled=false
+mouseclickEnabled=true
 screenedgeEnabled=false
 
 [TabBox]
