@@ -19,12 +19,13 @@ if [ "$1" = "wayland" ]; then
     export SDL_VIDEODRIVER=wayland
     export QT_XCB_GL_INTEGRATION=xcb_egl
     export QSG_RENDER_LOOP=basic
+    export MOZ_ENABLE_WAYLAND=1
 
 else
     export GDK_BACKEND=x11
     export GSK_RENDERER=cairo
     export KWIN_EFFECTS_FORCE_ANIMATIONS=1
-
+    export MOZ_USE_XINPUT2=1
     # Nvidia tweak
     if [ "$(lsmod | grep nvidia_drm)" != "" ]; then
         export __GL_MaxFramesAllowed=1
