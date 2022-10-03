@@ -10,12 +10,12 @@
 if [ "$1" = "on" ]; then
    echo > "$HOME/.config/ledkeyboard"
    xset led named "Scroll Lock"
-   xset led
+   #xset led
 
 elif [ "$1" = "off" ]; then
    rm -f "$HOME/.config/ledkeyboard"
    xset -led named "Scroll Lock"
-   xset -led
+   #xset -led
 else
 
    Led_on=$(xset -q | grep -o 'Scroll Lock:.*')
