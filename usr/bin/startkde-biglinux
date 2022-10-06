@@ -159,6 +159,13 @@ if [ ! -e "$HOME/.big_performance" ]; then
     kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Enabled true
 fi
 
+# Alert if free space is low than 5000
+if [ ! -e "$HOME/.config/freespacenotifierrc" ] && [ ! -e "/livefs-pkgs.txt" ]; then
+    echo '[General]
+minimumSpace=5000' > "$HOME/.config/freespacenotifierrc"
+fi
+
+
 if [ "$(grep -i 'SingleClick=' ~/.config/kdeglobals)" = "" ]; then
     kwriteconfig5 --group KDE --key SingleClick true
 fi
