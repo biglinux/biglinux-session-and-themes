@@ -27,7 +27,7 @@ Stiffness=2
 WobblynessLevel=2
 
 [Effect-blur]
-BlurStrength=8
+BlurStrength=6
 NoiseStrength=0
 
 [Effect-mouseclick]
@@ -97,6 +97,6 @@ WindowSnapZone=10
 BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=MSF
-ButtonsOnRight=HIAX
+ButtonsOnRight=IAX
 library=org.kde.klassy
 theme=Klassy

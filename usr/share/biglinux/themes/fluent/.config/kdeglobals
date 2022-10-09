@@ -140,11 +140,13 @@ DirSelectDialog Size=850,584
 History Items[$e]=
 
 [General]
+ColorScheme=FluentLight
 ColorSchemeHash=4c1beebf700b04b4ad0ab21e77d3a7595111d09d
 Name[pt_BR]=Breeze Light
 Name=Breeze Light
 XftHintStyle=hintslight
 XftSubPixel=rgb
+accentColorFromWallpaper=false
 fixed=Ubuntu Mono,13,-1,5,50,0,0,0,0,0
 font=Lato Medium,11,-1,5,63,0,0,0,0,0,Regular
 menuFont=Lato Medium,11,-1,5,63,0,0,0,0,0,Regular
