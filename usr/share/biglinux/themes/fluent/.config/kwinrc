@@ -27,7 +27,7 @@ Stiffness=2
 WobblynessLevel=2
 
 [Effect-blur]
-BlurStrength=6
+BlurStrength=8
 NoiseStrength=0
 
 [Effect-mouseclick]
