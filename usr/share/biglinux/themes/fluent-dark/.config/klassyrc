@@ -1,9 +1,10 @@
 [Common]
-ActiveTitlebarOpacity=80
+ActiveTitlebarOpacity=70
 AlwaysShowIconHighlightUsing=AlwaysShowIconHighlightUsingBackground
+ApplyOpacityToHeader=false
 ButtonIconStyle=StyleSystemIconTheme
 ButtonShape=ShapeSmallCircle
-InactiveTitlebarOpacity=80
+InactiveTitlebarOpacity=70
 ShadowSize=ShadowSmall
 TranslucentButtonBackgrounds=false
 
@@ -21,6 +22,7 @@ PreventApplyOpacityToHeader=true
 [Windeco]
 ButtonSpacingLeft=5
 ColorizeThinWindowOutlineWithButton=false
+CornerRadius=0.9
 IconSize=IconSmall
 OpaqueMaximizedTitlebars=false
 SystemIconSize=SystemIcon14

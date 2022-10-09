@@ -81,7 +81,7 @@ ForegroundVisited=224,64,251
 
 [Colors:Selection]
 BackgroundAlternate=82,148,226
-BackgroundNormal=0,0,0,50
+BackgroundNormal=0,120,212
 DecorationFocus=127,195,255
 DecorationHover=87,163,255
 ForegroundActive=255,128,224
@@ -89,7 +89,7 @@ ForegroundInactive=142,203,233
 ForegroundLink=138,204,244
 ForegroundNegative=156,14,14
 ForegroundNeutral=255,221,0
-ForegroundNormal=0,0,0
+ForegroundNormal=255,255,255
 ForegroundPositive=128,255,128
 ForegroundVisited=206,45,251
 
@@ -140,7 +140,7 @@ DirSelectDialog Size=850,584
 History Items[$e]=
 
 [General]
-ColorScheme=FluentLight
+ColorSchemeHash=4c1beebf700b04b4ad0ab21e77d3a7595111d09d
 Name[pt_BR]=Breeze Light
 Name=Breeze Light
 XftHintStyle=hintslight

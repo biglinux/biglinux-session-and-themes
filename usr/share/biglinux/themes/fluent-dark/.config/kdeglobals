@@ -140,7 +140,7 @@ DirSelectDialog Size=850,584
 History Items[$e]=
 
 [General]
-ColorScheme=FluentDark
+ColorSchemeHash=2823fd85d4dc3e2f05a21c28d68753f841ff70ed
 Name[pt_BR]=Breeze Light
 Name=Breeze Light
 XftHintStyle=hintslight
@@ -182,6 +182,7 @@ Show Speedbar=true
 Show hidden files=false
 Sort by=Name
 Sort directories first=true
+Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=200
 View Style=Simple

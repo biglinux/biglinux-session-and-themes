@@ -26,6 +26,10 @@ MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
 
+[Effect-blur]
+BlurStrength=8
+NoiseStrength=0
+
 [Effect-mouseclick]
 RingLife=400
 ShowText=false
@@ -37,27 +41,33 @@ BorderActivate=7
 BorderActivateAll=9
 
 [Plugins]
-overviewEnabled=true
+alwaysopenonactivescreenEnabled=true
+alwaysopenonfocusedscreenEnabled=false
+alwaysopenonprimaryscreenEnabled=false
 contrastEnabled=true
+forceblurEnabled=true
+kwin-autocomposerEnabled=true
 kwin4_effect_fadingpopupsEnabled=true
-wobblywindowsEnabled=true
 kwin4_effect_lightlyshadersEnabled=false
 kwin4_effect_shapecornersEnabled=false
 kwin4_effect_translucencyEnabled=false
 mouseclickEnabled=true
+overviewEnabled=true
 screenedgeEnabled=false
-alwaysopenonactivescreenEnabled=true
-alwaysopenonfocusedscreenEnabled=false
-alwaysopenonprimaryscreenEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
-kwin-autocomposerEnabled=true
+wobblywindowsEnabled=true
+
+[Script-forceblur]
+blurExceptMatching=true
+blurMatching=false
+patterns=
 
 [TabBox]
 ActivitiesMode=0
-DesktopMode=0
-LayoutName=coverswitch
 BorderActivate=9
 BorderAlternativeActivate=9
+DesktopMode=0
+LayoutName=coverswitch
 
 [Windows]
 ActiveMouseScreen=true
@@ -78,10 +88,10 @@ FocusPolicy=ClickToFocus
 FocusStealingPreventionLevel=0
 GeometryTip=false
 NextFocusPrefersMouse=false
+Placement=Centered
 SeparateScreenFocus=false
 SnapOnlyWhenOverlapping=false
 WindowSnapZone=10
-Placement=Centered
 
 [org.kde.kdecoration2]
 BorderSize=None
