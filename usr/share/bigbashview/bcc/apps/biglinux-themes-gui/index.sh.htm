@@ -62,7 +62,7 @@ HideGrub_text=$"Ocultar Gerenciador de Boot (GRUB)"
 NumLock_text=$"Ativar o NumLock ao ligar o sistema"
 
 Theme_change=$"Tema aplicado"
-Need_restart=$"É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
+Need_restart=$"É preciso reiniciar a sessão para concluir a configuração."
 Config_desktop=$"Configuração do Desktop"
 Desktop_detect=$"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a configuração original?"
 YES=$"Sim"
@@ -324,18 +324,9 @@ cat << EOF
               </div>
               <div class="pop-up__subtitle">$Need_restart</div>
               <div id="desc">
-                <ul id="menu">
-                  <li>
                     <div class="content-button-wrapper" style="text-align: right;">
-                      <button class="content-button close" onclick="_run('qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.closeSession')">$YES</button>
+                      <button class="content-button close">$CLOSE</button>
                     </div>
-                  </li>
-                  <li>
-                    <div class="content-button-wrapper" style="text-align: left;">
-                      <button class="content-button close">$NO</button>
-                    </div>
-                  </li>
-                </ul>
               </div>
             </div>             
             
@@ -663,18 +654,11 @@ cat << EOF
                   </div>
                   <div class="pop-up__subtitle">$Need_restart</div>
                   <div id="desc">
-                    <ul id="menu">
-                      <li>
+
                         <div class="content-button-wrapper" style="text-align: right;">
-                          <button id="btnClick" class="content-button close" onclick="_run('qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.closeSession')">$YES</button>
+                          <button id="btnClick" class="content-button close">$CLOSE</button>
                         </div>
-                      </li>
-                      <li>
-                        <div class="content-button-wrapper" style="text-align: left;">
-                          <button id="btnClick" class="content-button close">$NO</button>
-                        </div>
-                      </li>
-                    </ul>
+
                   </div>
                 </div>                                
 <!-- END RESTART SESSION -->
