@@ -203,3 +203,6 @@ msgstr "Leistung im normalen Modus!"
 
 msgid "Ligar RGB do teclado"
 msgstr "RGB über die Tastatur anschließen"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Sie müssen die Sitzung neu starten, um die Konfiguration abzuschließen."

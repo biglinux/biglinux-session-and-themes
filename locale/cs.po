@@ -203,3 +203,6 @@ msgstr "Výkon v normálním režimu!"
 
 msgid "Ligar RGB do teclado"
 msgstr "Připojení RGB z klávesnice"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Chcete-li dokončit konfiguraci, musíte relaci restartovat."

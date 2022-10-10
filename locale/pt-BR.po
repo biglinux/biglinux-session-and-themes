@@ -268,3 +268,7 @@ msgstr "Desempenho em modo normal!"
 #
 msgid "Ligar RGB do teclado"
 msgstr "Ligar RGB do teclado"
+
+#
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "É preciso reiniciar a sessão para concluir a configuração."

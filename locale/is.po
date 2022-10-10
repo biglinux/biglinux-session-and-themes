@@ -201,3 +201,6 @@ msgstr "Flutningur í venjulegri stillingu!"
 
 msgid "Ligar RGB do teclado"
 msgstr "Tengdu RGB við lyklaborð"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Þú verður að endurræsa setuna til að ljúka uppsetningunni."

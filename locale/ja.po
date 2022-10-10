@@ -197,3 +197,6 @@ msgstr "ノーマルモードでのパフォーマンス!"
 
 msgid "Ligar RGB do teclado"
 msgstr "キーボードからRGBを接続する"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "構成を完了するには、セッションを再始動する必要があります。"

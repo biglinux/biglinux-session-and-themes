@@ -203,3 +203,6 @@ msgstr "Prestanda i normalt läge!"
 
 msgid "Ligar RGB do teclado"
 msgstr "Anslut RGB från tangentbordet"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Du måste starta om sessionen för att slutföra konfigurationen."

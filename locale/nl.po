@@ -203,3 +203,6 @@ msgstr "Prestaties in de normale modus!"
 
 msgid "Ligar RGB do teclado"
 msgstr "RGB aansluiten vanaf het toetsenbord"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "U moet de sessie opnieuw starten om de configuratie te voltooien."

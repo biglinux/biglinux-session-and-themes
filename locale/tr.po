@@ -203,3 +203,6 @@ msgstr "Normal modda performans!"
 
 msgid "Ligar RGB do teclado"
 msgstr "RGB'yi klavyeden bağlama"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Yapılandırmayı tamamlamak için oturumu yeniden başlatmanız gerekir."

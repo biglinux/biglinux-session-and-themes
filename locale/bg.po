@@ -203,3 +203,6 @@ msgstr "Изпълнение в нормален режим!"
 
 msgid "Ligar RGB do teclado"
 msgstr "Свържете RGB от клавиатурата"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Трябва да рестартирате сесията, за да завършите конфигурацията."

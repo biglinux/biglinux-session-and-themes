@@ -197,3 +197,6 @@ msgstr "正常模式下的表现!"
 
 msgid "Ligar RGB do teclado"
 msgstr "从键盘连接红绿蓝"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "您必须重新启动会话才能完成配置。"

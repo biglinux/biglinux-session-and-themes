@@ -205,3 +205,6 @@ msgstr "Suorituskyky normaalitilassa!"
 
 msgid "Ligar RGB do teclado"
 msgstr "Yhdistä RGB näppäimistöltä"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Sinun on käynnistettävä istunto uudelleen, jotta määritys voidaan suorittaa loppuun."

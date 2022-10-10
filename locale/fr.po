@@ -205,3 +205,6 @@ msgstr "Performance en mode normal !"
 
 msgid "Ligar RGB do teclado"
 msgstr "Connecter RVB à partir du clavier"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Vous devez redémarrer la session pour terminer la configuration."
