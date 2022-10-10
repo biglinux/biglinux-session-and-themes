@@ -18,6 +18,8 @@ case "$1" in
     rm -Rf ~/.cache/icon-cache.kcache
     rm -R ~/.cache/kcmshell5
 
+    # Change color on the fly
+    plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
 	#Confere se o arquivo, diretório, link, ou arquivo especial NÃO existe
     if [ -e "$folder/$2" ]; then
         cp -Rf $folder/$2/. "$HOME"
