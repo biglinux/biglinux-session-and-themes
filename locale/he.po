@@ -197,3 +197,6 @@ msgstr "ביצועים במצב רגיל!"
 
 msgid "Ligar RGB do teclado"
 msgstr "חיבור RGB מהמקלדת"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "עליך להפעיל מחדש את ההפעלה כדי להשלים את התצורה."

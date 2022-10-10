@@ -203,3 +203,6 @@ msgstr "Rendimiento en modo normal!"
 
 msgid "Ligar RGB do teclado"
 msgstr "Conectar RGB desde el teclado"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Debe reiniciar la sesión para completar la configuración."

@@ -203,3 +203,6 @@ msgstr "Tulemuslikkus tavarežiimis!"
 
 msgid "Ligar RGB do teclado"
 msgstr "Ühendage RGB klaviatuurilt"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Konfigureerimise lõpuleviimiseks peate seansi taaskäivitama."

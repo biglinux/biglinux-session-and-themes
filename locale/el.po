@@ -205,3 +205,6 @@ msgstr "Απόδοση σε κανονική λειτουργία!"
 
 msgid "Ligar RGB do teclado"
 msgstr "Σύνδεση RGB από πληκτρολόγιο"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Πρέπει να επανεκκινήσετε την περίοδο λειτουργίας για να ολοκληρώσετε τη ρύθμιση παραμέτρων."

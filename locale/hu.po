@@ -203,3 +203,6 @@ msgstr "Teljesítmény normál üzemmódban!"
 
 msgid "Ligar RGB do teclado"
 msgstr "RGB csatlakoztatása a billentyűzetről"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "A konfiguráció befejezéséhez újra kell indítania a munkamenetet."

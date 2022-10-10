@@ -203,3 +203,6 @@ msgstr "Ydelse i normal tilstand!"
 
 msgid "Ligar RGB do teclado"
 msgstr "Tilslut RGB fra tastaturet"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Du skal genstarte sessionen for at fuldføre konfigurationen."

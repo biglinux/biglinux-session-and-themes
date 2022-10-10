@@ -238,3 +238,7 @@ msgstr  ""
 #
 msgid   "Ligar RGB do teclado"
 msgstr  ""
+
+#
+msgid   "É preciso reiniciar a sessão para concluir a configuração."
+msgstr  ""

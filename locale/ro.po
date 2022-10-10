@@ -203,3 +203,6 @@ msgstr "Performanță în modul normal!"
 
 msgid "Ligar RGB do teclado"
 msgstr "Conectați RGB de la tastatură"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Trebuie să reporniți sesiunea pentru a finaliza configurația."
