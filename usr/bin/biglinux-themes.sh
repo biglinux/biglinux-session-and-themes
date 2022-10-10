@@ -119,10 +119,10 @@ case "$1" in
         fi
 
         #Change blur in real machine
-        if [ "$(systemd-detect-virt)" = "none" ]
-		then
-            sed -i 's|BlurStrength=4|BlurStrength=8|g;s|BlurStrength=3|BlurStrength=8|g' ~/.config/kwinrc
-		fi        
+#         if [ "$(systemd-detect-virt)" = "none" ]
+# 		then
+#             sed -i 's|BlurStrength=4|BlurStrength=8|g;s|BlurStrength=3|BlurStrength=8|g' ~/.config/kwinrc
+# 		fi        
 
         if [ "$(ps -e | grep kwin)" != "" ]
 		then

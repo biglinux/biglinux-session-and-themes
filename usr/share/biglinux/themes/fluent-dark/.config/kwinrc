@@ -12,9 +12,12 @@ Id_4=5a9c02fb-73f3-452a-969d-fc875cb3439f
 Number=4
 Rows=1
 
-
 [Effect-Blur]
-BlurStrength=4
+BlurStrength=10
+NoiseStrength=0
+
+[Effect-blur]
+BlurStrength=10
 NoiseStrength=0
 
 [Effect-PresentWindows]

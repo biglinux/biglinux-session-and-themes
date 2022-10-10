@@ -14,7 +14,11 @@ Rows=1
 
 
 [Effect-Blur]
-BlurStrength=4
+BlurStrength=10
+NoiseStrength=0
+
+[Effect-blur]
+BlurStrength=10
 NoiseStrength=0
 
 [Effect-PresentWindows]
