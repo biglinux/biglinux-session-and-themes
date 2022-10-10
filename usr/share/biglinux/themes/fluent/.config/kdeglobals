@@ -160,7 +160,7 @@ Theme=Fluent
 
 [KDE]
 AnimationDurationFactor=0.5
-ColorScheme=Breeze
+ColorScheme=FluentLight
 LookAndFeelPackage=org.kde.breeze.desktop
 ShowDeleteCommand=true
 ShowIconsInMenuItems=true

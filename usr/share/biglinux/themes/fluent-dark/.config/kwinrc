@@ -40,6 +40,7 @@ BorderActivateAll=9
 [Plugins]
 overviewEnabled=true
 contrastEnabled=true
+forceblurEnabled=true
 kwin4_effect_fadingpopupsEnabled=true
 wobblywindowsEnabled=true
 kwin4_effect_lightlyshadersEnabled=false
@@ -52,6 +53,11 @@ alwaysopenonfocusedscreenEnabled=false
 alwaysopenonprimaryscreenEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
 kwin-autocomposerEnabled=true
+
+[Script-forceblur]
+blurExceptMatching=true
+blurMatching=false
+patterns=
 
 [TabBox]
 ActivitiesMode=0
