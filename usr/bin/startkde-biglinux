@@ -239,72 +239,75 @@ fi
 #     systemctl --user start lattedock
 # fi
 
-# # Less transparent Fluent plasma theme if dont have 3d accel
-# if [ "$(glxinfo | grep llvmpipe)" = "" ]; then
-#     rm -Rf ~/.local/share/plasma/desktoptheme/Fluent/
-#     rm -Rf ~/.local/share/plasma/desktoptheme/Fluent-round/
-#     #export KWIN_EFFECTS_FORCE_ANIMATIONS=1
-# else
-# #     export QT_QUICK_BACKEND=software
-# #     export QSG_RENDER_LOOP=basic
-# #     export MESA_NO_ERROR=1
-# #     export MESA_SHADER_CACHE_DISABLE=true
-# #     export MESA_XSYNC=0
-# #     export LIBGL_ALWAYS_SOFTWARE=1
-# #     export DRI_NO_MSAA=1
-# #     export MESA_GL_VERSION_OVERRIDE=4.4
-# #     export MESA_GLSL_VERSION_OVERRIDE=120
-#     #export GALLIUM_DRIVER=swrast
-#     mkdir -p ~/.local/share/plasma/desktoptheme/Fluent
-#     echo '[Desktop Entry]
-# Name=Fluent
-# Comment=Fluent theme for plasma
-# 
-# X-KDE-PluginInfo-Author=Vince Liuice
-# X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
-# X-KDE-PluginInfo-Name=Fluent
-# X-KDE-PluginInfo-Version=5.78.0
-# X-KDE-PluginInfo-Website=https://plasma.kde.org
-# X-KDE-PluginInfo-Category=
-# X-KDE-PluginInfo-License=LGPL
-# X-KDE-PluginInfo-EnabledByDefault=true
-# X-Plasma-API=5.0
-# 
-# [ContrastEffect]
-# enabled=true
-# contrast=0.25
-# intensity=1
-# saturation=5
-# 
-# [AdaptiveTransparency]
-# enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent/metadata.desktop
-# 
-#     mkdir -p ~/.local/share/plasma/desktoptheme/Fluent-round
-# 
-#     echo '[Desktop Entry]
-# Name=Fluent-round
-# Comment=Fluent theme for plasma
-# 
-# X-KDE-PluginInfo-Author=Vince Liuice
-# X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
-# X-KDE-PluginInfo-Name=Fluent-round
-# X-KDE-PluginInfo-Version=5.78.0
-# X-KDE-PluginInfo-Website=https://plasma.kde.org
-# X-KDE-PluginInfo-Category=
-# X-KDE-PluginInfo-License=LGPL
-# X-KDE-PluginInfo-EnabledByDefault=true
-# X-Plasma-API=5.0
-# 
-# [ContrastEffect]
-# enabled=true
-# contrast=0.25
-# intensity=1
-# saturation=5
-# 
-# [AdaptiveTransparency]
-# enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent-round/metadata.desktop
-# 
-# fi
+
+
+
+# Less transparent Fluent plasma theme if dont have 3d accel
+if [ "$(glxinfo | grep llvmpipe)" = "" ]; then
+    rm -Rf ~/.local/share/plasma/desktoptheme/Fluent/
+    rm -Rf ~/.local/share/plasma/desktoptheme/Fluent-round/
+    #export KWIN_EFFECTS_FORCE_ANIMATIONS=1
+else
+#     export QT_QUICK_BACKEND=software
+#     export QSG_RENDER_LOOP=basic
+#     export MESA_NO_ERROR=1
+#     export MESA_SHADER_CACHE_DISABLE=true
+#     export MESA_XSYNC=0
+#     export LIBGL_ALWAYS_SOFTWARE=1
+#     export DRI_NO_MSAA=1
+#     export MESA_GL_VERSION_OVERRIDE=4.4
+#     export MESA_GLSL_VERSION_OVERRIDE=120
+    #export GALLIUM_DRIVER=swrast
+    mkdir -p ~/.local/share/plasma/desktoptheme/Fluent
+    echo '[Desktop Entry]
+Name=Fluent
+Comment=Fluent theme for plasma
+
+X-KDE-PluginInfo-Author=Vince Liuice
+X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
+X-KDE-PluginInfo-Name=Fluent
+X-KDE-PluginInfo-Version=5.78.0
+X-KDE-PluginInfo-Website=https://plasma.kde.org
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-License=LGPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[ContrastEffect]
+enabled=true
+contrast=0.25
+intensity=1
+saturation=5
+
+[AdaptiveTransparency]
+enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent/metadata.desktop
+
+    mkdir -p ~/.local/share/plasma/desktoptheme/Fluent-round
+
+    echo '[Desktop Entry]
+Name=Fluent-round
+Comment=Fluent theme for plasma
+
+X-KDE-PluginInfo-Author=Vince Liuice
+X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
+X-KDE-PluginInfo-Name=Fluent-round
+X-KDE-PluginInfo-Version=5.78.0
+X-KDE-PluginInfo-Website=https://plasma.kde.org
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-License=LGPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[ContrastEffect]
+enabled=true
+contrast=0.25
+intensity=1
+saturation=5
+
+[AdaptiveTransparency]
+enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent-round/metadata.desktop
+
+fi
 
 
 QSG_RENDER_LOOP=basic exec $STARTPLASMA

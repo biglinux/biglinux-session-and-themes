@@ -140,7 +140,8 @@ DirSelectDialog Size=850,584
 History Items[$e]=
 
 [General]
-ColorSchemeHash=4c1beebf700b04b4ad0ab21e77d3a7595111d09d
+ColorScheme=FluentLight
+ColorSchemeHash=2823fd85d4dc3e2f05a21c28d68753f841ff70ed
 Name[pt_BR]=Breeze Light
 Name=Breeze Light
 XftHintStyle=hintslight
