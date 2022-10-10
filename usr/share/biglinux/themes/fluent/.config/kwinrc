@@ -55,7 +55,6 @@ mouseclickEnabled=true
 overviewEnabled=true
 screenedgeEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
-wobblywindowsEnabled=true
 
 [Script-forceblur]
 blurExceptMatching=true
