@@ -32,3 +32,14 @@ TitlebarRightMargin=3
 TitlebarSideMargins=3
 UseTitlebarColorForAllBorders=false
 thinWindowOutlineStyle=WindowOutlineBlendToShadow
+
+[Windeco Exception 0]
+BorderSize=1
+Enabled=true
+ExceptionProgramNamePattern=
+ExceptionWindowPropertyPattern=LibreOffice\s
+ExceptionWindowPropertyType=1
+HideTitleBar=false
+Mask=0
+OpaqueTitleBar=true
+PreventApplyOpacityToHeader=false
