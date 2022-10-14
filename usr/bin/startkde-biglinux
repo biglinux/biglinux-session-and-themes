@@ -3,6 +3,12 @@
 
 STARTPLASMA=startplasma-x11
 
+RESOLUTION="$(xdpyinfo | awk '/dimensions/ {print $2}')"
+SCREEN="$(xrandr | grep 'connected primary' | cut -f1 -d" ")"
+WIDTH=${RESOLUTION//x*}
+HEIGHT=${RESOLUTION//*x}
+
+
 # To libreoffice use gtk theme
 export SAL_USE_VCLPLUGIN=gtk3_kde5
 
@@ -41,7 +47,12 @@ fi
 GTK_USE_PORTAL=1
 
 #Faster AMD GPU
+if [ $HEIGHT -gt 1400 ]  2>/dev/null; then
 export RADV_FORCE_VRS=2x2
+else
+export RADV_FORCE_VRS=1x1
+fi
+
 #export RADV_PERFTEST=sam,ngcc
 
 #Best wine scale
@@ -178,14 +189,6 @@ fi
 
 
 # Fix dolphin and konsole size
-
-RESOLUTION="$(xdpyinfo | awk '/dimensions/ {print $2}')"
-SCREEN="$(xrandr | grep 'connected primary' | cut -f1 -d" ")"
-
-WIDTH="$(echo "$RESOLUTION"| cut -f1 -dx)"
-
-HEIGHT="$(echo "$RESOLUTION"| cut -f2 -dx)"
-
 WINDOW_HEIGHT="$(($HEIGHT - $(($HEIGHT / 3))))"
 
 WINDOW_WIDTH="$(($WIDTH - $(($WIDTH / 3))))"
