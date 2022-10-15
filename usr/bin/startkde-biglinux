@@ -43,6 +43,11 @@ else
 
 fi
 
+# Force language
+if [ "$LANGUAGE" = "" ]; then
+export LANGUAGE=$LANG
+fi
+
 # Use KDE dialog in some GTK apps like Firefox
 GTK_USE_PORTAL=1
 
