@@ -206,3 +206,15 @@ msgstr "RGB aansluiten vanaf het toetsenbord"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "U moet de sessie opnieuw starten om de configuratie te voltooien."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Pas op dat je de toegang tot SnapShots verliest, weet je zeker dat je de grub wilt verbergen?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Weet je hoe je Grub kunt retourneren in geval van falen?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Heb je toegang tot SnapShots zonder toegang tot de Graph-modus?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Ben je helemaal zeker van deze toepassing?"

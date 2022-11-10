@@ -206,3 +206,15 @@ msgstr "Anslut RGB från tangentbordet"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Du måste starta om sessionen för att slutföra konfigurationen."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Se upp för att du kommer att förlora åtkomst till SnapShots, är du säker på att du vill dölja grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Kommer du att veta hur du returnerar Grub vid fel?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Kommer du att kunna komma åt SnapShots utan tillgång till Graph-läge?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Är du helt säker på den här applikationen?"

@@ -200,3 +200,15 @@ msgstr "从键盘连接红绿蓝"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "您必须重新启动会话才能完成配置。"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "请注意，您将无法访问SnapShots，您确定要隐藏grub吗？"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "您知道如何在发生故障时返回 Grub 吗？"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "您是否能够在不访问图形模式的情况下访问快照？"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "您完全确定此应用程序吗？"

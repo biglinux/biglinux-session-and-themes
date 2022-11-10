@@ -200,3 +200,15 @@ msgstr "キーボードからRGBを接続する"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "構成を完了するには、セッションを再始動する必要があります。"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "スナップショットにアクセスできなくなることに注意してください、グラブを非表示にしてもよろしいですか?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "失敗した場合にGrubを返す方法を知っていますか?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "グラフモードにアクセスせずにスナップショットにアクセスできますか?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "あなたはこのアプリケーションを完全に確信していますか?"

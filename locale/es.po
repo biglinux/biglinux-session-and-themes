@@ -206,3 +206,15 @@ msgstr "Conectar RGB desde el teclado"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Debe reiniciar la sesión para completar la configuración."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Tenga en cuenta que perderá el acceso a SnapShots, ¿está seguro de que desea ocultar la larva?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "¿Sabrás cómo devolver Grub en caso de fallo?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "¿Podrá acceder a SnapShots sin acceso al modo Gráfico?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "¿Estás completamente seguro de esta aplicación?"

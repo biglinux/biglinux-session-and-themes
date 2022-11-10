@@ -206,3 +206,15 @@ msgstr "Povezivanje RGB-a s tipkovnice"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Da biste dovršili konfiguraciju, morate ponovo pokrenuti sesiju."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Pazite da ćete izgubiti pristup SnapShotovima, jeste li sigurni da želite sakriti grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Hoćete li znati kako vratiti Gruba u slučaju neuspjeha?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Hoćete li moći pristupiti snimkama bez pristupa načinu rada Graph?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Jeste li potpuno sigurni u ovu aplikaciju?"

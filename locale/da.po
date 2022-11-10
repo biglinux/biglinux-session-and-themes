@@ -206,3 +206,15 @@ msgstr "Tilslut RGB fra tastaturet"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Du skal genstarte sessionen for at fuldføre konfigurationen."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Pas på, at du mister adgangen til SnapShots, er du sikker på, at du vil skjule grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Ved du, hvordan du returnerer Grub i tilfælde af fiasko?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Vil du være i stand til at få adgang til SnapShots uden adgang til graftilstand?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Er du helt sikker på denne applikation?"

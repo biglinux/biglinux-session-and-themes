@@ -206,3 +206,17 @@ msgstr "RGB über die Tastatur anschließen"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Sie müssen die Sitzung neu starten, um die Konfiguration abzuschließen."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr ""
+"Vorsicht, dass Sie den Zugriff auf SnapShots verlieren, sind Sie sicher, dass Sie das Essen "
+"verstecken möchten?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Wissen Sie, wie Sie Grub im Falle eines Fehlers zurückgeben können?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Können Sie auf SnapShots zugreifen, ohne auf den Graph-Modus zuzugreifen?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Sind Sie sich bei dieser Anwendung ganz sicher?"

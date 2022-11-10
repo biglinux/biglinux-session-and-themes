@@ -200,3 +200,15 @@ msgstr "חיבור RGB מהמקלדת"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "עליך להפעיל מחדש את ההפעלה כדי להשלים את התצורה."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "היזהר שתאבד את הגישה ל- SnapShots, האם אתה בטוח שאתה רוצה להסתיר את הגרגר?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "האם תדעו להחזיר את Grub במקרה של כישלון?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "האם תוכל לגשת ל- SnapShots ללא גישה למצב גרף?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "האם אתה בטוח לחלוטין ביישום זה?"

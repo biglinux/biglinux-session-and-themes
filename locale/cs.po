@@ -206,3 +206,15 @@ msgstr "Připojení RGB z klávesnice"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Chcete-li dokončit konfiguraci, musíte relaci restartovat."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Dejte si pozor, že ztratíte přístup k SnapShots, jste si jisti, že chcete skrýt grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Budete vědět, jak vrátit Grub v případě selhání?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Budete mít přístup k SnapShots bez přístupu k režimu Graph?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Jste si touto aplikací zcela jisti?"

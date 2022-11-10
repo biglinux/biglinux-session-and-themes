@@ -200,3 +200,15 @@ msgstr "키보드에서 RGB 연결"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "구성을 완료하려면 세션을 다시 시작해야 합니다."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "SnapShots에 대한 액세스 권한을 잃을 수 있으므로 땅벌레를 숨기고 싶습니까?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "실패시 Grub을 반환하는 방법을 알고 있습니까?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "그래프 모드에 액세스하지 않고도 SnapShot에 액세스할 수 있습니까?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "이 응용 프로그램을 완전히 확신합니까?"

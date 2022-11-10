@@ -206,3 +206,15 @@ msgstr "Conectați RGB de la tastatură"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Trebuie să reporniți sesiunea pentru a finaliza configurația."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Feriți-vă că veți pierde accesul la SnapShots, sunteți sigur că doriți să ascundeți grub-ul?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Veți ști cum să returnați Grub în caz de eșec?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Veți putea accesa SnapShots fără acces la modul Grafic?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Sunteți complet sigur de această aplicație?"

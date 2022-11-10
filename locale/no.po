@@ -206,3 +206,15 @@ msgstr "Koble RGB fra tastaturet"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Du må starte økten på nytt for å fullføre konfigurasjonen."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Pass på at du mister tilgangen til SnapShots, er du sikker på at du vil skjule grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Vil du vite hvordan du returnerer Grub i tilfelle feil?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Vil du kunne få tilgang til SnapShots uten tilgang til Graph-modus?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Er du helt sikker på denne applikasjonen?"

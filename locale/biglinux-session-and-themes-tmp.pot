@@ -195,3 +195,15 @@ msgstr  ""
 #
 msgid   "É preciso reiniciar a sessão para concluir a configuração."
 msgstr  ""
+#
+msgid   "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr  ""
+#
+msgid   "Você saberá retornar o Grub em caso de falha?"
+msgstr  ""
+#
+msgid   "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr  ""
+#
+msgid   "Você está completamente seguro dessa aplicação?"
+msgstr  ""

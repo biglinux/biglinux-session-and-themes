@@ -208,3 +208,15 @@ msgstr "Connecter RVB à partir du clavier"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Vous devez redémarrer la session pour terminer la configuration."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Attention, vous perdrez l’accès aux SnapShots, êtes-vous sûr de vouloir cacher le larves?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Saurez-vous rendre Grub en cas d’échec ?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Serez-vous en mesure d’accéder à SnapShots sans accès au mode Graphique?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Êtes-vous complètement sûr de cette application?"

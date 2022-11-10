@@ -204,3 +204,15 @@ msgstr "Підключення RGB з клавіатури"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Ви повинні перезапустити сеанс, щоб завершити налаштування."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Остерігайтеся, що ви втратите доступ до SnapShots, ви впевнені, що хочете приховати образу?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Чи будете ви знати, як повернути Grub в разі невдачі?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Чи зможете ви отримати доступ до знімків без доступу до режиму графіка?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Ви повністю впевнені в цій програмі?"

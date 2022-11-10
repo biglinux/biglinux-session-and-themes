@@ -206,3 +206,15 @@ msgstr "RGB'yi klavyeden bağlama"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Yapılandırmayı tamamlamak için oturumu yeniden başlatmanız gerekir."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "SnapShot'lara erişiminizi kaybedeceğinize dikkat edin, grubu gizlemek istediğinizden emin misiniz?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Başarısızlık durumunda Grub'u nasıl iade edeceğinizi bilecek misiniz?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Grafik moduna erişmeden SnapShots'a erişebilecek misiniz?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Bu uygulamadan tamamen emin misiniz?"

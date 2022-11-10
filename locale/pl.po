@@ -206,3 +206,15 @@ msgstr "Podłącz RGB z klawiatury"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Aby ukończyć konfigurację, należy ponownie uruchomić sesję."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Uważaj, stracisz dostęp do SnapShots, czy na pewno chcesz ukryć gruba?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Czy będziesz wiedział, jak zwrócić Gruba w przypadku awarii?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Czy będziesz mieć dostęp do SnapShots bez dostępu do trybu Graph?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Czy jesteś całkowicie pewien tej aplikacji?"

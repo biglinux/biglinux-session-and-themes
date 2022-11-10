@@ -206,3 +206,15 @@ msgstr "Ühendage RGB klaviatuurilt"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Konfigureerimise lõpuleviimiseks peate seansi taaskäivitama."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Ettevaatust, et kaotate juurdepääsu SnapShotsile, kas olete kindel, et soovite grubi varjata?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Kas teate, kuidas Grubi ebaõnnestumise korral tagastada?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Kas pääsete SnapShotsile juurde ilma graafikurežiimile juurdepääsuta?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Kas olete selles rakenduses täiesti kindel?"

@@ -206,3 +206,15 @@ msgstr "RGB csatlakoztatása a billentyűzetről"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "A konfiguráció befejezéséhez újra kell indítania a munkamenetet."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Vigyázzon, elveszíti hozzáférését a SnapShots-hoz, biztos benne, hogy el akarja rejteni a grubot?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Tudni fogja, hogyan kell visszaadni a Grub-ot hiba esetén?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Képes lesz hozzáférni a SnapShots-hoz anélkül, hogy hozzáférne a Graph módhoz?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Teljesen biztos ebben az alkalmazásban?"

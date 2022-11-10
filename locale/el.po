@@ -208,3 +208,15 @@ msgstr "Σύνδεση RGB από πληκτρολόγιο"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Πρέπει να επανεκκινήσετε την περίοδο λειτουργίας για να ολοκληρώσετε τη ρύθμιση παραμέτρων."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Προσέξτε ότι θα χάσετε την πρόσβαση στο SnapShots, είστε σίγουροι ότι θέλετε να κρύψετε το grub;"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Θα ξέρετε πώς να επιστρέψετε το Grub σε περίπτωση αποτυχίας;"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Θα μπορείτε να έχετε πρόσβαση στο SnapShots χωρίς πρόσβαση στη λειτουργία γραφήματος;"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Είστε απόλυτα σίγουροι για αυτήν την εφαρμογή;"

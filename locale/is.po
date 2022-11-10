@@ -204,3 +204,15 @@ msgstr "Tengdu RGB við lyklaborð"
 
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Þú verður að endurræsa setuna til að ljúka uppsetningunni."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Varist að þú missir aðgang að SnapShots, ertu viss um að þú viljir fela matinn?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Veistu hvernig á að skila Grub ef bilun verður?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Munt þú geta fengið aðgang að SnapShots án þess að hafa aðgang að grafham?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Ertu alveg viss um þetta forrit?"
