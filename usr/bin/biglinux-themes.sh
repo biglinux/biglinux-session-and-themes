@@ -142,8 +142,12 @@ case "$1" in
 
                 # Clean icon theme and apply again to fix kwin buttons
                 kwriteconfig5 --group Icons --key Theme ""
-                /usr/lib/plasma-changeicons $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
-
+                if [ "$(cat "$HOME/.kdebiglinux/lastused")" = "vanilla" ]; then
+                    /usr/lib/plasma-changeicons breeze
+                else
+                    /usr/lib/plasma-changeicons $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
+                fi
+                    
     #          kdialog --msgbox "Icone: $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
     #          GTK: $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)"
 

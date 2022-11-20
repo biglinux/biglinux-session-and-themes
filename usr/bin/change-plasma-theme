@@ -135,6 +135,10 @@ if [ "$2" = "classic" ]; then
     sed -i "s|url=file:///usr/share/applications/brave-browser.desktop|url=file:///usr/share/applications/$DEFAULTWEB|" ~/.config/plasma-org.kde.plasma.desktop-appletsrc
 fi
 
+if [ "$2" = "vanilla" ]; then
+    kwriteconfig5 --file ~/.config/kdeglobals --group Icons --key "Theme" "breeze"
+fi
+
 
 if [ "$3" = "quiet" ] || [ "$4" = "quiet" ]; then
     echo "No start services"
