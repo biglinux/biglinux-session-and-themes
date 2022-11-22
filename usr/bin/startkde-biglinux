@@ -57,8 +57,7 @@ export RADV_FORCE_VRS=2x2
 else
 export RADV_FORCE_VRS=1x1
 fi
-
-#export RADV_PERFTEST=sam,ngcc
+export RADV_PERFTEST=sam,nggc,ext_ms
 
 #Best wine scale
 export WINE_FULLSCREEN_FSR=1
