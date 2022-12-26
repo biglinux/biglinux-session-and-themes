@@ -3,6 +3,9 @@
 
 STARTPLASMA=startplasma-x11
 
+# Fix to open/save dialog em gtk apps
+export QT_NO_XDG_DESKTOP_PORTAL=1
+
 RESOLUTION="$(xdpyinfo | awk '/dimensions/ {print $2}')"
 SCREEN="$(xrandr | grep 'connected primary' | cut -f1 -d" ")"
 WIDTH=${RESOLUTION//x*}
