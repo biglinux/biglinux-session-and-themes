@@ -1,15 +1,10 @@
 [Unit]
 Description=Latte dock
-After=plasma-ksmserver.service plasma-kcminit.service plasma-xdg-desktop-portal-kde.service
-PartOf=graphical-session.target
+After=plasma-ksmserver.service
 
 [Service]
 ExecStart=/usr/bin/latte-dock-start
-Restart=always
-Type=dbus
-BusName=org.kde.lattedock
-Slice=session.slice
-TimeoutSec=1sec
+Type=simple
 
-[Install]
-WantedBy=plasma-core.target
+#[Install]
+#WantedBy=plasma-core.target
