@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "ערכות נושא, שולחן עבודה והתאמות"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "אם אתה משתמש בדפדפן, הפעל אותו מחדש כדי להחיל את השינויים."
-
-msgid "Aplicando, aguarde..."
-msgstr "הגשת מועמדות, חכה..."
-
-msgid "Concluído!"
-msgstr "לעשות!"
-
 msgid "Temas"
 msgstr "נושאים"
 
@@ -80,6 +68,9 @@ msgid ""
 "causa lentidão. Escolha a opção desejada:"
 msgstr "טען מראש טוען קבצי תוכנית לזיכרון כך שהם יתחילו במהירות. שימוש יתר גורם לאיטיות. בחר באפשרות הרצויה:"
 
+msgid "Ligar RGB do teclado"
+msgstr "חיבור RGB מהמקלדת"
+
 msgid "Automático"
 msgstr "אוטומטי"
 
@@ -128,8 +119,8 @@ msgstr "הפעל את NumLock בעת הפעלת המערכת"
 msgid "Tema aplicado"
 msgstr "נושא יישומי"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "עליך להפעיל מחדש את ההפעלה כדי להשלים את ההתקנה. רוצה לעשות את זה עכשיו?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "עליך להפעיל מחדש את ההפעלה כדי להשלים את התצורה."
 
 msgid "Configuração do Desktop"
 msgstr "הגדרת שולחן עבודה"
@@ -160,11 +151,11 @@ msgstr "מצב ביצועים"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "על ידי שימוש בעיבוד תוכנה, איכות השקפים מופחתת."
 
-msgid "Desempenho em modo performance!"
-msgstr "ביצועים במצב ביצועים!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "אם אתה משתמש בדפדפן, הפעל אותו מחדש כדי להחיל את השינויים."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "ביצועים במצב מותאם!"
+msgid "Desempenho em modo normal!"
+msgstr "ביצועים במצב רגיל!"
 
 msgid ""
 "\n"
@@ -192,15 +183,6 @@ msgstr ""
 "עבור התצורה כדי לסיים\n"
 "להיות מיושם."
 
-msgid "Desempenho em modo normal!"
-msgstr "ביצועים במצב רגיל!"
-
-msgid "Ligar RGB do teclado"
-msgstr "חיבור RGB מהמקלדת"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "עליך להפעיל מחדש את ההפעלה כדי להשלים את התצורה."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "היזהר שתאבד את הגישה ל- SnapShots, האם אתה בטוח שאתה רוצה להסתיר את הגרגר?"
 
@@ -212,3 +194,18 @@ msgstr "האם תוכל לגשת ל- SnapShots ללא גישה למצב גרף?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "האם אתה בטוח לחלוטין ביישום זה?"
+
+msgid "Aplicando, aguarde..."
+msgstr "הגשת מועמדות, חכה..."
+
+msgid "Concluído!"
+msgstr "לעשות!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "ביצועים במצב מותאם!"
+
+msgid "Desempenho em modo performance!"
+msgstr "ביצועים במצב ביצועים!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "ערכות נושא, שולחן עבודה והתאמות"

@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "テーマ、デスクトップ、設定"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "ブラウザーを使用している場合は、ブラウザーを再始動して変更を適用します。"
-
-msgid "Aplicando, aguarde..."
-msgstr "適用中、待機中..."
-
-msgid "Concluído!"
-msgstr "完成です！"
-
 msgid "Temas"
 msgstr "テーマ"
 
@@ -80,6 +68,9 @@ msgid ""
 "causa lentidão. Escolha a opção desejada:"
 msgstr "プリロードは、プログラムファイルをメモリにロードし、素早く起動できるようにします。過剰に使用すると、動作が遅くなる。希望するオプションを選択します。"
 
+msgid "Ligar RGB do teclado"
+msgstr "キーボードからRGBを接続する"
+
 msgid "Automático"
 msgstr "自動"
 
@@ -128,8 +119,8 @@ msgstr "システム起動時にNumLockを有効にする"
 msgid "Tema aplicado"
 msgstr "適用テーマ"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "設定を完了するには、再度ログインする必要があります。今すぐやりたい？"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "構成を完了するには、セッションを再始動する必要があります。"
 
 msgid "Configuração do Desktop"
 msgstr "デスクトップ構成"
@@ -160,11 +151,11 @@ msgstr "パフォーマンスモード"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "ソフトウェアレンダリングを使用すると、透明度の高い画質が低下します。"
 
-msgid "Desempenho em modo performance!"
-msgstr "パフォーマンスモードでのパフォーマンス!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "ブラウザーを使用している場合は、ブラウザーを再始動して変更を適用します。"
 
-msgid "Desempenho em modo otimizado!"
-msgstr "エンハンスドモードでのパフォーマンス!"
+msgid "Desempenho em modo normal!"
+msgstr "ノーマルモードでのパフォーマンス!"
 
 msgid ""
 "\n"
@@ -192,15 +183,6 @@ msgstr ""
 "コンフィギュレーションが終了するまでの間\n"
 "を適用しました。"
 
-msgid "Desempenho em modo normal!"
-msgstr "ノーマルモードでのパフォーマンス!"
-
-msgid "Ligar RGB do teclado"
-msgstr "キーボードからRGBを接続する"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "構成を完了するには、セッションを再始動する必要があります。"
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "スナップショットにアクセスできなくなることに注意してください、グラブを非表示にしてもよろしいですか?"
 
@@ -212,3 +194,18 @@ msgstr "グラフモードにアクセスせずにスナップショットにア
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "あなたはこのアプリケーションを完全に確信していますか?"
+
+msgid "Aplicando, aguarde..."
+msgstr "適用中、待機中..."
+
+msgid "Concluído!"
+msgstr "完成です！"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "エンハンスドモードでのパフォーマンス!"
+
+msgid "Desempenho em modo performance!"
+msgstr "パフォーマンスモードでのパフォーマンス!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "テーマ、デスクトップ、設定"

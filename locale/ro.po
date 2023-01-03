@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teme, desktop și setări"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Dacă utilizați un browser, reporniți-l pentru a aplica modificările."
-
-msgid "Aplicando, aguarde..."
-msgstr "Aplicând, așteptați..."
-
-msgid "Concluído!"
-msgstr "Făcut!"
-
 msgid "Temas"
 msgstr "Teme"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Preîncărcarea încarcă fișierele de program în memorie, astfel încât acestea să pornească rapid. "
 "Utilizarea excesivă cauzează încetiniri. Alegeți opțiunea dorită:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Conectați RGB de la tastatură"
+
 msgid "Automático"
 msgstr "Automat"
 
@@ -132,8 +123,8 @@ msgstr "Activați NumLock la pornirea sistemului"
 msgid "Tema aplicado"
 msgstr "Tema aplicată"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Trebuie să vă conectați din nou pentru a finaliza configurarea. Vrei să o faci acum?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Trebuie să reporniți sesiunea pentru a finaliza configurația."
 
 msgid "Configuração do Desktop"
 msgstr "Configurarea desktop-ului"
@@ -166,11 +157,11 @@ msgstr "Modul performanță"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Prin utilizarea randării software, calitatea transparențelor este redusă."
 
-msgid "Desempenho em modo performance!"
-msgstr "Performanță în modul performanță!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Dacă utilizați un browser, reporniți-l pentru a aplica modificările."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Performanță în modul îmbunătățit!"
+msgid "Desempenho em modo normal!"
+msgstr "Performanță în modul normal!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "pentru finalizarea configurării\n"
 "aplicat."
 
-msgid "Desempenho em modo normal!"
-msgstr "Performanță în modul normal!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Conectați RGB de la tastatură"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Trebuie să reporniți sesiunea pentru a finaliza configurația."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Feriți-vă că veți pierde accesul la SnapShots, sunteți sigur că doriți să ascundeți grub-ul?"
 
@@ -218,3 +200,18 @@ msgstr "Veți putea accesa SnapShots fără acces la modul Grafic?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Sunteți complet sigur de această aplicație?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Aplicând, așteptați..."
+
+msgid "Concluído!"
+msgstr "Făcut!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Performanță în modul îmbunătățit!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Performanță în modul performanță!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Teme, desktop și setări"

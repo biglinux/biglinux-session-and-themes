@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Temaer, skrivebord og indstillinger"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Hvis du bruger en browser, skal du genstarte den for at anvende ændringerne."
-
-msgid "Aplicando, aguarde..."
-msgstr "Ansøg, vent..."
-
-msgid "Concluído!"
-msgstr "Gjort!"
-
 msgid "Temas"
 msgstr "Temaer"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Preload indlæser programfiler i hukommelsen, så de starter hurtigt. Overdreven brug forårsager "
 "langsommere opbremsninger. Vælg den ønskede indstilling:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Tilslut RGB fra tastaturet"
+
 msgid "Automático"
 msgstr "Automatisk"
 
@@ -132,8 +123,8 @@ msgstr "Aktiver NumLock ved systemstart"
 msgid "Tema aplicado"
 msgstr "Anvendt tema"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Du skal være logget ind igen for at fuldføre konfigurationen. Vil du gøre det nu?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Du skal genstarte sessionen for at fuldføre konfigurationen."
 
 msgid "Configuração do Desktop"
 msgstr "Konfiguration af skrivebord"
@@ -166,11 +157,11 @@ msgstr "Ydeevne tilstand"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Ved brug af softwarerensning reduceres kvaliteten af transparenter."
 
-msgid "Desempenho em modo performance!"
-msgstr "Præstation i præstationstilstand!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Hvis du bruger en browser, skal du genstarte den for at anvende ændringerne."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Ydeevne i forbedret tilstand!"
+msgid "Desempenho em modo normal!"
+msgstr "Ydelse i normal tilstand!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "for at konfigurationen er færdig\n"
 "anvendes."
 
-msgid "Desempenho em modo normal!"
-msgstr "Ydelse i normal tilstand!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Tilslut RGB fra tastaturet"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Du skal genstarte sessionen for at fuldføre konfigurationen."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Pas på, at du mister adgangen til SnapShots, er du sikker på, at du vil skjule grub?"
 
@@ -218,3 +200,18 @@ msgstr "Vil du være i stand til at få adgang til SnapShots uden adgang til gra
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Er du helt sikker på denne applikation?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Ansøg, vent..."
+
+msgid "Concluído!"
+msgstr "Gjort!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Ydeevne i forbedret tilstand!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Præstation i præstationstilstand!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Temaer, skrivebord og indstillinger"

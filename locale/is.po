@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Þemu, skrifborð og klip"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ef þú ert að nota vafra skaltu endurræsa hann til að beita breytingunum."
-
-msgid "Aplicando, aguarde..."
-msgstr "Sækir um, bíddu ..."
-
-msgid "Concluído!"
-msgstr "Búinn!"
-
 msgid "Temas"
 msgstr "Topics"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Forhlaða hleðst forritaskrár í minni svo þær byrja fljótt. Ofnotkun veldur seinlæti. Veldu "
 "viðeigandi valkost:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Tengdu RGB við lyklaborð"
+
 msgid "Automático"
 msgstr "Sjálfvirkt"
 
@@ -132,8 +123,8 @@ msgstr "Virkja NumLock þegar kveikt er á kerfinu"
 msgid "Tema aplicado"
 msgstr "Notað þema"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Þú verður að endurræsa fundinn til að ljúka uppsetningunni. Viltu gera það núna?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Þú verður að endurræsa setuna til að ljúka uppsetningunni."
 
 msgid "Configuração do Desktop"
 msgstr "Desktop skipulag"
@@ -164,11 +155,11 @@ msgstr "Afkastastilling"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Með því að nota hugbúnað flutningur, gæði af the transparent minnkar."
 
-msgid "Desempenho em modo performance!"
-msgstr "Árangur í frammistöðu ham!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ef þú ert að nota vafra skaltu endurræsa hann til að beita breytingunum."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Árangur í bjartsýni ham!"
+msgid "Desempenho em modo normal!"
+msgstr "Flutningur í venjulegri stillingu!"
 
 msgid ""
 "\n"
@@ -196,15 +187,6 @@ msgstr ""
 "fyrir stillingar til að klára\n"
 "vera beitt."
 
-msgid "Desempenho em modo normal!"
-msgstr "Flutningur í venjulegri stillingu!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Tengdu RGB við lyklaborð"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Þú verður að endurræsa setuna til að ljúka uppsetningunni."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Varist að þú missir aðgang að SnapShots, ertu viss um að þú viljir fela matinn?"
 
@@ -216,3 +198,18 @@ msgstr "Munt þú geta fengið aðgang að SnapShots án þess að hafa aðgang 
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Ertu alveg viss um þetta forrit?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Sækir um, bíddu ..."
+
+msgid "Concluído!"
+msgstr "Búinn!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Árangur í bjartsýni ham!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Árangur í frammistöðu ham!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Þemu, skrifborð og klip"

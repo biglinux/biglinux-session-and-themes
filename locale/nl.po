@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Thema's, Bureaublad en Instellingen"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Als u een browser gebruikt, start u deze opnieuw op om de wijzigingen toe te passen."
-
-msgid "Aplicando, aguarde..."
-msgstr "Solliciteren, wachten..."
-
-msgid "Concluído!"
-msgstr "Klaar!"
-
 msgid "Temas"
 msgstr "Thema's"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Preload laadt programmabestanden in het geheugen zodat ze snel starten. Overdadig gebruik "
 "veroorzaakt vertragingen. Kies de gewenste optie:"
 
+msgid "Ligar RGB do teclado"
+msgstr "RGB aansluiten vanaf het toetsenbord"
+
 msgid "Automático"
 msgstr "Automatisch"
 
@@ -132,8 +123,8 @@ msgstr "NumLock inschakelen bij het opstarten van het systeem"
 msgid "Tema aplicado"
 msgstr "Thema toegepast"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "U moet opnieuw ingelogd zijn om de configuratie te voltooien. Wilt u het nu doen?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "U moet de sessie opnieuw starten om de configuratie te voltooien."
 
 msgid "Configuração do Desktop"
 msgstr "Desktopconfiguratie"
@@ -166,11 +157,11 @@ msgstr "Prestatiemodus"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Met software rendering wordt de kwaliteit van transparanten verminderd."
 
-msgid "Desempenho em modo performance!"
-msgstr "Prestaties in de prestatiemodus!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Als u een browser gebruikt, start u deze opnieuw op om de wijzigingen toe te passen."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Prestaties in verbeterde modus!"
+msgid "Desempenho em modo normal!"
+msgstr "Prestaties in de normale modus!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "om de configuratie te voltooien\n"
 "toegepast."
 
-msgid "Desempenho em modo normal!"
-msgstr "Prestaties in de normale modus!"
-
-msgid "Ligar RGB do teclado"
-msgstr "RGB aansluiten vanaf het toetsenbord"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "U moet de sessie opnieuw starten om de configuratie te voltooien."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Pas op dat je de toegang tot SnapShots verliest, weet je zeker dat je de grub wilt verbergen?"
 
@@ -218,3 +200,18 @@ msgstr "Heb je toegang tot SnapShots zonder toegang tot de Graph-modus?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Ben je helemaal zeker van deze toepassing?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Solliciteren, wachten..."
+
+msgid "Concluído!"
+msgstr "Klaar!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Prestaties in verbeterde modus!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Prestaties in de prestatiemodus!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Thema's, Bureaublad en Instellingen"

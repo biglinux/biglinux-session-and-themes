@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teme, radna površina i prilagodbe"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ako koristite preglednik, ponovno ga pokrenite da biste primijenili promjene."
-
-msgid "Aplicando, aguarde..."
-msgstr "Prijava, čekanje..."
-
-msgid "Concluído!"
-msgstr "Učinjeno!"
-
 msgid "Temas"
 msgstr "Teme"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Prethodno učitavanje učitava programske datoteke u memoriju tako da brzo počnu. Prekomjerna "
 "upotreba uzrokuje sporost. Odaberite željenu opciju:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Povezivanje RGB-a s tipkovnice"
+
 msgid "Automático"
 msgstr "Auto"
 
@@ -132,8 +123,8 @@ msgstr "Aktivirajte NumLock prilikom uključivanja sustava"
 msgid "Tema aplicado"
 msgstr "Primijenjena tema"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Morate ponovno pokrenuti sesiju da biste dovršili postavljanje. Želite li to učiniti sada?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Da biste dovršili konfiguraciju, morate ponovo pokrenuti sesiju."
 
 msgid "Configuração do Desktop"
 msgstr "Postavljanje radne površine"
@@ -166,11 +157,11 @@ msgstr "Način rada s performansama"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Korištenjem prikazivanja softvera smanjuje se kvaliteta prozirnih folija."
 
-msgid "Desempenho em modo performance!"
-msgstr "Performanse u načinu rada!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ako koristite preglednik, ponovno ga pokrenite da biste primijenili promjene."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Performanse u optimiziranom načinu!"
+msgid "Desempenho em modo normal!"
+msgstr "Izvedba u normalnom načinu rada!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "kako bi konfiguracija završila\n"
 "primjenjivati."
 
-msgid "Desempenho em modo normal!"
-msgstr "Izvedba u normalnom načinu rada!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Povezivanje RGB-a s tipkovnice"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Da biste dovršili konfiguraciju, morate ponovo pokrenuti sesiju."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Pazite da ćete izgubiti pristup SnapShotovima, jeste li sigurni da želite sakriti grub?"
 
@@ -218,3 +200,18 @@ msgstr "Hoćete li moći pristupiti snimkama bez pristupa načinu rada Graph?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Jeste li potpuno sigurni u ovu aplikaciju?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Prijava, čekanje..."
+
+msgid "Concluído!"
+msgstr "Učinjeno!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Performanse u optimiziranom načinu!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Performanse u načinu rada!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Teme, radna površina i prilagodbe"

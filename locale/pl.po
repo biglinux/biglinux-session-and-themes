@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Motywy, Pulpit i Ustawienia"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Jeśli używasz przeglądarki, uruchom ją ponownie, aby zastosować zmiany."
-
-msgid "Aplicando, aguarde..."
-msgstr "Aplikując, czekaj..."
-
-msgid "Concluído!"
-msgstr "Gotowy!"
-
 msgid "Temas"
 msgstr "Tematy"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Preload ładuje pliki programów do pamięci, aby szybko się uruchamiały. Nadmierne użycie powoduje "
 "spowolnienia. Wybrać żądaną opcję:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Podłącz RGB z klawiatury"
+
 msgid "Automático"
 msgstr "Automatyczny"
 
@@ -132,8 +123,8 @@ msgstr "Włączenie NumLock przy uruchamianiu systemu"
 msgid "Tema aplicado"
 msgstr "Zastosowany temat"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Aby dokończyć konfigurację, muszą się Państwo ponownie zalogować. Chce Pan to zrobić teraz?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Aby ukończyć konfigurację, należy ponownie uruchomić sesję."
 
 msgid "Configuração do Desktop"
 msgstr "Konfiguracja pulpitu"
@@ -166,11 +157,11 @@ msgstr "Tryb wydajności"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Przy renderowaniu programowym jakość przezroczy jest obniżona."
 
-msgid "Desempenho em modo performance!"
-msgstr "Wydajność w trybie wydajnościowym!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Jeśli używasz przeglądarki, uruchom ją ponownie, aby zastosować zmiany."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Wydajność w trybie rozszerzonym!"
+msgid "Desempenho em modo normal!"
+msgstr "Wydajność w trybie normalnym!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "aby konfiguracja została zakończona\n"
 "stosowane."
 
-msgid "Desempenho em modo normal!"
-msgstr "Wydajność w trybie normalnym!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Podłącz RGB z klawiatury"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Aby ukończyć konfigurację, należy ponownie uruchomić sesję."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Uważaj, stracisz dostęp do SnapShots, czy na pewno chcesz ukryć gruba?"
 
@@ -218,3 +200,18 @@ msgstr "Czy będziesz mieć dostęp do SnapShots bez dostępu do trybu Graph?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Czy jesteś całkowicie pewien tej aplikacji?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Aplikując, czekaj..."
+
+msgid "Concluído!"
+msgstr "Gotowy!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Wydajność w trybie rozszerzonym!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Wydajność w trybie wydajnościowym!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Motywy, Pulpit i Ustawienia"

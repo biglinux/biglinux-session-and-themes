@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "主题、桌面和设置"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "如果您使用的是浏览器，请重新启动它以应用更改。"
-
-msgid "Aplicando, aguarde..."
-msgstr "正在申请，等待..."
-
-msgid "Concluído!"
-msgstr "做！"
-
 msgid "Temas"
 msgstr "主题"
 
@@ -80,6 +68,9 @@ msgid ""
 "causa lentidão. Escolha a opção desejada:"
 msgstr "预加载将程序文件加载到内存中，以便它们快速启动。过度使用会导致速度减慢。选择所需的选项。"
 
+msgid "Ligar RGB do teclado"
+msgstr "从键盘连接红绿蓝"
+
 msgid "Automático"
 msgstr "自动的"
 
@@ -128,8 +119,8 @@ msgstr "在系统启动时启用NumLock"
 msgid "Tema aplicado"
 msgstr "应用的主题"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "你必须再次登录才能完成配置。现在想做吗？"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "您必须重新启动会话才能完成配置。"
 
 msgid "Configuração do Desktop"
 msgstr "桌面配置"
@@ -160,11 +151,11 @@ msgstr "性能模式"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "使用软件渲染，透明胶片的质量会降低。"
 
-msgid "Desempenho em modo performance!"
-msgstr "性能模式下的表现!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "如果您使用的是浏览器，请重新启动它以应用更改。"
 
-msgid "Desempenho em modo otimizado!"
-msgstr "增强模式下的性能!"
+msgid "Desempenho em modo normal!"
+msgstr "正常模式下的表现!"
 
 msgid ""
 "\n"
@@ -192,15 +183,6 @@ msgstr ""
 "以使配置完成\n"
 "适用。"
 
-msgid "Desempenho em modo normal!"
-msgstr "正常模式下的表现!"
-
-msgid "Ligar RGB do teclado"
-msgstr "从键盘连接红绿蓝"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "您必须重新启动会话才能完成配置。"
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "请注意，您将无法访问SnapShots，您确定要隐藏grub吗？"
 
@@ -212,3 +194,18 @@ msgstr "您是否能够在不访问图形模式的情况下访问快照？"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "您完全确定此应用程序吗？"
+
+msgid "Aplicando, aguarde..."
+msgstr "正在申请，等待..."
+
+msgid "Concluído!"
+msgstr "做！"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "增强模式下的性能!"
+
+msgid "Desempenho em modo performance!"
+msgstr "性能模式下的表现!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "主题、桌面和设置"

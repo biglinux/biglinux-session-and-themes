@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Темы, рабочий стол и настройки"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Если вы используете браузер, перезапустите его, чтобы применить изменения."
-
-msgid "Aplicando, aguarde..."
-msgstr "Подать заявку, подождать..."
-
-msgid "Concluído!"
-msgstr "Договорились!"
-
 msgid "Temas"
 msgstr "Темы"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Предварительная загрузка загружает файлы программы в память для быстрого запуска. Чрезмерное "
 "использование приводит к замедлению работы. Выберите нужную опцию:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Подключение RGB с клавиатуры"
+
 msgid "Automático"
 msgstr "Автоматический"
 
@@ -132,8 +123,8 @@ msgstr "Включение NumLock при запуске системы"
 msgid "Tema aplicado"
 msgstr "Применяемая тематика"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Для завершения настройки необходимо снова войти в систему. Хотите сделать это сейчас?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Для завершения настройки необходимо перезапустить сеанс."
 
 msgid "Configuração do Desktop"
 msgstr "Конфигурация рабочего стола"
@@ -166,11 +157,11 @@ msgstr "Режим производительности"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "При использовании программного рендеринга качество прозрачности снижается."
 
-msgid "Desempenho em modo performance!"
-msgstr "Производительность в режиме производительности!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Если вы используете браузер, перезапустите его, чтобы применить изменения."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Производительность в усиленном режиме!"
+msgid "Desempenho em modo normal!"
+msgstr "Производительность в нормальном режиме!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "для завершения конфигурации\n"
 "применяется."
 
-msgid "Desempenho em modo normal!"
-msgstr "Производительность в нормальном режиме!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Подключение RGB с клавиатуры"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Для завершения настройки необходимо перезапустить сеанс."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Остерегайтесь, вы потеряете доступ к SnapShots, вы уверены, что хотите скрыть грязь?"
 
@@ -218,3 +200,18 @@ msgstr "Сможете ли вы получить доступ к SnapShots бе
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Вы полностью уверены в этом приложении?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Подать заявку, подождать..."
+
+msgid "Concluído!"
+msgstr "Договорились!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Производительность в усиленном режиме!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Производительность в режиме производительности!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Темы, рабочий стол и настройки"

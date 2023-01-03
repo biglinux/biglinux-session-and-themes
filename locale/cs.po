@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Motivy, plocha a nastavení"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Pokud používáte prohlížeč, restartujte jej, aby se změny projevily."
-
-msgid "Aplicando, aguarde..."
-msgstr "Přihláška, počkejte..."
-
-msgid "Concluído!"
-msgstr "Hotový!"
-
 msgid "Temas"
 msgstr "Témata"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Předběžné načtení načte soubory programu do paměti, aby se rychle spustily. Nadměrné používání "
 "způsobuje zpomalení. Vyberte požadovanou možnost:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Připojení RGB z klávesnice"
+
 msgid "Automático"
 msgstr "Automatické"
 
@@ -132,8 +123,8 @@ msgstr "Povolení zámku NumLock při spuštění systému"
 msgid "Tema aplicado"
 msgstr "Použité téma"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Pro dokončení konfigurace musíte být znovu přihlášeni. Chcete to udělat hned?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Chcete-li dokončit konfiguraci, musíte relaci restartovat."
 
 msgid "Configuração do Desktop"
 msgstr "Konfigurace pracovní plochy"
@@ -166,11 +157,11 @@ msgstr "Režim výkonu"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Při softwarovém vykreslování se snižuje kvalita průsvitek."
 
-msgid "Desempenho em modo performance!"
-msgstr "Výkon v režimu výkonu!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Pokud používáte prohlížeč, restartujte jej, aby se změny projevily."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Výkon v rozšířeném režimu!"
+msgid "Desempenho em modo normal!"
+msgstr "Výkon v normálním režimu!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "pro dokončení konfigurace\n"
 "použity."
 
-msgid "Desempenho em modo normal!"
-msgstr "Výkon v normálním režimu!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Připojení RGB z klávesnice"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Chcete-li dokončit konfiguraci, musíte relaci restartovat."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Dejte si pozor, že ztratíte přístup k SnapShots, jste si jisti, že chcete skrýt grub?"
 
@@ -218,3 +200,18 @@ msgstr "Budete mít přístup k SnapShots bez přístupu k režimu Graph?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Jste si touto aplikací zcela jisti?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Přihláška, počkejte..."
+
+msgid "Concluído!"
+msgstr "Hotový!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Výkon v rozšířeném režimu!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Výkon v režimu výkonu!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Motivy, plocha a nastavení"

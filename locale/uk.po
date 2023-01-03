@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Теми, робочий стіл і налаштування"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Якщо ви використовуєте браузер, перезапустіть його, щоб застосувати зміни."
-
-msgid "Aplicando, aguarde..."
-msgstr "Подаючи заявку, почекайте..."
-
-msgid "Concluído!"
-msgstr "Зробити!"
-
 msgid "Temas"
 msgstr "теми"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Попереднє завантаження завантажує програмні файли в пам’ять, щоб вони швидко запускалися. Надмірне "
 "використання викликає уповільнення. Виберіть потрібний варіант:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Підключення RGB з клавіатури"
+
 msgid "Automático"
 msgstr "Автоматичний"
 
@@ -132,8 +123,8 @@ msgstr "Активуйте NumLock при включенні системи"
 msgid "Tema aplicado"
 msgstr "Прикладна тема"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Щоб завершити налаштування, необхідно перезапустити сеанс. Ви хочете зробити це зараз?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Ви повинні перезапустити сеанс, щоб завершити налаштування."
 
 msgid "Configuração do Desktop"
 msgstr "Конфігурація робочого столу"
@@ -166,10 +157,10 @@ msgstr "Режим продуктивності"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Використання програмного рендеринга знижує якість прозорих плівк."
 
-msgid "Desempenho em modo performance!"
-msgstr "Продуктивність у режимі продуктивності!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Якщо ви використовуєте браузер, перезапустіть його, щоб застосувати зміни."
 
-msgid "Desempenho em modo otimizado!"
+msgid "Desempenho em modo normal!"
 msgstr "Продуктивність в оптимізованому режимі!"
 
 msgid ""
@@ -196,15 +187,6 @@ msgstr ""
 "\n"
 "Вийдіть і знову ввійдіть для завершення конфігурації застосовуватися."
 
-msgid "Desempenho em modo normal!"
-msgstr "Продуктивність в оптимізованому режимі!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Підключення RGB з клавіатури"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Ви повинні перезапустити сеанс, щоб завершити налаштування."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Остерігайтеся, що ви втратите доступ до SnapShots, ви впевнені, що хочете приховати образу?"
 
@@ -216,3 +198,18 @@ msgstr "Чи зможете ви отримати доступ до знімкі
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Ви повністю впевнені в цій програмі?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Подаючи заявку, почекайте..."
+
+msgid "Concluído!"
+msgstr "Зробити!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Продуктивність в оптимізованому режимі!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Продуктивність у режимі продуктивності!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Теми, робочий стіл і налаштування"

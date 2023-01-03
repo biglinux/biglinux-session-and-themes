@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Thèmes, bureau et paramètres"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Si vous utilisez un navigateur, redémarrez-le pour appliquer les modifications."
-
-msgid "Aplicando, aguarde..."
-msgstr "Postuler, attendre..."
-
-msgid "Concluído!"
-msgstr "Fait!"
-
 msgid "Temas"
 msgstr "Thèmes"
 
@@ -86,6 +74,9 @@ msgstr ""
 "Preload charge les fichiers du programme dans la mémoire pour qu'ils démarrent rapidement. Une "
 "utilisation excessive entraîne des ralentissements. Choisissez l'option souhaitée :"
 
+msgid "Ligar RGB do teclado"
+msgstr "Connecter RVB à partir du clavier"
+
 msgid "Automático"
 msgstr "Automatique"
 
@@ -134,8 +125,8 @@ msgstr "Activer NumLock au démarrage du système"
 msgid "Tema aplicado"
 msgstr "Thème appliqué"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Vous devez vous reconnecter pour terminer la configuration. Vous voulez le faire maintenant ?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Vous devez redémarrer la session pour terminer la configuration."
 
 msgid "Configuração do Desktop"
 msgstr "Configuration du bureau"
@@ -168,11 +159,11 @@ msgstr "Mode de performance"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "En utilisant le rendu logiciel, la qualité des transparents est réduite."
 
-msgid "Desempenho em modo performance!"
-msgstr "La performance en mode performance !"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Si vous utilisez un navigateur, redémarrez-le pour appliquer les modifications."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Des performances en mode amélioré !"
+msgid "Desempenho em modo normal!"
+msgstr "Performance en mode normal !"
 
 msgid ""
 "\n"
@@ -200,15 +191,6 @@ msgstr ""
 "pour que la configuration soit terminée\n"
 "appliqué."
 
-msgid "Desempenho em modo normal!"
-msgstr "Performance en mode normal !"
-
-msgid "Ligar RGB do teclado"
-msgstr "Connecter RVB à partir du clavier"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Vous devez redémarrer la session pour terminer la configuration."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Attention, vous perdrez l’accès aux SnapShots, êtes-vous sûr de vouloir cacher le larves?"
 
@@ -220,3 +202,18 @@ msgstr "Serez-vous en mesure d’accéder à SnapShots sans accès au mode Graph
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Êtes-vous complètement sûr de cette application?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Postuler, attendre..."
+
+msgid "Concluído!"
+msgstr "Fait!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Des performances en mode amélioré !"
+
+msgid "Desempenho em modo performance!"
+msgstr "La performance en mode performance !"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Thèmes, bureau et paramètres"

@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Θέματα, επιφάνεια εργασίας και ρυθμίσεις"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Εάν χρησιμοποιείτε πρόγραμμα περιήγησης, επανεκκινήστε το για να εφαρμόσετε τις αλλαγές."
-
-msgid "Aplicando, aguarde..."
-msgstr "Αίτηση, περιμένετε..."
-
-msgid "Concluído!"
-msgstr "Έγινε!"
-
 msgid "Temas"
 msgstr "Θέματα"
 
@@ -86,6 +74,9 @@ msgstr ""
 "Η προφόρτωση φορτώνει τα αρχεία του προγράμματος στη μνήμη, ώστε να ξεκινήσει γρήγορα. Η υπερβολική "
 "χρήση προκαλεί επιβραδύνσεις. Επιλέξτε την επιθυμητή επιλογή:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Σύνδεση RGB από πληκτρολόγιο"
+
 msgid "Automático"
 msgstr "Αυτόματο"
 
@@ -134,8 +125,8 @@ msgstr "Ενεργοποίηση του NumLock κατά την εκκίνηση
 msgid "Tema aplicado"
 msgstr "Εφαρμοσμένο θέμα"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Πρέπει να συνδεθείτε ξανά για να ολοκληρώσετε τη διαμόρφωση. Θέλετε να το κάνετε τώρα"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Πρέπει να επανεκκινήσετε την περίοδο λειτουργίας για να ολοκληρώσετε τη ρύθμιση παραμέτρων."
 
 msgid "Configuração do Desktop"
 msgstr "Διαμόρφωση επιφάνειας εργασίας"
@@ -168,11 +159,11 @@ msgstr "Λειτουργία απόδοσης"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Χρησιμοποιώντας λογισμικό απόδοσης, η ποιότητα των διαφανειών μειώνεται."
 
-msgid "Desempenho em modo performance!"
-msgstr "Απόδοση σε λειτουργία απόδοσης!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Εάν χρησιμοποιείτε πρόγραμμα περιήγησης, επανεκκινήστε το για να εφαρμόσετε τις αλλαγές."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Απόδοση σε βελτιωμένη λειτουργία!"
+msgid "Desempenho em modo normal!"
+msgstr "Απόδοση σε κανονική λειτουργία!"
 
 msgid ""
 "\n"
@@ -200,15 +191,6 @@ msgstr ""
 "για να ολοκληρωθεί η διαμόρφωση\n"
 "εφαρμόζεται."
 
-msgid "Desempenho em modo normal!"
-msgstr "Απόδοση σε κανονική λειτουργία!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Σύνδεση RGB από πληκτρολόγιο"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Πρέπει να επανεκκινήσετε την περίοδο λειτουργίας για να ολοκληρώσετε τη ρύθμιση παραμέτρων."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Προσέξτε ότι θα χάσετε την πρόσβαση στο SnapShots, είστε σίγουροι ότι θέλετε να κρύψετε το grub;"
 
@@ -220,3 +202,18 @@ msgstr "Θα μπορείτε να έχετε πρόσβαση στο SnapShots 
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Είστε απόλυτα σίγουροι για αυτήν την εφαρμογή;"
+
+msgid "Aplicando, aguarde..."
+msgstr "Αίτηση, περιμένετε..."
+
+msgid "Concluído!"
+msgstr "Έγινε!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Απόδοση σε βελτιωμένη λειτουργία!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Απόδοση σε λειτουργία απόδοσης!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Θέματα, επιφάνεια εργασίας και ρυθμίσεις"

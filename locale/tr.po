@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Temalar, Masaüstü ve Ayarlar"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Tarayıcı kullanıyorsanız, değişiklikleri uygulamak için tarayıcıyı yeniden başlatın."
-
-msgid "Aplicando, aguarde..."
-msgstr "Başvuru, bekle..."
-
-msgid "Concluído!"
-msgstr "Yapılmış!"
-
 msgid "Temas"
 msgstr "Temalar"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Ön yükleme, program dosyalarını belleğe yükler, böylece hızlı bir şekilde başlarlar. Aşırı kullanım "
 "yavaşlamalara neden olur. İstediğiniz seçeneği seçin:"
 
+msgid "Ligar RGB do teclado"
+msgstr "RGB'yi klavyeden bağlama"
+
 msgid "Automático"
 msgstr "Otomatik"
 
@@ -132,8 +123,8 @@ msgstr "Sistem başlangıcında NumLock'u etkinleştirme"
 msgid "Tema aplicado"
 msgstr "Uygulanan tema"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Yapılandırmayı tamamlamak için tekrar oturum açmanız gerekir. Şimdi yapmak ister misin?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Yapılandırmayı tamamlamak için oturumu yeniden başlatmanız gerekir."
 
 msgid "Configuração do Desktop"
 msgstr "Masaüstü Yapılandırması"
@@ -166,11 +157,11 @@ msgstr "Performans modu"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Yazılım oluşturma kullanılarak asetatların kalitesi düşürülür."
 
-msgid "Desempenho em modo performance!"
-msgstr "Performans modunda performans!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Tarayıcı kullanıyorsanız, değişiklikleri uygulamak için tarayıcıyı yeniden başlatın."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Gelişmiş modda performans!"
+msgid "Desempenho em modo normal!"
+msgstr "Normal modda performans!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "yapılandırmanın bitmesi için\n"
 "uygulandı."
 
-msgid "Desempenho em modo normal!"
-msgstr "Normal modda performans!"
-
-msgid "Ligar RGB do teclado"
-msgstr "RGB'yi klavyeden bağlama"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Yapılandırmayı tamamlamak için oturumu yeniden başlatmanız gerekir."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "SnapShot'lara erişiminizi kaybedeceğinize dikkat edin, grubu gizlemek istediğinizden emin misiniz?"
 
@@ -218,3 +200,18 @@ msgstr "Grafik moduna erişmeden SnapShots'a erişebilecek misiniz?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Bu uygulamadan tamamen emin misiniz?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Başvuru, bekle..."
+
+msgid "Concluído!"
+msgstr "Yapılmış!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Gelişmiş modda performans!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Performans modunda performans!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Temalar, Masaüstü ve Ayarlar"

@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teman, skrivbord och inställningar"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Om du använder en webbläsare startar du om den för att tillämpa ändringarna."
-
-msgid "Aplicando, aguarde..."
-msgstr "Ansökan, vänta..."
-
-msgid "Concluído!"
-msgstr "Färdig!"
-
 msgid "Temas"
 msgstr "Teman"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Preload laddar in programfiler i minnet så att de startar snabbt. Överdriven användning leder till "
 "långsamma nedgångar. Välj önskat alternativ:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Anslut RGB från tangentbordet"
+
 msgid "Automático"
 msgstr "Automatisk"
 
@@ -132,8 +123,8 @@ msgstr "Aktivera NumLock vid systemstart"
 msgid "Tema aplicado"
 msgstr "Tillämpat tema"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Du måste logga in igen för att slutföra konfigurationen. Vill du göra det nu?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Du måste starta om sessionen för att slutföra konfigurationen."
 
 msgid "Configuração do Desktop"
 msgstr "Konfigurering av skrivbord"
@@ -166,11 +157,11 @@ msgstr "Prestanda-läge"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Om du använder mjukvarurendering minskar kvaliteten på transparenter."
 
-msgid "Desempenho em modo performance!"
-msgstr "Prestanda i prestandaläge!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Om du använder en webbläsare startar du om den för att tillämpa ändringarna."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Prestanda i förbättrat läge!"
+msgid "Desempenho em modo normal!"
+msgstr "Prestanda i normalt läge!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "för att konfigurationen ska vara klar\n"
 "tillämpas."
 
-msgid "Desempenho em modo normal!"
-msgstr "Prestanda i normalt läge!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Anslut RGB från tangentbordet"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Du måste starta om sessionen för att slutföra konfigurationen."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Se upp för att du kommer att förlora åtkomst till SnapShots, är du säker på att du vill dölja grub?"
 
@@ -218,3 +200,18 @@ msgstr "Kommer du att kunna komma åt SnapShots utan tillgång till Graph-läge?
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Är du helt säker på den här applikationen?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Ansökan, vänta..."
+
+msgid "Concluído!"
+msgstr "Färdig!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Prestanda i förbättrat läge!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Prestanda i prestandaläge!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Teman, skrivbord och inställningar"

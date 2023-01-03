@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teemad, töölaud ja seaded"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Kui kasutate brauserit, taaskäivitage see muudatuste rakendamiseks."
-
-msgid "Aplicando, aguarde..."
-msgstr "Taotlemine, oota..."
-
-msgid "Concluído!"
-msgstr "Teinud!"
-
 msgid "Temas"
 msgstr "Teemad"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Eellaadimine laeb programmifailid mällu, et need käivituksid kiiresti. Liigne kasutamine põhjustab "
 "aeglustumist. Valige soovitud valik:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Ühendage RGB klaviatuurilt"
+
 msgid "Automático"
 msgstr "Automaatne"
 
@@ -132,8 +123,8 @@ msgstr "NumLocki lubamine süsteemi käivitamisel"
 msgid "Tema aplicado"
 msgstr "Kohaldatud teema"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Konfigureerimise lõpuleviimiseks peate uuesti sisse logima. Tahad seda nüüd teha?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Konfigureerimise lõpuleviimiseks peate seansi taaskäivitama."
 
 msgid "Configuração do Desktop"
 msgstr "Töölaua konfiguratsioon"
@@ -166,11 +157,11 @@ msgstr "Jõudluse režiim"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Tarkvaralist renderdamist kasutades väheneb läbipaistvuse kvaliteet."
 
-msgid "Desempenho em modo performance!"
-msgstr "Esitlusvõime esitusrežiimis!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Kui kasutate brauserit, taaskäivitage see muudatuste rakendamiseks."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Täiustatud režiimil toimimine!"
+msgid "Desempenho em modo normal!"
+msgstr "Tulemuslikkus tavarežiimis!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "konfiguratsiooni lõpetamiseks\n"
 "kohaldatud."
 
-msgid "Desempenho em modo normal!"
-msgstr "Tulemuslikkus tavarežiimis!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Ühendage RGB klaviatuurilt"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Konfigureerimise lõpuleviimiseks peate seansi taaskäivitama."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Ettevaatust, et kaotate juurdepääsu SnapShotsile, kas olete kindel, et soovite grubi varjata?"
 
@@ -218,3 +200,18 @@ msgstr "Kas pääsete SnapShotsile juurde ilma graafikurežiimile juurdepääsut
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Kas olete selles rakenduses täiesti kindel?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Taotlemine, oota..."
+
+msgid "Concluído!"
+msgstr "Teinud!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Täiustatud režiimil toimimine!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Esitlusvõime esitusrežiimis!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Teemad, töölaud ja seaded"

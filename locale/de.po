@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Themes, Desktop und Einstellungen"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Wenn Sie einen Browser verwenden, starten Sie ihn neu, um die Änderungen zu übernehmen."
-
-msgid "Aplicando, aguarde..."
-msgstr "Bewerben, warten..."
-
-msgid "Concluído!"
-msgstr "Fertig!"
-
 msgid "Temas"
 msgstr "Themen"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Preload lädt Programmdateien in den Speicher, damit sie schnell starten. Übermäßiger Gebrauch führt "
 "zu Verlangsamungen. Wählen Sie die gewünschte Option:"
 
+msgid "Ligar RGB do teclado"
+msgstr "RGB über die Tastatur anschließen"
+
 msgid "Automático"
 msgstr "Automatisch"
 
@@ -132,8 +123,8 @@ msgstr "NumLock beim Systemstart einschalten"
 msgid "Tema aplicado"
 msgstr "Angewandtes Thema"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Sie müssen erneut angemeldet sein, um die Konfiguration abzuschließen. Wollen Sie es jetzt tun?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Sie müssen die Sitzung neu starten, um die Konfiguration abzuschließen."
 
 msgid "Configuração do Desktop"
 msgstr "Desktop-Konfiguration"
@@ -166,11 +157,11 @@ msgstr "Leistungsmodus"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Beim Software-Rendering wird die Qualität der Transparenzen reduziert."
 
-msgid "Desempenho em modo performance!"
-msgstr "Leistung im Leistungsmodus!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Wenn Sie einen Browser verwenden, starten Sie ihn neu, um die Änderungen zu übernehmen."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Leistung im erweiterten Modus!"
+msgid "Desempenho em modo normal!"
+msgstr "Leistung im normalen Modus!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "bis die Konfiguration abgeschlossen ist\n"
 "angewendet."
 
-msgid "Desempenho em modo normal!"
-msgstr "Leistung im normalen Modus!"
-
-msgid "Ligar RGB do teclado"
-msgstr "RGB über die Tastatur anschließen"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Sie müssen die Sitzung neu starten, um die Konfiguration abzuschließen."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr ""
 "Vorsicht, dass Sie den Zugriff auf SnapShots verlieren, sind Sie sicher, dass Sie das Essen "
@@ -220,3 +202,18 @@ msgstr "Können Sie auf SnapShots zugreifen, ohne auf den Graph-Modus zuzugreife
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Sind Sie sich bei dieser Anwendung ganz sicher?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Bewerben, warten..."
+
+msgid "Concluído!"
+msgstr "Fertig!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Leistung im erweiterten Modus!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Leistung im Leistungsmodus!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Themes, Desktop und Einstellungen"

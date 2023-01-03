@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teemat, työpöytä ja asetukset"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Jos käytät selainta, ota muutokset käyttöön käynnistämällä se uudelleen."
-
-msgid "Aplicando, aguarde..."
-msgstr "Hakeminen, odota..."
-
-msgid "Concluído!"
-msgstr "Valmis!"
-
 msgid "Temas"
 msgstr "Teemat"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Preload lataa ohjelmatiedostot muistiin, jotta ne käynnistyvät nopeasti. Liiallinen käyttö "
 "aiheuttaa hidastuksia. Valitse haluamasi vaihtoehto:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Yhdistä RGB näppäimistöltä"
+
 msgid "Automático"
 msgstr "Automaattinen"
 
@@ -132,10 +123,8 @@ msgstr "Ota NumLock käyttöön järjestelmän käynnistyessä"
 msgid "Tema aplicado"
 msgstr "Sovellettu teema"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr ""
-"Sinun on kirjauduttava uudelleen sisään, jotta voit suorittaa määrityksen loppuun. Haluatko tehdä "
-"sen nyt?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Sinun on käynnistettävä istunto uudelleen, jotta määritys voidaan suorittaa loppuun."
 
 msgid "Configuração do Desktop"
 msgstr "Työpöydän kokoonpano"
@@ -168,11 +157,11 @@ msgstr "Suorituskykytila"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Ohjelmiston renderöintiä käytettäessä läpinäkyvien kuvien laatu heikkenee."
 
-msgid "Desempenho em modo performance!"
-msgstr "Suorituskyky suoritustilassa!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Jos käytät selainta, ota muutokset käyttöön käynnistämällä se uudelleen."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Suorituskyky tehostetussa tilassa!"
+msgid "Desempenho em modo normal!"
+msgstr "Suorituskyky normaalitilassa!"
 
 msgid ""
 "\n"
@@ -200,15 +189,6 @@ msgstr ""
 "jotta konfigurointi saadaan valmiiksi\n"
 "sovellettu."
 
-msgid "Desempenho em modo normal!"
-msgstr "Suorituskyky normaalitilassa!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Yhdistä RGB näppäimistöltä"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Sinun on käynnistettävä istunto uudelleen, jotta määritys voidaan suorittaa loppuun."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Varo, että menetät pääsyn SnapShotsiin, oletko varma, että haluat piilottaa grubin?"
 
@@ -220,3 +200,18 @@ msgstr "Voitko käyttää SnapShotsia ilman pääsyä Graph-tilaan?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Oletko täysin varma tästä sovelluksesta?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Hakeminen, odota..."
+
+msgid "Concluído!"
+msgstr "Valmis!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Suorituskyky tehostetussa tilassa!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Suorituskyky suoritustilassa!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Teemat, työpöytä ja asetukset"

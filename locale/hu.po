@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Témák, Asztal és beállítások"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ha böngészőt használ, indítsa újra a módosítások alkalmazásához."
-
-msgid "Aplicando, aguarde..."
-msgstr "Jelentkezés, várakozás..."
-
-msgid "Concluído!"
-msgstr "Kész!"
-
 msgid "Temas"
 msgstr "Témák"
 
@@ -84,6 +72,9 @@ msgstr ""
 "Az előtöltés a programfájlokat tölti be a memóriába, így azok gyorsan elindulnak. A túlzott "
 "használat lassulást okoz. Válassza ki a kívánt opciót:"
 
+msgid "Ligar RGB do teclado"
+msgstr "RGB csatlakoztatása a billentyűzetről"
+
 msgid "Automático"
 msgstr "Automatikus"
 
@@ -132,8 +123,8 @@ msgstr "A NumLock engedélyezése a rendszer indításakor"
 msgid "Tema aplicado"
 msgstr "Alkalmazott téma"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "A konfiguráció befejezéséhez újra be kell jelentkeznie. Most akarja megtenni?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "A konfiguráció befejezéséhez újra kell indítania a munkamenetet."
 
 msgid "Configuração do Desktop"
 msgstr "Asztali konfiguráció"
@@ -166,11 +157,11 @@ msgstr "Teljesítmény mód"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "A szoftveres rendereléssel a fóliák minősége csökken."
 
-msgid "Desempenho em modo performance!"
-msgstr "Teljesítmény teljesítmény üzemmódban!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ha böngészőt használ, indítsa újra a módosítások alkalmazásához."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Teljesítmény továbbfejlesztett üzemmódban!"
+msgid "Desempenho em modo normal!"
+msgstr "Teljesítmény normál üzemmódban!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "a konfiguráció befejezéséhez\n"
 "alkalmazott."
 
-msgid "Desempenho em modo normal!"
-msgstr "Teljesítmény normál üzemmódban!"
-
-msgid "Ligar RGB do teclado"
-msgstr "RGB csatlakoztatása a billentyűzetről"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "A konfiguráció befejezéséhez újra kell indítania a munkamenetet."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Vigyázzon, elveszíti hozzáférését a SnapShots-hoz, biztos benne, hogy el akarja rejteni a grubot?"
 
@@ -218,3 +200,18 @@ msgstr "Képes lesz hozzáférni a SnapShots-hoz anélkül, hogy hozzáférne a 
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Teljesen biztos ebben az alkalmazásban?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Jelentkezés, várakozás..."
+
+msgid "Concluído!"
+msgstr "Kész!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Teljesítmény továbbfejlesztett üzemmódban!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Teljesítmény teljesítmény üzemmódban!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Témák, Asztal és beállítások"

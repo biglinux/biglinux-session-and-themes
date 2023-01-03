@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "Temas, escritorio y configuración"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Si está utilizando un navegador, reinícielo para aplicar los cambios."
-
-msgid "Aplicando, aguarde..."
-msgstr "Aplicando, espera..."
-
-msgid "Concluído!"
-msgstr "¡Hecho!"
-
 msgid "Temas"
 msgstr "Temas"
 
@@ -84,6 +72,9 @@ msgstr ""
 "La precarga carga los archivos del programa en la memoria para que se inicien rápidamente. Un uso "
 "excesivo provoca ralentizaciones. Elija la opción deseada:"
 
+msgid "Ligar RGB do teclado"
+msgstr "Conectar RGB desde el teclado"
+
 msgid "Automático"
 msgstr "Automático"
 
@@ -132,8 +123,8 @@ msgstr "Habilitar el bloqueo numérico al iniciar el sistema"
 msgid "Tema aplicado"
 msgstr "Tema aplicado"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "Debe volver a iniciar la sesión para completar la configuración. ¿Quieres hacerlo ahora?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Debe reiniciar la sesión para completar la configuración."
 
 msgid "Configuração do Desktop"
 msgstr "Configuración del escritorio"
@@ -166,11 +157,11 @@ msgstr "Modo de rendimiento"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Al utilizar el renderizado por software, la calidad de las transparencias se reduce."
 
-msgid "Desempenho em modo performance!"
-msgstr "Rendimiento en el modo de rendimiento!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Si está utilizando un navegador, reinícielo para aplicar los cambios."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Rendimiento en modo mejorado!"
+msgid "Desempenho em modo normal!"
+msgstr "Rendimiento en modo normal!"
 
 msgid ""
 "\n"
@@ -198,15 +189,6 @@ msgstr ""
 "para que la configuración termine\n"
 "aplicada."
 
-msgid "Desempenho em modo normal!"
-msgstr "Rendimiento en modo normal!"
-
-msgid "Ligar RGB do teclado"
-msgstr "Conectar RGB desde el teclado"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Debe reiniciar la sesión para completar la configuración."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Tenga en cuenta que perderá el acceso a SnapShots, ¿está seguro de que desea ocultar la larva?"
 
@@ -218,3 +200,18 @@ msgstr "¿Podrá acceder a SnapShots sin acceso al modo Gráfico?"
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "¿Estás completamente seguro de esta aplicación?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Aplicando, espera..."
+
+msgid "Concluído!"
+msgstr "¡Hecho!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Rendimiento en modo mejorado!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Rendimiento en el modo de rendimiento!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "Temas, escritorio y configuración"

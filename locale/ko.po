@@ -16,18 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Temas, Desktop e Ajustes"
-msgstr "테마, 데스크톱 및 조정"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "브라우저를 사용하는 경우 브라우저를 다시 시작하여 변경 내용을 적용합니다."
-
-msgid "Aplicando, aguarde..."
-msgstr "적용 중, 잠깐만..."
-
-msgid "Concluído!"
-msgstr "수행!"
-
 msgid "Temas"
 msgstr "토픽"
 
@@ -80,6 +68,9 @@ msgid ""
 "causa lentidão. Escolha a opção desejada:"
 msgstr "Preload는 프로그램 파일을 메모리에 로드하여 빠르게 시작합니다.과도하게 사용하면 속도가 느려집니다.원하는 옵션을 선택합니다."
 
+msgid "Ligar RGB do teclado"
+msgstr "키보드에서 RGB 연결"
+
 msgid "Automático"
 msgstr "자동"
 
@@ -128,8 +119,8 @@ msgstr "시스템을 켤 때 NumLock 활성화"
 msgid "Tema aplicado"
 msgstr "적용된 테마"
 
-msgid "É preciso reiniciar a sessão para concluir a configuração. Deseja fazer agora?"
-msgstr "설정을 완료하려면 세션을 다시 시작해야 합니다.지금 하고 싶니?"
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "구성을 완료하려면 세션을 다시 시작해야 합니다."
 
 msgid "Configuração do Desktop"
 msgstr "데스크톱 설정"
@@ -160,11 +151,11 @@ msgstr "성능 모드"
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "소프트웨어 렌더링을 사용하면 투명도의 품질이 저하됩니다."
 
-msgid "Desempenho em modo performance!"
-msgstr "퍼포먼스 모드에서의 퍼포먼스!"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "브라우저를 사용하는 경우 브라우저를 다시 시작하여 변경 내용을 적용합니다."
 
-msgid "Desempenho em modo otimizado!"
-msgstr "최적화된 모드에서의 성능!"
+msgid "Desempenho em modo normal!"
+msgstr "일반 모드에서의 성능!"
 
 msgid ""
 "\n"
@@ -192,15 +183,6 @@ msgstr ""
 "구성을 마칠 수 있습니다.\n"
 "적용될 수 있습니다."
 
-msgid "Desempenho em modo normal!"
-msgstr "일반 모드에서의 성능!"
-
-msgid "Ligar RGB do teclado"
-msgstr "키보드에서 RGB 연결"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "구성을 완료하려면 세션을 다시 시작해야 합니다."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "SnapShots에 대한 액세스 권한을 잃을 수 있으므로 땅벌레를 숨기고 싶습니까?"
 
@@ -212,3 +194,18 @@ msgstr "그래프 모드에 액세스하지 않고도 SnapShot에 액세스할 �
 
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "이 응용 프로그램을 완전히 확신합니까?"
+
+msgid "Aplicando, aguarde..."
+msgstr "적용 중, 잠깐만..."
+
+msgid "Concluído!"
+msgstr "수행!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "최적화된 모드에서의 성능!"
+
+msgid "Desempenho em modo performance!"
+msgstr "퍼포먼스 모드에서의 퍼포먼스!"
+
+msgid "Temas, Desktop e Ajustes"
+msgstr "테마, 데스크톱 및 조정"
