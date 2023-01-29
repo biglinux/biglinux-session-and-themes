@@ -6,5 +6,5 @@ After=plasma-ksmserver.service
 ExecStart=/usr/bin/latte-dock-start
 Type=simple
 
-#[Install]
-#WantedBy=plasma-core.target
+[Install]
+WantedBy=plasma-core.target
