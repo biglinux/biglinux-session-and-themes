@@ -14,6 +14,53 @@ msgstr  "Project-Id-Version: biglinux-session-and-themes\n"
         "Content-Type: text/plain; charset=UTF-8\n"
         "Content-Transfer-Encoding: 8bit\n"
 
+msgid   "\n"
+        "A configuração de desktop selecionada já foi utilizada nesse "
+        "sistema,\n"
+        "deseja restaurar a configuração que já foi utilizada?\n"
+        "\n"
+        "Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr  ""
+
+msgid   "Configuração aplicada!\n"
+        "\n"
+        "Finalize a sessão e faça login novamente\n"
+        "para que a configuração termine de\n"
+        "ser aplicada."
+msgstr  ""
+
+msgid   "Se estiver utilizando algum navegador, reinicie-o para aplicar as "
+        "alterações."
+msgstr  ""
+
+msgid   "Desempenho em modo normal!"
+msgstr  ""
+
+msgid   "Desempenho em modo performance!"
+msgstr  ""
+
+msgid   "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja "
+        "ocultar o grub?"
+msgstr  ""
+
+msgid   "Você saberá retornar o Grub em caso de falha?"
+msgstr  ""
+
+msgid   "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr  ""
+
+msgid   "Você está completamente seguro dessa aplicação?"
+msgstr  ""
+
+msgid   "Aplicando, aguarde..."
+msgstr  ""
+
+msgid   "Concluído!"
+msgstr  ""
+
+msgid   "Desempenho em modo otimizado!"
+msgstr  ""
+
 msgid   "Temas"
 msgstr  ""
 
@@ -147,53 +194,6 @@ msgstr  ""
 
 msgid   "Utilizando renderização por software, a qualidade das transparências "
         "está reduzida."
-msgstr  ""
-
-msgid   "Se estiver utilizando algum navegador, reinicie-o para aplicar as "
-        "alterações."
-msgstr  ""
-
-msgid   "Desempenho em modo normal!"
-msgstr  ""
-
-msgid   "\n"
-        "A configuração de desktop selecionada já foi utilizada nesse "
-        "sistema,\n"
-        "deseja restaurar a configuração que já foi utilizada?\n"
-        "\n"
-        "Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr  ""
-
-msgid   "Configuração aplicada!\n"
-        "\n"
-        "Finalize a sessão e faça login novamente\n"
-        "para que a configuração termine de\n"
-        "ser aplicada."
-msgstr  ""
-
-msgid   "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja "
-        "ocultar o grub?"
-msgstr  ""
-
-msgid   "Você saberá retornar o Grub em caso de falha?"
-msgstr  ""
-
-msgid   "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr  ""
-
-msgid   "Você está completamente seguro dessa aplicação?"
-msgstr  ""
-
-msgid   "Aplicando, aguarde..."
-msgstr  ""
-
-msgid   "Concluído!"
-msgstr  ""
-
-msgid   "Desempenho em modo otimizado!"
-msgstr  ""
-
-msgid   "Desempenho em modo performance!"
 msgstr  ""
 
 msgid   "Temas, Desktop e Ajustes"
