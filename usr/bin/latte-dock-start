@@ -19,9 +19,9 @@ if [ ! -e "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; the
 
 fi
 
-while :; do
+# while :; do
 
-    if [ "$(qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.isShuttingDown)" = "false" ]; then
+#     if [ "$(qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.isShuttingDown)" = "false" ]; then
 
     #     if [ "$(cat "$HOME/.big_performance")" != "0" ] && [ "$(cat "$HOME/.big_performance")" != "" ]; then
     #         if [ "$ENABLE_LATTE" = "1" ]; then
@@ -38,13 +38,13 @@ while :; do
 
 
             #qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
-            killall latte-dock
+            #killall latte-dock
             QT_QUICK_BACKEND="" QSG_RENDER_LOOP=basic /usr/bin/latte-dock
-    fi
+#     fi
 
     > $HOME/.config/autostart/org.kde.latte-dock.desktop
-    sleep 1
-done
+#     sleep 1
+# done
 
 
 
