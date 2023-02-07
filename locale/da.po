@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Den valgte skrivebordskonfiguration er allerede blevet brugt på dette system,\n"
+"ønsker du at gendanne den konfiguration, der allerede er blevet brugt?\n"
+"\n"
+"Vælg nej for at bruge standardkonfigurationen af systemet.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfiguration anvendt!\n"
+"\n"
+"Log ud og log ind igen\n"
+"for at konfigurationen er færdig\n"
+"anvendes."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Hvis du bruger en browser, skal du genstarte den for at anvende ændringerne."
+
+msgid "Desempenho em modo normal!"
+msgstr "Ydelse i normal tilstand!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Præstation i præstationstilstand!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Pas på, at du mister adgangen til SnapShots, er du sikker på, at du vil skjule grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Ved du, hvordan du returnerer Grub i tilfælde af fiasko?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Vil du være i stand til at få adgang til SnapShots uden adgang til graftilstand?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Er du helt sikker på denne applikation?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Ansøg, vent..."
+
+msgid "Concluído!"
+msgstr "Gjort!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Ydeevne i forbedret tilstand!"
+
 msgid "Temas"
 msgstr "Temaer"
 
@@ -154,64 +210,11 @@ msgstr "Desktop anvendt"
 msgid "Modo performance"
 msgstr "Ydeevne tilstand"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS uden fsync"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Ved brug af softwarerensning reduceres kvaliteten af transparenter."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Hvis du bruger en browser, skal du genstarte den for at anvende ændringerne."
-
-msgid "Desempenho em modo normal!"
-msgstr "Ydelse i normal tilstand!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Den valgte skrivebordskonfiguration er allerede blevet brugt på dette system,\n"
-"ønsker du at gendanne den konfiguration, der allerede er blevet brugt?\n"
-"\n"
-"Vælg nej for at bruge standardkonfigurationen af systemet.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfiguration anvendt!\n"
-"\n"
-"Log ud og log ind igen\n"
-"for at konfigurationen er færdig\n"
-"anvendes."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Pas på, at du mister adgangen til SnapShots, er du sikker på, at du vil skjule grub?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Ved du, hvordan du returnerer Grub i tilfælde af fiasko?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Vil du være i stand til at få adgang til SnapShots uden adgang til graftilstand?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Er du helt sikker på denne applikation?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Ansøg, vent..."
-
-msgid "Concluído!"
-msgstr "Gjort!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Ydeevne i forbedret tilstand!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Præstation i præstationstilstand!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Temaer, skrivebord og indstillinger"

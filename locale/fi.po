@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Valittua työpöydän kokoonpanoa on jo käytetty tässä järjestelmässä,\n"
+"haluatko palauttaa jo käytetyn kokoonpanon?\n"
+"\n"
+"Valitse no, jos haluat käyttää järjestelmän oletuskokoonpanoa.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfiguraatio käytössä!\n"
+"\n"
+"Kirjaudu ulos ja kirjaudu uudelleen sisään\n"
+"jotta konfigurointi saadaan valmiiksi\n"
+"sovellettu."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Jos käytät selainta, ota muutokset käyttöön käynnistämällä se uudelleen."
+
+msgid "Desempenho em modo normal!"
+msgstr "Suorituskyky normaalitilassa!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Suorituskyky suoritustilassa!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Varo, että menetät pääsyn SnapShotsiin, oletko varma, että haluat piilottaa grubin?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Tiedätkö kuinka palauttaa Grub epäonnistumisen sattuessa?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Voitko käyttää SnapShotsia ilman pääsyä Graph-tilaan?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Oletko täysin varma tästä sovelluksesta?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Hakeminen, odota..."
+
+msgid "Concluído!"
+msgstr "Valmis!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Suorituskyky tehostetussa tilassa!"
+
 msgid "Temas"
 msgstr "Teemat"
 
@@ -154,64 +210,11 @@ msgstr "Työpöytä sovellettu"
 msgid "Modo performance"
 msgstr "Suorituskykytila"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS ilman fsynkronointia"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Ohjelmiston renderöintiä käytettäessä läpinäkyvien kuvien laatu heikkenee."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Jos käytät selainta, ota muutokset käyttöön käynnistämällä se uudelleen."
-
-msgid "Desempenho em modo normal!"
-msgstr "Suorituskyky normaalitilassa!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Valittua työpöydän kokoonpanoa on jo käytetty tässä järjestelmässä,\n"
-"haluatko palauttaa jo käytetyn kokoonpanon?\n"
-"\n"
-"Valitse no, jos haluat käyttää järjestelmän oletuskokoonpanoa.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfiguraatio käytössä!\n"
-"\n"
-"Kirjaudu ulos ja kirjaudu uudelleen sisään\n"
-"jotta konfigurointi saadaan valmiiksi\n"
-"sovellettu."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Varo, että menetät pääsyn SnapShotsiin, oletko varma, että haluat piilottaa grubin?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Tiedätkö kuinka palauttaa Grub epäonnistumisen sattuessa?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Voitko käyttää SnapShotsia ilman pääsyä Graph-tilaan?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Oletko täysin varma tästä sovelluksesta?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Hakeminen, odota..."
-
-msgid "Concluído!"
-msgstr "Valmis!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Suorituskyky tehostetussa tilassa!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Suorituskyky suoritustilassa!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Teemat, työpöytä ja asetukset"

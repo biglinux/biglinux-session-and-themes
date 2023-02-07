@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Den valda skrivbordskonfigurationen har redan använts på det här systemet,\n"
+"vill du återställa den konfiguration som redan har använts?\n"
+"\n"
+"Välj no för att använda systemets standardkonfiguration.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfigurationen tillämpas!\n"
+"\n"
+"Logga ut och logga in igen\n"
+"för att konfigurationen ska vara klar\n"
+"tillämpas."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Om du använder en webbläsare startar du om den för att tillämpa ändringarna."
+
+msgid "Desempenho em modo normal!"
+msgstr "Prestanda i normalt läge!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Prestanda i prestandaläge!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Se upp för att du kommer att förlora åtkomst till SnapShots, är du säker på att du vill dölja grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Kommer du att veta hur du returnerar Grub vid fel?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Kommer du att kunna komma åt SnapShots utan tillgång till Graph-läge?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Är du helt säker på den här applikationen?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Ansökan, vänta..."
+
+msgid "Concluído!"
+msgstr "Färdig!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Prestanda i förbättrat läge!"
+
 msgid "Temas"
 msgstr "Teman"
 
@@ -154,64 +210,11 @@ msgstr "Skrivbord som används"
 msgid "Modo performance"
 msgstr "Prestanda-läge"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS utan fsync"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Om du använder mjukvarurendering minskar kvaliteten på transparenter."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Om du använder en webbläsare startar du om den för att tillämpa ändringarna."
-
-msgid "Desempenho em modo normal!"
-msgstr "Prestanda i normalt läge!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Den valda skrivbordskonfigurationen har redan använts på det här systemet,\n"
-"vill du återställa den konfiguration som redan har använts?\n"
-"\n"
-"Välj no för att använda systemets standardkonfiguration.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfigurationen tillämpas!\n"
-"\n"
-"Logga ut och logga in igen\n"
-"för att konfigurationen ska vara klar\n"
-"tillämpas."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Se upp för att du kommer att förlora åtkomst till SnapShots, är du säker på att du vill dölja grub?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Kommer du att veta hur du returnerar Grub vid fel?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Kommer du att kunna komma åt SnapShots utan tillgång till Graph-läge?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Är du helt säker på den här applikationen?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Ansökan, vänta..."
-
-msgid "Concluído!"
-msgstr "Färdig!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Prestanda i förbättrat läge!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Prestanda i prestandaläge!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Teman, skrivbord och inställningar"

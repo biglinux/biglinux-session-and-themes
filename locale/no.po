@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Den valgte skrivebordskonfigurasjonen er allerede brukt på dette systemet,\n"
+"vil du gjenopprette konfigurasjonen som allerede er brukt?\n"
+"\n"
+"Velg nei for å bruke standard systeminnstilling.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfigurasjon brukt!\n"
+"\n"
+"Logg ut og logg inn igjen\n"
+"for at konfigurasjonen skal fullføres\n"
+"brukes."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Hvis du bruker en leser, starter du den på nytt for å ta i bruk endringene."
+
+msgid "Desempenho em modo normal!"
+msgstr "Ytelse i normal modus!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Ytelse i ytelsesmodus!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Pass på at du mister tilgangen til SnapShots, er du sikker på at du vil skjule grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Vil du vite hvordan du returnerer Grub i tilfelle feil?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Vil du kunne få tilgang til SnapShots uten tilgang til Graph-modus?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Er du helt sikker på denne applikasjonen?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Søker, venter..."
+
+msgid "Concluído!"
+msgstr "Gjort!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Ytelse i optimalisert modus!"
+
 msgid "Temas"
 msgstr "Emner"
 
@@ -154,64 +210,11 @@ msgstr "Anvendt skrivebord"
 msgid "Modo performance"
 msgstr "Ytelsesmodus"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS uten fsync"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Ved å bruke programvaregjengivelse reduseres kvaliteten på transparentene."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Hvis du bruker en leser, starter du den på nytt for å ta i bruk endringene."
-
-msgid "Desempenho em modo normal!"
-msgstr "Ytelse i normal modus!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Den valgte skrivebordskonfigurasjonen er allerede brukt på dette systemet,\n"
-"vil du gjenopprette konfigurasjonen som allerede er brukt?\n"
-"\n"
-"Velg nei for å bruke standard systeminnstilling.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfigurasjon brukt!\n"
-"\n"
-"Logg ut og logg inn igjen\n"
-"for at konfigurasjonen skal fullføres\n"
-"brukes."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Pass på at du mister tilgangen til SnapShots, er du sikker på at du vil skjule grub?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Vil du vite hvordan du returnerer Grub i tilfelle feil?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Vil du kunne få tilgang til SnapShots uten tilgang til Graph-modus?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Er du helt sikker på denne applikasjonen?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Søker, venter..."
-
-msgid "Concluído!"
-msgstr "Gjort!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Ytelse i optimalisert modus!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Ytelse i ytelsesmodus!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Temaer, skrivebord og justeringer"

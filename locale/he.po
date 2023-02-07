@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"תצורת שולחן העבודה שנבחרה כבר בשימוש במערכת זו,\n"
+"האם ברצונך לשחזר את התצורה שכבר נעשה בה שימוש?\n"
+"\n"
+"בחר לא כדי להשתמש בהגדרת ברירת המחדל של המערכת.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"תצורה הוחלה!\n"
+"\n"
+"צא והיכנס שוב\n"
+"עבור התצורה כדי לסיים\n"
+"להיות מיושם."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "אם אתה משתמש בדפדפן, הפעל אותו מחדש כדי להחיל את השינויים."
+
+msgid "Desempenho em modo normal!"
+msgstr "ביצועים במצב רגיל!"
+
+msgid "Desempenho em modo performance!"
+msgstr "ביצועים במצב ביצועים!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "היזהר שתאבד את הגישה ל- SnapShots, האם אתה בטוח שאתה רוצה להסתיר את הגרגר?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "האם תדעו להחזיר את Grub במקרה של כישלון?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "האם תוכל לגשת ל- SnapShots ללא גישה למצב גרף?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "האם אתה בטוח לחלוטין ביישום זה?"
+
+msgid "Aplicando, aguarde..."
+msgstr "הגשת מועמדות, חכה..."
+
+msgid "Concluído!"
+msgstr "לעשות!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "ביצועים במצב מותאם!"
+
 msgid "Temas"
 msgstr "נושאים"
 
@@ -148,64 +204,11 @@ msgstr "שולחן עבודה יישומי"
 msgid "Modo performance"
 msgstr "מצב ביצועים"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS ללא fsync"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "על ידי שימוש בעיבוד תוכנה, איכות השקפים מופחתת."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "אם אתה משתמש בדפדפן, הפעל אותו מחדש כדי להחיל את השינויים."
-
-msgid "Desempenho em modo normal!"
-msgstr "ביצועים במצב רגיל!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"תצורת שולחן העבודה שנבחרה כבר בשימוש במערכת זו,\n"
-"האם ברצונך לשחזר את התצורה שכבר נעשה בה שימוש?\n"
-"\n"
-"בחר לא כדי להשתמש בהגדרת ברירת המחדל של המערכת.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"תצורה הוחלה!\n"
-"\n"
-"צא והיכנס שוב\n"
-"עבור התצורה כדי לסיים\n"
-"להיות מיושם."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "היזהר שתאבד את הגישה ל- SnapShots, האם אתה בטוח שאתה רוצה להסתיר את הגרגר?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "האם תדעו להחזיר את Grub במקרה של כישלון?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "האם תוכל לגשת ל- SnapShots ללא גישה למצב גרף?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "האם אתה בטוח לחלוטין ביישום זה?"
-
-msgid "Aplicando, aguarde..."
-msgstr "הגשת מועמדות, חכה..."
-
-msgid "Concluído!"
-msgstr "לעשות!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "ביצועים במצב מותאם!"
-
-msgid "Desempenho em modo performance!"
-msgstr "ביצועים במצב ביצועים!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "ערכות נושא, שולחן עבודה והתאמות"

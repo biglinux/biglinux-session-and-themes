@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Выбранная конфигурация рабочего стола уже использовалась в этой системе,\n"
+"хотите ли вы восстановить уже использованную конфигурацию?\n"
+"\n"
+"Выберите нет, чтобы использовать конфигурацию системы по умолчанию.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Конфигурация применена!\n"
+"\n"
+"Выйдите из системы и снова войдите в систему\n"
+"для завершения конфигурации\n"
+"применяется."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Если вы используете браузер, перезапустите его, чтобы применить изменения."
+
+msgid "Desempenho em modo normal!"
+msgstr "Производительность в нормальном режиме!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Производительность в режиме производительности!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Остерегайтесь, вы потеряете доступ к SnapShots, вы уверены, что хотите скрыть грязь?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Будете ли вы знать, как вернуть Grub в случае неудачи?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Сможете ли вы получить доступ к SnapShots без доступа к режиму Graph?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Вы полностью уверены в этом приложении?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Подать заявку, подождать..."
+
+msgid "Concluído!"
+msgstr "Договорились!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Производительность в усиленном режиме!"
+
 msgid "Temas"
 msgstr "Темы"
 
@@ -154,64 +210,11 @@ msgstr "Настольное приложение"
 msgid "Modo performance"
 msgstr "Режим производительности"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS без fsync"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "При использовании программного рендеринга качество прозрачности снижается."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Если вы используете браузер, перезапустите его, чтобы применить изменения."
-
-msgid "Desempenho em modo normal!"
-msgstr "Производительность в нормальном режиме!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Выбранная конфигурация рабочего стола уже использовалась в этой системе,\n"
-"хотите ли вы восстановить уже использованную конфигурацию?\n"
-"\n"
-"Выберите нет, чтобы использовать конфигурацию системы по умолчанию.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Конфигурация применена!\n"
-"\n"
-"Выйдите из системы и снова войдите в систему\n"
-"для завершения конфигурации\n"
-"применяется."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Остерегайтесь, вы потеряете доступ к SnapShots, вы уверены, что хотите скрыть грязь?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Будете ли вы знать, как вернуть Grub в случае неудачи?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Сможете ли вы получить доступ к SnapShots без доступа к режиму Graph?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Вы полностью уверены в этом приложении?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Подать заявку, подождать..."
-
-msgid "Concluído!"
-msgstr "Договорились!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Производительность в усиленном режиме!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Производительность в режиме производительности!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Темы, рабочий стол и настройки"

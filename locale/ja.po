@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"選択されたデスクトップ構成は、このシステムですでに使用されています。\n"
+"すでに使用されているコンフィギュレーションを復元しますか？\n"
+"\n"
+"デフォルトのシステム構成を使用する場合は、no を選択します。\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"コンフィギュレーションを適用しました\n"
+"\n"
+"一度ログアウトし、再度ログインする\n"
+"コンフィギュレーションが終了するまでの間\n"
+"を適用しました。"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "ブラウザーを使用している場合は、ブラウザーを再始動して変更を適用します。"
+
+msgid "Desempenho em modo normal!"
+msgstr "ノーマルモードでのパフォーマンス!"
+
+msgid "Desempenho em modo performance!"
+msgstr "パフォーマンスモードでのパフォーマンス!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "スナップショットにアクセスできなくなることに注意してください、グラブを非表示にしてもよろしいですか?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "失敗した場合にGrubを返す方法を知っていますか?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "グラフモードにアクセスせずにスナップショットにアクセスできますか?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "あなたはこのアプリケーションを完全に確信していますか?"
+
+msgid "Aplicando, aguarde..."
+msgstr "適用中、待機中..."
+
+msgid "Concluído!"
+msgstr "完成です！"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "エンハンスドモードでのパフォーマンス!"
+
 msgid "Temas"
 msgstr "テーマ"
 
@@ -148,64 +204,11 @@ msgstr "デスクトップ適用"
 msgid "Modo performance"
 msgstr "パフォーマンスモード"
 
+msgid "BTRFS sem fsync"
+msgstr "fsync を使用しない BTRFS"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "ソフトウェアレンダリングを使用すると、透明度の高い画質が低下します。"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "ブラウザーを使用している場合は、ブラウザーを再始動して変更を適用します。"
-
-msgid "Desempenho em modo normal!"
-msgstr "ノーマルモードでのパフォーマンス!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"選択されたデスクトップ構成は、このシステムですでに使用されています。\n"
-"すでに使用されているコンフィギュレーションを復元しますか？\n"
-"\n"
-"デフォルトのシステム構成を使用する場合は、no を選択します。\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"コンフィギュレーションを適用しました\n"
-"\n"
-"一度ログアウトし、再度ログインする\n"
-"コンフィギュレーションが終了するまでの間\n"
-"を適用しました。"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "スナップショットにアクセスできなくなることに注意してください、グラブを非表示にしてもよろしいですか?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "失敗した場合にGrubを返す方法を知っていますか?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "グラフモードにアクセスせずにスナップショットにアクセスできますか?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "あなたはこのアプリケーションを完全に確信していますか?"
-
-msgid "Aplicando, aguarde..."
-msgstr "適用中、待機中..."
-
-msgid "Concluído!"
-msgstr "完成です！"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "エンハンスドモードでのパフォーマンス!"
-
-msgid "Desempenho em modo performance!"
-msgstr "パフォーマンスモードでのパフォーマンス!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "テーマ、デスクトップ、設定"

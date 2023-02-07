@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Configurația de birou selectată a fost deja utilizată pe acest sistem,\n"
+"doriți să restaurați configurația care a fost deja utilizată?\n"
+"\n"
+"Selectați nu pentru a utiliza configurația implicită a sistemului.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Configurație aplicată!\n"
+"\n"
+"Deconectați-vă și conectați-vă din nou\n"
+"pentru finalizarea configurării\n"
+"aplicat."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Dacă utilizați un browser, reporniți-l pentru a aplica modificările."
+
+msgid "Desempenho em modo normal!"
+msgstr "Performanță în modul normal!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Performanță în modul performanță!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Feriți-vă că veți pierde accesul la SnapShots, sunteți sigur că doriți să ascundeți grub-ul?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Veți ști cum să returnați Grub în caz de eșec?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Veți putea accesa SnapShots fără acces la modul Grafic?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Sunteți complet sigur de această aplicație?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Aplicând, așteptați..."
+
+msgid "Concluído!"
+msgstr "Făcut!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Performanță în modul îmbunătățit!"
+
 msgid "Temas"
 msgstr "Teme"
 
@@ -154,64 +210,11 @@ msgstr "Desktop aplicat"
 msgid "Modo performance"
 msgstr "Modul performanță"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS fără fsync"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Prin utilizarea randării software, calitatea transparențelor este redusă."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Dacă utilizați un browser, reporniți-l pentru a aplica modificările."
-
-msgid "Desempenho em modo normal!"
-msgstr "Performanță în modul normal!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Configurația de birou selectată a fost deja utilizată pe acest sistem,\n"
-"doriți să restaurați configurația care a fost deja utilizată?\n"
-"\n"
-"Selectați nu pentru a utiliza configurația implicită a sistemului.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Configurație aplicată!\n"
-"\n"
-"Deconectați-vă și conectați-vă din nou\n"
-"pentru finalizarea configurării\n"
-"aplicat."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Feriți-vă că veți pierde accesul la SnapShots, sunteți sigur că doriți să ascundeți grub-ul?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Veți ști cum să returnați Grub în caz de eșec?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Veți putea accesa SnapShots fără acces la modul Grafic?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Sunteți complet sigur de această aplicație?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Aplicând, așteptați..."
-
-msgid "Concluído!"
-msgstr "Făcut!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Performanță în modul îmbunătățit!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Performanță în modul performanță!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Teme, desktop și setări"

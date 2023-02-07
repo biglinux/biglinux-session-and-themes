@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"The selected desktop configuration has already been used on this system,\n"
+"do you want to restore the configuration that has already been used?\n"
+"\n"
+"Select no to use the default system configuration.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Configuration applied!\n"
+"\n"
+"Log out and log in again\n"
+"again for the configuration to finish\n"
+"applied."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "If you are using a browser, restart it to apply the changes."
+
+msgid "Desempenho em modo normal!"
+msgstr "Performance in normal mode!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Performance in performance mode!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Beware you will lose access to SnapShots, are you sure you want to hide the grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Will you know how to return Grub in case of failure?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Will you be able to access SnapShots without access to Graph mode?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Are you completely sure of this application?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Applying, wait..."
+
+msgid "Concluído!"
+msgstr "Done!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Performance in enhanced mode!"
+
 msgid "Temas"
 msgstr "Themes"
 
@@ -154,64 +210,11 @@ msgstr "Applied Desktop"
 msgid "Modo performance"
 msgstr "Performance mode"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS without fsync"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Using software rendering, the quality of transparencies is reduced."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "If you are using a browser, restart it to apply the changes."
-
-msgid "Desempenho em modo normal!"
-msgstr "Performance in normal mode!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"The selected desktop configuration has already been used on this system,\n"
-"do you want to restore the configuration that has already been used?\n"
-"\n"
-"Select no to use the default system configuration.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Configuration applied!\n"
-"\n"
-"Log out and log in again\n"
-"again for the configuration to finish\n"
-"applied."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Beware you will lose access to SnapShots, are you sure you want to hide the grub?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Will you know how to return Grub in case of failure?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Will you be able to access SnapShots without access to Graph mode?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Are you completely sure of this application?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Applying, wait..."
-
-msgid "Concluído!"
-msgstr "Done!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Performance in enhanced mode!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Performance in performance mode!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Themes, Desktop and Settings"

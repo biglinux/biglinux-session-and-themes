@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#
 msgid ""
 "\n"
 "A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
@@ -28,6 +29,7 @@ msgstr ""
 "\n"
 "Selecione não para utilizar a configuração padrão do sistema.\n"
 
+#
 msgid ""
 "Configuração aplicada!\n"
 "\n"
@@ -41,17 +43,21 @@ msgstr ""
 "para que a configuração termine de\n"
 "ser aplicada."
 
+#
 msgid ""
 "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr ""
 "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 
+#
 msgid "Desempenho em modo normal!"
 msgstr "Desempenho em modo normal!"
 
+#
 msgid "Desempenho em modo performance!"
 msgstr "Desempenho em modo performance!"
 
+#
 msgid ""
 "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o "
 "grub?"
@@ -59,54 +65,71 @@ msgstr ""
 "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o "
 "grub?"
 
+#
 msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "Você saberá retornar o Grub em caso de falha?"
 
+#
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
 msgstr "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
 
+#
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Você está completamente seguro dessa aplicação?"
 
+#
 msgid "Aplicando, aguarde..."
 msgstr "Aplicando, aguarde..."
 
+#
 msgid "Concluído!"
 msgstr "Concluído!"
 
+#
 msgid "Desempenho em modo otimizado!"
 msgstr "Desempenho em modo otimizado!"
 
+#
 msgid "Temas"
 msgstr "Temas"
 
+#
 msgid "Desktop"
 msgstr "Desktop"
 
+#
 msgid "Ajustes"
 msgstr "Ajustes"
 
+#
 msgid "Desempenho do desktop"
 msgstr "Desempenho do desktop"
 
+#
 msgid "Desempenho"
 msgstr "Desempenho"
 
+#
 msgid "Aceleração do navegador"
 msgstr "Aceleração do navegador"
 
+#
 msgid "Tema dos aplicativos"
 msgstr "Tema dos aplicativos"
 
+#
 msgid "Abrir"
 msgstr "Abrir"
 
+#
 msgid "Fechar"
 msgstr "Fechar"
 
+#
 msgid "Bordas arredondadas."
 msgstr "Bordas arredondadas."
 
+#
 msgid ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
 "lento em computadores<br>antigos ou ambientes virtualizados."
@@ -114,12 +137,15 @@ msgstr ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema "
 "lento em computadores<br>antigos ou ambientes virtualizados."
 
+#
 msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
 msgstr "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
 
+#
 msgid "Renderizar o desktop via software"
 msgstr "Renderizar o desktop via software"
 
+#
 msgid ""
 "(Pode ser útil em computadores antigos, porém alguns programas param de "
 "funcionar)"
@@ -127,9 +153,11 @@ msgstr ""
 "(Pode ser útil em computadores antigos, porém alguns programas param de "
 "funcionar)"
 
+#
 msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Escolher programas a serem carregados na memória durante boot"
 
+#
 msgid ""
 "O Preload carrega arquivos dos programas na memória, para que iniciem "
 "rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
@@ -137,63 +165,83 @@ msgstr ""
 "O Preload carrega arquivos dos programas na memória, para que iniciem "
 "rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
 
+#
 msgid "Ligar RGB do teclado"
 msgstr "Ligar RGB do teclado"
 
+#
 msgid "Automático"
 msgstr "Automático"
 
+#
 msgid "Ativar"
 msgstr "Ativar"
 
+#
 msgid "Desativar"
 msgstr "Desativar"
 
+#
 msgid "Configurações do Brave"
 msgstr "Configurações do Brave"
 
+#
 msgid "Escolha a opção desejada:"
 msgstr "Escolha a opção desejada:"
 
+#
 msgid "Remover propagandas"
 msgstr "Remover propagandas"
 
+#
 msgid "Suportar criptomoedas"
 msgstr "Suportar criptomoedas"
 
+#
 msgid "Usabilidade"
 msgstr "Usabilidade"
 
+#
 msgid "Botões da janela no lado esquerdo"
 msgstr "Botões da janela no lado esquerdo"
 
+#
 msgid "Rolagem do mouse invertida"
 msgstr "Rolagem do mouse invertida"
 
+#
 msgid "Rolagem do touchpad invertida"
 msgstr "Rolagem do touchpad invertida"
 
+#
 msgid "Pesquisar arquivos"
 msgstr "Pesquisar arquivos"
 
+#
 msgid "Bloquear a edição da área de trabalho "
 msgstr "Bloquear a edição da área de trabalho "
 
+#
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Ocultar Gerenciador de Boot (GRUB)"
 
+#
 msgid "Ativar o NumLock ao ligar o sistema"
 msgstr "Ativar o NumLock ao ligar o sistema"
 
+#
 msgid "Tema aplicado"
 msgstr "Tema aplicado"
 
+#
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "É preciso reiniciar a sessão para concluir a configuração."
 
+#
 msgid "Configuração do Desktop"
 msgstr "Configuração do Desktop"
 
+#
 msgid ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
 "utilizar a configuração original?"
@@ -201,24 +249,35 @@ msgstr ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou "
 "utilizar a configuração original?"
 
+#
 msgid "Sim"
 msgstr "Sim"
 
+#
 msgid "Não"
 msgstr "Não"
 
+#
 msgid "Original"
 msgstr "Original"
 
+#
 msgid "Restaurar"
 msgstr "Restaurar"
 
+#
 msgid "Desktop aplicado"
 msgstr "Desktop aplicado"
 
+#
 msgid "Modo performance"
 msgstr "Modo performance"
 
+#
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sem fsync"
+
+#
 msgid ""
 "Utilizando renderização por software, a qualidade das transparências está "
 "reduzida."
@@ -226,5 +285,6 @@ msgstr ""
 "Utilizando renderização por software, a qualidade das transparências está "
 "reduzida."
 
+#
 msgid "Temas, Desktop e Ajustes"
 msgstr "Temas, Desktop e Ajustes"

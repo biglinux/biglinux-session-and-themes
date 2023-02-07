@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"La configuración de escritorio seleccionada ya ha sido utilizada en este sistema,\n"
+"¿quieres restaurar la configuración que ya se ha utilizado?\n"
+"\n"
+"Seleccione no para utilizar la configuración por defecto del sistema.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"¡Configuración aplicada!\n"
+"\n"
+"Cerrar la sesión y volver a iniciarla\n"
+"para que la configuración termine\n"
+"aplicada."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Si está utilizando un navegador, reinícielo para aplicar los cambios."
+
+msgid "Desempenho em modo normal!"
+msgstr "Rendimiento en modo normal!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Rendimiento en el modo de rendimiento!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Tenga en cuenta que perderá el acceso a SnapShots, ¿está seguro de que desea ocultar la larva?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "¿Sabrás cómo devolver Grub en caso de fallo?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "¿Podrá acceder a SnapShots sin acceso al modo Gráfico?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "¿Estás completamente seguro de esta aplicación?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Aplicando, espera..."
+
+msgid "Concluído!"
+msgstr "¡Hecho!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Rendimiento en modo mejorado!"
+
 msgid "Temas"
 msgstr "Temas"
 
@@ -154,64 +210,11 @@ msgstr "Escritorio aplicado"
 msgid "Modo performance"
 msgstr "Modo de rendimiento"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sin fsync"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Al utilizar el renderizado por software, la calidad de las transparencias se reduce."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Si está utilizando un navegador, reinícielo para aplicar los cambios."
-
-msgid "Desempenho em modo normal!"
-msgstr "Rendimiento en modo normal!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"La configuración de escritorio seleccionada ya ha sido utilizada en este sistema,\n"
-"¿quieres restaurar la configuración que ya se ha utilizado?\n"
-"\n"
-"Seleccione no para utilizar la configuración por defecto del sistema.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"¡Configuración aplicada!\n"
-"\n"
-"Cerrar la sesión y volver a iniciarla\n"
-"para que la configuración termine\n"
-"aplicada."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Tenga en cuenta que perderá el acceso a SnapShots, ¿está seguro de que desea ocultar la larva?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "¿Sabrás cómo devolver Grub en caso de fallo?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "¿Podrá acceder a SnapShots sin acceso al modo Gráfico?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "¿Estás completamente seguro de esta aplicación?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Aplicando, espera..."
-
-msgid "Concluído!"
-msgstr "¡Hecho!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Rendimiento en modo mejorado!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Rendimiento en el modo de rendimiento!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Temas, escritorio y configuración"

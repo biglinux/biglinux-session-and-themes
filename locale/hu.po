@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"A kiválasztott asztali konfiguráció már használatban van ezen a rendszeren,\n"
+"vissza szeretné állítani a már használt konfigurációt?\n"
+"\n"
+"Válassza a no lehetőséget az alapértelmezett rendszerkonfiguráció használatához.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfiguráció alkalmazva!\n"
+"\n"
+"Kijelentkezés és újbóli bejelentkezés\n"
+"a konfiguráció befejezéséhez\n"
+"alkalmazott."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ha böngészőt használ, indítsa újra a módosítások alkalmazásához."
+
+msgid "Desempenho em modo normal!"
+msgstr "Teljesítmény normál üzemmódban!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Teljesítmény teljesítmény üzemmódban!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Vigyázzon, elveszíti hozzáférését a SnapShots-hoz, biztos benne, hogy el akarja rejteni a grubot?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Tudni fogja, hogyan kell visszaadni a Grub-ot hiba esetén?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Képes lesz hozzáférni a SnapShots-hoz anélkül, hogy hozzáférne a Graph módhoz?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Teljesen biztos ebben az alkalmazásban?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Jelentkezés, várakozás..."
+
+msgid "Concluído!"
+msgstr "Kész!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Teljesítmény továbbfejlesztett üzemmódban!"
+
 msgid "Temas"
 msgstr "Témák"
 
@@ -154,64 +210,11 @@ msgstr "Asztali alkalmazás"
 msgid "Modo performance"
 msgstr "Teljesítmény mód"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS fsync nélkül"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "A szoftveres rendereléssel a fóliák minősége csökken."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ha böngészőt használ, indítsa újra a módosítások alkalmazásához."
-
-msgid "Desempenho em modo normal!"
-msgstr "Teljesítmény normál üzemmódban!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"A kiválasztott asztali konfiguráció már használatban van ezen a rendszeren,\n"
-"vissza szeretné állítani a már használt konfigurációt?\n"
-"\n"
-"Válassza a no lehetőséget az alapértelmezett rendszerkonfiguráció használatához.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfiguráció alkalmazva!\n"
-"\n"
-"Kijelentkezés és újbóli bejelentkezés\n"
-"a konfiguráció befejezéséhez\n"
-"alkalmazott."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Vigyázzon, elveszíti hozzáférését a SnapShots-hoz, biztos benne, hogy el akarja rejteni a grubot?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Tudni fogja, hogyan kell visszaadni a Grub-ot hiba esetén?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Képes lesz hozzáférni a SnapShots-hoz anélkül, hogy hozzáférne a Graph módhoz?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Teljesen biztos ebben az alkalmazásban?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Jelentkezés, várakozás..."
-
-msgid "Concluído!"
-msgstr "Kész!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Teljesítmény továbbfejlesztett üzemmódban!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Teljesítmény teljesítmény üzemmódban!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Témák, Asztal és beállítások"

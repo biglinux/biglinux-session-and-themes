@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"선택한 데스크톱 구성이 이 시스템에서 이미 사용되었습니다.\n"
+"이미 사용된 구성을 복원하시겠습니까?\n"
+"\n"
+"기본 시스템 설정을 사용하려면 no를 선택합니다.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"구성이 적용되었습니다!\n"
+"\n"
+"로그아웃했다가 다시 로그인\n"
+"구성을 마칠 수 있습니다.\n"
+"적용될 수 있습니다."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "브라우저를 사용하는 경우 브라우저를 다시 시작하여 변경 내용을 적용합니다."
+
+msgid "Desempenho em modo normal!"
+msgstr "일반 모드에서의 성능!"
+
+msgid "Desempenho em modo performance!"
+msgstr "퍼포먼스 모드에서의 퍼포먼스!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "SnapShots에 대한 액세스 권한을 잃을 수 있으므로 땅벌레를 숨기고 싶습니까?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "실패시 Grub을 반환하는 방법을 알고 있습니까?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "그래프 모드에 액세스하지 않고도 SnapShot에 액세스할 수 있습니까?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "이 응용 프로그램을 완전히 확신합니까?"
+
+msgid "Aplicando, aguarde..."
+msgstr "적용 중, 잠깐만..."
+
+msgid "Concluído!"
+msgstr "수행!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "최적화된 모드에서의 성능!"
+
 msgid "Temas"
 msgstr "토픽"
 
@@ -148,64 +204,11 @@ msgstr "응용 데스크톱"
 msgid "Modo performance"
 msgstr "성능 모드"
 
+msgid "BTRFS sem fsync"
+msgstr "프싱크가 없는 BTRFS"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "소프트웨어 렌더링을 사용하면 투명도의 품질이 저하됩니다."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "브라우저를 사용하는 경우 브라우저를 다시 시작하여 변경 내용을 적용합니다."
-
-msgid "Desempenho em modo normal!"
-msgstr "일반 모드에서의 성능!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"선택한 데스크톱 구성이 이 시스템에서 이미 사용되었습니다.\n"
-"이미 사용된 구성을 복원하시겠습니까?\n"
-"\n"
-"기본 시스템 설정을 사용하려면 no를 선택합니다.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"구성이 적용되었습니다!\n"
-"\n"
-"로그아웃했다가 다시 로그인\n"
-"구성을 마칠 수 있습니다.\n"
-"적용될 수 있습니다."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "SnapShots에 대한 액세스 권한을 잃을 수 있으므로 땅벌레를 숨기고 싶습니까?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "실패시 Grub을 반환하는 방법을 알고 있습니까?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "그래프 모드에 액세스하지 않고도 SnapShot에 액세스할 수 있습니까?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "이 응용 프로그램을 완전히 확신합니까?"
-
-msgid "Aplicando, aguarde..."
-msgstr "적용 중, 잠깐만..."
-
-msgid "Concluído!"
-msgstr "수행!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "최적화된 모드에서의 성능!"
-
-msgid "Desempenho em modo performance!"
-msgstr "퍼포먼스 모드에서의 퍼포먼스!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "테마, 데스크톱 및 조정"

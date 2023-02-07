@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Vybraná konfigurácia pracovnej plochy už bola v tomto systéme použitá,\n"
+"chcete obnoviť už použitú konfiguráciu?\n"
+"\n"
+"Ak chcete použiť predvolenú konfiguráciu systému, vyberte možnosť nie.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Aplikovaná konfigurácia!\n"
+"\n"
+"Odhlásenie a opätovné prihlásenie\n"
+"na dokončenie konfigurácie\n"
+"použité."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ak používate prehliadač, reštartujte ho, aby ste použili zmeny."
+
+msgid "Desempenho em modo normal!"
+msgstr "Výkon v normálnom režime!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Výkon v režime výkonu!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Dajte si pozor, že stratíte prístup k SnapShots, ste si istí, že chcete skryť grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Budete vedieť, ako vrátiť Grub v prípade zlyhania?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Budete mať prístup k SnapShots bez prístupu k režimu Graph?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Ste si touto aplikáciou úplne istí?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Aplikácia, počkajte..."
+
+msgid "Concluído!"
+msgstr "Robené!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Výkon v rozšírenom režime!"
+
 msgid "Temas"
 msgstr "Témy"
 
@@ -154,64 +210,11 @@ msgstr "Aplikovaná pracovná plocha"
 msgid "Modo performance"
 msgstr "Režim výkonu"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsync"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Pri softvérovom vykresľovaní sa znižuje kvalita priehľadov."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ak používate prehliadač, reštartujte ho, aby ste použili zmeny."
-
-msgid "Desempenho em modo normal!"
-msgstr "Výkon v normálnom režime!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Vybraná konfigurácia pracovnej plochy už bola v tomto systéme použitá,\n"
-"chcete obnoviť už použitú konfiguráciu?\n"
-"\n"
-"Ak chcete použiť predvolenú konfiguráciu systému, vyberte možnosť nie.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Aplikovaná konfigurácia!\n"
-"\n"
-"Odhlásenie a opätovné prihlásenie\n"
-"na dokončenie konfigurácie\n"
-"použité."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Dajte si pozor, že stratíte prístup k SnapShots, ste si istí, že chcete skryť grub?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Budete vedieť, ako vrátiť Grub v prípade zlyhania?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Budete mať prístup k SnapShots bez prístupu k režimu Graph?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Ste si touto aplikáciou úplne istí?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Aplikácia, počkajte..."
-
-msgid "Concluído!"
-msgstr "Robené!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Výkon v rozšírenom režime!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Výkon v režime výkonu!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Témy, pracovná plocha a nastavenia"

@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Η επιλεγμένη διαμόρφωση επιφάνειας εργασίας έχει ήδη χρησιμοποιηθεί σε αυτό το σύστημα,\n"
+"θέλετε να επαναφέρετε τη διαμόρφωση που έχει ήδη χρησιμοποιηθεί\n"
+"\n"
+"Επιλέξτε no για να χρησιμοποιήσετε την προεπιλεγμένη διαμόρφωση του συστήματος.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Εφαρμόζεται η διαμόρφωση!\n"
+"\n"
+"Αποσυνδεθείτε και συνδεθείτε ξανά\n"
+"για να ολοκληρωθεί η διαμόρφωση\n"
+"εφαρμόζεται."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Εάν χρησιμοποιείτε πρόγραμμα περιήγησης, επανεκκινήστε το για να εφαρμόσετε τις αλλαγές."
+
+msgid "Desempenho em modo normal!"
+msgstr "Απόδοση σε κανονική λειτουργία!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Απόδοση σε λειτουργία απόδοσης!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Προσέξτε ότι θα χάσετε την πρόσβαση στο SnapShots, είστε σίγουροι ότι θέλετε να κρύψετε το grub;"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Θα ξέρετε πώς να επιστρέψετε το Grub σε περίπτωση αποτυχίας;"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Θα μπορείτε να έχετε πρόσβαση στο SnapShots χωρίς πρόσβαση στη λειτουργία γραφήματος;"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Είστε απόλυτα σίγουροι για αυτήν την εφαρμογή;"
+
+msgid "Aplicando, aguarde..."
+msgstr "Αίτηση, περιμένετε..."
+
+msgid "Concluído!"
+msgstr "Έγινε!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Απόδοση σε βελτιωμένη λειτουργία!"
+
 msgid "Temas"
 msgstr "Θέματα"
 
@@ -156,64 +212,11 @@ msgstr "Εφαρμόζεται στην επιφάνεια εργασίας"
 msgid "Modo performance"
 msgstr "Λειτουργία απόδοσης"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS χωρίς fsync"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Χρησιμοποιώντας λογισμικό απόδοσης, η ποιότητα των διαφανειών μειώνεται."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Εάν χρησιμοποιείτε πρόγραμμα περιήγησης, επανεκκινήστε το για να εφαρμόσετε τις αλλαγές."
-
-msgid "Desempenho em modo normal!"
-msgstr "Απόδοση σε κανονική λειτουργία!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Η επιλεγμένη διαμόρφωση επιφάνειας εργασίας έχει ήδη χρησιμοποιηθεί σε αυτό το σύστημα,\n"
-"θέλετε να επαναφέρετε τη διαμόρφωση που έχει ήδη χρησιμοποιηθεί\n"
-"\n"
-"Επιλέξτε no για να χρησιμοποιήσετε την προεπιλεγμένη διαμόρφωση του συστήματος.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Εφαρμόζεται η διαμόρφωση!\n"
-"\n"
-"Αποσυνδεθείτε και συνδεθείτε ξανά\n"
-"για να ολοκληρωθεί η διαμόρφωση\n"
-"εφαρμόζεται."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Προσέξτε ότι θα χάσετε την πρόσβαση στο SnapShots, είστε σίγουροι ότι θέλετε να κρύψετε το grub;"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Θα ξέρετε πώς να επιστρέψετε το Grub σε περίπτωση αποτυχίας;"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Θα μπορείτε να έχετε πρόσβαση στο SnapShots χωρίς πρόσβαση στη λειτουργία γραφήματος;"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Είστε απόλυτα σίγουροι για αυτήν την εφαρμογή;"
-
-msgid "Aplicando, aguarde..."
-msgstr "Αίτηση, περιμένετε..."
-
-msgid "Concluído!"
-msgstr "Έγινε!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Απόδοση σε βελτιωμένη λειτουργία!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Απόδοση σε λειτουργία απόδοσης!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Θέματα, επιφάνεια εργασίας και ρυθμίσεις"

@@ -16,6 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"\n"
+"Valin skjáborðsstilling hefur þegar verið notuð á þessu kerfi,\n"
+"viltu endurheimta stillingarnar sem þegar hafa verið notaðar?\n"
+"\n"
+"Veldu nei til að nota sjálfgefna kerfisstillingu.\n"
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Stillingar beitt!\n"
+"\n"
+"Skráðu þig út og skráðu þig aftur inn\n"
+"fyrir stillingar til að klára\n"
+"vera beitt."
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ef þú ert að nota vafra skaltu endurræsa hann til að beita breytingunum."
+
+msgid "Desempenho em modo normal!"
+msgstr "Flutningur í venjulegri stillingu!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Árangur í frammistöðu ham!"
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Varist að þú missir aðgang að SnapShots, ertu viss um að þú viljir fela matinn?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Veistu hvernig á að skila Grub ef bilun verður?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Munt þú geta fengið aðgang að SnapShots án þess að hafa aðgang að grafham?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Ertu alveg viss um þetta forrit?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Sækir um, bíddu ..."
+
+msgid "Concluído!"
+msgstr "Búinn!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Árangur í bjartsýni ham!"
+
 msgid "Temas"
 msgstr "Topics"
 
@@ -152,64 +208,11 @@ msgstr "Applied skrifborð"
 msgid "Modo performance"
 msgstr "Afkastastilling"
 
+msgid "BTRFS sem fsync"
+msgstr "BTRFS án fsync"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Með því að nota hugbúnað flutningur, gæði af the transparent minnkar."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ef þú ert að nota vafra skaltu endurræsa hann til að beita breytingunum."
-
-msgid "Desempenho em modo normal!"
-msgstr "Flutningur í venjulegri stillingu!"
-
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Valin skjáborðsstilling hefur þegar verið notuð á þessu kerfi,\n"
-"viltu endurheimta stillingarnar sem þegar hafa verið notaðar?\n"
-"\n"
-"Veldu nei til að nota sjálfgefna kerfisstillingu.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Stillingar beitt!\n"
-"\n"
-"Skráðu þig út og skráðu þig aftur inn\n"
-"fyrir stillingar til að klára\n"
-"vera beitt."
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Varist að þú missir aðgang að SnapShots, ertu viss um að þú viljir fela matinn?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Veistu hvernig á að skila Grub ef bilun verður?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Munt þú geta fengið aðgang að SnapShots án þess að hafa aðgang að grafham?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Ertu alveg viss um þetta forrit?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Sækir um, bíddu ..."
-
-msgid "Concluído!"
-msgstr "Búinn!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Árangur í bjartsýni ham!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Árangur í frammistöðu ham!"
 
 msgid "Temas, Desktop e Ajustes"
 msgstr "Þemu, skrifborð og klip"
