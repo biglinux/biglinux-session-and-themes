@@ -39,7 +39,7 @@ fi
 
             #qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
             #killall latte-dock
-            QT_QUICK_BACKEND="" QSG_RENDER_LOOP=basic /usr/bin/latte-dock
+            /usr/bin/latte-dock -d -r --cc
 #     fi
 
     > $HOME/.config/autostart/org.kde.latte-dock.desktop
