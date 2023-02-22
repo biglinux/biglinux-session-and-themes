@@ -1,6 +1,0 @@
-# created by KDE Plasma, dom. jul. 11 19:30:36 2021
-#
-include "/usr/share/themes/QtCurve/gtk-2.0/gtkrc"
-
-gtk-theme-name="QtCurve"
-

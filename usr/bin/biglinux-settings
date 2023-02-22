@@ -1,0 +1,10 @@
+#!/bin/bash 
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-settings
+
+Title=$"Ajustes"
+
+cd /usr/share/bigbashview/bcc/apps/biglinux-settings/
+bigbashview index.sh.htm -n "$Title" -t qt -s 850x650 -i /usr/share/icons/breeze/apps/64/big-plasma-theme.svg

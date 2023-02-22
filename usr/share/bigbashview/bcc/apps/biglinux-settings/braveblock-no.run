@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-settings
+
+windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
+
+> "$HOME/.config/browser-brave-disable-ad"
+
+if [ "$1" != "quiet" ]; then
+    kdialog  --attach="$windowID" --msgbox $"Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+fi

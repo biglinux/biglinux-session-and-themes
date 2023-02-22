@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-settings
+
+INPUT=$(grep "timeout_style=menu" /etc/grub.d/30_os-prober)
+if [ -n "$INPUT" ]; then
+    zenity --question --width=300 --title=Grub --text $"Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+    if [ "$?" = "0" ];then
+        zenity --question --width=300 --title=Grub --text $"Você saberá retornar o Grub em caso de falha?"
+        if [ "$?" = "0" ];then
+            zenity --question --width=300 --title=Grub --text $"Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+            if [ "$?" = "0" ];then
+                zenity --question --width=300 --title=Grub --text $"Você está completamente seguro dessa aplicação?"
+                if [ "$?" = "0" ];then
+                pkexec ./grub1.run | zenity --width=300 --progress --title=Grub --pulsate --no-cancel --auto-close --text $"Aplicando, aguarde..."
+                zenity --info --title=Grub --text $"Concluído!"
+                fi
+            fi
+        fi
+    fi
+else
+    pkexec ./grub1.run | zenity --width=300 --progress --title=Grub --pulsate --no-cancel --auto-close --text $"Aplicando, aguarde..."
+    zenity --info --title=Grub --text $"Concluído!"
+fi

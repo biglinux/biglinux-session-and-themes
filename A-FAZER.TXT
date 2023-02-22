@@ -1,0 +1,5 @@
+
+/usr/share/bigbashview/bcc/shell/getbgcolor.sh
+é bigcontralcenter, deveria ser do bigbashview
+
+criar icones proprios, pq os icones estão vindo do session and themes e vai dar conflito
