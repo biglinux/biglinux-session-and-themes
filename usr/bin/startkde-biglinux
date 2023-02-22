@@ -216,7 +216,7 @@ for i in "$HOME/.config/konsolerc" "$HOME/.config/dolphinrc"; do
 
 done
 
-/usr/lib/pam_kwallet_init &
+#/usr/lib/pam_kwallet_init &
 
 
 # Fix to GTK4 theme
