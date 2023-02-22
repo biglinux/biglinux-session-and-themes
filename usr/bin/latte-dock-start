@@ -1,0 +1,50 @@
+#!/bin/bash
+
+> $HOME/.config/autostart/org.kde.latte-dock.desktop
+
+ENABLE_LATTE="$(cat ~/.config/enable_latte)"
+if [ "$ENABLE_LATTE" != "1" ]; then
+    systemctl --user stop lattedock
+    exit
+fi
+
+# Change systray applet
+if [ ! -e "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
+
+    if [ -e "/usr/share/latte/org.kde.plasma.systemtray" ]; then
+        mkdir -p ~/.local/share/plasma/plasmoids
+        ln -s /usr/share/latte/org.kde.plasma.systemtray ~/.local/share/plasma/plasmoids/org.kde.plasma.systemtray
+        ln -s /usr/share/latte/org.kde.plasma.private.systemtray ~/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray
+    fi
+
+fi
+
+# while :; do
+
+#     if [ "$(qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.isShuttingDown)" = "false" ]; then
+
+    #     if [ "$(cat "$HOME/.big_performance")" != "0" ] && [ "$(cat "$HOME/.big_performance")" != "" ]; then
+    #         if [ "$ENABLE_LATTE" = "1" ]; then
+    #             qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
+    #             QT_QUICK_BACKEND="" QSG_RENDER_LOOP=basic /usr/bin/latte-dock
+    #         fi
+    #     else
+    #         if [ "$ENABLE_LATTE" = "1" ]; then
+    #             qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
+    #             QT_QUICK_BACKEND="" QSG_RENDER_LOOP=basic /usr/bin/latte-dock
+    #         fi
+    #     fi
+
+
+
+            #qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
+            #killall latte-dock
+            /usr/bin/latte-dock -d -r --cc
+#     fi
+
+    > $HOME/.config/autostart/org.kde.latte-dock.desktop
+#     sleep 1
+# done
+
+
+

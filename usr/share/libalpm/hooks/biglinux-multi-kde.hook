@@ -1,0 +1,12 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = plasma-workspace
+Target = biglinux-session-and-themes
+Target = plasma-wayland-session
+
+[Action]
+Description = Multi configurations to login on KDE
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/biglinux-multi-kde

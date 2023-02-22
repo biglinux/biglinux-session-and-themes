@@ -1,0 +1,76 @@
+[PlasmaRunnerManager]
+LaunchCounts=5 services_org.kde.konsole.desktop,1 services_org.kde.kfind.desktop
+pluginWhiteList=services,desktopsessions,PowerDevil,shell,bookmarks,baloosearch,locations
+
+[PlasmaTransientsConfig]
+PreloadWeight=42
+
+[PlasmaViews][Panel 2]
+alignment=132
+floating=1
+panelOpacity=2
+
+[PlasmaViews][Panel 2][Defaults]
+maxLength=1366
+minLength=128
+thickness=42
+
+[PlasmaViews][Panel 3]
+alignment=132
+floating=1
+panelOpacity=2
+
+[PlasmaViews][Panel 3][Defaults]
+maxLength=1366
+minLength=128
+thickness=42
+
+[PlasmaViews][Panel 4]
+alignment=132
+floating=1
+panelOpacity=2
+
+[PlasmaViews][Panel 4][Defaults]
+maxLength=1366
+minLength=128
+thickness=42
+
+[PlasmaViews][Panel 5]
+alignment=132
+floating=1
+panelOpacity=2
+
+[PlasmaViews][Panel 5][Defaults]
+maxLength=1366
+minLength=128
+thickness=42
+
+[PlasmaViews][Panel 6]
+alignment=132
+floating=1
+panelOpacity=2
+
+[PlasmaViews][Panel 6][Defaults]
+maxLength=1366
+minLength=128
+thickness=42
+
+[PlasmaViews][Panel 7]
+alignment=132
+floating=1
+panelOpacity=2
+
+[PlasmaViews][Panel 7][Defaults]
+maxLength=1366
+minLength=128
+thickness=42
+
+[PlasmaViews][Panel 8]
+alignment=132
+floating=1
+panelOpacity=2
+
+[PlasmaViews][Panel 8][Defaults]
+maxLength=1366
+minLength=128
+thickness=42

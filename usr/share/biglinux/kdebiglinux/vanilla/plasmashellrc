@@ -1,0 +1,27 @@
+[PlasmaRunnerManager]
+LaunchCounts=5 services_org.kde.konsole.desktop,1 services_org.kde.kfind.desktop
+pluginWhiteList=services,desktopsessions,PowerDevil,shell,bookmarks,baloosearch,locations
+
+[PlasmaTransientsConfig]
+PreloadWeight=42
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=42
+
+[PlasmaViews][Panel 3][Defaults]
+thickness=42
+
+[PlasmaViews][Panel 4][Defaults]
+thickness=42
+
+[PlasmaViews][Panel 5][Defaults]
+thickness=42
+
+[PlasmaViews][Panel 6][Defaults]
+thickness=42
+
+[PlasmaViews][Panel 7][Defaults]
+thickness=42
+
+[PlasmaViews][Panel 8][Defaults]
+thickness=42

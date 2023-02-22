@@ -1,0 +1,10 @@
+[Unit]
+Description=Latte dock
+After=plasma-ksmserver.service
+
+[Service]
+ExecStart=/usr/bin/latte-dock-start
+Type=simple
+
+[Install]
+WantedBy=plasma-core.target

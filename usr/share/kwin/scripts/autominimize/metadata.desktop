@@ -1,0 +1,19 @@
+[Desktop Entry]
+
+Name=Autominimize
+X-KDE-PluginInfo-Version=4
+Comment=Minimize background windows on fullscreen, to improve graphical performance
+Icon=preferences-desktop-effects
+
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-Website=
+
+X-KDE-PluginInfo-Name=autominimize
+Type=Service
+X-KDE-PluginInfo-Category=Kwin Script
+X-KDE-PluginInfo-EnabledByDefault=true
+
+X-KDE-ServiceTypes=KWin/Script
+X-Plasma-API=declarativescript
+X-Plasma-MainScript=code/main.qml
+X-KWin-Border-Activate=true

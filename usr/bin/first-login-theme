@@ -1,0 +1,44 @@
+#!/bin/bash
+
+/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/lock-desktop.run
+
+if [ ! -e "$HOME/.local/share/user-places-big.xbel" ]; then
+    #Hide recent files in dolphin
+    sed -i 's|<GroupState-RecentlySaved-IsHidden>false</GroupState-RecentlySaved-IsHidden>|<GroupState-RecentlySaved-IsHidden>true</GroupState-RecentlySaved-IsHidden>|g' ~/.local/share/user-places.xbel
+    > "$HOME/.local/share/user-places-big.xbel"
+fi
+    
+if [ ! -e "/etc/default-theme-biglinux" ] || [ -e "$HOME/.big_desktop_theme" ] || [ -e "/tmp/big_desktop_theme" ]; then
+    exit
+
+else
+
+    BIG_THEME="$(cat /etc/default-theme-biglinux)"
+    biglinux-themes.sh --apply $BIG_THEME
+    systemctl --user enable big-welcome
+
+#     case "$BIG_THEME" in
+# 
+#         arc)
+#             qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme Arc
+#             exit
+#         ;;
+# 
+#         adapta)
+#             qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme Adapta-Eta
+#             exit
+#         ;;
+# 
+#         breeze)
+#             qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme Breeze
+#             exit
+#         ;;
+# 
+#         dark)
+#             qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme Arc-Dark
+#             exit
+#         ;;
+# 
+#     esac
+
+fi

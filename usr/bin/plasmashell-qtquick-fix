@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# Add Exec=QT_QUICK_BACKEND= in all .desktop files to solve bug in Exec=QT_QUICK_BACKEND=software
+
+
+OIFS=$IFS
+IFS=$'\n'
+
+for i  in $(LC_ALL=C grep -R "^Exec" /usr/share/applications/ /var/lib/flatpak/exports/share/applications/ /var/lib/snapd/desktop/applications/ | grep -vi 'QT_QUICK_BACKEND\|Binary\|org.kde.discover\|screensaver\|webapp\|gnome\|gtk\|libreoffice\|firefox\|openjdk\|java\|okular\|chrom' | cut -f1 -d: | uniq); do
+
+
+    sed -i 's|^Exec=|Exec=QT_QUICK_BACKEND= |g'  "$i"
+done
+
+# Fix badger overlay in icons, like in telegram-desktop
+sed -i '0,/hideSource: .*/s//hideSource: false/' /usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/TaskBadgeOverlay.qml
+
+IFS=$OIFS

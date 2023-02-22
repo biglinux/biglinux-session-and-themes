@@ -1,0 +1,207 @@
+#!/bin/bash
+
+case "$1" in
+
+    --apply)
+
+
+#list of files you want to save
+kde=(
+kactivitymanagerdrc
+kscreenlockerrc
+ksmserverrc
+ksplashrc
+plasmarc
+plasma-org.kde.plasma.desktop-appletsrc
+plasmashellrc
+enable_latte
+lattedockrc
+latte
+kwin_left
+kwin_maximized_disable
+kglobalshortcutsrc
+classikrc
+)
+
+mkdir -p ~/.kdebiglinux
+mkdir -p ~/.config/latte
+
+if [ "$3" = "quiet" ] || [ "$4" = "quiet" ]; then
+    echo "No stop services"
+else
+    systemctl --user stop plasma-plasmashell
+    systemctl --user stop lattedock
+    systemctl --user stop plasma-kglobalaccel.service
+
+fi
+
+LAST_USED="$(cat "$HOME/.kdebiglinux/lastused")"
+
+
+# Backup config
+if [ "$LAST_USED" != "" ]; then
+    mkdir -p "$HOME/.kdebiglinux/$LAST_USED"
+    #Clean latte
+    rm -Rf "$HOME/.kdebiglinux/$LAST_USED/latte"
+    #Move config to use later
+    for i in "${kde[@]}"; do
+        cp -Rf "$HOME/.config/$i" "$HOME/.kdebiglinux/$LAST_USED"
+    done
+fi
+
+
+# Clean
+if [ "$3" = "clean" ] && [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
+    #chmod 644 ~/.config/latte/*.latte
+    rm -Rf "$HOME/.kdebiglinux/$2"
+fi
+
+# Remove link to sistray tweaks to latte
+if [ -L "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
+  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray"
+  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray"
+fi
+
+# Apply config
+if [ -e "$HOME/.kdebiglinux/$2" ]; then
+
+    #Fix autostart lattedock
+    rm -f "$HOME/.config/enable_latte"
+    #Fix kwin button
+    rm -f "$HOME/.config/kwin_left"
+    #Fix kwin maximized
+    rm -f "$HOME/.config/kwin_maximized_disable"
+    #Clean latte
+    rm -Rf "$HOME/.config/latte"
+    #Save lastused
+    echo "$2" > $HOME/.kdebiglinux/lastused
+
+    #Move config to use now
+    for i in "${kde[@]}"; do
+        cp -Rf "$HOME/.kdebiglinux/$2/$i" "/$HOME/.config/$i"
+    done
+else
+    if [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
+
+        #Fix autostart lattedock
+        rm -f "$HOME/.config/enable_latte"
+        #Fix kwin button
+        rm -Rf "$HOME/.config/kwin_left"
+        #Fix kwin maximized
+        rm -f "$HOME/.config/kwin_maximized_disable"
+        #Save lastused
+        echo "$2" > $HOME/.kdebiglinux/lastused
+
+        #Move config to use now
+        for i in "${kde[@]}"; do
+            cp -Rf /usr/share/biglinux/kdebiglinux/$2/$i ~/.config/
+        done
+    fi
+fi
+
+if [ "$(cat "$HOME/.config/kwin_left")" = "1" ]; then
+    kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
+    kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
+    kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
+else
+    kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
+    kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
+    kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
+fi
+
+
+
+# Disable kwin border in maximized windows
+if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
+    #Chromium Brave Chrome
+    sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
+    #Firefox
+    sed -i 's|user_pref("browser.tabs.inTitlebar", 1);|user_pref("browser.tabs.inTitlebar", 0);|g' ~/.mozilla/firefox/*.default/prefs.js
+    #Kwin
+    sed -i '/BorderlessMaximizedWindows=false/d' ~/.config/kwinrc
+else
+    #Chromium Brave Chrome
+    sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
+    #Firefox
+    sed -i 's|user_pref("browser.tabs.inTitlebar", 0);|user_pref("browser.tabs.inTitlebar", 1);|g' ~/.mozilla/firefox/*.default/prefs.js
+    #Kwin
+    sed -i '/BorderlessMaximizedWindows=true/d' ~/.config/kwinrc
+fi
+
+if [ "$2" = "classic" ]; then
+    #descobrir browser padrão do sistema
+    DEFAULTWEB=$(xdg-settings get default-web-browser)
+    #se não achar browser padrão jultar que é brave-browser
+    sed -i "s|url=file:///usr/share/applications/brave-browser.desktop|url=file:///usr/share/applications/$DEFAULTWEB|" ~/.config/plasma-org.kde.plasma.desktop-appletsrc
+fi
+
+if [ "$2" = "vanilla" ]; then
+    kwriteconfig5 --file ~/.config/kdeglobals --group Icons --key "Theme" "breeze"
+fi
+
+
+if [ "$3" = "quiet" ] || [ "$4" = "quiet" ]; then
+    echo "No start services"
+else
+    systemctl --user start plasma-plasmashell
+    systemctl --user start plasma-kglobalaccel.service
+
+    if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
+        qdbus org.kde.lattedock /Latte org.kde.LatteDock.switchToLayout "$HOME/.config/latte/Default.layout.latte"
+        kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key "Meta" "org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu"
+        systemctl --user start lattedock
+    else
+        qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
+        kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key "Meta" "org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu"
+    fi
+
+    qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
+    qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.gtkTheme)
+    gtk-reload.py
+fi
+
+
+if [ -e "$HOME/.config/lockplasma" ]; then
+    #chmod 444 ~/.config/latte/*.latte
+    qdbus org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(true)"
+else
+    #chmod 644 ~/.config/latte/*.latte
+    qdbus org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(false)"
+fi
+;;
+
+
+
+    --list)
+for i  in  $(ls /usr/share/biglinux/kdebiglinux/); do
+    echo "$i"
+done
+exit
+;;
+
+    *)
+echo " Usage:
+--list
+--apply name-of-theme
+--clean to restart theme
+
+Example to apply classic theme:
+
+change-plasma-theme --apply classic
+or
+change-plasma-theme --apply classic clean
+or
+change-plasma-theme --apply classic quiet
+
+
+If use clean, remove configuration in home folder and use clean configuration.
+
+Use quiet to change files but not instant apply
+
+Use cleanquiet to remove user configuration and clean user configuration"
+exit
+;;
+
+esac
+
+

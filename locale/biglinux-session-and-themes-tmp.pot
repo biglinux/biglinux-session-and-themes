@@ -1,0 +1,209 @@
+# #-#-#-#-#  biglinux-session-and-themes.pot (biglinux-session-and-themes)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "#-#-#-#-#  biglinux-session-and-themes.pot (biglinux-session-and-themes)  #-#-#-#-#\n"
+        "Project-Id-Version: biglinux-session-and-themes\n"
+        "Report-Msgid-Bugs-To: \n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "#-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+        "Project-Id-Version: PACKAGE VERSION\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "Generated-By: pygettext.py 1.5\n"
+#
+msgid   "\n"
+        "A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+        "deseja restaurar a configuração que já foi utilizada?\n"
+        "\n"
+        "Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr  ""
+#
+msgid   "Configuração aplicada!\n"
+        "\n"
+        "Finalize a sessão e faça login novamente\n"
+        "para que a configuração termine de\n"
+        "ser aplicada."
+msgstr  ""
+#
+msgid   "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr  ""
+#
+msgid   "Desempenho em modo normal!"
+msgstr  ""
+#
+msgid   "Desempenho em modo performance!"
+msgstr  ""
+#
+msgid   "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr  ""
+#
+msgid   "Você saberá retornar o Grub em caso de falha?"
+msgstr  ""
+#
+msgid   "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr  ""
+#
+msgid   "Você está completamente seguro dessa aplicação?"
+msgstr  ""
+#
+msgid   "Aplicando, aguarde..."
+msgstr  ""
+#
+msgid   "Concluído!"
+msgstr  ""
+#
+msgid   "Desempenho em modo otimizado!"
+msgstr  ""
+#
+msgid   "Temas"
+msgstr  ""
+#
+msgid   "Desktop"
+msgstr  ""
+#
+msgid   "Ajustes"
+msgstr  ""
+#
+msgid   "Desempenho do desktop"
+msgstr  ""
+#
+msgid   "Desempenho"
+msgstr  ""
+#
+msgid   "Aceleração do navegador"
+msgstr  ""
+#
+msgid   "Tema dos aplicativos"
+msgstr  ""
+#
+msgid   "Abrir"
+msgstr  ""
+#
+msgid   "Fechar"
+msgstr  ""
+#
+msgid   "Bordas arredondadas."
+msgstr  ""
+#
+msgid   "Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em computadores<br>antigos ou ambientes virtualizados."
+msgstr  ""
+#
+msgid   "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr  ""
+#
+msgid   "Renderizar o desktop via software"
+msgstr  ""
+#
+msgid   "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr  ""
+#
+msgid   "Escolher programas a serem carregados na memória durante boot"
+msgstr  ""
+#
+msgid   "O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+msgstr  ""
+#
+msgid   "Ligar RGB do teclado"
+msgstr  ""
+#
+msgid   "Automático"
+msgstr  ""
+#
+msgid   "Ativar"
+msgstr  ""
+#
+msgid   "Desativar"
+msgstr  ""
+#
+msgid   "Configurações do Brave"
+msgstr  ""
+#
+msgid   "Escolha a opção desejada:"
+msgstr  ""
+#
+msgid   "Remover propagandas"
+msgstr  ""
+#
+msgid   "Suportar criptomoedas"
+msgstr  ""
+#
+msgid   "Usabilidade"
+msgstr  ""
+#
+msgid   "Botões da janela no lado esquerdo"
+msgstr  ""
+#
+msgid   "Rolagem do mouse invertida"
+msgstr  ""
+#
+msgid   "Rolagem do touchpad invertida"
+msgstr  ""
+#
+msgid   "Pesquisar arquivos"
+msgstr  ""
+#
+msgid   "Bloquear a edição da área de trabalho "
+msgstr  ""
+#
+msgid   "Ocultar Gerenciador de Boot (GRUB)"
+msgstr  ""
+#
+msgid   "Ativar o NumLock ao ligar o sistema"
+msgstr  ""
+#
+msgid   "Tema aplicado"
+msgstr  ""
+#
+msgid   "É preciso reiniciar a sessão para concluir a configuração."
+msgstr  ""
+#
+msgid   "Configuração do Desktop"
+msgstr  ""
+#
+msgid   "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a configuração original?"
+msgstr  ""
+#
+msgid   "Sim"
+msgstr  ""
+#
+msgid   "Não"
+msgstr  ""
+#
+msgid   "Original"
+msgstr  ""
+#
+msgid   "Restaurar"
+msgstr  ""
+#
+msgid   "Desktop aplicado"
+msgstr  ""
+#
+msgid   "Modo performance"
+msgstr  ""
+#
+msgid   "BTRFS sem fsync"
+msgstr  ""
+#
+msgid   "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr  ""
+#
+msgid   "Temas, Desktop e Ajustes"
+msgstr  ""

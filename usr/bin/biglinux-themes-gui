@@ -1,0 +1,10 @@
+#!/bin/bash 
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-session-and-themes
+
+Title=$"Temas, Desktop e Ajustes"
+
+cd /usr/share/bigbashview/bcc/apps/biglinux-themes-gui/
+bigbashview index.sh.htm -n "$Title" -t qt -s 850x650 -i /usr/share/icons/breeze/apps/64/big-plasma-theme.svg

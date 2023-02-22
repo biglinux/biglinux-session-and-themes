@@ -1,0 +1,24 @@
+#!/bin/sh
+
+if [ "$(file -i /usr/bin/ksplashqml | grep 'charset=binary')" != "" ]; then
+    mv -f /usr/bin/ksplashqml /usr/bin/ksplashqml.distrib
+    cp -f /usr/share/divert/ksplashqml /usr/bin/ksplashqml
+fi
+
+mv -f /usr/share/xsessions/plasma.desktop /usr/share/divert/plasma.desktop 2> /dev/null
+sed -i 's|Exec=.*|Exec=/usr/bin/startkde-biglinux wayland|g' /usr/share/wayland-sessions/plasmawayland.desktop 2> /dev/null
+sed -i 's|TryExec=.*|TryExec=/usr/bin/startkde-biglinux|g' /usr/share/wayland-sessions/plasmawayland.desktop 2> /dev/null
+sed -i 's|Restart=always|Restart=on-failure|g' /usr/lib/systemd/user/plasma-plasmashell.service 2> /dev/null
+
+if [ "$(grep 'RestartForceExitStatus' /usr/lib/systemd/user/plasma-plasmashell.service 2> /dev/null)" = "" ]; then
+    sed -i '/Restart=on-failure/a RestartForceExitStatus=SIGTERM' /usr/lib/systemd/user/plasma-plasmashell.service 2> /dev/null
+fi
+# systemd more relaxed to stop apps like plasmashell
+sed -i 's|#DefaultRestartSec=100ms|DefaultRestartSec=1000ms|g;s|#DefaultStartLimitBurst=5|DefaultStartLimitBurst=10|g' /etc/systemd/user.conf  2> /dev/null
+
+systemctl --global enable lattedock 2> /dev/null
+
+if [ -e "/usr/local/bin/latte-dock" ]; then
+    mv -f /usr/local/bin/latte-dock /usr/bin/latte-dock
+fi
+

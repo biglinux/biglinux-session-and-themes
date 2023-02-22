@@ -1,0 +1,60 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "bigbruno@gmail.com",
+                "Name": "Bruno Goncalves"
+            },
+            {
+                "Email": "rruscher@gmail.com",
+                "Name": "Rafael Ruscher"
+            }
+        ],
+        "Category": "System",
+        "Description": "Prevents the desktop from being accidentally misconfigured.",
+        "Description[pt_BR]": "Evita que o desktop seja desconfigurado acidentalmente",
+        "EnabledByDefault": true,
+        "Icon": "biglinux-lock",
+        "Id": "org.biglinux.lock_edit_plasma",
+        "License": "GPL-2.0+",
+        "Name": "Desktop changes",
+        "Name[bg]": "Промени в работния плот",
+        "Name[cs]": "Změny na ploše",
+        "Name[da]": "Skrivebordsændringer",
+        "Name[de]": "Desktop-Änderungen",
+        "Name[el]": "Αλλαγές στην επιφάνεια εργασίας",
+        "Name[en]": "Desktop changes",
+        "Name[es]": "Cambios en el escritorio",
+        "Name[et]": "Töölaua muudatused",
+        "Name[fi]": "Työpöydän muutokset",
+        "Name[fr]": "Modifications du bureau",
+        "Name[he]": "שינויים בשולחן העבודה",
+        "Name[hr]": "Promjene radne površine",
+        "Name[hu]": "Asztali változások",
+        "Name[is]": "Skjáborðsbreytingar",
+        "Name[it]": "Modifiche al desktop",
+        "Name[ja]": "デスクトップの変更",
+        "Name[ko]": "데스크톱 변경 사항",
+        "Name[nl]": "Wijzigingen in het bureaublad",
+        "Name[no]": "Endringer på skrivebordet",
+        "Name[pl]": "Zmiany na pulpicie",
+        "Name[pt]": "Alterações no desktop",
+        "Name[pt_BR]": "Alterações no desktop",
+        "Name[ro]": "Modificări pentru desktop",
+        "Name[ru]": "Изменения рабочего стола",
+        "Name[sk]": "Zmeny pracovnej plochy",
+        "Name[sv]": "Ändringar på skrivbordet",
+        "Name[tr]": "Masaüstü değişiklikleri",
+        "Name[uk]": "Зміни робочого стола",
+        "Name[zh]": "桌面更改",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://kde.org/plasma-desktop"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-NotificationArea": "true",
+    "X-Plasma-NotificationAreaCategory": "SystemServices"
+}

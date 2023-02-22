@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ "$(file -i /usr/bin/ksplashqml | grep 'charset=binary')" = "" ]; then
+    mv -f /usr/bin/ksplashqml.distrib /usr/bin/ksplashqml
+fi
+
+sed -i 's|/usr/bin/startkde-biglinux-wayland|/usr/bin/startplasma-wayland|g' /usr/share/wayland-sessions/plasmawayland.desktop
+
+mv -f /usr/share/divert/plasma.desktop /usr/share/xsessions/plasma.desktop 2> /dev/null
+mv -f /usr/share/divert/plasmawayland.desktop /usr/share/wayland-sessions/plasmawayland.desktop 2> /dev/null

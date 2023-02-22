@@ -1,0 +1,774 @@
+[Comandos básicos]["nome" recebe o valor de "Tales" e exibe o valor da variável.]
+command=nome="Tales" ; echo $nome
+name="nome" recebe o valor de "Tales" e exibe o valor da variável.
+tooltip=
+
+[Comandos básicos][Adiciona o usuário "bruno" ao grupo "lp".]
+command=adduser bruno lp
+name=Adiciona o usuário "bruno" ao grupo "lp".
+tooltip=
+
+[Comandos básicos][Checa a integridade de um arquivo.]
+command=md5sum
+name=Checa a integridade de um arquivo.
+tooltip=
+
+[Comandos básicos][Cria o usuário "bruno".]
+command=adduser bruno
+name=Cria o usuário "bruno".
+tooltip=
+
+[Comandos básicos][Editor de textos.]
+command=nano
+name=Editor de textos.
+tooltip=
+
+[Comandos básicos][Exibe o conteúdo de um arquivo texto.]
+command=cat
+name=Exibe o conteúdo de um arquivo texto.
+tooltip=
+
+[Comandos básicos][Exibe o conteúdo do arquivo texto, enumerando as linhas.]
+command=cat -n
+name=Exibe o conteúdo do arquivo texto, enumerando as linhas.
+tooltip=
+
+[Comandos básicos][Exibe o histórico de comandos digitados.]
+command=history
+name=Exibe o histórico de comandos digitados.
+tooltip=
+
+[Comandos básicos][Limpa o histórico do shell.]
+command=history -cw
+name=Limpa o histórico do shell.
+tooltip=
+
+[Comandos básicos][Lê as duas últimas linhas de um arquivo texto.]
+command=tail -n 2
+name=Lê as duas últimas linhas de um arquivo texto.
+tooltip=
+
+[Comandos básicos][Lê as primeiras linhas ou caracteres de um arquivo de texto.]
+command=head
+name=Lê as primeiras linhas ou caracteres de um arquivo de texto.
+tooltip=
+
+[Comandos básicos][Lê as sete primeiras linhas de um arquivo de texto.]
+command=head -n 7
+name=Lê as sete primeiras linhas de um arquivo de texto.
+tooltip=
+
+[Comandos básicos][Lê as últimas Linhas de um arquivo texto.]
+command=tail
+name=Lê as últimas Linhas de um arquivo texto.
+tooltip=
+
+[Comandos básicos][Lê os primeiros 33 caracteres de um arquivo texto.]
+command=head -c 33
+name=Lê os primeiros 33 caracteres de um arquivo texto.
+tooltip=
+
+[Comandos básicos][Lê os últimos 33 caracteres de um arquivo texto.]
+command=tail -c 33
+name=Lê os últimos 33 caracteres de um arquivo texto.
+tooltip=
+
+[Comandos básicos][Remove o usuário "bruno" e o seu diretório $HOME.]
+command=deluser –-remove-home bruno
+name=Remove o usuário "bruno" e o seu diretório $HOME.
+tooltip=
+
+[Comandos básicos][Salva o conteúdo de "Livro Shell" no "arquivo".]
+command=echo "Livro Shell" > arquivo
+name=Salva o conteúdo de "Livro Shell" no "arquivo".
+tooltip=
+
+[Comandos básicos][Salva o conteúdo de "Livro Shell" no final do "arquivo". Não apaga o conteúdo pre existente, apenas adiciona ao final.]
+command=echo "Livro Shell" >> arquivo
+name=Salva o conteúdo de "Livro Shell" no final do "arquivo". Não apaga o conteúdo pre existente, apenas adiciona ao final.
+tooltip=
+
+[Comandos básicos][Visualiza um arquivo texto de forma interativa.]
+command=more
+name=Visualiza um arquivo texto de forma interativa.
+tooltip=
+
+[Comandos básicos][Visualiza um arquivo texto de forma interativa. Possui mais opções e é mais otimizado que o more.]
+command=less
+name=Visualiza um arquivo texto de forma interativa. Possui mais opções e é mais otimizado que o more.
+tooltip=
+
+[Compactar e descompactar][Compacta um arquivo ou diretório para o formato .zip.]
+command=zip -r arquivo.zip arquivo
+name=Compacta um arquivo ou diretório para o formato .zip.
+tooltip=
+
+[Compactar e descompactar][Descompacta um arquivo .zip.]
+command=unzip arquivo.zip
+name=Descompacta um arquivo .zip.
+tooltip=
+
+[Compactar e descompactar][Exibe o conteúdo do "arquivo.tar", sem extraí-lo.]
+command=tar -tvf arquivo.tar
+name=Exibe o conteúdo do "arquivo.tar", sem extraí-lo.
+tooltip=
+
+[Compactar e descompactar][Exibe o conteúdo do "arquivo.tar.bz2", sem extraí-lo.]
+command=tar -tvjf arquivo.tar.gz
+name=Exibe o conteúdo do "arquivo.tar.bz2", sem extraí-lo.
+tooltip=
+
+[Compactar e descompactar][Exibe o conteúdo do "arquivo.tar.gz", sem extraí-lo.]
+command=tar -tvzf arquivo.tar.gz
+name=Exibe o conteúdo do "arquivo.tar.gz", sem extraí-lo.
+tooltip=
+
+[Compactar e descompactar][Extrai o conteúdo do "arquivo.tar" no diretório /tmp.]
+command=tar -xvf arquivo.tar -C /tmp
+name=Extrai o conteúdo do "arquivo.tar" no diretório /tmp.
+tooltip=
+
+[Compactar e descompactar][Extrai o conteúdo do "arquivo.tar.bz2".]
+command=tar -xvjf arquivo.tar.gz
+name=Extrai o conteúdo do "arquivo.tar.bz2".
+tooltip=
+
+[Compactar e descompactar][Extrai o conteúdo do "arquivo.tar.gz".]
+command=tar -xvzf arquivo.tar.gz
+name=Extrai o conteúdo do "arquivo.tar.gz".
+tooltip=
+
+[Compactar e descompactar][Gera um "arquivo.tar" do diretório "Músicas".]
+command=tar -cvf arquivo.tar Músicas/
+name=Gera um "arquivo.tar" do diretório "Músicas".
+tooltip=
+
+[Compactar e descompactar][Gera um "arquivo.tar.bz2" compactando o diretório "Músicas".]
+command=tar -cvjf arquivo.tar.gz Músicas/
+name=Gera um "arquivo.tar.bz2" compactando o diretório "Músicas".
+tooltip=
+
+[Compactar e descompactar][Gera um "arquivo.tar.gz" compactando o diretório "Músicas".]
+command=tar -cvzf arquivo.tar.gz Músicas/
+name=Gera um "arquivo.tar.gz" compactando o diretório "Músicas".
+tooltip=
+
+[Compactar e descompactar][Junta vários arquivos e gera um arquivo.tar.]
+command=tar
+name=Junta vários arquivos e gera um arquivo.tar.
+tooltip=
+
+[Data e hora][Altera a data e a hora do sistema por extenso.]
+command=date -s
+name=Altera a data e a hora do sistema por extenso.
+tooltip=
+
+[Data e hora][Altera a data e hora de modificação do arquivo.]
+command=touch -m arquivo
+name=Altera a data e hora de modificação do arquivo.
+tooltip=
+
+[Data e hora][Exibe a última data e hora de modificação de um arquivo.]
+command=date -r
+name=Exibe a última data e hora de modificação de um arquivo.
+tooltip=
+
+[Data e hora][Exibe e altera a data e a hora do sistema.]
+command=date
+name=Exibe e altera a data e a hora do sistema.
+tooltip=
+
+[Data e hora][Modifica a data e hora de um arquivo.]
+command=touch
+name=Modifica a data e hora de um arquivo.
+tooltip=
+
+[Desligar ou reiniciar o sistema][Cancela a execução do shutdown. Apenas se não for usado a palavra "now".]
+command=shutdown -c
+name=Cancela a execução do shutdown. Apenas se não for usado a palavra "now".
+tooltip=
+
+[Desligar ou reiniciar o sistema][Desliga a máquina.]
+command=shutdown
+name=Desliga a máquina.
+tooltip=
+
+[Desligar ou reiniciar o sistema][Desliga a máquina. Use a palavra "now" para desligar imediatamente. Exemplo: shutdown -h now]
+command=shutdown -h
+name=Desliga a máquina. Use a palavra "now" para desligar imediatamente. Exemplo: shutdown -h now
+tooltip=
+
+[Desligar ou reiniciar o sistema][Desliga o sistema em 30 minutos.]
+command=shutdown -h +30
+name=Desliga o sistema em 30 minutos.
+tooltip=
+
+[Desligar ou reiniciar o sistema][Reinicia a máquina. Use a palavra "now" para reiniciar imediatamente. Exemplo: shutdown -r now]
+command=shutdown -r
+name=Reinicia a máquina. Use a palavra "now" para reiniciar imediatamente. Exemplo: shutdown -r now
+tooltip=
+
+[Desligar ou reiniciar o sistema][Reinicia o sistema na hora informada.]
+command=shutdown -r 04:37 "Prezados, o servidor será reiniciado em 1:30h min"
+name=Reinicia o sistema na hora informada.
+tooltip=
+
+[Desligar ou reiniciar o sistema][Reinicia o sistema.]
+command=reboot
+name=Reinicia o sistema.
+tooltip=
+
+[Editar ou filtrar textos][Adiciona a palavra "preço" entre a coluna 2 e 4 de cada linha.]
+command=awk '{print $2 ", preço " $4}' arquivo
+name=Adiciona a palavra "preço" entre a coluna 2 e 4 de cada linha.
+tooltip=
+
+[Editar ou filtrar textos][Apaga as linhas do "arquivo" no intervalo 1-3.]
+command=sed '1,3d' arquivo
+name=Apaga as linhas do "arquivo" no intervalo 1-3.
+tooltip=
+
+[Editar ou filtrar textos][Apaga as linhas que possuem as tags e as linhas que estiverem entre as tags]
+command=sed '/tag>/,/<\\tag>/d' arquivo
+name=Apaga as linhas que possuem as tags e as linhas que estiverem entre as tags
+tooltip=
+
+[Editar ou filtrar textos][Apaga as linhas que tiveram a palavra "livro".]
+command=sed '/livro/d' arquivo
+name=Apaga as linhas que tiveram a palavra "livro".
+tooltip=
+
+[Editar ou filtrar textos][Apaga da linha informada (3) até o final do arquivo.]
+command=sed '3,$d' arquivo
+name=Apaga da linha informada (3) até o final do arquivo.
+tooltip=
+
+[Editar ou filtrar textos][Apaga espaços em branco consecutivos.]
+command=sed 's/[ ]\\/ /g' arquivo
+name=Apaga espaços em branco consecutivos.
+tooltip=
+
+[Editar ou filtrar textos][Apaga os 7 primeiros caracteres de todas as linhas.]
+command=sed 's/.\\7\\//' arquivo
+name=Apaga os 7 primeiros caracteres de todas as linhas.
+tooltip=
+
+[Editar ou filtrar textos][Apaga todas as linhas do "arquivo", exceto o intervalo entre 2-4.]
+command=sed '2,4!d' arquivo
+name=Apaga todas as linhas do "arquivo", exceto o intervalo entre 2-4.
+tooltip=
+
+[Editar ou filtrar textos][Como saída terá apenas a palavra "Testando", o corte foi feito pelo cut.]
+command=echo "Testando o cut." | cut -d" " -f1
+name=Como saída terá apenas a palavra "Testando", o corte foi feito pelo cut.
+tooltip=
+
+[Editar ou filtrar textos][Converte todas as letras para maiúsculas.]
+command=sed 'y/abcdefghijklmnopqrstuvwxyzàáâãéêíóôõúç/ABCDEFGHIJKLMNOPQRSTUVWXYZÀÁÂÃÉÊÍÓÔÕÚÇ/' arquivo
+name=Converte todas as letras para maiúsculas.
+tooltip=
+
+[Editar ou filtrar textos][Converte todas as letras para minúsculas.]
+command=sed 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZÀÁÂÃÉÊÍÓÔÕÚÇ/abcdefghijklmnopqrstuvwxyzàáâãéêíóôõúç/' arquivo
+name=Converte todas as letras para minúsculas.
+tooltip=
+
+[Editar ou filtrar textos][Deleta a segunda linha do "arquivo".]
+command=sed '2d' arquivo
+name=Deleta a segunda linha do "arquivo".
+tooltip=
+
+[Editar ou filtrar textos][Editor de textos não interativo.]
+command=sed
+name=Editor de textos não interativo.
+tooltip=
+
+[Editar ou filtrar textos][Exibe a quantidade de linhas que contenha a letra "a".]
+command=grep -c "a" arquivo
+name=Exibe a quantidade de linhas que contenha a letra "a".
+tooltip=
+
+[Editar ou filtrar textos][Exibe as linhas que não apresentam a letra "a" minúscula.]
+command=grep -v a arquivo
+name=Exibe as linhas que não apresentam a letra "a" minúscula.
+tooltip=
+
+[Editar ou filtrar textos][Exibe as primeiras palavras de cada linha.]
+command=awk '{print $1}' arquivo
+name=Exibe as primeiras palavras de cada linha.
+tooltip=
+
+[Editar ou filtrar textos][Exibe duas linhas antes da ocorrência "TV".]
+command=grep -B 2 "TV" arquivo
+name=Exibe duas linhas antes da ocorrência "TV".
+tooltip=
+
+[Editar ou filtrar textos][Exibe duas linhas após a ocorrência "TV".]
+command=grep -A 2 "TV" arquivo
+name=Exibe duas linhas após a ocorrência "TV".
+tooltip=
+
+[Editar ou filtrar textos][Exibe o número das linhas que a aparecem as letras "la".]
+command=grep -n la arquivo
+name=Exibe o número das linhas que a aparecem as letras "la".
+tooltip=
+
+[Editar ou filtrar textos][Exibe o primeiro e sétimo campo do arquivo /etc/passwd, delimitados por dois pontos ":".]
+command=cut -d":" -f1,7 /etc/passwd
+name=Exibe o primeiro e sétimo campo do arquivo /etc/passwd, delimitados por dois pontos ":".
+tooltip=
+
+[Editar ou filtrar textos][Exibe todas as linhas que contenham as letras "a" e "A".]
+command=grep -i "a" arquivo
+name=Exibe todas as linhas que contenham as letras "a" e "A".
+tooltip=
+
+[Editar ou filtrar textos][Faz pesquisa dentro de arquivo texto.]
+command=grep
+name=Faz pesquisa dentro de arquivo texto.
+tooltip=
+
+[Editar ou filtrar textos][Filtra apenas palavras que contenha letra "a" no fim da palavra.]
+command=grep "a\\" arquivo
+name=Filtra apenas palavras que contenha letra "a" no fim da palavra.
+tooltip=
+
+[Editar ou filtrar textos][Filtra apenas por "carro" e "caro" dentro do "arquivo" texto.]
+command=egrep "carr?o" arquivo
+name=Filtra apenas por "carro" e "caro" dentro do "arquivo" texto.
+tooltip=
+
+[Editar ou filtrar textos][Filtra o conteúdo do arquivo "lista-MAC" buscando pelas palavras "Tales".]
+command=grep "Tales" lista-MAC
+name=Filtra o conteúdo do arquivo "lista-MAC" buscando pelas palavras "Tales".
+tooltip=
+
+[Editar ou filtrar textos][Filtra o meio das palavras que contenha "ar", ignora o início e fim.]
+command=grep "ar\\" arquivo
+name=Filtra o meio das palavras que contenha "ar", ignora o início e fim.
+tooltip=
+
+[Editar ou filtrar textos][Filtra o segundo campo com o delimitador dois pontos.]
+command=awk -F ":" '{print $2}' arquivo
+name=Filtra o segundo campo com o delimitador dois pontos.
+tooltip=
+
+[Editar ou filtrar textos][Filtra palavras que contenham a letra "a" desde que apareçam no início da linha.]
+command=grep "^a" arquivo
+name=Filtra palavras que contenham a letra "a" desde que apareçam no início da linha.
+tooltip=
+
+[Editar ou filtrar textos][Filtra palavras que contenham a letra "t" no fim da linha.]
+command=grep "t$" arquivo
+name=Filtra palavras que contenham a letra "t" no fim da linha.
+tooltip=
+
+[Editar ou filtrar textos][Filtra por todas as letras maiúsculas, minúsculas e números, deixando de fora apenas caracteres especiais.]
+command=grep "[A-Za-z0-9]" arquivo
+name=Filtra por todas as letras maiúsculas, minúsculas e números, deixando de fora apenas caracteres especiais.
+tooltip=
+
+[Editar ou filtrar textos][Filtra por todas as palavras que contenham as letras: "a, b, c, d, e", e minúsculas.]
+command=grep "[a-e]" arquivo
+name=Filtra por todas as palavras que contenham as letras: "a, b, c, d, e", e minúsculas.
+tooltip=
+
+[Editar ou filtrar textos][Filtra por todas palavras que contenha "h" minúsculo e "G" maiúsculo.]
+command=grep "[hG]" arquivo
+name=Filtra por todas palavras que contenha "h" minúsculo e "G" maiúsculo.
+tooltip=
+
+[Editar ou filtrar textos][Filtra valores especificados em uma condição]
+command=awk -F " |-" '{if ($3 >= "18") print}' arquivo
+name=Filtra valores especificados em uma condição
+tooltip=
+
+[Editar ou filtrar textos][Ignora as letras "g" e "b" minúsculas, seguidas dos caracteres "ato", ou seja considera válida a palavra jato, mas não considera a palavra gato.]
+command=grep "[^gb]ato" arquivo
+name=Ignora as letras "g" e "b" minúsculas, seguidas dos caracteres "ato", ou seja considera válida a palavra jato, mas não considera a palavra gato.
+tooltip=
+
+[Editar ou filtrar textos][Inclui o texto no início da linha informada.]
+command=sed '2s/^/Incluído no início da linha 2 /' arquivo
+name=Inclui o texto no início da linha informada.
+tooltip=
+
+[Editar ou filtrar textos][Inclui texto no final da linha informada.]
+command=sed '2s/$/Incluído no final da linha 2 /' arquivo
+name=Inclui texto no final da linha informada.
+tooltip=
+
+[Editar ou filtrar textos][Insere uma nova linha de texto antes de uma linha especificada.]
+command=sed -e '3i\\ -e 'Nova linha inserida antes da linha 3' arquivo
+name=Insere uma nova linha de texto antes de uma linha especificada.
+tooltip=
+
+[Editar ou filtrar textos][Insere uma nova linha de texto após linha especificada.]
+command=sed -e '3a\\ -e 'Nova linha inserida após a linha 3' arquivo
+name=Insere uma nova linha de texto após linha especificada.
+tooltip=
+
+[Editar ou filtrar textos][Inverte a ordem das palavras em cada frase.]
+command=sed 's/^/§ /;:a;s/\\.*\\§ \\\\[^ ]\\\\/\\ \\§/;ta;s/§//' arquivo
+name=Inverte a ordem das palavras em cada frase.
+tooltip=
+
+[Editar ou filtrar textos][Inverte o conteúdo de um arquivo texto. Exemplo: "TALES" para "SELAT".]
+command=rev
+name=Inverte o conteúdo de um arquivo texto. Exemplo: "TALES" para "SELAT".
+tooltip=
+
+[Editar ou filtrar textos][Linguagem de programação interativa.]
+command=awk
+name=Linguagem de programação interativa.
+tooltip=
+
+[Editar ou filtrar textos][Modelo para troca de parâmetros em arquivos de configuração, no exemplo troca o valor que estiver na variável NAME por Debian]
+command=sed 's|^ *\\NAME\\ *=.*|NAME=Debian|' arquivo
+name=Modelo para troca de parâmetros em arquivos de configuração, no exemplo troca o valor que estiver na variável NAME por Debian
+tooltip=
+
+[Editar ou filtrar textos][Recorta pedaços de texto.]
+command=cut
+name=Recorta pedaços de texto.
+tooltip=
+
+[Editar ou filtrar textos][Remove todas as quebras de linha, deixando todo o texto em apenas uma linha.]
+command=sed ':a;$!N;s/\n//;ta;' arquivo
+name=Remove todas as quebras de linha, deixando todo o texto em apenas uma linha.
+tooltip=
+
+[Editar ou filtrar textos][Retorna busca por palavras que tiverem "t.".]
+command=egrep "t\\" arquivo
+name=Retorna busca por palavras que tiverem "t.".
+tooltip=
+
+[Editar ou filtrar textos][Substitui todas as frases "troca isso" pelas frases "por isso".]
+command=sed 's/troca isso/por isso/g' arquivo
+name=Substitui todas as frases "troca isso" pelas frases "por isso".
+tooltip=
+
+[Editar ou filtrar textos][Substitui todo o conteúdo de uma linha específica.]
+command=sed '3s/.*/Novo texto da linha 3/' arquivo
+name=Substitui todo o conteúdo de uma linha específica.
+tooltip=
+
+[Gerenciar arquivos e pastas][Copia um arquivo.]
+command=cp
+name=Copia um arquivo.
+tooltip=
+
+[Gerenciar arquivos e pastas][Copia um diretório recursivamente.]
+command=cp -r
+name=Copia um diretório recursivamente.
+tooltip=
+
+[Gerenciar arquivos e pastas][Cria um diretório.]
+command=mkdir
+name=Cria um diretório.
+tooltip=
+
+[Gerenciar arquivos e pastas][Cria vários diretórios simultâneos.]
+command=mkdir -p
+name=Cria vários diretórios simultâneos.
+tooltip=
+
+[Gerenciar arquivos e pastas][Exibe o caminho completo até o diretório atual.]
+command=pwd
+name=Exibe o caminho completo até o diretório atual.
+tooltip=
+
+[Gerenciar arquivos e pastas][Lista apenas diretórios.]
+command=ls -d */
+name=Lista apenas diretórios.
+tooltip=
+
+[Gerenciar arquivos e pastas][Lista arquivos e diretórios com mais detalhes.]
+command=ls -lh
+name=Lista arquivos e diretórios com mais detalhes.
+tooltip=
+
+[Gerenciar arquivos e pastas][Lista arquivos e diretórios, inclusive ocultos.]
+command=ls -a
+name=Lista arquivos e diretórios, inclusive ocultos.
+tooltip=
+
+[Gerenciar arquivos e pastas][Lista arquivos e diretórios.]
+command=ls
+name=Lista arquivos e diretórios.
+tooltip=
+
+[Gerenciar arquivos e pastas][Move um arquivo/diretório ou renomeia. Se o caminho-destino for o mesmo local, irá renomear, se for diferente, irá mover.]
+command=mv
+name=Move um arquivo/diretório ou renomeia. Se o caminho-destino for o mesmo local, irá renomear, se for diferente, irá mover.
+tooltip=
+
+[Gerenciar arquivos e pastas][Remove um arquivo.]
+command=rm
+name=Remove um arquivo.
+tooltip=
+
+[Gerenciar arquivos e pastas][Remove um diretório.]
+command=rm -r
+name=Remove um diretório.
+tooltip=
+
+[Gerenciar arquivos e pastas][Sobe um nível na árvore de diretórios.]
+command=cd ..
+name=Sobe um nível na árvore de diretórios.
+tooltip=
+
+[Informações gerais][Analisa a leitura e gravação dos discos.]
+command=iotop -Pak
+name=Analisa a leitura e gravação dos discos.
+tooltip=
+
+[Informações gerais][Exibe informações de temperatura da máquina, CPU, cooler, placa mãe…]
+command=sensors
+name=Exibe informações de temperatura da máquina, CPU, cooler, placa mãe…
+tooltip=
+
+[Informações gerais][Exibe informações dos dispositivos USB da máquina.]
+command=lsusb
+name=Exibe informações dos dispositivos USB da máquina.
+tooltip=
+
+[Informações gerais][Exibe informações dos dispositivos da máquina.]
+command=lspci
+name=Exibe informações dos dispositivos da máquina.
+tooltip=
+
+[Informações gerais][Exibe informações sobre temperatura dos dispositivos de armazenamento.]
+command=hddtemp /dev/[sh]d[a-z]
+name=Exibe informações sobre temperatura dos dispositivos de armazenamento.
+tooltip=
+
+[Informações gerais][Exibe os usuários logados, com sessão aberta no sistema.]
+command=who
+name=Exibe os usuários logados, com sessão aberta no sistema.
+tooltip=
+
+[Informações gerais][Exibe todos os grupos disponíveis no sistema.]
+command=cut -d: -f1 /etc/group
+name=Exibe todos os grupos disponíveis no sistema.
+tooltip=
+
+[Informações gerais][Informações completas sobre o hardware da máquina.]
+command=inxi -v7
+name=Informações completas sobre o hardware da máquina.
+tooltip=
+
+[Informações gerais][Informações da memória do computador.]
+command=cat /proc/meminfo
+name=Informações da memória do computador.
+tooltip=
+
+[Informações gerais][Informações do processador do computador.]
+command=cat /proc/cpuinfo
+name=Informações do processador do computador.
+tooltip=
+
+[Informações gerais][Informações sobre discos e partições.]
+command=cat /proc/partitions
+name=Informações sobre discos e partições.
+tooltip=
+
+[Informações gerais][Mostra cada processo em execução, em forma de árvore, contendo o PID de cada processo.]
+command=pstree -p
+name=Mostra cada processo em execução, em forma de árvore, contendo o PID de cada processo.
+tooltip=
+
+[Informações gerais][Mostra o espaço utilizado pelos arquivos.]
+command=du -h
+name=Mostra o espaço utilizado pelos arquivos.
+tooltip=
+
+[Informações gerais][Mostra o espaço utilizado pelos dispositivos.]
+command=df -h
+name=Mostra o espaço utilizado pelos dispositivos.
+tooltip=
+
+[Informações gerais][Mostra o uso (livre/usado) das memórias.]
+command=free -h
+name=Mostra o uso (livre/usado) das memórias.
+tooltip=
+
+[Montar ou desmontar partições][Desmonta um dispositivo mesmo que o mesmo esteja em uso;]
+command=umount -l
+name=Desmonta um dispositivo mesmo que o mesmo esteja em uso;
+tooltip=
+
+[Montar ou desmontar partições][Desmonta um dispositivo.]
+command=umount
+name=Desmonta um dispositivo.
+tooltip=
+
+[Montar ou desmontar partições][Monta um dispositivo.]
+command=mount
+name=Monta um dispositivo.
+tooltip=
+
+[Montar ou desmontar partições][Monta uma imagem ".iso".]
+command=mount -o loop,ro arquivo.iso /mnt/
+name=Monta uma imagem ".iso".
+tooltip=
+
+[Montar ou desmontar partições][Remonta o diretório raiz em modo de leitura e gravação.]
+command=mount -o remount,rw /
+name=Remonta o diretório raiz em modo de leitura e gravação.
+tooltip=
+
+[Permissões][Altera a permissão de um arquivo ou diretório de forma recursiva.]
+command=chmod -R
+name=Altera a permissão de um arquivo ou diretório de forma recursiva.
+tooltip=
+
+[Permissões][Altera a permissão de um arquivo.]
+command=chmod
+name=Altera a permissão de um arquivo.
+tooltip=
+
+[Permissões][Torna o "arquivo" executável.]
+command=chmod +x arquivo
+name=Torna o "arquivo" executável.
+tooltip=
+
+[Processos][Mata o aplicativo de forma forçada e todos processos ligados a ele. Apaga o que já existe.]
+command=killall -9
+name=Mata o aplicativo de forma forçada e todos processos ligados a ele. Apaga o que já existe.
+tooltip=
+
+[Processos][Mata o aplicativo e todos processos ligados a ele.]
+command=killall
+name=Mata o aplicativo e todos processos ligados a ele.
+tooltip=
+
+[Processos][Mata processos através.]
+command=kill
+name=Mata processos através.
+tooltip=
+
+[Processos][Mata processos de forma forçada.]
+command=kill -9
+name=Mata processos de forma forçada.
+tooltip=
+
+[Processos][Trabalha com processos em tempo real de forma mais amigável.]
+command=htop
+name=Trabalha com processos em tempo real de forma mais amigável.
+tooltip=
+
+[Processos][Trabalha com processos em tempo real.]
+command=top
+name=Trabalha com processos em tempo real.
+tooltip=
+
+[Procurar arquivos ou pastas][Limita o tamanho do arquivo, por exemplo: maior que 10M e menor que 30M.]
+command=find ~/Música -size +10M -size -30M -exec ls -lh {} \\;
+name=Limita o tamanho do arquivo, por exemplo: maior que 10M e menor que 30M.
+tooltip=
+
+[Procurar arquivos ou pastas][Modifica as permissões de arquivos recursivamente para 644 na $HOME do usuário.]
+command=find $HOME -type f -exec chmod 644 {} \\;
+name=Modifica as permissões de arquivos recursivamente para 644 na $HOME do usuário.
+tooltip=
+
+[Procurar arquivos ou pastas][Modifica as permissões de diretórios recursivamente para 755 na $HOME do usuário.]
+command=find $HOME -type d -exec chmod 755 {} \\;
+name=Modifica as permissões de diretórios recursivamente para 755 na $HOME do usuário.
+tooltip=
+
+[Procurar arquivos ou pastas][Pesquisa por arquivos.]
+command=find
+name=Pesquisa por arquivos.
+tooltip=
+
+[Procurar arquivos ou pastas][Procura e remove arquivos de uma área temporária aonde os arquivos só devem permanecer por uma semana.]
+command=find /var/spool/cups/tmp/ -mtime +7 -exec rm -Rf {""} \\;
+name=Procura e remove arquivos de uma área temporária aonde os arquivos só devem permanecer por uma semana.
+tooltip=
+
+[Procurar arquivos ou pastas][Procura em todo sistema por arquivos pertencentes ao grupo users.]
+command=find / -group users -print 2>/dev/null
+name=Procura em todo sistema por arquivos pertencentes ao grupo users.
+tooltip=
+
+[Procurar arquivos ou pastas][Procura no diretório corrente por arquivos que foram modificados a 3 dias.]
+command=find . -mtime 3 -print
+name=Procura no diretório corrente por arquivos que foram modificados a 3 dias.
+tooltip=
+
+[Procurar arquivos ou pastas][Procura pelos arquivos com nome de "Janelas" no diretório do usuário e os apaga.]
+command=find $HOME -name "Janelas" -exec rm -vf {} \\;
+name=Procura pelos arquivos com nome de "Janelas" no diretório do usuário e os apaga.
+tooltip=
+
+[Procurar arquivos ou pastas][Procura por arquivos maiores que 30M no diretório ~/Músicas, listando o arquivo com o seu tamanho.]
+command=find ~/Música -size +10M -exec ls -lh {} \\;
+name=Procura por arquivos maiores que 30M no diretório ~/Músicas, listando o arquivo com o seu tamanho.
+tooltip=
+
+[Procurar arquivos ou pastas][Procura por imagens do tipo ".png" e ".jpg" no diretório corrente e cria um pacote chamado imagens.tar com as imagens encontradas.]
+command=find . \\ -iname "*.png" -o -iname "*.jpg" \\ -print -exec tar -rf images.tar {} \\;
+name=Procura por imagens do tipo ".png" e ".jpg" no diretório corrente e cria um pacote chamado imagens.tar com as imagens encontradas.
+tooltip=
+
+[Rede e downloads][Acessa via ssh o servidor talesam.org com o usuário talesam utilizando a porta 2782.]
+command=ssh -p 2782 talesam@talesam.org
+name=Acessa via ssh o servidor talesam.org com o usuário talesam utilizando a porta 2782.
+tooltip=
+
+[Rede e downloads][Ativa a rede do dispositivo "eth0".]
+command=ifconf eth0 up
+name=Ativa a rede do dispositivo "eth0".
+tooltip=
+
+[Rede e downloads][Baixa arquivos da internet com "resume", ou seja, recomeçando de onde parou.]
+command=wget -c
+name=Baixa arquivos da internet com "resume", ou seja, recomeçando de onde parou.
+tooltip=
+
+[Rede e downloads][Baixa arquivos da internet limitando a velocidade de download a "200k".]
+command=wget --limit-rate=200k
+name=Baixa arquivos da internet limitando a velocidade de download a "200k".
+tooltip=
+
+[Rede e downloads][Baixa arquivos da internet.]
+command=wget
+name=Baixa arquivos da internet.
+tooltip=
+
+[Rede e downloads][Baixa um site completo.]
+command=wget -m -p -k -P Diretório Site
+name=Baixa um site completo.
+tooltip=
+
+[Rede e downloads][Baixa vídeos da internet.]
+command=youtube-dl
+name=Baixa vídeos da internet.
+tooltip=
+
+[Rede e downloads][Configura o dispositivo "eth0" para o IP "192.168.25.200" e máscara para "255.255.255.0".]
+command=ifconfig eth0 192.168.25.200 netmask 255.255.255.0
+name=Configura o dispositivo "eth0" para o IP "192.168.25.200" e máscara para "255.255.255.0".
+tooltip=
+
+[Rede e downloads][Desativa a rede do dispositivo "eth0".]
+command=ifconf eth0 down
+name=Desativa a rede do dispositivo "eth0".
+tooltip=
+
+[Rede e downloads][Informação e configuração da rede.]
+command=ifconfig
+name=Informação e configuração da rede.
+tooltip=
+
+[Rede e downloads][Pesquisa por redes wireless disponíveis, usando o dispositivo "wlan0".]
+command=iwlist wlan0 scan
+name=Pesquisa por redes wireless disponíveis, usando o dispositivo "wlan0".
+tooltip=
+
+[Rede e downloads][Recolhe informações de redes wireless.]
+command=iwlist
+name=Recolhe informações de redes wireless.
+tooltip=
