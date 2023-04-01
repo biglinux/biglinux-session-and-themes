@@ -292,7 +292,10 @@ DialogWidth=720
 [Containments][2][Applets][5][Configuration][General]
 groupingStrategy=0
 launchers=
+maxStripes=2
 middleClickAction=None
+wheelEnabled=false
+indicateAudioStreams=false
 showOnlyCurrentScreen=true
 sortingStrategy=1
 
@@ -457,7 +460,10 @@ DialogWidth=720
 [Containments][3][Applets][5][Configuration][General]
 groupingStrategy=0
 launchers=
+maxStripes=2
 middleClickAction=None
+wheelEnabled=false
+indicateAudioStreams=false
 showOnlyCurrentScreen=true
 sortingStrategy=1
 
@@ -634,7 +640,10 @@ DialogWidth=720
 [Containments][4][Applets][5][Configuration][General]
 groupingStrategy=0
 launchers=
+maxStripes=2
 middleClickAction=None
+wheelEnabled=false
+indicateAudioStreams=false
 showOnlyCurrentScreen=true
 sortingStrategy=1
 
@@ -856,7 +865,10 @@ DialogWidth=720
 [Containments][5][Applets][5][Configuration][General]
 groupingStrategy=0
 launchers=
+maxStripes=2
 middleClickAction=None
+wheelEnabled=false
+indicateAudioStreams=false
 showOnlyCurrentScreen=true
 sortingStrategy=1
 
@@ -987,7 +999,10 @@ DialogWidth=720
 [Containments][6][Applets][5][Configuration][General]
 groupingStrategy=0
 launchers=
+maxStripes=2
 middleClickAction=None
+wheelEnabled=false
+indicateAudioStreams=false
 showOnlyCurrentScreen=true
 sortingStrategy=1
 
@@ -1335,7 +1350,10 @@ DialogWidth=720
 [Containments][8][Applets][5][Configuration][General]
 groupingStrategy=0
 launchers=
+maxStripes=2
 middleClickAction=None
+wheelEnabled=false
+indicateAudioStreams=false
 showOnlyCurrentScreen=true
 sortingStrategy=1
 
