@@ -63,8 +63,8 @@ fi
 export RADV_PERFTEST=sam,nggc,ext_ms
 
 #Best wine scale
-export WINE_FULLSCREEN_FSR=1
-export WINE_FULLSCREEN_FSR_STRENGTH=3
+# export WINE_FULLSCREEN_FSR=1
+# export WINE_FULLSCREEN_FSR_STRENGTH=3
 
 #OBS Studio game capture with vulkan
 if [ -e "/usr/bin/obs-vkcapture" ]; then
