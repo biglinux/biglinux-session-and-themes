@@ -103,7 +103,7 @@ DialogWidth=800
 extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.plasma.vault,org.kde.plasma.mediacontroller
 hiddenItems=org.kde.plasma.vault,org.kde.redshiftControl
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.plasma.vault
-shownItems=qBittorrent
+shownItems=qBittorrent,org.kde.plasma.battery
 
 [Containments][119]
 activityId=
@@ -186,7 +186,7 @@ DialogWidth=800
 extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.plasma.vault,org.kde.plasma.mediacontroller
 hiddenItems=org.kde.plasma.vault,org.kde.redshiftControl
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.plasma.vault
-shownItems=qBittorrent
+shownItems=qBittorrent,org.kde.plasma.battery
 
 [Containments][2]
 activityId=
@@ -759,7 +759,7 @@ DialogWidth=800
 extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.plasma.vault,org.kde.plasma.mediacontroller
 hiddenItems=org.kde.plasma.vault,org.kde.redshiftControl
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.plasma.vault
-shownItems=qBittorrent
+shownItems=qBittorrent,org.kde.plasma.battery
 
 [Containments][5]
 activityId=
@@ -1096,7 +1096,7 @@ DialogWidth=800
 extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.plasma.vault,org.kde.plasma.mediacontroller
 hiddenItems=org.kde.plasma.vault,org.kde.redshiftControl
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.plasma.vault
-shownItems=qBittorrent
+shownItems=qBittorrent,org.kde.plasma.battery
 
 [Containments][7]
 activityId=
@@ -1237,7 +1237,7 @@ DialogWidth=720
 extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.plasma.vault,org.kde.plasma.mediacontroller
 hiddenItems=org.kde.plasma.vault,org.kde.redshiftControl
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.plasma.vault
-shownItems=qBittorrent
+shownItems=qBittorrent,org.kde.plasma.battery
 
 [Containments][8]
 activityId=
@@ -1447,7 +1447,7 @@ DialogWidth=800
 extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.plasma.vault,org.kde.plasma.mediacontroller
 hiddenItems=org.kde.plasma.vault,org.kde.redshiftControl
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.biglinux.performance,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.plasma.vault
-shownItems=qBittorrent
+shownItems=qBittorrent,org.kde.plasma.battery
 
 [General]
 immutability=1
