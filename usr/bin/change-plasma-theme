@@ -96,6 +96,7 @@ else
         for i in "${kde[@]}"; do
             cp -Rf /usr/share/biglinux/kdebiglinux/$2/$i ~/.config/
         done
+        change-biglinux-wallpaper
     fi
 fi
 

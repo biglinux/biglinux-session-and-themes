@@ -1,0 +1,78 @@
+#!/bin/bash
+
+# Directory containing the image files
+dir="/usr/share/wallpapers"
+
+if [ "$1" = "dark" ]; then
+    files=(
+    "abstract colors1.avif"
+    "animal dark10.avif"
+    "animal dark12.avif"
+    "animal dark9.avif"
+    "animal funny6.avif"
+    "animal wolf2.avif"
+    "art face1.avif"
+    "cat steampunk5.avif"
+    "conceptual eagle.avif"
+    "dog steampunk2.avif"
+    "future planet.avif"
+    "penguin steampunk2.avif"
+    "space globe4.avif"
+    "z animal non sense4.avif"
+    "z non sense cat3.avif"
+    )
+else
+    files=(
+    "abstract colors1.avif"
+    "animal cute6.avif"
+    "animal cute7.avif"
+    "animal funny2.avif"
+    "animal funny6.avif"
+    "animal wolf2.avif"
+    "art face1.avif"
+    "cat steampunk5.avif"
+    "conceptual eagle.avif"
+    "dog steampunk2.avif"
+    "fluffy aliens.avif"
+    "future planet.avif"
+    "penguin art.avif"
+    "penguin steampunk2.avif"
+    "space globe4.avif"
+    "z animal non sense4.avif"
+    "z non sense cat3.avif"
+    "z non sense cat8.avif"
+    "z non sense dog cooking1.avif"
+    )
+fi
+
+# Array to store the existing files
+existing_files=()
+
+# Checks if the files exist and adds them to the 'existing_files' array
+for file in "${files[@]}"; do
+  if [ -e "$dir/$file" ]; then
+    existing_files+=("$file")
+  fi
+done
+
+# Checks if there are existing files
+if [ ${#existing_files[@]} -eq 0 ]; then
+  echo "No existing image files found."
+  exit 1
+fi
+
+# Selects a random file from the 'existing_files' array
+random_file="$dir/${existing_files[$RANDOM % ${#existing_files[@]}]}"
+
+
+# apply as plasma wallpaper
+qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "var allDesktops = desktops();print (allDesktops);for (i=0;i<allDesktops.length;i++) {d = allDesktops[i];d.wallpaperPlugin = \"org.kde.image\";d.currentConfigGroup = Array(\"Wallpaper\", \"org.kde.image\", \"General\");d.writeConfig(\"Image\", \"$random_file\");}"
+
+# apply as lock screen
+sed -i "s|^Image=.*|Image=$random_file|" ~/.config/kscreenlockerrc
+
+sed -i "s|^Image=.*|Image=$random_file|" ~/.config/plasma-org.kde.plasma.desktop-appletsrc
+
+
+# Displays the randomly selected file
+echo "$random_file"
