@@ -3,6 +3,9 @@
 
 STARTPLASMA=startplasma-x11
 
+# Better font rendering
+FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
+
 # Fix to open/save dialog em gtk apps
 export QT_NO_XDG_DESKTOP_PORTAL=1
 
