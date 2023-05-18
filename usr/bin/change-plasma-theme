@@ -20,7 +20,7 @@ latte
 kwin_left
 kwin_maximized_disable
 kglobalshortcutsrc
-classikrc
+klassyrc
 )
 
 mkdir -p ~/.kdebiglinux

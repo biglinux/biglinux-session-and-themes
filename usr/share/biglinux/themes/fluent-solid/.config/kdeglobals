@@ -168,8 +168,7 @@ contrast=4
 widgetStyle=kvantum
 
 [KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=false
+Automatically select filename extension=true
 Breadcrumb Navigation=false
 Decoration position=0
 LocationCombo Completionmode=5
