@@ -143,14 +143,15 @@ History Items[$e]=
 ColorScheme=FluentDark
 Name[pt_BR]=Breeze Light
 Name=Breeze Light
+XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=Ubuntu Mono,13,-1,5,50,0,0,0,0,0
-font=Lato Medium,11,-1,5,63,0,0,0,0,0,Regular
-menuFont=Lato Medium,11,-1,5,63,0,0,0,0,0,Regular
+fixed=MesloLGS Biglinux,11,-1,5,50,0,0,0,0,0
+font=Lato Semibold,11,-1,5,63,0,0,0,0,0,Semibold
+menuFont=Lato Semibold,11,-1,5,63,0,0,0,0,0,Semibold
 shadeSortColumn=true
-smallestReadableFont=Lato Medium,9,-1,5,63,0,0,0,0,0,Regular
-toolBarFont=Lato Medium,11,-1,5,63,0,0,0,0,0,Regular
+smallestReadableFont=Lato Semibold,10,-1,5,63,0,0,0,0,0,Semibold
+toolBarFont=Lato Semibold,11,-1,5,63,0,0,0,0,0,Semibold
 widgetStyle=Breeze
 
 [Icons]
@@ -197,7 +198,7 @@ ToolButtonStyleOtherToolbars=TextBesideIcon
 [WM]
 activeBackground=40,40,40
 activeBlend=40,40,40
-activeFont=Lato Semibold,12,-1,5,63,0,0,0,0,0,Regular
+activeFont=Lato Semibold,12,-1,5,63,0,0,0,0,0,Semibold
 activeForeground=223,223,223
 inactiveBackground=46,46,46
 inactiveBlend=46,46,46

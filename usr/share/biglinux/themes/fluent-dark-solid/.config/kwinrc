@@ -2,6 +2,7 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
 
 [Compositing]
+LatencyPolicy=ExtremelyLow
 OpenGLIsUnsafe=false
 
 [Desktops]
@@ -12,12 +13,7 @@ Id_4=5a9c02fb-73f3-452a-969d-fc875cb3439f
 Number=4
 Rows=1
 
-
 [Effect-Blur]
-BlurStrength=10
-NoiseStrength=0
-
-[Effect-blur]
 BlurStrength=10
 NoiseStrength=0
 
@@ -31,6 +27,15 @@ MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
 
+[Effect-blur]
+BlurStrength=10
+NoiseStrength=0
+
+[Effect-kwin4_effect_scale]
+Duration=150
+InScale=0.7
+OutScale=0.7
+
 [Effect-mouseclick]
 RingLife=400
 ShowText=false
@@ -42,27 +47,35 @@ BorderActivate=7
 BorderActivateAll=9
 
 [Plugins]
-overviewEnabled=true
-contrastEnabled=true
-kwin4_effect_fadingpopupsEnabled=true
-wobblywindowsEnabled=true
-kwin4_effect_lightlyshadersEnabled=false
-kwin4_effect_shapecornersEnabled=false
-kwin4_effect_translucencyEnabled=false
-mouseclickEnabled=true
-screenedgeEnabled=false
 alwaysopenonactivescreenEnabled=true
 alwaysopenonfocusedscreenEnabled=false
 alwaysopenonprimaryscreenEnabled=false
-virtual-desktops-only-on-primaryEnabled=true
+contrastEnabled=true
 kwin-autocomposerEnabled=true
+kwin4_effect_fadingpopupsEnabled=false
+kwin4_effect_lightlyshadersEnabled=false
+kwin4_effect_morphingpopupsEnabled=false
+kwin4_effect_shapecornersEnabled=false
+kwin4_effect_translucencyEnabled=false
+mouseclickEnabled=true
+overviewEnabled=true
+screenedgeEnabled=false
+slidingpopupsEnabled=false
+virtual-desktops-only-on-primaryEnabled=true
+wobblywindowsEnabled=true
 
 [TabBox]
 ActivitiesMode=0
-DesktopMode=0
-LayoutName=coverswitch
 BorderActivate=9
 BorderAlternativeActivate=9
+DesktopMode=0
+LayoutName=coverswitch
+
+[Tiling]
+padding=4
+
+[Tiling][75ed573d-6eee-5e00-a7c4-c7589c8df991]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
 ActiveMouseScreen=true
@@ -83,15 +96,15 @@ FocusPolicy=ClickToFocus
 FocusStealingPreventionLevel=0
 GeometryTip=false
 NextFocusPrefersMouse=false
+Placement=Centered
 SeparateScreenFocus=false
 SnapOnlyWhenOverlapping=false
 WindowSnapZone=10
-Placement=Centered
 
 [org.kde.kdecoration2]
 BorderSize=NoSides
 BorderSizeAuto=false
 ButtonsOnLeft=MSF
-ButtonsOnRight=HIAX
+ButtonsOnRight=IAX
 library=org.kde.klassy
 theme=Klassy

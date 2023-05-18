@@ -2,6 +2,7 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
 
 [Compositing]
+LatencyPolicy=ExtremelyLow
 OpenGLIsUnsafe=false
 
 [Desktops]
@@ -30,6 +31,11 @@ NoiseStrength=0
 BlurStrength=6
 NoiseStrength=0
 
+[Effect-kwin4_effect_scale]
+Duration=150
+InScale=0.7
+OutScale=0.7
+
 [Effect-mouseclick]
 RingLife=400
 ShowText=false
@@ -47,13 +53,15 @@ alwaysopenonprimaryscreenEnabled=false
 contrastEnabled=true
 forceblurEnabled=true
 kwin-autocomposerEnabled=true
-kwin4_effect_fadingpopupsEnabled=true
+kwin4_effect_fadingpopupsEnabled=false
 kwin4_effect_lightlyshadersEnabled=false
+kwin4_effect_morphingpopupsEnabled=false
 kwin4_effect_shapecornersEnabled=false
 kwin4_effect_translucencyEnabled=false
 mouseclickEnabled=true
 overviewEnabled=true
 screenedgeEnabled=false
+slidingpopupsEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
 
 [Script-forceblur]

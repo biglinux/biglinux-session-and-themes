@@ -2,6 +2,7 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
 
 [Compositing]
+LatencyPolicy=ExtremelyLow
 OpenGLIsUnsafe=false
 
 [Desktops]
@@ -16,10 +17,6 @@ Rows=1
 BlurStrength=10
 NoiseStrength=0
 
-[Effect-blur]
-BlurStrength=10
-NoiseStrength=0
-
 [Effect-PresentWindows]
 BorderActivate=7
 BorderActivateAll=9
@@ -29,6 +26,11 @@ Drag=70
 MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
+
+[Effect-kwin4_effect_scale]
+Duration=150
+InScale=0.7
+OutScale=0.7
 
 [Effect-mouseclick]
 RingLife=400
@@ -44,13 +46,15 @@ BorderActivateAll=9
 overviewEnabled=true
 contrastEnabled=true
 forceblurEnabled=true
-kwin4_effect_fadingpopupsEnabled=true
+kwin4_effect_fadingpopupsEnabled=false
 wobblywindowsEnabled=false
+kwin4_effect_morphingpopupsEnabled=false
 kwin4_effect_lightlyshadersEnabled=false
 kwin4_effect_shapecornersEnabled=false
 kwin4_effect_translucencyEnabled=false
 mouseclickEnabled=true
 screenedgeEnabled=false
+slidingpopupsEnabled=false
 alwaysopenonactivescreenEnabled=true
 alwaysopenonfocusedscreenEnabled=false
 alwaysopenonprimaryscreenEnabled=false

@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
 
 [Compositing]
 AnimationSpeed=3
@@ -9,6 +9,7 @@ GLCore=false
 GLPreferBufferSwap=a
 GLTextureFilter=0
 HiddenPreviews=5
+LatencyPolicy=ExtremelyLow
 OpenGLIsUnsafe=false
 WindowsBlockCompositing=true
 XRenderSmoothScale=false
@@ -21,12 +22,7 @@ Id_4=5a9c02fb-73f3-452a-969d-fc875cb3439f
 Number=4
 Rows=1
 
-
 [Effect-Blur]
-BlurStrength=10
-NoiseStrength=0
-
-[Effect-blur]
 BlurStrength=10
 NoiseStrength=0
 
@@ -39,19 +35,30 @@ BorderActivateSphere=9
 BorderActivate=9
 
 [Effect-PresentWindows]
-BorderActivate=9
-BorderActivateAll=9
-BorderActivateClass=9
-
-[Effect-PresentWindows]
 BorderActivate=7
 BorderActivateAll=9
+BorderActivateClass=9
 
 [Effect-Wobbly]
 Drag=70
 MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
+
+[Effect-blur]
+BlurStrength=10
+BorderActivate=9
+BorderActivateCylinder=9
+BorderActivateSphere=9
+NoiseStrength=0
+
+[Effect-desktopgrid]
+BorderActivate=9
+
+[Effect-kwin4_effect_scale]
+Duration=150
+InScale=0.7
+OutScale=0.7
 
 [Effect-mouseclick]
 RingLife=400
@@ -60,8 +67,25 @@ ShowText=false
 [Effect-overview]
 BorderActivate=7
 
+[Effect-presentwindows]
+BorderActivate=7
+BorderActivateAll=9
+BorderActivateClass=9
+
 [Effect-windowview]
 BorderActivateAll=9
+
+[Effect-wobblywindows]
+BlurStrength=10
+BorderActivate=7
+BorderActivateAll=9
+Drag=70
+MoveFactor=25
+NoiseStrength=0
+RingLife=400
+ShowText=false
+Stiffness=2
+WobblynessLevel=2
 
 [ElectricBorders]
 Bottom=None
@@ -77,27 +101,35 @@ TopRight=None
 Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
 
 [Plugins]
-overviewEnabled=true
-contrastEnabled=true
-kwin4_effect_translucencyEnabled=false
-wobblywindowsEnabled=true
-kwin4_effect_fadingpopupsEnabled=true
-kwin4_effect_lightlyshadersEnabled=false
-kwin4_effect_shapecornersEnabled=false
-mouseclickEnabled=true
-screenedgeEnabled=false
 alwaysopenonactivescreenEnabled=true
 alwaysopenonfocusedscreenEnabled=false
 alwaysopenonprimaryscreenEnabled=false
-virtual-desktops-only-on-primaryEnabled=true
+contrastEnabled=true
 kwin-autocomposerEnabled=true
+kwin4_effect_fadingpopupsEnabled=false
+kwin4_effect_lightlyshadersEnabled=false
+kwin4_effect_morphingpopupsEnabled=false
+kwin4_effect_shapecornersEnabled=false
+kwin4_effect_translucencyEnabled=false
+mouseclickEnabled=true
+overviewEnabled=true
+screenedgeEnabled=false
+slidingpopupsEnabled=false
+virtual-desktops-only-on-primaryEnabled=true
+wobblywindowsEnabled=true
 
 [TabBox]
 ActivitiesMode=0
-DesktopMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
-LayoutName=coverswitch
+DesktopMode=0
+LayoutName[$d]
+
+[Tiling]
+padding=4
+
+[Tiling][75ed573d-6eee-5e00-a7c4-c7589c8df991]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
 ActiveMouseScreen=true
@@ -127,6 +159,6 @@ WindowSnapZone=10
 BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=MSF
-ButtonsOnRight=HIAX
+ButtonsOnRight=IAX
 library=org.kde.klassy
 theme=Klassy
