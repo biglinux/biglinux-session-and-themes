@@ -23,7 +23,7 @@ Number=4
 Rows=1
 
 [Effect-Blur]
-BlurStrength=10
+BlurStrength=6
 NoiseStrength=0
 
 [Effect-Cube]
@@ -82,6 +82,7 @@ alwaysopenonactivescreenEnabled=true
 alwaysopenonfocusedscreenEnabled=false
 alwaysopenonprimaryscreenEnabled=false
 contrastEnabled=true
+forceblurEnabled=true
 kwin-autocomposerEnabled=true
 kwin4_effect_fadingpopupsEnabled=false
 kwin4_effect_lightlyshadersEnabled=false
@@ -94,6 +95,11 @@ screenedgeEnabled=false
 slidingpopupsEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
 wobblywindowsEnabled=true
+
+[Script-forceblur]
+blurExceptMatching=true
+blurMatching=false
+patterns=
 
 [TabBox]
 ActivitiesMode=0

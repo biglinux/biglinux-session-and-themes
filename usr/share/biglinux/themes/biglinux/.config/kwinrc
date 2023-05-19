@@ -23,7 +23,7 @@ Number=4
 Rows=1
 
 [Effect-Blur]
-BlurStrength=10
+BlurStrength=6
 NoiseStrength=0
 
 [Effect-Cube]
@@ -44,13 +44,6 @@ Drag=70
 MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
-
-[Effect-blur]
-BlurStrength=10
-BorderActivate=9
-BorderActivateCylinder=9
-BorderActivateSphere=9
-NoiseStrength=0
 
 [Effect-desktopgrid]
 BorderActivate=9
@@ -76,7 +69,6 @@ BorderActivateClass=9
 BorderActivateAll=9
 
 [Effect-wobblywindows]
-BlurStrength=10
 BorderActivate=7
 BorderActivateAll=9
 Drag=70
@@ -106,6 +98,7 @@ alwaysopenonfocusedscreenEnabled=false
 alwaysopenonprimaryscreenEnabled=false
 contrastEnabled=true
 kwin-autocomposerEnabled=true
+forceblurEnabled=true
 kwin4_effect_fadingpopupsEnabled=false
 kwin4_effect_lightlyshadersEnabled=false
 kwin4_effect_morphingpopupsEnabled=false
@@ -117,6 +110,11 @@ screenedgeEnabled=false
 slidingpopupsEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
 wobblywindowsEnabled=true
+
+[Script-forceblur]
+blurExceptMatching=true
+blurMatching=false
+patterns=
 
 [TabBox]
 ActivitiesMode=0
