@@ -156,7 +156,7 @@ else
         kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key "Meta" "org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu"
     fi
 
-    qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
+    qdbus org.kde.KWin /KWin org.kde.KWin.replace
     qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.gtkTheme)
     gtk-reload.py
 fi
