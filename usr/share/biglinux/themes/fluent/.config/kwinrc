@@ -23,10 +23,6 @@ MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
 
-[Effect-Blur]
-BlurStrength=6
-NoiseStrength=0
-
 [Effect-blur]
 BlurStrength=6
 NoiseStrength=0
