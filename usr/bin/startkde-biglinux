@@ -4,7 +4,7 @@
 STARTPLASMA=startplasma-x11
 
 # Better font rendering
-FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
+export FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
 
 # Fix to open/save dialog em gtk apps
 export QT_NO_XDG_DESKTOP_PORTAL=1
@@ -55,7 +55,7 @@ export LANGUAGE=$LANG
 fi
 
 # Use KDE dialog in some GTK apps like Firefox
-GTK_USE_PORTAL=1
+export GTK_USE_PORTAL=1
 
 #Faster AMD GPU
 if [ $HEIGHT -gt 1400 ]  2>/dev/null; then
@@ -192,7 +192,6 @@ if [ "$(grep -i 'SingleClick=' ~/.config/kdeglobals)" = "" ]; then
 fi
 
 # Fix ssh agent
-SSH_ASKPASS=/usr/bin/ksshaskpass
 if [ -z "$SSH_AGENT_PID" ]; then
   eval "$(ssh-agent -s)"
 fi
@@ -219,8 +218,6 @@ for i in "$HOME/.config/konsolerc" "$HOME/.config/dolphinrc"; do
 
 done
 
-#/usr/lib/pam_kwallet_init &
-
 
 # Fix to GTK4 theme
 
@@ -246,12 +243,6 @@ if [ -L "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
   rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray"
   rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray"
 fi
-
-
-# if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
-#     systemctl --user start lattedock
-# fi
-
 
 
 
@@ -323,14 +314,3 @@ enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent-round/metadata.desktop
 fi
 
 QSG_RENDER_LOOP=basic exec $STARTPLASMA
-
-
-# if [ -e /usr/share/kconf_update/kwin-5.23-remove-cover-switch.py ]; then
-#     rm /usr/share/kconf_update/kwin-5.23-remove-cover-switch.py
-# fi
-
-#killall feh
-#sleep 20
-#feh --bg-fill "/usr/share/sddm/themes/breeze/black.jpg" &
-#sleep 2
-#killall feh
