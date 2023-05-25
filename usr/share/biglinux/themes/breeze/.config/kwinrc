@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
 
 [Compositing]
 AnimationSpeed=3
@@ -45,9 +45,6 @@ WobblynessLevel=2
 BlurStrength=6
 NoiseStrength=0
 
-[Effect-desktopgrid]
-BorderActivate=9
-
 [Effect-kwin4_effect_scale]
 Duration=150
 InScale=0.7
@@ -60,24 +57,8 @@ ShowText=false
 [Effect-overview]
 BorderActivate=7
 
-[Effect-presentwindows]
-BorderActivate=7
-BorderActivateAll=9
-BorderActivateClass=9
-
 [Effect-windowview]
 BorderActivateAll=9
-
-[Effect-wobblywindows]
-BorderActivate=7
-BorderActivateAll=9
-Drag=70
-MoveFactor=25
-NoiseStrength=0
-RingLife=400
-ShowText=false
-Stiffness=2
-WobblynessLevel=2
 
 [ElectricBorders]
 Bottom=None
@@ -97,6 +78,7 @@ alwaysopenonactivescreenEnabled=true
 alwaysopenonfocusedscreenEnabled=false
 alwaysopenonprimaryscreenEnabled=false
 contrastEnabled=true
+forceblurEnabled=true
 kwin-autocomposerEnabled=true
 kwin4_effect_fadingpopupsEnabled=false
 kwin4_effect_lightlyshadersEnabled=false
@@ -110,12 +92,17 @@ slidingpopupsEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
 wobblywindowsEnabled=true
 
+[Script-forceblur]
+blurExceptMatching=true
+blurMatching=false
+patterns=
+
 [TabBox]
 ActivitiesMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
 DesktopMode=0
-LayoutName[$d]
+LayoutName=coverswitch
 
 [Tiling]
 padding=4
@@ -152,5 +139,5 @@ BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=MSF
 ButtonsOnRight=IAX
-library=org.kde.klassy
-theme=Klassy
+library=org.kde.breeze
+theme=Breeze

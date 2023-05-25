@@ -18,8 +18,7 @@ case "$1" in
     rm -Rf ~/.cache/icon-cache.kcache
     rm -R ~/.cache/kcmshell5
 
-    # Change color on the fly
-    plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
+
 	#Confere se o arquivo, diretório, link, ou arquivo especial NÃO existe
     if [ -e "$folder/$2" ]; then
         cp -Rf $folder/$2/. "$HOME"
@@ -62,23 +61,24 @@ case "$1" in
             kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
         fi
 
-
         if [ "$(ps -e | grep kwin)" != "" ]
 		then
 
                 #Configure GTK
                 qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
 
-                plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
 
                 # Clean icon theme and apply again to fix kwin buttons
-                kwriteconfig5 --group Icons --key Theme ""
-                if [ "$(cat "$HOME/.kdebiglinux/lastused")" = "vanilla" ]; then
-                    /usr/lib/plasma-changeicons breeze
-                else
-                    /usr/lib/plasma-changeicons $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
-                fi
-                    
+#                 kwriteconfig5 --group Icons --key Theme ""
+                /usr/lib/plasma-changeicons $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
+                
+                # Change theme color to change back and fix on the fly change
+                plasma-apply-colorscheme Arc
+                
+                # Apply Theme
+                plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
+
+		
                  qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
 
         fi

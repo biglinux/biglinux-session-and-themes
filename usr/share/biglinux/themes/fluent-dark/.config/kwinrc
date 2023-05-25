@@ -13,10 +13,6 @@ Id_4=5a9c02fb-73f3-452a-969d-fc875cb3439f
 Number=4
 Rows=1
 
-[Effect-blur]
-BlurStrength=6
-NoiseStrength=0
-
 [Effect-PresentWindows]
 BorderActivate=7
 BorderActivateAll=9
@@ -26,6 +22,10 @@ Drag=70
 MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
+
+[Effect-blur]
+BlurStrength=6
+NoiseStrength=0
 
 [Effect-kwin4_effect_scale]
 Duration=150
@@ -43,23 +43,23 @@ BorderActivate=7
 BorderActivateAll=9
 
 [Plugins]
-overviewEnabled=true
-contrastEnabled=true
-forceblurEnabled=true
-kwin4_effect_fadingpopupsEnabled=false
-wobblywindowsEnabled=false
-kwin4_effect_morphingpopupsEnabled=false
-kwin4_effect_lightlyshadersEnabled=false
-kwin4_effect_shapecornersEnabled=false
-kwin4_effect_translucencyEnabled=false
-mouseclickEnabled=true
-screenedgeEnabled=false
-slidingpopupsEnabled=false
 alwaysopenonactivescreenEnabled=true
 alwaysopenonfocusedscreenEnabled=false
 alwaysopenonprimaryscreenEnabled=false
-virtual-desktops-only-on-primaryEnabled=true
+contrastEnabled=true
+forceblurEnabled=true
 kwin-autocomposerEnabled=true
+kwin4_effect_fadingpopupsEnabled=false
+kwin4_effect_lightlyshadersEnabled=false
+kwin4_effect_morphingpopupsEnabled=false
+kwin4_effect_shapecornersEnabled=false
+kwin4_effect_translucencyEnabled=false
+mouseclickEnabled=true
+overviewEnabled=true
+screenedgeEnabled=false
+slidingpopupsEnabled=false
+virtual-desktops-only-on-primaryEnabled=true
+wobblywindowsEnabled=false
 
 [Script-forceblur]
 blurExceptMatching=true
@@ -68,10 +68,10 @@ patterns=
 
 [TabBox]
 ActivitiesMode=0
-DesktopMode=0
-LayoutName=coverswitch
 BorderActivate=9
 BorderAlternativeActivate=9
+DesktopMode=0
+LayoutName=coverswitch
 
 [Windows]
 ActiveMouseScreen=true
@@ -92,15 +92,15 @@ FocusPolicy=ClickToFocus
 FocusStealingPreventionLevel=0
 GeometryTip=false
 NextFocusPrefersMouse=false
+Placement=Centered
 SeparateScreenFocus=false
 SnapOnlyWhenOverlapping=false
 WindowSnapZone=10
-Placement=Centered
 
 [org.kde.kdecoration2]
 BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=MSF
-ButtonsOnRight=HIAX
-library=org.kde.klassy
-theme=Klassy
+ButtonsOnRight=IAX
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Fluent-round-dark

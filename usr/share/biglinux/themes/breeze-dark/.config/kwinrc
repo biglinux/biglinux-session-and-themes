@@ -133,5 +133,5 @@ BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=MSF
 ButtonsOnRight=IAX
-library=org.kde.klassy
-theme=Klassy
+library=org.kde.breeze
+theme=Breeze
