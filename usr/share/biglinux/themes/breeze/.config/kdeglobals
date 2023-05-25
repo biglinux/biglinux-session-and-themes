@@ -108,7 +108,7 @@ toolBarFont=Lato Semibold,11,-1,5,63,0,0,0,0,0,Semibold
 widgetStyle=Breeze
 
 [Icons]
-Theme=
+Theme=breeze
 
 [KDE]
 AnimationDurationFactor=0.5

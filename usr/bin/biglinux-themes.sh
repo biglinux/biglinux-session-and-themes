@@ -85,13 +85,13 @@ case "$1" in
         
         
         #Fluent theme without blur using llvmpipe to 3D render
-        if [ "$2" = "fluent" ] && [ "$(glxinfo | grep llvmpipe)" != "" ]; then
-            sed -i 's|Fluent-round|Fluent-roundsw|g' ~/.config/Kvantum/kvantum.kvconfig
-        fi
-        
-        if [ "$2" = "fluent-dark" ] && [ "$(glxinfo | grep llvmpipe)" != "" ]; then
-            sed -i 's|Fluent-roundDark|Fluent-roundswDark|g' ~/.config/Kvantum/kvantum.kvconfig        
-        fi
+#         if [ "$2" = "fluent" ] && [ "$(glxinfo | grep llvmpipe)" != "" ]; then
+#             sed -i 's|Fluent-round|Fluent-roundsw|g' ~/.config/Kvantum/kvantum.kvconfig
+#         fi
+#         
+#         if [ "$2" = "fluent-dark" ] && [ "$(glxinfo | grep llvmpipe)" != "" ]; then
+#             sed -i 's|Fluent-roundDark|Fluent-roundswDark|g' ~/.config/Kvantum/kvantum.kvconfig        
+#         fi
         
         echo "$2" > "$HOME/.big_desktop_theme"        
         
