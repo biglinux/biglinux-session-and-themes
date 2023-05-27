@@ -72,15 +72,14 @@ case "$1" in
 #                 kwriteconfig5 --group Icons --key Theme ""
                 /usr/lib/plasma-changeicons $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
                 
-                # Change theme color to change back and fix on the fly change
-                plasma-apply-colorscheme Arc
-                
+               
                 # Apply Theme
                 plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
 
-		
-                 qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
+                qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
 
+                # Change theme color to change back and fix on the fly change
+                plasma-apply-colorscheme Arc
         fi
         
         
