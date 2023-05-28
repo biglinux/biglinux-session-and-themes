@@ -70,7 +70,7 @@ export RADV_PERFTEST=sam,nggc,ext_ms
 # export WINE_FULLSCREEN_FSR_STRENGTH=3
 
 # Vulkan ICD folder
-ICD_DIR=/usr/share/vulkan/icd.d
+export ICD_DIR=/usr/share/vulkan/icd.d
 
 #OBS Studio game capture with vulkan
 if [ -e "/usr/bin/obs-vkcapture" ]; then
