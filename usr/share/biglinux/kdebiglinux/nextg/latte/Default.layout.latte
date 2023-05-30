@@ -5,7 +5,7 @@ RightButton;NoModifier=org.kde.latte.contextmenu
 activityId=
 byPassWM=false
 dockWindowBehavior=true
-enableKWinEdges=true
+enableKWinEdges=false
 formfactor=2
 immutability=1
 isPreferredForShortcuts=false
@@ -18,8 +18,8 @@ plugin=org.kde.latte.containment
 raiseOnActivityChange=false
 raiseOnDesktopChange=false
 screensGroup=0
-timerHide=0
-timerShow=0
+timerHide=400
+timerShow=100
 viewType=0
 visibility=2
 wallpaperplugin=org.kde.image
@@ -32,13 +32,13 @@ plugin=org.kde.latte.plasmoid
 PreloadWeight=0
 
 [Containments][1][Applets][2][Configuration][General]
+animationLauncherBouncing=false
+hoverAction=PreviewWindows
+infoBadgeProminentColorEnabled=true
 isInLatteDock=true
-isPreferredForDroppedLaunchers=false
-launchers59=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:org.kde.spectacle.desktop,applications:bigtts.desktop,applications:big-store.desktop,applications:bigcontrolcenter.desktop,file:///latte-separator1.desktop
-manualScrollTasksType=Disabled
-middleClickAction=None
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=true
+launchers59=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop,applications:big-store.desktop,applications:bigcontrolcenter.desktop
+scrollTasksEnabled=true
+showWindowActions=true
 
 [Containments][1][Applets][4]
 immutability=1
@@ -80,6 +80,41 @@ DialogWidth=800
 clickCommand=Overview
 icon[$e]=mission-control
 
+[Containments][1][Applets][76]
+immutability=1
+plugin=org.kde.latte.separator
+
+[Containments][1][Applets][76][Configuration][ConfigDialog]
+DialogHeight=570
+DialogWidth=760
+
+[Containments][1][Applets][76][Configuration][General]
+lengthMargin=7
+thickMargin=8
+
+[Containments][1][Applets][77]
+immutability=1
+plugin=org.kde.plasma.lock_logout
+
+[Containments][1][Applets][77][Configuration][ConfigDialog]
+DialogHeight=570
+DialogWidth=760
+
+[Containments][1][Applets][77][Configuration][General]
+show_lockScreen=false
+
+[Containments][1][Applets][78]
+immutability=1
+plugin=org.kde.latte.separator
+
+[Containments][1][Applets][78][Configuration][ConfigDialog]
+DialogHeight=570
+DialogWidth=760
+
+[Containments][1][Applets][78][Configuration][General]
+lengthMargin=7
+thickMargin=8
+
 [Containments][1][ConfigDialog]
 DialogHeight=600
 DialogWidth=586
@@ -90,28 +125,26 @@ PreloadWeight=0
 [Containments][1][General]
 advanced=false
 alignmentUpgraded=true
-appletOrder=4;7;2;5
-autoSizeEnabled=false
-backgroundRadius=23
-backgroundShadowSize=8
+appletOrder=4;7;2;76;5;78;77
+backgroundRadius=25
 configurationSticker=true
-durationTime=x1
 iconSize=16
-lengthExtMargin=3
-mouseWheelActions=false
+lengthExtMargin=13
+maxLength=90
+panelShadows=false
 panelSize=100
-panelTransparency=75
-proportionIconSize=4.1
-screenEdgeMargin=7
+panelTransparency=40
+proportionIconSize=4
+screenEdgeMargin=8
 scrollAction=ScrollDesktops
 shadowColorType=Theme
-shadowOpacity=15
+shadowOpacity=30
+shadowSize=50
 shadows=All
 shadowsUpgraded=true
 showGlow=false
 tasksUpgraded=true
-themeColors=5
-thickMargin=21
+thickMargin=15
 userBlocksColorizingApplets=4;5;7
 zoomLevel=0
 
@@ -126,18 +159,18 @@ lineThickness=0.08
 style=Dashes
 
 [Containments][1][Indicator][org.kde.latte.default][General]
-backgroundCornerMargin=0.5
 extraDotOnActive=true
 glowEnabled=true
-glowOpacity=0.05
-lengthPadding=0.1
-size=0.11
+glowOpacity=0.2
+lengthPadding=0.05
+minimizedTaskColoredDifferently=true
+size=0.07
 
 [Containments][12]
 activityId=
 byPassWM=false
 dockWindowBehavior=true
-enableKWinEdges=true
+enableKWinEdges=false
 formfactor=2
 immutability=1
 isClonedFrom=-1
@@ -152,8 +185,8 @@ plugin=org.kde.latte.containment
 raiseOnActivityChange=false
 raiseOnDesktopChange=false
 screensGroup=2
-timerHide=0
-timerShow=0
+timerHide=400
+timerShow=100
 viewType=0
 visibility=2
 wallpaperplugin=org.kde.image
@@ -191,13 +224,13 @@ plugin=org.kde.latte.plasmoid
 PreloadWeight=0
 
 [Containments][12][Applets][51][Configuration][General]
+animationLauncherBouncing=false
+hoverAction=PreviewWindows
+infoBadgeProminentColorEnabled=true
 isInLatteDock=true
-isPreferredForDroppedLaunchers=false
-launchers59=applications:org.kde.dolphin.desktop,applications:brave-browser.desktop,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop,file:///latte-separator1.desktop
-manualScrollTasksType=Disabled
-middleClickAction=None
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=true
+launchers59=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop,applications:big-store.desktop,applications:bigcontrolcenter.desktop
+scrollTasksEnabled=true
+showWindowActions=true
 
 [Containments][12][ConfigDialog]
 DialogHeight=600
@@ -215,17 +248,18 @@ autoSizeEnabled=false
 backgroundRadius=23
 backgroundShadowSize=8
 configurationSticker=true
-durationTime=x1
 iconSize=16
-lengthExtMargin=3
-mouseWheelActions=false
+lengthExtMargin=13
+maxLength=90
+panelShadows=false
 panelSize=100
-panelTransparency=75
-proportionIconSize=4.1
-screenEdgeMargin=7
+panelTransparency=40
+proportionIconSize=4
+screenEdgeMargin=8
 scrollAction=ScrollDesktops
 shadowColorType=Theme
-shadowOpacity=15
+shadowOpacity=30
+shadowSize=50
 shadows=All
 shadowsUpgraded=true
 showGlow=false
@@ -249,7 +283,7 @@ style=Dashes
 activityId=
 byPassWM=false
 dockWindowBehavior=true
-enableKWinEdges=true
+enableKWinEdges=false
 formfactor=2
 immutability=1
 isClonedFrom=-1
@@ -383,7 +417,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][25][Applets][55][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 SystrayContainmentId=56
 
 [Containments][25][ConfigDialog]
@@ -399,19 +433,16 @@ alignmentUpgraded=true
 appletOrder=26;27;28;55;46;47;43
 appletShadowsEnabled=false
 autoDecreaseIconSize=false
-autoSizeEnabled=false
-backgroundShadowSize=13
 configurationSticker=true
 disablePanelShadowForMaximized=true
 dragActiveWindowEnabled=true
-floatingInternalGapIsForced=false
 iconSize=28
 inConfigureAppletsMode=true
-mouseWheelActions=false
+lengthExtMargin=10
 panelPosition=10
+panelShadows=false
 panelSize=100
-panelTransparency=90
-proportionIconSize=2.1
+panelTransparency=80
 screenEdgeMargin=0
 shadowOpacity=25
 shadows=None
@@ -420,8 +451,7 @@ splitterPosition=4
 splitterPosition2=5
 taskScrollAction=ScrollNone
 tasksUpgraded=true
-thickMargin=28
-titleTooltips=false
+thickMargin=5
 userBlocksColorizingApplets=26
 zoomLevel=0
 
@@ -430,14 +460,11 @@ customType=org.kde.latte.dashtopanel
 enabled=true
 enabledForApplets=true
 padding=0.09000000357627869
-type=org.kde.latte.dashtopanel
+type=org.kde.latte.default
 
 [Containments][25][Indicator][org.kde.latte.dashtopanel][General]
 enableCounterShading=false
 maxBackgroundOpacity=0.7
-
-[Containments][25][Indicator][org.kde.latte.default][General]
-reversed=true
 
 [Containments][25][Indicator][org.kde.latte.plasma][General]
 lengthPadding=0.19
