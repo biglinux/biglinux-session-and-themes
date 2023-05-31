@@ -5,7 +5,7 @@ RightButton;NoModifier=org.kde.latte.contextmenu
 activityId=
 byPassWM=false
 dockWindowBehavior=true
-enableKWinEdges=true
+enableKWinEdges=false
 formfactor=2
 immutability=1
 isPreferredForShortcuts=false
@@ -18,8 +18,8 @@ plugin=org.kde.latte.containment
 raiseOnActivityChange=false
 raiseOnDesktopChange=false
 screensGroup=0
-timerHide=100
-timerShow=200
+timerHide=400
+timerShow=100
 viewType=0
 visibility=2
 wallpaperplugin=org.kde.image
@@ -32,13 +32,14 @@ plugin=org.kde.latte.plasmoid
 PreloadWeight=0
 
 [Containments][1][Applets][2][Configuration][General]
+animationLauncherBouncing=false
+hoverAction=PreviewWindows
+infoBadgeProminentColorEnabled=true
 isInLatteDock=true
-isPreferredForDroppedLaunchers=false
-launchers59=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop,file:///latte-separator1.desktop,file:///latte-separator2.desktop
+launchers59=preferred://browser,preferred://filemanager,applications:big-store.desktop,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
 manualScrollTasksType=Disabled
-middleClickAction=None
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=true
+scrollTasksEnabled=true
+showWindowActions=true
 
 [Containments][1][Applets][5]
 immutability=1
@@ -67,6 +68,18 @@ icon=big-favicon-new
 menuright=true
 useCustomButtonImage=true
 
+[Containments][1][Applets][86]
+immutability=1
+plugin=org.kde.latte.separator
+
+[Containments][1][Applets][86][Configuration][ConfigDialog]
+DialogHeight=570
+DialogWidth=760
+
+[Containments][1][Applets][86][Configuration][General]
+lengthMargin=8
+thickMargin=8
+
 [Containments][1][ConfigDialog]
 DialogHeight=600
 DialogWidth=586
@@ -77,23 +90,21 @@ PreloadWeight=0
 [Containments][1][General]
 advanced=false
 alignmentUpgraded=true
-appletOrder=84;2;5
-backgroundOnlyOnMaximized=true
-backgroundRadius=0
-blurEnabled=false
-backgroundShadowSize=0
+appletOrder=84;2;86;5
+backgroundRadius=30
 configurationSticker=true
-disablePanelShadowForMaximized=true
 floatingInternalGapIsForced=false
 iconSize=40
-lengthExtMargin=20
-mouseWheelActions=false
+lengthExtMargin=13
+maxLength=90
 panelShadows=false
-panelSize=0
-panelTransparency=0
-proportionIconSize=4.5
+panelSize=30
+panelTransparency=60
+proportionIconSize=3.8000000000000003
+screenEdgeMargin=8
 scrollAction=ScrollDesktops
-shadowOpacity=50
+shadowColorType=Theme
+shadowOpacity=15
 shadowSize=50
 shadows=All
 shadowsUpgraded=true
@@ -101,19 +112,27 @@ showGlow=false
 splitterPosition=1
 splitterPosition2=5
 tasksUpgraded=true
-thickMargin=25
-useThemePanel=false
+thickMargin=15
 userBlocksColorizingApplets=5
+zoomLevel=9
 
 [Containments][1][Indicator]
 customType=org.kde.latte.dashtopanel
 enabled=true
-type=org.kde.latte.plasma
+type=org.kde.latte.default
 
 [Containments][1][Indicator][org.kde.latte.dashtopanel][General]
 enableCounterShading=false
 lineThickness=0.08
 style=Dashes
+
+[Containments][1][Indicator][org.kde.latte.default][General]
+extraDotOnActive=true
+glowEnabled=true
+glowOpacity=0.2
+lengthPadding=0.05
+minimizedTaskColoredDifferently=true
+size=0.07
 
 [Containments][25]
 activityId=
@@ -194,7 +213,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][25][Applets][29][Configuration]
-PreloadWeight=71
+PreloadWeight=76
 SystrayContainmentId=30
 
 [Containments][25][Applets][43]
@@ -285,19 +304,18 @@ alignmentUpgraded=true
 appletOrder=43;27;28;59;29;46;47;26
 appletShadowsEnabled=false
 autoDecreaseIconSize=false
-autoSizeEnabled=false
-backgroundShadowSize=0
-blurEnabled=false
 configurationSticker=true
+disablePanelShadowForMaximized=true
 dragActiveWindowEnabled=true
 floatingInternalGapIsForced=false
-iconSize=30
+iconSize=28
 inConfigureAppletsMode=true
-mouseWheelActions=false
+lengthExtMargin=10
 panelPosition=10
+panelShadows=false
 panelSize=100
-panelTransparency=70
-screenEdgeMargin=-1
+panelTransparency=80
+screenEdgeMargin=0
 shadowOpacity=25
 shadows=None
 shadowsUpgraded=true
@@ -305,8 +323,7 @@ splitterPosition=4
 splitterPosition2=5
 taskScrollAction=ScrollNone
 tasksUpgraded=true
-thickMargin=0
-titleTooltips=false
+thickMargin=5
 userBlocksColorizingApplets=26;29
 zoomLevel=0
 
@@ -315,14 +332,11 @@ customType=org.kde.latte.dashtopanel
 enabled=true
 enabledForApplets=true
 padding=0.09000000357627869
-type=org.kde.latte.dashtopanel
+type=org.kde.latte.default
 
 [Containments][25][Indicator][org.kde.latte.dashtopanel][General]
 enableCounterShading=false
 maxBackgroundOpacity=0.7
-
-[Containments][25][Indicator][org.kde.latte.default][General]
-reversed=true
 
 [Containments][25][Indicator][org.kde.latte.plasma][General]
 lengthPadding=0.19
@@ -408,6 +422,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=0
 
 [Containments][30][Applets][40][Configuration][General]
+migrated=true
 raiseMaximumVolume=true
 showVirtualDevices=true
 
@@ -467,17 +482,21 @@ plugin=org.kde.plasma.mediacontroller
 [Containments][30][Applets][84][Configuration]
 PreloadWeight=42
 
+[Containments][30][Applets][85]
+immutability=1
+plugin=org.kde.plasma.vault
+
 [Containments][30][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
 [Containments][30][General]
 canFillThickness=true
-extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.kscreen,touchpad,org.biglinux.lock_edit_plasma,org.biglinux.micnoise,org.biglinux.performance
+extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.kscreen,touchpad,org.biglinux.lock_edit_plasma,org.biglinux.micnoise,org.biglinux.performance,org.kde.plasma.vault
 hiddenItems=touchpad,org.kde.plasma.manage-inputmethod
 iconsSpacing=9
-knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.lock_edit_plasma,org.biglinux.micnoise,org.biglinux.performance
-shownItems=org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.battery
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.biglinux.lock_edit_plasma,org.biglinux.micnoise,org.biglinux.performance,org.kde.kscreen,org.kde.plasma.vault
+shownItems=org.kde.plasma.volume,org.kde.plasma.clipboard
 
 [LayoutSettings]
 activities=
