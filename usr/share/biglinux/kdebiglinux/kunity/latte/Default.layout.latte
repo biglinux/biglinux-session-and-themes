@@ -242,9 +242,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][25][Applets][46][Configuration][General]
-clockFontFamily=Roboto Condensed
-clockLineBold1=true
-clockLineBold2=true
+clockFontFamily=Lato Semibold
 clockShowLine2=true
 clockTimeFormat1=hh:mm
 v71Migration=true
@@ -263,6 +261,18 @@ DialogWidth=800
 clickCommand=Overview
 icon[$e]=mission-control
 
+[Containments][25][Applets][62]
+immutability=1
+plugin=org.kde.latte.spacer
+
+[Containments][25][Applets][62][Configuration][ConfigDialog]
+DialogHeight=570
+DialogWidth=760
+
+[Containments][25][Applets][62][Configuration][General]
+containmentType=Latte
+lengthPixels=4
+
 [Containments][25][ConfigDialog]
 DialogHeight=1254
 DialogWidth=529
@@ -273,7 +283,7 @@ PreloadWeight=0
 [Containments][25][General]
 alignment=10
 alignmentUpgraded=true
-appletOrder=43;27;28;59;29;46;26
+appletOrder=43;62;27;28;59;29;46;26
 appletShadowsEnabled=false
 autoDecreaseIconSize=false
 blurEnabled=false
