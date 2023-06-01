@@ -143,9 +143,6 @@ fi
 if [ "$3" = "quiet" ] || [ "$4" = "quiet" ]; then
     echo "No start services"
 else
-    systemctl --user start plasma-plasmashell
-    systemctl --user start plasma-kglobalaccel.service
-
     if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
         qdbus org.kde.lattedock /Latte org.kde.LatteDock.switchToLayout "$HOME/.config/latte/Default.layout.latte"
         kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key "Meta" "org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu"
@@ -158,6 +155,8 @@ else
     qdbus org.kde.KWin /KWin org.kde.KWin.replace
     qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.gtkTheme)
     gtk-reload.py
+    systemctl --user start plasma-plasmashell
+    systemctl --user start plasma-kglobalaccel.service
 fi
 
 
