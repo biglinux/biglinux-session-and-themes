@@ -23,3 +23,8 @@ popover > arrow, popover.background > arrow {
     background-color: transparent;
     border: 0px solid @borders_breeze;
 }
+
+headerbar {
+	margin-top: -10px;
+	margin-bottom: -10px;
+}

@@ -1,6 +1,5 @@
 @import 'colors.css';
 @import '/usr/share/themes/Breeze-Dark/gtk-4.0/gtk.css';
-
 .minimize image, .close image, .maximize image {
 background-color: transparent;
 }
@@ -22,4 +21,9 @@ popover > arrow, popover.background > arrow {
     padding: 0px;
     background-color: transparent;
     border: 0px solid @borders_breeze;
+}
+
+headerbar {
+	margin-top: -10px;
+	margin-bottom: -10px;
 }
