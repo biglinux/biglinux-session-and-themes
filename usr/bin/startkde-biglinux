@@ -223,8 +223,7 @@ done
 
 
 # Fix to GTK4 theme
-
-export GTK_THEME=
+#export GTK_THEME=
 # if [ "$(grep gtk-application-prefer-dark-theme=true ~/.config/gtk-3.0/settings.ini)" != "" ]; then
 # 
 #     if [ -e "/usr/share/themes/${GTK_THEME}-Dark" ]; then
