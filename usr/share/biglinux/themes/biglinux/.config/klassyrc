@@ -22,7 +22,6 @@ ColorizeThinWindowOutlineWithButton=false
 CornerRadius=4
 IconSize=IconSmall
 OpaqueMaximizedTitlebars=false
-SystemIconSize=SystemIcon14
 ThinWindowOutlineThickness=1
 TitlebarLeftMargin=3
 TitlebarRightMargin=3
