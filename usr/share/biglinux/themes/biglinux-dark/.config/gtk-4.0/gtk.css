@@ -1,5 +1,5 @@
-@import 'colors.css';
 @import '/usr/share/themes/Breeze-Dark/gtk-4.0/gtk.css';
+@import 'colors.css';
 
 .csd {
   border-top-left-radius: 12px;

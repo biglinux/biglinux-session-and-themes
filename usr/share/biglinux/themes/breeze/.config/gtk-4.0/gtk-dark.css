@@ -1,5 +1,6 @@
-@import 'colors.css';
 @import '/usr/share/themes/Breeze-Dark/gtk-4.0/gtk.css';
+@import 'colors.css';
+
 .minimize image, .close image, .maximize image {
 background-color: transparent;
 }
