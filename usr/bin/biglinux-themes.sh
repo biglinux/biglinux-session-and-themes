@@ -71,13 +71,10 @@ case "$1" in
                 qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
 
 
+                qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
                 # Clean icon theme and apply again to fix kwin buttons
 #                 kwriteconfig5 --group Icons --key Theme ""
                 /usr/lib/plasma-changeicons $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
-                
-               
-
-                qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
 
                 # Change theme color to change back and fix on the fly change
                 plasma-apply-colorscheme Arc
