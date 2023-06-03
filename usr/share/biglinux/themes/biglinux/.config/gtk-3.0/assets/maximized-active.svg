@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 50 50"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+
+<g fill="#006699" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+<circle cx="22.5" cy="22.5" r="22.5"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1.001" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1.001" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1.001" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1.001" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+<image x="0" y="0" width="45" height="45" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA9ElEQVRYhe3XMW7CQBCF4X8iIlIg0bqLOAVljkCTjktwjZTcgjJVxDE4AgVFyqQDBWkocApDs7uzckR4X+ViPe9pZctrEBERkRtl0QHuPgJeg2M+zWydungQDPud8VxhTrKHPsNqqbHT38BbwX1DYFESGC5tZg7sc+9z9+LMrNLu3gBPxWlnOzM7Rgbk7vQKeIkEAhNgGxlwdy/iB/CTuHYKNIGsjkjpuZl9pSx093dgFsjquMnHQ6X7otJ9Uem+1DjllToAy/Y66yzyZ6Xb02HSx+lSpPQ443j5GMi5Eim9rVUi1128iJsKmdl/OSIiIvJvnABQSiS0ZXldRwAAAABJRU5ErkJggg==" />
+</g>
+
+<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1.001" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1.001" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+</g>
+</svg>

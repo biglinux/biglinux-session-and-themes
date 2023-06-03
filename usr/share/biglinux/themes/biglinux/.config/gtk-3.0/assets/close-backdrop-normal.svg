@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 50 50"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#606060" stroke-opacity="1" stroke-width="1.001" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#606060" stroke-opacity="1" stroke-width="1.001" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#606060" stroke-opacity="1" stroke-width="1.001" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#606060" stroke-opacity="1" stroke-width="1.001" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+<image x="0" y="0" width="45" height="45" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACqklEQVRYhe3Xv2/aQBQH8Ncax2ARpCChYHJmsBPLW3/slWBCDIVW3SNddeKPQpYsZW8SZa9ASlesGzo2DIkFWB6ispqhQ7mKuLjpncnQ6r4boLv3kbk7vwOQkZGRkZGR+Uej8A7AGFvdbveT67qfgyBYihYmhKBOp3N5cnJyTSm95xnLhcYYW6ZpjjRNe6nres9xnAsROCEEGYYx1jTt9f7+/nvLsq544M95itXrda9QKDQBAFRVPTYMY0wIQTxzYIxNwzDGqqraAACFQqFZr9c9njm40HEcnyZJcsM+q6pq88AxxiZCaMTAAABJknyL4/iUx8G1PIIgWDqOc67rel9RlCoAgKIoVV3X+7ZtX1BKM5fKGjxOg+fzedvzvPDJ0H+Cl8vlXhZ8A2xtgG9EwEJoBrdt+6JcLvdS8N+e+GAwaDYajW3glghYGA0AQCll8L6iKAdr+MEmfDAYNA8PD0e7BAMAPBMdyJLx10/jOD6t1WpnaXAYhm3f9+/y1MyNBtgOTydJkmkYhq28YIAcy2MzlNKl67qXpVLp11LZzC7BADtCAwBMJpPvrusGlUrlY/q3KIreep73dVe1doZeb7rLbU+6WCy2HjvHebITNMbYTB9rD4qkTpW89bhe49uSdXqEYfgmSZIp+05VVQshNMIYm3lr5kJngaMoag+Hwy9RFLVTcBshNOJtstIRXh4ZzQ8D3wL83JxbXkBVXdf7juOci/bjQmhCCDo6Oko3Pw/ALBlvzlxwbjRr4P8GvAXeS3WHQhcJLrQI+CngXBtx3Utwg1l837+bz+et1EXiuFarnfE4uNCLxYKsVqtbETCL53nhJny1Wt0uFgvCMwfX8qCU3luWdVUsFl/EcfyOF8zCLhJ7e3uvZrPZB9/3p4+PkpGRkZGRkfkP8gPAKKBYmubcegAAAABJRU5ErkJggg==" />
+</g>
+
+<g fill="none" stroke="#606060" stroke-opacity="1" stroke-width="1.001" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#606060" stroke-opacity="1" stroke-width="1.001" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+>
+</g>
+</g>
+</svg>
