@@ -5,23 +5,33 @@ pluginWhiteList=services,desktopsessions,PowerDevil,shell,bookmarks,baloosearch,
 [PlasmaTransientsConfig]
 PreloadWeight=42
 
+[PlasmaViews][Panel 2]
+floating=1
+
 [PlasmaViews][Panel 2][Defaults]
+floating=1
 thickness=42
 
 [PlasmaViews][Panel 3][Defaults]
+floating=1
 thickness=42
 
 [PlasmaViews][Panel 4][Defaults]
+floating=1
 thickness=42
 
 [PlasmaViews][Panel 5][Defaults]
+floating=1
 thickness=42
 
 [PlasmaViews][Panel 6][Defaults]
+floating=1
 thickness=42
 
 [PlasmaViews][Panel 7][Defaults]
+floating=1
 thickness=42
 
 [PlasmaViews][Panel 8][Defaults]
+floating=1
 thickness=42
