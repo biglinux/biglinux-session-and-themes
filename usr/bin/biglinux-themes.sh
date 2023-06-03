@@ -17,6 +17,9 @@ case "$1" in
     rm -Rf ~/.cache/gtk-4.0
     rm -Rf ~/.cache/icon-cache.kcache
     rm -R ~/.cache/kcmshell5
+    # Clean GTK theme folders
+    rm -Rf ~/.config/gtk-3.0
+    rm -Rf ~/.config/gtk-4.0
 
 
 	#Confere se o arquivo, diretório, link, ou arquivo especial NÃO existe
