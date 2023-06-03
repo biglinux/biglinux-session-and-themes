@@ -32,6 +32,7 @@ if [ "$1" = "wayland" ]; then
     export QT_XCB_GL_INTEGRATION=xcb_egl
     export QSG_RENDER_LOOP=basic
     export MOZ_ENABLE_WAYLAND=1
+    export KWIN_EFFECTS_FORCE_ANIMATIONS=1
 
 else
     export GDK_BACKEND=x11
