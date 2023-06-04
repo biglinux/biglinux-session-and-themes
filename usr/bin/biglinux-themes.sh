@@ -80,6 +80,9 @@ case "$1" in
                 plasma-apply-colorscheme Arc
                 # Apply Theme
                 plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
+                
+                # Fix to apply in gtk
+                systemctl --user status plasma-xdg-desktop-portal-kde.service
 
         fi
         
@@ -93,7 +96,7 @@ case "$1" in
 #             sed -i 's|Fluent-roundDark|Fluent-roundswDark|g' ~/.config/Kvantum/kvantum.kvconfig        
 #         fi
         
-        echo "$2" > "$HOME/.big_desktop_theme"        
+        echo "$2" > "$HOME/.big_desktop_theme"
         
    else
         echo "Theme not found."
