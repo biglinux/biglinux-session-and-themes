@@ -28,3 +28,102 @@ headerbar {
 	margin-top: -10px;
 	margin-bottom: -10px;
 }
+
+
+/* START FIX TO WINDOWCONTROLS BUTTON     */
+
+  headerbar windowcontrols button.close,
+  .titlebar windowcontrols button.close {
+    background-image: none; }
+  headerbar windowcontrols button.close:hover,
+  .titlebar windowcontrols button.close:hover {
+    background-image: none; }
+  headerbar windowcontrols button.close:active,
+  .titlebar windowcontrols button.close:active {
+    background-image: none; }
+  headerbar windowcontrols button.close:backdrop, headerbar windowcontrols label:backdrop selection.close, label:backdrop headerbar windowcontrols selection.close,
+  .titlebar windowcontrols button.close:backdrop,
+  .titlebar windowcontrols label:backdrop selection.close,
+  label:backdrop .titlebar windowcontrols selection.close {
+    background-image: none; }
+  headerbar windowcontrols button.maximize,
+  .titlebar windowcontrols button.maximize {
+    background-image: none; }
+  headerbar windowcontrols button.maximize:hover,
+  .titlebar windowcontrols button.maximize:hover {
+    background-image: none; }
+  headerbar windowcontrols button.maximize:active,
+  .titlebar windowcontrols button.maximize:active {
+    background-image: none; }
+  headerbar windowcontrols button.maximize:backdrop, headerbar windowcontrols label:backdrop selection.maximize, label:backdrop headerbar windowcontrols selection.maximize,
+  .titlebar windowcontrols button.maximize:backdrop,
+  .titlebar windowcontrols label:backdrop selection.maximize,
+  label:backdrop .titlebar windowcontrols selection.maximize {
+    background-image: none; }
+  headerbar windowcontrols button.minimize,
+  .titlebar windowcontrols button.minimize {
+    background-image: none; }
+  headerbar windowcontrols button.minimize:hover,
+  .titlebar windowcontrols button.minimize:hover {
+    background-image: none; }
+  headerbar windowcontrols button.minimize:active,
+  .titlebar windowcontrols button.minimize:active {
+    background-image: none; }
+  headerbar windowcontrols button.minimize:backdrop, headerbar windowcontrols label:backdrop selection.minimize, label:backdrop headerbar windowcontrols selection.minimize,
+  .titlebar windowcontrols button.minimize:backdrop,
+  .titlebar windowcontrols label:backdrop selection.minimize,
+  label:backdrop .titlebar windowcontrols selection.minimize {
+    background-image: none; }
+  .maximized headerbar windowcontrols button.maximize, .maximized .titlebar windowcontrols button.maximize {
+    background-image: none; }
+  .maximized headerbar windowcontrols button.maximize:hover, .maximized .titlebar windowcontrols button.maximize:hover {
+    background-image: none; }
+  .maximized headerbar windowcontrols button.maximize:active, .maximized .titlebar windowcontrols button.maximize:active {
+    background-image: none; }
+  .maximized headerbar windowcontrols button.maximize:backdrop, .maximized headerbar windowcontrols label:backdrop selection.maximize, label:backdrop .maximized headerbar windowcontrols selection.maximize, .maximized .titlebar windowcontrols button.maximize:backdrop, .maximized .titlebar windowcontrols label:backdrop selection.maximize, label:backdrop .maximized .titlebar windowcontrols selection.maximize {
+    background-image: none; }
+
+
+  headerbar windowcontrols button image,
+  .titlebar windowcontrols button image {
+    color: inherit; }
+    
+
+.minimize image, .close image, .maximize image {
+background-color: transparent;
+}
+
+
+windowcontrols button image {
+-gtk-icon-size: 20px;
+}
+
+windowcontrols button.close image {
+-gtk-icon-size: 26px;
+	background: transparent;
+}
+
+headerbar windowcontrols button.minimize image:hover {
+	background: @theme_button_foreground_active_backdrop_breeze;
+	color: @theme_button_foreground_active_breeze;
+	border-radius: 50%;
+}
+
+
+headerbar windowcontrols button.maximize image:hover {
+	background: @theme_button_foreground_active_backdrop_breeze;
+	color: @theme_button_foreground_active_breeze;
+	border-radius: 50%;
+	
+}
+
+headerbar windowcontrols button.close image:hover {
+	color: @error_color_breeze;
+	border-radius: 50%;
+}
+
+
+/* END FIX TO WINDOWCONTROLS BUTTON     */
+
+
+

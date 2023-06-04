@@ -46,10 +46,10 @@ headerbar button:hover {
 
 headerbar windowcontrols button,
 .titlebar windowcontrols button {
-    /*  border-top-left-radius: 16px;
+    border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     min-height: 24px;
-    min-width: 24px;*/
+    min-width: 24px;
     -gtk-icon-size: 18px;
     /*  padding: 0;
     margin-top: -14px;
@@ -57,9 +57,6 @@ headerbar windowcontrols button,
     margin-bottom: -14px;
     padding-bottom: 28px; */
 }
-
-
-
 
 
 list {
@@ -111,66 +108,6 @@ flap placessidebar  list.navigation-sidebar {
 }
 
 
-headerbar windowhandle widget windowcontrols image.icon  {
-    margin-left: 10px;
-}
-
-widget headerbar windowhandle widget windowcontrols image.icon  {
-    -gtk-icon-size: 22px;
-    margin-left: 10px;
-    margin-right: -8px;
-}
-
-windowcontrols button {
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    min-height: 16px !important;
-    height: 16px !important;
-    max-height: 16px !important;
-    min-width: 18px;
-    -gtk-icon-size: 16px;
-    padding: 0;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    /*  padding: 0;
-    margin-top: -14px;
-    padding-top: 28px;
-    margin-bottom: -14px;
-    padding-bottom: 28px; */
-}
-
-
-windowcontrols button.close image.normal-icons {
-    /*border: 1px solid #fff;*/
-}
-
-windowcontrols button.close image.normal-icons {
-    /* border: 10px solid #2f343f; */
-    border: 0px;
-    border-radius: 50px ;
-}
-
-windowcontrols button.close:hover {
-    /* border: 1px solid #a90f21; */ 
-    /* border: 1px solid #2f343f; */
-    border-radius: 50px;
-    background-color: #da4453;
-    color: #fff;
-}
-
-windowcontrols button.maximize:hover {
-    /* border: 1px solid #3b6ab7; */
-    /* border: 1px solid #2f343f; */
-    border-radius: 50px;
-    background-color: #92beff;
-}
-
-windowcontrols button.minimize:hover {
-    /* border: 1px solid #3b6ab7; */
-    /* border: 1px solid #2f343f; */
-    border-radius: 50px;
-    background-color: #92beff;
-}
 
 headerbar box stack menubutton button.toggle {
 	/*border: 1px solid #fff;*/
@@ -184,29 +121,6 @@ toastoverlay flap placessidebar scrolledwindow viewport list  row.sidebar-row {
 	border-radius: 5px;
 }
 
-.minimize image, .close image, .maximize image {
-background-color: transparent;
-}
-
-
-windowcontrols .minimize:hover {
-	background: #428afe;
-	/*color: #fff;*/
-	border-radius: 50%;
-}
-
-windowcontrols .maximize:hover {
-	background: #428afe;
-	/*color: #fff;*/
-	border-radius: 50%;
-	
-}
-
-windowcontrols .close:hover {
-	background: #da4453;
-	/*color: #fff;*/
-	border-radius: 50%;
-}
 
 popover arrow  {
     background: transparent;
@@ -247,3 +161,100 @@ popover > arrow, popover.background > arrow {
     background-color: transparent;
     border: 0px solid @borders_breeze;
 }
+
+
+/* START FIX TO WINDOWCONTROLS BUTTON     */
+  headerbar windowcontrols button.close,
+  .titlebar windowcontrols button.close {
+    background-image: none; }
+  headerbar windowcontrols button.close:hover,
+  .titlebar windowcontrols button.close:hover {
+    background-image: none; }
+  headerbar windowcontrols button.close:active,
+  .titlebar windowcontrols button.close:active {
+    background-image: none; }
+  headerbar windowcontrols button.close:backdrop, headerbar windowcontrols label:backdrop selection.close, label:backdrop headerbar windowcontrols selection.close,
+  .titlebar windowcontrols button.close:backdrop,
+  .titlebar windowcontrols label:backdrop selection.close,
+  label:backdrop .titlebar windowcontrols selection.close {
+    background-image: none; }
+  headerbar windowcontrols button.maximize,
+  .titlebar windowcontrols button.maximize {
+    background-image: none; }
+  headerbar windowcontrols button.maximize:hover,
+  .titlebar windowcontrols button.maximize:hover {
+    background-image: none; }
+  headerbar windowcontrols button.maximize:active,
+  .titlebar windowcontrols button.maximize:active {
+    background-image: none; }
+  headerbar windowcontrols button.maximize:backdrop, headerbar windowcontrols label:backdrop selection.maximize, label:backdrop headerbar windowcontrols selection.maximize,
+  .titlebar windowcontrols button.maximize:backdrop,
+  .titlebar windowcontrols label:backdrop selection.maximize,
+  label:backdrop .titlebar windowcontrols selection.maximize {
+    background-image: none; }
+  headerbar windowcontrols button.minimize,
+  .titlebar windowcontrols button.minimize {
+    background-image: none; }
+  headerbar windowcontrols button.minimize:hover,
+  .titlebar windowcontrols button.minimize:hover {
+    background-image: none; }
+  headerbar windowcontrols button.minimize:active,
+  .titlebar windowcontrols button.minimize:active {
+    background-image: none; }
+  headerbar windowcontrols button.minimize:backdrop, headerbar windowcontrols label:backdrop selection.minimize, label:backdrop headerbar windowcontrols selection.minimize,
+  .titlebar windowcontrols button.minimize:backdrop,
+  .titlebar windowcontrols label:backdrop selection.minimize,
+  label:backdrop .titlebar windowcontrols selection.minimize {
+    background-image: none; }
+  .maximized headerbar windowcontrols button.maximize, .maximized .titlebar windowcontrols button.maximize {
+    background-image: none; }
+  .maximized headerbar windowcontrols button.maximize:hover, .maximized .titlebar windowcontrols button.maximize:hover {
+    background-image: none; }
+  .maximized headerbar windowcontrols button.maximize:active, .maximized .titlebar windowcontrols button.maximize:active {
+    background-image: none; }
+  .maximized headerbar windowcontrols button.maximize:backdrop, .maximized headerbar windowcontrols label:backdrop selection.maximize, label:backdrop .maximized headerbar windowcontrols selection.maximize, .maximized .titlebar windowcontrols button.maximize:backdrop, .maximized .titlebar windowcontrols label:backdrop selection.maximize, label:backdrop .maximized .titlebar windowcontrols selection.maximize {
+    background-image: none; }
+
+
+  headerbar windowcontrols button image,
+  .titlebar windowcontrols button image {
+    color: inherit; }
+    
+
+.minimize image, .close image, .maximize image {
+background-color: transparent;
+}
+
+/* END FIX TO WINDOWCONTROLS BUTTON     */
+
+
+
+headerbar windowcontrols button.minimize image:hover {
+	background: @theme_button_decoration_hover_breeze;
+	color: @theme_titlebar_foreground_breeze;
+	border-radius: 50%;
+}
+
+headerbar windowcontrols button.maximize image:hover {
+	background: @theme_button_decoration_hover_breeze;
+	color: @theme_titlebar_foreground_breeze;
+	border-radius: 50%;
+	
+}
+
+headerbar windowcontrols button.close image:hover {
+	background: @error_color_breeze;
+    color: @theme_button_foreground_active_breeze;
+	border-radius: 50%;
+}
+
+windowcontrols.end {
+	margin-right: -10px;
+	margin-left: 10px;
+}
+
+windowcontrols.start {
+	margin-left: -10px;
+	margin-right: 10px;
+}
+
