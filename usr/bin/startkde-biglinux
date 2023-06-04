@@ -317,6 +317,7 @@ enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent-round/metadata.desktop
 
 fi
 
-QSG_RENDER_LOOP=basic exec $STARTPLASMA
+portal-kde-verify.sh &
 
-portal-kde-verify.sh
+
+QSG_RENDER_LOOP=basic exec $STARTPLASMA

@@ -13,32 +13,8 @@ if [ ! -e "/etc/default-theme-biglinux" ] || [ -e "$HOME/.big_desktop_theme" ] |
 
 else
 
-    BIG_THEME="$(cat /etc/default-theme-biglinux)"
+    export BIG_THEME="$(cat /etc/default-theme-biglinux)"
     biglinux-themes.sh --apply $BIG_THEME
     systemctl --user enable big-welcome
-
-#     case "$BIG_THEME" in
-# 
-#         arc)
-#             qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme Arc
-#             exit
-#         ;;
-# 
-#         adapta)
-#             qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme Adapta-Eta
-#             exit
-#         ;;
-# 
-#         breeze)
-#             qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme Breeze
-#             exit
-#         ;;
-# 
-#         dark)
-#             qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme Arc-Dark
-#             exit
-#         ;;
-# 
-#     esac
 
 fi

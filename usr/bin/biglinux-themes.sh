@@ -80,9 +80,6 @@ case "$1" in
                 plasma-apply-colorscheme Arc
                 # Apply Theme
                 plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
-                
-                # Fix to apply in gtk
-                systemctl --user restart plasma-xdg-desktop-portal-kde.service
 
         fi
         
