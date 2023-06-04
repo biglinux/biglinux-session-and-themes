@@ -142,8 +142,7 @@ History Items[$e]=
 [General]
 ColorScheme=FluentLight
 ColorSchemeHash=2823fd85d4dc3e2f05a21c28d68753f841ff70ed
-Name[pt_BR]=Breeze Light
-Name=Breeze Light
+Name=FluentLight
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=MesloLGS Biglinux,11,-1,5,50,0,0,0,0,0

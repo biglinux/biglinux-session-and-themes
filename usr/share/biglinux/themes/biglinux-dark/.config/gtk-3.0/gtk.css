@@ -1,7 +1,7 @@
 @import 'colors.css';
 
 windowcontrols button {
-    padding: 2;
+    padding: 2px;
 }
 
 windowcontrols button.close image.normal-icons {

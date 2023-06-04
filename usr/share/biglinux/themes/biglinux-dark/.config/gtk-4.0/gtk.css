@@ -104,7 +104,7 @@ flap placessidebar  list.navigation-sidebar row:hover {
 flap placessidebar  list.navigation-sidebar {
     /*border: 1px solid #fff;*/
     box-shadow: none;
-    background-color:00000066;
+    background-color: #00000066;
 }
 
 
@@ -257,4 +257,3 @@ windowcontrols.start {
 	margin-left: -10px;
 	margin-right: 10px;
 }
-

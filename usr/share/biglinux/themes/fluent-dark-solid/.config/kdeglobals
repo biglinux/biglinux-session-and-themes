@@ -140,7 +140,7 @@ DirSelectDialog Size=850,584
 History Items[$e]=
 
 [General]
-ColorScheme=FluentDark
+ColorSchemeHash=2823fd85d4dc3e2f05a21c28d68753f841ff70ed
 Name[pt_BR]=Breeze Light
 Name=Breeze Light
 XftAntialias=true
@@ -158,7 +158,7 @@ widgetStyle=Breeze
 Theme=Fluent-dark
 
 [KDE]
-AnimationDurationFactor=0.5
+AnimationDurationFactor=
 ColorScheme=Breeze
 LookAndFeelPackage=org.kde.breeze.desktop
 ShowDeleteCommand=true
