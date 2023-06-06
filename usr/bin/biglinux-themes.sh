@@ -64,6 +64,15 @@ case "$1" in
             kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
         fi
 
+        # Metakey to plasma or latte
+        if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
+            qdbus org.kde.lattedock /Latte org.kde.LatteDock.switchToLayout "$HOME/.config/latte/Default.layout.latte"
+            kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key "Meta" "org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu"
+        else
+            qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
+            kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key "Meta" "org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu"
+        fi
+        
         if [ "$(ps -e | grep kwin)" != "" ]
 		then
 
