@@ -16,7 +16,7 @@ HEIGHT=${RESOLUTION//*x}
 
 
 # To libreoffice use gtk theme
-# export SAL_USE_VCLPLUGIN=gtk3_kde5
+export SAL_USE_VCLPLUGIN=gtk3_kde5
 
 if [ "$1" = "wayland" ]; then
     STARTPLASMA=startplasma-wayland
