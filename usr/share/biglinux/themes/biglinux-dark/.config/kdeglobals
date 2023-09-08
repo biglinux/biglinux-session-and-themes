@@ -113,7 +113,7 @@ toolBarFont=Lato Semibold,11,-1,5,63,0,0,0,0,0,Semibold
 widgetStyle=Breeze
 
 [Icons]
-Theme=Fluent-dark
+Theme=biglinux-icons-material
 
 [KDE]
 AnimationDurationFactor=
