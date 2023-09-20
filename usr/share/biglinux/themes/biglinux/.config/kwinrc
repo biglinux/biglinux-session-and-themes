@@ -78,6 +78,7 @@ alwaysopenonactivescreenEnabled=true
 alwaysopenonfocusedscreenEnabled=false
 alwaysopenonprimaryscreenEnabled=false
 contrastEnabled=true
+blurEnabled=false
 forceblurEnabled=false
 kwin-autocomposerEnabled=true
 kwin4_effect_fadingpopupsEnabled=false
