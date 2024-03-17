@@ -1,4 +1,5 @@
 {
+    "KPackageStructure": "Plasma/Applet",
     "KPlugin": {
         "Authors": [
             {
@@ -14,6 +15,9 @@
         "Description": "Prevents the desktop from being accidentally misconfigured.",
         "Description[pt_BR]": "Evita que o desktop seja desconfigurado acidentalmente",
         "EnabledByDefault": true,
+        "FormFactors": [
+            "desktop"
+        ],
         "Icon": "biglinux-lock",
         "Id": "org.biglinux.lock_edit_plasma",
         "License": "GPL-2.0+",
@@ -53,8 +57,11 @@
         "Version": "1.0",
         "Website": "https://kde.org/plasma-desktop"
     },
-    "X-Plasma-API": "declarativeappletscript",
-    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-API-Minimum-Version": "6.0",
     "X-Plasma-NotificationArea": "true",
-    "X-Plasma-NotificationAreaCategory": "SystemServices"
+    "X-Plasma-NotificationAreaCategory": "System",
+    "X-Plasma-Provides": [
+        "org.biglinux.lock_edit_plasma"
+    ],
+    "X-Plasma-OptionalExtensions": "LaunchApp"
 }

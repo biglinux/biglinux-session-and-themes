@@ -1,95 +1,90 @@
 /*
- * SPDX-FileCopyleftText: 2022 Bruno Gonçalves <bigbruno@gmail.com> and Rafael Ruscher <rruscher@gmail.com>
- *
- * SPDX-License-Identifier: GPL-2.0-or-later
- */
+* SPDX-FileCopyrightText: 2022 Bruno Gonçalves <bigbruno@gmail.com> and Rafael Ruscher <rruscher@gmail.com>
+*
+* SPDX-License-Identifier: GPL-2.0-or-later
+*/
+import QtQuick
+import org.kde.plasma.plasmoid
+import org.kde.plasma.core as PlasmaCore
+import org.kde.kirigami as Kirigami
+import org.kde.plasma.plasma5support as Plasma5Support
 
-import QtQuick 2.1
-import QtQuick.Layouts 1.0
-import org.kde.plasma.plasmoid 2.0
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 2.0 as PlasmaComponent
-
-Item {
+PlasmoidItem {
     id: root
+    property string outputText
 
-	PlasmaCore.DataSource {
-		id: executable
-		engine: "executable"
-		connectedSources: []
-		onNewData: {
-			var exitCode = data["exit code"]
-			var exitStatus = data["exit status"]
-			var stdout = data["stdout"]
-			var stderr = data["stderr"]
-			exited(sourceName, exitCode, exitStatus, stdout, stderr)
-			disconnectSource(sourceName) // cmd finished
-		}
-		function exec(cmd) {
-			if (cmd) {
-				connectSource(cmd)
-			}
-		}
-		signal exited(string cmd, int exitCode, int exitStatus, string stdout, string stderr)
-	}
+    function runCommand() {
+        // Change to run your command
+        executable.exec('cat $HOME/.config/lockplasma');
+    }
 
-	property string outputText: 'true'
-	Connections {
-		target: executable
-		onExited: {
-			outputText = stdout
-			timer.restart()
-		}
-	}
+    function toggle() {
+        executable.exec('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/lock-desktop.run');
+        timer.interval = 500;
+    }
 
-	function runCommand() {
-		// Change to run your command
-		// 
-		executable.exec('cat $HOME/.config/lockplasma')
- 		//executable.exec('qdbus org.kde.plasmashell /PlasmaShell org.freedesktop.DBus.Properties.Get "" editMode')
-
-	}
-
-	Timer {
-		id: timer
-		
-		// Wait in ms
-		interval: 7000
-		onTriggered: runCommand()
-		Component.onCompleted: {
-			triggered()
-		}
-	}
-
-    Plasmoid.icon: outputText ? 'biglinux-lock' : 'biglinux-unlock'
-    Plasmoid.preferredRepresentation: Plasmoid.compactRepresentation
-
+    preferredRepresentation: fullRepresentation
     // Active = in systray and Passive in notification area
     Plasmoid.status: {
         //return PlasmaCore.Types.ActiveStatus;
         return PlasmaCore.Types.PassiveStatus;
-     }
-
-    function toggle() {
-
-            executable.exec('/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/lock-desktop.run')
-			timer.interval = 500
-
     }
 
+    Plasma5Support.DataSource {
+        id: "executable"
+        signal exited(string sourceName, int exitCode, int exitStatus, string stdout, string stderr)
+        function exec(cmd) {
+            connectSource(cmd);
+        }
 
-    Plasmoid.compactRepresentation: PlasmaCore.IconItem {
-        active: compactMouseArea.containsMouse
-        source: plasmoid.icon
-        
-        MouseArea {
-            id: compactMouseArea
-            anchors.fill: parent
-            hoverEnabled: true
-            acceptedButtons: Qt.LeftButton | Qt.MiddleButton
-            onClicked: toggle()
+        engine: "executable"
+        connectedSources: []
+        onNewData: function(sourceName, data) {
+            var exitCode = data["exit code"];
+            var exitStatus = data["exit status"];
+            var stdout = data["stdout"];
+            var stderr = data["stderr"];
+            exited(sourceName, exitCode, exitStatus, stdout, stderr);
+            disconnectSource(sourceName);
         }
     }
 
+    Connections {
+        function onExited(sourceName, exitCode, exitStatus, stdout, stderr) {
+            Qt.callLater(function() {
+                root.outputText = stdout;
+            });
+            timer.restart();
+        }
+
+        target: executable
+    }
+
+    Timer {
+        id: timer
+
+        // Wait in ms
+        interval: 7000
+        onTriggered: runCommand()
+        Component.onCompleted: {
+            triggered();
+        }
+    }
+
+    fullRepresentation: PlasmoidItem {
+        Kirigami.Icon {
+            id: icon
+            source: outputText ? 'biglinux-lock' : 'biglinux-unlock'
+            height: Math.min(parent.height, parent.width)
+            width: Math.min(parent.height, parent.width)
+            anchors.fill: parent
+        }
+
+        MouseArea {
+            anchors.fill: parent
+            onClicked: toggle()
+        }
+
+    }
 
 }
