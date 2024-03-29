@@ -1,0 +1,35 @@
+[Desktop Entry]
+Categories=Settings;
+Exec=dbus-send --type=method_call --dest=org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut string:"Overview"
+Icon=mission-control
+Name=Activities Overview
+Name[bg]=Обзор на дейностите
+Name[cs]=Přehled činností
+Name[da]=Aktivitetsoversigt
+Name[de]=Aktivitätenübersicht
+Name[el]=Επισκόπηση Δραστηριοτήτων
+Name[es]=Visión general de actividades
+Name[et]=Tegevuste ülevaade
+Name[fi]=Toimintojen yleiskatsaus
+Name[fr]=Vue d'ensemble des activités
+Name[he]=סקירת פעילויות
+Name[hr]=Pregled aktivnosti
+Name[hu]=Tevékenységek áttekintése
+Name[is]=Yfirlit yfir athafnir
+Name[it]=Panoramica delle attività
+Name[ja]=アクティビティの概要
+Name[ko]=활동 개요
+Name[nl]=Activiteitenoverzicht
+Name[no]=Oversikt over aktiviteter
+Name[pl]=Przegląd aktywności
+Name[pt]=Visão Geral das Atividades
+Name[ro]=Prezentare generală a activităților
+Name[ru]=Обзор действий
+Name[sk]=Prehľad činností
+Name[sv]=Översikt över aktiviteter
+Name[tr]=Etkinliklere Genel Bakış
+Name[uk]=Огляд діяльності
+Name[zh]=活动概览
+StartupNotify=true
+Terminal=false
+Type=Application
