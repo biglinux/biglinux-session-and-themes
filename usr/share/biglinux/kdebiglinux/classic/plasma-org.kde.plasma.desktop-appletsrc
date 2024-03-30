@@ -23,30 +23,6 @@ remove=true
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometriesHorizontal=
-activityId=86559bcf-6f06-4a99-8fcf-1043d1fb1792
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][1][General]
-arrangement=1
-iconSize=2
-toolTips=true
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/ambiance clean6.avif
-PreviewImage=/usr/share/wallpapers/ambiance clean6.avif
-SlidePaths=/usr/share/wallpapers/
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -89,13 +65,14 @@ DialogWidth=720
 
 [Containments][2][Applets][30][Configuration][General]
 customButtonImage=big-favicon-new
+favoritesPortedToKAstats=true
 useCustomButtonImage=true
 
 [Containments][2][Applets][30][Configuration][Shortcuts]
 global=Alt+F1
 
 [Containments][2][Applets][30][Shortcuts]
-global=Alt+F1
+global=
 
 [Containments][2][Applets][31]
 immutability=1
@@ -124,10 +101,6 @@ plugin=org.kde.plasma.icon
 localPath=/home/tales/.local/share/plasma_icons/activities-overview (1).desktop
 url=file:///usr/share/biglinux/kdebiglinux/activities-overview.desktop
 
-[Containments][2][Applets][6]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
 [Containments][2][Applets][7]
 immutability=1
 plugin=org.kde.plasma.systemtray
@@ -137,7 +110,33 @@ PreloadWeight=55
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=30;32;31;34;6;7;23
+AppletOrder=30;32;31;34;7;23
+
+[Containments][35]
+ItemGeometries-1280x800=
+ItemGeometriesHorizontal=
+activityId=75f7d8a1-682a-40a8-ba5d-13bdb1aa365a
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][35][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][35][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=248
+arrangement=1
+iconSize=2
+
+[Containments][35][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/animal cute29.avif
+PreviewImage=/usr/share/wallpapers/animal cute29.avif
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][8]
 activityId=
@@ -236,4 +235,4 @@ shownItems=org.kde.plasma.brightness
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792
+screenMapping=desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792

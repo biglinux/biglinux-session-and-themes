@@ -55,7 +55,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][34][Configuration]
-localPath=/home/tales/.local/share/plasma_icons/activities-overview.desktop
+localPath=/home/tales/.local/share/plasma_icons/activities-overview (1).desktop
 url=file:///usr/share/biglinux/kdebiglinux/activities-overview.desktop
 
 [Containments][2][Applets][35]
@@ -88,35 +88,31 @@ global=Alt+F1
 [Containments][2][Applets][36][Shortcuts]
 global=
 
-[Containments][2][Applets][38]
+[Containments][2][Applets][40]
 immutability=1
 plugin=org.kde.plasma.icontasks
 
-[Containments][2][Applets][38][Configuration][ConfigDialog]
+[Containments][2][Applets][40][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][2][Applets][38][Configuration][General]
+[Containments][2][Applets][40][Configuration][General]
 indicateAudioStreams=false
 launchers=preferred://browser,preferred://filemanager
 middleClickAction=None
 showOnlyCurrentScreen=true
 wheelEnabled=false
 
-[Containments][2][Applets][6]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
 [Containments][2][Applets][7]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=60
+PreloadWeight=55
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=36;38;34;6;7;23;35
+AppletOrder=36;40;34;7;23;35
 
 [Containments][37]
 ItemGeometries-1280x800=
@@ -134,6 +130,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][37][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=248
 arrangement=1
 iconSize=2
 
@@ -251,4 +249,4 @@ shownItems=org.kde.plasma.brightness
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792
+screenMapping=desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a
