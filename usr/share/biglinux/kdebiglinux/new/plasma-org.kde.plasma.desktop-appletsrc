@@ -23,33 +23,6 @@ remove=true
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometries-1280x800=
-ItemGeometriesHorizontal=
-activityId=86559bcf-6f06-4a99-8fcf-1043d1fb1792
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][1][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=254
-arrangement=1
-iconSize=2
-toolTips=true
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/ambiance clean6.avif
-PreviewImage=/usr/share/wallpapers/ambiance clean6.avif
-SlidePaths=/usr/share/wallpapers/
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -77,27 +50,12 @@ showWeekNumbers=true
 DialogHeight=540
 DialogWidth=720
 
-[Containments][2][Applets][31]
-immutability=1
-plugin=org.kde.plasma.taskmanager
-
-[Containments][2][Applets][31][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][31][Configuration][General]
-indicateAudioStreams=false
-launchers=preferred://browser,preferred://filemanager
-middleClickAction=None
-showOnlyCurrentScreen=true
-wheelEnabled=false
-
 [Containments][2][Applets][34]
 immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][34][Configuration]
-localPath=/home/tales/.local/share/plasma_icons/activities-overview (1).desktop
+localPath=/home/tales/.local/share/plasma_icons/activities-overview.desktop
 url=file:///usr/share/biglinux/kdebiglinux/activities-overview.desktop
 
 [Containments][2][Applets][35]
@@ -120,6 +78,7 @@ DialogWidth=720
 [Containments][2][Applets][36][Configuration][General]
 alphaSort=true
 customButtonImage=big-favicon-new
+favoritesPortedToKAstats=true
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 useCustomButtonImage=true
 
@@ -127,7 +86,22 @@ useCustomButtonImage=true
 global=Alt+F1
 
 [Containments][2][Applets][36][Shortcuts]
-global=Alt+F1
+global=
+
+[Containments][2][Applets][38]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][2][Applets][38][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][38][Configuration][General]
+indicateAudioStreams=false
+launchers=preferred://browser,preferred://filemanager
+middleClickAction=None
+showOnlyCurrentScreen=true
+wheelEnabled=false
 
 [Containments][2][Applets][6]
 immutability=1
@@ -138,11 +112,35 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=36;31;34;6;7;23;35
+AppletOrder=36;38;34;6;7;23;35
+
+[Containments][37]
+ItemGeometries-1280x800=
+ItemGeometriesHorizontal=
+activityId=75f7d8a1-682a-40a8-ba5d-13bdb1aa365a
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][37][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][37][General]
+arrangement=1
+iconSize=2
+
+[Containments][37][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/abstract colors4.avif
+PreviewImage=/usr/share/wallpapers/abstract colors4.avif
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][8]
 activityId=
@@ -253,4 +251,4 @@ shownItems=org.kde.plasma.brightness
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792
+screenMapping=desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792
