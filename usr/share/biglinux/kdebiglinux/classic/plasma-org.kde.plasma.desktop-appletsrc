@@ -56,8 +56,8 @@ plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][30][Configuration]
 PreloadWeight=100
-popupHeight=467
-popupWidth=300
+popupHeight=441
+popupWidth=563
 
 [Containments][2][Applets][30][Configuration][ConfigDialog]
 DialogHeight=540
@@ -98,7 +98,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][34][Configuration]
-localPath=/home/tales/.local/share/plasma_icons/activities-overview (1).desktop
+localPath=/home/tales/.local/share/plasma_icons/activities-overview.desktop
 url=file:///usr/share/biglinux/kdebiglinux/activities-overview.desktop
 
 [Containments][2][Applets][7]
@@ -112,10 +112,10 @@ SystrayContainmentId=8
 [Containments][2][General]
 AppletOrder=30;32;31;34;7;23
 
-[Containments][35]
+[Containments][36]
 ItemGeometries-1280x800=
 ItemGeometriesHorizontal=
-activityId=75f7d8a1-682a-40a8-ba5d-13bdb1aa365a
+activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
 formfactor=0
 immutability=1
 lastScreen=0
@@ -123,19 +123,17 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][35][ConfigDialog]
+[Containments][36][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][35][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=248
+[Containments][36][General]
 arrangement=1
 iconSize=2
 
-[Containments][35][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/animal cute29.avif
-PreviewImage=/usr/share/wallpapers/animal cute29.avif
+[Containments][36][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/abstract colors3.avif
+PreviewImage=/usr/share/wallpapers/abstract colors3.avif
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][8]
@@ -235,4 +233,4 @@ shownItems=org.kde.plasma.brightness
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792
+screenMapping=desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/bigcontrolcenter.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b,desktop:/trash.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b
