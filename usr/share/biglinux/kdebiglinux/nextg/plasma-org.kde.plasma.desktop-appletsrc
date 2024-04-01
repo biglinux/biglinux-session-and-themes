@@ -37,7 +37,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][34][Configuration]
-localPath=/home/t3/.local/share/plasma_icons/activities-overview (2).desktop
 url=file:///usr/share/biglinux/kdebiglinux/activities-overview.desktop
 
 [Containments][2][Applets][36]
@@ -175,8 +174,24 @@ dateFormat=custom
 DialogHeight=540
 DialogWidth=720
 
+[Containments][40][Applets][67]
+immutability=1
+plugin=org.kde.windowbuttons
+
+[Containments][40][Applets][67][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][40][Applets][67][Configuration][General]
+buttons=3|4|5|10|2|9
+containmentType=Plasma
+selectedPlugin=org.kde.klassy
+selectedScheme=/usr/share/color-schemes/BigAdwaitaRound.colors
+useCurrentDecoration=false
+visibility=ActiveMaximizedWindow
+
 [Containments][40][General]
-AppletOrder=41;61;42;62
+AppletOrder=41;61;42;62;67
 
 [Containments][43]
 activityId=
@@ -371,4 +386,4 @@ shownItems=org.kde.plasma.brightness
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792
+screenMapping=desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a
