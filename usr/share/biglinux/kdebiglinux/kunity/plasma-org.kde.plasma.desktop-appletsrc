@@ -37,30 +37,32 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][27][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
+DialogHeight=540
+DialogWidth=720
 
 [Containments][27][Configuration]
 PreloadWeight=0
 
 [Containments][27][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=467
-ToolBoxButtonY=34
+ToolBoxButtonX=233
+ToolBoxButtonY=27
 arrangement=1
-iconSize=3
+iconSize=2
 labelWidth=3
-positions=1,7,desktop:/trash.desktop,0,0,desktop:/home.desktop,0,1,desktop:/bigcontrolcenter.desktop,0,2
+positions={"1280x800":["1"\\,"8"\\,"desktop:/calamares-biglinux.desktop"\\,"0"\\,"0"]}
 sizeIcon=3
 sortMode=-1
 toolTips=true
 
 [Containments][27][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=file:///usr/share/wallpapers/Big-retro.jpg
+Image=/usr/share/wallpapers/animal clean blue6.avif
+PreviewImage=/usr/share/wallpapers/animal clean blue6.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][28]
+ItemGeometriesHorizontal=
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
 formfactor=0
 immutability=1
@@ -70,10 +72,11 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][28][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Big-retro.jpg
+Image=/usr/share/wallpapers/art face1.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][29]
+ItemGeometriesHorizontal=
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
 formfactor=0
 immutability=1
@@ -83,10 +86,11 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][29][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Big-retro.jpg
+Image=/usr/share/wallpapers/art face1.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][30]
+ItemGeometriesHorizontal=
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
 formfactor=0
 immutability=1
@@ -96,10 +100,11 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][30][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Big-retro.jpg
+Image=/usr/share/wallpapers/art face1.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][31]
+ItemGeometriesHorizontal=
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
 formfactor=0
 immutability=1
@@ -109,10 +114,11 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][31][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Big-retro.jpg
+Image=/usr/share/wallpapers/art face1.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][32]
+ItemGeometriesHorizontal=
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
 formfactor=0
 immutability=1
@@ -122,10 +128,11 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][32][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Big-retro.jpg
+Image=/usr/share/wallpapers/art face1.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][33]
+ItemGeometriesHorizontal=
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
 formfactor=0
 immutability=1
@@ -134,11 +141,12 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][34][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Big-retro.jpg
+[Containments][33][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/art face1.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][34]
+ItemGeometriesHorizontal=
 activityId=82dd571b-19a5-41da-b9fa-e65d403c625b
 formfactor=0
 immutability=1
@@ -147,13 +155,247 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][33][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Big-retro.jpg
+[Containments][34][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/art face1.avif
 SlidePaths=/usr/share/wallpapers
 
+[Containments][35]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=0
+location=3
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][35][Applets][36]
+immutability=1
+plugin=org.kde.plasma.appmenu
+
+[Containments][35][Applets][38]
+immutability=1
+plugin=luisbocanegra.panel.colorizer
+
+[Containments][35][Applets][38][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][35][Applets][38][Configuration][General]
+bgContrastFixEnabled=true
+bgSaturation=0.6
+colorMode=1
+colorModeTheme=10
+colorModeThemeVariant=1
+fgColorMode=1
+hideRealPanelBg=true
+marginRules=org.kde.plasma.panelspacer,0,0|org.kde.plasma.appmenu,0,0|luisbocanegra.panel.colorizer,0,0|org.kde.plasma.systemtray,0,0|org.kde.plasma.digitalclock,0,4
+opacity=0.5
+panelBgColorMode=1
+panelBgOpacity=0.5
+panelWidgets=org.kde.plasma.panelspacer,Espaçador do painel,|org.kde.plasma.appmenu,Menu global,show-menu|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.systemtray,Área de notificação,preferences-desktop-notification|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time
+panelWidgetsWithTray=org.kde.plasma.panelspacer,Espaçador do painel,|org.kde.plasma.appmenu,Menu global,show-menu|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.vault,Cofres,plasmavault|org.kde.plasma.devicenotifier,Discos e dispositivos,media-optical-data-symbolic|org.kde.kdeconnect,KDE Connect,kdeconnect|org.kde.plasma.networkmanagement,Redes,network-wired-activated|org.kde.plasma.volume,Volume do áudio,audio-volume-high|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time
+radius=7
+
+[Containments][35][Applets][39]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][35][Applets][40]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+transient=true
+
+[Containments][35][Applets][42]
+immutability=1
+plugin=org.kde.plasma.systemtray
+
+[Containments][35][Applets][42][Configuration]
+PreloadWeight=55
+SystrayContainmentId=43
+
+[Containments][35][Applets][66]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][35][Applets][68]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][35][Applets][68][Configuration]
+PreloadWeight=55
+popupHeight=450
+popupWidth=560
+
+[Containments][35][Applets][68][Configuration][Appearance]
+autoFontAndSize=false
+customDateFormat=d MMM
+dateFormat=custom
+fontFamily=NotoSans Nerd Font Medium
+fontSize=11
+fontStyleName=Regular
+fontWeight=500
+
+[Containments][35][Applets][68][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][35][Applets][71]
+immutability=1
+plugin=org.biglinux.showdesktop
+
+[Containments][35][General]
+AppletOrder=66;36;38;39;42;68;71
+
+[Containments][37]
+activityId=
+formfactor=3
+immutability=1
+lastScreen=0
+location=5
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][37][Applets][41]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][37][Applets][61]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][37][Applets][64]
+immutability=1
+plugin=org.biglinux.appsmenu
+
+[Containments][37][Applets][64][Configuration]
+PreloadWeight=100
+popupHeight=619
+popupWidth=1011
+
+[Containments][37][Applets][64][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][37][Applets][64][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments][37][Applets][67]
+immutability=1
+plugin=luisbocanegra.panel.colorizer
+
+[Containments][37][Applets][67][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][37][Applets][67][Configuration][General]
+hideRealPanelBg=true
+marginRules=org.biglinux.appsmenu,-10,0|luisbocanegra.panel.colorizer,0,0|org.kde.plasma.icontasks,0,0|org.kde.plasma.panelspacer,0,0
+panelBgColorMode=1
+panelBgEnabled=true
+panelBgOpacity=0.5
+panelWidgets=org.biglinux.appsmenu,Lançador de aplicativos BigLinux,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,Gerenciador de tarefas apenas com ícones,preferences-system-windows|org.kde.plasma.panelspacer,Espaçador do painel,
+panelWidgetsWithTray=org.biglinux.appsmenu,Lançador de aplicativos BigLinux,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,Gerenciador de tarefas apenas com ícones,preferences-system-windows|org.kde.plasma.panelspacer,Espaçador do painel,
+widgetBgEnabled=false
+
+[Containments][37][Applets][69]
+immutability=1
+plugin=org.kde.plasma.trash
+
+[Containments][37][General]
+AppletOrder=64;67;61;41;69
+
+[Containments][43]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=-1
+location=3
+plugin=org.kde.plasma.private.systemtray
+popupHeight=432
+popupWidth=432
+wallpaperplugin=org.kde.image
+
+[Containments][43][Applets][44]
+immutability=1
+plugin=org.biglinux.micnoise
+
+[Containments][43][Applets][45]
+immutability=1
+plugin=org.biglinux.lock_edit_plasma
+
+[Containments][43][Applets][46]
+immutability=1
+plugin=org.kde.kdeconnect
+
+[Containments][43][Applets][47]
+immutability=1
+plugin=org.kde.kscreen
+
+[Containments][43][Applets][48]
+immutability=1
+plugin=org.kde.plasma.cameraindicator
+
+[Containments][43][Applets][49]
+immutability=1
+plugin=org.kde.plasma.clipboard
+
+[Containments][43][Applets][49][Configuration]
+PreloadWeight=55
+
+[Containments][43][Applets][50]
+immutability=1
+plugin=org.kde.plasma.devicenotifier
+
+[Containments][43][Applets][51]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][43][Applets][52]
+immutability=1
+plugin=org.kde.plasma.keyboardlayout
+
+[Containments][43][Applets][53]
+immutability=1
+plugin=org.kde.plasma.manage-inputmethod
+
+[Containments][43][Applets][54]
+immutability=1
+plugin=org.kde.plasma.notifications
+
+[Containments][43][Applets][55]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
+[Containments][43][Applets][56]
+immutability=1
+plugin=org.kde.plasma.vault
+
+[Containments][43][Applets][57]
+immutability=1
+plugin=org.kde.plasma.volume
+
+[Containments][43][Applets][57][Configuration][General]
+migrated=true
+
+[Containments][43][Applets][58]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][43][Applets][59]
+immutability=1
+plugin=org.kde.plasma.brightness
+
+[Containments][43][Applets][60]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][43][General]
+extraItems=org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
+knownItems=org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
+
 [General]
-immutability=2
+immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/home.desktop,0,desktop:/trash.desktop,0,desktop:/bigcontrolcenter.desktop,0,desktop:/calamares.desktop,0
+screenMapping=http://0.0.0.0,0,0,desktop:/calamares-biglinux.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b,desktop:/home.desktop,0,desktop:/trash.desktop
