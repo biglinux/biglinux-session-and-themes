@@ -1,0 +1,944 @@
+#!/bin/bash
+
+##################################
+#  Author1: Bruno Goncalves (www.biglinux.com.br) 
+#  Author2: Barnabé di Kartola
+#  Author3: Rafael Ruscher (rruscher@gmail.com)  
+#  Date:    2022/02/28 
+#  Modified:2022/07/10 
+#  
+#  Description: Themes, Desktop and Ajust usage of BigLinux 
+#  
+# Licensed by GPL V2 or greater
+##################################
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-session-and-themes
+
+# Don't group windows
+xprop -id "$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" -f WM_CLASS 8s -set WM_CLASS "$$"
+
+# Import BigControlCenter base modules / Importa os módulos básicos do BigControlCenter
+# That's include jquery and materialize / Isso inclui o jquery e o materialize
+# http://materializecss.com/
+# . /usr/share/bigbashview/bcc/shell/base.sh
+
+theme_actual="$(cat "$HOME/.big_desktop_theme")"
+TAB1=$"Temas"
+TAB2=$"Desktop"
+TAB3=$"Ajustes"
+Desempenho_translate=$"Desempenho do desktop"
+PERFORMANCE=$"Desempenho"
+Browser_translate=$"Aceleração do navegador"
+Tema_translate=$"Tema dos aplicativos"
+More_themes_translate=$"Temas"
+OPEN=$"Abrir"
+CLOSE=$"Fechar"
+orchis=$"Bordas arredondadas."
+fluent=$"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em computadores<br>antigos ou ambientes virtualizados."
+DESKTOP_FASTER=$"<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+Reduce_Visual_Effects=$"Renderizar o desktop via software"
+Reduce_Visual_Effects2=$"(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+Configure_Preload=$"Escolher programas a serem carregados na memória durante boot"
+Preload_loads_program_files=$"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+
+Browser_acceleration=$"Aceleração do navegador"
+led_keyboard=$"Ligar RGB do teclado"
+Automatic=$"Automático"
+Activate=$"Ativar"
+Disable=$"Desativar"
+Brave_Settings=$"Configurações do Brave"
+Choose_the_desired_option=$"Escolha a opção desejada:"
+Remove_advertisements=$"Remover propagandas"
+Support_cryptocurrencies=$"Suportar criptomoedas"
+Usability=$"Usabilidade"
+Window_buttons_on_the_left_side=$"Botões da janela no lado esquerdo"
+Inverted_mouse_scroll=$"Rolagem do mouse invertida"
+Inverted_touchpad_scroll=$"Rolagem do touchpad invertida"
+Search_files=$"Pesquisar arquivos"
+Lock_the_workspace=$"Bloquear a edição da área de trabalho "
+HideGrub_text=$"Ocultar Gerenciador de Boot (GRUB)"
+NumLock_text=$"Ativar o NumLock ao ligar o sistema"
+
+Theme_change=$"Tema aplicado"
+Need_restart=$"É preciso reiniciar a sessão para concluir a configuração."
+Config_desktop=$"Configuração do Desktop"
+Desktop_detect=$"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a configuração original?"
+YES=$"Sim"
+NO=$"Não"
+Original=$"Original"
+Restore=$"Restaurar"
+Desktop_apply=$"Desktop aplicado"
+performance=$"Modo performance"
+fsync=$"BTRFS sem fsync"
+
+
+
+if [ "$(glxinfo | grep llvmpipe)" != "" ]; then
+  NO_OGL=$"Utilizando renderização por software, a qualidade das transparências está reduzida."
+fi
+
+browser="$(cat "$HOME/.config/browser-optimize")"
+
+#if [ "$browser" = "" ]; then
+#    checked_browser_auto="checked"
+#fi
+
+#if [ "$browser" = "performance" ]; then
+#    checked_browser_yes="checked"
+#fi
+
+#if [ "$browser" = "optimize" ]; then
+#    checked_browser_no="checked"
+#fi
+
+# if [ "$theme_actual" = "" ]; then
+#     biglinux-themes.sh --apply orchis
+#     checked_arc="checked"
+# fi
+
+if [ "$theme_actual" = "breeze" ]; then
+    checked_breeze="checked"
+fi
+
+if [ "$theme_actual" = "breeze-dark" ]; then
+    checked_breeze_dark="checked"
+fi
+
+if [ "$theme_actual" = "fluent" ]; then
+    checked_fluent="checked"
+fi
+
+if [ "$theme_actual" = "fluent-dark" ]; then
+    checked_fluent_dark="checked"
+fi
+
+if [ "$theme_actual" = "fluent-solid" ]; then
+    checked_fluent="checked"
+fi
+
+if [ "$theme_actual" = "fluent-dark-solid" ]; then
+    checked_fluent_dark="checked"
+fi
+
+if [ "$theme_actual" = "orchis" ]; then
+    checked_orchis="checked"
+fi
+
+if [ "$theme_actual" = "orchis-dark" ]; then
+    checked_orchis_dark="checked"
+fi
+
+# if [ "$theme_actual" = "materia" ]; then
+#     checked_materia="checked"
+# fi
+# 
+# if [ "$theme_actual" = "materia-dark" ]; then
+#     checked_materia_dark="checked"
+# fi
+
+performance_actual="$(cat "$HOME/.big_performance")"
+
+if [ "$performance_actual" = "" ] || [ "$performance_actual" = "0" ]; then
+    checked_normal="checked"
+fi
+
+if [ "$performance_actual" = "1" ]; then
+    checked_optimized="checked"
+fi
+
+
+if [ -e "$HOME/.config/lockplasma" ]; then
+    checked_lock_desktop="checked"
+fi
+
+if [ -n "$(grep timeout_style=hidden /etc/grub.d/30_os-prober)" ]; then
+    checked_hidegrub="checked"
+fi
+
+INPUT=$(grep Numlock=on /etc/sddm.conf)
+if [ -n "$(grep Numlock=on /etc/sddm.conf)" ]; then
+    checked_confnumlock="checked"
+fi
+
+if [ "$(LANG=C balooctl status 2>&1| grep 'is running')" != "" ]; then
+    checked_search="checked"
+fi
+
+if [ "$(kreadconfig5  --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc")" = "true" ]; then
+    checked_scrool_natural="checked"
+fi
+
+
+if [ "$(kreadconfig5  --group "Compositing" --key "Enabled" --file "$HOME/.config/kwinrc")" = "false" ]; then
+    checked_performance="checked"
+fi
+
+if [ "$(grep 'disable-fsync.so' /etc/ld.so.preload)" != "" ]; then
+    checked_disablefsync="checked"
+fi
+
+
+if [ "$(grep 'FSM' ~/.config/kwinrc)" != "" ]; then
+    checked_left_button="checked"
+fi
+
+
+if [ -e "$HOME/.config/browser-optimize" ]; then
+    checked_browser_yes="checked"
+else
+    checked_browser_no="checked"
+fi
+
+
+if [ -e "$HOME/.config/ledkeyboard" ]; then
+    checked_ledkeyboard_yes="checked"
+# else
+#     checked_ledkeyboard_no="checked"
+fi
+
+if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
+    checked_braveblock_no="checked"
+else
+    checked_braveblock_yes="checked"
+fi
+
+if [ -e "$HOME/.config/browser-brave-disable-crypto" ]; then
+    checked_bravecrypto_no="checked"
+else
+    checked_bravecrypto_yes="checked"
+fi
+
+if [ "$tab" = "tree" ]; then
+  tab1=""
+  tab2=""
+  tab3="active"
+elif [ "$tab" = "two" ]; then
+  tab1=""
+  tab2="active"
+  tab3=""
+else
+  tab1="active"
+  tab2=""
+  tab3=""
+fi
+
+
+
+desktop_theme_actual="$(cat ~/.big_desktop_theme)"
+
+if [ "$desktop_theme_actual" = "biglinux" ]; then
+  checked_theme_biglinux="task_alt"
+else
+  checked_theme_biglinux="circle"
+fi
+if [ "$desktop_theme_actual" = "biglinux-dark" ]; then
+  checked_theme_biglinuxdark="task_alt"
+else
+  checked_theme_biglinuxdark="circle"
+fi
+if [ "$desktop_theme_actual" = "breeze" ]; then
+  checked_theme_breeze="task_alt"
+else
+  checked_theme_breeze="circle"
+fi
+if [ "$desktop_theme_actual" = "breeze-dark" ]; then
+  checked_theme_breezedark="task_alt"
+else
+  checked_theme_breezedark="circle"
+fi
+if [ "$desktop_theme_actual" = "fluent" ]; then
+  checked_theme_fluent="task_alt"
+else
+  checked_theme_fluent="circle"
+fi
+if [ "$desktop_theme_actual" = "fluent-dark" ]; then
+  checked_theme_fluentdark="task_alt"
+else
+  checked_theme_fluentdark="circle"
+fi
+if [ "$desktop_theme_actual" = "fluent-solid" ]; then
+  checked_theme_fluentsolid="task_alt"
+else
+  checked_theme_fluentsolid="circle"
+fi
+if [ "$desktop_theme_actual" = "fluent-dark-solid" ]; then
+  checked_theme_fluentdarksolid="task_alt"
+else
+  checked_theme_fluentdarksolid="circle"
+fi
+
+
+
+desktop_actual="$(cat ~/.kdebiglinux/lastused)"
+
+if [ "$desktop_actual" = "classic" ]; then
+  checked_desktop_classic="task_alt"
+else
+  checked_desktop_classic="circle"
+fi
+
+if [ "$desktop_actual" = "new" ]; then
+  checked_desktop_new="task_alt"
+else
+  checked_desktop_new="circle"
+fi
+
+if [ "$desktop_actual" = "modern" ]; then
+  checked_desktop_modern="task_alt"
+else
+  checked_desktop_modern="circle"
+fi
+
+if [ "$desktop_actual" = "kunity" ]; then
+  checked_desktop_kunity="task_alt"
+else
+  checked_desktop_kunity="circle"
+fi
+
+if [ "$desktop_actual" = "nextg" ]; then
+  checked_desktop_nextg="task_alt"
+else
+  checked_desktop_nextg="circle"
+fi
+
+if [ "$desktop_actual" = "desk-x" ]; then
+  checked_desktop_deskx="task_alt"
+else
+  checked_desktop_deskx="circle"
+fi
+
+if [ "$desktop_actual" = "vanilla" ]; then
+  checked_desktop_vanilla="task_alt"
+else
+  checked_desktop_vanilla="circle"
+fi
+
+if [ "$desktop_actual" = "body" ]; then
+  checked_desktop_body="task_alt"
+else
+  checked_desktop_body="circle"
+fi
+
+
+
+read -d $"" ShowText << EOF
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Imports -->
+    <link href="css/beer.min.css" rel="stylesheet">
+    <link href="css/biglinux.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- JS Imports -->
+    <script type="module" src="js/beer.min.js"></script>
+    <script type="module" src="js/material-dynamic-colors.min.js"></script>
+</head>
+
+<body class="dark secondary-container" x-data="getItems()" x-init="loadConfig">
+
+<!--<article class="small-blur no-padding secondary-container">-->
+
+
+<article class="secondary-container">
+  <header class="no-padding secondary-container">
+    <div class="tabs">
+      <a href="index.sh.htm" class="$tab1" data-ui="#one">
+        <i>palette</i>
+        <span>Temas</span>
+      </a>
+      <a href="index.sh.htm?tab=two" class="$tab2" data-ui="#two">
+        <i>tv</i>
+        <span>Desktop</span>
+      </a>
+      <!--<a href="index.sh.htm?tab=tree" class="$tab3" data-ui="#tree">
+        <i>settings</i>
+        <span>Ajustes</span>
+      </a>-->
+    </div>
+  </header>
+  <div class="medium-space"></div>
+
+  <div class="page $tab1" id="one">
+    <div class="grid">
+
+
+
+      <div class="s12 m6 l3">
+      <article class="no-padding wave no-elevate" onclick="_run('biglinux-themes.sh --apply biglinux');setTimeout(function() { location.reload(); }, 1000);">
+        <img class="responsive" src="img/biglinux.jpg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">BigLinux Light</h5>
+            <div class="max"></div>
+            <button class="circle transparent" onclick="_run('biglinux-themes.sh --apply biglinux')">
+              <i>$checked_theme_biglinux</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      </div>
+      <div class="s12 m6 l3">
+      <article class="no-padding wave no-elevate" onclick="_run('biglinux-themes.sh --apply biglinux-dark');setTimeout(function() { location.reload(); }, 1000);">
+        <img class="responsive" src="img/biglinux-dark.jpg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">BigLinux Dark</h5>
+            <div class="max"></div>
+            <button class="circle transparent" onclick="_run('biglinux-themes.sh --apply biglinux-dark')">
+              <i>$checked_theme_biglinuxdark</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      </div>
+      <div class="s12 m6 l3">
+      <article class="no-padding wave no-elevate" onclick="_run('biglinux-themes.sh --apply breeze');setTimeout(function() { location.reload(); }, 1000);">
+        <img class="responsive" src="img/breeze.jpg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">Breeze Light</h5>
+            <div class="max"></div>
+            <button class="circle transparent" onclick="_run('biglinux-themes.sh --apply breeze')">
+              <i>$checked_theme_breeze</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      </div>
+      <div class="s12 m6 l3">
+      <article class="no-padding wave no-elevate" onclick="_run('biglinux-themes.sh --apply breeze-dark');setTimeout(function() { location.reload(); }, 1000);">
+        <img class="responsive" src="img/breeze-dark.jpg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">Breeze Dark</h5>
+            <div class="max"></div>
+            <button class="circle transparent" onclick="_run('biglinux-themes.sh --apply breeze-dark')">
+              <i>$checked_theme_breezedark</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      </div>
+
+
+
+      <div class="s12 m6 l3">
+      <article class="no-padding wave no-elevate" onclick="_run('biglinux-themes.sh --apply fluent');setTimeout(function() { location.reload(); }, 1000);">
+        <img class="responsive" src="img/fluent.jpg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">Fluent Light</h5>
+            <div class="max"></div>
+            <button class="circle transparent" onclick="_run('biglinux-themes.sh --apply fluent')">
+              <i>$checked_theme_fluent</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      </div>
+      <div class="s12 m6 l3">
+      <article class="no-padding wave no-elevate" onclick="_run('biglinux-themes.sh --apply fluent-dark');setTimeout(function() { location.reload(); }, 1000);">
+        <img class="responsive" src="img/fluent-dark.jpg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">Fluent Dark</h5>
+            <div class="max"></div>
+            <button class="circle transparent" onclick="_run('biglinux-themes.sh --apply fluent-dark')">
+              <i>$checked_theme_fluentdark</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      </div>
+      <div class="s12 m6 l3">
+      <article class="no-padding wave no-elevate" onclick="_run('biglinux-themes.sh --apply fluent-solid');setTimeout(function() { location.reload(); }, 1000);">
+        <img class="responsive" src="img/fluent-solid.jpg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">Fluent Solid Light</h5>
+            <div class="max"></div>
+            <button class="circle transparent" onclick="_run('biglinux-themes.sh --apply fluent-solid')">
+              <i>$checked_theme_fluentsolid</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      </div>
+      <div class="s12 m6 l3">
+      <article class="no-padding wave no-elevate" onclick="_run('biglinux-themes.sh --apply fluent-dark-solid');setTimeout(function() { location.reload(); }, 1000);">
+        <img class="responsive" src="img/fluent-dark-solid.jpg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">Fluent Solid Dark</h5>
+            <div class="max"></div>
+            <button class="circle transparent" onclick="_run('biglinux-themes.sh --apply fluent-dark-solid')">
+              <i>$checked_theme_fluentdarksolid</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="page $tab2" id="two">
+
+    <div class="grid">
+
+      <div class="s12 m6 l3">
+EOF
+echo "$ShowText"
+  if [ -e "$HOME/.kdebiglinux/classic" ]; then
+    echo '<article class="no-padding wave no-elevate" data-ui="#dialog-classic">'
+  else
+    echo '<article class="no-padding wave no-elevate" onclick="_run('change-plasma-theme --apply classic');setTimeout(function() { location.reload(); }, 1000);">'
+  fi
+read -d $"" ShowText << EOF
+        <img class="responsive" src="img/classic-over.svg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">Classic</h5>
+            <div class="max"></div>
+            <button class="circle transparent" data-ui="#dialog-classic">
+              <i>$checked_desktop_classic</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      <dialog id="dialog-classic">
+        <h5>$Config_desktop</h5>
+        <div>$Desktop_detect</div>
+        <nav class="right-align">
+          <button class="border" onclick="_run('change-plasma-theme --apply classic clean');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-classic">$Original</button>
+          <button onclick="_run('change-plasma-theme --apply classic');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-classic">$Restore</button>
+        </nav>
+      </dialog>
+
+      </div>
+
+
+      <div class="s12 m6 l3">
+EOF
+echo "$ShowText"
+  if [ -e "$HOME/.kdebiglinux/new" ]; then
+    echo '<article class="no-padding wave no-elevate" data-ui="#dialog-new">'
+  else
+    echo '<article class="no-padding wave no-elevate" onclick="_run('change-plasma-theme --apply new');setTimeout(function() { location.reload(); }, 1000);">'
+  fi
+read -d $"" ShowText << EOF
+        <img class="responsive" src="img/new-over.svg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">New</h5>
+            <div class="max"></div>
+            <button class="circle transparent" data-ui="#dialog-new">
+              <i>$checked_desktop_new</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      <dialog id="dialog-new">
+        <h5>$Config_desktop</h5>
+        <div>$Desktop_detect</div>
+        <nav class="right-align">
+          <button class="border" onclick="_run('change-plasma-theme --apply new clean');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-new">$Original</button>
+          <button onclick="_run('change-plasma-theme --apply new');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-new">$Restore</button>
+        </nav>
+      </dialog>
+
+      </div>
+
+
+      <div class="s12 m6 l3">
+EOF
+echo "$ShowText"
+  if [ -e "$HOME/.kdebiglinux/modern" ]; then
+    echo '<article class="no-padding wave no-elevate" data-ui="#dialog-modern">'
+  else
+    echo '<article class="no-padding wave no-elevate" onclick="_run('change-plasma-theme --apply modern');setTimeout(function() { location.reload(); }, 1000);">'
+  fi
+read -d $"" ShowText << EOF
+        <img class="responsive" src="img/modern-over.svg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">Modern</h5>
+            <div class="max"></div>
+            <button class="circle transparent" data-ui="#dialog-modern">
+              <i>$checked_desktop_modern</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      <dialog id="dialog-modern">
+        <h5>$Config_desktop</h5>
+        <div>$Desktop_detect</div>
+        <nav class="right-align">
+          <button class="border" onclick="_run('change-plasma-theme --apply modern clean');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-modern">$Original</button>
+          <button onclick="_run('change-plasma-theme --apply modern');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-modern">$Restore</button>
+        </nav>
+      </dialog>
+
+      </div>
+
+
+      <div class="s12 m6 l3">
+EOF
+echo "$ShowText"
+  if [ -e "$HOME/.kdebiglinux/kunity" ]; then
+    echo '<article class="no-padding wave no-elevate" data-ui="#dialog-kunity">'
+  else
+    echo '<article class="no-padding wave no-elevate" onclick="_run('change-plasma-theme --apply kunity');setTimeout(function() { location.reload(); }, 1000);">'
+  fi
+read -d $"" ShowText << EOF
+        <img class="responsive" src="img/kunity-over.svg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">K-unity</h5>
+            <div class="max"></div>
+            <button class="circle transparent" data-ui="#dialog-kunity">
+              <i>$checked_desktop_kunity</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      <dialog id="dialog-kunity">
+        <h5>$Config_desktop</h5>
+        <div>$Desktop_detect</div>
+        <nav class="right-align">
+          <button class="border" onclick="_run('change-plasma-theme --apply kunity clean');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-kunity">$Original</button>
+          <button onclick="_run('change-plasma-theme --apply kunity');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-kunity">$Restore</button>
+        </nav>
+      </dialog>
+
+      </div>
+
+
+      <div class="s12 m6 l3">
+EOF
+echo "$ShowText"
+  if [ -e "$HOME/.kdebiglinux/nextg" ]; then
+    echo '<article class="no-padding wave no-elevate" data-ui="#dialog-nextg">'
+  else
+    echo '<article class="no-padding wave no-elevate" onclick="_run('change-plasma-theme --apply nextg');setTimeout(function() { location.reload(); }, 1000);">'
+  fi
+read -d $"" ShowText << EOF
+        <img class="responsive" src="img/nextg-over.svg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">Next-G</h5>
+            <div class="max"></div>
+            <button class="circle transparent" data-ui="#dialog-nextg">
+              <i>$checked_desktop_nextg</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      <dialog id="dialog-nextg">
+        <h5>$Config_desktop</h5>
+        <div>$Desktop_detect</div>
+        <nav class="right-align">
+          <button class="border" onclick="_run('change-plasma-theme --apply nextg clean');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-nextg">$Original</button>
+          <button onclick="_run('change-plasma-theme --apply nextg');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-nextg">$Restore</button>
+        </nav>
+      </dialog>
+
+      </div>
+      <div class="s12 m6 l3">
+EOF
+echo "$ShowText"
+  if [ -e "$HOME/.kdebiglinux/desk-x" ]; then
+    echo '<article class="no-padding wave no-elevate" data-ui="#dialog-deskx">'
+  else
+    echo '<article class="no-padding wave no-elevate" onclick="_run('change-plasma-theme --apply desk-x');setTimeout(function() { location.reload(); }, 1000);">'
+  fi
+read -d $"" ShowText << EOF
+        <img class="responsive" src="img/desk-x-over.svg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">Desk-X</h5>
+            <div class="max"></div>
+            <button class="circle transparent" data-ui="#dialog-deskx">
+              <i>$checked_desktop_deskx</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      <dialog id="dialog-deskx">
+        <h5>$Config_desktop</h5>
+        <div>$Desktop_detect</div>
+        <nav class="right-align">
+          <button class="border" onclick="_run('change-plasma-theme --apply desk-x clean');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-deskx">$Original</button>
+          <button onclick="_run('change-plasma-theme --apply desk-x');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-deskx">$Restore</button>
+        </nav>
+      </dialog>
+
+      </div>
+
+
+      <div class="s12 m6 l3">
+EOF
+echo "$ShowText"
+  if [ -e "$HOME/.kdebiglinux/vanilla" ]; then
+    echo '<article class="no-padding wave no-elevate" data-ui="#dialog-vanilla">'
+  else
+    echo '<article class="no-padding wave no-elevate" onclick="_run('change-plasma-theme --apply vanilla');setTimeout(function() { location.reload(); }, 1000);">'
+  fi
+read -d $"" ShowText << EOF
+        <img class="responsive" src="img/vanilla-over.svg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">Vanilla</h5>
+            <div class="max"></div>
+            <button class="circle transparent" data-ui="#dialog-vanilla">
+              <i>$checked_desktop_vanilla</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      <dialog id="dialog-vanilla">
+        <h5>$Config_desktop</h5>
+        <div>$Desktop_detect</div>
+        <nav class="right-align">
+          <button class="border" onclick="_run('change-plasma-theme --apply vanilla clean');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-vanilla">$Original</button>
+          <button onclick="_run('change-plasma-theme --apply vanilla');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-vanilla">$Restore</button>
+        </nav>
+      </dialog>
+
+      </div>
+
+
+      <div class="s12 m6 l3">
+EOF
+echo "$ShowText"
+  if [ -e "$HOME/.kdebiglinux/body" ]; then
+    echo '<article class="no-padding wave no-elevate" data-ui="#dialog-body">'
+  else
+    echo '<article class="no-padding wave no-elevate" onclick="_run('change-plasma-theme --apply body');setTimeout(function() { location.reload(); }, 1000);">'
+  fi
+read -d $"" ShowText << EOF
+        <img class="responsive" src="img/body-over.svg">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5 class="small">Body</h5>
+            <div class="max"></div>
+            <button class="circle transparent" data-ui="#dialog-body">
+              <i>$checked_desktop_body</i>
+            </button>
+          </nav>
+        </div>
+      </article>
+      <dialog id="dialog-body">
+        <h5>$Config_desktop</h5>
+        <div>$Desktop_detect</div>
+        <nav class="right-align">
+          <button class="border" onclick="_run('change-plasma-theme --apply body clean');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-body">$Original</button>
+          <button onclick="_run('change-plasma-theme --apply body');setTimeout(function() { location.reload(); }, 1000);" data-ui="#dialog-body">$Restore</button>
+        </nav>
+      </dialog>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <!--<div class="page $tab3" id="tree">
+    <div class="label margin left-align grey-text">Desempenho</div>
+    <article>
+      <div class="field middle-align">
+        <nav>
+          <i>circle</i>
+          <div class="max">
+            <h6>Modo performance</h6>
+            <div></div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+        </nav>
+      </div>  
+      <div class="small-divider"></div>
+      <div class="field middle-align">
+        <nav>
+          <i>circle</i>
+          <div class="max">
+            <h6>BTRFS sem fsync</h6>
+            <div></div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+        </nav>
+      </div>  
+      <div class="small-divider"></div>      
+      <div class="field middle-align">
+        <nav>
+          <i>circle</i>
+          <div class="max">
+            <h6>Configurações do Brave</h6>
+            <div></div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+        </nav>
+      </div>  
+      <div class="small-divider"></div>      
+      <div class="field middle-align">
+        <nav>
+          <i>circle</i>
+          <div class="max">
+            <h6>Carregar programas</h6>
+            <div>Escolher programas a serem carregados na memória durante boot</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+        </nav>
+      </div>
+
+
+    </article>
+    <div class="label margin left-align grey-text">Usabilidade</div>
+    <article>
+      <div class="field middle-align">
+        <nav>
+          <i>circle</i>
+          <div class="max">
+            <h6>Ligar RGB do teclado</h6>
+            <div>Some text here</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+        </nav>
+      </div>  
+      <div class="small-divider"></div>
+      <div class="field middle-align">
+        <nav>
+          <i>circle</i>
+          <div class="max">
+            <h6>Botões da janela no lado esquerdo</h6>
+            <div>Some text here</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+        </nav>
+      </div>  
+      <div class="small-divider"></div>      
+      <div class="field middle-align">
+        <nav>
+          <i>circle</i>
+          <div class="max">
+            <h6>Rolagem do mouse invertida</h6>
+            <div>Some text here</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+        </nav>
+      </div>  
+      <div class="small-divider"></div>      
+      <div class="field middle-align">
+        <nav>
+          <i>circle</i>
+          <div class="max">
+            <h6>Rolagem do touchpad invertida</h6>
+            <div>Some text here</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+        </nav>
+      </div>  
+      <div class="small-divider"></div>      
+      <div class="field middle-align">
+        <nav>
+          <i>circle</i>
+          <div class="max">
+            <h6>Pesquisar arquivos</h6>
+            <div>Some text here</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+        </nav>
+      </div>  
+      <div class="small-divider"></div>      
+      <div class="field middle-align">
+        <nav>
+          <i>circle</i>
+          <div class="max">
+            <h6>Bloquear a edição da área de trabalho</h6>
+            <div>Some text here</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+        </nav>
+      </div>  
+      <div class="small-divider"></div>      
+      <div class="field middle-align">
+        <nav>
+          <i>circle</i>
+          <div class="max">
+            <h6>Ocultar Gerenciador de Boot (GRUB)</h6>
+            <div>Some text here</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+        </nav>
+      </div>  
+      <div class="small-divider"></div>      
+      <div class="field middle-align">
+        <nav>
+          <i>circle</i>
+          <div class="max">
+            <h6>Ativar o NumLock ao ligar o sistema</h6>
+            <div>Some text here</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+        </nav>
+      </div>
+    </article>
+  </div>-->
+
+  <div class="large-space"></div>
+
+  <label class="switch icon large-margin absolute bottom right">
+    <a class="circle small secondary" onclick="ui('mode', ui('mode') == 'dark' ? 'light' : 'dark')"><i>dark_mode</i></a>
+  </label>
+  <div class="overlay center-align middle-align" id="overlay"></div>
+</article>
+<!--</article>-->
+  <script type="module" src="js/beer.min.js"></script>
+</body>
+EOF
+echo "$ShowText"
