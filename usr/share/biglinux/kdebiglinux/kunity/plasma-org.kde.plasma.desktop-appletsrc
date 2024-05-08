@@ -57,8 +57,8 @@ toolTips=true
 
 [Containments][27][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=/usr/share/wallpapers/animal clean blue6.avif
-PreviewImage=/usr/share/wallpapers/animal clean blue6.avif
+Image=/usr/share/wallpapers/penguin art1.avif
+PreviewImage=/usr/share/wallpapers/penguin art1.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][28]
@@ -72,7 +72,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][28][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/art face1.avif
+Image=/usr/share/wallpapers/penguin art.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][29]
@@ -86,7 +86,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][29][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/art face1.avif
+Image=/usr/share/wallpapers/penguin art.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][30]
@@ -100,7 +100,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][30][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/art face1.avif
+Image=/usr/share/wallpapers/penguin art.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][31]
@@ -114,7 +114,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][31][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/art face1.avif
+Image=/usr/share/wallpapers/penguin art.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][32]
@@ -128,7 +128,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][32][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/art face1.avif
+Image=/usr/share/wallpapers/penguin art.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][33]
@@ -142,7 +142,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][33][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/art face1.avif
+Image=/usr/share/wallpapers/penguin art.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][34]
@@ -156,7 +156,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][34][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/art face1.avif
+Image=/usr/share/wallpapers/penguin art.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][35]
@@ -188,22 +188,18 @@ colorModeTheme=10
 colorModeThemeVariant=1
 fgColorMode=1
 hideRealPanelBg=true
+hideWidget=true
 marginRules=org.kde.plasma.panelspacer,0,0|org.kde.plasma.appmenu,0,0|luisbocanegra.panel.colorizer,0,0|org.kde.plasma.systemtray,0,0|org.kde.plasma.digitalclock,0,4
 opacity=0.5
 panelBgColorMode=1
 panelBgOpacity=0.5
-panelWidgets=org.kde.plasma.panelspacer,Espaçador do painel,|org.kde.plasma.appmenu,Menu global,show-menu|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.systemtray,Área de notificação,preferences-desktop-notification|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time
-panelWidgetsWithTray=org.kde.plasma.panelspacer,Espaçador do painel,|org.kde.plasma.appmenu,Menu global,show-menu|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.vault,Cofres,plasmavault|org.kde.plasma.devicenotifier,Discos e dispositivos,media-optical-data-symbolic|org.kde.kdeconnect,KDE Connect,kdeconnect|org.kde.plasma.networkmanagement,Redes,network-wired-activated|org.kde.plasma.volume,Volume do áudio,audio-volume-high|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time
+panelWidgets=org.kde.plasma.panelspacer,Espaçador do painel,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.windowbuttons,Window Buttons,focus-windows|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.icon,Ícone,unknown|org.kde.plasma.systemtray,Área de notificação,preferences-desktop-notification|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time|org.biglinux.showdesktop,Pequeno ícone de minimizar todas as janelas,window-minimize-symbolic
+panelWidgetsWithTray=org.kde.plasma.panelspacer,Espaçador do painel,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.windowbuttons,Window Buttons,focus-windows|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.icon,Ícone,unknown|org.kde.plasma.clipboard,Área de transferência,klipper-symbolic|org.kde.plasma.devicenotifier,Discos e dispositivos,media-optical-data-symbolic|org.kde.plasma.networkmanagement,Redes,network-wired-activated|org.kde.plasma.volume,Volume do áudio,audio-volume-high|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time|org.biglinux.showdesktop,Pequeno ícone de minimizar todas as janelas,window-minimize-symbolic
 radius=7
 
 [Containments][35][Applets][39]
 immutability=1
 plugin=org.kde.plasma.panelspacer
-
-[Containments][35][Applets][40]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-transient=true
 
 [Containments][35][Applets][42]
 immutability=1
@@ -216,6 +212,10 @@ SystrayContainmentId=43
 [Containments][35][Applets][66]
 immutability=1
 plugin=org.kde.plasma.panelspacer
+
+[Containments][35][Applets][66][Configuration][General]
+expanding=false
+length=40
 
 [Containments][35][Applets][68]
 immutability=1
@@ -243,8 +243,29 @@ DialogWidth=720
 immutability=1
 plugin=org.biglinux.showdesktop
 
+[Containments][35][Applets][72]
+immutability=1
+plugin=org.kde.windowbuttons
+
+[Containments][35][Applets][72][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][35][Applets][72][Configuration][General]
+buttons=5|3|4|10|2|9
+containmentType=Plasma
+visibility=ActiveMaximizedWindow
+
+[Containments][35][Applets][73]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][35][Applets][73][Configuration]
+localPath=/home/biglinux/.local/share/plasma_icons/activities-overview.desktop
+url=file:///usr/share/biglinux/kdebiglinux/activities-overview.desktop
+
 [Containments][35][General]
-AppletOrder=66;36;38;39;42;68;71
+AppletOrder=66;38;72;36;39;73;42;68;71
 
 [Containments][37]
 activityId=
@@ -262,6 +283,9 @@ plugin=org.kde.plasma.panelspacer
 [Containments][37][Applets][61]
 immutability=1
 plugin=org.kde.plasma.icontasks
+
+[Containments][37][Applets][61][Configuration][General]
+launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop
 
 [Containments][37][Applets][64]
 immutability=1
@@ -289,12 +313,13 @@ DialogWidth=720
 
 [Containments][37][Applets][67][Configuration][General]
 hideRealPanelBg=true
-marginRules=org.biglinux.appsmenu,-10,0|luisbocanegra.panel.colorizer,0,0|org.kde.plasma.icontasks,0,0|org.kde.plasma.panelspacer,0,0
+hideWidget=true
+marginRules=org.biglinux.appsmenu,7,0|luisbocanegra.panel.colorizer,0,0|org.kde.plasma.icontasks,0,0|org.kde.plasma.panelspacer,0,0|org.kde.plasma.trash,0,0
 panelBgColorMode=1
 panelBgEnabled=true
 panelBgOpacity=0.5
-panelWidgets=org.biglinux.appsmenu,Lançador de aplicativos BigLinux,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,Gerenciador de tarefas apenas com ícones,preferences-system-windows|org.kde.plasma.panelspacer,Espaçador do painel,
-panelWidgetsWithTray=org.biglinux.appsmenu,Lançador de aplicativos BigLinux,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,Gerenciador de tarefas apenas com ícones,preferences-system-windows|org.kde.plasma.panelspacer,Espaçador do painel,
+panelWidgets=org.biglinux.appsmenu,Lançador de aplicativos BigLinux,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,Gerenciador de tarefas apenas com ícones,preferences-system-windows|org.kde.plasma.panelspacer,Espaçador do painel,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
+panelWidgetsWithTray=org.biglinux.appsmenu,Lançador de aplicativos BigLinux,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,Gerenciador de tarefas apenas com ícones,preferences-system-windows|org.kde.plasma.panelspacer,Espaçador do painel,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
 widgetBgEnabled=false
 
 [Containments][37][Applets][69]
@@ -308,7 +333,7 @@ AppletOrder=64;67;61;41;69
 activityId=
 formfactor=2
 immutability=1
-lastScreen=-1
+lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
 popupHeight=432
@@ -354,6 +379,9 @@ plugin=org.kde.plasma.keyboardindicator
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
+[Containments][43][Applets][52][Configuration]
+PreloadWeight=55
+
 [Containments][43][Applets][53]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
@@ -398,4 +426,4 @@ immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=http://0.0.0.0,0,0,desktop:/calamares-biglinux.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b,desktop:/home.desktop,0,desktop:/trash.desktop
+screenMapping=desktop:/calamares-biglinux.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b,desktop:/home.desktop,0,desktop:/trash.desktop,http://0.0.0.0,0,0

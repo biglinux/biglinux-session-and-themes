@@ -5,6 +5,9 @@ pluginWhiteList=services,desktopsessions,PowerDevil,calculator,unitconverter,she
 [PlasmaTransientsConfig]
 PreloadWeight=68
 
+[PlasmaViews][Panel 3]
+floating=0
+
 [PlasmaViews][Panel 3][Defaults]
 thickness=34
 
@@ -12,7 +15,7 @@ thickness=34
 floating=0
 
 [PlasmaViews][Panel 35][Defaults]
-thickness=27
+thickness=32
 
 [PlasmaViews][Panel 37]
 alignment=132
@@ -22,14 +25,26 @@ panelVisibility=0
 [PlasmaViews][Panel 37][Defaults]
 thickness=40
 
+[PlasmaViews][Panel 4]
+floating=0
+
 [PlasmaViews][Panel 4][Defaults]
 thickness=34
+
+[PlasmaViews][Panel 5]
+floating=0
 
 [PlasmaViews][Panel 5][Defaults]
 thickness=34
 
+[PlasmaViews][Panel 6]
+floating=0
+
 [PlasmaViews][Panel 6][Defaults]
 thickness=34
+
+[PlasmaViews][Panel 7]
+floating=0
 
 [PlasmaViews][Panel 7][Defaults]
 thickness=34

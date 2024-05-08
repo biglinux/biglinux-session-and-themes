@@ -145,12 +145,12 @@ DialogWidth=720
 [Containments][39][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=233
-ToolBoxButtonY=32
+ToolBoxButtonY=27
 arrangement=1
 iconSize=2
 
 [Containments][39][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/conceitual multimedia6.avif
+Image=/usr/share/wallpapers/animal funny6.avif
 PreviewImage=/usr/share/wallpapers/conceitual multimedia6.avif
 SlidePaths=/usr/share/wallpapers/
 
@@ -237,13 +237,17 @@ panelBgEnabled=true
 panelBgOpacity=0.15
 panelOutlineWidth=2
 panelRealBgOpacity=0.1
-panelWidgets=org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.panelspacer,Espaçador do painel,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.systemtray,Área de notificação,preferences-desktop-notification|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time
-panelWidgetsWithTray=org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.panelspacer,Espaçador do painel,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.networkmanagement,Redes,network-wired-activated|org.kde.plasma.volume,Volume do áudio,audio-volume-medium|org.kde.plasma.devicenotifier,Discos e dispositivos,media-optical-data-symbolic|org.kde.plasma.clipboard,Área de transferência,klipper-symbolic|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time
+panelWidgets=org.biglinux.showdesktop,Pequeno ícone de minimizar todas as janelas,window-minimize-symbolic|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.panelspacer,Espaçador do painel,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.systemtray,Área de notificação,preferences-desktop-notification|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time|org.kde.windowbuttons,Window Buttons,focus-windows
+panelWidgetsWithTray=org.biglinux.showdesktop,Pequeno ícone de minimizar todas as janelas,window-minimize-symbolic|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.panelspacer,Espaçador do painel,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.clipboard,Área de transferência,klipper-symbolic|org.kde.plasma.devicenotifier,Discos e dispositivos,media-optical-data-symbolic|org.kde.plasma.networkmanagement,Redes,network-wired-activated|org.kde.plasma.volume,Volume do áudio,audio-volume-medium|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time|org.kde.windowbuttons,Window Buttons,focus-windows
 radius=7
 widgetBgVMargin=5
 
+[Containments][40][Applets][70]
+immutability=1
+plugin=org.biglinux.showdesktop
+
 [Containments][40][General]
-AppletOrder=41;61;68;42;62;67
+AppletOrder=70;41;61;68;42;62;67
 
 [Containments][43]
 activityId=
@@ -296,7 +300,7 @@ immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
 [Containments][43][Applets][52][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][43][Applets][53]
 immutability=1
@@ -449,4 +453,4 @@ shownItems=org.kde.plasma.brightness
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/calamares-biglinux.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b,desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a
+screenMapping=desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/calamares-biglinux.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b
