@@ -37,7 +37,6 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][34][Configuration]
-localPath=/home/biglinux/.local/share/plasma_icons/activities-overview.desktop
 url=file:///usr/share/biglinux/kdebiglinux/activities-overview.desktop
 
 [Containments][2][Applets][36]
