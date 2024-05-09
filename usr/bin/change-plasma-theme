@@ -136,7 +136,8 @@ if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
     fi
   
     #Kwin
-    sed -i '/BorderlessMaximizedWindows=false/d' ~/.config/kwinrc
+    # sed -i '/BorderlessMaximizedWindows=false/d' ~/.config/kwinrc
+    kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
 else
     #Chromium Brave Chrome
     chromium_based_files=(
@@ -160,7 +161,8 @@ else
     fi
 
     #Kwin
-    sed -i '/BorderlessMaximizedWindows=true/d' ~/.config/kwinrc
+    # sed -i '/BorderlessMaximizedWindows=true/d' ~/.config/kwinrc
+    kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows true
 fi
 
 if [ "$2" = "classic" ]; then
