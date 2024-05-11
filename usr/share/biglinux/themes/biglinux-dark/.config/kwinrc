@@ -22,10 +22,6 @@ Id_4=5a9c02fb-73f3-452a-969d-fc875cb3439f
 Number=4
 Rows=1
 
-[Effect-blur]
-BlurStrength=6
-NoiseStrength=0
-
 [Effect-Cube]
 BorderActivate=9
 BorderActivateCylinder=9
@@ -44,6 +40,10 @@ Drag=70
 MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
+
+[Effect-blur]
+BlurStrength=6
+NoiseStrength=0
 
 [Effect-kwin4_effect_scale]
 Duration=150
@@ -77,8 +77,8 @@ Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
 alwaysopenonactivescreenEnabled=true
 alwaysopenonfocusedscreenEnabled=false
 alwaysopenonprimaryscreenEnabled=false
-contrastEnabled=true
 blurEnabled=false
+contrastEnabled=true
 forceblurEnabled=false
 kwin-autocomposerEnabled=true
 kwin4_effect_fadingpopupsEnabled=false
@@ -112,7 +112,6 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
-ActiveMouseScreen=true
 AutoRaise=false
 AutoRaiseInterval=750
 BorderSnapZone=10
@@ -136,7 +135,7 @@ SnapOnlyWhenOverlapping=false
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-BorderSize=None
+BorderSize=NoSides
 BorderSizeAuto=false
 ButtonsOnLeft=MSF
 ButtonsOnRight=IAX

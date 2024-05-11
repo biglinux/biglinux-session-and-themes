@@ -77,8 +77,8 @@ Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
 alwaysopenonactivescreenEnabled=true
 alwaysopenonfocusedscreenEnabled=false
 alwaysopenonprimaryscreenEnabled=false
-contrastEnabled=true
 blurEnabled=false
+contrastEnabled=true
 forceblurEnabled=false
 kwin-autocomposerEnabled=true
 kwin4_effect_fadingpopupsEnabled=false
@@ -112,7 +112,6 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
-ActiveMouseScreen=true
 AutoRaise=false
 AutoRaiseInterval=750
 BorderSnapZone=10
@@ -136,7 +135,7 @@ SnapOnlyWhenOverlapping=false
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-BorderSize=None
+BorderSize=NoSides
 BorderSizeAuto=false
 ButtonsOnLeft=MSF
 ButtonsOnRight=IAX
