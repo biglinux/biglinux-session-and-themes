@@ -22,7 +22,7 @@ case "$1" in
     rm -Rf ~/.config/gtk-4.0
 
 
-	#Confere se o arquivo, diretório, link, ou arquivo especial NÃO existe
+	#Confere se o arquivo existe
     if [ -e "$folder/$2" ]; then
         cp -Rf $folder/$2/. "$HOME"
 
@@ -64,15 +64,6 @@ case "$1" in
             kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
         fi
 
-        # Metakey to plasma or latte
-        if [ "$(cat "$HOME/.config/enable_latte")" = "1" ]; then
-            qdbus org.kde.lattedock /Latte org.kde.LatteDock.switchToLayout "$HOME/.config/latte/Default.layout.latte"
-            kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key "Meta" "org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu"
-        else
-            qdbus org.kde.lattedock /Latte org.kde.LatteDock.quitApplication
-            kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key "Meta" "org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu"
-        fi
-        
         if [ "$(ps -e | grep kwin)" != "" ]
 		then
 
@@ -86,21 +77,11 @@ case "$1" in
                 /usr/lib/plasma-changeicons $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
 
                 # Change theme color to change back and fix on the fly change
-                plasma-apply-colorscheme Arc
+                #plasma-apply-colorscheme Arc
                 # Apply Theme
                 plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
 
         fi
-        
-        
-        #Fluent theme without blur using llvmpipe to 3D render
-#         if [ "$2" = "fluent" ] && [ "$(glxinfo | grep llvmpipe)" != "" ]; then
-#             sed -i 's|Fluent-round|Fluent-roundsw|g' ~/.config/Kvantum/kvantum.kvconfig
-#         fi
-#         
-#         if [ "$2" = "fluent-dark" ] && [ "$(glxinfo | grep llvmpipe)" != "" ]; then
-#             sed -i 's|Fluent-roundDark|Fluent-roundswDark|g' ~/.config/Kvantum/kvantum.kvconfig        
-#         fi
         
         echo "$2" > "$HOME/.big_desktop_theme"
         
