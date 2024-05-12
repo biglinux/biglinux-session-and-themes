@@ -64,14 +64,13 @@ case "$1" in
             kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
         fi
 
-        if [ "$(ps -e | grep kwin)" != "" ]
-		then
+        if pgrep kwin; then
 
                 #Configure GTK
-                qdbus org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
+                qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
 
 
-                qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
+                qdbus6 org.kde.KWin /KWin org.kde.KWin.reconfigure
                 # Clean icon theme and apply again to fix kwin buttons
 #                 kwriteconfig5 --group Icons --key Theme ""
                 /usr/lib/plasma-changeicons $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
