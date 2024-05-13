@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-name="Layer 1" version="1.1" viewBox="0 0 299 203.97" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1{fill:none;}.cls-1,.cls-2{stroke:#4374ba;}.cls-1,.cls-2,.cls-4{stroke-miterlimit:10;stroke-width:2px;}.cls-2,.cls-8{fill:#4474ba;}.cls-3,.cls-4{fill:#fff;}.cls-4{stroke:#fff;}.cls-5{font-size:24px;fill:#4374ba;font-family:Lato-Bold, Lato;font-weight:700;letter-spacing:-0.02em;}.cls-6{letter-spacing:-0.01em;}.cls-7{letter-spacing:-0.02em;}</style>
+ </defs>
+ <g transform="translate(396.54 -38.221)">
+  <g stroke="#4374ba" stroke-miterlimit="10" stroke-width="2px">
+   <rect class="cls-1" x="-395.54" y="39.221" width="297" height="201.84" rx="5" fill="none"/>
+   <rect class="cls-2" x="-385.38" y="49.081" width="15.77" height="15.77" rx="4" fill="#4474ba"/>
+   <polygon class="cls-1" transform="translate(-396.54 38.221)" points="11.6 32.55 26.93 32.55" fill="none"/>
+   <rect class="cls-2" x="-394.45" y="224.52" width="295.5" height="16.67" rx="4" fill="#4474ba"/>
+   <rect class="cls-3" x="-392.02" y="225.89" width="13.94" height="13.94" rx="4" fill="#fff"/>
+  </g>
+  <polygon class="cls-1" transform="translate(-396.54 38.221)" points="257.54 194.63 291.54 194.63" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="2px"/>
+  <rect class="cls-1" x="-394.45" y="96.851" width="187.24" height="126.92" rx="5" fill="none" stroke="#4374ba" stroke-miterlimit="10" stroke-width="2px"/>
+  <g fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="2px">
+   <rect class="cls-4" x="-307.2" y="227.77" width="10" height="10" rx="2"/>
+   <rect class="cls-4" x="-327.2" y="227.77" width="10" height="10" rx="2"/>
+   <rect class="cls-4" x="-347.2" y="227.77" width="10" height="10" rx="2"/>
+   <rect class="cls-4" x="-367.2" y="227.77" width="10" height="10" rx="2"/>
+  </g>
+  <g fill="none" stroke="#4374ba" stroke-miterlimit="10" stroke-width="2px">
+   <rect class="cls-1" x="-388.2" y="102.03" width="176.68" height="9.49" rx="4"/>
+   <polygon class="cls-1" transform="translate(-396.54 38.221)" points="9.09 124.63 50.4 124.63"/>
+   <polygon class="cls-1" transform="translate(-396.54 38.221)" points="9.09 114.63 50.4 114.63"/>
+   <polygon class="cls-1" transform="translate(-396.54 38.221)" points="9.09 104.63 50.4 104.63"/>
+   <polygon class="cls-1" transform="translate(-396.54 38.221)" points="9.09 94.63 50.4 94.63"/>
+  </g>
+  <g stroke="#4374ba" stroke-miterlimit="10" stroke-width="2px">
+   <rect class="cls-2" x="-238.88" y="121.85" width="12.92" height="12.92" rx="2" fill="#4474ba"/>
+   <polygon class="cls-1" transform="translate(-396.54 38.221)" points="157.62 100.56 170.62 100.56" fill="none"/>
+   <rect class="cls-2" x="-267.02" y="121.85" width="12.92" height="12.92" rx="2" fill="#4474ba"/>
+   <polygon class="cls-1" transform="translate(-396.54 38.221)" points="129.48 100.56 142.48 100.56" fill="none"/>
+   <rect class="cls-2" x="-295.57" y="147.28" width="12.92" height="12.92" rx="2" fill="#4474ba"/>
+   <polygon class="cls-1" transform="translate(-396.54 38.221)" points="100.93 125.98 113.93 125.98" fill="none"/>
+   <rect class="cls-2" x="-323.71" y="147.28" width="12.92" height="12.92" rx="2" fill="#4474ba"/>
+   <polygon class="cls-1" transform="translate(-396.54 38.221)" points="72.79 125.98 85.79 125.98" fill="none"/>
+   <rect class="cls-2" x="-295.16" y="121.85" width="12.92" height="12.92" rx="2" fill="#4474ba"/>
+   <polygon class="cls-1" transform="translate(-396.54 38.221)" points="101.34 100.56 114.34 100.56" fill="none"/>
+   <rect class="cls-2" x="-323.31" y="121.85" width="12.92" height="12.92" rx="2" fill="#4474ba"/>
+   <polygon class="cls-1" transform="translate(-396.54 38.221)" points="73.19 100.56 86.19 100.56" fill="none"/>
+   <polygon class="cls-1" transform="translate(-396.54 38.221)" points="9.09 84.63 50.4 84.63" fill="none"/>
+  </g>
+  <text class="cls-5" x="-186.82556" y="146.96109" fill="#4374ba" font-family="Lato-Bold, Lato" font-size="24px" font-weight="700" letter-spacing="-.02em" stroke-miterlimit="10" stroke-width="2px">Vanilla</text>
+  <polygon class="cls-8" transform="translate(-396.54 38.221)" points="1 182.82 1 188.29 5.74 185.56" fill="#4474ba"/>
+ </g>
+</svg>

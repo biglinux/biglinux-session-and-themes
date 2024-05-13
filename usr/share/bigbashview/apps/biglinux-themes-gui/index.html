@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Include the generic header (CSS and JS) -->
+    <?include html /usr/share/bigbashview/framework/html/genericHeader.html?>
+
+    <!-- Include window control side decorator -->
+    <link href="/usr/share/bigbashview/framework/css/client-side-decorator.css" rel="stylesheet">
+    <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+    <script src="/usr/share/bigbashview/framework/js/client-side-decorator.js" defer></script>
+
+    <!-- Includes the window control side shell script -->
+    <?include bash /usr/share/bigbashview/framework/shell/windowControlSide.sh 2> /dev/null ?>
+    <style>
+        .desktop-image {
+            min-width: 22vw;
+        }
+        .theme-image {
+            min-width: 19vh;
+        }
+        .left-bar-middle-align {
+            display: grid;
+            align-items: center!important;
+            vertical-align: middle;
+            height: 100%;
+        }
+        .active-theme, .active-desktop {
+            border-color: #007BFF !important;
+            background-color: rgba(0, 123, 255, 0.1);
+            pointer-events: none; /* Disables clicks */
+        }
+    </style>
+</head>
+<body x-data="environment()" x-init="init()">
+    <div id="page">
+        <div id="title-bar" class="drag-area">
+            <span stonejs>Desktop</span>
+        </div>
+        <div id="left">
+            <div id="app-left-title" class="row">
+                <span stonejs>Theme</span>
+            </div>
+            <div class="left-bar-middle-align">
+                <nav class="extend margin scroll middle-align">
+                    <!-- Available themes -->
+                    <button :class="{'active-theme': theme === 'biglinux'}"
+                            @click="theme === 'biglinux' ? null : setTheme('biglinux');_run('biglinux-themes.sh --apply biglinux')"
+                            class="vertical border no-border space-between box-items">
+                        <img src="img/biglinux.jpg" class="responsive no-round theme-image" />
+                        <span>BigLinux</span>
+                    </button>
+                    <button :class="{'active-theme': theme === 'biglinux-dark'}"
+                            @click="theme === 'biglinux-dark' ? null : setTheme('biglinux-dark');_run('biglinux-themes.sh --apply biglinux-dark')"
+                            class="vertical border no-border space-between box-items">
+                        <img src="img/biglinux-dark.jpg" class="responsive no-round theme-image" />
+                        <span>BigLinux Dark</span>
+                    </button>
+                    <button :class="{'active-theme': theme === 'breeze'}"
+                            @click="theme === 'breeze' ? null : setTheme('breeze');_run('biglinux-themes.sh --apply breeze')"
+                            class="vertical border no-border space-between box-items">
+                        <img src="img/breeze.jpg" class="responsive no-round theme-image" />
+                        <span>Breeze</span>
+                    </button>
+                    <button :class="{'active-theme': theme === 'breeze-dark'}"
+                            @click="theme === 'breeze-dark' ? null : setTheme('breeze-dark');_run('biglinux-themes.sh --apply breeze-dark')"
+                            class="vertical border no-border space-between box-items">
+                        <img src="img/breeze-dark.jpg" class="responsive no-round theme-image" />
+                        <span>Breeze Dark</span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+        <div id="right" class="drag-area">
+            <div class="right-content middle-align">
+                <div class="autogrid-fit center-align">
+                    <!-- Available desktops -->
+                    <button :class="{'active-desktop': desktop === 'classic'}"
+                            @click="desktop === 'classic' ? null : setDesktop('classic')"
+                            class="vertical border no-border space-between box-items">
+                        <img src="img/classic.svg" class="responsive no-round desktop-image" />
+                    </button>
+                    <button :class="{'active-desktop': desktop === 'new'}"
+                            @click="desktop === 'new' ? null : setDesktop('new')"
+                            class="vertical border no-border space-between box-items">
+                        <img src="img/new.svg" class="responsive no-round desktop-image" />
+                    </button>
+                    <button :class="{'active-desktop': desktop === 'modern'}"
+                            @click="desktop === 'modern' ? null : setDesktop('modern')"
+                            class="vertical border no-border space-between box-items">
+                        <img src="img/modern.svg" class="responsive no-round desktop-image" />
+                    </button>
+                    <button :class="{'active-desktop': desktop === 'kunity'}"
+                            @click="desktop === 'kunity' ? null : setDesktop('kunity')"
+                            class="vertical border no-border space-between box-items">
+                        <img src="img/kunity.svg" class="responsive no-round desktop-image" />
+                    </button>
+                    <button :class="{'active-desktop': desktop === 'nextg'}"
+                            @click="desktop === 'nextg' ? null : setDesktop('nextg')"
+                            class="vertical border no-border space-between box-items">
+                        <img src="img/nextg.svg" class="responsive no-round desktop-image" />
+                    </button>
+                    <button :class="{'active-desktop': desktop === 'vanilla'}"
+                            @click="desktop === 'vanilla' ? null : setDesktop('vanilla')"
+                            class="vertical border no-border space-between box-items">
+                        <img src="img/vanilla.svg" class="responsive no-round desktop-image" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info about connect from Android Device -->
+    <dialog class="dialog no-padding no-margin" id="modal">
+        <h6 class="surface-bgcolor no-round large-padding center-align drag-area" small stonejs>Configuration</h6>
+        <div class="large medium-padding medium-margin medium-line left-align">
+            <p stonejs>You've used this desktop before, do you want to restore your customization or use the original configuration?</p>
+            <nav class="center-align">
+                <button @click="applyDesktop('clean')" stonejs>Original</button>
+                <button @click="applyDesktop()" stonejs>Restore</button>
+            </nav>
+        </div>
+    </dialog>
+
+    <!-- Modal for theme/desktop change -->
+    <dialog class="dialog no-padding no-margin" id="change-modal">
+        <h6 class="surface-bgcolor no-round large-padding center-align drag-area" small stonejs>Applying</h6>
+        <div class="large medium-padding medium-margin medium-line left-align">
+            <p stonejs>The settings have been changed. To apply them throughout the system, log off and log in again.</p>
+            <nav class="center-align">
+                <button @click="closeChangeModal()" stonejs>OK</button>
+            </nav>
+        </div>
+    </dialog>
+
+    <script>
+    document.addEventListener('alpine:init', () => {
+        Alpine.data('environment', () => ({
+            desktop: '',
+            theme: '',
+            modalOpen: false,
+            changeModalOpen: false,
+            selectedDesktop: '',
+            newDesktop: '',
+            init() {
+                this.fetchDesktop();
+                this.fetchTheme();
+            },
+            fetchDesktop() {
+                fetch('actual-desktop.sh').then((response) => response.text()).then((desktop) => {
+                    this.desktop = desktop.trim();
+                });
+            },
+            fetchTheme() {
+                fetch('actual-theme.sh').then((response) => response.text()).then((theme) => {
+                    this.theme = theme.trim();
+                });
+            },
+            setDesktop(newDesktop) {
+                this.selectedDesktop = newDesktop;
+                fetch(`used-theme.sh?${newDesktop}`).then(response => response.text()).then(result => {
+                    if (result.trim() === 'false') {
+                        _run(`change-plasma-theme --apply ${newDesktop}`);
+                        this.desktop = newDesktop;  // Marks the desktop as selected on the main screen
+                        this.showChangeModal();
+                    } else {
+                        ui('#modal');
+                        this.newDesktop = newDesktop;
+                    }
+                });
+            },
+            applyDesktop(clean = '') {
+                _run(`change-plasma-theme --apply ${this.newDesktop} ${clean}`);
+                this.desktop = this.newDesktop;  // Marks the desktop as selected on the main screen
+                ui('#modal');  // Closes the modal
+                this.showChangeModal();
+            },
+            setTheme(newTheme) {
+                _run(`biglinux-themes.sh --apply ${newTheme}`);
+                this.theme = newTheme;
+                this.showChangeModal();
+            },
+            showChangeModal() {
+                this.changeModalOpen = true;
+                ui('#change-modal');
+            },
+            closeChangeModal() {
+                this.changeModalOpen = false;
+                ui('#change-modal');
+            }
+        }));
+    });
+    </script>
+</body>
+</html>
