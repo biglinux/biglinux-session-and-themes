@@ -99,12 +99,12 @@ Name=Breeze
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=MesloLGS Biglinux,11,-1,5,50,0,0,0,0,0
-font=Lato Semibold,11,-1,5,63,0,0,0,0,0,Semibold
-menuFont=Lato Semibold,11,-1,5,63,0,0,0,0,0,Semibold
+fixed=Noto Sans Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=NotoSans Nerd Font Medium,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,Semibold
+menuFont=NotoSans Nerd Font Medium,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,Semibold
 shadeSortColumn=true
-smallestReadableFont=Lato Semibold,10,-1,5,63,0,0,0,0,0,Semibold
-toolBarFont=Lato Semibold,11,-1,5,63,0,0,0,0,0,Semibold
+smallestReadableFont=NotoSans Nerd Font Medium,8,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,Semibold
+toolBarFont=NotoSans Nerd Font Medium,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,Semibold
 widgetStyle=Breeze
 
 [Icons]
@@ -150,7 +150,7 @@ ToolButtonStyleOtherToolbars=TextBesideIcon
 [WM]
 activeBackground=210,212,214
 activeBlend=212,213,215
-activeFont=Lato Semibold,12,-1,5,63,0,0,0,0,0,Semibold
+activeFont=NotoSans Nerd Font Medium,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,Semibold
 activeForeground=48,48,48
 inactiveBackground=210,212,214
 inactiveBlend=255,255,255
