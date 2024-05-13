@@ -38,13 +38,13 @@ case "$1" in
 
         #se necessario coloca os icons de fechar, maximizar e fechar do lado esquerdo
         if [ "$(cat "$HOME/.config/kwin_left")" = "1" ]; then
-            kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
-            kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
-            kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
+            kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
+            kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
+            kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
         else
-            kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
-            kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
-            kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
+            kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
+            kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
+            kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
         fi
 
         # Disable kwin border in maximized windows
@@ -54,14 +54,14 @@ case "$1" in
             #Firefox
             sed -i 's|user_pref("browser.tabs.InTitlebar", 1);|user_pref("browser.tabs.InTitlebar", 0);|g' ~/.mozilla/firefox/*.default/prefs.js
             #Kwin
-            kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows true
+            kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows true
         else
             #Chromium Brave Chrome
             sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
             #Firefox
             sed -i 's|user_pref("browser.tabs.InTitlebar", 0);|user_pref("browser.tabs.InTitlebar", 1);|g' ~/.mozilla/firefox/*.default/prefs.js
             #Kwin
-            kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
+            kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
         fi
 
         if pgrep kwin; then
@@ -72,13 +72,13 @@ case "$1" in
 
                 qdbus6 org.kde.KWin /KWin org.kde.KWin.reconfigure
                 # Clean icon theme and apply again to fix kwin buttons
-#                 kwriteconfig5 --group Icons --key Theme ""
-                /usr/lib/plasma-changeicons $(kreadconfig5 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
+                kwriteconfig6 --group Icons --key Theme ""
+                /usr/lib/plasma-changeicons $(kreadconfig6 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
 
                 # Change theme color to change back and fix on the fly change
-                #plasma-apply-colorscheme Arc
+                plasma-apply-colorscheme KvArc
                 # Apply Theme
-                plasma-apply-colorscheme $(grep -m1 ColorScheme "$folder/$2/.config/kdeglobals" | cut -f2-5 -d=)
+                plasma-apply-colorscheme $(kreadconfig6 --group General --key ColorScheme --file "$folder/$2/.config/kdeglobals")
 
         fi
         
