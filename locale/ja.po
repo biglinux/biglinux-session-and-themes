@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Desktop"
+msgstr "デスクトップ"
+
+msgid "Theme"
+msgstr "テーマ"
+
+msgid "Configuration"
+msgstr "設定"
+
+msgid ""
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr "このデスクトップを以前使用したことがありますか？カスタマイズを復元しますか、それとも元の設定を使用しますか？"
+
+msgid "Original"
+msgstr "元の"
+
+msgid "Restore"
+msgstr "リストア"
+
+msgid "Applying"
+msgstr "応用する"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "設定が変更されました。システム全体に適用するには、ログオフして再度ログインしてください。"
+
+msgid "OK"
+msgstr ""
+", I understand\n"
+"\n"
+"わかりました。"
