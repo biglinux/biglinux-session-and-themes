@@ -34,7 +34,7 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
 
       - name: Translate Package
-        shell: bash -O extglob {0}
+        shell: bash #-O extglob {0}
         env:
           AZURE_KEY: ${{ secrets.AZURE_KEY }}
           OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
