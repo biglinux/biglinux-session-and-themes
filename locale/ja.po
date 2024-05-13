@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Desktop"
+msgstr "デスクトップ"
+
+msgid "Theme"
+msgstr ""
+":\n"
+"\n"
+"テーマ：プログラミング言語と技術文書に特化した翻訳の専門家です。以下のテキストをen-USからjaに翻訳してください。技術用語やプログラミング構造が正確に翻訳されるようにしてください。"
+
+msgid "Configuration"
+msgstr ""
+"file\n"
+"\n"
+"設定ファイル"
+
+msgid ""
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr "このデスクトップを以前使用したことがありますか？カスタマイズを復元しますか、それとも元の設定を使用しますか？"
+
+msgid "Original"
+msgstr ""
+"text:\n"
+"\n"
+"\"In object-oriented programming, inheritance is the process of creating new classes from existing "
+"classes. The new classes, known as subclasses, inherit the properties and methods of the parent "
+"class, known as the superclass. This allows for code reuse and the creation of more specialized "
+"classes.\"\n"
+"\n"
+"オブジェクト指向プログラミングでは、継承は既存のクラスから新しいクラスを作成するプロセスです。新しいクラスはサブクラスと呼ばれ、親クラスであるスーパークラスのプロパティとメソッドを継承します。これによ"
+"り、コードの再利用とより特殊化されたクラスの作成が可能になります。"
+
+msgid "Restore"
+msgstr ""
+"the default settings\n"
+"\n"
+"デフォルト設定を復元する"
+
+msgid "Applying"
+msgstr ""
+"Filters\n"
+"\n"
+"フィルターの適用\n"
+"\n"
+"To apply filters to a dataset, you can use the filter() function. This function takes in two "
+"arguments: the dataset to be filtered and the filter condition.\n"
+"\n"
+"データセットにフィルターを適用するには、filter()関数を使用します。この関数は2つの引数を受け取ります：フィルターを適用するデータセットとフィルター条件です。"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "設定が変更されました。システム全体に適用するには、ログオフして再度ログインしてください。"
+
+msgid "OK"
+msgstr ""
+", thank you for your interest in our programming language. We are constantly working to improve and "
+"update our language to make it more efficient and user-friendly. Our latest release includes "
+"several new features such as improved error handling and support for multi-threading. We also have "
+"a comprehensive documentation available online to help you get started with our language.\n"
+"\n"
+"\n"
+"はい、当社のプログラミング言語にご興味をお持ちいただきありがとうございます。私たちは常に言語を改善し、より効率的で使いやすいものにするために取り組んでいます。最新のリリースでは、エラー処理の改善やマル"
+"チスレッドのサポートなど、いくつかの新機能が追加されています。また、当社の言語を始めるための包括的なオンラインドキュメントもご用意しています。"

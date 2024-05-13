@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Desktop"
+msgstr ""
+"Application\n"
+"\n"
+"Skrivebordsapplikasjon"
+
+msgid "Theme"
+msgstr ""
+":\n"
+"\n"
+"Tema:"
+
+msgid "Configuration"
+msgstr ""
+"file\n"
+"\n"
+"Konfigurasjonsfil"
+
+msgid ""
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr ""
+"Du har brukt denne skrivebordet før, vil du gjenopprette tilpassingen din eller bruke den "
+"opprinnelige konfigurasjonen?"
+
+msgid "Original"
+msgstr ""
+"text:\n"
+"\n"
+"\"You can use a for loop to iterate through a list of items and perform a specific action on each "
+"item. The syntax for a for loop in Python is: for item in list: do something with item\"\n"
+"\n"
+"Du kan bruke en for-løkke for å iterere gjennom en liste med elementer og utføre en spesifikk "
+"handling på hvert element. Syntaksen for en for-løkke i Python er: for element i liste: gjør noe "
+"med elementet"
+
+msgid "Restore"
+msgstr ""
+"the default settings\n"
+"\n"
+"Gjenopprett standardinnstillinger"
+
+msgid "Applying"
+msgstr ""
+"Filters\n"
+"\n"
+"Påføring av filtre"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "Innstillingene har blitt endret. For å bruke dem i hele systemet, logg av og logg på igjen."
+
+msgid "OK"
+msgstr ""
+", here is the code:\n"
+"\n"
+"\n"
+"Ok, her er koden:"

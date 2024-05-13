@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Desktop"
+msgstr "데스크탑"
+
+msgid "Theme"
+msgstr ""
+":\n"
+"\n"
+"주제: 프로그래밍 언어와 기술 문서에 중점을 둔 번역 전문가입니다. 다음 텍스트를 en-US에서 ko로 번역하며, 모든 기술 용어와 프로그래밍 구조가 정확하게 번역되도록 해주세요."
+
+msgid "Configuration"
+msgstr ""
+"File\n"
+"\n"
+"환경 설정 파일"
+
+msgid ""
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr "이 데스크탑을 이전에 사용한 적이 있습니까? 사용자 정의를 복원하거나 원래 구성을 사용하시겠습니까?"
+
+msgid "Original"
+msgstr ""
+"text:\n"
+"\n"
+"\"In object-oriented programming, inheritance is the process of creating new classes from existing "
+"classes. The new classes, known as subclasses, inherit the properties and behaviors of the parent "
+"class, known as the superclass. This allows for code reuse and the creation of more specialized "
+"classes.\"\n"
+"\n"
+"객체 지향 프로그래밍에서 상속은 기존 클래스에서 새로운 클래스를 만드는 과정입니다. 새로운 클래스는 하위 클래스라고 불리며, 상위 클래스인 부모 클래스의 속성과 동작을 "
+"상속받습니다. 이를 통해 코드 재사용과 더 특화된 클래스의 생성이 가능해집니다."
+
+msgid "Restore"
+msgstr ""
+"the default settings\n"
+"\n"
+"기본 설정 복원하기"
+
+msgid "Applying"
+msgstr ""
+"Filters\n"
+"\n"
+"필터 적용하기\n"
+"\n"
+"Filters are a powerful tool for manipulating and organizing data in programming languages. They "
+"allow you to selectively extract, transform, and sort data based on specific criteria. In technical "
+"documentation, filters are often used to help users find relevant information quickly and "
+"efficiently.\n"
+"\n"
+"필터는 프로그래밍 언어에서 데이터를 조작하고 정리하는 강력한 도구입니다. 특정 기준에 따라 데이터를 선택적으로 추출, 변환 및 정렬할 수 있게 해줍니다. 기술 문서에서는 필터가 "
+"종종 사용되어 사용자가 빠르고 효율적으로 관련 정보를 찾을 수 있도록 도와줍니다."
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "설정이 변경되었습니다. 시스템 전체에 적용하려면 로그아웃하고 다시 로그인하십시오."
+
+msgid "OK"
+msgstr ""
+", here's the deal. We need to create a function that takes in two numbers and returns their sum.\n"
+"\n"
+"알겠어요, 이게 계획이에요. 두 개의 숫자를 받아서 그 합을 반환하는 함수를 만들어야 해요."

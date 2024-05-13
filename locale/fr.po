@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Desktop"
+msgstr ""
+"Application\n"
+"\n"
+"Application de bureau"
+
+msgid "Theme"
+msgstr ""
+":\n"
+"\n"
+"Thème : \n"
+"\n"
+"Vous êtes un expert en traduction avec une spécialisation dans les langages de programmation et la "
+"documentation technique. Veuillez traduire le texte suivant de en-US à fr, en veillant à ce que "
+"tous les termes techniques et les constructions de programmation soient correctement traduits :"
+
+msgid "Configuration"
+msgstr ""
+"Management\n"
+"\n"
+"Gestion de configuration"
+
+msgid ""
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr ""
+"Vous avez déjà utilisé cet ordinateur de bureau auparavant, souhaitez-vous restaurer votre "
+"personnalisation ou utiliser la configuration d'origine ?"
+
+msgid "Original"
+msgstr ""
+"text:\n"
+"\n"
+"\"You can use a for loop to iterate through a list of items and perform a specific action on each "
+"item. The syntax for a for loop in Python is: for item in list:\"\n"
+"\n"
+"\"Vous pouvez utiliser une boucle for pour itérer à travers une liste d'éléments et effectuer une "
+"action spécifique sur chaque élément. La syntaxe pour une boucle for en Python est : pour élément "
+"dans liste:\""
+
+msgid "Restore"
+msgstr ""
+"the database\n"
+"\n"
+"Restaurer la base de données"
+
+msgid "Applying"
+msgstr ""
+"a function to a list\n"
+"\n"
+"Appliquer une fonction à une liste"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr ""
+"Les paramètres ont été modifiés. Pour les appliquer dans tout le système, déconnectez-vous et "
+"reconnectez-vous."
+
+msgid "OK"
+msgstr ""
+", here's the code:\n"
+"\n"
+"D'accord, voici le code :"
