@@ -37,6 +37,7 @@ jobs:
         shell: bash -O extglob {0}
         env:
           AZURE_KEY: ${{ secrets.AZURE_KEY }}
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
         run: |
           cd ..
           git clone https://github.com/biglinux/big-auto-translator.git
