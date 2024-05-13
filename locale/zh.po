@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Desktop"
+msgstr "桌面"
+
+msgid "Theme"
+msgstr "主题"
+
+msgid "Configuration"
+msgstr "配置"
+
+msgid ""
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr "您之前使用过这台电脑，您想恢复您的自定义设置还是使用原始配置？"
+
+msgid "Original"
+msgstr ""
+"text:\n"
+"\"Hello, how are you?\"\n"
+"\n"
+"Translated text:\n"
+"\"你好，你好吗？\""
+
+msgid "Restore"
+msgstr "恢复"
+
+msgid "Applying"
+msgstr ""
+"machine learning to your data\n"
+"\n"
+"将机器学习应用于您的数据"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "设置已更改。要在整个系统中应用这些设置，请注销并重新登录。"
+
+msgid "OK"
+msgstr ""
+", I understand.\n"
+"\n"
+"好的，我明白了。"

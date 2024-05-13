@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Desktop"
+msgstr "Bureaublad"
+
+msgid "Theme"
+msgstr "Thema"
+
+msgid "Configuration"
+msgstr "Configuratie"
+
+msgid ""
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr ""
+"Je hebt deze desktop eerder gebruikt, wil je je aanpassingen herstellen of de originele "
+"configuratie gebruiken?"
+
+msgid "Original"
+msgstr ""
+"text:\n"
+"\"Hello, how are you?\"\n"
+"\n"
+"Translated text:\n"
+"\"Hallo, hoe gaat het met je?\""
+
+msgid "Restore"
+msgstr "Herstellen"
+
+msgid "Applying"
+msgstr "Toepassen"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "De instellingen zijn gewijzigd. Om ze toe te passen in het hele systeem, log uit en log opnieuw in."
+
+msgid "OK"
+msgstr "Ok"
