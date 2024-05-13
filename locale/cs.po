@@ -16,205 +16,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Vybraná konfigurace plochy již byla v tomto systému použita,\n"
-"chcete obnovit již použitou konfiguraci?\n"
-"\n"
-"Chcete-li použít výchozí konfiguraci systému, vyberte možnost ne.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfigurace použita!\n"
-"\n"
-"Odhlášení a opětovné přihlášení\n"
-"pro dokončení konfigurace\n"
-"použity."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Pokud používáte prohlížeč, restartujte jej, aby se změny projevily."
-
-msgid "Desempenho em modo normal!"
-msgstr "Výkon v normálním režimu!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Výkon v režimu výkonu!"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Dejte si pozor, že ztratíte přístup k SnapShots, jste si jisti, že chcete skrýt grub?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Budete vědět, jak vrátit Grub v případě selhání?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Budete mít přístup k SnapShots bez přístupu k režimu Graph?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Jste si touto aplikací zcela jisti?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Přihláška, počkejte..."
-
-msgid "Concluído!"
-msgstr "Hotový!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Výkon v rozšířeném režimu!"
-
-msgid "Temas"
-msgstr "Témata"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Desktop"
 msgstr "Stolní počítač"
 
-msgid "Ajustes"
-msgstr "Nastavení"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Theme"
+msgstr "Téma"
 
-msgid "Desempenho do desktop"
-msgstr "Výkon stolních počítačů"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Configuration"
+msgstr "Konfigurace"
 
-msgid "Desempenho"
-msgstr "Představení"
-
-msgid "Aceleração do navegador"
-msgstr "Zrychlení prohlížeče"
-
-msgid "Tema dos aplicativos"
-msgstr "Téma aplikace"
-
-msgid "Abrir"
-msgstr "Otevřený"
-
-msgid "Fechar"
-msgstr "Zavřít"
-
-msgid "Bordas arredondadas."
-msgstr "Zaoblené hrany."
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Toto téma obsahuje průsvitky s efekty, které mohou<br>zpomalit systém na starých počítačích<br>nebo "
-"ve virtualizovaných prostředích."
-
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "Nejlépe se osvědčují <b>klasické</b>, <b>nové</b> a <b>moderní</b>."
-
-msgid "Renderizar o desktop via software"
-msgstr "Vykreslování pracovní plochy pomocí softwaru"
-
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(Může být užitečné ve starších počítačích, ale některé programy přestanou fungovat)"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Výběr programů, které se mají načíst do paměti při spuštění systému"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Předběžné načtení načte soubory programu do paměti, aby se rychle spustily. Nadměrné používání "
-"způsobuje zpomalení. Vyberte požadovanou možnost:"
-
-msgid "Ligar RGB do teclado"
-msgstr "Připojení RGB z klávesnice"
-
-msgid "Automático"
-msgstr "Automatické"
-
-msgid "Ativar"
-msgstr "Aktivace"
-
-msgid "Desativar"
-msgstr "Deaktivace"
-
-msgid "Configurações do Brave"
-msgstr "Odvážné konfigurace"
-
-msgid "Escolha a opção desejada:"
-msgstr "Vyberte požadovanou možnost:"
-
-msgid "Remover propagandas"
-msgstr "Odstranění reklam"
-
-msgid "Suportar criptomoedas"
-msgstr "Podpora kryptoměn"
-
-msgid "Usabilidade"
-msgstr "Použitelnost"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Tlačítka okna na levé straně"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Obrácené posouvání myší"
-
-msgid "Rolagem do touchpad invertida"
-msgstr "Posouvání invertovaného touchpadu"
-
-msgid "Pesquisar arquivos"
-msgstr "Vyhledávání v archivech"
-
-msgid "Bloquear a edição da área de trabalho "
-msgstr "Blokovat úpravy plochy "
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Skrytí správce spouštění systému (GRUB)"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Povolení zámku NumLock při spuštění systému"
-
-msgid "Tema aplicado"
-msgstr "Použité téma"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Chcete-li dokončit konfiguraci, musíte relaci restartovat."
-
-msgid "Configuração do Desktop"
-msgstr "Konfigurace pracovní plochy"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr ""
-"Používali jste tuto plochu již dříve, chcete obnovit její přizpůsobení nebo použít původní "
+"Tuto plochu jste již dříve používali, chcete obnovit vlastní nastavení nebo použít původní "
 "konfiguraci?"
 
-msgid "Sim"
-msgstr "Ano"
-
-msgid "Não"
-msgstr "Ne"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Original"
 msgstr "Originál"
 
-msgid "Restaurar"
-msgstr "Obnovení"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Restore"
+msgstr "Obnovit"
 
-msgid "Desktop aplicado"
-msgstr "Použitá plocha"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Applying"
+msgstr "Použití"
 
-msgid "Modo performance"
-msgstr "Režim výkonu"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "Nastavení bylo změněno. Chcete-li je použít v celém systému, odhlaste se a znovu se přihlaste."
 
-msgid "BTRFS sem fsync"
-msgstr "BTRFS bez fsync"
-
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Při softwarovém vykreslování se snižuje kvalita průsvitek."
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Motivy, plocha a nastavení"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "OK"
+msgstr "OK"

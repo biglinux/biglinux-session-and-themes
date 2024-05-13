@@ -16,205 +16,53 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"A kiválasztott asztali konfiguráció már használatban van ezen a rendszeren,\n"
-"vissza szeretné állítani a már használt konfigurációt?\n"
-"\n"
-"Válassza a no lehetőséget az alapértelmezett rendszerkonfiguráció használatához.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfiguráció alkalmazva!\n"
-"\n"
-"Kijelentkezés és újbóli bejelentkezés\n"
-"a konfiguráció befejezéséhez\n"
-"alkalmazott."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ha böngészőt használ, indítsa újra a módosítások alkalmazásához."
-
-msgid "Desempenho em modo normal!"
-msgstr "Teljesítmény normál üzemmódban!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Teljesítmény teljesítmény üzemmódban!"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Vigyázzon, elveszíti hozzáférését a SnapShots-hoz, biztos benne, hogy el akarja rejteni a grubot?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Tudni fogja, hogyan kell visszaadni a Grub-ot hiba esetén?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Képes lesz hozzáférni a SnapShots-hoz anélkül, hogy hozzáférne a Graph módhoz?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Teljesen biztos ebben az alkalmazásban?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Jelentkezés, várakozás..."
-
-msgid "Concluído!"
-msgstr "Kész!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Teljesítmény továbbfejlesztett üzemmódban!"
-
-msgid "Temas"
-msgstr "Témák"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Desktop"
 msgstr "Asztali"
 
-msgid "Ajustes"
-msgstr "Beállítások"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Theme"
+msgstr "Téma"
 
-msgid "Desempenho do desktop"
-msgstr "Asztali teljesítmény"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Configuration"
+msgstr "Konfiguráció"
 
-msgid "Desempenho"
-msgstr "Teljesítmény"
-
-msgid "Aceleração do navegador"
-msgstr "Böngésző gyorsítás"
-
-msgid "Tema dos aplicativos"
-msgstr "Alkalmazás témája"
-
-msgid "Abrir"
-msgstr "Nyitott"
-
-msgid "Fechar"
-msgstr "Zárja be a"
-
-msgid "Bordas arredondadas."
-msgstr "Lekerekített élek."
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Ez a téma olyan transzparenciákkal rendelkezik<br>, amelyek effektusai lelassíthatják a "
-"rendszert<br>régebbi számítógépeken vagy virtualizált környezetekben."
+"Korábban már használta ezt az asztalt, vissza szeretné állítani a testreszabást, vagy az eredeti "
+"konfigurációt szeretné használni?"
 
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "A <b>klasszikus</b>, az <b>új</b> és a <b>modern</b> a legjobban teljesít."
-
-msgid "Renderizar o desktop via software"
-msgstr "Az asztal megjelenítése szoftveresen"
-
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(Hasznos lehet régebbi számítógépeken, de egyes programok nem működnek)"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "A memóriába betöltendő programok kiválasztása a rendszerindításkor"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Az előtöltés a programfájlokat tölti be a memóriába, így azok gyorsan elindulnak. A túlzott "
-"használat lassulást okoz. Válassza ki a kívánt opciót:"
-
-msgid "Ligar RGB do teclado"
-msgstr "RGB csatlakoztatása a billentyűzetről"
-
-msgid "Automático"
-msgstr "Automatikus"
-
-msgid "Ativar"
-msgstr "Aktiválja a  címet"
-
-msgid "Desativar"
-msgstr "A  deaktiválása"
-
-msgid "Configurações do Brave"
-msgstr "Bátor konfigurációk"
-
-msgid "Escolha a opção desejada:"
-msgstr "Válassza ki a kívánt opciót:"
-
-msgid "Remover propagandas"
-msgstr "Reklámok eltávolítása"
-
-msgid "Suportar criptomoedas"
-msgstr "Kriptovaluták támogatása"
-
-msgid "Usabilidade"
-msgstr "Használhatóság"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Ablak gombok a bal oldalon"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Invertált egér görgetés"
-
-msgid "Rolagem do touchpad invertida"
-msgstr "Fordított érintőpad görgetése"
-
-msgid "Pesquisar arquivos"
-msgstr "Keresés az archívumban"
-
-msgid "Bloquear a edição da área de trabalho "
-msgstr "Asztali szerkesztés blokkolása "
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Elrejteni a Boot Manager (GRUB)"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "A NumLock engedélyezése a rendszer indításakor"
-
-msgid "Tema aplicado"
-msgstr "Alkalmazott téma"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "A konfiguráció befejezéséhez újra kell indítania a munkamenetet."
-
-msgid "Configuração do Desktop"
-msgstr "Asztali konfiguráció"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr ""
-"Használtad már korábban ezt az asztalt, vissza akarod állítani a testreszabását, vagy az eredeti "
-"konfigurációt szeretnéd használni?"
-
-msgid "Sim"
-msgstr "Igen"
-
-msgid "Não"
-msgstr "Nem"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Original"
 msgstr "Eredeti"
 
-msgid "Restaurar"
-msgstr "Visszaállítás"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Restore"
+msgstr "Visszaad"
 
-msgid "Desktop aplicado"
-msgstr "Asztali alkalmazás"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Applying"
+msgstr "Alkalmazása"
 
-msgid "Modo performance"
-msgstr "Teljesítmény mód"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr ""
+"A beállítások megváltoztak. Ha az egész rendszerben alkalmazni szeretné őket, jelentkezzen ki, majd "
+"jelentkezzen be újra."
 
-msgid "BTRFS sem fsync"
-msgstr "BTRFS fsync nélkül"
-
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "A szoftveres rendereléssel a fóliák minősége csökken."
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Témák, Asztal és beállítások"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "OK"
+msgstr "OKÉ"

@@ -16,199 +16,49 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"選択されたデスクトップ構成は、このシステムですでに使用されています。\n"
-"すでに使用されているコンフィギュレーションを復元しますか？\n"
-"\n"
-"デフォルトのシステム構成を使用する場合は、no を選択します。\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"コンフィギュレーションを適用しました\n"
-"\n"
-"一度ログアウトし、再度ログインする\n"
-"コンフィギュレーションが終了するまでの間\n"
-"を適用しました。"
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "ブラウザーを使用している場合は、ブラウザーを再始動して変更を適用します。"
-
-msgid "Desempenho em modo normal!"
-msgstr "ノーマルモードでのパフォーマンス!"
-
-msgid "Desempenho em modo performance!"
-msgstr "パフォーマンスモードでのパフォーマンス!"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "スナップショットにアクセスできなくなることに注意してください、グラブを非表示にしてもよろしいですか?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "失敗した場合にGrubを返す方法を知っていますか?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "グラフモードにアクセスせずにスナップショットにアクセスできますか?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "あなたはこのアプリケーションを完全に確信していますか?"
-
-msgid "Aplicando, aguarde..."
-msgstr "適用中、待機中..."
-
-msgid "Concluído!"
-msgstr "完成です！"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "エンハンスドモードでのパフォーマンス!"
-
-msgid "Temas"
-msgstr "テーマ"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Desktop"
 msgstr "デスクトップ"
 
-msgid "Ajustes"
-msgstr "設定"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Theme"
+msgstr "テーマ"
 
-msgid "Desempenho do desktop"
-msgstr "デスクトップパフォーマンス"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Configuration"
+msgstr "構成"
 
-msgid "Desempenho"
-msgstr "パフォーマンス"
-
-msgid "Aceleração do navegador"
-msgstr "ブラウザーアクセラレーション"
-
-msgid "Tema dos aplicativos"
-msgstr "アプリケーションテーマ"
-
-msgid "Abrir"
-msgstr "開ける"
-
-msgid "Fechar"
-msgstr "閉じる"
-
-msgid "Bordas arredondadas."
-msgstr "エッジを丸くした。"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
-msgstr "このテーマには、<br>\">古いコンピューターや仮想化環境でシステムの速度を低下させる可能性のある<br>効果のある透明度があります。"
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr "このデスクトップを以前に使用したことがありますが、カスタマイズを復元しますか、それとも元の構成を使用しますか?"
 
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>クラシック</b>、<b>ニュー</b>、<b>モダンの</b>3つがベストパフォーマンスです。"
-
-msgid "Renderizar o desktop via software"
-msgstr "ソフトウェアによるデスクトップのレンダリング"
-
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(古いコンピュータでは便利かもしれませんが、一部のプログラムは動作を停止します)"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "起動時にメモリに読み込むプログラムを選択する"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr "プリロードは、プログラムファイルをメモリにロードし、素早く起動できるようにします。過剰に使用すると、動作が遅くなる。希望するオプションを選択します。"
-
-msgid "Ligar RGB do teclado"
-msgstr "キーボードからRGBを接続する"
-
-msgid "Automático"
-msgstr "自動"
-
-msgid "Ativar"
-msgstr "アクティベート"
-
-msgid "Desativar"
-msgstr "非アクティブ化"
-
-msgid "Configurações do Brave"
-msgstr "ブレイブコンフィギュレーション"
-
-msgid "Escolha a opção desejada:"
-msgstr "希望するオプションを選択します。"
-
-msgid "Remover propagandas"
-msgstr "広告を削除する"
-
-msgid "Suportar criptomoedas"
-msgstr "暗号通貨への対応"
-
-msgid "Usabilidade"
-msgstr "ユーザビリティ"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "左側にあるウィンドウのボタン"
-
-msgid "Rolagem do mouse invertida"
-msgstr "マウスのスクロールが反転する"
-
-msgid "Rolagem do touchpad invertida"
-msgstr "反転タッチパッドスクロール"
-
-msgid "Pesquisar arquivos"
-msgstr "アーカイブを検索する"
-
-msgid "Bloquear a edição da área de trabalho "
-msgstr "デスクトップ編集をブロックする "
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "ブートマネージャ（GRUB）の非表示"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "システム起動時にNumLockを有効にする"
-
-msgid "Tema aplicado"
-msgstr "適用テーマ"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "構成を完了するには、セッションを再始動する必要があります。"
-
-msgid "Configuração do Desktop"
-msgstr "デスクトップ構成"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr "このデスクトップを以前に使用したことがあり、そのカスタマイズを復元したいのか、それとも元の設定を使用したいのか？"
-
-msgid "Sim"
-msgstr "はい"
-
-msgid "Não"
-msgstr "いいえ"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Original"
 msgstr "オリジナル"
 
-msgid "Restaurar"
-msgstr "リストア"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Restore"
+msgstr "戻す"
 
-msgid "Desktop aplicado"
-msgstr "デスクトップ適用"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Applying"
+msgstr "適用"
 
-msgid "Modo performance"
-msgstr "パフォーマンスモード"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "設定が変更されました。システム全体に適用するには、ログオフして再度ログインします。"
 
-msgid "BTRFS sem fsync"
-msgstr "fsync を使用しない BTRFS"
-
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "ソフトウェアレンダリングを使用すると、透明度の高い画質が低下します。"
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "テーマ、デスクトップ、設定"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "OK"
+msgstr "わかりました"

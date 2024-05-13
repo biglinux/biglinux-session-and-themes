@@ -16,205 +16,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"The selected desktop configuration has already been used on this system,\n"
-"do you want to restore the configuration that has already been used?\n"
-"\n"
-"Select no to use the default system configuration.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Configuration applied!\n"
-"\n"
-"Log out and log in again\n"
-"again for the configuration to finish\n"
-"applied."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "If you are using a browser, restart it to apply the changes."
-
-msgid "Desempenho em modo normal!"
-msgstr "Performance in normal mode!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Performance in performance mode!"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Beware you will lose access to SnapShots, are you sure you want to hide the grub?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Will you know how to return Grub in case of failure?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Will you be able to access SnapShots without access to Graph mode?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Are you completely sure of this application?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Applying, wait..."
-
-msgid "Concluído!"
-msgstr "Done!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Performance in enhanced mode!"
-
-msgid "Temas"
-msgstr "Themes"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Desktop"
 msgstr "Desktop"
 
-msgid "Ajustes"
-msgstr "Settings"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Theme"
+msgstr "Theme"
 
-msgid "Desempenho do desktop"
-msgstr "Desktop performance"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Configuration"
+msgstr "Configuration"
 
-msgid "Desempenho"
-msgstr "Performance"
-
-msgid "Aceleração do navegador"
-msgstr "Browser acceleration"
-
-msgid "Tema dos aplicativos"
-msgstr "Application theme"
-
-msgid "Abrir"
-msgstr "Open"
-
-msgid "Fechar"
-msgstr "Close"
-
-msgid "Bordas arredondadas."
-msgstr "Rounded edges."
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"This theme has transparencies with effects that can<br>slow down the system on old computers<br>or "
-"virtualized environments."
-
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Classic</b>, <b>New</b> and <b>Modern</b> perform best."
-
-msgid "Renderizar o desktop via software"
-msgstr "Rendering the desktop via software"
-
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(It may be useful on older computers, but some programs stop working)"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Choosing programs to load into memory during boot"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Preload loads program files into memory so that they start quickly. Excessive use causes slowdowns. "
-"Choose the desired option:"
-
-msgid "Ligar RGB do teclado"
-msgstr "Connect RGB from keyboard"
-
-msgid "Automático"
-msgstr "Automatic"
-
-msgid "Ativar"
-msgstr "Activate"
-
-msgid "Desativar"
-msgstr "Deactivate"
-
-msgid "Configurações do Brave"
-msgstr "Brave configurations"
-
-msgid "Escolha a opção desejada:"
-msgstr "Choose the desired option:"
-
-msgid "Remover propagandas"
-msgstr "Remove advertisements"
-
-msgid "Suportar criptomoedas"
-msgstr "Support cryptocurrencies"
-
-msgid "Usabilidade"
-msgstr "Usability"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Window buttons on the left side"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Mouse scrolling inverted"
-
-msgid "Rolagem do touchpad invertida"
-msgstr "Inverted touchpad scrolling"
-
-msgid "Pesquisar arquivos"
-msgstr "Search archives"
-
-msgid "Bloquear a edição da área de trabalho "
-msgstr "Block desktop editing "
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Hide Boot Manager (GRUB)"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Enable NumLock on system startup"
-
-msgid "Tema aplicado"
-msgstr "Applied theme"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "You must restart the session to complete the configuration."
-
-msgid "Configuração do Desktop"
-msgstr "Desktop Configuration"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr ""
-"Have you used this desktop before, do you want to restore its customization or use the original "
+"You've used this desktop before, do you want to restore your customization or use the original "
 "configuration?"
 
-msgid "Sim"
-msgstr "Yes"
-
-msgid "Não"
-msgstr "No"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Original"
 msgstr "Original"
 
-msgid "Restaurar"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Restore"
 msgstr "Restore"
 
-msgid "Desktop aplicado"
-msgstr "Applied Desktop"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Applying"
+msgstr "Applying"
 
-msgid "Modo performance"
-msgstr "Performance mode"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "The settings have been changed. To apply them throughout the system, log off and log in again."
 
-msgid "BTRFS sem fsync"
-msgstr "BTRFS without fsync"
-
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Using software rendering, the quality of transparencies is reduced."
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Themes, Desktop and Settings"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "OK"
+msgstr "OK"

@@ -16,205 +16,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Den valgte skrivebordskonfigurasjonen er allerede brukt på dette systemet,\n"
-"vil du gjenopprette konfigurasjonen som allerede er brukt?\n"
-"\n"
-"Velg nei for å bruke standard systeminnstilling.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfigurasjon brukt!\n"
-"\n"
-"Logg ut og logg inn igjen\n"
-"for at konfigurasjonen skal fullføres\n"
-"brukes."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Hvis du bruker en leser, starter du den på nytt for å ta i bruk endringene."
-
-msgid "Desempenho em modo normal!"
-msgstr "Ytelse i normal modus!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Ytelse i ytelsesmodus!"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Pass på at du mister tilgangen til SnapShots, er du sikker på at du vil skjule grub?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Vil du vite hvordan du returnerer Grub i tilfelle feil?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Vil du kunne få tilgang til SnapShots uten tilgang til Graph-modus?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Er du helt sikker på denne applikasjonen?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Søker, venter..."
-
-msgid "Concluído!"
-msgstr "Gjort!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Ytelse i optimalisert modus!"
-
-msgid "Temas"
-msgstr "Emner"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Desktop"
 msgstr "Skrivebord"
 
-msgid "Ajustes"
-msgstr "justeringer"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Theme"
+msgstr "Tema"
 
-msgid "Desempenho do desktop"
-msgstr "Ytelse på skrivebordet"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Configuration"
+msgstr "Konfigurasjon"
 
-msgid "Desempenho"
-msgstr "Prestasjon"
-
-msgid "Aceleração do navegador"
-msgstr "Browser akselerasjon"
-
-msgid "Tema dos aplicativos"
-msgstr "Apps tema"
-
-msgid "Abrir"
-msgstr "Åpen"
-
-msgid "Fechar"
-msgstr "Lukk"
-
-msgid "Bordas arredondadas."
-msgstr "Avrundede kanter."
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Dette temaet har transparenter med effekter som <br>kan bremse systemet på <br>gamle datamaskiner "
-"eller virtualiserte miljøer."
+"Du har brukt dette skrivebordet før, vil du gjenopprette tilpasningen eller bruke den opprinnelige "
+"konfigurasjonen?"
 
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Klassisk</b>,<b>Ny</b>, og<b>Modern</b>presterer bedre."
-
-msgid "Renderizar o desktop via software"
-msgstr "Gjengi skrivebordet via programvare"
-
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(Det kan være nyttig på eldre datamaskiner, men noen programmer slutter å fungere)"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Velg programmer som skal lastes inn i minnet under oppstart"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Preload laster programfiler inn i minnet slik at de starter raskt. Overforbruk forårsaker treghet. "
-"Velg ønsket alternativ:"
-
-msgid "Ligar RGB do teclado"
-msgstr "Koble RGB fra tastaturet"
-
-msgid "Automático"
-msgstr "Auto"
-
-msgid "Ativar"
-msgstr "Aktiver"
-
-msgid "Desativar"
-msgstr "Deaktiver"
-
-msgid "Configurações do Brave"
-msgstr "Brave innstillinger"
-
-msgid "Escolha a opção desejada:"
-msgstr "Velg ønsket alternativ:"
-
-msgid "Remover propagandas"
-msgstr "Fjern annonser"
-
-msgid "Suportar criptomoedas"
-msgstr "Støtte kryptovalutaer"
-
-msgid "Usabilidade"
-msgstr "Brukervennlighet"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Vindusknapper på venstre side"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Reversert mus bla"
-
-msgid "Rolagem do touchpad invertida"
-msgstr "Invertert styreputerulling"
-
-msgid "Pesquisar arquivos"
-msgstr "Søk etter filer"
-
-msgid "Bloquear a edição da área de trabalho "
-msgstr "Blokkere skrivebordsredigering "
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Skjul Boot Manager (GRUB)"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktiver NumLock når du slår på systemet"
-
-msgid "Tema aplicado"
-msgstr "Anvendt tema"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Du må starte økten på nytt for å fullføre konfigurasjonen."
-
-msgid "Configuração do Desktop"
-msgstr "Oppsett av skrivebord"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr ""
-"Har du brukt dette skrivebordet før, vil du gjenopprette personaliseringen eller bruke den "
-"opprinnelige konfigurasjonen?"
-
-msgid "Sim"
-msgstr "Ja"
-
-msgid "Não"
-msgstr "Nei, nei"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Original"
 msgstr "Original"
 
-msgid "Restaurar"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Restore"
 msgstr "Gjenopprette"
 
-msgid "Desktop aplicado"
-msgstr "Anvendt skrivebord"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Applying"
+msgstr "Bruke"
 
-msgid "Modo performance"
-msgstr "Ytelsesmodus"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "Innstillingene er endret. For å bruke dem i hele systemet, logg av og logg på igjen."
 
-msgid "BTRFS sem fsync"
-msgstr "BTRFS uten fsync"
-
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Ved å bruke programvaregjengivelse reduseres kvaliteten på transparentene."
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Temaer, skrivebord og justeringer"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "OK"
+msgstr "OK"

@@ -16,205 +16,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Valitud töölaua konfiguratsiooni on selles süsteemis juba kasutatud,\n"
-"kas soovite taastada juba kasutatud konfiguratsiooni?\n"
-"\n"
-"Valige ei, et kasutada süsteemi vaikimisi konfiguratsiooni.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Konfigureerimine rakendatud!\n"
-"\n"
-"Logi välja ja logi uuesti sisse\n"
-"konfiguratsiooni lõpetamiseks\n"
-"kohaldatud."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Kui kasutate brauserit, taaskäivitage see muudatuste rakendamiseks."
-
-msgid "Desempenho em modo normal!"
-msgstr "Tulemuslikkus tavarežiimis!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Esitlusvõime esitusrežiimis!"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Ettevaatust, et kaotate juurdepääsu SnapShotsile, kas olete kindel, et soovite grubi varjata?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Kas teate, kuidas Grubi ebaõnnestumise korral tagastada?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Kas pääsete SnapShotsile juurde ilma graafikurežiimile juurdepääsuta?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Kas olete selles rakenduses täiesti kindel?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Taotlemine, oota..."
-
-msgid "Concluído!"
-msgstr "Teinud!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Täiustatud režiimil toimimine!"
-
-msgid "Temas"
-msgstr "Teemad"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Desktop"
 msgstr "Töölauaarvuti"
 
-msgid "Ajustes"
-msgstr "Seaded"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Theme"
+msgstr "Theme"
 
-msgid "Desempenho do desktop"
-msgstr "Töölaua jõudlus"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Configuration"
+msgstr "Konfiguratsiooni"
 
-msgid "Desempenho"
-msgstr "Jõudlust"
-
-msgid "Aceleração do navegador"
-msgstr "Brauseri kiirendus"
-
-msgid "Tema dos aplicativos"
-msgstr "Rakenduse teema"
-
-msgid "Abrir"
-msgstr "Avama"
-
-msgid "Fechar"
-msgstr "Sulge"
-
-msgid "Bordas arredondadas."
-msgstr "Ümarad servad."
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Selles teemas on efektidega läbipaistvused, mis võivad<br>vanades arvutites<br>või virtualiseeritud "
-"keskkondadessüsteemi aeglustada."
-
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "Kõige paremini toimivad <b>klassikaline</b>, <b>uus</b> ja <b>kaasaegne</b>."
-
-msgid "Renderizar o desktop via software"
-msgstr "Töölaua renderdamine tarkvara abil"
-
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(See võib olla kasulik vanemates arvutites, kuid mõned programmid lakkavad töötamast)"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Valige programmid, mis laaditakse mällu käivitamise ajal"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Eellaadimine laeb programmifailid mällu, et need käivituksid kiiresti. Liigne kasutamine põhjustab "
-"aeglustumist. Valige soovitud valik:"
-
-msgid "Ligar RGB do teclado"
-msgstr "Ühendage RGB klaviatuurilt"
-
-msgid "Automático"
-msgstr "Automaatne"
-
-msgid "Ativar"
-msgstr "Aktiveeri"
-
-msgid "Desativar"
-msgstr "Deaktiveeri"
-
-msgid "Configurações do Brave"
-msgstr "Julged konfiguratsioonid"
-
-msgid "Escolha a opção desejada:"
-msgstr "Valige soovitud valik:"
-
-msgid "Remover propagandas"
-msgstr "Eemaldage reklaamid"
-
-msgid "Suportar criptomoedas"
-msgstr "Krüptovaluutade toetamine"
-
-msgid "Usabilidade"
-msgstr "Kasutatavus"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Akna nupud vasakul pool"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Ümberpööratud hiire kerimine"
-
-msgid "Rolagem do touchpad invertida"
-msgstr "Ümberpööratud puuteplaadi kerimine"
-
-msgid "Pesquisar arquivos"
-msgstr "Otsi arhiivides"
-
-msgid "Bloquear a edição da área de trabalho "
-msgstr "Töölaua redigeerimise blokeerimine "
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Hide Boot Manager (GRUB)"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "NumLocki lubamine süsteemi käivitamisel"
-
-msgid "Tema aplicado"
-msgstr "Kohaldatud teema"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Konfigureerimise lõpuleviimiseks peate seansi taaskäivitama."
-
-msgid "Configuração do Desktop"
-msgstr "Töölaua konfiguratsioon"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr ""
-"Kas olete seda töölauda varem kasutanud, kas soovite taastada selle kohandamise või kasutada algset "
+"Kas olete seda töölauda varem kasutanud, kas soovite oma kohanduse taastada või kasutada algset "
 "konfiguratsiooni?"
 
-msgid "Sim"
-msgstr "Jah"
-
-msgid "Não"
-msgstr "Ei"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Original"
 msgstr "Originaal"
 
-msgid "Restaurar"
-msgstr "Taasta"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Restore"
+msgstr "Taastada"
 
-msgid "Desktop aplicado"
-msgstr "Rakendatud töölauale"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Applying"
+msgstr "Kohaldamisel"
 
-msgid "Modo performance"
-msgstr "Jõudluse režiim"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "Seadeid on muudetud. Nende rakendamiseks kogu süsteemis logige välja ja logige uuesti sisse."
 
-msgid "BTRFS sem fsync"
-msgstr "BTRFS ilma fsyncita"
-
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Tarkvaralist renderdamist kasutades väheneb läbipaistvuse kvaliteet."
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teemad, töölaud ja seaded"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "OK"
+msgstr "OK"

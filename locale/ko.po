@@ -16,199 +16,49 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"선택한 데스크톱 구성이 이 시스템에서 이미 사용되었습니다.\n"
-"이미 사용된 구성을 복원하시겠습니까?\n"
-"\n"
-"기본 시스템 설정을 사용하려면 no를 선택합니다.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"구성이 적용되었습니다!\n"
-"\n"
-"로그아웃했다가 다시 로그인\n"
-"구성을 마칠 수 있습니다.\n"
-"적용될 수 있습니다."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "브라우저를 사용하는 경우 브라우저를 다시 시작하여 변경 내용을 적용합니다."
-
-msgid "Desempenho em modo normal!"
-msgstr "일반 모드에서의 성능!"
-
-msgid "Desempenho em modo performance!"
-msgstr "퍼포먼스 모드에서의 퍼포먼스!"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "SnapShots에 대한 액세스 권한을 잃을 수 있으므로 땅벌레를 숨기고 싶습니까?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "실패시 Grub을 반환하는 방법을 알고 있습니까?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "그래프 모드에 액세스하지 않고도 SnapShot에 액세스할 수 있습니까?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "이 응용 프로그램을 완전히 확신합니까?"
-
-msgid "Aplicando, aguarde..."
-msgstr "적용 중, 잠깐만..."
-
-msgid "Concluído!"
-msgstr "수행!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "최적화된 모드에서의 성능!"
-
-msgid "Temas"
-msgstr "토픽"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Desktop"
 msgstr "데스크탑"
 
-msgid "Ajustes"
-msgstr "비틀기"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Theme"
+msgstr "주제"
 
-msgid "Desempenho do desktop"
-msgstr "데스크탑 성능"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Configuration"
+msgstr "구성"
 
-msgid "Desempenho"
-msgstr "공연"
-
-msgid "Aceleração do navegador"
-msgstr "브라우저 가속"
-
-msgid "Tema dos aplicativos"
-msgstr "앱 테마"
-
-msgid "Abrir"
-msgstr "열다"
-
-msgid "Fechar"
-msgstr "닫기"
-
-msgid "Bordas arredondadas."
-msgstr "모서리가 둥글다."
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
-msgstr "이 테마에는 <br><br>이전 컴퓨터 또는 가상화된 환경에서 시스템 속도를 저하시킬 수 있는 효과가 있는 투명 필름이 있습니다."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr "이전에 이 데스크톱을 사용한 적이 있는데 사용자 지정을 복원하시겠습니까, 아니면 원래 구성을 사용하시겠습니까?"
 
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>클래식</b>, <b>뉴</b>, <b>모던 퍼포먼스가</b> 더 좋습니다."
-
-msgid "Renderizar o desktop via software"
-msgstr "소프트웨어를 통한 데스크탑 렌더링"
-
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(구형 컴퓨터에서는 유용 할 수 있지만 일부 프로그램은 작동을 멈 춥니 다)"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "부팅 중에 메모리에 로드할 프로그램 선택"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr "Preload는 프로그램 파일을 메모리에 로드하여 빠르게 시작합니다.과도하게 사용하면 속도가 느려집니다.원하는 옵션을 선택합니다."
-
-msgid "Ligar RGB do teclado"
-msgstr "키보드에서 RGB 연결"
-
-msgid "Automático"
-msgstr "자동"
-
-msgid "Ativar"
-msgstr "활성화"
-
-msgid "Desativar"
-msgstr "비활성화"
-
-msgid "Configurações do Brave"
-msgstr "브레이브 설정"
-
-msgid "Escolha a opção desejada:"
-msgstr "원하는 옵션을 선택합니다."
-
-msgid "Remover propagandas"
-msgstr "광고 삭제"
-
-msgid "Suportar criptomoedas"
-msgstr "암호화폐 지원"
-
-msgid "Usabilidade"
-msgstr "사용성"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "왼쪽에 있는 윈도우 버튼"
-
-msgid "Rolagem do mouse invertida"
-msgstr "반전된 마우스 스크롤"
-
-msgid "Rolagem do touchpad invertida"
-msgstr "반전된 터치패드 스크롤"
-
-msgid "Pesquisar arquivos"
-msgstr "파일 검색"
-
-msgid "Bloquear a edição da área de trabalho "
-msgstr "데스크톱 편집 차단 "
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "부트 관리자 숨기기 (GRUB)"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "시스템을 켤 때 NumLock 활성화"
-
-msgid "Tema aplicado"
-msgstr "적용된 테마"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "구성을 완료하려면 세션을 다시 시작해야 합니다."
-
-msgid "Configuração do Desktop"
-msgstr "데스크톱 설정"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr "이전에 이 데스크톱을 사용해 본 적이 있습니까? 개인 설정을 복원하거나 원래 구성을 사용하시겠습니까?"
-
-msgid "Sim"
-msgstr "예"
-
-msgid "Não"
-msgstr "아니"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Original"
 msgstr "오리지널"
 
-msgid "Restaurar"
-msgstr "리스토어"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Restore"
+msgstr "복원"
 
-msgid "Desktop aplicado"
-msgstr "응용 데스크톱"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Applying"
+msgstr "적용"
 
-msgid "Modo performance"
-msgstr "성능 모드"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "설정이 변경되었습니다. 시스템 전체에 적용하려면 로그오프했다가 다시 로그인하십시오."
 
-msgid "BTRFS sem fsync"
-msgstr "프싱크가 없는 BTRFS"
-
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "소프트웨어 렌더링을 사용하면 투명도의 품질이 저하됩니다."
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "테마, 데스크톱 및 조정"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "OK"
+msgstr "그래"

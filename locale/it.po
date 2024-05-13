@@ -16,205 +16,53 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"La configurazione desktop selezionata è già stata utilizzata su questo sistema,\n"
-"vuole ripristinare la configurazione che è già stata utilizzata?\n"
-"\n"
-"Selezioni no per utilizzare la configurazione di sistema predefinita.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Configurazione applicata!\n"
-"\n"
-"Esca e acceda di nuovo\n"
-"per terminare la configurazione\n"
-"applicato."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Se si utilizza un browser, riavviarlo per applicare le modifiche."
-
-msgid "Desempenho em modo normal!"
-msgstr "Prestazioni in modalità normale!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Prestazioni in modalità performance!"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Attenzione che perderai l'accesso agli SnapShot, sei sicuro di voler nascondere la larva?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Saprai come restituire Grub in caso di guasto?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Sarai in grado di accedere agli SnapShots senza accedere alla modalità Graph?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Sei completamente sicuro di questa applicazione?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Applicare, aspettare..."
-
-msgid "Concluído!"
-msgstr "Fatto!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Prestazioni in modalità potenziata!"
-
-msgid "Temas"
-msgstr "Temi"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Desktop"
 msgstr "Desktop"
 
-msgid "Ajustes"
-msgstr "Impostazioni"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Theme"
+msgstr "Tema"
 
-msgid "Desempenho do desktop"
-msgstr "Prestazioni del desktop"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Configuration"
+msgstr "Configurazione"
 
-msgid "Desempenho"
-msgstr "Prestazione"
-
-msgid "Aceleração do navegador"
-msgstr "Accelerazione del browser"
-
-msgid "Tema dos aplicativos"
-msgstr "Tema dell'applicazione"
-
-msgid "Abrir"
-msgstr "Aperto"
-
-msgid "Fechar"
-msgstr "Chiudere"
-
-msgid "Bordas arredondadas."
-msgstr "Bordi arrotondati."
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Questo tema presenta trasparenze con effetti che possono<br>rallentare il sistema su computer "
-"vecchi<br>o ambienti virtualizzati."
-
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "I <b>classici</b>, i <b>nuovi</b> e i <b>moderni</b> sono i più performanti."
-
-msgid "Renderizar o desktop via software"
-msgstr "Rendering del desktop via software"
-
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(Può essere utile su computer più vecchi, ma alcuni programmi smettono di funzionare)"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Scegliere i programmi da caricare in memoria al momento dell'avvio"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Il pre-caricamento carica i file di programma nella memoria, in modo che si avviino rapidamente. Un "
-"uso eccessivo causa rallentamenti. Scelga l'opzione desiderata:"
-
-msgid "Ligar RGB do teclado"
-msgstr "Collega RGB dalla tastiera"
-
-msgid "Automático"
-msgstr "Automatico"
-
-msgid "Ativar"
-msgstr "Attivare"
-
-msgid "Desativar"
-msgstr "Disattivare"
-
-msgid "Configurações do Brave"
-msgstr "Configurazioni coraggiose"
-
-msgid "Escolha a opção desejada:"
-msgstr "Scelga l'opzione desiderata:"
-
-msgid "Remover propagandas"
-msgstr "Rimuovere le pubblicità"
-
-msgid "Suportar criptomoedas"
-msgstr "Supporto alle criptovalute"
-
-msgid "Usabilidade"
-msgstr "Usabilità"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Pulsanti della finestra sul lato sinistro"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Scorrimento del mouse invertito"
-
-msgid "Rolagem do touchpad invertida"
-msgstr "Scorrimento invertito del touchpad"
-
-msgid "Pesquisar arquivos"
-msgstr "Cerca negli archivi"
-
-msgid "Bloquear a edição da área de trabalho "
-msgstr "Blocca l'editing del desktop "
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Nascondi Boot Manager (GRUB)"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Abilita il NumLock all'avvio del sistema"
-
-msgid "Tema aplicado"
-msgstr "Tema applicato"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "È necessario riavviare la sessione per completare la configurazione."
-
-msgid "Configuração do Desktop"
-msgstr "Configurazione del desktop"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr ""
-"Ha già utilizzato questo desktop in passato, vuole ripristinare la sua personalizzazione o "
+"Hai già utilizzato questo desktop in precedenza, vuoi ripristinare la personalizzazione o "
 "utilizzare la configurazione originale?"
 
-msgid "Sim"
-msgstr "Sì"
-
-msgid "Não"
-msgstr "No"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Original"
 msgstr "Originale"
 
-msgid "Restaurar"
-msgstr "Ripristino"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Restore"
+msgstr "Restaurare"
 
-msgid "Desktop aplicado"
-msgstr "Il desktop applicato"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Applying"
+msgstr "Applicazione"
 
-msgid "Modo performance"
-msgstr "Modalità prestazioni"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr ""
+"Le impostazioni sono state modificate. Per applicarli in tutto il sistema, disconnettersi e "
+"accedere nuovamente."
 
-msgid "BTRFS sem fsync"
-msgstr "BTRFS senza fsync"
-
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Utilizzando il rendering software, la qualità delle trasparenze si riduce."
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Temi, Desktop e Impostazioni"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "OK"
+msgstr "OK"

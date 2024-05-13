@@ -16,203 +16,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Вибрана конфігурація робочого столу вже використовувалася в цій системі,\n"
-"ви хочете відновити конфігурацію, яка вже використовувалася?\n"
-"\n"
-"Виберіть ні, щоб використовувати конфігурацію системи за замовчуванням.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Конфігурація застосована!\n"
-"\n"
-"Вийдіть і знову ввійдіть для завершення конфігурації застосовуватися."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Якщо ви використовуєте браузер, перезапустіть його, щоб застосувати зміни."
-
-msgid "Desempenho em modo normal!"
-msgstr "Продуктивність в оптимізованому режимі!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Продуктивність у режимі продуктивності!"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Остерігайтеся, що ви втратите доступ до SnapShots, ви впевнені, що хочете приховати образу?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Чи будете ви знати, як повернути Grub в разі невдачі?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Чи зможете ви отримати доступ до знімків без доступу до режиму графіка?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Ви повністю впевнені в цій програмі?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Подаючи заявку, почекайте..."
-
-msgid "Concluído!"
-msgstr "Зробити!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Продуктивність в оптимізованому режимі!"
-
-msgid "Temas"
-msgstr "теми"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Desktop"
 msgstr "Робочий стіл"
 
-msgid "Ajustes"
-msgstr "Налаштування"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Theme"
+msgstr "Тема"
 
-msgid "Desempenho do desktop"
-msgstr "продуктивність робочого столу"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Configuration"
+msgstr "Конфігурації"
 
-msgid "Desempenho"
-msgstr "Продуктивність"
-
-msgid "Aceleração do navegador"
-msgstr "прискорення браузера"
-
-msgid "Tema dos aplicativos"
-msgstr "Тема додатків"
-
-msgid "Abrir"
-msgstr "Відкривати"
-
-msgid "Fechar"
-msgstr " Закрити"
-
-msgid "Bordas arredondadas."
-msgstr "Закруглені краї."
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Ця тема містить прозорі плівки з ефектами, які<br>можуть уповільнити роботу системи на "
-"старих<br>комп’ютерах або віртуалізованих середовищах."
+"Ви вже користувалися цим робочим столом, хочете відновити налаштування або скористатися початковою "
+"конфігурацією?"
 
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Класичний</b>,<b>Новий</b>і<b>Сучасний</b>працюють краще."
-
-msgid "Renderizar o desktop via software"
-msgstr "Відтворіть робочий стіл за допомогою програмного забезпечення"
-
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(Це може бути корисно на старих комп'ютерах, але деякі програми перестають працювати)"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Виберіть програми для завантаження в пам'ять під час завантаження"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Попереднє завантаження завантажує програмні файли в пам’ять, щоб вони швидко запускалися. Надмірне "
-"використання викликає уповільнення. Виберіть потрібний варіант:"
-
-msgid "Ligar RGB do teclado"
-msgstr "Підключення RGB з клавіатури"
-
-msgid "Automático"
-msgstr "Автоматичний"
-
-msgid "Ativar"
-msgstr "активувати"
-
-msgid "Desativar"
-msgstr "вимкнути"
-
-msgid "Configurações do Brave"
-msgstr "Brave Settings"
-
-msgid "Escolha a opção desejada:"
-msgstr "Виберіть потрібний варіант:"
-
-msgid "Remover propagandas"
-msgstr "видалити рекламу"
-
-msgid "Suportar criptomoedas"
-msgstr "підтримка криптовалюти"
-
-msgid "Usabilidade"
-msgstr "Зручність використання"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Кнопки вікна з лівого боку"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Перевернута прокрутка миші"
-
-msgid "Rolagem do touchpad invertida"
-msgstr "Інвертована прокрутка тачпада"
-
-msgid "Pesquisar arquivos"
-msgstr "пошук файлів"
-
-msgid "Bloquear a edição da área de trabalho "
-msgstr "Блокування редагування робочого столу "
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Приховати менеджер завантаження (GRUB)"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Активуйте NumLock при включенні системи"
-
-msgid "Tema aplicado"
-msgstr "Прикладна тема"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Ви повинні перезапустити сеанс, щоб завершити налаштування."
-
-msgid "Configuração do Desktop"
-msgstr "Конфігурація робочого столу"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr ""
-"Ви використовували цей робочий стіл раніше, хочете відновити свої налаштування чи використати "
-"оригінальну конфігурацію?"
-
-msgid "Sim"
-msgstr "Так"
-
-msgid "Não"
-msgstr "Ні"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Original"
 msgstr "Оригінал"
 
-msgid "Restaurar"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Restore"
 msgstr "Відновити"
 
-msgid "Desktop aplicado"
-msgstr "Робочий стіл застосовано"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Applying"
+msgstr "Застосування"
 
-msgid "Modo performance"
-msgstr "Режим продуктивності"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "Налаштування змінено. Щоб застосувати їх у всій системі, вийдіть із системи та увійдіть знову."
 
-msgid "BTRFS sem fsync"
-msgstr "БТРФ без фсинк"
-
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Використання програмного рендеринга знижує якість прозорих плівк."
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Теми, робочий стіл і налаштування"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "OK"
+msgstr "ГАРАЗД"

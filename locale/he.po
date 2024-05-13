@@ -16,199 +16,49 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"תצורת שולחן העבודה שנבחרה כבר בשימוש במערכת זו,\n"
-"האם ברצונך לשחזר את התצורה שכבר נעשה בה שימוש?\n"
-"\n"
-"בחר לא כדי להשתמש בהגדרת ברירת המחדל של המערכת.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"תצורה הוחלה!\n"
-"\n"
-"צא והיכנס שוב\n"
-"עבור התצורה כדי לסיים\n"
-"להיות מיושם."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "אם אתה משתמש בדפדפן, הפעל אותו מחדש כדי להחיל את השינויים."
-
-msgid "Desempenho em modo normal!"
-msgstr "ביצועים במצב רגיל!"
-
-msgid "Desempenho em modo performance!"
-msgstr "ביצועים במצב ביצועים!"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "היזהר שתאבד את הגישה ל- SnapShots, האם אתה בטוח שאתה רוצה להסתיר את הגרגר?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "האם תדעו להחזיר את Grub במקרה של כישלון?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "האם תוכל לגשת ל- SnapShots ללא גישה למצב גרף?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "האם אתה בטוח לחלוטין ביישום זה?"
-
-msgid "Aplicando, aguarde..."
-msgstr "הגשת מועמדות, חכה..."
-
-msgid "Concluído!"
-msgstr "לעשות!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "ביצועים במצב מותאם!"
-
-msgid "Temas"
-msgstr "נושאים"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Desktop"
 msgstr "שולחן עבודה"
 
-msgid "Ajustes"
-msgstr "tweaks"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Theme"
+msgstr "ערכת נושא"
 
-msgid "Desempenho do desktop"
-msgstr "ביצועי מחשב שולחני"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Configuration"
+msgstr "תצורה"
 
-msgid "Desempenho"
-msgstr "ביצועים"
-
-msgid "Aceleração do navegador"
-msgstr "האצת דפדפן"
-
-msgid "Tema dos aplicativos"
-msgstr "נושא אפליקציות"
-
-msgid "Abrir"
-msgstr "פתוח"
-
-msgid "Fechar"
-msgstr "סגור"
-
-msgid "Bordas arredondadas."
-msgstr "קצוות מעוגלים."
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
-msgstr "לנושא זה שקפים עם אפקטים <br>שיכולים להאט את המערכת <br>במחשבים ישנים או בסביבות וירטואליות."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr "השתמשת בשולחן עבודה זה בעבר, האם ברצונך לשחזר את ההתאמה האישית או להשתמש בתצורה המקורית?"
 
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>קלאסי</b>,<b>חדש</b><b>ומודרני</b>ביצועים טובים יותר."
-
-msgid "Renderizar o desktop via software"
-msgstr "לעבד את שולחן העבודה באמצעות תוכנה"
-
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(זה עשוי להיות שימושי במחשבים ישנים יותר, אבל תוכניות מסוימות מפסיקות לעבוד)"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "בחר תוכניות לטעינה לזיכרון במהלך האתחול"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr "טען מראש טוען קבצי תוכנית לזיכרון כך שהם יתחילו במהירות. שימוש יתר גורם לאיטיות. בחר באפשרות הרצויה:"
-
-msgid "Ligar RGB do teclado"
-msgstr "חיבור RGB מהמקלדת"
-
-msgid "Automático"
-msgstr "אוטומטי"
-
-msgid "Ativar"
-msgstr "הפעל"
-
-msgid "Desativar"
-msgstr "בטל הפעלה"
-
-msgid "Configurações do Brave"
-msgstr "הגדרות אמיצות"
-
-msgid "Escolha a opção desejada:"
-msgstr "בחר באפשרות הרצויה:"
-
-msgid "Remover propagandas"
-msgstr "הסרת מודעות"
-
-msgid "Suportar criptomoedas"
-msgstr "תמיכה בקריפטו"
-
-msgid "Usabilidade"
-msgstr "שמישות"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "לחצני חלון בצד שמאל"
-
-msgid "Rolagem do mouse invertida"
-msgstr "גלילת עכבר הפוכה"
-
-msgid "Rolagem do touchpad invertida"
-msgstr "גלילת לוח מגע הפוך"
-
-msgid "Pesquisar arquivos"
-msgstr "חפש קבצים"
-
-msgid "Bloquear a edição da área de trabalho "
-msgstr "חסום עריכת שולחן עבודה "
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "הסתר את מנהל האתחול (GRUB)"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "הפעל את NumLock בעת הפעלת המערכת"
-
-msgid "Tema aplicado"
-msgstr "נושא יישומי"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "עליך להפעיל מחדש את ההפעלה כדי להשלים את התצורה."
-
-msgid "Configuração do Desktop"
-msgstr "הגדרת שולחן עבודה"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr "האם השתמשת בשולחן העבודה הזה בעבר, האם ברצונך לשחזר את ההתאמה האישית שלו או להשתמש בתצורה המקורית?"
-
-msgid "Sim"
-msgstr "הן"
-
-msgid "Não"
-msgstr "לא"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Original"
 msgstr "מקורי"
 
-msgid "Restaurar"
-msgstr "שחזור"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Restore"
+msgstr "לשחזר"
 
-msgid "Desktop aplicado"
-msgstr "שולחן עבודה יישומי"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Applying"
+msgstr "החלת"
 
-msgid "Modo performance"
-msgstr "מצב ביצועים"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "ההגדרות השתנו. כדי להחיל אותם בכל המערכת, התנתק והיכנס שוב."
 
-msgid "BTRFS sem fsync"
-msgstr "BTRFS ללא fsync"
-
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "על ידי שימוש בעיבוד תוכנה, איכות השקפים מופחתת."
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "ערכות נושא, שולחן עבודה והתאמות"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "OK"
+msgstr "אוקיי"

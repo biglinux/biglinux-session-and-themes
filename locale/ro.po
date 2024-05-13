@@ -16,205 +16,53 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Configurația de birou selectată a fost deja utilizată pe acest sistem,\n"
-"doriți să restaurați configurația care a fost deja utilizată?\n"
-"\n"
-"Selectați nu pentru a utiliza configurația implicită a sistemului.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Configurație aplicată!\n"
-"\n"
-"Deconectați-vă și conectați-vă din nou\n"
-"pentru finalizarea configurării\n"
-"aplicat."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Dacă utilizați un browser, reporniți-l pentru a aplica modificările."
-
-msgid "Desempenho em modo normal!"
-msgstr "Performanță în modul normal!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Performanță în modul performanță!"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Feriți-vă că veți pierde accesul la SnapShots, sunteți sigur că doriți să ascundeți grub-ul?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Veți ști cum să returnați Grub în caz de eșec?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Veți putea accesa SnapShots fără acces la modul Grafic?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Sunteți complet sigur de această aplicație?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Aplicând, așteptați..."
-
-msgid "Concluído!"
-msgstr "Făcut!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Performanță în modul îmbunătățit!"
-
-msgid "Temas"
-msgstr "Teme"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Desktop"
 msgstr "Desktop"
 
-msgid "Ajustes"
-msgstr "Setări"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Theme"
+msgstr "Temă"
 
-msgid "Desempenho do desktop"
-msgstr "Performanță desktop"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Configuration"
+msgstr "Configurație"
 
-msgid "Desempenho"
-msgstr "Performanță"
-
-msgid "Aceleração do navegador"
-msgstr "Accelerarea browserului"
-
-msgid "Tema dos aplicativos"
-msgstr "Tema aplicației"
-
-msgid "Abrir"
-msgstr "Deschide"
-
-msgid "Fechar"
-msgstr "Închideți"
-
-msgid "Bordas arredondadas."
-msgstr "Margini rotunjite."
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Această temă are transparențe cu efecte care pot<br>încetini sistemul pe calculatoarele "
-"vechi<br>sau în mediile virtualizate."
+"Ați mai utilizat acest desktop, doriți să restaurați particularizarea sau să utilizați configurația "
+"originală?"
 
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Clasic</b>, <b>Nou</b> și <b>Modern</b> au cele mai bune rezultate."
-
-msgid "Renderizar o desktop via software"
-msgstr "Redarea desktop-ului prin intermediul unui software"
-
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(Poate fi util pe computere mai vechi, dar unele programe nu mai funcționează)"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Alegeți programele care vor fi încărcate în memorie la pornire"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Preîncărcarea încarcă fișierele de program în memorie, astfel încât acestea să pornească rapid. "
-"Utilizarea excesivă cauzează încetiniri. Alegeți opțiunea dorită:"
-
-msgid "Ligar RGB do teclado"
-msgstr "Conectați RGB de la tastatură"
-
-msgid "Automático"
-msgstr "Automat"
-
-msgid "Ativar"
-msgstr "Activați"
-
-msgid "Desativar"
-msgstr "Dezactivați"
-
-msgid "Configurações do Brave"
-msgstr "Configurații curajoase"
-
-msgid "Escolha a opção desejada:"
-msgstr "Alegeți opțiunea dorită:"
-
-msgid "Remover propagandas"
-msgstr "Eliminați reclamele"
-
-msgid "Suportar criptomoedas"
-msgstr "Sprijinirea criptomonedelor"
-
-msgid "Usabilidade"
-msgstr "Utilizare"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Butoanele ferestrei din partea stângă"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Derulare inversată a mouse-ului"
-
-msgid "Rolagem do touchpad invertida"
-msgstr "Defilare touchpad inversat"
-
-msgid "Pesquisar arquivos"
-msgstr "Căutați în arhive"
-
-msgid "Bloquear a edição da área de trabalho "
-msgstr "Blocați editarea pe desktop "
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Ascundeți Managerul de pornire (GRUB)"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Activați NumLock la pornirea sistemului"
-
-msgid "Tema aplicado"
-msgstr "Tema aplicată"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Trebuie să reporniți sesiunea pentru a finaliza configurația."
-
-msgid "Configuração do Desktop"
-msgstr "Configurarea desktop-ului"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr ""
-"Ați mai folosit acest desktop înainte, doriți să restaurați personalizarea acestuia sau să "
-"utilizați configurația originală?"
-
-msgid "Sim"
-msgstr "Da"
-
-msgid "Não"
-msgstr "Nu"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Original"
 msgstr "Original"
 
-msgid "Restaurar"
-msgstr "Restaurați"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Restore"
+msgstr "Restaura"
 
-msgid "Desktop aplicado"
-msgstr "Desktop aplicat"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Applying"
+msgstr "Aplicarea"
 
-msgid "Modo performance"
-msgstr "Modul performanță"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr ""
+"Setările au fost modificate. Pentru a le aplica în întregul sistem, deconectați-vă și conectați-vă "
+"din nou."
 
-msgid "BTRFS sem fsync"
-msgstr "BTRFS fără fsync"
-
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Prin utilizarea randării software, calitatea transparențelor este redusă."
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teme, desktop și setări"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "OK"
+msgstr "OK"

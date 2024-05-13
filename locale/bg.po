@@ -16,205 +16,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid ""
-"\n"
-"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
-"deseja restaurar a configuração que já foi utilizada?\n"
-"\n"
-"Selecione não para utilizar a configuração padrão do sistema.\n"
-msgstr ""
-"\n"
-"Избраната конфигурация на работния плот вече е била използвана в тази система,\n"
-"искате ли да възстановите вече използваната конфигурация?\n"
-"\n"
-"Изберете no, за да използвате конфигурацията на системата по подразбиране.\n"
-
-msgid ""
-"Configuração aplicada!\n"
-"\n"
-"Finalize a sessão e faça login novamente\n"
-"para que a configuração termine de\n"
-"ser aplicada."
-msgstr ""
-"Конфигурацията е приложена!\n"
-"\n"
-"Излезте и влезте отново\n"
-"за завършване на конфигурацията\n"
-"прилага се."
-
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ако използвате браузър, рестартирайте го, за да приложите промените."
-
-msgid "Desempenho em modo normal!"
-msgstr "Изпълнение в нормален режим!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Изпълнение в режим на изпълнение!"
-
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Внимавайте, че ще загубите достъп до SnapShots, сигурни ли сте, че искате да скриете ларвата?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Ще знаете ли как да върнете Grub в случай на неуспех?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Ще имате ли достъп до SnapShots без достъп до режим Graph?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Напълно сигурни ли сте в това приложение?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Кандидатстване, чакай..."
-
-msgid "Concluído!"
-msgstr "Направи!"
-
-msgid "Desempenho em modo otimizado!"
-msgstr "Изпълнение в подобрен режим!"
-
-msgid "Temas"
-msgstr "Теми"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Desktop"
 msgstr "Настолен компютър"
 
-msgid "Ajustes"
-msgstr "Настройки"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Theme"
+msgstr "Тема"
 
-msgid "Desempenho do desktop"
-msgstr "Производителност на работния плот"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Configuration"
+msgstr "Конфигурация"
 
-msgid "Desempenho"
-msgstr "Изпълнение"
-
-msgid "Aceleração do navegador"
-msgstr "Ускоряване на браузъра"
-
-msgid "Tema dos aplicativos"
-msgstr "Тема на приложението"
-
-msgid "Abrir"
-msgstr "Отворя"
-
-msgid "Fechar"
-msgstr "Затвори"
-
-msgid "Bordas arredondadas."
-msgstr "Заоблени ръбове."
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Тази тема има прозрачни изображения с ефекти, които могат да<br>забавят системата на стари "
-"компютри<br>или виртуални среди."
-
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Класически</b>, <b>нови</b> и <b>модерни</b> се представят най-добре."
-
-msgid "Renderizar o desktop via software"
-msgstr "Изобразяване на работния плот чрез софтуер"
-
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "(Може да е полезно на по-стари компютри, но някои програми спират да работят)"
-
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Избор на програми, които да се зареждат в паметта по време на зареждане"
-
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr ""
-"Предварителното зареждане зарежда програмните файлове в паметта, за да се стартират бързо. "
-"Прекомерната употреба води до забавяне на работата. Изберете желаната опция:"
-
-msgid "Ligar RGB do teclado"
-msgstr "Свържете RGB от клавиатурата"
-
-msgid "Automático"
-msgstr "Автоматичен"
-
-msgid "Ativar"
-msgstr "Активиране на"
-
-msgid "Desativar"
-msgstr "Деактивиране на"
-
-msgid "Configurações do Brave"
-msgstr "Смели конфигурации"
-
-msgid "Escolha a opção desejada:"
-msgstr "Изберете желаната опция:"
-
-msgid "Remover propagandas"
-msgstr "Премахване на реклами"
-
-msgid "Suportar criptomoedas"
-msgstr "Поддръжка на криптовалути"
-
-msgid "Usabilidade"
-msgstr "Ползваемост"
-
-msgid "Botões da janela no lado esquerdo"
-msgstr "Бутони на прозореца от лявата страна"
-
-msgid "Rolagem do mouse invertida"
-msgstr "Обърнато превъртане на мишката"
-
-msgid "Rolagem do touchpad invertida"
-msgstr "Обърнато превъртане на тъчпада"
-
-msgid "Pesquisar arquivos"
-msgstr "Търсене в архивите"
-
-msgid "Bloquear a edição da área de trabalho "
-msgstr "Блокиране на редактирането на работния плот "
-
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Скриване на мениджъра за зареждане (GRUB)"
-
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Активиране на NumLock при стартиране на системата"
-
-msgid "Tema aplicado"
-msgstr "Приложена тема"
-
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Трябва да рестартирате сесията, за да завършите конфигурацията."
-
-msgid "Configuração do Desktop"
-msgstr "Конфигурация на работния плот"
-
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr ""
-"Използвали ли сте този десктоп преди, искате ли да възстановите персонализирането му или да "
+"Използвали сте този работен плот преди, искате ли да възстановите вашата персонализация или да "
 "използвате оригиналната конфигурация?"
 
-msgid "Sim"
-msgstr "Да"
-
-msgid "Não"
-msgstr "Не"
-
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid "Original"
 msgstr "Оригинал"
 
-msgid "Restaurar"
-msgstr "Възстановяване на"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Restore"
+msgstr "Възстановявам"
 
-msgid "Desktop aplicado"
-msgstr "Приложен работен плот"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "Applying"
+msgstr "Прилагане"
 
-msgid "Modo performance"
-msgstr "Режим на производителност"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "Настройките са променени. За да ги приложите в цялата система, излезте и влезте отново."
 
-msgid "BTRFS sem fsync"
-msgstr "BTRFS без fsync"
-
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "При използване на софтуерно визуализиране качеството на прозрачните изображения се намалява."
-
-msgid "Temas, Desktop e Ajustes"
-msgstr "Теми, работен плот и настройки"
+# 
+# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
+msgid "OK"
+msgstr "Добре"
