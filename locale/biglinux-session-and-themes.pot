@@ -15,48 +15,39 @@ msgstr  "Project-Id-Version: biglinux-session-and-themes\n"
         "Content-Transfer-Encoding: 8bit\n"
 
 #
-# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid   "Desktop"
 msgstr  ""
 
 #
-# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid   "Theme"
 msgstr  ""
 
 #
-# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid   "Configuration"
 msgstr  ""
 
 #
-# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid   "You've used this desktop before, do you want to restore your "
         "customization or use the original configuration?"
 msgstr  ""
 
 #
-# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid   "Original"
 msgstr  ""
 
 #
-# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid   "Restore"
 msgstr  ""
 
 #
-# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid   "Applying"
 msgstr  ""
 
 #
-# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid   "The settings have been changed. To apply them throughout the system, "
         "log off and log in again."
 msgstr  ""
 
 #
-# File: biglinux-session-and-themes/usr/share/bigbashview/apps/biglinux-themes-gui/index.html, line: 0
 msgid   "OK"
 msgstr  ""
