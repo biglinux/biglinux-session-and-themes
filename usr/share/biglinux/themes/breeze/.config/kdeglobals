@@ -100,11 +100,11 @@ XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=Noto Sans Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=NotoSans Nerd Font Medium,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,Semibold
-menuFont=NotoSans Nerd Font Medium,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,Semibold
+font=Noto Sans Nerd Font,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
+menuFont=Noto Sans Nerd Font,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
 shadeSortColumn=true
-smallestReadableFont=NotoSans Nerd Font Medium,8,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,Semibold
-toolBarFont=NotoSans Nerd Font Medium,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,Semibold
+smallestReadableFont=Noto Sans Nerd Font,8,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
+toolBarFont=Noto Sans Nerd Font,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
 widgetStyle=Breeze
 
 [Icons]
@@ -150,7 +150,7 @@ ToolButtonStyleOtherToolbars=TextBesideIcon
 [WM]
 activeBackground=210,212,214
 activeBlend=212,213,215
-activeFont=NotoSans Nerd Font Medium,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,Semibold
+activeFont=Noto Sans Nerd Font,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
 activeForeground=48,48,48
 inactiveBackground=210,212,214
 inactiveBlend=255,255,255
