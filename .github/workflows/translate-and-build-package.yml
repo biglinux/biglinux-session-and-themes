@@ -2,6 +2,12 @@ name: Translate and Build Package
 
 on:
   workflow_dispatch:
+    inputs:
+      debug_enabled:
+        type: boolean
+        description: 'With TMATE'
+        required: false
+        default: false
 
   push:
     branches: [ "*" ]
