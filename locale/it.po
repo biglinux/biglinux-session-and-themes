@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Desktop"
+msgstr "Scrivania"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Configuration"
+msgstr "Configurazione"
+
+msgid ""
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr ""
+"Hai già utilizzato questa scrivania in precedenza, vuoi ripristinare la tua personalizzazione o "
+"utilizzare la configurazione originale?"
+
+msgid "Original"
+msgstr "Traduci il seguente testo da en-US a it: Originale"
+
+msgid "Restore"
+msgstr "Ripristina"
+
+msgid "Applying"
+msgstr "Applicando"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr ""
+"Le impostazioni sono state modificate. Per applicarle in tutto il sistema, disconnettersi e "
+"riconnettersi nuovamente."
+
+msgid "OK"
+msgstr ""
+", I'm done\n"
+"\n"
+"Va bene, ho finito"
