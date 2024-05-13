@@ -13,9 +13,6 @@ ksmserverrc
 ksplashrc
 plasma-org.kde.plasma.desktop-appletsrc
 plasmashellrc
-enable_latte
-lattedockrc
-latte
 kwin_left
 kwin_maximized_disable
 kglobalshortcutsrc
@@ -29,13 +26,10 @@ if [ "$3" = "quiet" ] || [ "$4" = "quiet" ]; then
     echo "No stop services"
 else
     systemctl --user stop plasma-plasmashell
-    systemctl --user stop lattedock
     systemctl --user stop plasma-kglobalaccel.service
-
 fi
 
 LAST_USED="$(cat "$HOME/.kdebiglinux/lastused")"
-
 
 # Backup config
 if [ "$LAST_USED" != "" ]; then
@@ -51,14 +45,7 @@ fi
 
 # Clean
 if [ "$3" = "clean" ] && [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
-    #chmod 644 ~/.config/latte/*.latte
     rm -Rf "$HOME/.kdebiglinux/$2"
-fi
-
-# Remove link to sistray tweaks to latte
-if [ -L "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
-  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray"
-  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray"
 fi
 
 # Apply config
@@ -100,13 +87,13 @@ else
 fi
 
 if [ "$(cat "$HOME/.config/kwin_left")" = "1" ]; then
-    kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
-    kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
-    kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
+    kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
+    kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
+    kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
 else
-    kwriteconfig5 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
-    kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
-    kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
+    kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
+    kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
+    kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
 fi
 
 
@@ -173,7 +160,7 @@ if [ "$2" = "classic" ]; then
 fi
 
 if [ "$2" = "vanilla" ]; then
-    kwriteconfig5 --file ~/.config/kdeglobals --group Icons --key "Theme" "breeze"
+    kwriteconfig6 --file ~/.config/kdeglobals --group Icons --key "Theme" "breeze"
 fi
 
 
