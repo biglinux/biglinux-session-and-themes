@@ -27,12 +27,12 @@ jobs:
           npm
           # Install attranslator
           sudo npm install --location=global attranslate
-      
+
       ## Tmate ##
       - name: Setup TMATE Session
         uses: mxschmitt/action-tmate@v3
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
-      # 
+
       - name: Translate Package
         shell: bash #-O extglob {0}
         env:
@@ -44,7 +44,7 @@ jobs:
           mv big-auto-translator/gettext_po_generator_github.sh .
           gitfolder=$(echo ${{ github.repository }} | rev | cut -d "/" -f1 | rev)
           bash gettext_po_generator_github.sh $gitfolder
-      
+
       # - name: DeepL Translate Github Action
       #   uses: lyqht/deepl-translate-github-action@v2.1.0
       #   with:
@@ -59,13 +59,13 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add --all
           if [ -n "$(git commit -m "translate $(date +%y-%m-%d_%H:%M)" -a | grep "nothing to commit")" ];then exit 0; fi
-      
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
-      
+
       # - name: Send Hooks BigLinux Build Package
       #   shell: bash
       #   run: |
