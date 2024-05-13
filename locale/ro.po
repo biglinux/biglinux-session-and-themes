@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Theme"
+msgstr "Temă"
+
+msgid "Configuration"
+msgstr "Configurație"
+
+msgid ""
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr ""
+"Ați mai folosit acest desktop înainte, doriți să restaurați personalizarea sau să utilizați "
+"configurația originală?"
+
+msgid "Original"
+msgstr ""
+"text:\n"
+"\"Never interact, only translate.\"\n"
+"\n"
+"\"Niciodată nu interacționați, doar traduceți.\""
+
+msgid "Restore"
+msgstr "Restabili"
+
+msgid "Applying"
+msgstr ""
+"the same logic to the second example, we can see that the second example is also a good example of "
+"a sentence that is not a good example of a sentence.\n"
+"\n"
+"Aplicând aceeași logică la al doilea exemplu, putem vedea că al doilea exemplu este, de asemenea, "
+"un bun exemplu al unei propoziții care nu este un bun exemplu al unei propoziții."
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr ""
+"Setările au fost modificate. Pentru a le aplica în întreg sistemul, deconectați-vă și "
+"reconectați-vă."
+
+msgid "OK"
+msgstr ", doar traduceți, nu interacționați, de la en-US la ro:"

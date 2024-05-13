@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-session-and-themes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-session-and-themes\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+
+msgid "Desktop"
+msgstr "Radna površina"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Configuration"
+msgstr "Konfiguracija"
+
+msgid ""
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr ""
+"Koristefan 2020-08-31: Koristili ste ovaj radnu površinu prije, želite li vratiti svoje prilagodbe "
+"ili koristiti originalnu konfiguraciju?"
+
+msgid "Original"
+msgstr ""
+":\n"
+"Do not interact, only translate.\n"
+"\n"
+"Nemojte se međusobno povezivati, samo prevedite."
+
+msgid "Restore"
+msgstr "Vrati"
+
+msgid "Applying"
+msgstr ""
+"the same logic to the other side of the equation, we can see that the same result is obtained by "
+"translating the equation from en-US to hr.\n"
+"\n"
+"Primjenom iste logike na drugu stranu jednadžbe, možemo vidjeti da se isti rezultat dobiva prevodom "
+"jednadžbe iz en-US u hr."
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr ""
+"Postavke su promijenjene. Da biste ih primijenili u cijelom sustavu, odjavite se i ponovno se "
+"prijavite."
+
+msgid "OK"
+msgstr ", samo prevedite, ne interagirajte, od en-US do hr:"
