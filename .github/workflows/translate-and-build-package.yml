@@ -48,7 +48,7 @@ jobs:
       - name: DeepL Translate Github Action
         uses: lyqht/deepl-translate-github-action@v2.1.0
         with:
-          target_languages: fr,ja,pt
+          target_languages: fr,ja,pt-BR
           input_file_path: locale/en.json
           output_file_name_pattern: deepl/{language}.json
           deepl_api_key: ${{ secrets.DEEPL_API_KEY }}
