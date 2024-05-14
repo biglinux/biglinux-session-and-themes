@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+if [ "$(kreadconfig5  --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc")" = "true" ]; then
+    kwriteconfig5 --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc" "false"
+#     kcminit mouse
+else
+    kwriteconfig5 --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc" "true"
+#     kcminit mouse
+fi
+
+kcminit_startup

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+app="$1"
+
+mkdir -p /etc/big-preload/
+
+if [ -e "/etc/big-preload/enable-${app}" ]; then
+    rm -f /etc/big-preload/enable-${app}
+else
+    > /etc/big-preload/enable-${app}
+fi

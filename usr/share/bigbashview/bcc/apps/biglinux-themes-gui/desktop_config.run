@@ -1,0 +1,37 @@
+#!/bin/bash
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-session-and-themes
+
+if [ "$1" = "" ]; then
+    exit
+fi
+
+windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
+
+if [ -e "$HOME/.kdebiglinux/$1" ]; then
+
+    kdialog --attach="$windowID" --title "Restaurar configuração" --yesno $"
+A configuração de desktop selecionada já foi utilizada nesse sistema,
+deseja restaurar a configuração que já foi utilizada?
+
+Selecione não para utilizar a configuração padrão do sistema.
+"
+
+    if [ "$?" = "0" ]; then
+        change-plasma-theme --apply $1
+    else
+        change-plasma-theme --apply $1 clean
+    fi
+
+else
+    change-plasma-theme --apply $1
+fi
+
+
+kdialog --attach="$windowID" --msgbox $"Configuração aplicada!
+
+Finalize a sessão e faça login novamente
+para que a configuração termine de
+ser aplicada." --title "Configuração"

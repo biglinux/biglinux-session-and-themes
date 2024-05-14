@@ -1,0 +1,15 @@
+#!/bin/bash
+
+INPUT=$(grep "timeout_style=menu" /etc/grub.d/30_os-prober)
+if [ -n "$INPUT" ]; then
+    sed -i '/set timeout_style/s/=.*/=hidden/' /etc/grub.d/30_os-prober
+    sed -i '/GRUB_TIMEOUT_STYLE/s/=.*/=hidden/' /etc/default/grub
+    sed -i '/GRUB_TIMEOUT/s/=.*/=0/' /etc/default/grub
+    sed -i 's|timeout=10|timeout=0|g' /etc/grub.d/30_os-prober
+else
+    sed -i '/set timeout_style/s/=.*/=menu/' /etc/grub.d/30_os-prober
+    sed -i '/GRUB_TIMEOUT_STYLE/s/=.*/=menu/' /etc/default/grub
+    sed -i '/GRUB_TIMEOUT/s/=.*/=5/' /etc/default/grub
+    sed -i 's|timeout=0|timeout=10|g' /etc/grub.d/30_os-prober
+fi
+update-grub

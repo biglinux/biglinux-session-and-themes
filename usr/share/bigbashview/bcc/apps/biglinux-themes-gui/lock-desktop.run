@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -e "$HOME/.config/lockplasma" ]; then
+    rm -f "$HOME/.config/lockplasma"
+    #chmod 644 ~/.config/latte/*.latte
+    qdbus org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(false)"
+else
+    echo true > "$HOME/.config/lockplasma"
+    #chmod 444 ~/.config/latte/*.latte
+    qdbus org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(true)"
+fi

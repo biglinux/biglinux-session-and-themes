@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ -e "$HOME/.config/browser-brave-disable-crypto" ]; then
+    ./bravecrypto-yes.run
+else
+    ./bravecrypto-no.run
+fi
