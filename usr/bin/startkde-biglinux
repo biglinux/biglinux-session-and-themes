@@ -92,41 +92,28 @@ if [ -e "$HOME/.config/ledkeyboard" ]; then
    change-keyboard-led on
 fi
 
+#OBS Studio game capture with vulkan
+if [ -e "/usr/bin/obs-vkcapture" ]; then
+    export OBS_USE_EGL=1
+    export OBS_VKCAPTURE=1
+    #Fix MangoHud overlay
+    export VK_INSTANCE_LAYERS=VK_LAYER_OBS_vkcapture_64:VK_LAYER_VALVE_steam_overlay_64
+    export VK_INSTANCE_LAYERS=VK_LAYER_MANGOHUD_overlay:VK_LAYER_OBS_vkcapture_64:VK_LAYER_VALVE_steam_overlay_64
+fi
+
 #More cache to 3D
-__GL_SHADER_DISK_CACHE=1
-__GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
-
-#Fix to samba in dolphin
-if [ ! -e "$HOME/.config/kioslaverc" ]; then
-    echo '[Browser Settings/SMBro]
-Encoding=iso 8859-1
-Password=
-ShowHiddenShares=true
-User=.
-Workgroup=' > "$HOME/.config/kioslaverc"
-fi
-
-#Fix to disable-fsync
-if [ "$(grep '^/usr/lib/disable-fsync.so' /etc/ld.so.preload)" != "" ]; then
-    export LD_PRELOAD='/$LIB/disable-fsync.so'
-fi
+#__GL_SHADER_DISK_CACHE=1
+#__GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
 
 
 # Virtualization fix open
-if [ "$(lspci | grep -i vga | grep -i vmware)" != "" ]; then
-    kwriteconfig5 --file ~/.config/kded5rc --group Module-kscreen --key autoload false
-fi
+#if [ "$(lspci | grep -i vga | grep -i vmware)" != "" ]; then
+#    kwriteconfig6 --file ~/.config/kded5rc --group Module-kscreen --key autoload false
+#fi
 # Virtualization fix close
 
 # Theme in first login
 first-login-theme
-
-
-# Verify to add konsole list of commands
-if [ ! -e "$HOME/.config/konsolequickcommandsconfig" ] && [ ! -e "/usr/share/biglinux/konsolequickcommandsconfig-${LANG%%.*}" ]; then
-    cp -f "/usr/share/biglinux/konsolequickcommandsconfig-${LANG%%.*}" "$HOME/.config/konsolequickcommandsconfig" 
-fi
-
 
 
 if [ ! -e "$HOME/.kdebiglinux/lastlogin" ]; then
@@ -138,12 +125,6 @@ nowlogin="$(cat "$HOME/.kdebiglinux/lastused")"
 #ultimo login
 lastlogin=$(cat "$HOME/.kdebiglinux/lastlogin")
 
-
-# Copy config from skel if needed
-# if [ ! -e "$HOME/.kdebiglinux/$nowlogin" ]; then
-#     cp -Rf "/etc/skel/.kdebiglinux/$nowlogin" "$HOME/.kdebiglinux/$nowlogin"
-#     mkdir -p "$HOME/.kdebiglinux/$nowlogin"
-# fi
 
 #Get id from last wallpaper
 ID=$(grep -Eo '\[Containments\]\[[0-9]{1,5}\]\[Wallpaper\]\[org.kde.image\]' ~/.config/plasma-org.kde.plasma.desktop-appletsrc|head -n1|sed 's|\[||g;s|\]| |g'|cut -f2 -d' ')
@@ -178,19 +159,6 @@ fi
 
 echo "$nowlogin" > "$HOME/.kdebiglinux/lastlogin"
 
-if [ ! -e "$HOME/.big_performance" ]; then
-    echo "0" > "$HOME/.big_performance"
-
-    # Animation 1
-    kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key AnimationSpeed 3
-    kwriteconfig5 --file ~/.config/kdeglobals --group KDE --key AnimationDurationFactor ""
-    kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Blinking false
-    kwriteconfig5 --file ~/.config/klaunchrc --group BusyCursorSettings --key Bouncing true
-
-    # Composition on
-    kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key Enabled true
-fi
-
 # Alert if free space is low than 5000
 if [ ! -e "$HOME/.config/freespacenotifierrc" ] && [ ! -e "/livefs-pkgs.txt" ]; then
     echo '[General]
@@ -198,132 +166,25 @@ minimumSpace=5000' > "$HOME/.config/freespacenotifierrc"
 fi
 
 
-if [ "$(grep -i 'SingleClick=' ~/.config/kdeglobals)" = "" ]; then
-    kwriteconfig5 --group KDE --key SingleClick true
-fi
+#if [ "$(grep -i 'SingleClick=' ~/.config/kdeglobals)" = "" ]; then
+#    kwriteconfig5 --group KDE --key SingleClick true
+#fi
 
 # Fix ssh agent
-if [ -z "$SSH_AGENT_PID" ]; then
-  eval "$(ssh-agent -s)"
-fi
-
-
-# Fix dolphin and konsole size
-WINDOW_HEIGHT="$(($HEIGHT - $(($HEIGHT / 3))))"
-
-WINDOW_WIDTH="$(($WIDTH - $(($WIDTH / 3))))"
-
-for i in "$HOME/.config/konsolerc" "$HOME/.config/dolphinrc"; do
-
-    if [ -e "$i" ] && [ "$(grep "$RESOLUTION" "$i")" = "" ]; then
-
-        kwriteconfig5 --group "MainWindow" --key "$SCREEN Height $RESOLUTION" --file "$i" "$WINDOW_HEIGHT"
-
-        kwriteconfig5 --group "MainWindow" --key "$SCREEN Width $RESOLUTION" --file "$i" "$WINDOW_WIDTH"
-
-        kwriteconfig5 --group "MainWindow" --key "$SCREEN YPosition $RESOLUTION" --file "$i" "$WINDOW_HEIGHT"
-
-        kwriteconfig5 --group "MainWindow" --key "$SCREEN XPosition $RESOLUTION" --file "$i" "$WINDOW_WIDTH"
-
-    fi
-
-done
-
-
-# Fix to GTK4 theme
-#export GTK_THEME=
-# if [ "$(grep gtk-application-prefer-dark-theme=true ~/.config/gtk-3.0/settings.ini)" != "" ]; then
-# 
-#     if [ -e "/usr/share/themes/${GTK_THEME}-Dark" ]; then
-#         export GTK_THEME=${GTK_THEME}-Dark
-#     elif  [ -e "/usr/share/themes/${GTK_THEME}-dark" ]; then
-#         export GTK_THEME=${GTK_THEME}-Dark
-#     elif  [ "$(echo $GTK_THEME | grep -i dark)" != "" ]; then
-#         :
-#     else
-#         export GTK_THEME=Adwaita-dark
-#     fi
-# fi
-
+#if [ -z "$SSH_AGENT_PID" ]; then
+#  eval "$(ssh-agent -s)"
+#fi
 
 # Change way to autostart latte
 > $HOME/.config/autostart/org.kde.latte-dock.desktop
-# Remove link to sistray tweaks to latte
-if [ -L "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
-  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray"
-  rm -f "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray"
+# Remove old plasmoids from plasma5
+if [ -e "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
+    mv "$HOME/.local/share/plasma/plasmoids/" "$HOME/.local/share/plasma/plasmoids-old/"
+fi
+
+if [ -e "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray" ]; then
+    mv "$HOME/.local/share/plasma/plasmoids/" "$HOME/.local/share/plasma/plasmoids-old/"
 fi
 
 
-
-# Less transparent Fluent plasma theme if dont have 3d accel
-if [ "$(glxinfo | grep llvmpipe)" = "" ]; then
-    rm -Rf ~/.local/share/plasma/desktoptheme/Fluent/
-    rm -Rf ~/.local/share/plasma/desktoptheme/Fluent-round/
-    #export KWIN_EFFECTS_FORCE_ANIMATIONS=1
-else
-#     export QT_QUICK_BACKEND=software
-#     export QSG_RENDER_LOOP=basic
-#     export MESA_NO_ERROR=1
-#     export MESA_SHADER_CACHE_DISABLE=true
-#     export MESA_XSYNC=0
-#     export LIBGL_ALWAYS_SOFTWARE=1
-#     export DRI_NO_MSAA=1
-#     export MESA_GL_VERSION_OVERRIDE=4.4
-#     export MESA_GLSL_VERSION_OVERRIDE=120
-    #export GALLIUM_DRIVER=swrast
-    mkdir -p ~/.local/share/plasma/desktoptheme/Fluent
-    echo '[Desktop Entry]
-Name=Fluent
-Comment=Fluent theme for plasma
-
-X-KDE-PluginInfo-Author=Vince Liuice
-X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
-X-KDE-PluginInfo-Name=Fluent
-X-KDE-PluginInfo-Version=5.78.0
-X-KDE-PluginInfo-Website=https://plasma.kde.org
-X-KDE-PluginInfo-Category=
-X-KDE-PluginInfo-License=LGPL
-X-KDE-PluginInfo-EnabledByDefault=true
-X-Plasma-API=5.0
-
-[ContrastEffect]
-enabled=true
-contrast=0.25
-intensity=1
-saturation=5
-
-[AdaptiveTransparency]
-enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent/metadata.desktop
-
-    mkdir -p ~/.local/share/plasma/desktoptheme/Fluent-round
-
-    echo '[Desktop Entry]
-Name=Fluent-round
-Comment=Fluent theme for plasma
-
-X-KDE-PluginInfo-Author=Vince Liuice
-X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
-X-KDE-PluginInfo-Name=Fluent-round
-X-KDE-PluginInfo-Version=5.78.0
-X-KDE-PluginInfo-Website=https://plasma.kde.org
-X-KDE-PluginInfo-Category=
-X-KDE-PluginInfo-License=LGPL
-X-KDE-PluginInfo-EnabledByDefault=true
-X-Plasma-API=5.0
-
-[ContrastEffect]
-enabled=true
-contrast=0.25
-intensity=1
-saturation=5
-
-[AdaptiveTransparency]
-enabled=true' > ~/.local/share/plasma/desktoptheme/Fluent-round/metadata.desktop
-
-fi
-
-#portal-kde-verify.sh &
-
-
-QSG_RENDER_LOOP=basic exec $STARTPLASMA
+exec $STARTPLASMA
