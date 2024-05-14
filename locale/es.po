@@ -16,35 +16,115 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Desktop"
-msgstr "Escritorio"
+msgid "search"
+msgstr "buscar"
 
-msgid "Theme"
-msgstr "Tema"
+msgid "Control Center"
+msgstr "Centro de Control"
 
-msgid "Configuration"
-msgstr "Configuración"
+msgid "Main"
+msgstr "Principal"
+
+msgid "Network and Internet"
+msgstr "Red de redes y Internet"
+
+msgid "Phone"
+msgstr "Teléfono"
+
+msgid "Customize"
+msgstr "Personalizar"
+
+msgid "Region and Language"
+msgstr "Región y Idioma"
+
+msgid "Multimedia"
+msgstr "Multimedia"
+
+msgid "Accounts"
+msgstr "Cuentas"
+
+msgid "Devices"
+msgstr "Dispositivos"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "About"
+msgstr "Acerca de"
+
+msgid "Other"
+msgstr "Otro"
+
+msgid "Using Your Android Device's Internet on Linux via USB"
+msgstr "Usar Internet de tu dispositivo Android en Linux a través de USB"
 
 msgid ""
-"You've used this desktop before, do you want to restore your customization or use the original "
-"configuration?"
+"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
+"follow these steps:"
 msgstr ""
-"Has usado este escritorio antes, ¿quieres restaurar tu personalización o usar la configuración "
-"original?"
+"Para compartir la conexión a Internet de tu smartphone Android con una computadora Linux usando un "
+"cable USB, sigue estos pasos:"
 
-msgid "Original"
-msgstr "Original"
+msgid "Connect your Android smartphone to the Linux computer using a USB cable."
+msgstr "Conecta tu smartphone Android al ordenador Linux usando un cable USB."
 
-msgid "Restore"
-msgstr "Restaurar"
-
-msgid "Applying"
-msgstr "Aplicando"
-
-msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgid ""
+"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
+"Sharing'."
 msgstr ""
-"La configuración ha sido cambiada. Para aplicarla en todo el sistema, cierra sesión e inicia de "
-"nuevo."
+"En tu teléfono inteligente, abre 'Configuración' y navega hasta 'Redes e Internet' o 'Conexiones y "
+"uso compartido'."
 
-msgid "OK"
-msgstr "OK"
+msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
+msgstr "Busca 'USB Tethering', 'USB Tether' u otros términos similares y actívalo."
+
+msgid ""
+"This will automatically establish the internet connection on your Linux computer without requiring "
+"any additional configuration."
+msgstr ""
+"Esto establecerá automáticamente la conexión a Internet en su computadora Linux sin necesidad de "
+"ninguna configuración adicional."
+
+msgid ""
+"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Si tu dispositivo Android no está conectado a Wi-Fi y está utilizando datos móviles, este tethering "
+"consumirá datos de tu plan celular. Para evitar cargos por datos, asegúrate de que tu dispositivo "
+"Android esté conectado a una red Wi-Fi antes de habilitar el tethering."
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "Using Your iOS Device's Internet on Linux via USB"
+msgstr "Usar Internet de tu dispositivo iOS en Linux a través de USB"
+
+msgid ""
+"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
+"these steps:"
+msgstr ""
+"Para compartir la conexión a Internet de tu smartphone iOS con una computadora Linux usando un "
+"cable USB, sigue estos pasos:"
+
+msgid "Connect your iOS device to the Linux computer using a USB cable."
+msgstr "Conecta tu dispositivo iOS al ordenador Linux usando un cable USB."
+
+msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
+msgstr "En tu dispositivo iOS, ve a 'Configuración', luego selecciona 'Compartir Internet'."
+
+msgid ""
+"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
+"detected."
+msgstr ""
+"Habilitar 'Permitir que otros se unan'. Esto puede habilitar automáticamente 'USB Tethering' si se "
+"detecta una conexión USB."
+
+msgid ""
+"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Si tu dispositivo iOS no está conectado a Wi-Fi y está utilizando datos celulares, este enlace "
+"consumirá datos de tu plan celular. Para evitar cargos por datos, asegúrate de que tu dispositivo "
+"iOS esté conectado a una red Wi-Fi antes de habilitar el enlace."

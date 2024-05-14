@@ -16,33 +16,113 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Desktop"
-msgstr "Desktop"
+msgid "search"
+msgstr "cari"
 
-msgid "Theme"
-msgstr "Tema"
+msgid "Control Center"
+msgstr "Pusat Kontrol"
 
-msgid "Configuration"
-msgstr "Konfigurasi"
+msgid "Main"
+msgstr "Utama"
+
+msgid "Network and Internet"
+msgstr "Jaringan dan Internet"
+
+msgid "Phone"
+msgstr "Telepon"
+
+msgid "Customize"
+msgstr "Sesuaikan"
+
+msgid "Region and Language"
+msgstr "Kawasan dan Bahasa"
+
+msgid "Multimedia"
+msgstr "Multimedia"
+
+msgid "Accounts"
+msgstr "Akaun"
+
+msgid "Devices"
+msgstr "Peranti"
+
+msgid "System"
+msgstr "Sistem"
+
+msgid "About"
+msgstr "Tentang"
+
+msgid "Other"
+msgstr "Lainnya"
+
+msgid "Using Your Android Device's Internet on Linux via USB"
+msgstr "Menggunakan Internet Perangkat Android Anda di Linux melalui USB"
 
 msgid ""
-"You've used this desktop before, do you want to restore your customization or use the original "
-"configuration?"
+"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
+"follow these steps:"
 msgstr ""
-"Anda telah menggunakan desktop ini sebelumnya, apakah Anda ingin mengembalikan kustomisasi Anda "
-"atau menggunakan konfigurasi asli?"
+"Untuk membagikan koneksi internet smartphone Android Anda dengan komputer Linux menggunakan kabel "
+"USB, ikuti langkah-langkah berikut:"
 
-msgid "Original"
-msgstr "Asal"
+msgid "Connect your Android smartphone to the Linux computer using a USB cable."
+msgstr "Sambungkan smartphone Android Anda ke komputer Linux menggunakan kabel USB."
 
-msgid "Restore"
-msgstr "Pulihkan"
+msgid ""
+"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
+"Sharing'."
+msgstr "Di ponsel pintarmu, buka 'Pengaturan' dan arahkan ke 'Jaringan & Internet' atau 'Koneksi & Berbagi'."
 
-msgid "Applying"
-msgstr "Menerapkan"
+msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
+msgstr "Cari 'USB Tethering', 'USB Tether', atau istilah serupa dan aktifkan."
 
-msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
-msgstr "Pengaturan telah diubah. Untuk menerapkannya di seluruh sistem, log off dan log in kembali."
+msgid ""
+"This will automatically establish the internet connection on your Linux computer without requiring "
+"any additional configuration."
+msgstr ""
+"Ini akan secara otomatis membuat koneksi internet pada komputer Linux Anda tanpa memerlukan "
+"konfigurasi tambahan."
 
-msgid "OK"
-msgstr "OK"
+msgid ""
+"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Jika peranti Android anda tidak disambungkan ke Wi-Fi dan menggunakan data selular, pengikatan ini "
+"akan menggunakan data dari rancangan selular anda. Untuk mengelakkan caj data, pastikan bahawa "
+"peranti Android anda disambungkan ke rangkaian Wi-Fi sebelum mengaktifkan pengikatan."
+
+msgid "Close"
+msgstr "Tutup"
+
+msgid "Using Your iOS Device's Internet on Linux via USB"
+msgstr "Menggunakan Internet Peranti iOS Anda pada Linux melalui USB"
+
+msgid ""
+"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
+"these steps:"
+msgstr ""
+"Untuk membagikan koneksi internet smartphone iOS Anda dengan komputer Linux menggunakan kabel USB, "
+"ikuti langkah-langkah berikut:"
+
+msgid "Connect your iOS device to the Linux computer using a USB cable."
+msgstr "Sambungkan perangkat iOS Anda ke komputer Linux menggunakan kabel USB."
+
+msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
+msgstr "Pada peranti iOS anda, pergi ke 'Tetapan', kemudian pilih 'Hotspot Peribadi'."
+
+msgid ""
+"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
+"detected."
+msgstr ""
+"Aktifkan 'Izinkan Orang Lain Bergabung'. Ini mungkin secara otomatis mengaktifkan 'USB Tethering' "
+"jika koneksi USB terdeteksi."
+
+msgid ""
+"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Jika peranti iOS anda tidak disambungkan ke Wi-Fi dan menggunakan data selular, pengikatan ini akan "
+"menggunakan data dari rancangan selular anda. Untuk mengelakkan caj data, pastikan bahawa peranti "
+"iOS anda disambungkan ke rangkaian Wi-Fi sebelum mengaktifkan pengikatan."

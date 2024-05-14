@@ -16,35 +16,115 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Desktop"
-msgstr "Skrivebord"
+msgid "search"
+msgstr "søg"
 
-msgid "Theme"
-msgstr "Tema"
+msgid "Control Center"
+msgstr "Kontrolcenter"
 
-msgid "Configuration"
-msgstr "Konfiguration"
+msgid "Main"
+msgstr "Hoved"
+
+msgid "Network and Internet"
+msgstr "Netværk og internet"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Customize"
+msgstr "Tilpas"
+
+msgid "Region and Language"
+msgstr "Region og sprog"
+
+msgid "Multimedia"
+msgstr "Multimedie"
+
+msgid "Accounts"
+msgstr "Konti"
+
+msgid "Devices"
+msgstr "Enheder"
+
+msgid "System"
+msgstr "Systemet"
+
+msgid "About"
+msgstr "Om"
+
+msgid "Other"
+msgstr "Andet"
+
+msgid "Using Your Android Device's Internet on Linux via USB"
+msgstr "Brug af din Android-enhedens internet på Linux via USB"
 
 msgid ""
-"You've used this desktop before, do you want to restore your customization or use the original "
-"configuration?"
+"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
+"follow these steps:"
 msgstr ""
-"Du har brugt denne skrivebord før, vil du genoprette din tilpasning eller bruge den originale "
-"konfiguration?"
+"For at dele din Android-smartphones internetforbindelse med en Linux-computer ved hjælp af et "
+"USB-kabel, skal du følge disse trin:"
 
-msgid "Original"
-msgstr "Original"
+msgid "Connect your Android smartphone to the Linux computer using a USB cable."
+msgstr "Tilslut din Android smartphone til Linux-computeren ved hjælp af et USB-kabel."
 
-msgid "Restore"
-msgstr "Gendan"
-
-msgid "Applying"
-msgstr "Anvendelse"
-
-msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgid ""
+"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
+"Sharing'."
 msgstr ""
-"Indstillingerne er blevet ændret. For at anvende dem i hele systemet, skal du logge af og logge ind "
-"igen."
+"På din smartphone skal du åbne 'Indstillinger' og navigere til 'Netværk og internet' eller "
+"'Forbindelser og deling'."
 
-msgid "OK"
-msgstr "I orden."
+msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
+msgstr "Søg efter 'USB-tethering', 'USB-tether' eller lignende termer og aktiver det."
+
+msgid ""
+"This will automatically establish the internet connection on your Linux computer without requiring "
+"any additional configuration."
+msgstr ""
+"Dette vil automatisk oprette internetforbindelsen på din Linux-computer uden behov for yderligere "
+"konfiguration."
+
+msgid ""
+"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Hvis din Android-enhed ikke er tilsluttet til Wi-Fi og bruger mobildata, vil denne deling forbruge "
+"data fra din mobilplan. For at undgå dataafgifter skal du sørge for, at din Android-enhed er "
+"tilsluttet til et Wi-Fi-netværk, før du aktiverer deling."
+
+msgid "Close"
+msgstr "Luk"
+
+msgid "Using Your iOS Device's Internet on Linux via USB"
+msgstr "Brug af din iOS-enhedens internet på Linux via USB"
+
+msgid ""
+"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
+"these steps:"
+msgstr ""
+"For at dele din iOS-smartphones internetforbindelse med en Linux-computer ved hjælp af et "
+"USB-kabel, skal du følge disse trin:"
+
+msgid "Connect your iOS device to the Linux computer using a USB cable."
+msgstr "Tilslut din iOS-enhed til Linux-computeren ved hjælp af et USB-kabel."
+
+msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
+msgstr "På din iOS-enhed skal du gå til 'Indstillinger', og vælg derefter 'Personlig Hotspot'."
+
+msgid ""
+"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
+"detected."
+msgstr ""
+"Aktivér 'Tillad andre at deltage'. Dette kan automatisk aktivere 'USB-tethering', hvis en "
+"USB-forbindelse registreres."
+
+msgid ""
+"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Hvis din iOS-enhed ikke er tilsluttet til Wi-Fi og bruger mobildata, vil denne deling forbruge data "
+"fra din mobilplan. For at undgå dataafgifter skal du sørge for, at din iOS-enhed er tilsluttet til "
+"et Wi-Fi-netværk, før du aktiverer deling."

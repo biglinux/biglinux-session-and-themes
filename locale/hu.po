@@ -16,35 +16,116 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Desktop"
-msgstr "Asztali"
+msgid "search"
+msgstr "keresés"
 
-msgid "Theme"
-msgstr "Téma"
+msgid "Control Center"
+msgstr "Vezérlőközpont"
 
-msgid "Configuration"
-msgstr "Konfiguráció"
+msgid "Main"
+msgstr "Fő"
+
+msgid "Network and Internet"
+msgstr "Hálózat és internet"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Customize"
+msgstr "Testreszabás"
+
+msgid "Region and Language"
+msgstr "Régió és Nyelv"
+
+msgid "Multimedia"
+msgstr "Multimédia"
+
+msgid "Accounts"
+msgstr "Számlák"
+
+msgid "Devices"
+msgstr "Eszközök"
+
+msgid "System"
+msgstr "Rendszer"
+
+msgid "About"
+msgstr "Névjegy"
+
+msgid "Other"
+msgstr "Egyéb"
+
+msgid "Using Your Android Device's Internet on Linux via USB"
+msgstr "Az Android eszköz internetének használata Linuxon USB-n keresztül"
 
 msgid ""
-"You've used this desktop before, do you want to restore your customization or use the original "
-"configuration?"
+"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
+"follow these steps:"
 msgstr ""
-"Korábban használta ezt az asztali gépet, szeretné visszaállítani a testreszabásait, vagy inkább az "
-"eredeti beállításokat használná?"
+"Az Android okostelefon internetkapcsolatának megosztásához egy Linux számítógéppel USB kábelen "
+"keresztül, kövesse ezeket lépéseket:"
 
-msgid "Original"
-msgstr "Eredeti"
+msgid "Connect your Android smartphone to the Linux computer using a USB cable."
+msgstr "Csatlakoztasd az Android okostelefonodat a Linux számítógéphez egy USB kábellel."
 
-msgid "Restore"
-msgstr "Visszaállítás"
-
-msgid "Applying"
-msgstr "Alkalmazás"
-
-msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgid ""
+"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
+"Sharing'."
 msgstr ""
-"A beállítások megváltoztak. Az egész rendszer alkalmazásához jelentkezzen ki, majd jelentkezzen be "
-"újra."
+"A smartphoneon nyisd meg a 'Beállításokat' és navigálj a 'Hálózat és internet' vagy 'Kapcsolatok és "
+"megosztás' menüponthoz."
 
-msgid "OK"
-msgstr "OK"
+msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
+msgstr "Keresse meg a 'USB osztás', 'USB megosztás' vagy hasonló kifejezéseket, majd engedélyezze."
+
+msgid ""
+"This will automatically establish the internet connection on your Linux computer without requiring "
+"any additional configuration."
+msgstr ""
+"Ez automatikusan létre fogja hozni az internetkapcsolatot a Linux számítógépén anélkül, hogy "
+"bármilyen további konfigurációra szükség lenne."
+
+msgid ""
+"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Ha az Android készüléke nincs csatlakoztatva Wi-Fi-hez, és mobiladatot használ, akkor ez a "
+"megosztás mobiladatot fog fogyasztani a mobilcsomagjából. Az adatdíjak elkerülése érdekében "
+"győződjön meg róla, hogy az Android készüléke csatlakozik egy Wi-Fi hálózathoz, mielőtt "
+"engedélyezné a megosztást."
+
+msgid "Close"
+msgstr "Bezárás"
+
+msgid "Using Your iOS Device's Internet on Linux via USB"
+msgstr "Az iOS eszköz internetének használata Linuxon USB-n keresztül"
+
+msgid ""
+"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
+"these steps:"
+msgstr ""
+"Az iOS okostelefon internetkapcsolatának megosztásához egy Linux számítógéppel USB kábelen "
+"keresztül, kövesse ezeket a lépéseket:"
+
+msgid "Connect your iOS device to the Linux computer using a USB cable."
+msgstr "Csatlakoztasd az iOS eszközödet a Linux számítógéphez egy USB kábellel."
+
+msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
+msgstr "Az iOS eszközön lépjen a „Beállítások” menübe, majd válassza ki a „Személyes Hotspot” lehetőséget."
+
+msgid ""
+"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
+"detected."
+msgstr ""
+"Engedélyezze a „Mások csatlakozásának engedélyezése” lehetőséget. Ez automatikusan engedélyezheti "
+"az „USB-törlést”, ha USB-csatlakozást észlelnek."
+
+msgid ""
+"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Ha az iOS eszköz nincs Wi-Fi-hálózatra csatlakoztatva, és mobiladatot használ, akkor a megosztás "
+"mobiladatot fog fogyasztani a mobil-előfizetésedből. Adataid díjmentes használatához győződj meg "
+"róla, hogy az iOS eszköz csatlakozik egy Wi-Fi-hálózathoz, mielőtt engedélyeznéd a megosztást."

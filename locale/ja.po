@@ -16,31 +16,104 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Desktop"
-msgstr "デスクトップ"
+msgid "search"
+msgstr "検索"
 
-msgid "Theme"
-msgstr "テーマ"
+msgid "Control Center"
+msgstr "コントロールセンター"
 
-msgid "Configuration"
-msgstr "構成"
+msgid "Main"
+msgstr "メイン"
+
+msgid "Network and Internet"
+msgstr "ネットワークとインターネット"
+
+msgid "Phone"
+msgstr "電話"
+
+msgid "Customize"
+msgstr "カスタマイズ"
+
+msgid "Region and Language"
+msgstr "地域と言語"
+
+msgid "Multimedia"
+msgstr "マルチメディア"
+
+msgid "Accounts"
+msgstr "アカウント"
+
+msgid "Devices"
+msgstr "デバイス"
+
+msgid "System"
+msgstr "システム"
+
+msgid "About"
+msgstr "について"
+
+msgid "Other"
+msgstr "その他"
+
+msgid "Using Your Android Device's Internet on Linux via USB"
+msgstr "Linuxを介してAndroidデバイスのインターネットをUSB経由で使用する"
 
 msgid ""
-"You've used this desktop before, do you want to restore your customization or use the original "
-"configuration?"
-msgstr "このデスクトップを以前に使用したことがあります。カスタマイズを復元しますか、それとも元の構成を使用しますか？"
+"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
+"follow these steps:"
+msgstr "Androidスマートフォンのインターネット接続をUSBケーブルを使用してLinuxコンピュータと共有するには、次の手順に従ってください:"
 
-msgid "Original"
-msgstr "オリジナル"
+msgid "Connect your Android smartphone to the Linux computer using a USB cable."
+msgstr "AndroidスマートフォンをUSBケーブルでLinuxコンピュータに接続してください。"
 
-msgid "Restore"
-msgstr "復元"
+msgid ""
+"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
+"Sharing'."
+msgstr "スマートフォンで、「設定」を開き、「ネットワークとインターネット」または「接続と共有」に移動してください。"
 
-msgid "Applying"
-msgstr "適用"
+msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
+msgstr "「USBテザリング」、「USBテザ」などの用語を探して有効にしてください。"
 
-msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
-msgstr "設定が変更されました。システム全体に適用するには、ログオフして再度ログインしてください。"
+msgid ""
+"This will automatically establish the internet connection on your Linux computer without requiring "
+"any additional configuration."
+msgstr "これにより、追加の設定を必要とせずに、Linuxコンピューターでインターネット接続が自動的に確立されます。"
 
-msgid "OK"
-msgstr "OK"
+msgid ""
+"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Android デバイスが Wi-Fi に接続されておらず、携帯データを使用している場合、このテザリングは携帯プランからデータを消費します。データ料金を回避するためには、テザリングを有効にする前に "
+"Android デバイスが Wi-Fi ネットワークに接続されていることを確認してください。"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Using Your iOS Device's Internet on Linux via USB"
+msgstr "iOSデバイスのインターネットをLinuxでUSB経由で使用する"
+
+msgid ""
+"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
+"these steps:"
+msgstr "iOSスマートフォンのインターネット接続をUSBケーブルを使用してLinuxコンピュータと共有するには、次の手順に従ってください:"
+
+msgid "Connect your iOS device to the Linux computer using a USB cable."
+msgstr "iOSデバイスをUSBケーブルでLinuxコンピュータに接続してください。"
+
+msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
+msgstr "iOSデバイスで、「設定」に移動し、「パーソナルホットスポット」を選択します。"
+
+msgid ""
+"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
+"detected."
+msgstr "「他のユーザーの参加を許可」を有効にします。USB接続が検出されると、自動的に「USBテザリング」が有効になる場合があります。"
+
+msgid ""
+"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"iOS "
+"デバイスがWi-Fiに接続されておらず、携帯データを使用している場合、このテザリングは携帯プランからデータを消費します。データ料金を回避するためには、テザリングを有効にする前にiOSデバイスがWi-"
+"Fiネットワークに接続されていることを確認してください。"

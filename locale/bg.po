@@ -16,33 +16,115 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Desktop"
-msgstr "Работен плот"
+msgid "search"
+msgstr "търсене"
 
-msgid "Theme"
-msgstr "Тема"
+msgid "Control Center"
+msgstr "Контролен център"
 
-msgid "Configuration"
-msgstr "Конфигурация"
+msgid "Main"
+msgstr "Главен"
+
+msgid "Network and Internet"
+msgstr "Мрежа и Интернет"
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "Customize"
+msgstr "Персонализиране"
+
+msgid "Region and Language"
+msgstr "Регион и Език"
+
+msgid "Multimedia"
+msgstr "Мултимедия"
+
+msgid "Accounts"
+msgstr "Сметки"
+
+msgid "Devices"
+msgstr "Устройства"
+
+msgid "System"
+msgstr "Система"
+
+msgid "About"
+msgstr "Относно"
+
+msgid "Other"
+msgstr "Други"
+
+msgid "Using Your Android Device's Internet on Linux via USB"
+msgstr "Използване на интернет от вашия Android устройство на Linux чрез USB"
 
 msgid ""
-"You've used this desktop before, do you want to restore your customization or use the original "
-"configuration?"
+"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
+"follow these steps:"
 msgstr ""
-"Използвали сте този работен плот преди, искате ли да възстановите персонализацията си или да "
-"използвате оригиналната конфигурация?"
+"За споделяне на интернет връзката на вашия смартфон с Android с компютър с Linux чрез USB кабел, "
+"следвайте тези стъпки:"
 
-msgid "Original"
-msgstr "Оригинал"
+msgid "Connect your Android smartphone to the Linux computer using a USB cable."
+msgstr "Свържете вашия Android смартфон към компютъра с Linux чрез USB кабел."
 
-msgid "Restore"
-msgstr "Възстановяване"
+msgid ""
+"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
+"Sharing'."
+msgstr ""
+"На смартфона си отворете \"Настройки\" и навигирайте до \"Мрежа и интернет\" или \"Връзки и "
+"споделяне\"."
 
-msgid "Applying"
-msgstr "Прилагане"
+msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
+msgstr "Търсете \"USB Tethering\", \"USB Tether\" или подобни термини и го активирайте."
 
-msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
-msgstr "Настройките са променени. За да ги приложите в цялата система, излезте и влезте отново."
+msgid ""
+"This will automatically establish the internet connection on your Linux computer without requiring "
+"any additional configuration."
+msgstr ""
+"Това ще установи автоматично интернет връзката на вашия компютър с Linux, без да се изисква "
+"допълнителна конфигурация."
 
-msgid "OK"
-msgstr "OK"
+msgid ""
+"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Ако вашият Android устройство не е свързано към Wi-Fi и използва мобилни данни, този тетъринг ще "
+"консумира данни от вашия мобилен план. За да избегнете такси за данни, се уверете, че вашият "
+"Android устройство е свързано към Wi-Fi мрежа, преди да активирате тетъринг."
+
+msgid "Close"
+msgstr "Затвори"
+
+msgid "Using Your iOS Device's Internet on Linux via USB"
+msgstr "Използване на интернет от вашия iOS устройство на Linux чрез USB"
+
+msgid ""
+"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
+"these steps:"
+msgstr ""
+"За да споделите интернет връзката на вашия iOS смартфон с Linux компютър чрез USB кабел, следвайте "
+"тези стъпки:"
+
+msgid "Connect your iOS device to the Linux computer using a USB cable."
+msgstr "Свържете вашия iOS устройство с Linux компютъра чрез USB кабел."
+
+msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
+msgstr "На вашия iOS устройство, отидете на 'Настройки', след което изберете 'Лична мрежа'."
+
+msgid ""
+"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
+"detected."
+msgstr ""
+"Активирайте \"Позволи на други да се присъединят\". Това може автоматично да активира \"USB пренос "
+"на интернет\" при откриване на USB връзка."
+
+msgid ""
+"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Ако вашият iOS устройство не е свързано към Wi-Fi и използва мобилни данни, този тетъринг ще "
+"консумира данни от вашия мобилен план. За да избегнете такси за данни, се уверете, че вашият iOS "
+"устройство е свързано към Wi-Fi мрежа, преди да активирате тетъринг."

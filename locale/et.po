@@ -16,33 +16,111 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Desktop"
-msgstr "Töölaud"
+msgid "search"
+msgstr "otsing"
 
-msgid "Theme"
-msgstr "Teema"
+msgid "Control Center"
+msgstr "Juhtpaneel"
 
-msgid "Configuration"
-msgstr "Seadistamine"
+msgid "Main"
+msgstr "Peamine"
+
+msgid "Network and Internet"
+msgstr "Võrgu- ja internet"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Customize"
+msgstr "Kohandamine"
+
+msgid "Region and Language"
+msgstr "Piirkond ja keel"
+
+msgid "Multimedia"
+msgstr "Multimeedia"
+
+msgid "Accounts"
+msgstr "Kontod"
+
+msgid "Devices"
+msgstr "Seadmed"
+
+msgid "System"
+msgstr "Süsteem"
+
+msgid "About"
+msgstr "Teave"
+
+msgid "Other"
+msgstr "Muu"
+
+msgid "Using Your Android Device's Internet on Linux via USB"
+msgstr "Kasutage oma Android-seadme Interneti-ühendust Linuxis USB kaudu"
 
 msgid ""
-"You've used this desktop before, do you want to restore your customization or use the original "
-"configuration?"
+"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
+"follow these steps:"
 msgstr ""
-"Olete seda töölaua varem kasutanud, kas soovite taastada oma kohandused või kasutada algset "
-"konfiguratsiooni?"
+"Android nutitelefoni internetiühenduse jagamiseks Linuxi arvutiga USB-kaabli abil järgige neid "
+"samme:"
 
-msgid "Original"
-msgstr "Originaal"
+msgid "Connect your Android smartphone to the Linux computer using a USB cable."
+msgstr "Ühendage oma Android nutitelefon Linuxi arvutiga USB-kaabli abil."
 
-msgid "Restore"
-msgstr "Taasta"
+msgid ""
+"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
+"Sharing'."
+msgstr ""
+"Avaage oma nutitelefonis menüüsse „Seaded“ ja liigu valikuni „Võrk ja internet“ või „Ühendused ja "
+"jagamine“."
 
-msgid "Applying"
-msgstr "Rakendamine"
+msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
+msgstr "Otsige 'USB jagamine', 'USB jagamine' või sarnased terminid ning luba see."
 
-msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
-msgstr "Sätted on muudetud. Süsteemi rakendamiseks logige välja ja seejärel uuesti sisse."
+msgid ""
+"This will automatically establish the internet connection on your Linux computer without requiring "
+"any additional configuration."
+msgstr "See loob automaatselt internetiühenduse teie Linuxi arvutis ilma täiendava seadistamise vajaduseta."
 
-msgid "OK"
-msgstr "OK"
+msgid ""
+"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Kui teie Android-seade pole Wi-Fi-ga ühendatud ja kasutab mobiilset andmesidet, siis see jagamine "
+"tarbib andmeid teie mobiilsest plaanist. Andmetasude vältimiseks veenduge, et teie Android-seade on "
+"enne jagamise lubamist ühendatud Wi-Fi-võrku."
+
+msgid "Close"
+msgstr "Sulge"
+
+msgid "Using Your iOS Device's Internet on Linux via USB"
+msgstr "Kasutage oma iOS-seadme Interneti-ühendust Linuxis USB kaudu"
+
+msgid ""
+"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
+"these steps:"
+msgstr "iOS nutitelefoni internetiühenduse jagamiseks Linuxi arvutiga USB-kaabli abil järgige neid samme:"
+
+msgid "Connect your iOS device to the Linux computer using a USB cable."
+msgstr "Ühendage oma iOS-seade Linuxi arvutiga USB-kaabli abil."
+
+msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
+msgstr "Teie iOS-seadmes minge jaotisse „Sätted“ ning valige seejärel „Isiklik leviala“."
+
+msgid ""
+"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
+"detected."
+msgstr ""
+"Luba \"Luba teistel liituda\". See võib automaatselt lubada \"USB jagamise\", kui USB-ühendus "
+"tuvastatakse."
+
+msgid ""
+"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
+"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
+"connected to a Wi-Fi network before enabling tethering."
+msgstr ""
+"Kui teie iOS-seade pole Wi-Fi-ga ühendatud ja kasutab mobiilset andmesidet, siis see jagamine "
+"kasutab andmeid teie mobiilsest plaanist. Andmetasude vältimiseks veenduge, et teie iOS-seade on "
+"enne jagamise lubamist ühendatud Wi-Fi-võrku."

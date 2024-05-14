@@ -29,29 +29,83 @@ msgstr  "#-#-#-#-#  biglinux-session-and-themes.pot (biglinux-session-and-themes
         "Content-Transfer-Encoding: 8bit\n"
         "Generated-By: pygettext.py 1.5\n"
 #
-msgid   "Desktop"
+msgid   "search"
 msgstr  ""
 #
-msgid   "Theme"
+msgid   "Control Center"
 msgstr  ""
 #
-msgid   "Configuration"
+msgid   "Main"
 msgstr  ""
 #
-msgid   "You've used this desktop before, do you want to restore your customization or use the original configuration?"
+msgid   "Network and Internet"
 msgstr  ""
 #
-msgid   "Original"
+msgid   "Phone"
 msgstr  ""
 #
-msgid   "Restore"
+msgid   "Customize"
 msgstr  ""
 #
-msgid   "Applying"
+msgid   "Region and Language"
 msgstr  ""
 #
-msgid   "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgid   "Multimedia"
 msgstr  ""
 #
-msgid   "OK"
+msgid   "Accounts"
+msgstr  ""
+#
+msgid   "Devices"
+msgstr  ""
+#
+msgid   "System"
+msgstr  ""
+#
+msgid   "About"
+msgstr  ""
+#
+msgid   "Other"
+msgstr  ""
+#
+msgid   "Using Your Android Device's Internet on Linux via USB"
+msgstr  ""
+#
+msgid   "To share your Android smartphone's internet connection with a Linux computer using a USB cable, follow these steps:"
+msgstr  ""
+#
+msgid   "Connect your Android smartphone to the Linux computer using a USB cable."
+msgstr  ""
+#
+msgid   "On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; Sharing'."
+msgstr  ""
+#
+msgid   "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
+msgstr  ""
+#
+msgid   "This will automatically establish the internet connection on your Linux computer without requiring any additional configuration."
+msgstr  ""
+#
+msgid   "If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will consume data from your cellular plan. To avoid data charges, ensure that your Android device is connected to a Wi-Fi network before enabling tethering."
+msgstr  ""
+#
+msgid   "Close"
+msgstr  ""
+#
+msgid   "Using Your iOS Device's Internet on Linux via USB"
+msgstr  ""
+#
+msgid   "To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow these steps:"
+msgstr  ""
+#
+msgid   "Connect your iOS device to the Linux computer using a USB cable."
+msgstr  ""
+#
+msgid   "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
+msgstr  ""
+#
+msgid   "Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is detected."
+msgstr  ""
+#
+msgid   "If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will consume data from your cellular plan. To avoid data charges, ensure that your iOS device is connected to a Wi-Fi network before enabling tethering."
 msgstr  ""
