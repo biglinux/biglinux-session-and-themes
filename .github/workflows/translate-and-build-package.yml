@@ -42,7 +42,7 @@ jobs:
           cd ..
           git clone https://github.com/biglinux/big-auto-translator.git
           mv big-auto-translator/gettext_po_generator_github.sh .
-          sudo cp -f big-auto-translator/openai-translate.ts /usr/local/lib/node_modules/attranslate/dist/services/openai-translate.js
+          sudo cp -f big-auto-translator/openai-translate.js /usr/local/lib/node_modules/attranslate/dist/services/openai-translate.js
           gitfolder=$(echo ${{ github.repository }} | rev | cut -d "/" -f1 | rev)
           bash gettext_po_generator_github.sh $gitfolder
 
