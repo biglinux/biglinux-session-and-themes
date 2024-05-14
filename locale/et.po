@@ -16,111 +16,93 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "search"
-msgstr "otsing"
-
-msgid "Control Center"
-msgstr "Juhtpaneel"
-
-msgid "Main"
-msgstr "Peamine"
-
-msgid "Network and Internet"
-msgstr "Võrgu- ja internet"
-
-msgid "Phone"
-msgstr "Telefon"
-
-msgid "Customize"
-msgstr "Kohandamine"
-
-msgid "Region and Language"
-msgstr "Piirkond ja keel"
-
-msgid "Multimedia"
-msgstr "Multimeedia"
-
-msgid "Accounts"
-msgstr "Kontod"
-
-msgid "Devices"
-msgstr "Seadmed"
-
-msgid "System"
-msgstr "Süsteem"
-
-msgid "About"
-msgstr "Teave"
-
-msgid "Other"
-msgstr "Muu"
-
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "Kasutage oma Android-seadme Interneti-ühendust Linuxis USB kaudu"
+msgid "Post update adjustments"
+msgstr "Värskenduse järelkohandused"
 
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
-"follow these steps:"
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
 msgstr ""
-"Android nutitelefoni internetiühenduse jagamiseks Linuxi arvutiga USB-kaabli abil järgige neid "
-"samme:"
-
-msgid "Connect your Android smartphone to the Linux computer using a USB cable."
-msgstr "Ühendage oma Android nutitelefon Linuxi arvutiga USB-kaabli abil."
+"Suur värskendus on rakendatud, muutes mitmed töölaua seaded kokkusobimatuks. Jätkake uute seadete "
+"rakendamist."
 
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
-"Sharing'."
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
+msgstr "Kui teil on süsteemi kohta põhjalikud teadmised ja eelistate kohandusi teha käsitsi, ärge jätkake."
+
+msgid ""
+"Continue\n"
+"            "
+msgstr "Jätka"
+
+msgid "Select a new theme configuration:"
+msgstr "Valige uus teema konfiguratsioon:"
+
+msgid ""
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
+msgstr "Valige töölaua seadistus. See eemaldab ka Plasma kohandused uue ühilduva seadistuse rakendamiseks:"
+
+msgid "Completed."
+msgstr "Valmis."
+
+msgid ""
+"Reboot now!\n"
+"                    "
+msgstr "Taaskäivita kohe!"
+
+msgid "Configuration"
+msgstr "Seadistamine"
+
+msgid ""
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Avaage oma nutitelefonis menüüsse „Seaded“ ja liigu valikuni „Võrk ja internet“ või „Ühendused ja "
-"jagamine“."
+"Olete seda töölaua kasutanud varem, kas soovite taastada oma kohandused või kasutada algset "
+"konfiguratsiooni?"
 
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr "Otsige 'USB jagamine', 'USB jagamine' või sarnased terminid ning luba see."
+msgid "Original"
+msgstr "Originaal"
 
-msgid ""
-"This will automatically establish the internet connection on your Linux computer without requiring "
-"any additional configuration."
-msgstr "See loob automaatselt internetiühenduse teie Linuxi arvutis ilma täiendava seadistamise vajaduseta."
+msgid "Restore"
+msgstr "Taasta"
 
-msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
-"connected to a Wi-Fi network before enabling tethering."
-msgstr ""
-"Kui teie Android-seade pole Wi-Fi-ga ühendatud ja kasutab mobiilset andmesidet, siis see jagamine "
-"tarbib andmeid teie mobiilsest plaanist. Andmetasude vältimiseks veenduge, et teie Android-seade on "
-"enne jagamise lubamist ühendatud Wi-Fi-võrku."
+msgid "Confirm Theme Change"
+msgstr "Kinnitage teema"
 
-msgid "Close"
-msgstr "Sulge"
+msgid "Do you want to apply the selected theme again?"
+msgstr "Kas soovite uuesti rakendada valitud teemat?"
 
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "Kasutage oma iOS-seadme Interneti-ühendust Linuxis USB kaudu"
+msgid "Yes"
+msgstr "Noorendamine"
 
-msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
-"these steps:"
-msgstr "iOS nutitelefoni internetiühenduse jagamiseks Linuxi arvutiga USB-kaabli abil järgige neid samme:"
+msgid "No"
+msgstr "Ei"
 
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "Ühendage oma iOS-seade Linuxi arvutiga USB-kaabli abil."
+msgid "Confirm Desktop Change"
+msgstr "Kinnita töölaua vahetus"
 
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr "Teie iOS-seadmes minge jaotisse „Sätted“ ning valige seejärel „Isiklik leviala“."
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "Kas soovite selle töölaua puhta konfiguratsiooni uuesti rakendada?"
 
-msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
-"detected."
-msgstr ""
-"Luba \"Luba teistel liituda\". See võib automaatselt lubada \"USB jagamise\", kui USB-ühendus "
-"tuvastatakse."
+msgid "Applying"
+msgstr "Rakendamine"
 
-msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
-"connected to a Wi-Fi network before enabling tethering."
-msgstr ""
-"Kui teie iOS-seade pole Wi-Fi-ga ühendatud ja kasutab mobiilset andmesidet, siis see jagamine "
-"kasutab andmeid teie mobiilsest plaanist. Andmetasude vältimiseks veenduge, et teie iOS-seade on "
-"enne jagamise lubamist ühendatud Wi-Fi-võrku."
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "Seaded on muudetud. Süsteemi rakendamiseks logige välja ja seejärel uuesti sisse."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Configuration Complete"
+msgstr "Konfiguratsioon on lõpule viidud"
+
+msgid "Your theme and desktop have been configured successfully."
+msgstr "Teie teema ja töölaua seaded on edukalt konfigureeritud."
+
+msgid "Desktop"
+msgstr "Töölaud"
+
+msgid "Theme"
+msgstr "Teema"

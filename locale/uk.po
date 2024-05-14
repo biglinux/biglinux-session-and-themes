@@ -16,117 +16,97 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "search"
-msgstr "пошук"
-
-msgid "Control Center"
-msgstr "Центр керування"
-
-msgid "Main"
-msgstr "Головний"
-
-msgid "Network and Internet"
-msgstr "Мережа та Інтернет"
-
-msgid "Phone"
-msgstr "Телефон"
-
-msgid "Customize"
-msgstr "Налаштувати"
-
-msgid "Region and Language"
-msgstr "Регіон та мова"
-
-msgid "Multimedia"
-msgstr "Мультимедіа"
-
-msgid "Accounts"
-msgstr "Облікові записи"
-
-msgid "Devices"
-msgstr "Пристрої"
-
-msgid "System"
-msgstr "Система"
-
-msgid "About"
-msgstr "Про програму"
-
-msgid "Other"
-msgstr "Інше"
-
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "Використання Інтернету вашого пристрою Android на Linux через USB"
+msgid "Post update adjustments"
+msgstr "Налаштування після оновлення"
 
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
-"follow these steps:"
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
 msgstr ""
-"Щоб поділитися підключенням до Інтернету вашого смартфона на базі Android з комп'ютером на базі "
-"Linux за допомогою USB-кабелю, виконайте ці кроки:"
-
-msgid "Connect your Android smartphone to the Linux computer using a USB cable."
-msgstr "Підключіть свій смартфон Android до комп'ютера з операційною системою Linux за допомогою USB-кабелю."
+"Виконано значне оновлення, яке зробило різні налаштування робочого столу несумісними. Продовжити "
+"застосування нових налаштувань."
 
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
-"Sharing'."
-msgstr ""
-"На своєму смартфоні відкрийте \"Налаштування\" і перейдіть до \"Мережа та Інтернет\" або "
-"\"Підключення та обмін даними\"."
-
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr "Шукайте \"USB-перемичка\", \"USB-перемичка\" або подібні терміни та увімкніть її."
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
+msgstr "Якщо у вас є продвинуті знання системи і ви віддаєте перевагу ручному налаштуванню, не продовжуйте."
 
 msgid ""
-"This will automatically establish the internet connection on your Linux computer without requiring "
-"any additional configuration."
-msgstr ""
-"Це автоматично встановить підключення до Інтернету на вашому комп'ютері з операційною системою "
-"Linux без потреби в додатковій конфігурації."
+"Continue\n"
+"            "
+msgstr "Продовжити"
+
+msgid "Select a new theme configuration:"
+msgstr "Виберіть нову конфігурацію теми:"
 
 msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
-"connected to a Wi-Fi network before enabling tethering."
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
 msgstr ""
-"Якщо ваш пристрій Android не підключений до Wi-Fi і використовує мобільні дані, це підключення "
-"витрачатиме дані з вашого мобільного плану. Щоб уникнути додаткових витрат, переконайтеся, що ваш "
-"пристрій Android підключений до мережі Wi-Fi перед увімкненням підключення."
+"Виберіть конфігурацію робочого столу. Це також видалить налаштування, зроблені в Plasma, для "
+"застосування нової сумісної конфігурації:"
 
-msgid "Close"
-msgstr "Закрити"
-
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "Використання Інтернету вашого пристрою iOS на Linux через USB"
+msgid "Completed."
+msgstr "Завершено."
 
 msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
-"these steps:"
-msgstr ""
-"Щоб поділитися підключенням до Інтернету вашого смартфона iOS з комп'ютером на базі Linux за "
-"допомогою USB-кабелю, виконайте ці кроки:"
+"Reboot now!\n"
+"                    "
+msgstr "Перезавантажити зараз!"
 
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "Підключіть свій пристрій iOS до комп'ютера з операційною системою Linux за допомогою USB-кабелю."
-
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr ""
-"На вашому пристрої iOS перейдіть до \"Налаштувань\", потім виберіть \"Особистий гарячий пункт "
-"доступу\"."
+msgid "Configuration"
+msgstr "Конфігурація"
 
 msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
-"detected."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Увімкніть \"Дозволити іншим приєднатися\". Це може автоматично увімкнути \"USB-перемичку\", якщо "
-"виявлено USB-підключення."
+"Ви вже користувалися цим робочим столом раніше. Хочете відновити ваші налаштування або використати "
+"оригінальну конфігурацію?"
 
-msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
-"connected to a Wi-Fi network before enabling tethering."
+msgid "Original"
+msgstr "Оригінал"
+
+msgid "Restore"
+msgstr "Відновити"
+
+msgid "Confirm Theme Change"
+msgstr "Підтвердити зміну теми"
+
+msgid "Do you want to apply the selected theme again?"
+msgstr "Чи бажаєте ви застосувати обраний тему знову?"
+
+msgid "Yes"
+msgstr "Так"
+
+msgid "No"
+msgstr "Ні"
+
+msgid "Confirm Desktop Change"
+msgstr "Підтвердити зміну робочого столу"
+
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "Чи бажаєте ви застосувати чисту конфігурацію цього робочого столу?"
+
+msgid "Applying"
+msgstr "Застосування"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr ""
-"Якщо ваш пристрій iOS не підключений до Wi-Fi і використовує мобільні дані, це підключення "
-"витрачатиме дані з вашого тарифу мобільного зв'язку. Щоб уникнути додаткових витрат, переконайтеся, "
-"що ваш пристрій iOS підключений до мережі Wi-Fi перед увімкненням роутера."
+"Налаштування було змінено. Щоб застосувати їх у всій системі, вийдіть з облікового запису та "
+"увійдіть знову."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Configuration Complete"
+msgstr "Конфігурація завершена"
+
+msgid "Your theme and desktop have been configured successfully."
+msgstr "Ваша тема та робочий стіл були успішно налаштовані."
+
+msgid "Desktop"
+msgstr "Робочий стіл"
+
+msgid "Theme"
+msgstr "Тема"

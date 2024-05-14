@@ -16,113 +16,99 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "search"
-msgstr "ricerca"
-
-msgid "Control Center"
-msgstr "Centro di controllo"
-
-msgid "Main"
-msgstr "Principale"
-
-msgid "Network and Internet"
-msgstr "Rete e Internet"
-
-msgid "Phone"
-msgstr "Telefono"
-
-msgid "Customize"
-msgstr "Personalizza"
-
-msgid "Region and Language"
-msgstr "Regione e Lingua"
-
-msgid "Multimedia"
-msgstr "Multimedia"
-
-msgid "Accounts"
-msgstr "Account"
-
-msgid "Devices"
-msgstr "Dispositivi"
-
-msgid "System"
-msgstr "Sistema"
-
-msgid "About"
-msgstr "Informazioni"
-
-msgid "Other"
-msgstr "Altro"
-
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "Utilizzo dell'Internet del dispositivo Android su Linux tramite USB"
+msgid "Post update adjustments"
+msgstr "Aggiustamenti dopo l'aggiornamento"
 
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
-"follow these steps:"
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
 msgstr ""
-"Per condividere la connessione internet del tuo smartphone Android con un computer Linux tramite "
-"cavo USB, segui questi passaggi:"
-
-msgid "Connect your Android smartphone to the Linux computer using a USB cable."
-msgstr "Collega il tuo smartphone Android al computer Linux utilizzando un cavo USB."
+"È stata applicata un'importante aggiornamento, rendendo vari settaggi del desktop incompatibili. "
+"Procedere con l'applicazione dei nuovi settaggi."
 
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
-"Sharing'."
-msgstr "Sul tuo smartphone, apri 'Impostazioni' e vai su 'Rete e Internet' o 'Connessioni e condivisione'."
-
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr "Cerca di 'USB Tethering', 'USB Tether' o termini simili e abilitalo."
-
-msgid ""
-"This will automatically establish the internet connection on your Linux computer without requiring "
-"any additional configuration."
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
 msgstr ""
-"Questo stabilirà automaticamente la connessione internet sul tuo computer Linux senza richiedere "
-"alcuna configurazione aggiuntiva."
+"Se si dispone di conoscenze avanzate del sistema e si preferisce apportare manualmente le "
+"modifiche, non procedere."
 
 msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
-"connected to a Wi-Fi network before enabling tethering."
-msgstr ""
-"Se il tuo dispositivo Android non è connesso a Wi-Fi e sta utilizzando i dati cellulari, questo "
-"tethering consumerà dati dal tuo piano cellulare. Per evitare costi aggiuntivi, assicurati che il "
-"tuo dispositivo Android sia connesso a una rete Wi-Fi prima di abilitare il tethering."
+"Continue\n"
+"            "
+msgstr "Continua"
 
-msgid "Close"
-msgstr "Chiudi"
-
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "Utilizzo dell'Internet del dispositivo iOS su Linux tramite USB"
+msgid "Select a new theme configuration:"
+msgstr "Seleziona una nuova configurazione del tema:"
 
 msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
-"these steps:"
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
 msgstr ""
-"Per condividere la connessione internet del tuo smartphone iOS con un computer Linux tramite cavo "
-"USB, segui questi passaggi:"
+"Scegli una configurazione desktop. Questo rimuoverà anche le personalizzazioni apportate in Plasma "
+"per applicare una nuova configurazione compatibile:"
 
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "Collega il tuo dispositivo iOS al computer Linux utilizzando un cavo USB."
-
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr "Sul tuo dispositivo iOS, vai su 'Impostazioni', quindi seleziona 'Hotspot personale'."
+msgid "Completed."
+msgstr "Completato."
 
 msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
-"detected."
-msgstr ""
-"Abilita 'Consenti ad altri di unirsi'. Questo potrebbe abilitare automaticamente 'USB Tethering' se "
-"viene rilevata una connessione USB."
+"Reboot now!\n"
+"                    "
+msgstr "Riavvia ora!"
+
+msgid "Configuration"
+msgstr "Configurazione"
 
 msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
-"connected to a Wi-Fi network before enabling tethering."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Se il tuo dispositivo iOS non è connesso a Wi-Fi e sta utilizzando i dati cellulari, questo "
-"tethering consumerà dati dal tuo piano cellulare. Per evitare costi aggiuntivi, assicurati che il "
-"tuo dispositivo iOS sia connesso a una rete Wi-Fi prima di abilitare il tethering."
+"Hai utilizzato questo desktop in precedenza, desideri ripristinare la tua personalizzazione o "
+"utilizzare la configurazione originale?"
+
+msgid "Original"
+msgstr "Originale"
+
+msgid "Restore"
+msgstr "Ripristina"
+
+msgid "Confirm Theme Change"
+msgstr "Conferma Cambio Tema"
+
+msgid "Do you want to apply the selected theme again?"
+msgstr "Vuoi applicare nuovamente il tema selezionato?"
+
+msgid "Yes"
+msgstr "Sì"
+
+msgid "No"
+msgstr "No"
+
+msgid "Confirm Desktop Change"
+msgstr "Conferma Cambio Desktop"
+
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "Vuoi riapplicare una configurazione pulita di quella scrivania?"
+
+msgid "Applying"
+msgstr "Applicazione"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr ""
+"Le impostazioni sono state modificate. Per applicarle in tutto il sistema, disconnettersi e "
+"riconnettersi."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Configuration Complete"
+msgstr "Configurazione completata"
+
+msgid "Your theme and desktop have been configured successfully."
+msgstr "Il tema e il desktop sono stati configurati con successo."
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Theme"
+msgstr "Tema"

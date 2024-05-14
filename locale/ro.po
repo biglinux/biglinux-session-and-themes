@@ -16,116 +16,97 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "search"
-msgstr "căutare"
-
-msgid "Control Center"
-msgstr "Centrul de control"
-
-msgid "Main"
-msgstr "Principal"
-
-msgid "Network and Internet"
-msgstr "Rețea și Internet"
-
-msgid "Phone"
-msgstr "Telefon"
-
-msgid "Customize"
-msgstr "Personalizare"
-
-msgid "Region and Language"
-msgstr "Regiune și Limbă"
-
-msgid "Multimedia"
-msgstr "Multimedia"
-
-msgid "Accounts"
-msgstr "Conturi"
-
-msgid "Devices"
-msgstr "Dispozitive"
-
-msgid "System"
-msgstr "Sistem"
-
-msgid "About"
-msgstr "Despre"
-
-msgid "Other"
-msgstr "Altele"
-
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "Folosirea internetului dispozitivului Android pe Linux prin USB"
+msgid "Post update adjustments"
+msgstr "Ajustări post actualizare"
 
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
-"follow these steps:"
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
 msgstr ""
-"Pentru a partaja conexiunea la internet a smartphone-ului Android cu un computer Linux folosind un "
-"cablu USB, urmați acești pași:"
-
-msgid "Connect your Android smartphone to the Linux computer using a USB cable."
-msgstr "Conectați-vă smartphone-ul Android la computerul Linux folosind un cablu USB."
+"A fost aplicată o actualizare majoră, făcând diverse setări de desktop incompatibile. Continuați să "
+"aplicați noile setări."
 
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
-"Sharing'."
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
 msgstr ""
-"Pe smartphone-ul dvs., deschideți „Setări” și navigați la „Rețea și internet” sau „Conexiuni și "
-"partajare”."
-
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr "Caută „USB Tethering”, „USB Tether” sau termeni similari și activează-l."
+"Dacă aveți cunoștințe avansate despre sistem și preferați să faceți ajustările manual, nu "
+"continuați."
 
 msgid ""
-"This will automatically establish the internet connection on your Linux computer without requiring "
-"any additional configuration."
-msgstr ""
-"Acesta va stabili automat conexiunea la internet pe computerul dvs. Linux fără a necesita "
-"configurări suplimentare."
+"Continue\n"
+"            "
+msgstr "Continua"
+
+msgid "Select a new theme configuration:"
+msgstr "Selectați o nouă configurație a temei:"
 
 msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
-"connected to a Wi-Fi network before enabling tethering."
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
 msgstr ""
-"Dacă dispozitivul Android nu este conectat la Wi-Fi și folosește date mobile, această partajare de "
-"conexiune va consuma date din planul tău celular. Pentru a evita taxele de date, asigură-te că "
-"dispozitivul Android este conectat la o rețea Wi-Fi înainte de a activa partajarea."
+"Alege o configurație de desktop. Aceasta va elimina și personalizările făcute în Plasma pentru a "
+"aplica o nouă configurație compatibilă:"
 
-msgid "Close"
-msgstr "Închide"
-
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "Folosirea internetului dispozitivului iOS pe Linux prin USB"
+msgid "Completed."
+msgstr "Finalizat."
 
 msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
-"these steps:"
-msgstr ""
-"Pentru a partaja conexiunea la internet a smartphone-ului iOS cu un computer Linux folosind un "
-"cablu USB, urmați acești pași:"
+"Reboot now!\n"
+"                    "
+msgstr "Reporniți acum!"
 
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "Conectați-vă dispozitivul iOS la computerul Linux folosind un cablu USB."
-
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr "Pe dispozitivul iOS, mergi la 'Setări', apoi selectează 'Hotspot personal'."
+msgid "Configuration"
+msgstr "Configurare"
 
 msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
-"detected."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Activați „Permiteți altora să se alăture”. Acest lucru poate activa automat „Partajarea USB” dacă "
-"este detectată o conexiune USB."
+"Ați utilizat acest desktop anterior, doriți să restaurați personalizarea sau să utilizați "
+"configurația originală?"
 
-msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
-"connected to a Wi-Fi network before enabling tethering."
-msgstr ""
-"Dacă dispozitivul iOS nu este conectat la Wi-Fi și folosește date mobile, această funcție de "
-"partajare a conexiunii va consuma date din planul dvs. de date mobile. Pentru a evita taxele de "
-"date, asigurați-vă că dispozitivul iOS este conectat la o rețea Wi-Fi înainte de a activa "
-"partajarea."
+msgid "Original"
+msgstr "Original"
+
+msgid "Restore"
+msgstr "Restabilire"
+
+msgid "Confirm Theme Change"
+msgstr "Confirmați schimbarea temei"
+
+msgid "Do you want to apply the selected theme again?"
+msgstr "Doriți să aplicați din nou tema selectată?"
+
+msgid "Yes"
+msgstr "Da"
+
+msgid "No"
+msgstr "Nu"
+
+msgid "Confirm Desktop Change"
+msgstr "Confirmați schimbarea desktop-ului"
+
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "Doriți să reaplicați o configurație curată a acelui desktop?"
+
+msgid "Applying"
+msgstr "Aplicare"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "Setările au fost schimbate. Pentru a le aplica în întregul sistem, deconectați-vă și reconectați-vă."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Configuration Complete"
+msgstr "Configurare completă"
+
+msgid "Your theme and desktop have been configured successfully."
+msgstr "Tema și desktopul au fost configurate cu succes."
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Theme"
+msgstr "Temă"

@@ -16,111 +16,89 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "search"
-msgstr "חיפוש"
-
-msgid "Control Center"
-msgstr "מרכז בקרה"
-
-msgid "Main"
-msgstr "ראשי"
-
-msgid "Network and Internet"
-msgstr "רשת ואינטרנט"
-
-msgid "Phone"
-msgstr "טלפון"
-
-msgid "Customize"
-msgstr "התאמה אישית"
-
-msgid "Region and Language"
-msgstr "אזור ושפה"
-
-msgid "Multimedia"
-msgstr "מולטימדיה"
-
-msgid "Accounts"
-msgstr "חשבונות"
-
-msgid "Devices"
-msgstr "התקן"
-
-msgid "System"
-msgstr "מערכת"
-
-msgid "About"
-msgstr "אודות"
-
-msgid "Other"
-msgstr "אחר"
-
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "שימוש באינטרנט של המכשיר האנדרואיד שלך ב-Linux דרך USB"
+msgid "Post update adjustments"
+msgstr "התאם עדכון אחרון"
 
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
-"follow these steps:"
-msgstr ""
-"כדי לשתף את חיבור האינטרנט של הסמארטפון שלך המשתמש במערכת ההפעלה אנדרואיד עם מחשב לינוקס באמצעות "
-"כבל USB, עקוב אחר השלבים הבאים:"
-
-msgid "Connect your Android smartphone to the Linux computer using a USB cable."
-msgstr "חבר את הסמארטפון שלך המרובה למחשב הלינוקס באמצעות כבל USB."
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
+msgstr "התקן עיקרי הוחל, וכעת הגדרות שולחן העבודה שונות אינן תואמות. האם להמשיך ולהחיל הגדרות חדשות."
 
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
-"Sharing'."
-msgstr "בטלפון החכם שלך, פתח 'הגדרות' ונווט אל 'רשת ואינטרנט' או 'חיבורים ושיתוף'."
-
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr "חפש 'שיתוף גישה באמצעות USB', 'שיתוף גישה USB', או מונחים דומים והפעל אותם."
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
+msgstr "אם יש לך ידע מתקדם במערכת ואתה מעדיף לבצע את ההתאמות באופן ידני, אל תמשיך."
 
 msgid ""
-"This will automatically establish the internet connection on your Linux computer without requiring "
-"any additional configuration."
-msgstr "זה יקים את חיבור האינטרנט באופן אוטומטי במחשב ה-Linux שלך בלי צורך בתצורה נוספת."
+"Continue\n"
+"            "
+msgstr "המשך"
+
+msgid "Select a new theme configuration:"
+msgstr "בחר הגדרת ערכת עיצוב חדשה:"
 
 msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
-"connected to a Wi-Fi network before enabling tethering."
-msgstr ""
-"אם המכשיר שלך ב-Android אינו מחובר לרשת Wi-Fi ומשתמש בנתונים סלולריים, השימוש בטתרינג יצרוך נתונים "
-"מתוך תוכנית הסלולר שלך. כדי למנוע חיובים בנתונים, וודא שהמכשיר שלך ב-Android מחובר לרשת Wi-Fi לפני "
-"הפעלת הטתרינג."
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
+msgstr "בחר תצורת שולחן עבודה. זה יסיר גם את ההתאמות המותאמות ב-Plasma כדי להחיל תצורה חדשה ותואמת:"
 
-msgid "Close"
-msgstr "סגור"
-
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "שימוש באינטרנט של המכשיר שלך ב- iOS על Linux דרך USB"
+msgid "Completed."
+msgstr "הושלם."
 
 msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
-"these steps:"
-msgstr ""
-"כדי לשתף את חיבור האינטרנט של הטלפון החכם שלך במערכת ההפעלה Linux באמצעות כבל USB, עקוב אחר השלבים "
-"הבאים:"
+"Reboot now!\n"
+"                    "
+msgstr "אנא הפעל מחדש כעת!"
 
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "חבר את המכשיר ה-iOS שלך למחשב ה-Linux באמצעות כבל USB."
-
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr "על המכשיר שלך ב- iOS, עבור ל 'הגדרות', ואז בחר 'נקודת גישה אישית'."
+msgid "Configuration"
+msgstr "הגדרות"
 
 msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
-"detected."
-msgstr ""
-"הפעל 'אפשר לאחרים להצטרף'. זה עשוי להפעיל באופן אוטומטי 'שיתוף גישה לאינטרנט דרך USB' אם חיבור USB "
-"זוהה."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr "השתמשת בשולחן העבודה הזה בעבר, האם ברצונך לשחזר את ההתאמה שלך או להשתמש בהגדרה המקורית?"
 
-msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
-"connected to a Wi-Fi network before enabling tethering."
-msgstr ""
-"אם המכשיר שלך במערכת ה-iOS אינו מחובר לרשת Wi-Fi ומשתמש בנתונים סלולריים, השימוש בטתרינג יצרף "
-"נתונים מתוך תוכנית הסלולר שלך. כדי למנוע חיובים בנתונים, וודא שהמכשיר שלך מחובר לרשת Wi-Fi לפני "
-"הפעלת הטתרינג."
+msgid "Original"
+msgstr "מקור"
+
+msgid "Restore"
+msgstr "שחזור"
+
+msgid "Confirm Theme Change"
+msgstr "אשר שינוי ערכת נושא"
+
+msgid "Do you want to apply the selected theme again?"
+msgstr "האם ברצונך להחיל שוב את הערכת הנושא שנבחרה?"
+
+msgid "Yes"
+msgstr "כן"
+
+msgid "No"
+msgstr "לא"
+
+msgid "Confirm Desktop Change"
+msgstr "אישור שינוי שולחן העבודה"
+
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "האם ברצונך להחידש את התצורה הנקייה של שולחן העבודה הזה?"
+
+msgid "Applying"
+msgstr "החלקה"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "ההגדרות שונו. כדי להחיל אותן בכל המערכת, התנתק והתחבר שוב."
+
+msgid "OK"
+msgstr "אישור"
+
+msgid "Configuration Complete"
+msgstr "הגדרות הושלמו"
+
+msgid "Your theme and desktop have been configured successfully."
+msgstr "הערכת העיצוב ושולחן העבודה הוגדרו בהצלחה."
+
+msgid "Desktop"
+msgstr "שולחן עבודה"
+
+msgid "Theme"
+msgstr "ערכת עיצוב"

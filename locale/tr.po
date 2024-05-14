@@ -16,115 +16,97 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "search"
-msgstr "arama"
-
-msgid "Control Center"
-msgstr "Kontrol Merkezi"
-
-msgid "Main"
-msgstr "Ana Menü"
-
-msgid "Network and Internet"
-msgstr "Ağ ve İnternet"
-
-msgid "Phone"
-msgstr "Telefon"
-
-msgid "Customize"
-msgstr "Özelleştir"
-
-msgid "Region and Language"
-msgstr "Bölge ve Dil"
-
-msgid "Multimedia"
-msgstr "Multimedya"
-
-msgid "Accounts"
-msgstr "Hesaplar"
-
-msgid "Devices"
-msgstr "Cihazlar"
-
-msgid "System"
-msgstr "Sistem"
-
-msgid "About"
-msgstr "Hakkında"
-
-msgid "Other"
-msgstr "Diğer"
-
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "Android Cihazınızın İnternetini USB Aracılığıyla Linux Üzerinde Kullanma"
+msgid "Post update adjustments"
+msgstr "Gönderi güncelleme ayarlamaları"
 
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
-"follow these steps:"
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
 msgstr ""
-"Android akıllı telefonun internet bağlantısını bir USB kablosu kullanarak bir Linux bilgisayarla "
-"paylaşmak için şu adımları izleyin:"
-
-msgid "Connect your Android smartphone to the Linux computer using a USB cable."
-msgstr "Android akıllı telefonunuzu USB kablosu kullanarak Linux bilgisayara bağlayın."
+"Bir ana güncelleme uygulandı, çeşitli masaüstü ayarları uyumsuz hale geldi. Yeni ayarları "
+"uygulamaya devam edin."
 
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
-"Sharing'."
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
 msgstr ""
-"Akıllı telefonunuzda, 'Ayarlar'ı açın ve 'Ağ ve İnternet' veya 'Bağlantılar ve Paylaşım' bölümüne "
-"gidin."
-
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr "'USB Tethering' arayın, etkinleştirin."
+"Sistemi ileri düzeyde biliyorsanız ve ayarları manuel olarak yapmayı tercih ediyorsanız, devam "
+"etmeyin."
 
 msgid ""
-"This will automatically establish the internet connection on your Linux computer without requiring "
-"any additional configuration."
-msgstr ""
-"Bu, Linux bilgisayarınızda herhangi bir ek yapılandırma gerektirmeden internet bağlantısını "
-"otomatik olarak kuracaktır."
+"Continue\n"
+"            "
+msgstr "Devam et"
+
+msgid "Select a new theme configuration:"
+msgstr "Yeni bir tema yapılandırması seçin:"
 
 msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
-"connected to a Wi-Fi network before enabling tethering."
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
 msgstr ""
-"Android cihazınız Wi-Fi'ye bağlı değilse ve mobil veriyi kullanıyorsa, bu bağlantı paylaşımı mobil "
-"planınızdan veri tüketir. Veri ücretlerinden kaçınmak için, paylaşımı etkinleştirmeden önce Android "
-"cihazınızın bir Wi-Fi ağına bağlı olduğundan emin olun."
+"Masaüstü yapılandırması seçin. Bu ayrıca, Plasma'da yapılan özelleştirmeleri kaldırarak yeni uyumlu "
+"bir yapılandırma uygulayacaktır:"
 
-msgid "Close"
-msgstr "Kapat"
-
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "iOS Cihazınızın İnternetini USB Aracılığıyla Linux Üzerinde Kullanma"
+msgid "Completed."
+msgstr "Tamamlandı."
 
 msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
-"these steps:"
-msgstr ""
-"iOS akıllı telefonunuzun internet bağlantısını bir USB kablosu kullanarak bir Linux bilgisayarla "
-"paylaşmak için şu adımları izleyin:"
+"Reboot now!\n"
+"                    "
+msgstr "Şimdi yeniden başlat!"
 
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "iOS cihazınızı USB kablosu kullanarak Linux bilgisayara bağlayın."
-
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr "iOS cihazınızda, 'Ayarlar' a gidin, ardından 'Kişisel Erişim Noktası' nı seçin."
+msgid "Configuration"
+msgstr "Yapılandırma"
 
 msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
-"detected."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"'Diğerlerinin Katılmasına İzin Ver' özelliğini etkinleştirin. Bu durum, bir USB bağlantısı "
-"algılandığında 'USB Tethering' özelliğini otomatik olarak etkinleştirebilir."
+"Bu masaüstünü daha önce kullandınız, özelleştirmenizi geri yüklemek mi istersiniz yoksa orijinal "
+"yapılandırmayı mı kullanmak istersiniz?"
 
-msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
-"connected to a Wi-Fi network before enabling tethering."
-msgstr ""
-"iOS cihazınız Wi-Fi'ye bağlı değilse ve mobil veriyi kullanıyorsa, bu bağlantı paylaşımı mobil "
-"planınızdan veri tüketir. Veri ücretlerinden kaçınmak için, paylaşımı etkinleştirmeden önce iOS "
-"cihazınızın bir Wi-Fi ağına bağlı olduğundan emin olun."
+msgid "Original"
+msgstr "Orijinal"
+
+msgid "Restore"
+msgstr "Geri Yükle"
+
+msgid "Confirm Theme Change"
+msgstr "Tema Değişikliğini Onayla"
+
+msgid "Do you want to apply the selected theme again?"
+msgstr "Seçilen temayı tekrar uygulamak istiyor musunuz?"
+
+msgid "Yes"
+msgstr "Evet"
+
+msgid "No"
+msgstr "Hayır"
+
+msgid "Confirm Desktop Change"
+msgstr "Masaüstü Değişikliğini Onayla"
+
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "Masaüstünün temiz bir yapılandırmasını yeniden uygulamak ister misiniz?"
+
+msgid "Applying"
+msgstr "Uygulanıyor"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "Ayarlar değiştirildi. Bunları sistem genelinde uygulamak için oturumu kapatıp tekrar açın."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Configuration Complete"
+msgstr "Yapılandırma Tamamlandı"
+
+msgid "Your theme and desktop have been configured successfully."
+msgstr "Tema ve masaüstü başarıyla yapılandırıldı."
+
+msgid "Desktop"
+msgstr "Masaüstü"
+
+msgid "Theme"
+msgstr "Tema"

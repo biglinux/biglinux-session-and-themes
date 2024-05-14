@@ -16,116 +16,99 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "search"
-msgstr "keresés"
-
-msgid "Control Center"
-msgstr "Vezérlőközpont"
-
-msgid "Main"
-msgstr "Fő"
-
-msgid "Network and Internet"
-msgstr "Hálózat és internet"
-
-msgid "Phone"
-msgstr "Telefon"
-
-msgid "Customize"
-msgstr "Testreszabás"
-
-msgid "Region and Language"
-msgstr "Régió és Nyelv"
-
-msgid "Multimedia"
-msgstr "Multimédia"
-
-msgid "Accounts"
-msgstr "Számlák"
-
-msgid "Devices"
-msgstr "Eszközök"
-
-msgid "System"
-msgstr "Rendszer"
-
-msgid "About"
-msgstr "Névjegy"
-
-msgid "Other"
-msgstr "Egyéb"
-
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "Az Android eszköz internetének használata Linuxon USB-n keresztül"
+msgid "Post update adjustments"
+msgstr "Frissítés utáni beállítások"
 
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
-"follow these steps:"
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
 msgstr ""
-"Az Android okostelefon internetkapcsolatának megosztásához egy Linux számítógéppel USB kábelen "
-"keresztül, kövesse ezeket lépéseket:"
-
-msgid "Connect your Android smartphone to the Linux computer using a USB cable."
-msgstr "Csatlakoztasd az Android okostelefonodat a Linux számítógéphez egy USB kábellel."
+"Egy jelentős frissítés történt, amely miatt különböző asztali beállítások nem kompatibilisek. "
+"Folytassa az új beállítások alkalmazását."
 
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
-"Sharing'."
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
 msgstr ""
-"A smartphoneon nyisd meg a 'Beállításokat' és navigálj a 'Hálózat és internet' vagy 'Kapcsolatok és "
-"megosztás' menüponthoz."
-
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr "Keresse meg a 'USB osztás', 'USB megosztás' vagy hasonló kifejezéseket, majd engedélyezze."
+"Ha haladó ismerete van a rendszernek, és inkább kézzel szeretné elvégezni a beállításokat, ne "
+"folytassa."
 
 msgid ""
-"This will automatically establish the internet connection on your Linux computer without requiring "
-"any additional configuration."
-msgstr ""
-"Ez automatikusan létre fogja hozni az internetkapcsolatot a Linux számítógépén anélkül, hogy "
-"bármilyen további konfigurációra szükség lenne."
+"Continue\n"
+"            "
+msgstr "Folytatás"
+
+msgid "Select a new theme configuration:"
+msgstr "Válasszon új téma konfigurációt:"
 
 msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
-"connected to a Wi-Fi network before enabling tethering."
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
 msgstr ""
-"Ha az Android készüléke nincs csatlakoztatva Wi-Fi-hez, és mobiladatot használ, akkor ez a "
-"megosztás mobiladatot fog fogyasztani a mobilcsomagjából. Az adatdíjak elkerülése érdekében "
-"győződjön meg róla, hogy az Android készüléke csatlakozik egy Wi-Fi hálózathoz, mielőtt "
-"engedélyezné a megosztást."
+"Válasszon asztali konfigurációt. Ez eltávolítja a Plasmában végzett egyedi testreszabásokat, hogy "
+"alkalmazni lehessen egy új kompatibilis konfigurációt:"
 
-msgid "Close"
-msgstr "Bezárás"
-
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "Az iOS eszköz internetének használata Linuxon USB-n keresztül"
+msgid "Completed."
+msgstr "Befejezve."
 
 msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
-"these steps:"
-msgstr ""
-"Az iOS okostelefon internetkapcsolatának megosztásához egy Linux számítógéppel USB kábelen "
-"keresztül, kövesse ezeket a lépéseket:"
+"Reboot now!\n"
+"                    "
+msgstr "Újraindítás most!"
 
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "Csatlakoztasd az iOS eszközödet a Linux számítógéphez egy USB kábellel."
-
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr "Az iOS eszközön lépjen a „Beállítások” menübe, majd válassza ki a „Személyes Hotspot” lehetőséget."
+msgid "Configuration"
+msgstr "Konfiguráció"
 
 msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
-"detected."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Engedélyezze a „Mások csatlakozásának engedélyezése” lehetőséget. Ez automatikusan engedélyezheti "
-"az „USB-törlést”, ha USB-csatlakozást észlelnek."
+"Ezt az asztali gépet már használtad korábban, szeretnéd visszaállítani a testreszabásodat, vagy az "
+"eredeti konfigurációt használni?"
 
-msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
-"connected to a Wi-Fi network before enabling tethering."
+msgid "Original"
+msgstr "Eredeti"
+
+msgid "Restore"
+msgstr "Visszaállítás"
+
+msgid "Confirm Theme Change"
+msgstr "Téma változtatásának megerősítése"
+
+msgid "Do you want to apply the selected theme again?"
+msgstr "Szeretné alkalmazni újra a kiválasztott témát?"
+
+msgid "Yes"
+msgstr "Igen"
+
+msgid "No"
+msgstr "Nem"
+
+msgid "Confirm Desktop Change"
+msgstr "Asztali Változtatás Megerősítése"
+
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "Szeretné újra alkalmazni a tiszta konfigurációt az asztali gépen?"
+
+msgid "Applying"
+msgstr "Alkalmazás"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr ""
-"Ha az iOS eszköz nincs Wi-Fi-hálózatra csatlakoztatva, és mobiladatot használ, akkor a megosztás "
-"mobiladatot fog fogyasztani a mobil-előfizetésedből. Adataid díjmentes használatához győződj meg "
-"róla, hogy az iOS eszköz csatlakozik egy Wi-Fi-hálózathoz, mielőtt engedélyeznéd a megosztást."
+"A beállítások megváltoztak. Az egész rendszer alkalmazásához jelentkezzen ki, majd jelentkezzen be "
+"újra."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Configuration Complete"
+msgstr "Konfiguráció befejezve"
+
+msgid "Your theme and desktop have been configured successfully."
+msgstr "A téma és az asztal sikeresen be lett állítva."
+
+msgid "Desktop"
+msgstr "Asztali"
+
+msgid "Theme"
+msgstr "Téma"

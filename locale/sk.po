@@ -16,115 +16,95 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "search"
-msgstr "hľadať"
-
-msgid "Control Center"
-msgstr "Ovládací panel"
-
-msgid "Main"
-msgstr "Hlavný"
-
-msgid "Network and Internet"
-msgstr "Sieť a internet"
-
-msgid "Phone"
-msgstr "Telefón"
-
-msgid "Customize"
-msgstr "Prispôsobiť"
-
-msgid "Region and Language"
-msgstr "Región a Jazyk"
-
-msgid "Multimedia"
-msgstr "Multimédiá"
-
-msgid "Accounts"
-msgstr "Účty"
-
-msgid "Devices"
-msgstr "Zariadenia"
-
-msgid "System"
-msgstr "Systém"
-
-msgid "About"
-msgstr "O programe"
-
-msgid "Other"
-msgstr "Iné"
-
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "Používanie internetu z vášho zariadenia Android na Linuxe cez USB"
+msgid "Post update adjustments"
+msgstr "Úpravy po aktualizácii"
 
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
-"follow these steps:"
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
 msgstr ""
-"Na zdieľanie pripojenia k internetu z Android smartfónu s Linux počítačom cez USB kábel postupujte "
-"podľa týchto krokov:"
-
-msgid "Connect your Android smartphone to the Linux computer using a USB cable."
-msgstr "Pripojte svoj Android smartfón k Linuxovému počítaču pomocou USB kábla."
+"Bolí sa aplikovala hlavná aktualizácia, ktorá spôsobila nekompatibilitu rôznych nastavení plochy. "
+"Pokračujte v aplikovaní nových nastavení."
 
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
-"Sharing'."
-msgstr ""
-"Na svojom smartfóne otvorte „Nastavenia“ a prejdite na „Sieť a internet“ alebo „Pripojenia a "
-"zdieľanie“."
-
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr "Hľadajte „USB zdieľanie pripojenia“, „USB zdieľanie“ alebo podobné termíny a povolte ho."
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
+msgstr "Ak máte pokročilé znalosti systému a uprednostňujete manuálne úpravy, nepokračujte."
 
 msgid ""
-"This will automatically establish the internet connection on your Linux computer without requiring "
-"any additional configuration."
-msgstr ""
-"Toto automaticky vytvorí internetové pripojenie na vašom počítači so systémom Linux bez potreby "
-"ďalšej konfigurácie."
+"Continue\n"
+"            "
+msgstr "Pokračovať"
+
+msgid "Select a new theme configuration:"
+msgstr "Vyberte novú konfiguráciu témy:"
 
 msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
-"connected to a Wi-Fi network before enabling tethering."
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
 msgstr ""
-"Ak váš zariadenie s Androidom nie je pripojené k Wi-Fi a používa mobilné dáta, toto zdieľanie "
-"spotrebuje dáta z vášho mobilného plánu. Aby ste sa vyhli poplatkom za dáta, uistite sa, že je vaše "
-"zariadenie s Androidom pripojené k Wi-Fi sieti pred povolením zdieľania."
+"Vyberte konfiguráciu pracovnej plochy. Tým sa odstránia aj prispôsobenia v Plasme, aby sa "
+"aplikovala nová kompatibilná konfigurácia:"
 
-msgid "Close"
-msgstr "Zavrieť"
-
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "Používanie internetu z vášho zariadenia iOS na Linuxe cez USB"
+msgid "Completed."
+msgstr "Dokončené."
 
 msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
-"these steps:"
-msgstr ""
-"Na zdieľanie internetového pripojenia vášho iOS smartfónu s Linux počítačom cez USB kábel "
-"postupujte podľa týchto krokov:"
+"Reboot now!\n"
+"                    "
+msgstr "Reštartovať teraz!"
 
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "Pripojte svoje zariadenie iOS k počítaču so systémom Linux pomocou USB kábla."
-
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr "Na vašom zariadení iOS prejdite do „Nastavenia“, potom vyberte „Osobný hotspot“."
+msgid "Configuration"
+msgstr "Konfigurácia"
 
 msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
-"detected."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Povoliť „Povoliť ostatným pripojiť sa“. To môže automaticky povoliť „USB prepojenie“ v prípade "
-"zistenia USB pripojenia."
+"Tento pracovný plochu ste už použili, chcete obnoviť vaše prispôsobenie alebo použiť pôvodnú "
+"konfiguráciu?"
 
-msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
-"connected to a Wi-Fi network before enabling tethering."
-msgstr ""
-"Ak váš iOS zariadenie nie je pripojené k Wi-Fi a používa mobilné dáta, toto zdieľanie spotrebuje "
-"dáta z vášho mobilného plánu. Aby ste sa vyhli poplatkom za dáta, uistite sa, že je vaše iOS "
-"zariadenie pripojené k Wi-Fi sieti pred povolením zdieľania."
+msgid "Original"
+msgstr "Pôvodný"
+
+msgid "Restore"
+msgstr "Obnoviť"
+
+msgid "Confirm Theme Change"
+msgstr "Potvrdiť zmenu témy"
+
+msgid "Do you want to apply the selected theme again?"
+msgstr "Chcete znova použiť vybranú tému?"
+
+msgid "Yes"
+msgstr "Áno"
+
+msgid "No"
+msgstr "Nie"
+
+msgid "Confirm Desktop Change"
+msgstr "Potvrďte zmenu pracovnej plochy"
+
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "Chcete znovu aplikovať čistú konfiguráciu toho pracovného stola?"
+
+msgid "Applying"
+msgstr "Použitie"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "Nastavenia boli zmenené. Pre ich aplikovanie v celom systéme sa odhláste a znova prihláste."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Configuration Complete"
+msgstr "Konfigurácia dokončená"
+
+msgid "Your theme and desktop have been configured successfully."
+msgstr "Váš motív a pracovná plocha boli úspešne nakonfigurované."
+
+msgid "Desktop"
+msgstr "Pracovná plocha"
+
+msgid "Theme"
+msgstr "Téma"

@@ -16,117 +16,99 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "search"
-msgstr "rechercher"
-
-msgid "Control Center"
-msgstr "Centre de contrôle"
-
-msgid "Main"
-msgstr "Principal"
-
-msgid "Network and Internet"
-msgstr "Réseau et Internet"
-
-msgid "Phone"
-msgstr "Téléphone"
-
-msgid "Customize"
-msgstr "Personnaliser"
-
-msgid "Region and Language"
-msgstr "Région et Langue"
-
-msgid "Multimedia"
-msgstr "Multimédia"
-
-msgid "Accounts"
-msgstr "Comptes"
-
-msgid "Devices"
-msgstr "Appareils"
-
-msgid "System"
-msgstr "Système"
-
-msgid "About"
-msgstr "À propos"
-
-msgid "Other"
-msgstr "Autre"
-
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "Utilisation de l'Internet de votre appareil Android sur Linux via USB"
+msgid "Post update adjustments"
+msgstr "Ajustements après la mise à jour"
 
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
-"follow these steps:"
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
 msgstr ""
-"Pour partager la connexion Internet de votre smartphone Android avec un ordinateur Linux en "
-"utilisant un câble USB, suivez ces étapes :"
-
-msgid "Connect your Android smartphone to the Linux computer using a USB cable."
-msgstr "Connectez votre smartphone Android à l'ordinateur Linux à l'aide d'un câble USB."
+"Une mise à jour majeure a été appliquée, rendant divers paramètres de bureau incompatibles. "
+"Procédez à l'application des nouveaux paramètres."
 
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
-"Sharing'."
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
 msgstr ""
-"Sur votre smartphone, ouvrez les \"Paramètres\" et accédez à \"Réseau et Internet\" ou \"Connexions "
-"et partage\"."
-
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr "Recherchez 'Partage de connexion USB', 'Tethering USB' ou des termes similaires et activez-le."
+"Si vous avez des connaissances avancées du système et préférez effectuer les ajustements "
+"manuellement, ne continuez pas."
 
 msgid ""
-"This will automatically establish the internet connection on your Linux computer without requiring "
-"any additional configuration."
-msgstr ""
-"Cela établira automatiquement la connexion Internet sur votre ordinateur Linux sans nécessiter de "
-"configuration supplémentaire."
+"Continue\n"
+"            "
+msgstr "Continuer"
+
+msgid "Select a new theme configuration:"
+msgstr "Sélectionnez une nouvelle configuration de thème :"
 
 msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
-"connected to a Wi-Fi network before enabling tethering."
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
 msgstr ""
-"Si votre appareil Android n'est pas connecté au Wi-Fi et utilise des données cellulaires, ce "
-"partage de connexion consommera des données de votre forfait cellulaire. Pour éviter les frais de "
-"données, assurez-vous que votre appareil Android est connecté à un réseau Wi-Fi avant d'activer le "
-"partage de connexion."
+"Choisissez une configuration de bureau. Cela supprimera également les personnalisations apportées "
+"dans Plasma pour appliquer une nouvelle configuration compatible :"
 
-msgid "Close"
-msgstr "Fermer"
-
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "Utilisation de l'Internet de votre appareil iOS sur Linux via USB"
+msgid "Completed."
+msgstr "Terminé."
 
 msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
-"these steps:"
-msgstr ""
-"Pour partager la connexion Internet de votre smartphone iOS avec un ordinateur Linux en utilisant "
-"un câble USB, suivez ces étapes :"
+"Reboot now!\n"
+"                    "
+msgstr "Redémarrer maintenant !"
 
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "Connectez votre appareil iOS à l'ordinateur Linux à l'aide d'un câble USB."
-
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr "Sur votre appareil iOS, allez dans 'Réglages', puis sélectionnez 'Partage de connexion'."
+msgid "Configuration"
+msgstr "Configuration"
 
 msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
-"detected."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Activer \"Autoriser les autres à rejoindre\". Cela peut activer automatiquement le \"Partage de "
-"connexion USB\" si une connexion USB est détectée."
+"Vous avez déjà utilisé ce bureau, voulez-vous restaurer votre personnalisation ou utiliser la "
+"configuration d'origine ?"
 
-msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
-"connected to a Wi-Fi network before enabling tethering."
+msgid "Original"
+msgstr "Original"
+
+msgid "Restore"
+msgstr "Restaurer"
+
+msgid "Confirm Theme Change"
+msgstr "Confirmer le changement de thème"
+
+msgid "Do you want to apply the selected theme again?"
+msgstr "Voulez-vous appliquer à nouveau le thème sélectionné ?"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr "Non"
+
+msgid "Confirm Desktop Change"
+msgstr "Confirmer le changement de bureau"
+
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "Voulez-vous réappliquer une configuration propre de ce bureau ?"
+
+msgid "Applying"
+msgstr "Appliquer"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr ""
-"Si votre appareil iOS n'est pas connecté au Wi-Fi et utilise des données cellulaires, ce partage de "
-"connexion consommera des données de votre forfait cellulaire. Pour éviter les frais de données, "
-"assurez-vous que votre appareil iOS est connecté à un réseau Wi-Fi avant d'activer le partage de "
-"connexion."
+"Les paramètres ont été modifiés. Pour les appliquer dans tout le système, déconnectez-vous et "
+"reconnectez-vous."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Configuration Complete"
+msgstr "Configuration terminée"
+
+msgid "Your theme and desktop have been configured successfully."
+msgstr "Votre thème et votre bureau ont été configurés avec succès."
+
+msgid "Desktop"
+msgstr "Bureau"
+
+msgid "Theme"
+msgstr "Thème"

@@ -16,104 +16,89 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "search"
-msgstr "検索"
-
-msgid "Control Center"
-msgstr "コントロールセンター"
-
-msgid "Main"
-msgstr "メイン"
-
-msgid "Network and Internet"
-msgstr "ネットワークとインターネット"
-
-msgid "Phone"
-msgstr "電話"
-
-msgid "Customize"
-msgstr "カスタマイズ"
-
-msgid "Region and Language"
-msgstr "地域と言語"
-
-msgid "Multimedia"
-msgstr "マルチメディア"
-
-msgid "Accounts"
-msgstr "アカウント"
-
-msgid "Devices"
-msgstr "デバイス"
-
-msgid "System"
-msgstr "システム"
-
-msgid "About"
-msgstr "について"
-
-msgid "Other"
-msgstr "その他"
-
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "Linuxを介してAndroidデバイスのインターネットをUSB経由で使用する"
+msgid "Post update adjustments"
+msgstr "更新後の調整"
 
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
-"follow these steps:"
-msgstr "Androidスマートフォンのインターネット接続をUSBケーブルを使用してLinuxコンピュータと共有するには、次の手順に従ってください:"
-
-msgid "Connect your Android smartphone to the Linux computer using a USB cable."
-msgstr "AndroidスマートフォンをUSBケーブルでLinuxコンピュータに接続してください。"
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
+msgstr "メジャーアップデートが適用され、さまざまなデスクトップ設定が非互換になりました。新しい設定を適用してください。"
 
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
-"Sharing'."
-msgstr "スマートフォンで、「設定」を開き、「ネットワークとインターネット」または「接続と共有」に移動してください。"
-
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr "「USBテザリング」、「USBテザ」などの用語を探して有効にしてください。"
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
+msgstr "システムの高度な知識をお持ちで、手動で調整を行いたい場合は、続行しないでください。"
 
 msgid ""
-"This will automatically establish the internet connection on your Linux computer without requiring "
-"any additional configuration."
-msgstr "これにより、追加の設定を必要とせずに、Linuxコンピューターでインターネット接続が自動的に確立されます。"
+"Continue\n"
+"            "
+msgstr "続行"
+
+msgid "Select a new theme configuration:"
+msgstr "新しいテーマ構成を選択してください:"
 
 msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
-"connected to a Wi-Fi network before enabling tethering."
-msgstr ""
-"Android デバイスが Wi-Fi に接続されておらず、携帯データを使用している場合、このテザリングは携帯プランからデータを消費します。データ料金を回避するためには、テザリングを有効にする前に "
-"Android デバイスが Wi-Fi ネットワークに接続されていることを確認してください。"
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
+msgstr "デスクトップ構成を選択してください。これにより、Plasmaで行ったカスタマイズが削除され、新しい互換性のある構成が適用されます。"
 
-msgid "Close"
-msgstr "閉じる"
-
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "iOSデバイスのインターネットをLinuxでUSB経由で使用する"
+msgid "Completed."
+msgstr "完了しました。"
 
 msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
-"these steps:"
-msgstr "iOSスマートフォンのインターネット接続をUSBケーブルを使用してLinuxコンピュータと共有するには、次の手順に従ってください:"
+"Reboot now!\n"
+"                    "
+msgstr "今すぐ再起動！"
 
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "iOSデバイスをUSBケーブルでLinuxコンピュータに接続してください。"
-
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr "iOSデバイスで、「設定」に移動し、「パーソナルホットスポット」を選択します。"
+msgid "Configuration"
+msgstr "構成"
 
 msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
-"detected."
-msgstr "「他のユーザーの参加を許可」を有効にします。USB接続が検出されると、自動的に「USBテザリング」が有効になる場合があります。"
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
+msgstr "このデスクトップを以前に使用したことがあります。カスタマイズを復元しますか、それとも元の構成を使用しますか？"
 
-msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
-"connected to a Wi-Fi network before enabling tethering."
-msgstr ""
-"iOS "
-"デバイスがWi-Fiに接続されておらず、携帯データを使用している場合、このテザリングは携帯プランからデータを消費します。データ料金を回避するためには、テザリングを有効にする前にiOSデバイスがWi-"
-"Fiネットワークに接続されていることを確認してください。"
+msgid "Original"
+msgstr "オリジナル"
+
+msgid "Restore"
+msgstr "復元"
+
+msgid "Confirm Theme Change"
+msgstr "テーマ変更を確認"
+
+msgid "Do you want to apply the selected theme again?"
+msgstr "選択したテーマを再度適用しますか？"
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "Confirm Desktop Change"
+msgstr "デスクトップの変更を確認"
+
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "そのデスクトップのクリーンな構成を再適用しますか？"
+
+msgid "Applying"
+msgstr "適用"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "設定が変更されました。システム全体に適用するには、ログオフして再ログインしてください。"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Configuration Complete"
+msgstr "構成完了"
+
+msgid "Your theme and desktop have been configured successfully."
+msgstr "テーマとデスクトップが正常に設定されました。"
+
+msgid "Desktop"
+msgstr "デスクトップ"
+
+msgid "Theme"
+msgstr "テーマ"

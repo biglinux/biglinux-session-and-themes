@@ -16,113 +16,99 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "search"
-msgstr "haku"
-
-msgid "Control Center"
-msgstr "Ohjauskeskus"
-
-msgid "Main"
-msgstr "Päävalikko"
-
-msgid "Network and Internet"
-msgstr "Verkko ja Internet"
-
-msgid "Phone"
-msgstr "Puhelin"
-
-msgid "Customize"
-msgstr "Mukauta"
-
-msgid "Region and Language"
-msgstr "Alue ja Kieli"
-
-msgid "Multimedia"
-msgstr "Monimedia"
-
-msgid "Accounts"
-msgstr "Tilit"
-
-msgid "Devices"
-msgstr "Laitteet"
-
-msgid "System"
-msgstr "Järjestelmä"
-
-msgid "About"
-msgstr "Tietoja"
-
-msgid "Other"
-msgstr "Muu"
-
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "Käytä Android-laitteesi internetyhteyttä Linuxissa USB:n kautta"
+msgid "Post update adjustments"
+msgstr "Päivityksen säädökset"
 
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
-"follow these steps:"
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
 msgstr ""
-"Jakaa Android-älypuhelimen internet-yhteys Linux-tietokoneen kanssa USB-kaapelin avulla, noudata "
-"näitä vaiheita:"
-
-msgid "Connect your Android smartphone to the Linux computer using a USB cable."
-msgstr "Yhdistä Android-älypuhelimesi Linux-tietokoneeseen USB-kaapelilla."
+"Merkittävä päivitys on otettu käyttöön, mikä tekee erilaisista työpöytäasetuksista "
+"yhteensopimattomia. Jatka uusien asetusten soveltamista."
 
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
-"Sharing'."
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
 msgstr ""
-"Älypuhelimellasi avaa 'Asetukset' ja siirry kohtaan 'Verkko ja Internet' tai 'Yhteydet ja "
-"jakaminen'."
-
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr "Etsi 'USB-tetherointi', 'USB-tether' tai vastaavat termit ja ota se käyttöön."
+"Jos sinulla on edistynyttä tietämystä järjestelmästä ja haluat tehdä säädöt manuaalisesti, älä "
+"jatka."
 
 msgid ""
-"This will automatically establish the internet connection on your Linux computer without requiring "
-"any additional configuration."
-msgstr "Tämä määrittää internet-yhteyden automaattisesti Linux-tietokoneellasi ilman lisäkonfigurointia."
+"Continue\n"
+"            "
+msgstr "Jatka"
+
+msgid "Select a new theme configuration:"
+msgstr "Valitse uusi teeman määritys:"
 
 msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
-"connected to a Wi-Fi network before enabling tethering."
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
 msgstr ""
-"Jos Android-laitteesi ei ole yhteydessä Wi-Fi-verkkoon ja käyttää mobiilidataa, tämä jakaminen "
-"kuluttaa dataa matkapuhelinsuunnitelmastasi. Välttääksesi datakustannuksia varmista, että "
-"Android-laitteesi on yhteydessä Wi-Fi-verkkoon ennen jakamisen käyttöönottoa."
+"Valitse työpöydän kokoonpano. Tämä poistaa myös Plasmassa tehdyt mukautukset uuden yhteensopivan "
+"kokoonpanon soveltamiseksi:"
 
-msgid "Close"
-msgstr "Sulje"
-
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "Käytä iOS-laitteesi Internet-yhteyttä Linuxissa USB:n kautta"
+msgid "Completed."
+msgstr "Valmis."
 
 msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
-"these steps:"
-msgstr ""
-"Jakaa iOS-älypuhelimen internet-yhteys Linux-tietokoneen kanssa USB-kaapelin avulla, noudata näitä "
-"vaiheita:"
+"Reboot now!\n"
+"                    "
+msgstr "Käynnistä uudelleen nyt!"
 
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "Yhdistä iOS-laite Linux-tietokoneeseen USB-kaapelilla."
-
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr "iOS-laitteellasi siirry kohtaan 'Asetukset', valitse sitten 'Henkilökohtainen hotspot'."
+msgid "Configuration"
+msgstr "Asetukset"
 
 msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
-"detected."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Ota käyttöön 'Salli muiden liittyä'. Tämä saattaa automaattisesti ottaa käyttöön "
-"'USB-tetheroinnin', jos USB-yhteys havaitaan."
+"Olet käyttänyt tätä työpöytää aiemmin, haluatko palauttaa mukautuksesi vai käyttää alkuperäistä "
+"asetusta?"
 
-msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
-"connected to a Wi-Fi network before enabling tethering."
+msgid "Original"
+msgstr "Alkuperäinen"
+
+msgid "Restore"
+msgstr "Palauta"
+
+msgid "Confirm Theme Change"
+msgstr "Vahvista teeman vaihto"
+
+msgid "Do you want to apply the selected theme again?"
+msgstr "Haluatko soveltaa valittua teemaa uudelleen?"
+
+msgid "Yes"
+msgstr "Kyllä"
+
+msgid "No"
+msgstr "Ei"
+
+msgid "Confirm Desktop Change"
+msgstr "Vahvista työpöydän vaihto"
+
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "Haluatko soveltaa puhdasta asetuskonfiguraatiota tuolle työpöydälle?"
+
+msgid "Applying"
+msgstr "Soveltaminen"
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr ""
-"Jos iOS-laitteesi ei ole yhteydessä Wi-Fi-verkkoon ja käyttää mobiilidataa, tämä jaon käyttö "
-"kuluttaa dataa matkapuhelinsuunnitelmastasi. Välttääksesi datakustannuksia varmista, että "
-"iOS-laitteesi on yhteydessä Wi-Fi-verkkoon ennen jaon käyttöönottoa."
+"Asetukset on muutettu. Jotta ne otetaan käyttöön koko järjestelmässä, kirjaudu ulos ja kirjaudu "
+"uudelleen sisään."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Configuration Complete"
+msgstr "Asetukset valmiit"
+
+msgid "Your theme and desktop have been configured successfully."
+msgstr "Teemasi ja työpöytäsi on määritetty onnistuneesti."
+
+msgid "Desktop"
+msgstr "Työpöytä"
+
+msgid "Theme"
+msgstr "Teema"

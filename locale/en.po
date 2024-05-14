@@ -16,148 +16,129 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #
-msgid "search"
-msgstr "search"
-
-#
-msgid "Control Center"
-msgstr "Control Center"
-
-#
-msgid "Main"
-msgstr "Main"
-
-#
-msgid "Network and Internet"
-msgstr "Network and Internet"
-
-#
-msgid "Phone"
-msgstr "Phone"
-
-#
-msgid "Customize"
-msgstr "Customize"
-
-#
-msgid "Region and Language"
-msgstr "Region and Language"
-
-#
-msgid "Multimedia"
-msgstr "Multimedia"
-
-#
-msgid "Accounts"
-msgstr "Accounts"
-
-#
-msgid "Devices"
-msgstr "Devices"
-
-#
-msgid "System"
-msgstr "System"
-
-#
-msgid "About"
-msgstr "About"
-
-#
-msgid "Other"
-msgstr "Other"
-
-#
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "Using Your Android Device's Internet on Linux via USB"
+msgid "Post update adjustments"
+msgstr "Post update adjustments"
 
 #
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer "
-"using a USB cable, follow these steps:"
+"A major update has been applied, making various desktop settings "
+"incompatible. Proceed to apply new settings."
 msgstr ""
-"To share your Android smartphone's internet connection with a Linux computer "
-"using a USB cable, follow these steps:"
+"A major update has been applied, making various desktop settings "
+"incompatible. Proceed to apply new settings."
 
 #
 msgid ""
-"Connect your Android smartphone to the Linux computer using a USB cable."
+"If you have advanced knowledge of the system and prefer to make the "
+"adjustments manually, do not proceed."
 msgstr ""
-"Connect your Android smartphone to the Linux computer using a USB cable."
+"If you have advanced knowledge of the system and prefer to make the "
+"adjustments manually, do not proceed."
 
 #
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' "
-"or 'Connections &amp; Sharing'."
+"Continue\n"
+"            "
 msgstr ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' "
-"or 'Connections &amp; Sharing'."
+"Continue\n"
+"            "
 
 #
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr ""
-"Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
+msgid "Select a new theme configuration:"
+msgstr "Select a new theme configuration:"
 
 #
 msgid ""
-"This will automatically establish the internet connection on your Linux "
-"computer without requiring any additional configuration."
+"Choose a desktop configuration. This will also remove customizations made in "
+"Plasma to apply a new compatible configuration:"
 msgstr ""
-"This will automatically establish the internet connection on your Linux "
-"computer without requiring any additional configuration."
+"Choose a desktop configuration. This will also remove customizations made in "
+"Plasma to apply a new compatible configuration:"
+
+#
+msgid "Completed."
+msgstr "Completed."
 
 #
 msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, "
-"this tethering will consume data from your cellular plan. To avoid data "
-"charges, ensure that your Android device is connected to a Wi-Fi network "
-"before enabling tethering."
+"Reboot now!\n"
+"                    "
 msgstr ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, "
-"this tethering will consume data from your cellular plan. To avoid data "
-"charges, ensure that your Android device is connected to a Wi-Fi network "
-"before enabling tethering."
+"Reboot now!\n"
+"                    "
 
 #
-msgid "Close"
-msgstr "Close"
-
-#
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "Using Your iOS Device's Internet on Linux via USB"
+msgid "Configuration"
+msgstr "Configuration"
 
 #
 msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer "
-"using a USB cable, follow these steps:"
+"You've used this desktop before, do you want to restore your customization "
+"or use the original configuration?"
 msgstr ""
-"To share your iOS smartphone's internet connection with a Linux computer "
-"using a USB cable, follow these steps:"
+"You've used this desktop before, do you want to restore your customization "
+"or use the original configuration?"
 
 #
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "Connect your iOS device to the Linux computer using a USB cable."
+msgid "Original"
+msgstr "Original"
 
 #
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
+msgid "Restore"
+msgstr "Restore"
+
+#
+msgid "Confirm Theme Change"
+msgstr "Confirm Theme Change"
+
+#
+msgid "Do you want to apply the selected theme again?"
+msgstr "Do you want to apply the selected theme again?"
+
+#
+msgid "Yes"
+msgstr "Yes"
+
+#
+msgid "No"
+msgstr "No"
+
+#
+msgid "Confirm Desktop Change"
+msgstr "Confirm Desktop Change"
+
+#
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "Do you want to reapply a clean configuration of that desktop?"
+
+#
+msgid "Applying"
+msgstr "Applying"
 
 #
 msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' "
-"if a USB connection is detected."
+"The settings have been changed. To apply them throughout the system, log off "
+"and log in again."
 msgstr ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' "
-"if a USB connection is detected."
+"The settings have been changed. To apply them throughout the system, log off "
+"and log in again."
 
 #
-msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, "
-"this tethering will consume data from your cellular plan. To avoid data "
-"charges, ensure that your iOS device is connected to a Wi-Fi network before "
-"enabling tethering."
-msgstr ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, "
-"this tethering will consume data from your cellular plan. To avoid data "
-"charges, ensure that your iOS device is connected to a Wi-Fi network before "
-"enabling tethering."
+msgid "OK"
+msgstr "OK"
+
+#
+msgid "Configuration Complete"
+msgstr "Configuration Complete"
+
+#
+msgid "Your theme and desktop have been configured successfully."
+msgstr "Your theme and desktop have been configured successfully."
+
+#
+msgid "Desktop"
+msgstr "Desktop"
+
+#
+msgid "Theme"
+msgstr "Theme"

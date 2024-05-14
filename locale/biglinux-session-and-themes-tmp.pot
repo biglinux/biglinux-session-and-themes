@@ -29,83 +29,79 @@ msgstr  "#-#-#-#-#  biglinux-session-and-themes.pot (biglinux-session-and-themes
         "Content-Transfer-Encoding: 8bit\n"
         "Generated-By: pygettext.py 1.5\n"
 #
-msgid   "search"
+msgid   "Post update adjustments"
 msgstr  ""
 #
-msgid   "Control Center"
+msgid   "A major update has been applied, making various desktop settings incompatible. Proceed to apply new settings."
 msgstr  ""
 #
-msgid   "Main"
+msgid   "If you have advanced knowledge of the system and prefer to make the adjustments manually, do not proceed."
 msgstr  ""
 #
-msgid   "Network and Internet"
+msgid   "Continue\n"
+        "            "
 msgstr  ""
 #
-msgid   "Phone"
+msgid   "Select a new theme configuration:"
 msgstr  ""
 #
-msgid   "Customize"
+msgid   "Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new compatible configuration:"
 msgstr  ""
 #
-msgid   "Region and Language"
+msgid   "Completed."
 msgstr  ""
 #
-msgid   "Multimedia"
+msgid   "Reboot now!\n"
+        "                    "
 msgstr  ""
 #
-msgid   "Accounts"
+msgid   "Configuration"
 msgstr  ""
 #
-msgid   "Devices"
+msgid   "You've used this desktop before, do you want to restore your customization or use the original configuration?"
 msgstr  ""
 #
-msgid   "System"
+msgid   "Original"
 msgstr  ""
 #
-msgid   "About"
+msgid   "Restore"
 msgstr  ""
 #
-msgid   "Other"
+msgid   "Confirm Theme Change"
 msgstr  ""
 #
-msgid   "Using Your Android Device's Internet on Linux via USB"
+msgid   "Do you want to apply the selected theme again?"
 msgstr  ""
 #
-msgid   "To share your Android smartphone's internet connection with a Linux computer using a USB cable, follow these steps:"
+msgid   "Yes"
 msgstr  ""
 #
-msgid   "Connect your Android smartphone to the Linux computer using a USB cable."
+msgid   "No"
 msgstr  ""
 #
-msgid   "On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; Sharing'."
+msgid   "Confirm Desktop Change"
 msgstr  ""
 #
-msgid   "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
+msgid   "Do you want to reapply a clean configuration of that desktop?"
 msgstr  ""
 #
-msgid   "This will automatically establish the internet connection on your Linux computer without requiring any additional configuration."
+msgid   "Applying"
 msgstr  ""
 #
-msgid   "If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will consume data from your cellular plan. To avoid data charges, ensure that your Android device is connected to a Wi-Fi network before enabling tethering."
+msgid   "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr  ""
 #
-msgid   "Close"
+msgid   "OK"
 msgstr  ""
 #
-msgid   "Using Your iOS Device's Internet on Linux via USB"
+msgid   "Configuration Complete"
 msgstr  ""
 #
-msgid   "To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow these steps:"
+msgid   "Your theme and desktop have been configured successfully."
 msgstr  ""
 #
-msgid   "Connect your iOS device to the Linux computer using a USB cable."
+msgid   "Desktop"
 msgstr  ""
 #
-msgid   "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr  ""
-#
-msgid   "Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is detected."
-msgstr  ""
-#
-msgid   "If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will consume data from your cellular plan. To avoid data charges, ensure that your iOS device is connected to a Wi-Fi network before enabling tethering."
+msgid   "Theme"
 msgstr  ""

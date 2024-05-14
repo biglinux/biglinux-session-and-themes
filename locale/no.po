@@ -16,115 +16,97 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "search"
-msgstr "søk"
-
-msgid "Control Center"
-msgstr "Kontrollsenter"
-
-msgid "Main"
-msgstr "Hoved"
-
-msgid "Network and Internet"
-msgstr "Nettverk og Internett"
-
-msgid "Phone"
-msgstr "Telefon"
-
-msgid "Customize"
-msgstr "Tilpass"
-
-msgid "Region and Language"
-msgstr "Region og språk"
-
-msgid "Multimedia"
-msgstr "Multimedie"
-
-msgid "Accounts"
-msgstr "Kontoer"
-
-msgid "Devices"
-msgstr "Enheter"
-
-msgid "System"
-msgstr "System"
-
-msgid "About"
-msgstr "Om"
-
-msgid "Other"
-msgstr "Annet"
-
-msgid "Using Your Android Device's Internet on Linux via USB"
-msgstr "Bruk Internett-tilkoblingen på Android-enheten din på Linux via USB"
+msgid "Post update adjustments"
+msgstr "Justeringer etter oppdatering"
 
 msgid ""
-"To share your Android smartphone's internet connection with a Linux computer using a USB cable, "
-"follow these steps:"
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
 msgstr ""
-"For å dele internettforbindelsen fra Android-smarttelefonen din med en Linux-datamaskin ved hjelp "
-"av en USB-kabel, følg disse trinnene:"
-
-msgid "Connect your Android smartphone to the Linux computer using a USB cable."
-msgstr "Koble til Android-smarttelefonen til Linux-datamaskinen ved hjelp av en USB-kabel."
+"En større oppdatering har blitt gjennomført, noe som gjør ulike skrivebordsinnstillinger "
+"uforenlige. Fortsett for å bruke de nye innstillingene."
 
 msgid ""
-"On your smartphone, open 'Settings' and navigate to 'Network &amp; Internet' or 'Connections &amp; "
-"Sharing'."
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
 msgstr ""
-"På smarttelefonen din, åpne 'Innstillinger' og naviger til 'Nettverk og Internett' eller "
-"'Tilkoblinger og Deling'."
-
-msgid "Look for 'USB Tethering', 'USB Tether', or similar terms and enable it."
-msgstr "Se etter 'USB-deling av nettverk', 'USB-deling', eller lignende termer og aktiver det."
+"Hvis du har avansert kunnskap om systemet og foretrekker å gjøre justeringene manuelt, ikke "
+"fortsett."
 
 msgid ""
-"This will automatically establish the internet connection on your Linux computer without requiring "
-"any additional configuration."
-msgstr ""
-"Dette vil automatisk opprette internettforbindelsen på Linux-datamaskinen din uten behov for "
-"ytterligere konfigurasjon."
+"Continue\n"
+"            "
+msgstr "Fortsett"
+
+msgid "Select a new theme configuration:"
+msgstr "Velg en ny tema konfigurasjon:"
 
 msgid ""
-"If your Android device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your Android device is "
-"connected to a Wi-Fi network before enabling tethering."
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
 msgstr ""
-"Hvis Android-enheten din ikke er koblet til Wi-Fi og bruker mobildata, vil deling av nettverk "
-"forbruke data fra mobilabonnementet ditt. For å unngå dataavgifter, sørg for at Android-enheten din "
-"er koblet til et Wi-Fi-nettverk før du aktiverer deling."
+"Velg en skrivebordskonfigurasjon. Dette vil også fjerne tilpasninger gjort i Plasma for å bruke en "
+"ny kompatibel konfigurasjon:"
 
-msgid "Close"
-msgstr "Lukk"
-
-msgid "Using Your iOS Device's Internet on Linux via USB"
-msgstr "Bruk Internett på iOS-enheten din på Linux via USB"
+msgid "Completed."
+msgstr "Fullført."
 
 msgid ""
-"To share your iOS smartphone's internet connection with a Linux computer using a USB cable, follow "
-"these steps:"
-msgstr ""
-"For å dele internettforbindelsen fra iOS-smarttelefonen din med en Linux-datamaskin ved hjelp av en "
-"USB-kabel, følg disse trinnene:"
+"Reboot now!\n"
+"                    "
+msgstr "Start på nytt nå!"
 
-msgid "Connect your iOS device to the Linux computer using a USB cable."
-msgstr "Koble til iOS-enheten din til Linux-datamaskinen ved hjelp av en USB-kabel."
-
-msgid "On your iOS device, go to 'Settings', then select 'Personal Hotspot'."
-msgstr "På iOS-enheten din, gå til 'Innstillinger', velg deretter 'Personlig hotspot'."
+msgid "Configuration"
+msgstr "Konfigurasjon"
 
 msgid ""
-"Enable 'Allow Others to Join'. This may automatically enable 'USB Tethering' if a USB connection is "
-"detected."
+"You've used this desktop before, do you want to restore your customization or use the original "
+"configuration?"
 msgstr ""
-"Aktiver \"Tillat andre å bli med\". Dette kan automatisk aktivere \"USB-deling\" hvis en "
-"USB-tilkobling oppdages."
+"Du har brukt denne skrivebordet tidligere, vil du gjenopprette tilpassingen din eller bruke den "
+"opprinnelige konfigurasjonen?"
 
-msgid ""
-"If your iOS device is not connected to Wi-Fi and is using cellular data, this tethering will "
-"consume data from your cellular plan. To avoid data charges, ensure that your iOS device is "
-"connected to a Wi-Fi network before enabling tethering."
-msgstr ""
-"Hvis iOS-enheten din ikke er koblet til Wi-Fi og bruker mobildata, vil deling av nettverk forbruke "
-"data fra mobilabonnementet ditt. For å unngå dataavgifter, sørg for at iOS-enheten din er koblet "
-"til et Wi-Fi-nettverk før du aktiverer deling."
+msgid "Original"
+msgstr "Original"
+
+msgid "Restore"
+msgstr "Gjenopprett"
+
+msgid "Confirm Theme Change"
+msgstr "Bekreft temaendring"
+
+msgid "Do you want to apply the selected theme again?"
+msgstr "Vil du bruke det valgte temaet igjen?"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nei"
+
+msgid "Confirm Desktop Change"
+msgstr "Bekreft skrivebordsendring"
+
+msgid "Do you want to reapply a clean configuration of that desktop?"
+msgstr "Vil du gjenopprette en ren konfigurasjon av skrivebordet?"
+
+msgid "Applying"
+msgstr "Søker..."
+
+msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
+msgstr "Innstillingene har blitt endret. For å bruke dem i hele systemet, logg av og deretter på igjen."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Configuration Complete"
+msgstr "Konfigurasjon fullført"
+
+msgid "Your theme and desktop have been configured successfully."
+msgstr "Ditt tema og skrivebord er konfigurert vellykket."
+
+msgid "Desktop"
+msgstr "Skrivebord"
+
+msgid "Theme"
+msgstr "Tema"
