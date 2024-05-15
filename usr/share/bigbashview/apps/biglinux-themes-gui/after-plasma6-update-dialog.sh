@@ -16,6 +16,11 @@ if [[ ! -e "$HOME/.local/share/konsole/Bash.profile" ]]; then
     cp "/etc/skel/.local/share/konsole/Bash.profile" "$HOME/.local/share/konsole/Bash.profile"
 fi
 
+# rm fontconfig
+if [ "$(md5sum /$HOME/.config/fontconfig/fonts.conf | awk '{print $1}')" = "2b2261e776f4126b41418cf695488cf5" ];then
+    rm /$HOME/.config/fontconfig/fonts.conf
+fi
+
 # BKP plasmoids
 mv "$HOME/.local/share/plasma/plasmoids/" "$HOME/.local/share/plasma/plasmoids-old/"
 
