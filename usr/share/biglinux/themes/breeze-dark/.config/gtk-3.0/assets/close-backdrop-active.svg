@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg viewBox="0 0 50 50"
- xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" baseProfile="tiny">
 <title>Qt SVG Document</title>
 <desc>Generated with Qt</desc>
 <defs>
 </defs>
 <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
 
-<g fill="#6d2229" fill-opacity="1" stroke="none" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
-font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Noto Sans Nerd Font" font-size="10" font-weight="500" font-style="normal" 
 >
-<circle cx="9" cy="9" r="9"/>
 </g>
 
-<g fill="none" stroke="#2a2e32" stroke-opacity="1" stroke-width="1.01" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
-font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+<g fill="#a1a9b1" fill-opacity="0.149996" stroke="#da0016" stroke-opacity="0" stroke-width="2.5025" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Noto Sans Nerd Font" font-size="10" font-weight="500" font-style="normal" 
 >
-<polyline fill="none" vector-effect="none" points="5,5 13,13 " />
-<polyline fill="none" vector-effect="none" points="13,5 5,13 " />
+<circle cx="22.5" cy="22.5" r="22.5"/>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
-font-family="Lato Semibold" font-size="11" font-weight="630" font-style="normal" 
+font-family="Noto Sans Nerd Font" font-size="10" font-weight="500" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#a1a9b1" stroke-opacity="1" stroke-width="1.001" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,2.5,2.5)"
+font-family="Noto Sans Nerd Font" font-size="10" font-weight="500" font-style="normal" 
+>
+<image x="0" y="0" width="45" height="45" preserveAspectRatio="none" image-rendering="optimizeSpeed" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACwUlEQVRYhe2ZPW8TMRjHf2XgAxDB0AoxMoNUtUORChVhdNTFYnJRvwRT87LQL1GiG28AxSOQiA4gtUIqc0eomiGofIAsMNhFBz37bOfaMuQvZfLz8pPPec7PczDXXHNduxbqDJbl+hawBCwCDeAMGAOnSoqfdeWZCTrL9QKwCrQAAdz3mB8DGhgAB0qKX6l5k6GzXD8DXgEPEty/Ai+VFO9TckdDZ7m+B+wBGykJ/9EI2FZSfItxioLOcv0IeAPcjvGr0A9gU0nxKdThRqhhluvnwJB6gbHxRjZ+kIJ2Osv1GuZR3kwEC9EUeKKk+FxlWAltz/AX6t/hMk2AZSXFd59RyPHY42qAAe4Ar6uMvNBZrpu4q0Qf6MVzgfXrO9Y2slw/9Tk7oe2LY9fje6KkaAPdSsS/1bV+Jx6bXZu/VL6dXsX/4tjJct1RUnQIB+8qKTpZrjvAjsfuIbDiWvRBtwIg2hHgReB2QGxn/lmhIQw8Ftibv/Tc2NvaWWDwKrAU4HM1ym6Hrp1eigwO5Ts+CzCYK+4FuaBLjQNUBH88I7CTwwXdSEwCBnxdSbGf5XqddGAnhws69jwX1T0HVlLsE1/HKzlc0OPEJMUz/DGhjgdxuKBPExKU/eli6niZwqFtmTmOCO6rEqngx65m2Pdy0YHBQ8paCvjAteCDdjoVFFOHY8GToA8wXbNLvYQ6XAT3XWuPgEPXordzsffpd47lPuZ66butudQD7gIvHOtNJcUHl3NIuzWknnFBqIZKirQmoKBtTJt/FZrYfF5VQttByiamW75MTTHzD29TC4FzDztI2eLywKfAVsj4AOInTGvAW+rtzieYHQ4ChogJE/zZ8WXM4KYOjTBzjmBgmG1q2sR06ylT0yPM1NRZ1nyqYz69gunnWlTPpwf2d3gt8+ky2d5ykYtfAsZ1fgmYa665/gP9BvrdIXHfoWHQAAAAAElFTkSuQmCC" />
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Noto Sans Nerd Font" font-size="10" font-weight="500" font-style="normal" 
 >
 </g>
 </g>
