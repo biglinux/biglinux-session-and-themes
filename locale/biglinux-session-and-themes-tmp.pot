@@ -29,30 +29,10 @@ msgstr  "#-#-#-#-#  biglinux-session-and-themes.pot (biglinux-session-and-themes
         "Content-Transfer-Encoding: 8bit\n"
         "Generated-By: pygettext.py 1.5\n"
 #
-msgid   "Post update adjustments"
+msgid   "Desktop"
 msgstr  ""
 #
-msgid   "A major update has been applied, making various desktop settings incompatible. Proceed to apply new settings."
-msgstr  ""
-#
-msgid   "If you have advanced knowledge of the system and prefer to make the adjustments manually, do not proceed."
-msgstr  ""
-#
-msgid   "Continue\n"
-        "            "
-msgstr  ""
-#
-msgid   "Select a new theme configuration:"
-msgstr  ""
-#
-msgid   "Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new compatible configuration:"
-msgstr  ""
-#
-msgid   "Completed."
-msgstr  ""
-#
-msgid   "Reboot now!\n"
-        "                    "
+msgid   "Theme"
 msgstr  ""
 #
 msgid   "Configuration"
@@ -94,14 +74,34 @@ msgstr  ""
 msgid   "OK"
 msgstr  ""
 #
+msgid   "Post update adjustments"
+msgstr  ""
+#
+msgid   "A major update has been applied, making various desktop settings incompatible. Proceed to apply new settings."
+msgstr  ""
+#
+msgid   "If you have advanced knowledge of the system and prefer to make the adjustments manually, do not proceed."
+msgstr  ""
+#
+msgid   "Continue\n"
+        "            "
+msgstr  ""
+#
+msgid   "Select a new theme configuration:"
+msgstr  ""
+#
+msgid   "Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new compatible configuration:"
+msgstr  ""
+#
+msgid   "Completed."
+msgstr  ""
+#
+msgid   "Reboot now!\n"
+        "                    "
+msgstr  ""
+#
 msgid   "Configuration Complete"
 msgstr  ""
 #
 msgid   "Your theme and desktop have been configured successfully."
-msgstr  ""
-#
-msgid   "Desktop"
-msgstr  ""
-#
-msgid   "Theme"
 msgstr  ""

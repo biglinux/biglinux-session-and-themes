@@ -16,56 +16,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #
-msgid "Post update adjustments"
-msgstr "Post update adjustments"
+msgid "Desktop"
+msgstr "Desktop"
 
 #
-msgid ""
-"A major update has been applied, making various desktop settings "
-"incompatible. Proceed to apply new settings."
-msgstr ""
-"A major update has been applied, making various desktop settings "
-"incompatible. Proceed to apply new settings."
-
-#
-msgid ""
-"If you have advanced knowledge of the system and prefer to make the "
-"adjustments manually, do not proceed."
-msgstr ""
-"If you have advanced knowledge of the system and prefer to make the "
-"adjustments manually, do not proceed."
-
-#
-msgid ""
-"Continue\n"
-"            "
-msgstr ""
-"Continue\n"
-"            "
-
-#
-msgid "Select a new theme configuration:"
-msgstr "Select a new theme configuration:"
-
-#
-msgid ""
-"Choose a desktop configuration. This will also remove customizations made in "
-"Plasma to apply a new compatible configuration:"
-msgstr ""
-"Choose a desktop configuration. This will also remove customizations made in "
-"Plasma to apply a new compatible configuration:"
-
-#
-msgid "Completed."
-msgstr "Completed."
-
-#
-msgid ""
-"Reboot now!\n"
-"                    "
-msgstr ""
-"Reboot now!\n"
-"                    "
+msgid "Theme"
+msgstr "Theme"
 
 #
 msgid "Configuration"
@@ -128,17 +84,61 @@ msgid "OK"
 msgstr "OK"
 
 #
+msgid "Post update adjustments"
+msgstr "Post update adjustments"
+
+#
+msgid ""
+"A major update has been applied, making various desktop settings "
+"incompatible. Proceed to apply new settings."
+msgstr ""
+"A major update has been applied, making various desktop settings "
+"incompatible. Proceed to apply new settings."
+
+#
+msgid ""
+"If you have advanced knowledge of the system and prefer to make the "
+"adjustments manually, do not proceed."
+msgstr ""
+"If you have advanced knowledge of the system and prefer to make the "
+"adjustments manually, do not proceed."
+
+#
+msgid ""
+"Continue\n"
+"            "
+msgstr ""
+"Continue\n"
+"            "
+
+#
+msgid "Select a new theme configuration:"
+msgstr "Select a new theme configuration:"
+
+#
+msgid ""
+"Choose a desktop configuration. This will also remove customizations made in "
+"Plasma to apply a new compatible configuration:"
+msgstr ""
+"Choose a desktop configuration. This will also remove customizations made in "
+"Plasma to apply a new compatible configuration:"
+
+#
+msgid "Completed."
+msgstr "Completed."
+
+#
+msgid ""
+"Reboot now!\n"
+"                    "
+msgstr ""
+"Reboot now!\n"
+"                    "
+
+#
 msgid "Configuration Complete"
 msgstr "Configuration Complete"
 
 #
 msgid "Your theme and desktop have been configured successfully."
 msgstr "Your theme and desktop have been configured successfully."
-
-#
-msgid "Desktop"
-msgstr "Desktop"
-
-#
-msgid "Theme"
-msgstr "Theme"
