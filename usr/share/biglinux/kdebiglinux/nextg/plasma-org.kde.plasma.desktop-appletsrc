@@ -45,8 +45,8 @@ plugin=org.biglinux.appsmenu
 
 [Containments][2][Applets][36][Configuration]
 PreloadWeight=100
-popupHeight=608
-popupWidth=993
+popupHeight=620
+popupWidth=1001
 
 [Containments][2][Applets][36][Configuration][ConfigDialog]
 DialogHeight=540
@@ -77,7 +77,10 @@ DialogWidth=720
 indicateAudioStreams=false
 launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:big-store.desktop,applications:bigcontrolcenter.desktop
 middleClickAction=None
+showOnlyCurrentActivity=false
+showOnlyCurrentDesktop=false
 showOnlyCurrentScreen=true
+unhideOnAttention=false
 wheelEnabled=false
 
 [Containments][2][Applets][63]
@@ -112,15 +115,15 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][69][Configuration][General]
-hideRealPanelBg=true
 hideWidget=true
+marginRules=org.biglinux.appsmenu,0,3|org.kde.plasma.icon,0,0|org.kde.plasma.icontasks,0,0|luisbocanegra.panel.colorizer,0,0|org.kde.plasma.marginsseparator,0,0|org.kde.plasma.lock_logout,0,0
 panelBgColorMode=1
-panelBgEnabled=true
 panelBgOpacity=0.45
 panelBgRadius=15
 panelOutlineOpacity=0.55
-panelWidgets=org.biglinux.appsmenu,Lançador de aplicativos BigLinux,big-favicon-new|org.kde.plasma.icon,Visão Geral das Atividades,mission-control|org.kde.plasma.icontasks,Gerenciador de tarefas apenas com ícones,preferences-system-windows|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.marginsseparator,Separador de margens,filename-divider|org.kde.plasma.lock_logout,Bloquear/encerrar sessão,system-shutdown
-panelWidgetsWithTray=org.biglinux.appsmenu,Lançador de aplicativos BigLinux,big-favicon-new|org.kde.plasma.icon,Visão Geral das Atividades,mission-control|org.kde.plasma.icontasks,Gerenciador de tarefas apenas com ícones,preferences-system-windows|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.marginsseparator,Separador de margens,filename-divider|org.kde.plasma.lock_logout,Bloquear/encerrar sessão,system-shutdown
+panelRealBgOpacity=0.3
+panelWidgets=org.biglinux.appsmenu,big-favicon-new|org.kde.plasma.icon,mission-control|org.kde.plasma.icontasks,preferences-system-windows|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.marginsseparator,filename-divider|org.kde.plasma.lock_logout,system-shutdown
+panelWidgetsWithTray=org.biglinux.appsmenu,big-favicon-new|org.kde.plasma.icon,mission-control|org.kde.plasma.icontasks,preferences-system-windows|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.marginsseparator,filename-divider|org.kde.plasma.lock_logout,system-shutdown
 widgetBgEnabled=false
 
 [Containments][2][General]
@@ -149,7 +152,7 @@ arrangement=1
 iconSize=2
 
 [Containments][39][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/animal funny6.avif
+Image=/usr/share/wallpapers/future planet.avif
 PreviewImage=/usr/share/wallpapers/conceitual multimedia6.avif
 SlidePaths=/usr/share/wallpapers/
 
@@ -227,6 +230,8 @@ DialogWidth=720
 [Containments][40][Applets][68][Configuration][General]
 colorMode=1
 colorModeTheme=12
+fgColorMode=1
+fgContrastFixEnabled=false
 hideRealPanelBg=true
 hideWidget=true
 marginRules=org.kde.plasma.appmenu,0,0|org.kde.plasma.panelspacer,0,0|luisbocanegra.panel.colorizer,0,0|org.kde.plasma.systemtray,0,0|org.kde.plasma.digitalclock,0,5
@@ -236,8 +241,8 @@ panelBgEnabled=true
 panelBgOpacity=0.15
 panelOutlineWidth=2
 panelRealBgOpacity=0.1
-panelWidgets=org.biglinux.showdesktop,Pequeno ícone de minimizar todas as janelas,window-minimize-symbolic|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.panelspacer,Espaçador do painel,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.systemtray,Área de notificação,preferences-desktop-notification|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time|org.kde.windowbuttons,Window Buttons,focus-windows
-panelWidgetsWithTray=org.biglinux.showdesktop,Pequeno ícone de minimizar todas as janelas,window-minimize-symbolic|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.panelspacer,Espaçador do painel,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.clipboard,Área de transferência,klipper-symbolic|org.kde.plasma.devicenotifier,Discos e dispositivos,media-optical-data-symbolic|org.kde.plasma.networkmanagement,Redes,network-wired-activated|org.kde.plasma.volume,Volume do áudio,audio-volume-medium|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time|org.kde.windowbuttons,Window Buttons,focus-windows
+panelWidgets=org.biglinux.showdesktop,window-minimize-symbolic|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.panelspacer,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.systemtray,preferences-desktop-notification|org.kde.plasma.digitalclock,preferences-system-time|org.kde.windowbuttons,Window Buttons,focus-windows
+panelWidgetsWithTray=org.biglinux.showdesktop,window-minimize-symbolic|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.panelspacer,|luisbocanegra.panel.colorizer,desktop|org.kde.plasma.networkmanagement,Redes,network-wired-activated|org.kde.plasma.volume,audio-volume-medium|org.kde.plasma.devicenotifier,media-optical-data-symbolic|org.kde.plasma.digitalclock,preferences-system-time|org.kde.windowbuttons,Window Buttons,focus-windows
 radius=7
 widgetBgVMargin=5
 
@@ -299,7 +304,7 @@ immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
 [Containments][43][Applets][52][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][43][Applets][53]
 immutability=1
@@ -452,4 +457,4 @@ shownItems=org.kde.plasma.brightness
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/calamares-biglinux.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b
+screenMapping=desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/calamares-biglinux.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792

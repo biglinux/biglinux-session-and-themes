@@ -66,8 +66,8 @@ plugin=org.biglinux.appsmenu
 
 [Containments][2][Applets][36][Configuration]
 PreloadWeight=100
-popupHeight=611
-popupWidth=997
+popupHeight=620
+popupWidth=1001
 
 [Containments][2][Applets][36][Configuration][ConfigDialog]
 DialogHeight=540

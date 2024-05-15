@@ -57,7 +57,7 @@ toolTips=true
 
 [Containments][27][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=/usr/share/wallpapers/clean art6.avif
+Image=/usr/share/wallpapers/z non sense cat3.avif
 PreviewImage=/usr/share/wallpapers/clean art6.avif
 SlidePaths=/usr/share/wallpapers
 
@@ -72,7 +72,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][28][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/cat steampunk5.avif
+Image=/usr/share/wallpapers/z non sense cat3.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][29]
@@ -86,7 +86,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][29][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/cat steampunk5.avif
+Image=/usr/share/wallpapers/z non sense cat3.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][30]
@@ -100,7 +100,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][30][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/cat steampunk5.avif
+Image=/usr/share/wallpapers/z non sense cat3.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][31]
@@ -114,7 +114,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][31][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/cat steampunk5.avif
+Image=/usr/share/wallpapers/z non sense cat3.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][32]
@@ -128,7 +128,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][32][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/cat steampunk5.avif
+Image=/usr/share/wallpapers/z non sense cat3.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][33]
@@ -142,7 +142,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][33][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/cat steampunk5.avif
+Image=/usr/share/wallpapers/z non sense cat3.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][34]
@@ -156,7 +156,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][34][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/cat steampunk5.avif
+Image=/usr/share/wallpapers/z non sense cat3.avif
 SlidePaths=/usr/share/wallpapers
 
 [Containments][35]
@@ -181,20 +181,19 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][35][Applets][38][Configuration][General]
-bgContrastFixEnabled=true
 bgSaturation=0.6
 colorMode=1
-colorModeTheme=10
-colorModeThemeVariant=1
+colorModeTheme=12
 fgColorMode=1
+fgContrastFixEnabled=false
 hideRealPanelBg=true
 hideWidget=true
 marginRules=org.kde.plasma.panelspacer,0,0|org.kde.plasma.appmenu,0,0|luisbocanegra.panel.colorizer,0,0|org.kde.plasma.systemtray,0,0|org.kde.plasma.digitalclock,0,4|org.kde.windowbuttons,0,0|org.kde.plasma.icon,0,0|org.biglinux.showdesktop,0,0
 opacity=0.65
 panelBgColorMode=1
 panelBgOpacity=0.5
-panelWidgets=org.kde.plasma.panelspacer,Espaçador do painel,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.windowbuttons,Window Buttons,focus-windows|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.icon,Visão Geral das Atividades,mission-control|org.kde.plasma.systemtray,Área de notificação,preferences-desktop-notification|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time|org.biglinux.showdesktop,Pequeno ícone de minimizar todas as janelas,window-minimize-symbolic
-panelWidgetsWithTray=org.kde.plasma.panelspacer,Espaçador do painel,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.windowbuttons,Window Buttons,focus-windows|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.icon,Visão Geral das Atividades,mission-control|org.kde.plasma.clipboard,Área de transferência,klipper-symbolic|org.kde.plasma.devicenotifier,Discos e dispositivos,media-optical-data-symbolic|org.kde.plasma.networkmanagement,Redes,network-wired-activated|org.kde.plasma.volume,Volume do áudio,audio-volume-high|org.kde.plasma.digitalclock,Relógio digital,preferences-system-time|org.biglinux.showdesktop,Pequeno ícone de minimizar todas as janelas,window-minimize-symbolic
+panelWidgets=org.kde.plasma.panelspacer,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.windowbuttons,Window Buttons,focus-windows|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.icon,mission-control|org.kde.plasma.systemtray,preferences-desktop-notification|org.kde.plasma.digitalclock,preferences-system-time|org.biglinux.showdesktop,window-minimize-symbolic
+panelWidgetsWithTray=org.kde.plasma.panelspacer,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.windowbuttons,Window Buttons,focus-windows|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.icon,mission-control|org.kde.plasma.networkmanagement,Redes,network-wired-activated|org.kde.plasma.volume,audio-volume-medium|org.kde.plasma.devicenotifier,media-optical-data-symbolic|org.kde.plasma.digitalclock,preferences-system-time|org.biglinux.showdesktop,window-minimize-symbolic
 radius=7
 
 [Containments][35][Applets][39]
@@ -283,8 +282,16 @@ plugin=org.kde.plasma.panelspacer
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][37][Applets][61][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][37][Applets][61][Configuration][General]
 launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop
+showOnlyCurrentActivity=false
+showOnlyCurrentDesktop=false
+showOnlyCurrentScreen=true
+unhideOnAttention=false
 
 [Containments][37][Applets][64]
 immutability=1
@@ -292,8 +299,8 @@ plugin=org.biglinux.appsmenu
 
 [Containments][37][Applets][64][Configuration]
 PreloadWeight=100
-popupHeight=619
-popupWidth=1011
+popupHeight=620
+popupWidth=1001
 
 [Containments][37][Applets][64][Configuration][ConfigDialog]
 DialogHeight=540
@@ -311,14 +318,13 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][37][Applets][67][Configuration][General]
-hideRealPanelBg=true
 hideWidget=true
 marginRules=org.biglinux.appsmenu,0,0|luisbocanegra.panel.colorizer,0,0|org.kde.plasma.icontasks,0,0|org.kde.plasma.panelspacer,0,0|org.kde.plasma.trash,0,0|org.kde.windowtitle,-6,0
 panelBgColorMode=1
-panelBgEnabled=true
 panelBgOpacity=0.65
-panelWidgets=org.kde.windowtitle,Window Title,preferences-desktop|org.biglinux.appsmenu,Lançador de aplicativos BigLinux,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,Gerenciador de tarefas apenas com ícones,preferences-system-windows|org.kde.plasma.panelspacer,Espaçador do painel,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
-panelWidgetsWithTray=org.kde.windowtitle,Window Title,preferences-desktop|org.biglinux.appsmenu,Lançador de aplicativos BigLinux,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,Gerenciador de tarefas apenas com ícones,preferences-system-windows|org.kde.plasma.panelspacer,Espaçador do painel,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
+panelRealBgOpacity=0.5
+panelWidgets=org.kde.windowtitle,Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
+panelWidgetsWithTray=org.kde.windowtitle,Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
 widgetBgEnabled=false
 
 [Containments][37][Applets][69]
@@ -393,7 +399,7 @@ immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
 [Containments][43][Applets][52][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][43][Applets][53]
 immutability=1
@@ -439,4 +445,4 @@ immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=http://0.0.0.0,0,0,desktop:/home.desktop,0,desktop:/trash.desktop,desktop:/calamares-biglinux.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b
+screenMapping=http://0.0.0.0,0,0,desktop:/calamares-biglinux.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b,desktop:/home.desktop,0,desktop:/trash.desktop
