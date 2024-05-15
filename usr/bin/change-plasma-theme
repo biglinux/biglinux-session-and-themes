@@ -51,14 +51,10 @@ fi
 # Apply config
 if [ -e "$HOME/.kdebiglinux/$2" ]; then
 
-    #Fix autostart lattedock
-    rm -f "$HOME/.config/enable_latte"
     #Fix kwin button
     rm -f "$HOME/.config/kwin_left"
     #Fix kwin maximized
     rm -f "$HOME/.config/kwin_maximized_disable"
-    #Clean latte
-    rm -Rf "$HOME/.config/latte"
     #Save lastused
     echo "$2" > $HOME/.kdebiglinux/lastused
 
@@ -69,8 +65,6 @@ if [ -e "$HOME/.kdebiglinux/$2" ]; then
 else
     if [ -e "/usr/share/biglinux/kdebiglinux/$2" ]; then
 
-        #Fix autostart lattedock
-        rm -f "$HOME/.config/enable_latte"
         #Fix kwin button
         rm -Rf "$HOME/.config/kwin_left"
         #Fix kwin maximized
@@ -163,12 +157,14 @@ if [ "$2" = "vanilla" ]; then
     kwriteconfig6 --file ~/.config/kdeglobals --group Icons --key "Theme" "breeze"
 fi
 
+# Run specific desktop tweaks
+/usr/share/biglinux/multi-kde/$2
 
 if [ "$3" = "quiet" ] || [ "$4" = "quiet" ]; then
     echo "No start services"
 else
 
-    qdbus6 org.kde.KWin /KWin org.kde.KWin.reload
+    qdbus6 org.kde.KWin /KWin org.kde.KWin.reconfigure
     qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.gtkTheme)
     gtk-reload.py
     systemctl --user start plasma-plasmashell

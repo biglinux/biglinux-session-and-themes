@@ -63,7 +63,9 @@ case "$1" in
             #Kwin
             kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
         fi
-
+        # Run specific desktop tweaks
+        /usr/share/biglinux/multi-kde/$(cat ~/.kdebiglinux/lastused)
+        
         if pgrep kwin; then
 
                 #Configure GTK
