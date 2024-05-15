@@ -14,10 +14,6 @@ SCREEN="$(xrandr | grep 'connected primary' | cut -f1 -d" ")"
 WIDTH=${RESOLUTION//x*}
 HEIGHT=${RESOLUTION//*x}
 
-
-# To libreoffice use gtk theme
-export SAL_USE_VCLPLUGIN=gtk3_kde5
-
 if [ "$1" = "wayland" ]; then
     STARTPLASMA=startplasma-wayland
     # export EGL_PLATFORM=wayland
@@ -80,13 +76,6 @@ export RADV_PERFTEST=sam,nggc,ext_ms
 # Vulkan ICD folder
 export ICD_DIR=/usr/share/vulkan/icd.d
 
-#OBS Studio game capture with vulkan
-if [ -e "/usr/bin/obs-vkcapture" ]; then
-    export OBS_USE_EGL=1
-    export OBS_VKCAPTURE=1
-    export VK_INSTANCE_LAYERS=VK_LAYER_OBS_vkcapture_64:VK_LAYER_VALVE_steam_overlay_64 #Fix MangoHUD overlay
-fi
-
 #Keyboard LED
 if [ -e "$HOME/.config/ledkeyboard" ]; then
    change-keyboard-led on
@@ -136,7 +125,9 @@ WALLPAPER=$(kreadconfig5 --file ~/.config/plasma-org.kde.plasma.desktop-appletsr
 ln -sf "$WALLPAPER" /tmp/bigksplash.jpg
 chmod 777 /tmp/bigksplash.jpg
 
-feh --bg-fill "/tmp/bigksplash.jpg" &
+if [[ "$XDG_SESSION_TYPE" != "wayland" ]]; then
+    feh --bg-fill "/tmp/bigksplash.jpg" &
+fi
 
 # Fix full screen when switch desktop
 if [ "$nowlogin" != "$lastlogin" ]; then
@@ -175,8 +166,6 @@ fi
 #  eval "$(ssh-agent -s)"
 #fi
 
-# Change way to autostart latte
-> $HOME/.config/autostart/org.kde.latte-dock.desktop
 # Remove old plasmoids from plasma5
 if [ -e "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
     mv "$HOME/.local/share/plasma/plasmoids/" "$HOME/.local/share/plasma/plasmoids-old/"

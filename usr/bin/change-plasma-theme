@@ -160,6 +160,9 @@ fi
 # Run specific desktop tweaks
 /usr/share/biglinux/multi-kde/$2
 
+# Enable gtkconfig in kde config
+kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded5rc --key autoload true
+
 if [ "$3" = "quiet" ] || [ "$4" = "quiet" ]; then
     echo "No start services"
 else
