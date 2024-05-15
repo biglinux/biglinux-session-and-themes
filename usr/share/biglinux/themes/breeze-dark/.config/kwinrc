@@ -10,6 +10,7 @@ NoiseStrength=0
 
 [Plugins]
 wobblywindowsEnabled=true
+slidingpopupsEnabled=false
 
 [org.kde.kdecoration2]
 BorderSize=NoSides

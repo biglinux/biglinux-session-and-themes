@@ -1,9 +1,3 @@
 #!/bin/sh
 
-#resolucao horizontal
-resolucao_horizontal="$(LANG=C xdpyinfo  | grep 'dimensions:' | sed 's|.*dimensions: *||g;s|x.*||g')"
-
-if [ "$(grep "$resolucao_horizontal" ~/.config/plasmashellrc)" = "" ]; then
-    echo "[PlasmaViews][Panel 2][Horizontal$resolucao_horizontal]
-thickness=44" >> ~/.config/plasmashellrc
-fi 
+kwriteconfig6 --group Plugins --key slidingpopupsEnabled --file ~/.config/kwinrc false
