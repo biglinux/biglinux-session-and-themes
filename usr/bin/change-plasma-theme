@@ -20,7 +20,7 @@ klassyrc
 )
 
 mkdir -p ~/.kdebiglinux
-mkdir -p ~/.config/latte
+rm -f ~/.config/enable_latte # Remove old conflict files
 
 if [ "$3" = "quiet" ] || [ "$4" = "quiet" ]; then
     echo "No stop services"
