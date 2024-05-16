@@ -21,6 +21,14 @@ if [ "$(md5sum /$HOME/.config/fontconfig/fonts.conf | awk '{print $1}')" = "2b22
     rm /$HOME/.config/fontconfig/fonts.conf
 fi
 
+# Remove link from latte-dock
+if [ -L ~/.local/share/plasma/plasmoids/org.kde.plasma.systemtray ];then
+  rm ~/.local/share/plasma/plasmoids/org.kde.plasma.systemtray
+fi
+if [ -L ~/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray ];then
+  rm ~/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray
+fi
+
 # BKP plasmoids
 mv "$HOME/.local/share/plasma/plasmoids/" "$HOME/.local/share/plasma/plasmoids-old/"
 
