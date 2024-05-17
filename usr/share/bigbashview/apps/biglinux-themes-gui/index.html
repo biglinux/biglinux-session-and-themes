@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!-- Name of json file with translation -->
-    <script>const projectName = 'biglinux-session-and-themes'</script>
+    <!-- Name of JSON file with translation -->
+    <script>const projectName = 'biglinux-session-and-themes';</script>
+    
     <!-- Include the generic header (CSS and JS) -->
     <?include html /usr/share/bigbashview/framework/html/genericHeader.html?>
 
@@ -13,61 +11,30 @@
 
     <!-- Includes the window control side shell script -->
     <?include bash /usr/share/bigbashview/framework/shell/windowControlSide.sh 2> /dev/null ?>
+
     <style>
-        .desktop-image {
-            min-width: 22vw;
-        }
-        .theme-image {
-            min-width: 19vh;
-        }
-        .left-bar-middle-align {
-            display: grid;
-            align-items: center!important;
-            vertical-align: middle;
-            height: 100%;
-        }
-        .active-theme, .active-desktop {
-            border-color: #007BFF !important;
-            background-color: rgba(0, 123, 255, 0.1);
-        }
+        .desktop-image { min-width: 22vw; }
+        .theme-image { min-width: 19vh; }
+        .left-bar-middle-align { display: grid; align-items: center!important; vertical-align: middle; height: 100%; }
+        .active-theme, .active-desktop { border-color: #007BFF !important; background-color: rgba(0, 123, 255, 0.1); }
     </style>
 </head>
 <body x-data="environment()" x-init="init()">
     <div id="page">
-        <div id="title-bar" class="drag-area">
-            <span stonejs>Desktop</span>
-        </div>
+        <div id="title-bar" class="drag-area"><span stonejs>Desktop</span></div>
         <div id="left">
-            <div id="app-left-title" class="row">
-                <span stonejs>Theme</span>
-            </div>
+            <div id="app-left-title" class="row"><span stonejs>Theme</span></div>
             <div class="left-bar-middle-align">
                 <nav class="extend margin scroll middle-align">
                     <!-- Available themes -->
-                    <button :class="{'active-theme': theme === 'biglinux'}"
-                            @click="theme === 'biglinux' ? confirmThemeChange('biglinux') : setTheme('biglinux')"
-                            class="vertical border no-border space-between box-items margin">
-                        <img src="img/biglinux.jpg" class="responsive no-round theme-image" />
-                        <span>BigLinux</span>
-                    </button>
-                    <button :class="{'active-theme': theme === 'biglinux-dark'}"
-                            @click="theme === 'biglinux-dark' ? confirmThemeChange('biglinux-dark') : setTheme('biglinux-dark')"
-                            class="vertical border no-border space-between box-items margin">
-                        <img src="img/biglinux-dark.jpg" class="responsive no-round theme-image" />
-                        <span>BigLinux Dark</span>
-                    </button>
-                    <button :class="{'active-theme': theme === 'breeze'}"
-                            @click="theme === 'breeze' ? confirmThemeChange('breeze') : setTheme('breeze')"
-                            class="vertical border no-border space-between box-items margin">
-                        <img src="img/breeze.jpg" class="responsive no-round theme-image" />
-                        <span>Breeze</span>
-                    </button>
-                    <button :class="{'active-theme': theme === 'breeze-dark'}"
-                            @click="theme === 'breeze-dark' ? confirmThemeChange('breeze-dark') : setTheme('breeze-dark')"
-                            class="vertical border no-border space-between box-items margin">
-                        <img src="img/breeze-dark.jpg" class="responsive no-round theme-image" />
-                        <span>Breeze Dark</span>
-                    </button>
+                    <template x-for="themeName in ['biglinux', 'biglinux-dark', 'breeze', 'breeze-dark']" :key="themeName">
+                        <button :class="{'active-theme': theme === themeName}"
+                                @click="theme === themeName ? confirmThemeChange(themeName) : setTheme(themeName)"
+                                class="vertical border no-border space-between box-items margin">
+                            <img :src="'img/' + themeName + '.jpg'" class="responsive no-round theme-image" />
+                            <span x-text="themeName.replace('-', ' ')"></span>
+                        </button>
+                    </template>
                 </nav>
             </div>
         </div>
@@ -75,41 +42,19 @@
             <div class="right-content middle-align">
                 <div class="autogrid-fit center-align">
                     <!-- Available desktops -->
-                    <button :class="{'active-desktop': desktop === 'classic'}"
-                            @click="confirmDesktopChange('classic')"
-                            class="vertical border no-border space-between box-items">
-                        <img src="img/classic.svg" class="responsive no-round desktop-image" />
-                    </button>
-                    <button :class="{'active-desktop': desktop === 'new'}"
-                            @click="confirmDesktopChange('new')"
-                            class="vertical border no-border space-between box-items">
-                        <img src="img/new.svg" class="responsive no-round desktop-image" />
-                    </button>
-                    <button :class="{'active-desktop': desktop === 'modern'}"
-                            @click="confirmDesktopChange('modern')"
-                            class="vertical border no-border space-between box-items">
-                        <img src="img/modern.svg" class="responsive no-round desktop-image" />
-                    </button>
-                    <button :class="{'active-desktop': desktop === 'kunity'}"
-                            @click="confirmDesktopChange('kunity')"
-                            class="vertical border no-border space-between box-items">
-                        <img src="img/kunity.svg" class="responsive no-round desktop-image" />
-                    </button>
-                    <button :class="{'active-desktop': desktop === 'nextg'}"
-                            @click="confirmDesktopChange('nextg')"
-                            class="vertical border no-border space-between box-items">
-                        <img src="img/nextg.svg" class="responsive no-round desktop-image" />
-                    </button>
-                    <button :class="{'active-desktop': desktop === 'vanilla'}"
-                            @click="confirmDesktopChange('vanilla')"
-                            class="vertical border no-border space-between box-items">
-                        <img src="img/vanilla.svg" class="responsive no-round desktop-image" />
-                    </button>
+                    <template x-for="desktopName in ['classic', 'new', 'modern', 'kunity', 'nextg', 'vanilla']" :key="desktopName">
+                        <button :class="{'active-desktop': desktop === desktopName}"
+                                @click="confirmDesktopChange(desktopName)"
+                                class="vertical border no-border space-between box-items">
+                            <img :src="'img/' + desktopName + '.svg'" class="responsive no-round desktop-image" />
+                        </button>
+                    </template>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Modals -->
     <dialog class="dialog no-padding no-margin" id="modal">
         <h6 class="surface-bgcolor no-round large-padding center-align drag-area" small stonejs>Configuration</h6>
         <div class="large medium-padding medium-margin medium-line left-align">
@@ -161,24 +106,19 @@
         Alpine.data('environment', () => ({
             desktop: '',
             theme: '',
-            modalOpen: false,
-            changeModalOpen: false,
             selectedDesktop: '',
-            newDesktop: '',
             selectedTheme: '',
             init() {
                 this.fetchDesktop();
                 this.fetchTheme();
             },
-            fetchDesktop() {
-                fetch('actual-desktop.sh').then((response) => response.text()).then((desktop) => {
-                    this.desktop = desktop.trim();
-                });
+            async fetchDesktop() {
+                const response = await fetch('actual-desktop.sh');
+                this.desktop = (await response.text()).trim();
             },
-            fetchTheme() {
-                fetch('actual-theme.sh').then((response) => response.text()).then((theme) => {
-                    this.theme = theme.trim();
-                });
+            async fetchTheme() {
+                const response = await fetch('actual-theme.sh');
+                this.theme = (await response.text()).trim();
             },
             confirmDesktopChange(newDesktop) {
                 this.selectedDesktop = newDesktop;
@@ -196,28 +136,26 @@
                     this.setTheme(newTheme);
                 }
             },
-            setDesktop(newDesktop) {
-                this.selectedDesktop = newDesktop;
-                fetch(`used-theme.sh?${newDesktop}`).then(response => response.text()).then(result => {
-                    if (result.trim() === 'false') {
-                        _run(`change-plasma-theme --apply ${newDesktop}`);
-                        this.desktop = newDesktop;  // Marks the desktop as selected on the main screen
-                        ui('#change-modal')
-                    } else {
-                        ui('#modal');
-                        this.newDesktop = newDesktop;
-                    }
-                });
+            async setDesktop(newDesktop) {
+                const response = await fetch(`used-theme.sh?${newDesktop}`);
+                const result = await response.text();
+                if (result.trim() === 'false') {
+                    _run(`change-plasma-theme --apply ${newDesktop}`);
+                    this.desktop = newDesktop;
+                    ui('#change-modal');
+                } else {
+                    ui('#modal');
+                }
             },
             applyDesktop(clean = '') {
                 _run(`change-plasma-theme --apply ${this.selectedDesktop} ${clean}`);
-                this.desktop = this.selectedDesktop;  // Marks the desktop as selected on the main screen
-                ui('#change-modal')
+                this.desktop = this.selectedDesktop;
+                ui('#change-modal');
             },
             setTheme(newTheme) {
                 _run(`biglinux-themes.sh --apply ${newTheme}`);
                 this.theme = newTheme;
-                ui('#change-modal')
+                ui('#change-modal');
             },
             applyTheme() {
                 this.setTheme(this.selectedTheme);
