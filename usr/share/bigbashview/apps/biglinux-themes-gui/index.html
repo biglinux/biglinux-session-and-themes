@@ -202,7 +202,6 @@
                     if (result.trim() === 'false') {
                         _run(`change-plasma-theme --apply ${newDesktop}`);
                         this.desktop = newDesktop;  // Marks the desktop as selected on the main screen
-                        ui('#modal');
                         ui('#change-modal')
                     } else {
                         ui('#modal');
