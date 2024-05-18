@@ -59,8 +59,8 @@ Image {
             sourceSize.width: units.gridUnit * 2
             RotationAnimator on rotation {
                 id: rotationAnimator
-                from: 360
-                to: 0
+                from: 0
+                to: 360
                 duration: 800
                 loops: Animation.Infinite
             }
