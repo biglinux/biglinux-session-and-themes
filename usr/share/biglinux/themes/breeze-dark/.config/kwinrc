@@ -12,6 +12,9 @@ NoiseStrength=0
 wobblywindowsEnabled=true
 slidingpopupsEnabled=false
 
+[Windows]
+FocusStealingPreventionLevel=0
+
 [org.kde.kdecoration2]
 BorderSize=NoSides
 BorderSizeAuto=false
