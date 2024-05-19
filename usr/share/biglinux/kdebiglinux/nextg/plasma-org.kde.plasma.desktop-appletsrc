@@ -152,7 +152,7 @@ arrangement=1
 iconSize=2
 
 [Containments][39][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/penguin art2.avif
+Image=/usr/share/wallpapers/animal wolf2.avif
 PreviewImage=/usr/share/wallpapers/penguin art2.avif
 SlidePaths=/usr/share/wallpapers/
 
@@ -250,7 +250,7 @@ panelOutlineColorModeTheme=9
 panelOutlineWidth=2
 panelRealBgOpacity=0.1
 panelWidgets=org.biglinux.showdesktop,window-minimize-symbolic|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.panelspacer,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.systemtray,preferences-desktop-notification|org.kde.plasma.digitalclock,preferences-system-time|org.kde.windowbuttons,Window Buttons,focus-windows
-panelWidgetsWithTray=org.biglinux.showdesktop,window-minimize-symbolic|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.panelspacer,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.networkmanagement,Redes,network-wired-activated|org.kde.plasma.volume,audio-volume-high|org.kde.plasma.devicenotifier,media-optical-data-symbolic|org.kde.plasma.clipboard,klipper-symbolic|org.kde.plasma.digitalclock,preferences-system-time|org.kde.windowbuttons,Window Buttons,focus-windows
+panelWidgetsWithTray=org.biglinux.showdesktop,window-minimize-symbolic|org.kde.plasma.appmenu,Menu global,show-menu|org.kde.plasma.panelspacer,|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.networkmanagement,Redes,network-wired-activated|org.kde.plasma.volume,audio-volume-high|org.kde.plasma.devicenotifier,media-optical-data-symbolic|org.kde.plasma.digitalclock,preferences-system-time|org.kde.windowbuttons,Window Buttons,focus-windows
 radius=9
 widgetBgVMargin=5
 
@@ -312,7 +312,7 @@ immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
 [Containments][43][Applets][52][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][43][Applets][53]
 immutability=1
@@ -465,4 +465,4 @@ shownItems=org.kde.plasma.brightness
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/calamares-biglinux.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a
+screenMapping=desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/calamares-biglinux.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792
