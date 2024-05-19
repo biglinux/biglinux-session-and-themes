@@ -10,7 +10,7 @@ panelVisibility=2
 [PlasmaViews][Panel 2][Defaults]
 maxLength=1280
 minLength=144
-thickness=40
+thickness=56
 
 [PlasmaViews][Panel 2][Horizontal1280]
 maxLength=1280
