@@ -17,6 +17,7 @@ kwin_left
 kwin_maximized_disable
 kglobalshortcutsrc
 klassyrc
+panel-colorizer
 )
 
 mkdir -p ~/.kdebiglinux
