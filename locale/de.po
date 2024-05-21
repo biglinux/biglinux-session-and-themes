@@ -1,114 +1,48 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the biglinux-session-and-themes package.
+# This file is distributed under the same license as the biglinux-updates-tweaks package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: biglinux-session-and-themes\n"
+"Project-Id-Version: biglinux-updates-tweaks\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: attranslate\n"
+"X-Generator: Poedit 3.4.4\n"
 
-msgid "Post update adjustments"
-msgstr "Post-Update-Anpassungen"
+msgid "Making adjustments to the system..."
+msgstr "Anpassungen am System vornehmen ..."
+
+msgid "BigLinux is pleased to bring you a major update!"
+msgstr "BigLinux ist erfreut, Ihnen ein größeres Update präsentieren zu können!"
 
 msgid ""
-"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
-"settings."
+"As part of this update, we are introducing new desktop layouts to further enhance your user "
+"experience."
 msgstr ""
-"Ein wichtiges Update wurde durchgeführt, wodurch verschiedene Desktop-Einstellungen inkompatibel "
-"sind. Fahren Sie mit der Anwendung neuer Einstellungen fort."
+"Im Zuge dieser Aktualisierung führen wir neue Desktop-Layouts ein, um Ihre Benutzerfahrung "
+"weiter zu verbessern."
+
+msgid "Please be aware that, due to this change,"
+msgstr "Bitte seien Sie sich bewusst, dass aufgrund dieser Änderung "
+
+msgid "all customizations to your desktop layout will be lost."
+msgstr "alle individuellen Anpassungen an Ihrem Desktop-Layout verloren gehen."
 
 msgid ""
-"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
-"proceed."
+"This includes icons, wallpapers, panel arrangements, widgets, and any other layout-related "
+"customizations."
 msgstr ""
-"Wenn Sie über fortgeschrittene Kenntnisse des Systems verfügen und die Anpassungen lieber manuell "
-"vornehmen möchten, fahren Sie nicht fort."
+"Dazu gehören Icons, Hintergrundbilder, Bedienfeldanordnungen, Widgets und alle anderen Layout-"
+"bezogenen individuellen Anpassungen."
 
-msgid ""
-"Continue\n"
-"            "
-msgstr "Weiterhin"
-
-msgid "Select a new theme configuration:"
-msgstr "Wählen Sie eine neue Designkonfiguration:"
-
-msgid ""
-"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
-"compatible configuration:"
-msgstr ""
-"Wählen Sie eine Desktop-Konfiguration aus. Dadurch werden auch Anpassungen in Plasma entfernt, um "
-"eine neue kompatible Konfiguration anzuwenden:"
-
-msgid "Completed."
-msgstr "Abgeschlossen."
-
-msgid ""
-"Reboot now!\n"
-"                    "
-msgstr "Jetzt neu starten!"
-
-msgid "Configuration"
-msgstr "Konfiguration"
-
-msgid ""
-"You've used this desktop before, do you want to restore your customization or use the original "
-"configuration?"
-msgstr ""
-"Sie haben diesen Desktop bereits verwendet. Möchten Sie Ihre Anpassungen wiederherstellen oder die "
-"Originalkonfiguration verwenden?"
-
-msgid "Original"
-msgstr "Original"
-
-msgid "Restore"
-msgstr "Wiederherstellen"
-
-msgid "Confirm Theme Change"
-msgstr "Bestätigen Sie die Änderung des Designs"
-
-msgid "Do you want to apply the selected theme again?"
-msgstr "Möchten Sie das ausgewählte Thema erneut anwenden?"
-
-msgid "Yes"
-msgstr "Ja"
-
-msgid "No"
-msgstr "Nein"
-
-msgid "Confirm Desktop Change"
-msgstr "Desktop-Änderung bestätigen"
-
-msgid "Do you want to reapply a clean configuration of that desktop?"
-msgstr "Möchten Sie eine saubere Konfiguration dieses Desktops erneut anwenden?"
-
-msgid "Applying"
-msgstr "Anwenden"
-
-msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
-msgstr ""
-"Die Einstellungen wurden geändert. Um sie im gesamten System anzuwenden, melden Sie sich ab und "
-"dann wieder an."
-
-msgid "OK"
-msgstr "OK"
-
-msgid "Configuration Complete"
-msgstr "Konfiguration abgeschlossen"
-
-msgid "Your theme and desktop have been configured successfully."
-msgstr "Ihr Theme und Desktop wurden erfolgreich konfiguriert."
-
-msgid "Desktop"
-msgstr "Desktop"
-
-msgid "Theme"
-msgstr "Thema"
+msgid "BigLinux Update"
+msgstr "BigLinux-Aktualisierung"
