@@ -1,26 +1,66 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the biglinux-updates-tweaks package.
+# This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: biglinux-updates-tweaks\n"
+"Project-Id-Version: biglinux-session-and-themes\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: attranslate\n"
+"X-Generator: Poedit 3.4.4\n"
 
-msgid "Desktop"
-msgstr "Desktop"
+msgid "Post update adjustments"
+msgstr "Anpassungen nach Aktualisierung"
 
-msgid "Theme"
-msgstr "Thema"
+msgid ""
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
+msgstr ""
+"Ein größeres Update ist angewendet worden, wodurch verschiedene Desktop-Einstellungen inkompatibel "
+"wurden. Fortfahren, um neue Einstellungen anzuwenden."
+
+msgid ""
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
+msgstr ""
+"Wenn Sie über fortgeschrittene Kenntnisse des Systems verfügen und es vorziehen, die Anpassungen "
+"manuell vorzunehmen, fahren Sie nicht fort."
+
+msgid ""
+"Continue\n"
+"            "
+msgstr ""
+"Fortsetzen\n"
+"            "
+
+msgid "Select a new theme configuration:"
+msgstr "Eine neue Theme-Konfiguration auswählen:"
+
+msgid ""
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
+msgstr ""
+"Wählen Sie eine Desktop-Konfiguration. Dies wird auch die in Plasma vorgenommenen individuellen "
+"Anpassungen entfernen, um eine neue kompatible Konfiguration anzuwenden:"
+
+msgid "Completed."
+msgstr "Abgeschlossen."
+
+msgid ""
+"Reboot now!\n"
+"                    "
+msgstr ""
+"Jetzt neu starten!\n"
+"                    "
 
 msgid "Configuration"
 msgstr "Konfiguration"
@@ -29,8 +69,8 @@ msgid ""
 "You've used this desktop before, do you want to restore your customization or use the original "
 "configuration?"
 msgstr ""
-"Sie haben diesen Desktop bereits verwendet. Möchten Sie Ihre Anpassungen wiederherstellen oder die "
-"Originalkonfiguration verwenden?"
+"Sie haben diesen Desktop zuvor verwendet. Möchten Sie Ihre individuelle Anpassung wiederherstellen "
+"oder die ursprüngliche Konfiguration verwenden?"
 
 msgid "Original"
 msgstr "Original"
@@ -39,13 +79,13 @@ msgid "Restore"
 msgstr "Wiederherstellen"
 
 msgid "Confirm Theme Change"
-msgstr "Bestätigen Sie die Änderung des Themas"
+msgstr "Theme-Änderung bestätigen"
 
 msgid "Do you want to apply the selected theme again?"
-msgstr "Möchten Sie das ausgewählte Thema erneut anwenden?"
+msgstr "Möchten Sie das ausgewählte Theme erneut anwenden?"
 
 msgid "Yes"
-msgstr "N/A"
+msgstr "Ja"
 
 msgid "No"
 msgstr "Nein"
@@ -57,58 +97,24 @@ msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "Möchten Sie eine saubere Konfiguration dieses Desktops erneut anwenden?"
 
 msgid "Applying"
-msgstr "Anwenden"
+msgstr "Anwendend"
 
 msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr ""
-"Die Einstellungen wurden geändert. Um sie im gesamten System anzuwenden, melden Sie sich ab und "
-"wieder an."
+"Die Einstellungen sind geändert worden. Um diese innerhalb des gesamten Systems anzuwenden, melden "
+"Sie sich ab und wieder an."
 
 msgid "OK"
 msgstr "OK"
-
-msgid "Post update adjustments"
-msgstr "Post-Update-Anpassungen"
-
-msgid ""
-"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
-"settings."
-msgstr ""
-"Ein wichtiges Update wurde durchgeführt, wodurch verschiedene Desktop-Einstellungen inkompatibel "
-"sind. Fahren Sie mit der Anwendung neuer Einstellungen fort."
-
-msgid ""
-"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
-"proceed."
-msgstr ""
-"Wenn Sie über fortgeschrittene Kenntnisse des Systems verfügen und die Anpassungen lieber manuell "
-"vornehmen möchten, fahren Sie nicht fort."
-
-msgid ""
-"Continue\n"
-"            "
-msgstr "Weiterhin"
-
-msgid "Select a new theme configuration:"
-msgstr "Wählen Sie eine neue Designkonfiguration:"
-
-msgid ""
-"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
-"compatible configuration:"
-msgstr ""
-"Wählen Sie eine Desktop-Konfiguration aus. Dadurch werden auch Anpassungen in Plasma entfernt, um "
-"eine neue kompatible Konfiguration anzuwenden:"
-
-msgid "Completed."
-msgstr "Abgeschlossen."
-
-msgid ""
-"Reboot now!\n"
-"                    "
-msgstr "Jetzt neu starten!"
 
 msgid "Configuration Complete"
 msgstr "Konfiguration abgeschlossen"
 
 msgid "Your theme and desktop have been configured successfully."
-msgstr "Ihr Theme und Desktop wurden erfolgreich konfiguriert."
+msgstr "Ihr Theme und Ihr Desktop sind erfolgreich konfiguriert worden."
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Theme"
+msgstr "Theme"
