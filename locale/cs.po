@@ -16,47 +16,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Post update adjustments"
-msgstr "Úpravy po aktualizaci"
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Desktop"
+msgstr "Pracovní plocha"
 
-msgid ""
-"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
-"settings."
-msgstr ""
-"Byla provedena hlavní aktualizace, která způsobila nekompatibilitu různých nastavení plochy. "
-"Pokračujte v aplikaci nových nastavení."
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Theme"
+msgstr "Téma"
 
-msgid ""
-"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
-"proceed."
-msgstr "Pokud máte pokročilé znalosti systému a upřednostňujete ruční úpravy, nepokračujte."
-
-msgid ""
-"Continue\n"
-"            "
-msgstr "Pokračovat"
-
-msgid "Select a new theme configuration:"
-msgstr "Vyberte novou konfiguraci motivu:"
-
-msgid ""
-"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
-"compatible configuration:"
-msgstr ""
-"Vyberte konfiguraci pracovní plochy. Tím se také odstraní vlastní úpravy provedené v Plasmě k "
-"aplikaci nové kompatibilní konfigurace:"
-
-msgid "Completed."
-msgstr "Dokončeno."
-
-msgid ""
-"Reboot now!\n"
-"                    "
-msgstr "Restartovat nyní!"
-
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Configuration"
 msgstr "Konfigurace"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid ""
 "You've used this desktop before, do you want to restore your customization or use the original "
 "configuration?"
@@ -64,47 +44,340 @@ msgstr ""
 "Použili jste tento pracovní plochu dříve, chcete obnovit své přizpůsobení nebo použít původní "
 "konfiguraci?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Original"
 msgstr "Původní"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Restore"
 msgstr "Obnovit"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Confirm Theme Change"
 msgstr "Potvrdit změnu motivu"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Do you want to apply the selected theme again?"
 msgstr "Chcete znovu použít vybrané téma?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Yes"
 msgstr "Není co přeložit."
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "No"
 msgstr "Ne"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Confirm Desktop Change"
 msgstr "Potvrdit změnu pracovní plochy"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "Chcete znovu aplikovat čistou konfiguraci toho pracovního prostoru?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Applying"
 msgstr "Použití"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr "Nastavení byla změněna. Pro jejich aplikaci v celém systému se odhlaste a znovu přihlaste."
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "OK"
 msgstr "OK"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Post update adjustments"
+msgstr "Úpravy po aktualizaci"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
+msgstr ""
+"Byla provedena hlavní aktualizace, která způsobila nekompatibilitu různých nastavení plochy. "
+"Pokračujte v aplikaci nových nastavení."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
+msgstr "Pokud máte pokročilé znalosti systému a upřednostňujete ruční úpravy, nepokračujte."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Continue\n"
+"            "
+msgstr "Pokračovat"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Select a new theme configuration:"
+msgstr "Vyberte novou konfiguraci motivu:"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
+msgstr ""
+"Vyberte konfiguraci pracovní plochy. Tím se také odstraní vlastní úpravy provedené v Plasmě k "
+"aplikaci nové kompatibilní konfigurace:"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Completed."
+msgstr "Dokončeno."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Reboot now!\n"
+"                    "
+msgstr "Restartovat nyní!"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Configuration Complete"
 msgstr "Konfigurace dokončena"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Your theme and desktop have been configured successfully."
 msgstr "Váš motiv a pracovní plocha byly úspěšně nakonfigurovány."
 
-msgid "Desktop"
-msgstr "Pracovní plocha"
+msgid "Temas, Desktop e Ajustes"
+msgstr "Motivy, Plocha a Nastavení"
 
-msgid "Theme"
-msgstr "Téma"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Pokud používáte prohlížeč, restartujte ho pro provedení změn."
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Výkon v optimalizovaném režimu!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Výkon v režimu výkonu!"
+
+msgid "Temas"
+msgstr "Nemám co přeložit."
+
+msgid "Ajustes"
+msgstr "Nastavení"
+
+msgid "Desempenho do desktop"
+msgstr "Výkon počítače"
+
+msgid "Desempenho"
+msgstr "Výkon"
+
+msgid "Aceleração do navegador"
+msgstr "N/A"
+
+msgid "Tema dos aplicativos"
+msgstr "Aplikační motivy"
+
+msgid "Abrir"
+msgstr "Otevřít"
+
+msgid "Fechar"
+msgstr "Zavřít"
+
+msgid "Bordas arredondadas."
+msgstr "Zaoblené okraje."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Tento motivové transparentní prvky s efekty, které<br>mohou zpomalit systém na starých "
+"počítačích<br>nebo ve virtualizovaných prostředích."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klasický</b>, <b>Nový</b> a <b>Moderní</b> mají lepší výkon."
+
+msgid "Renderizar o desktop via software"
+msgstr "Renderovat pracovní plochu pomocí softwaru"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Pomocné pro staré počítače, ale některé programy mohou přestat fungovat)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Vyberte programy, které se mají načíst do paměti během startu."
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Ovládání zatížení paměti, které umožňuje rychlejší spuštění programů. Přílišným využíváním může "
+"dojít ke zpomalení. Vyberte požadovanou možnost:"
+
+msgid "Ligar RGB do teclado"
+msgstr "Připojit RGB klávesnici"
+
+msgid "Automático"
+msgstr "Automatický"
+
+msgid "Ativar"
+msgstr "Enable"
+
+msgid "Desativar"
+msgstr "Vypnout"
+
+msgid "Configurações do Brave"
+msgstr "Nastavení Brave"
+
+msgid "Escolha a opção desejada:"
+msgstr "Vyberte požadovanou možnost:"
+
+msgid "Remover propagandas"
+msgstr "Odstranit reklamy"
+
+msgid "Suportar criptomoedas"
+msgstr "Podpora kryptoměn"
+
+msgid "Usabilidade"
+msgstr "User Interface"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "N/A"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Invertování rolování myši"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Invertování posuvu touchpadu"
+
+msgid "Pesquisar arquivos"
+msgstr "Hledat soubory"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Zablokovat úpravy pracovní plochy"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Skrýt správce zavaděče (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Enable NumLock on system startup"
+
+msgid "Tema aplicado"
+msgstr "Applied Theme"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Je nutné restartovat relaci pro dokončení konfigurace."
+
+msgid "Configuração do Desktop"
+msgstr "Nastavení plochy"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Jste tento stolní počítač již používal/a dříve. Chcete obnovit své přizpůsobení nebo použít původní "
+"nastavení?"
+
+msgid "Sim"
+msgstr "Sim"
+
+msgid "Não"
+msgstr "Nem jedná se o software."
+
+msgid "Restaurar"
+msgstr "Obnovit"
+
+msgid "Desktop aplicado"
+msgstr "Desktop aplikace"
+
+msgid "Modo performance"
+msgstr "Výkonový režim"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsync"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Pomocí softwarového renderování je kvalita průhledností snížena."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Opravdu chcete skrýt GRUB? Tím ztratíte přístup k SnapShotům."
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Neodpovídám."
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Budete moci přistupovat k SnapShotům bez grafického režimu?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Jste si tímto softwarem zcela jisti?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Použití, čekejte..."
+
+msgid "Concluído!"
+msgstr "Dokončeno!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"Vybraná konfigurace plochy již byla použita v tomto systému,\n"
+"chcete obnovit již použitou konfiguraci?\n"
+"\n"
+"Vyberte Ne pro použití výchozí konfigurace systému."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfigurace aplikována!\n"
+"\n"
+"Ukončete relaci a znovu se přihlaste\n"
+"aby se konfigurace dokončila."
+
+msgid "Desempenho em modo normal!"
+msgstr "Výkon v normálním režimu!"
+
+msgid "Temas e Desktop"
+msgstr "Témata a Plocha"
