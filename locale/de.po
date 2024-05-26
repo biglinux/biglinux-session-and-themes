@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the biglinux-session-and-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -14,55 +14,29 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: attranslate\n"
 
-msgid "Post update adjustments"
-msgstr "Anpassungen nach Aktualisierung"
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Desktop"
+msgstr "Desktop"
 
-msgid ""
-"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
-"settings."
-msgstr ""
-"Ein größeres Update ist angewendet worden, wodurch verschiedene Desktop-Einstellungen inkompatibel "
-"wurden. Fortfahren, um neue Einstellungen anzuwenden."
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Theme"
+msgstr "Theme"
 
-msgid ""
-"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
-"proceed."
-msgstr ""
-"Wenn Sie über fortgeschrittene Kenntnisse des Systems verfügen und es vorziehen, die Anpassungen "
-"manuell vorzunehmen, fahren Sie nicht fort."
-
-msgid ""
-"Continue\n"
-"            "
-msgstr ""
-"Fortsetzen\n"
-"            "
-
-msgid "Select a new theme configuration:"
-msgstr "Eine neue Theme-Konfiguration auswählen:"
-
-msgid ""
-"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
-"compatible configuration:"
-msgstr ""
-"Wählen Sie eine Desktop-Konfiguration. Dies wird auch die in Plasma vorgenommenen individuellen "
-"Anpassungen entfernen, um eine neue kompatible Konfiguration anzuwenden:"
-
-msgid "Completed."
-msgstr "Abgeschlossen."
-
-msgid ""
-"Reboot now!\n"
-"                    "
-msgstr ""
-"Jetzt neu starten!\n"
-"                    "
-
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Configuration"
 msgstr "Konfiguration"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid ""
 "You've used this desktop before, do you want to restore your customization or use the original "
 "configuration?"
@@ -70,49 +44,348 @@ msgstr ""
 "Sie haben diesen Desktop zuvor verwendet. Möchten Sie Ihre individuelle Anpassung wiederherstellen "
 "oder die ursprüngliche Konfiguration verwenden?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Original"
 msgstr "Original"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Restore"
 msgstr "Wiederherstellen"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Confirm Theme Change"
 msgstr "Theme-Änderung bestätigen"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Do you want to apply the selected theme again?"
 msgstr "Möchten Sie das ausgewählte Theme erneut anwenden?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Yes"
 msgstr "Ja"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "No"
 msgstr "Nein"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Confirm Desktop Change"
 msgstr "Desktop-Änderung bestätigen"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "Möchten Sie eine saubere Konfiguration dieses Desktops erneut anwenden?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Applying"
 msgstr "Anwendend"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr ""
 "Die Einstellungen sind geändert worden. Um diese innerhalb des gesamten Systems anzuwenden, melden "
 "Sie sich ab und wieder an."
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "OK"
 msgstr "OK"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Post update adjustments"
+msgstr "Anpassungen nach Aktualisierung"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
+msgstr ""
+"Ein größeres Update ist angewendet worden, wodurch verschiedene Desktop-Einstellungen inkompatibel "
+"wurden. Fortfahren, um neue Einstellungen anzuwenden."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
+msgstr ""
+"Wenn Sie über fortgeschrittene Kenntnisse des Systems verfügen und es vorziehen, die Anpassungen "
+"manuell vorzunehmen, fahren Sie nicht fort."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Continue\n"
+"            "
+msgstr ""
+"Fortsetzen\n"
+"            "
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Select a new theme configuration:"
+msgstr "Eine neue Theme-Konfiguration auswählen:"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
+msgstr ""
+"Wählen Sie eine Desktop-Konfiguration. Dies wird auch die in Plasma vorgenommenen individuellen "
+"Anpassungen entfernen, um eine neue kompatible Konfiguration anzuwenden:"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Completed."
+msgstr "Abgeschlossen."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Reboot now!\n"
+"                    "
+msgstr ""
+"Jetzt neu starten!\n"
+"                    "
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Configuration Complete"
 msgstr "Konfiguration abgeschlossen"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Your theme and desktop have been configured successfully."
 msgstr "Ihr Theme und Ihr Desktop sind erfolgreich konfiguriert worden."
 
-msgid "Desktop"
-msgstr "Desktop"
+msgid "Temas, Desktop e Ajustes"
+msgstr "Themen, Desktop und Einstellungen"
 
-msgid "Theme"
-msgstr "Theme"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Wenn Sie einen Browser verwenden, starten Sie ihn neu, um die Änderungen zu übernehmen."
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Leistung im optimierten Modus!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Leistung im Performance-Modus!"
+
+msgid "Temas"
+msgstr "Themen"
+
+msgid "Ajustes"
+msgstr "Einstellungen"
+
+msgid "Desempenho do desktop"
+msgstr "Desktop-Leistung"
+
+msgid "Desempenho"
+msgstr "Leistung"
+
+msgid "Aceleração do navegador"
+msgstr "Browser-Beschleunigung"
+
+msgid "Tema dos aplicativos"
+msgstr "Anwendungsdesign"
+
+msgid "Abrir"
+msgstr "Öffnen"
+
+msgid "Fechar"
+msgstr "Close"
+
+msgid "Bordas arredondadas."
+msgstr "Runde Ecken."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Dieses Thema enthält Transparenzen mit Effekten, die das System auf älteren Computern oder in "
+"virtualisierten Umgebungen verlangsamen können."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klassisch</b>, <b>Neu</b> und <b>Modern</b> bieten eine bessere Leistung."
+
+msgid "Renderizar o desktop via software"
+msgstr "Den Desktop über die Software rendern"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "Es kann auf älteren Computern nützlich sein, aber einige Programme funktionieren nicht mehr."
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Wähle Programme aus, die während des Bootvorgangs im Speicher geladen werden sollen."
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Der Preload lädt Dateien von Programmen in den Speicher, damit sie schnell starten. Übermäßige "
+"Nutzung führt zu Verlangsamung. Wählen Sie die gewünschte Option:"
+
+msgid "Ligar RGB do teclado"
+msgstr "RGB-Tastatur anschließen"
+
+msgid "Automático"
+msgstr "Automatisch"
+
+msgid "Ativar"
+msgstr "Aktivieren"
+
+msgid "Desativar"
+msgstr "Deaktivieren"
+
+msgid "Configurações do Brave"
+msgstr "Einstellungen von Brave"
+
+msgid "Escolha a opção desejada:"
+msgstr "Wählen Sie die gewünschte Option:"
+
+msgid "Remover propagandas"
+msgstr "Werbung entfernen"
+
+msgid "Suportar criptomoedas"
+msgstr "Unterstützung von Kryptowährungen"
+
+msgid "Usabilidade"
+msgstr "Benutzerfreundlichkeit"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Window buttons on the left side"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Scrollrichtung umkehren"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Scrollrichtung des Touchpads umkehren"
+
+msgid "Pesquisar arquivos"
+msgstr "Dateien durchsuchen"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Die Desktop-Bearbeitung sperren"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Hide Boot Manager (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "NumLock aktivieren beim Systemstart"
+
+msgid "Tema aplicado"
+msgstr "Angewendetes Thema"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Es ist erforderlich, die Sitzung neu zu starten, um die Konfiguration abzuschließen."
+
+msgid "Configuração do Desktop"
+msgstr "Desktop-Konfiguration"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Haben Sie diesen Desktop bereits verwendet? Möchten Sie Ihre Anpassungen wiederherstellen oder die "
+"Originalkonfiguration verwenden?"
+
+msgid "Sim"
+msgstr "Sim"
+
+msgid "Não"
+msgstr "Nicht"
+
+msgid "Restaurar"
+msgstr "Wiederherstellen"
+
+msgid "Desktop aplicado"
+msgstr "Desktop-Anwendung"
+
+msgid "Modo performance"
+msgstr "Leistungsmode"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS ohne fsync"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Bei der Verwendung von Software-Rendering ist die Qualität der Transparenzen reduziert."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Vorsicht, Sie verlieren den Zugriff auf SnapShots. Möchten Sie das Grub-Menü wirklich ausblenden?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "You will be able to restore Grub in case of failure?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Können Sie auf SnapShots ohne grafischen Modus zugreifen?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Are you completely sure about this application?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Anwenden, bitte warten..."
+
+msgid "Concluído!"
+msgstr "Fertig!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"Die ausgewählte Desktop-Konfiguration wurde bereits in diesem System verwendet. Möchten Sie die "
+"bereits verwendete Konfiguration wiederherstellen?\n"
+"\n"
+"Wählen Sie Nein, um die Standardkonfiguration des Systems zu verwenden."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfiguration angewendet!\n"
+"\n"
+"Beenden Sie die Sitzung und melden Sie sich erneut an,\n"
+"damit die Konfiguration abgeschlossen wird."
+
+msgid "Desempenho em modo normal!"
+msgstr "Leistung im Normalmodus!"
+
+msgid "Temas e Desktop"
+msgstr "Themen und Desktop"

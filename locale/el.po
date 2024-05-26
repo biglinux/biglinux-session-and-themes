@@ -16,49 +16,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Post update adjustments"
-msgstr "Προσαρμογές μετά την ενημέρωση του λογισμικού"
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Desktop"
+msgstr "Επιφάνεια εργασίας"
 
-msgid ""
-"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
-"settings."
-msgstr ""
-"Έχει εφαρμοστεί μια σημαντική ενημέρωση, καθιστώντας διάφορες ρυθμίσεις επιφάνειας εργασίας "
-"ασύμβατες. Συνεχίστε για να εφαρμόσετε τις νέες ρυθμίσεις."
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Theme"
+msgstr "Θέμα"
 
-msgid ""
-"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
-"proceed."
-msgstr ""
-"Αν έχετε προχωρημένες γνώσεις του συστήματος και προτιμάτε να κάνετε τις προσαρμογές χειροκίνητα, "
-"μην προχωρήσετε."
-
-msgid ""
-"Continue\n"
-"            "
-msgstr "Συνέχεια"
-
-msgid "Select a new theme configuration:"
-msgstr "Επιλέξτε μια νέα διαμόρφωση θέματος:"
-
-msgid ""
-"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
-"compatible configuration:"
-msgstr ""
-"Επιλέξτε μια διαμόρφωση επιφάνειας εργασίας. Αυτό θα αφαιρέσει επίσης τις προσαρμογές που έχουν "
-"γίνει στο Plasma για να εφαρμοστεί μια νέα συμβατή διαμόρφωση:"
-
-msgid "Completed."
-msgstr "Ολοκληρώθηκε."
-
-msgid ""
-"Reboot now!\n"
-"                    "
-msgstr "Επανεκκίνηση τώρα!"
-
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Configuration"
 msgstr "Διαμόρφωση"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid ""
 "You've used this desktop before, do you want to restore your customization or use the original "
 "configuration?"
@@ -66,49 +44,344 @@ msgstr ""
 "Έχετε χρησιμοποιήσει αυτό το desktop πριν, θέλετε να επαναφέρετε τις προσαρμογές σας ή να "
 "χρησιμοποιήσετε την αρχική διαμόρφωση;"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Original"
 msgstr "Πρωτότυπο"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Restore"
 msgstr "Επαναφορά"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Confirm Theme Change"
 msgstr "Επιβεβαίωση Αλλαγής Θέματος"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Do you want to apply the selected theme again?"
 msgstr "Θέλετε να εφαρμόσετε ξανά το επιλεγμένο θέμα;"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Yes"
 msgstr "NAI"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "No"
 msgstr "No"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Confirm Desktop Change"
 msgstr "Επιβεβαίωση Αλλαγής Επιφάνειας Εργασίας"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "Θέλετε να επαναλάβετε μια καθαρή ρύθμιση αυτής της επιφάνειας εργασίας;"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Applying"
 msgstr "Εφαρμογή"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr ""
 "Οι ρυθμίσεις έχουν αλλάξει. Για να τις εφαρμόσετε σε ολόκληρο το σύστημα, αποσυνδεθείτε και "
 "συνδεθείτε ξανά."
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "OK"
 msgstr "OK"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Post update adjustments"
+msgstr "Προσαρμογές μετά την ενημέρωση του λογισμικού"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
+msgstr ""
+"Έχει εφαρμοστεί μια σημαντική ενημέρωση, καθιστώντας διάφορες ρυθμίσεις επιφάνειας εργασίας "
+"ασύμβατες. Συνεχίστε για να εφαρμόσετε τις νέες ρυθμίσεις."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
+msgstr ""
+"Αν έχετε προχωρημένες γνώσεις του συστήματος και προτιμάτε να κάνετε τις προσαρμογές χειροκίνητα, "
+"μην προχωρήσετε."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Continue\n"
+"            "
+msgstr "Συνέχεια"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Select a new theme configuration:"
+msgstr "Επιλέξτε μια νέα διαμόρφωση θέματος:"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
+msgstr ""
+"Επιλέξτε μια διαμόρφωση επιφάνειας εργασίας. Αυτό θα αφαιρέσει επίσης τις προσαρμογές που έχουν "
+"γίνει στο Plasma για να εφαρμοστεί μια νέα συμβατή διαμόρφωση:"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Completed."
+msgstr "Ολοκληρώθηκε."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Reboot now!\n"
+"                    "
+msgstr "Επανεκκίνηση τώρα!"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Configuration Complete"
 msgstr "Ολοκλήρωση ρύθμισης"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Your theme and desktop have been configured successfully."
 msgstr "Το θέμα και το γραφείο εργασίας σας έχουν ρυθμιστεί με επιτυχία."
 
-msgid "Desktop"
+msgid "Temas, Desktop e Ajustes"
+msgstr "Themes, Desktop, and Settings"
+
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Επανεκκινήστε τον περιηγητή σας για να εφαρμοστούν οι αλλαγές."
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Απόδοση σε βελτιστοποιημένη λειτουργία!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Απόδοση σε λειτουργία επίδοσης!"
+
+msgid "Temas"
+msgstr "Themes"
+
+msgid "Ajustes"
+msgstr "Ρυθμίσεις"
+
+msgid "Desempenho do desktop"
+msgstr "Απόδοση επιφάνειας εργασίας"
+
+msgid "Desempenho"
+msgstr "Performance"
+
+msgid "Aceleração do navegador"
+msgstr "Επιτάχυνση περιηγητή"
+
+msgid "Tema dos aplicativos"
+msgstr "Θέμα εφαρμογών"
+
+msgid "Abrir"
+msgstr "Άνοιγμα"
+
+msgid "Fechar"
+msgstr "Κλείσιμο"
+
+msgid "Bordas arredondadas."
+msgstr "Rounded corners."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Αυτό το θέμα περιέχει διαφάνειες με εφέ που μπορεί να καθυστερήσουν το σύστημα σε παλιούς "
+"υπολογιστές ή εικονικά περιβάλλοντα."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Κλασικό</b>, <b>Νέο</b> και <b>Μοντέρνο</b> έχουν καλύτερη απόδοση."
+
+msgid "Renderizar o desktop via software"
+msgstr "Απεικονίστε την επιφάνεια εργασίας μέσω λογισμικού"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "Μπορεί να είναι χρήσιμο σε παλιούς υπολογιστές, αλλά μερικά προγράμματα σταματούν να λειτουργούν."
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Επιλογή προγραμμάτων που θα φορτωθούν στη μνήμη κατά την εκκίνηση"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"Το Προεπιλογή φορτώνει τα αρχεία των προγραμμάτων στη μνήμη, ώστε να ξεκινήσουν γρήγορα. Η "
+"υπερβολική χρήση προκαλεί επιβράδυνση. Επιλέξτε την επιθυμητή επιλογή:"
+
+msgid "Ligar RGB do teclado"
+msgstr "Connect RGB keyboard"
+
+msgid "Automático"
+msgstr "Αυτόματο"
+
+msgid "Ativar"
+msgstr "Ενεργοποίηση"
+
+msgid "Desativar"
+msgstr "Απενεργοποίηση"
+
+msgid "Configurações do Brave"
+msgstr "Ρυθμίσεις του Brave"
+
+msgid "Escolha a opção desejada:"
+msgstr "Επιλέξτε την επιθυμητή επιλογή:"
+
+msgid "Remover propagandas"
+msgstr "Αφαίρεση διαφημίσεων"
+
+msgid "Suportar criptomoedas"
+msgstr "Υποστήριξη κρυπτονομισμάτων"
+
+msgid "Usabilidade"
+msgstr "Χρηστικότητα"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Buttons on the window on the left side"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Αντιστροφή κύλισης ποντικιού"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Αντιστροφή κύλισης touchpad"
+
+msgid "Pesquisar arquivos"
+msgstr "Αναζήτηση αρχείων"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Αποκλεισμός επεξεργασίας της επιφάνειας εργασίας"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Απόκρυψη διαχειριστή εκκίνησης (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Enable NumLock on system startup"
+
+msgid "Tema aplicado"
+msgstr "Εφαρμοσμένο θέμα"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Απαιτείται επανεκκίνηση της συνεδρίας για να ολοκληρωθεί η ρύθμιση."
+
+msgid "Configuração do Desktop"
+msgstr "Ρυθμίσεις επιφάνειας εργασίας"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Έχετε χρησιμοποιήσει αυτό το desktop πριν; Θέλετε να επαναφέρετε την προσαρμογή σας ή να "
+"χρησιμοποιήσετε την αρχική ρύθμιση;"
+
+msgid "Sim"
+msgstr "Sim"
+
+msgid "Não"
+msgstr "Δεν"
+
+msgid "Restaurar"
+msgstr "Επαναφορά"
+
+msgid "Desktop aplicado"
 msgstr "Επιφάνεια εργασίας"
 
-msgid "Theme"
-msgstr "Θέμα"
+msgid "Modo performance"
+msgstr "Λειτουργία απόδοσης"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS χωρίς fsync"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Using software rendering, the quality of transparencies is reduced."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Προσοχή, θα χάσετε πρόσβαση στα SnapShots. Είστε σίγουρος ότι θέλετε να κρύψετε το grub;"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Θα μπορείτε να ανακτήσετε το Grub σε περίπτωση αποτυχίας;"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Θα μπορείτε να αποκτήσετε πρόσβαση στα SnapShots χωρίς πρόσβαση στη Γραφική Κατάσταση;"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Είστε απολύτως βέβαιοι για αυτήν την εφαρμογή;"
+
+msgid "Aplicando, aguarde..."
+msgstr "Εφαρμογή σε εξέλιξη..."
+
+msgid "Concluído!"
+msgstr "Ολοκληρώθηκε!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"Η επιλεγμένη διαμόρφωση επιφάνειας εργασίας έχει ήδη χρησιμοποιηθεί σε αυτό το σύστημα, θέλετε να "
+"επαναφέρετε τη διαμόρφωση που έχει ήδη χρησιμοποιηθεί;\n"
+"\n"
+"Επιλέξτε Όχι για να χρησιμοποιήσετε την προεπιλεγμένη διαμόρφωση του συστήματος."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Η ρύθμιση εφαρμόστηκε!\n"
+"\n"
+"Κλείστε τη συνεδρία και συνδεθείτε ξανά\n"
+"ώστε η ρύθμιση να ολοκληρωθεί."
+
+msgid "Desempenho em modo normal!"
+msgstr "Απόδοση σε κανονική λειτουργία!"
+
+msgid "Temas e Desktop"
+msgstr "Θέματα και Επιφάνεια Εργασίας"
