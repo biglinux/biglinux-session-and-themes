@@ -27,7 +27,7 @@
             <div class="left-bar-middle-align">
                 <nav class="extend margin scroll middle-align">
                     <!-- Available themes -->
-                    <template x-for="themeName in ['biglinux', 'biglinux-dark', 'breeze', 'breeze-dark']" :key="themeName">
+                    <template x-for="themeName in listThemes" :key="themeName">
                         <button :class="{'active-theme': theme === themeName}"
                                 @click="theme === themeName ? confirmThemeChange(themeName) : setTheme(themeName)"
                                 class="vertical border no-border space-between box-items margin">
@@ -42,7 +42,7 @@
             <div class="right-content middle-align">
                 <div class="autogrid-fit center-align">
                     <!-- Available desktops -->
-                    <template x-for="desktopName in ['classic', 'new', 'modern', 'kunity', 'nextg', 'vanilla']" :key="desktopName">
+                    <template x-for="desktopName in listDesktops" :key="desktopName">
                         <button :class="{'active-desktop': desktop === desktopName}"
                                 @click="confirmDesktopChange(desktopName)"
                                 class="vertical border no-border space-between box-items">
@@ -108,13 +108,27 @@
             theme: '',
             selectedDesktop: '',
             selectedTheme: '',
+            listDesktops: [],
+            listThemes: [],
             init() {
                 this.fetchDesktop();
                 this.fetchTheme();
+                this.fetchDesktops();
+                this.fetchThemes();
             },
             async fetchDesktop() {
                 const response = await fetch('actual-desktop.sh');
                 this.desktop = (await response.text()).trim();
+            },
+            async fetchDesktops() {
+                const response = await fetch('list-desktops.sh');
+                const text = await response.text();
+                this.listDesktops = text.split(/\r?\n/).filter(line => line.trim() !== '');
+            },
+            async fetchThemes() {
+                const response = await fetch('list-themes.sh');
+                const text = await response.text();
+                this.listThemes = text.split(/\r?\n/).filter(line => line.trim() !== '');
             },
             async fetchTheme() {
                 const response = await fetch('actual-theme.sh');
