@@ -16,49 +16,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Post update adjustments"
-msgstr "Justeringer etter oppdatering"
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Desktop"
+msgstr "Skrivebord"
 
-msgid ""
-"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
-"settings."
-msgstr ""
-"En større oppdatering har blitt gjennomført, noe som gjør ulike skrivebordsinnstillinger "
-"uforenlige. Fortsett for å bruke de nye innstillingene."
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Theme"
+msgstr "Tema"
 
-msgid ""
-"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
-"proceed."
-msgstr ""
-"Hvis du har avansert kunnskap om systemet og foretrekker å gjøre justeringene manuelt, ikke "
-"fortsett."
-
-msgid ""
-"Continue\n"
-"            "
-msgstr "Fortsett"
-
-msgid "Select a new theme configuration:"
-msgstr "Velg en ny tema konfigurasjon:"
-
-msgid ""
-"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
-"compatible configuration:"
-msgstr ""
-"Velg en skrivebordskonfigurasjon. Dette vil også fjerne tilpasninger gjort i Plasma for å bruke en "
-"ny kompatibel konfigurasjon:"
-
-msgid "Completed."
-msgstr "Fullført."
-
-msgid ""
-"Reboot now!\n"
-"                    "
-msgstr "Start på nytt nå!"
-
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Configuration"
 msgstr "Konfigurasjon"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid ""
 "You've used this desktop before, do you want to restore your customization or use the original "
 "configuration?"
@@ -66,47 +52,384 @@ msgstr ""
 "Du har brukt denne skrivebordet tidligere, vil du gjenopprette tilpassingen din eller bruke den "
 "opprinnelige konfigurasjonen?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Original"
 msgstr "Original"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Restore"
 msgstr "Gjenopprett"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Confirm Theme Change"
 msgstr "Bekreft temaendring"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Do you want to apply the selected theme again?"
 msgstr "Vil du bruke det valgte temaet igjen?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Yes"
 msgstr "Ja"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "No"
 msgstr "Nei"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Confirm Desktop Change"
 msgstr "Bekreft skrivebordsendring"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "Vil du gjenopprette en ren konfigurasjon av skrivebordet?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Applying"
 msgstr "Søker..."
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr "Innstillingene har blitt endret. For å bruke dem i hele systemet, logg av og deretter på igjen."
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "OK"
 msgstr "OK"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Post update adjustments"
+msgstr "Justeringer etter oppdatering"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
+msgstr ""
+"En større oppdatering har blitt gjennomført, noe som gjør ulike skrivebordsinnstillinger "
+"uforenlige. Fortsett for å bruke de nye innstillingene."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
+msgstr ""
+"Hvis du har avansert kunnskap om systemet og foretrekker å gjøre justeringene manuelt, ikke "
+"fortsett."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Continue\n"
+"            "
+msgstr "Fortsett"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Select a new theme configuration:"
+msgstr "Velg en ny tema konfigurasjon:"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
+msgstr ""
+"Velg en skrivebordskonfigurasjon. Dette vil også fjerne tilpasninger gjort i Plasma for å bruke en "
+"ny kompatibel konfigurasjon:"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Completed."
+msgstr "Fullført."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Reboot now!\n"
+"                    "
+msgstr "Start på nytt nå!"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Configuration Complete"
 msgstr "Konfigurasjon fullført"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Your theme and desktop have been configured successfully."
 msgstr "Ditt tema og skrivebord er konfigurert vellykket."
 
-msgid "Desktop"
-msgstr "Skrivebord"
+msgid "Temas, Desktop e Ajustes"
+msgstr "Themes, Desktop, and Settings"
 
-msgid "Theme"
-msgstr "Tema"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "If you are using a browser, restart it to apply the changes."
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Ytelse i optimalisert modus!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Ytelse i performance-modus!"
+
+msgid "Temas"
+msgstr "Themes"
+
+msgid "Ajustes"
+msgstr "Innstillinger"
+
+msgid "Desempenho do desktop"
+msgstr "Desktopytelse"
+
+msgid "Desempenho"
+msgstr "Ytelse"
+
+msgid "Aceleração do navegador"
+msgstr "Nettleserakselerasjon"
+
+msgid "Tema dos aplicativos"
+msgstr "Application theme"
+
+msgid "Abrir"
+msgstr "Åpne"
+
+msgid "Fechar"
+msgstr "Close"
+
+msgid "Bordas arredondadas."
+msgstr "Rounded corners."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Denne malen har gjennomsiktighetseffekter som kan gjøre systemet tregt på eldre datamaskiner eller "
+"virtualiserte miljøer."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klassisk</b>, <b>Ny</b> og <b>Moderne</b> har bedre ytelse."
+
+msgid "Renderizar o desktop via software"
+msgstr "Render desktop via programvare"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Please note that this may be useful on older computers, but some programs may stop working)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Velg programmer som skal lastes inn i minnet under oppstart"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"O Preload loads program files into memory for quick startup. Excessive usage can slow down your "
+"system. Choose your desired option:"
+
+msgid "Ligar RGB do teclado"
+msgstr "Connect RGB keyboard"
+
+msgid "Automático"
+msgstr "Automatisk"
+
+msgid "Ativar"
+msgstr "Aktiver"
+
+msgid "Desativar"
+msgstr "Deactivate"
+
+msgid "Configurações do Brave"
+msgstr "Innstillinger for Brave"
+
+msgid "Escolha a opção desejada:"
+msgstr "Velg ønsket alternativ:"
+
+msgid "Remover propagandas"
+msgstr "Fjern reklame"
+
+msgid "Suportar criptomoedas"
+msgstr "Støtte for kryptovalutaer"
+
+msgid "Usabilidade"
+msgstr "Brukervennlighet"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Knapper for vinduet på venstre side"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Inverter rolagem do mouse"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Inverter rullefeltretning"
+
+msgid "Pesquisar arquivos"
+msgstr "Søk etter filer"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Lås skrivebordsredigering"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Skjul oppstartshåndtereren (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Enable NumLock on system startup"
+
+msgid "Tema aplicado"
+msgstr "Applied Theme"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "It is necessary to restart the session to complete the configuration."
+
+msgid "Configuração do Desktop"
+msgstr "Konfigurasjon av skrivebordet"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Har du brukt denne skrivebordet før, vil du gjenopprette tilpassingen din eller bruke den "
+"opprinnelige konfigurasjonen?"
+
+msgid "Sim"
+msgstr "Sim"
+
+msgid "Não"
+msgstr "Nei"
+
+msgid "Restaurar"
+msgstr "Gjenopprette"
+
+msgid "Desktop aplicado"
+msgstr "Skrivebordsprogram"
+
+msgid "Modo performance"
+msgstr "Modus for ytelse"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS uten fsync"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Ved bruk av programvarebasert rendering, er kvaliteten på gjennomsiktighetene redusert."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Careful you will lose access to SnapShots, are you sure you want to hide the grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Kan du gjenopprette Grub ved feil?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Du vet hvordan du får tilgang til SnapShots uten grafisk modus?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Er du helt sikker på denne applikasjonen?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Applying, please wait..."
+
+msgid "Concluído!"
+msgstr "Fullført!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"Den valgte skrivebordskonfigurasjonen er allerede brukt i dette systemet, vil du gjenopprette den "
+"tidligere brukte konfigurasjonen?\n"
+"\n"
+"Velg nei for å bruke systemets standardkonfigurasjon."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Konfigurasjonen er brukt!\n"
+"\n"
+"Logg ut og logg inn på nytt\n"
+"for at konfigurasjonen skal fullføres."
+
+msgid "Desempenho em modo normal!"
+msgstr "Ytelse i normal modus!"
+
+msgid "Temas e Desktop"
+msgstr "Temaer og Skrivebord"
