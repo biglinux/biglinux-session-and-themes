@@ -16,47 +16,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Post update adjustments"
-msgstr "Dostosowania po aktualizacji"
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Desktop"
+msgstr "Pulpit"
 
-msgid ""
-"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
-"settings."
-msgstr ""
-"Została zastosowana główna aktualizacja, powodująca niekompatybilność różnych ustawień pulpitu. "
-"Przejdź do zastosowania nowych ustawień."
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Theme"
+msgstr "Motyw"
 
-msgid ""
-"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
-"proceed."
-msgstr "Jeśli masz zaawansowaną wiedzę na temat systemu i wolisz dokonać dostosowań ręcznie, nie kontynuuj."
-
-msgid ""
-"Continue\n"
-"            "
-msgstr "Kontynuuj"
-
-msgid "Select a new theme configuration:"
-msgstr "Wybierz nową konfigurację motywu:"
-
-msgid ""
-"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
-"compatible configuration:"
-msgstr ""
-"Wybierz konfigurację pulpitu. Spowoduje to usunięcie niestandardowych dostosowań wykonanych w "
-"Plasma w celu zastosowania nowej kompatybilnej konfiguracji:"
-
-msgid "Completed."
-msgstr "Zakończone."
-
-msgid ""
-"Reboot now!\n"
-"                    "
-msgstr "Uruchom ponownie teraz!"
-
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Configuration"
 msgstr "Konfiguracja"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid ""
 "You've used this desktop before, do you want to restore your customization or use the original "
 "configuration?"
@@ -64,47 +52,381 @@ msgstr ""
 "Używałeś tego pulpitu wcześniej, czy chcesz przywrócić swoje dostosowania czy użyć oryginalnej "
 "konfiguracji?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Original"
 msgstr "Oryginalny"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Restore"
 msgstr "Przywróć"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Confirm Theme Change"
 msgstr "Potwierdź zmianę motywu"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Do you want to apply the selected theme again?"
 msgstr "Czy chcesz ponownie zastosować wybrany motyw?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Yes"
 msgstr "Tak"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "No"
 msgstr "Nie"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Confirm Desktop Change"
 msgstr "Potwierdź zmianę pulpitu"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "Czy chcesz ponownie zastosować czystą konfigurację tego pulpitu?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Applying"
 msgstr "Zastosowanie"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr "Ustawienia zostały zmienione. Aby je zastosować w całym systemie, wyloguj się i ponownie zaloguj."
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "OK"
 msgstr "OK"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Post update adjustments"
+msgstr "Dostosowania po aktualizacji"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
+msgstr ""
+"Została zastosowana główna aktualizacja, powodująca niekompatybilność różnych ustawień pulpitu. "
+"Przejdź do zastosowania nowych ustawień."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
+msgstr "Jeśli masz zaawansowaną wiedzę na temat systemu i wolisz dokonać dostosowań ręcznie, nie kontynuuj."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Continue\n"
+"            "
+msgstr "Kontynuuj"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Select a new theme configuration:"
+msgstr "Wybierz nową konfigurację motywu:"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
+msgstr ""
+"Wybierz konfigurację pulpitu. Spowoduje to usunięcie niestandardowych dostosowań wykonanych w "
+"Plasma w celu zastosowania nowej kompatybilnej konfiguracji:"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Completed."
+msgstr "Zakończone."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Reboot now!\n"
+"                    "
+msgstr "Uruchom ponownie teraz!"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Configuration Complete"
 msgstr "Konfiguracja zakończona"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Your theme and desktop have been configured successfully."
 msgstr "Twój motyw i pulpit zostały pomyślnie skonfigurowane."
 
-msgid "Desktop"
-msgstr "Pulpit"
+msgid "Temas, Desktop e Ajustes"
+msgstr "Motywy, Pulpit i Ustawienia"
 
-msgid "Theme"
-msgstr "Motyw"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Jeśli używasz przeglądarki, zrestartuj ją, aby wprowadzić zmiany."
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Wydajność w trybie zoptymalizowanym!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Wydajność w trybie performance!"
+
+msgid "Temas"
+msgstr "Motywy"
+
+msgid "Ajustes"
+msgstr "Ustawienia"
+
+msgid "Desempenho do desktop"
+msgstr "Wykonanie pulpitu"
+
+msgid "Desempenho"
+msgstr "Performance"
+
+msgid "Aceleração do navegador"
+msgstr "Przyspieszenie przeglądarki"
+
+msgid "Tema dos aplicativos"
+msgstr "Motyw aplikacji"
+
+msgid "Abrir"
+msgstr "Otwórz"
+
+msgid "Fechar"
+msgstr "Zamknij"
+
+msgid "Bordas arredondadas."
+msgstr "Rounded corners."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Ten motyw zawiera przezroczystości z efektami, które<br>mogą spowolnić system na starszych "
+"komputerach<br>lub w środowiskach wirtualnych."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klasyczny</b>, <b>Nowy</b> i <b>Nowoczesny</b> mają lepszą wydajność."
+
+msgid "Renderizar o desktop via software"
+msgstr "Renderowanie pulpitu za pomocą oprogramowania"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Possible useful on older computers, but some programs may stop working)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Wybierz programy do załadowania do pamięci podczas uruchamiania systemu"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr "Opcje:"
+
+msgid "Ligar RGB do teclado"
+msgstr "Podłącz klawiaturę RGB."
+
+msgid "Automático"
+msgstr "Automatyczny"
+
+msgid "Ativar"
+msgstr "Activate"
+
+msgid "Desativar"
+msgstr "Wyłączyć"
+
+msgid "Configurações do Brave"
+msgstr "Ustawienia Brave"
+
+msgid "Escolha a opção desejada:"
+msgstr "Wybierz żądaną opcję:"
+
+msgid "Remover propagandas"
+msgstr "Usuń reklamy"
+
+msgid "Suportar criptomoedas"
+msgstr "Obsługa kryptowalut"
+
+msgid "Usabilidade"
+msgstr "User Interface"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Przyciski okna po lewej stronie"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Odwrócone przewijanie myszą"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Odwrócone przewijanie touchpada"
+
+msgid "Pesquisar arquivos"
+msgstr "Przeszukaj pliki"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Zablokuj edycję pulpitu"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Ukryj menedżer rozruchu (GRUB)"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Enable NumLock on system startup"
+
+msgid "Tema aplicado"
+msgstr "Applied Theme"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Trzeba zrestartować sesję, aby zakończyć konfigurację."
+
+msgid "Configuração do Desktop"
+msgstr "Ustawienia pulpitu"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Czy korzystałeś już z tego pulpitu wcześniej, chcesz przywrócić swoje dostosowania czy użyć "
+"ustawień domyślnych?"
+
+msgid "Sim"
+msgstr "Sim"
+
+msgid "Não"
+msgstr "Nie"
+
+msgid "Restaurar"
+msgstr "Przywróć"
+
+msgid "Desktop aplicado"
+msgstr "Pulpit aplikacyjny"
+
+msgid "Modo performance"
+msgstr "Tryb wydajności"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsync"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Wykorzystując renderowanie programowe, jakość przezroczystości jest obniżona."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Uważasz, że stracisz dostęp do SnapShots, czy na pewno chcesz ukryć Grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Czy potrafisz przywrócić Grub w przypadku awarii?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Czy będziesz w stanie uzyskać dostęp do SnapShotów bez dostępu do trybu graficznego?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Czy jesteś całkowicie pewny tej aplikacji?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Applying, please wait..."
+
+msgid "Concluído!"
+msgstr "Zakończono!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"Wybrana konfiguracja pulpitu została już użyta w tym systemie,\n"
+"czy chcesz przywrócić wcześniej używaną konfigurację?\n"
+"\n"
+"Wybierz \"nie\", aby użyć domyślnej konfiguracji systemu."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Applied configuration!\n"
+"\n"
+"End the session and log in again\n"
+"for the configuration to finish\n"
+"being applied."
+
+msgid "Desempenho em modo normal!"
+msgstr "Wydajność w trybie normalnym!"
+
+msgid "Temas e Desktop"
+msgstr "Motywy i Pulpit"
