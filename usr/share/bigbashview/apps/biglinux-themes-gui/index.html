@@ -18,6 +18,7 @@
         .left-bar-middle-align { display: grid; align-items: center!important; vertical-align: middle; height: 100%; }
         .active-theme, .active-desktop { border-color: #007BFF !important; background-color: rgba(0, 123, 255, 0.1); }
     </style>
+<title>BigLinux Themes</title>
 </head>
 <body x-data="environment()" x-init="init()">
     <div id="page">
@@ -151,10 +152,10 @@
                 }
             },
             async setDesktop(newDesktop) {
-                const response = await fetch(`used-theme.sh?${newDesktop}`);
+                const response = await fetch(`used-desktop.sh?${newDesktop}`);
                 const result = await response.text();
                 if (result.trim() === 'false') {
-                    _run('change-desktop.sh ' + newDesktop);
+                    _run(`./apply-desktop.sh ${newDesktop}`);
                     this.desktop = newDesktop;
                     ui('#change-modal');
                 } else {
@@ -162,12 +163,12 @@
                 }
             },
             applyDesktop(clean = '') {
-                _run('change-desktop.sh ' + this.selectedDesktop + ' ' + clean);
+                _run(`./apply-desktop.sh ${this.selectedDesktop} ${clean}`);
                 this.desktop = this.selectedDesktop;
                 ui('#change-modal');
             },
             setTheme(newTheme) {
-                _run(`biglinux-themes.sh --apply ${newTheme}`);
+                _run(`./apply-theme.sh ${newTheme}`);
                 this.theme = newTheme;
                 ui('#change-modal');
             },
