@@ -421,3 +421,6 @@ msgstr "일반 모드에서 성능!"
 
 msgid "Temas e Desktop"
 msgstr "테마 및 데스크톱"
+
+msgid "BigLinux Themes"
+msgstr "빅리눅스 테마"

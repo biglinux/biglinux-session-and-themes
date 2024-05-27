@@ -385,3 +385,6 @@ msgstr "Teljesítmény normál módban!"
 
 msgid "Temas e Desktop"
 msgstr "Asztali háttér és témák"
+
+msgid "BigLinux Themes"
+msgstr "BigLinux témák"

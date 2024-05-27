@@ -385,3 +385,6 @@ msgstr "Ydeevne i normal tilstand!"
 
 msgid "Temas e Desktop"
 msgstr "Temaer og Skrivebord"
+
+msgid "BigLinux Themes"
+msgstr "BigLinux Temaer"

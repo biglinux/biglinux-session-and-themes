@@ -379,3 +379,6 @@ msgstr "Tavapärane režiimis jõudlus!"
 
 msgid "Temas e Desktop"
 msgstr "Temaad ja töölaua"
+
+msgid "BigLinux Themes"
+msgstr "BigLinux teemad"

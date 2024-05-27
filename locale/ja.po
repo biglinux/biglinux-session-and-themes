@@ -418,3 +418,6 @@ msgstr "通常モードでのパフォーマンス！"
 
 msgid "Temas e Desktop"
 msgstr "テーマとデスクトップ"
+
+msgid "BigLinux Themes"
+msgstr "BigLinux テーマ"

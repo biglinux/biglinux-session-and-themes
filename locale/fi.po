@@ -382,3 +382,6 @@ msgstr "Suorituskyky normaalitilassa!"
 
 msgid "Temas e Desktop"
 msgstr "Työpöytäteemat"
+
+msgid "BigLinux Themes"
+msgstr "BigLinux-teemat"

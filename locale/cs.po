@@ -380,3 +380,6 @@ msgstr "Výkon v normálním režimu!"
 
 msgid "Temas e Desktop"
 msgstr "Témata a Plocha"
+
+msgid "BigLinux Themes"
+msgstr "BigLinux Témata"

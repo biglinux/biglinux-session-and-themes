@@ -383,3 +383,6 @@ msgstr "Производителност в нормален режим!"
 
 msgid "Temas e Desktop"
 msgstr "Теми и Работен плот"
+
+msgid "BigLinux Themes"
+msgstr "BigLinux Теми"

@@ -389,3 +389,6 @@ msgstr "Leistung im Normalmodus!"
 
 msgid "Temas e Desktop"
 msgstr "Themen und Desktop"
+
+msgid "BigLinux Themes"
+msgstr "BigLinux-Themen"

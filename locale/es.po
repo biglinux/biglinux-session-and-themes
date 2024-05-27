@@ -385,3 +385,6 @@ msgstr "Rendimiento en modo normal!"
 
 msgid "Temas e Desktop"
 msgstr "Temas y Escritorio"
+
+msgid "BigLinux Themes"
+msgstr "Temas de BigLinux"

@@ -382,3 +382,6 @@ msgstr "Performanse u normalnom načinu rada!"
 
 msgid "Temas e Desktop"
 msgstr "Teme i radna površina"
+
+msgid "BigLinux Themes"
+msgstr "BigLinux Tema"

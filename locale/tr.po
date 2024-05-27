@@ -16,49 +16,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Post update adjustments"
-msgstr "Gönderi güncelleme ayarlamaları"
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Desktop"
+msgstr "Masaüstü"
 
-msgid ""
-"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
-"settings."
-msgstr ""
-"Bir ana güncelleme uygulandı, çeşitli masaüstü ayarları uyumsuz hale geldi. Yeni ayarları "
-"uygulamaya devam edin."
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Theme"
+msgstr "Tema"
 
-msgid ""
-"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
-"proceed."
-msgstr ""
-"Sistemi ileri düzeyde biliyorsanız ve ayarları manuel olarak yapmayı tercih ediyorsanız, devam "
-"etmeyin."
-
-msgid ""
-"Continue\n"
-"            "
-msgstr "Devam et"
-
-msgid "Select a new theme configuration:"
-msgstr "Yeni bir tema yapılandırması seçin:"
-
-msgid ""
-"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
-"compatible configuration:"
-msgstr ""
-"Masaüstü yapılandırması seçin. Bu ayrıca, Plasma'da yapılan özelleştirmeleri kaldırarak yeni uyumlu "
-"bir yapılandırma uygulayacaktır:"
-
-msgid "Completed."
-msgstr "Tamamlandı."
-
-msgid ""
-"Reboot now!\n"
-"                    "
-msgstr "Şimdi yeniden başlat!"
-
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Configuration"
 msgstr "Yapılandırma"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid ""
 "You've used this desktop before, do you want to restore your customization or use the original "
 "configuration?"
@@ -66,47 +60,429 @@ msgstr ""
 "Bu masaüstünü daha önce kullandınız, özelleştirmenizi geri yüklemek mi istersiniz yoksa orijinal "
 "yapılandırmayı mı kullanmak istersiniz?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Original"
 msgstr "Orijinal"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Restore"
 msgstr "Geri Yükle"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Confirm Theme Change"
 msgstr "Tema Değişikliğini Onayla"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Do you want to apply the selected theme again?"
 msgstr "Seçilen temayı tekrar uygulamak istiyor musunuz?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Yes"
 msgstr "Evet"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "No"
 msgstr "Hayır"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Confirm Desktop Change"
 msgstr "Masaüstü Değişikliğini Onayla"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "Masaüstünün temiz bir yapılandırmasını yeniden uygulamak ister misiniz?"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Applying"
 msgstr "Uygulanıyor"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr "Ayarlar değiştirildi. Bunları sistem genelinde uygulamak için oturumu kapatıp tekrar açın."
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "OK"
 msgstr "OK"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Post update adjustments"
+msgstr "Gönderi güncelleme ayarlamaları"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
+"settings."
+msgstr ""
+"Bir ana güncelleme uygulandı, çeşitli masaüstü ayarları uyumsuz hale geldi. Yeni ayarları "
+"uygulamaya devam edin."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
+"proceed."
+msgstr ""
+"Sistemi ileri düzeyde biliyorsanız ve ayarları manuel olarak yapmayı tercih ediyorsanız, devam "
+"etmeyin."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Continue\n"
+"            "
+msgstr "Devam et"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Select a new theme configuration:"
+msgstr "Yeni bir tema yapılandırması seçin:"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
+"compatible configuration:"
+msgstr ""
+"Masaüstü yapılandırması seçin. Bu ayrıca, Plasma'da yapılan özelleştirmeleri kaldırarak yeni uyumlu "
+"bir yapılandırma uygulayacaktır:"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid "Completed."
+msgstr "Tamamlandı."
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+msgid ""
+"Reboot now!\n"
+"                    "
+msgstr "Şimdi yeniden başlat!"
+
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Configuration Complete"
 msgstr "Yapılandırma Tamamlandı"
 
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+# 
 msgid "Your theme and desktop have been configured successfully."
 msgstr "Tema ve masaüstü başarıyla yapılandırıldı."
 
-msgid "Desktop"
-msgstr "Masaüstü"
+msgid "Temas, Desktop e Ajustes"
+msgstr "Themes, Desktop, and Settings"
 
-msgid "Theme"
-msgstr "Tema"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Tarayıcı kullanıyorsanız, değişiklikleri uygulamak için yeniden başlatın."
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Performance in optimized mode!"
+
+msgid "Desempenho em modo performance!"
+msgstr "Performans Modunda Performans!"
+
+msgid "Temas"
+msgstr "Themes"
+
+msgid "Ajustes"
+msgstr "Settings"
+
+msgid "Desempenho do desktop"
+msgstr "Masaüstü performansı"
+
+msgid "Desempenho"
+msgstr "Performance"
+
+msgid "Aceleração do navegador"
+msgstr "Browser hızlandırma"
+
+msgid "Tema dos aplicativos"
+msgstr "Application theme"
+
+msgid "Abrir"
+msgstr "Open"
+
+msgid "Fechar"
+msgstr "Kapat"
+
+msgid "Bordas arredondadas."
+msgstr "Rounded corners."
+
+msgid ""
+"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
+"computadores<br>antigos ou ambientes virtualizados."
+msgstr ""
+"Bu tema, eski bilgisayarlarda veya sanallaştırılmış ortamlarda sistemi yavaşlatabilecek efektlerle "
+"şeffaflıklara sahiptir."
+
+msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
+msgstr "<b>Klasik</b>, <b>Yeni</b> ve <b>Modern</b> daha iyi performans gösteriyor."
+
+msgid "Renderizar o desktop via software"
+msgstr "Masaüstünü yazılım aracılığıyla oluşturmak"
+
+msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
+msgstr "(Potentially useful on older computers, but some programs may stop working)"
+
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "Boot sırasında belleğe yüklenecek programları seçin"
+
+msgid ""
+"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
+"causa lentidão. Escolha a opção desejada:"
+msgstr ""
+"O Preload yüklenen dosyaları hafızaya alır, böylece hızlı başlarlar. Aşırı kullanım yavaşlamaya "
+"neden olabilir. İstenen seçeneği seçin:"
+
+msgid "Ligar RGB do teclado"
+msgstr "Connect keyboard RGB"
+
+msgid "Automático"
+msgstr "Otomatik"
+
+msgid "Ativar"
+msgstr "Activate"
+
+msgid "Desativar"
+msgstr "Deactivate"
+
+msgid "Configurações do Brave"
+msgstr "Brave Ayarları"
+
+msgid "Escolha a opção desejada:"
+msgstr "Choose the desired option:"
+
+msgid "Remover propagandas"
+msgstr "Reklamları kaldır"
+
+msgid "Suportar criptomoedas"
+msgstr "Destek kriptoparalar"
+
+msgid "Usabilidade"
+msgstr "Kullanılabilirlik"
+
+msgid "Botões da janela no lado esquerdo"
+msgstr "Pencere düğmeleri sol tarafta"
+
+msgid "Rolagem do mouse invertida"
+msgstr "Mouse Scrolling Reverse"
+
+msgid "Rolagem do touchpad invertida"
+msgstr "Touchpad kaydırma tersi"
+
+msgid "Pesquisar arquivos"
+msgstr "Dosya ara"
+
+msgid "Bloquear a edição da área de trabalho "
+msgstr "Masaüstü düzenini düzenlemeyi engelle"
+
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Boot Yöneticisini (GRUB) Gizle"
+
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Enable NumLock on system startup"
+
+msgid "Tema aplicado"
+msgstr "Applied Theme"
+
+msgid "É preciso reiniciar a sessão para concluir a configuração."
+msgstr "Session restart required to complete configuration."
+
+msgid "Configuração do Desktop"
+msgstr "Masaüstü Yapılandırması"
+
+msgid ""
+"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
+"configuração original?"
+msgstr ""
+"Bu masaüstünü daha önce kullandınız mı, özelleştirmenizi geri yüklemek mi istersiniz yoksa orijinal "
+"yapılandırmayı mı kullanmak istersiniz?"
+
+msgid "Sim"
+msgstr "Sim"
+
+msgid "Não"
+msgstr "No"
+
+msgid "Restaurar"
+msgstr "Restore"
+
+msgid "Desktop aplicado"
+msgstr "Masaüstü uygulaması"
+
+msgid "Modo performance"
+msgstr "Performans Modu"
+
+msgid "BTRFS sem fsync"
+msgstr "BTRFS fsync olmadan"
+
+msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
+msgstr "Yazılım renderleme kullanılarak, şeffaflıkların kalitesi düşürülmüş."
+
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Are you sure you want to hide the grub?"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Do you know how to restore Grub in case of failure?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "You will be able to access SnapShots without access to the Graphical mode?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "No suitable string found for translation."
+
+msgid "Aplicando, aguarde..."
+msgstr "Applying, please wait..."
+
+msgid "Concluído!"
+msgstr "Tamamlandı!"
+
+msgid ""
+"\n"
+"A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
+"deseja restaurar a configuração que já foi utilizada?\n"
+"\n"
+"Selecione não para utilizar a configuração padrão do sistema.\n"
+msgstr ""
+"Seçilen masaüstü yapılandırması zaten bu sistemde kullanıldı, kullanılan yapılandırmayı geri "
+"yüklemek ister misiniz?\n"
+"\n"
+"Sistem varsayılan yapılandırmayı kullanmak için Hayır'ı seçin."
+
+msgid ""
+"Configuração aplicada!\n"
+"\n"
+"Finalize a sessão e faça login novamente\n"
+"para que a configuração termine de\n"
+"ser aplicada."
+msgstr ""
+"Uygulanan yapılandırma!\n"
+"\n"
+"Oturumu kapatın ve yeniden giriş yapın\n"
+"yapılandırmanın tamamlanması için."
+
+msgid "Desempenho em modo normal!"
+msgstr "Normal Modda Performans!"
+
+msgid "Temas e Desktop"
+msgstr "Masaüstü ve Temalar"
+
+msgid "BigLinux Themes"
+msgstr "BigLinux Temaları"

@@ -370,3 +370,6 @@ msgstr "ביצועים במצב רגיל!"
 
 msgid "Temas e Desktop"
 msgstr "נושאים ושולחן עבודה"
+
+msgid "BigLinux Themes"
+msgstr "ערכות עיצוב BigLinux"

@@ -430,3 +430,6 @@ msgstr "Wydajność w trybie normalnym!"
 
 msgid "Temas e Desktop"
 msgstr "Motywy i Pulpit"
+
+msgid "BigLinux Themes"
+msgstr "Motywy BigLinux"

@@ -385,3 +385,6 @@ msgstr "Απόδοση σε κανονική λειτουργία!"
 
 msgid "Temas e Desktop"
 msgstr "Θέματα και Επιφάνεια Εργασίας"
+
+msgid "BigLinux Themes"
+msgstr "Θέματα BigLinux"

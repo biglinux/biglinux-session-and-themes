@@ -436,3 +436,6 @@ msgstr "Prestaties in normale modus!"
 
 msgid "Temas e Desktop"
 msgstr "Thema's en Bureaublad"
+
+msgid "BigLinux Themes"
+msgstr "BigLinux-thema's"

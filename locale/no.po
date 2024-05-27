@@ -433,3 +433,6 @@ msgstr "Ytelse i normal modus!"
 
 msgid "Temas e Desktop"
 msgstr "Temaer og Skrivebord"
+
+msgid "BigLinux Themes"
+msgstr "BigLinux-temaer"
