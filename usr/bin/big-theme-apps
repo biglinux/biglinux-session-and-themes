@@ -5,8 +5,6 @@ IFS=$'\n'
 
 folder="/usr/share/biglinux/themes"
 
-
-
 case "$1" in
 
     --apply)
@@ -20,7 +18,6 @@ case "$1" in
     # Clean GTK theme folders
     rm -Rf ~/.config/gtk-3.0
     rm -Rf ~/.config/gtk-4.0
-
 
 	#Confere se o arquivo existe
     if [ -e "$folder/$2" ]; then
@@ -36,7 +33,7 @@ case "$1" in
             sed -i 's|^ *\biconset\b *=.*|iconset=PapirusDark|' ~/.config/smplayer/smplayer.ini
 		fi
 
-        #se necessario coloca os icons de fechar, maximizar e fechar do lado esquerdo
+        #side of minimize maximize and close buttons
         if [ "$(cat "$HOME/.config/kwin_left")" = "1" ]; then
             kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
             kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
@@ -47,7 +44,7 @@ case "$1" in
             kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
         fi
 
-        # Disable kwin border in maximized windows
+        # Disable kwin border in maximized windows if needed for globalmenu
         if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
             #Chromium Brave Chrome
             sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
@@ -63,6 +60,7 @@ case "$1" in
             #Kwin
             kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
         fi
+
         # Run specific desktop tweaks
         /usr/share/biglinux/multi-kde/$(cat ~/.kdebiglinux/lastused)
         
@@ -70,7 +68,6 @@ case "$1" in
 
                 #Configure GTK
                 qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
-
 
                 qdbus6 org.kde.KWin /KWin org.kde.KWin.reconfigure
                 # Clean icon theme and apply again to fix kwin buttons
@@ -107,7 +104,5 @@ case "$1" in
     ;;
 
 esac
-
-
 
 IFS=$OIFS

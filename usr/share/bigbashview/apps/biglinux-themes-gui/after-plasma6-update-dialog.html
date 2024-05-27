@@ -239,11 +239,11 @@
                 },
                 setDesktop(newDesktop) {
                     this.selectedDesktop = newDesktop;
-                    _run(`change-plasma-theme --apply ${newDesktop} clean`);
+                    _run(`big-theme-plasma --apply ${newDesktop} clean`);
                     this.activePage = 'reboot';
                 },
                 setTheme(newTheme) {
-                    _run(`biglinux-themes.sh --apply ${newTheme}`);
+                    _run(`big-theme-apps --apply ${newTheme}`);
                     this.theme = newTheme;
                     this.themeSelected = true;
                     this.activePage = 'desktop';

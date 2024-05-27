@@ -1,6 +1,6 @@
 [Desktop Entry]
-Exec=biglinuxthemesgui
-Icon=biglinux-themes-gui
+Exec=big-theme-gui
+Icon=big-theme-gui
 Name=BigLinux Themes
 Name[bg]=Теми на BigLinux
 Name[cs]=Témata BigLinux

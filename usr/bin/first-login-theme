@@ -14,7 +14,7 @@ if [ ! -e "/etc/default-theme-biglinux" ] || [ -e "$HOME/.big_desktop_theme" ] |
 else
 
     export BIG_THEME="$(cat /etc/default-theme-biglinux)"
-    biglinux-themes.sh --apply $BIG_THEME
+    big-theme-apps --apply $BIG_THEME
     systemctl --user enable big-welcome
 
 fi

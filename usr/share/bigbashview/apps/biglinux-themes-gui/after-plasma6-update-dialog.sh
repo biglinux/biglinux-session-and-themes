@@ -4,7 +4,7 @@
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=biglinux-session-and-themes
 
-Title=$"Temas e Desktop"
+Title=$"BigLinux Themes"
 
 # Copy igLinux Dark.colorscheme
 if [[ ! -e "$HOME/.local/share/konsole/BigLinux Dark.colorscheme" ]]; then

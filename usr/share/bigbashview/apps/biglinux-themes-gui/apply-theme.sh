@@ -1,3 +1,3 @@
 #!/bin/bash
 
-change-plasma-theme --apply $1 clean
+big-theme-apps --apply $1

@@ -154,7 +154,7 @@
                 const response = await fetch(`used-theme.sh?${newDesktop}`);
                 const result = await response.text();
                 if (result.trim() === 'false') {
-                    _run(`change-plasma-theme --apply ${newDesktop}`);
+                    _run('change-desktop.sh ' + newDesktop);
                     this.desktop = newDesktop;
                     ui('#change-modal');
                 } else {
@@ -162,7 +162,7 @@
                 }
             },
             applyDesktop(clean = '') {
-                _run(`change-plasma-theme --apply ${this.selectedDesktop} ${clean}`);
+                _run('change-desktop.sh ' + this.selectedDesktop + ' ' + clean);
                 this.desktop = this.selectedDesktop;
                 ui('#change-modal');
             },

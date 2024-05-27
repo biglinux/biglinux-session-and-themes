@@ -1,13 +1,9 @@
 #!/bin/bash
 
-
 STARTPLASMA=startplasma-x11
 
 # Bolder font rendering
 #export FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
-
-# Fix to open/save dialog em gtk apps
-#export QT_NO_XDG_DESKTOP_PORTAL=1
 
 RESOLUTION="$(xdpyinfo | awk '/dimensions/ {print $2}')"
 SCREEN="$(xrandr | grep 'connected primary' | cut -f1 -d" ")"
@@ -78,7 +74,7 @@ export ICD_DIR=/usr/share/vulkan/icd.d
 
 #Keyboard LED
 if [ -e "$HOME/.config/ledkeyboard" ]; then
-   change-keyboard-led on
+   big-keyboard-led on
 fi
 
 #OBS Studio game capture with vulkan
@@ -90,36 +86,22 @@ if [ -e "/usr/bin/obs-vkcapture" ]; then
     export VK_INSTANCE_LAYERS=VK_LAYER_MANGOHUD_overlay:VK_LAYER_OBS_vkcapture_64:VK_LAYER_VALVE_steam_overlay_64
 fi
 
-#More cache to 3D
-#__GL_SHADER_DISK_CACHE=1
-#__GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
-
-
-# Virtualization fix open
-#if [ "$(lspci | grep -i vga | grep -i vmware)" != "" ]; then
-#    kwriteconfig6 --file ~/.config/kded5rc --group Module-kscreen --key autoload false
-#fi
-# Virtualization fix close
-
 # Theme in first login
 first-login-theme
 
-
 if [ ! -e "$HOME/.kdebiglinux/lastlogin" ]; then
-    change-plasma-theme --apply $(cut -f2 -d" " /etc/big_desktop_changed) quiet
+    big-theme-plasma --apply $(cut -f2 -d" " /etc/big_desktop_changed) quiet
 fi
-
 
 nowlogin="$(cat "$HOME/.kdebiglinux/lastused")"
 #ultimo login
 lastlogin=$(cat "$HOME/.kdebiglinux/lastlogin")
 
-
 #Get id from last wallpaper
 ID=$(grep -Eo '\[Containments\]\[[0-9]{1,5}\]\[Wallpaper\]\[org.kde.image\]' ~/.config/plasma-org.kde.plasma.desktop-appletsrc|head -n1|sed 's|\[||g;s|\]| |g'|cut -f2 -d' ')
 
 #Get path from last wallpaper
-WALLPAPER=$(kreadconfig5 --file ~/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $ID --group Wallpaper --group org.kde.image --group General --key Image|sed 's|file://||')
+WALLPAPER=$(kreadconfig6 --file ~/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $ID --group Wallpaper --group org.kde.image --group General --key Image|sed 's|file://||')
 
 #Link from wallpaper to ksplash
 ln -sf "$WALLPAPER" /tmp/bigksplash.jpg
@@ -129,7 +111,7 @@ if [[ "$XDG_SESSION_TYPE" != "wayland" ]]; then
     feh --bg-fill "/tmp/bigksplash.jpg" &
 fi
 
-# Fix full screen when switch desktop
+# Fix full screen when switch desktop for globalmenu on or off
 if [ "$nowlogin" != "$lastlogin" ]; then
     if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
         sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
@@ -155,16 +137,6 @@ if [ ! -e "$HOME/.config/freespacenotifierrc" ] && [ ! -e "/livefs-pkgs.txt" ]; 
     echo '[General]
 minimumSpace=5000' > "$HOME/.config/freespacenotifierrc"
 fi
-
-
-#if [ "$(grep -i 'SingleClick=' ~/.config/kdeglobals)" = "" ]; then
-#    kwriteconfig5 --group KDE --key SingleClick true
-#fi
-
-# Fix ssh agent
-#if [ -z "$SSH_AGENT_PID" ]; then
-#  eval "$(ssh-agent -s)"
-#fi
 
 # Remove old plasmoids from plasma5
 if [ -e "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
