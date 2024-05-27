@@ -77,7 +77,7 @@ else
         for i in "${kde[@]}"; do
             cp -Rf /usr/share/biglinux/kdebiglinux/$2/$i ~/.config/
         done
-        change-biglinux-wallpaper
+        big-wallpaper-random
     fi
 fi
 
@@ -198,18 +198,16 @@ echo " Usage:
 
 Example to apply classic theme:
 
-change-plasma-theme --apply classic
+big-theme-plasma --apply classic
 or
-change-plasma-theme --apply classic clean
+big-theme-plasma --apply classic clean
 or
-change-plasma-theme --apply classic quiet
+big-theme-plasma --apply classic quiet
 
 
 If use clean, remove configuration in home folder and use clean configuration.
 
-Use quiet to change files but not instant apply
-
-Use cleanquiet to remove user configuration and clean user configuration"
+Use quiet to change files but not instant apply"
 exit
 ;;
 
