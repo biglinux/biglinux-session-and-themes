@@ -64,7 +64,7 @@ case "$1" in
         # Run specific desktop tweaks
         /usr/share/biglinux/multi-kde/$(cat ~/.kdebiglinux/lastused)
         
-        if pgrep kwin; then
+        if pgrep plasmashell; then
 
                 #Configure GTK
                 qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
