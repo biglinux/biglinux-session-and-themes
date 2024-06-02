@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel/Splash",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "BigLinux"
+            }
+        ],
+        "Category": "",
+        "Description": "Big Plasma Circle Old",
+        "Id": "big.circle.old",
+        "License": "GPLv2+",
+        "Name": "Big Circle"
+    },
+    "X-Plasma-APIVersion": "2"
+}
+
+

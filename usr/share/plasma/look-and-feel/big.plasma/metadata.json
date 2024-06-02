@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel/Splash",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "eltonfabricio10"
+            }
+        ],
+        "Category": "",
+        "Description": "Big Splash Plasma",
+        "Id": "big.circle.old",
+        "License": "CCPL:by-sa",
+        "Name": "Big Plasma"
+    },
+    "X-Plasma-APIVersion": "2"
+}
+
+
