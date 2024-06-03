@@ -147,5 +147,5 @@ if [ -e "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray" 
     mv "$HOME/.local/share/plasma/plasmoids/" "$HOME/.local/share/plasma/plasmoids-old/"
 fi
 
-
+portal-kde-verify.sh &
 exec $STARTPLASMA
