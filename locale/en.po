@@ -48,9 +48,13 @@ msgstr ""
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid "Desktop"
 msgstr "Desktop"
 
+#
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
@@ -120,9 +124,13 @@ msgstr "Theme"
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid "Configuration"
 msgstr "Configuration"
 
+#
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
@@ -163,6 +171,8 @@ msgstr ""
 "You've used this desktop before, do you want to restore your customization "
 "or use the original configuration?"
 
+#
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
@@ -232,9 +242,13 @@ msgstr "Original"
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid "Restore"
 msgstr "Restore"
 
+#
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
@@ -304,9 +318,13 @@ msgstr "Confirm Theme Change"
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid "Do you want to apply the selected theme again?"
 msgstr "Do you want to apply the selected theme again?"
 
+#
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
@@ -376,9 +394,13 @@ msgstr "Yes"
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid "No"
 msgstr "No"
 
+#
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
@@ -448,9 +470,13 @@ msgstr "Confirm Desktop Change"
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "Do you want to reapply a clean configuration of that desktop?"
 
+#
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
@@ -520,6 +546,8 @@ msgstr "Applying"
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid ""
 "The settings have been changed. To apply them throughout the system, log off "
 "and log in again."
@@ -527,6 +555,8 @@ msgstr ""
 "The settings have been changed. To apply them throughout the system, log off "
 "and log in again."
 
+#
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
@@ -596,6 +626,8 @@ msgstr "OK"
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid "Post update adjustments"
 msgstr "Post update adjustments"
 
@@ -632,6 +664,8 @@ msgstr "Post update adjustments"
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid ""
 "A major update has been applied, making various desktop settings "
 "incompatible. Proceed to apply new settings."
@@ -639,6 +673,8 @@ msgstr ""
 "A major update has been applied, making various desktop settings "
 "incompatible. Proceed to apply new settings."
 
+#
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
@@ -712,6 +748,8 @@ msgstr ""
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid ""
 "Continue\n"
 "            "
@@ -719,6 +757,8 @@ msgstr ""
 "Continue\n"
 "            "
 
+#
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
@@ -788,6 +828,8 @@ msgstr "Select a new theme configuration:"
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid ""
 "Choose a desktop configuration. This will also remove customizations made in "
 "Plasma to apply a new compatible configuration:"
@@ -795,6 +837,8 @@ msgstr ""
 "Choose a desktop configuration. This will also remove customizations made in "
 "Plasma to apply a new compatible configuration:"
 
+#
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
@@ -864,6 +908,8 @@ msgstr "Completed."
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid ""
 "Reboot now!\n"
 "                    "
@@ -904,9 +950,13 @@ msgstr ""
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
+#
 msgid "Configuration Complete"
 msgstr "Configuration Complete"
 
+#
+# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 #
