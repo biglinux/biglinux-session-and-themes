@@ -5,12 +5,6 @@ STARTPLASMA=startplasma-x11
 # Disable shader cache in QT to better speed https://invent.kde.org/plasma/kwin/-/merge_requests/5802
 export QT_DISABLE_SHADER_DISK_CACHE=1
 
-# Render qt using Vulkan if not using software render
-if ! vulkaninfo --summary 2> /dev/null | grep -q llvmpipe; then
-    export QSG_RHI_BACKEND=vulkan
-fi
-
-
 # Bolder font rendering
 #export FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
 
@@ -37,6 +31,10 @@ if [ "$1" = "wayland" ]; then
     exec --no-startup-id /usr/lib/pam_kwallet_init
 
 else
+    # Render qt using Vulkan if not using software render
+    if ! vulkaninfo --summary 2> /dev/null | grep -q llvmpipe; then
+        export QSG_RHI_BACKEND=vulkan
+    fi
     export GDK_BACKEND=x11
     export GSK_RENDERER=cairo
     export KWIN_EFFECTS_FORCE_ANIMATIONS=1
