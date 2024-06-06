@@ -2,6 +2,9 @@
 
 STARTPLASMA=startplasma-x11
 
+# Disable shader cache in QT to better speed https://invent.kde.org/plasma/kwin/-/merge_requests/5802
+export QT_DISABLE_SHADER_DISK_CACHE=1
+
 # Bolder font rendering
 #export FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
 
