@@ -32,9 +32,9 @@ if [ "$1" = "wayland" ]; then
 
 else
     # Render qt using Vulkan if not using software render
-    if ! vulkaninfo --summary 2> /dev/null | grep -q llvmpipe; then
-        export QSG_RHI_BACKEND=vulkan
-    fi
+    #     if ! vulkaninfo --summary 2> /dev/null | grep -q llvmpipe; then
+    #         export QSG_RHI_BACKEND=vulkan
+    #     fi
     export GDK_BACKEND=x11
     export GSK_RENDERER=cairo
     export KWIN_EFFECTS_FORCE_ANIMATIONS=1
