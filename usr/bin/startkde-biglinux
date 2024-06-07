@@ -13,6 +13,13 @@ SCREEN="$(xrandr | grep 'connected primary' | cut -f1 -d" ")"
 WIDTH=${RESOLUTION//x*}
 HEIGHT=${RESOLUTION//*x}
 
+# Render loop basic if using software render
+if glxinfo -B 2> /dev/null | grep -q llvmpipe; then
+    export QSG_RENDER_LOOP="basic"
+else
+    export QSG_RENDER_LOOP=""
+fi
+
 if [ "$1" = "wayland" ]; then
     STARTPLASMA=startplasma-wayland
     # export EGL_PLATFORM=wayland
@@ -25,16 +32,15 @@ if [ "$1" = "wayland" ]; then
     # export QT_QPA_PLATFORM=wayland-egl
     export SDL_VIDEODRIVER=wayland
     # export QT_XCB_GL_INTEGRATION=xcb_egl
-    export QSG_RENDER_LOOP=basic
     export MOZ_ENABLE_WAYLAND=1
     export KWIN_EFFECTS_FORCE_ANIMATIONS=1
     exec --no-startup-id /usr/lib/pam_kwallet_init
 
 else
-    # Render qt using Vulkan if not using software render
-    #     if ! vulkaninfo --summary 2> /dev/null | grep -q llvmpipe; then
-    #         export QSG_RHI_BACKEND=vulkan
-    #     fi
+#export KWIN_OPENGL_INTERFACE=egl
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
+export QT_ENABLE_HIGHDPI_SCALING=0
+export QT_SCALE_FACTOR=""
     export GDK_BACKEND=x11
     export GSK_RENDERER=cairo
     export KWIN_EFFECTS_FORCE_ANIMATIONS=1
