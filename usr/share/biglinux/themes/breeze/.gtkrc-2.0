@@ -1,12 +1,10 @@
 # File created by KDE Gtk Config
 # Configs for GTK2 programs 
 
-include "/usr/share/themes/Adapta-Eta/gtk-2.0/gtkrc"
-gtk-font-name="Cabin Regular 12"
+gtk-font-name="Noto Sans Nerd Font, Medium 10"
 gtk-theme-name="Breeze"
 gtk-icon-theme-name="breeze"
-gtk-fallback-icon-theme="Adwaita"
-gtk-cursor-theme-name="Breeze_Snow"
+gtk-cursor-theme-name="Bibata-Modern-Classic"
 gtk-toolbar-style=GTK_TOOLBAR_ICONS
 gtk-menu-images=1
 gtk-button-images=1

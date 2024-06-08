@@ -2,7 +2,7 @@
 # Configs for GTK2 programs 
 
 gtk-font-name="Noto Sans Nerd Font, Medium 10"
-gtk-theme-name="Breeze-Dark"
+gtk-theme-name="adw-gtk3-dark"
 gtk-icon-theme-name="bigicons-papient"
 gtk-fallback-icon-theme="Breeze"
 gtk-cursor-theme-name="Bibata-Modern-Classic"
