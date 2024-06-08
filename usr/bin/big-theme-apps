@@ -66,9 +66,6 @@ case "$1" in
         
         if pgrep plasmashell; then
 
-                #Configure GTK
-                qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
-
                 qdbus6 org.kde.KWin /KWin org.kde.KWin.reconfigure
                 # Clean icon theme and apply again to fix kwin buttons
                 kwriteconfig6 --group Icons --key Theme ""
@@ -78,6 +75,13 @@ case "$1" in
                 plasma-apply-colorscheme KvArc
                 # Apply Theme
                 plasma-apply-colorscheme $(kreadconfig6 --group General --key ColorScheme --file "$folder/$2/.config/kdeglobals")
+
+                # Enable gtkconfig in kde config
+                kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded5rc --key autoload true
+
+                #Configure GTK
+                qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
+                gtk-reload.py
 
         fi
         
