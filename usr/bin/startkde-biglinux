@@ -7,7 +7,7 @@ export QT_DISABLE_SHADER_DISK_CACHE=1
 #export FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
 
 # Render loop basic if using software render
-if glxinfo -B 2> /dev/null | grep -q llvmpipe; then
+if vulkaninfo --summary 2> /dev/null | grep -q llvmpipe; then
     export QSG_RENDER_LOOP="basic"
 else
     export QSG_RENDER_LOOP=""
