@@ -246,9 +246,6 @@ knownItems=org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnec
 shownItems=org.kde.plasma.brightness
 
 
-## TELA 02 ##
-
-
 [Containments][3]
 activityId=
 formfactor=2
@@ -471,8 +468,6 @@ hiddenItems=org.kde.plasma.vault
 knownItems=org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
 shownItems=org.kde.plasma.brightness
 
-
-## TELA 03 ##
 
 
 [Containments][4]
@@ -698,9 +693,6 @@ knownItems=org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnec
 shownItems=org.kde.plasma.brightness
 
 
-### TELA 04 ###
-
-
 [Containments][5]
 activityId=
 formfactor=2
@@ -922,10 +914,6 @@ extraItems=org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnec
 hiddenItems=org.kde.plasma.vault
 knownItems=org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
 shownItems=org.kde.plasma.brightness
-
-
-
-
 
 
 [ScreenMapping]
