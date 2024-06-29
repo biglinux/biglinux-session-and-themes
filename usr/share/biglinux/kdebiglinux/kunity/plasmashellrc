@@ -2,18 +2,67 @@
 LaunchCounts=1 services_org.kde.kfind.desktop,1 services_org.kde.konsole.desktop,1 services_kcm_kscreen.desktop
 pluginWhiteList=services,desktopsessions,PowerDevil,calculator,unitconverter,shell,bookmarks,baloosearch,locations
 
+[PlasmaTransientsConfig]
+PreloadWeight=68
+
+
 [PlasmaViews][Panel 35]
 floating=0
 
 [PlasmaViews][Panel 35][Defaults]
 thickness=32
 
-[PlasmaViews][Panel 37]
+[PlasmaViews][Panel 36]
 alignment=132
 floating=0
 panelVisibility=0
 
+[PlasmaViews][Panel 36][Defaults]
+thickness=40
+
+
+[PlasmaViews][Panel 37]
+floating=0
+
 [PlasmaViews][Panel 37][Defaults]
+thickness=32
+
+[PlasmaViews][Panel 38]
+alignment=132
+floating=0
+panelVisibility=0
+
+[PlasmaViews][Panel 38][Defaults]
+thickness=40
+
+
+[PlasmaViews][Panel 39]
+floating=0
+
+[PlasmaViews][Panel 39][Defaults]
+thickness=32
+
+[PlasmaViews][Panel 40]
+alignment=132
+floating=0
+panelVisibility=0
+
+[PlasmaViews][Panel 40][Defaults]
+thickness=40
+
+
+[PlasmaViews][Panel 41]
+floating=0
+
+[PlasmaViews][Panel 41][Defaults]
+thickness=32
+
+[PlasmaViews][Panel 42]
+alignment=132
+floating=0
+panelVisibility=0
+
+[PlasmaViews][Panel 42][Defaults]
 thickness=40
 
 
