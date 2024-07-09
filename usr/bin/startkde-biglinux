@@ -14,6 +14,7 @@ else
 fi
 
 if [ "$1" = "wayland" ]; then
+    export ELECTRON_OZONE_PLATFORM_HINT=auto
     export SDL_VIDEODRIVER=wayland
     export MOZ_ENABLE_WAYLAND=1
     export KWIN_EFFECTS_FORCE_ANIMATIONS=1
