@@ -189,6 +189,9 @@ MaximumRemoteSize=0
 ToolButtonStyle=TextBesideIcon
 ToolButtonStyleOtherToolbars=TextBesideIcon
 
+[QtQuickRendererSettings]
+SceneGraphBackend=opengl
+
 [WM]
 activeBackground=49,54,59
 activeBlend=252,252,252
