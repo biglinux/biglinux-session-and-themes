@@ -84,6 +84,7 @@ DialogWidth=720
 
 [Containments][2][Applets][31][Configuration][General]
 indicateAudioStreams=false
+hideLauncherOnStart=false
 launchers=preferred://browser,preferred://filemanager
 middleClickAction=None
 showOnlyCurrentScreen=true
@@ -98,7 +99,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][34][Configuration]
-url=file:///usr/share/biglinux/kdebiglinux/activities-overview (8).desktop
+url=file:///usr/share/biglinux/kdebiglinux/activities-overview.desktop
 
 [Containments][2][Applets][7]
 immutability=1
@@ -294,6 +295,7 @@ DialogWidth=720
 
 [Containments][3][Applets][31][Configuration][General]
 indicateAudioStreams=false
+hideLauncherOnStart=false
 launchers=preferred://browser,preferred://filemanager
 middleClickAction=None
 showOnlyCurrentScreen=true
@@ -308,7 +310,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][3][Applets][34][Configuration]
-url=file:///usr/share/biglinux/kdebiglinux/activities-overview (9).desktop
+url=file:///usr/share/biglinux/kdebiglinux/activities-overview.desktop
 
 [Containments][3][Applets][7]
 immutability=1
@@ -504,6 +506,7 @@ DialogWidth=720
 
 [Containments][4][Applets][31][Configuration][General]
 indicateAudioStreams=false
+hideLauncherOnStart=false
 launchers=preferred://browser,preferred://filemanager
 middleClickAction=None
 showOnlyCurrentScreen=true
@@ -518,7 +521,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][4][Applets][34][Configuration]
-url=file:///usr/share/biglinux/kdebiglinux/activities-overview (9).desktop
+url=file:///usr/share/biglinux/kdebiglinux/activities-overview.desktop
 
 [Containments][4][Applets][7]
 immutability=1
@@ -714,6 +717,7 @@ DialogWidth=720
 
 [Containments][5][Applets][31][Configuration][General]
 indicateAudioStreams=false
+hideLauncherOnStart=false
 launchers=preferred://browser,preferred://filemanager
 middleClickAction=None
 showOnlyCurrentScreen=true
@@ -728,7 +732,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][5][Applets][34][Configuration]
-url=file:///usr/share/biglinux/kdebiglinux/activities-overview (9).desktop
+url=file:///usr/share/biglinux/kdebiglinux/activities-overview.desktop
 
 [Containments][5][Applets][7]
 immutability=1
