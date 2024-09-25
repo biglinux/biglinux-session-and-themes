@@ -3,6 +3,9 @@
 # Disable shader cache in QT to better speed https://invent.kde.org/plasma/kwin/-/merge_requests/5802
 export QT_DISABLE_SHADER_DISK_CACHE=1
 
+# Fix to scaled apps, after QT 6.8 released, remove this line:
+export QT_SCALE_FACTOR_ROUNDING_POLICY=Round
+
 # Bolder font rendering
 #export FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
 
