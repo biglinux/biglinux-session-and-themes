@@ -23,13 +23,11 @@ case "$1" in
     if [ -e "$folder/$2" ]; then
         cp -Rf $folder/$2/. "$HOME"
 
-        #Fix icon color in smplayer and libreoffice
+        #Fix icon color in smplayer
         if [ "$(echo "$2" | grep -i dark)" = "" ]
 		then
-            sed -i 's|name="SymbolStyle" oor:op="fuse"><value>.*</value>|name="SymbolStyle" oor:op="fuse"><value>breeze</value>|g' ~/.config/libreoffice/4/user/registrymodifications.xcu
             sed -i 's|^ *\biconset\b *=.*|iconset=Papirus|' ~/.config/smplayer/smplayer.ini
 		else
-            sed -i 's|name="SymbolStyle" oor:op="fuse"><value>.*</value>|name="SymbolStyle" oor:op="fuse"><value>breeze_dark</value>|g' ~/.config/libreoffice/4/user/registrymodifications.xcu
             sed -i 's|^ *\biconset\b *=.*|iconset=PapirusDark|' ~/.config/smplayer/smplayer.ini
 		fi
 
