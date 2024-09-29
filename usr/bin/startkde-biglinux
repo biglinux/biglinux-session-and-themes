@@ -35,7 +35,6 @@ else
     export QT_ENABLE_HIGHDPI_SCALING=0
     export QT_SCALE_FACTOR=""
     export GDK_BACKEND=x11
-    export GSK_RENDERER=cairo
     export KWIN_EFFECTS_FORCE_ANIMATIONS=1
     export MOZ_USE_XINPUT2=1
     # Nvidia tweak
