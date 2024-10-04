@@ -5,7 +5,7 @@ Stiffness=2
 WobblynessLevel=2
 
 [Effect-blur]
-BlurStrength=6
+BlurStrength=5
 NoiseStrength=0
 
 [Plugins]
