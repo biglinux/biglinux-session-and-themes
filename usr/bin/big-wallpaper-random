@@ -10,16 +10,20 @@ if [ "$1" = "dark" ]; then
     "animal dark12.avif"
     "animal dark9.avif"
     "animal funny6.avif"
+    "animal cute7.avif"
     "animal wolf2.avif"
     "art face1.avif"
     "cat steampunk5.avif"
     "conceptual eagle.avif"
     "dog steampunk2.avif"
+    "fluffy aliens.avif"
     "future planet.avif"
     "penguin steampunk2.avif"
+    "penguin fluffy.avif"
+    "cat cute2.avif"
     "space globe4.avif"
-    "z animal non sense4.avif"
     "z non sense cat3.avif"
+    "z nonsense2.avif"
     )
 else
     files=(
@@ -38,10 +42,12 @@ else
     "penguin art.avif"
     "penguin steampunk2.avif"
     "space globe4.avif"
-    "z animal non sense4.avif"
+    "cat cute2.avif"
+    "penguin fluffy.avif"
     "z non sense cat3.avif"
     "z non sense cat8.avif"
     "z non sense dog cooking1.avif"
+    "z nonsense2.avif"
     )
 fi
 
