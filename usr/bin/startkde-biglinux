@@ -103,7 +103,7 @@ fi
 if [ ! -e "$HOME/.kdebiglinux/ksmserver_changed" ]; then
     mkdir -p ~/.kdebiglinux
     > "$HOME/.kdebiglinux/ksmserver_changed"
-    kwriteconfig6 --file ~/.config/ksmserverrc --group 'General' --key 'shutdownType' '0'
+    kwriteconfig6 --file ~/.config/ksmserverrc --group 'General' --key 'loginMode' 'emptySession'
 fi
 
 nowlogin="$(cat "$HOME/.kdebiglinux/lastused")"
