@@ -9,13 +9,11 @@ export QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor
 # Bolder font rendering
 #export FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
 
-# Use Vulkaninfo to verify if only llvmpipe as vulkan render
-# Output true if using llvmpipe and false if using anotherr vulkan render
-if vulkaninfo --summary 2> /dev/null | grep 'deviceName' | grep -vq 'llvmpipe'; then
-    export QSG_RENDER_LOOP=""
-else
+# Render loop basic if using software render and change GTK4 from vulkan to gl
+if vulkaninfo --summary 2> /dev/null | grep -q llvmpipe; then
     export QSG_RENDER_LOOP="basic"
     export GSK_RENDERER="gl"
+else
     export QSG_RENDER_LOOP=""
 fi
 

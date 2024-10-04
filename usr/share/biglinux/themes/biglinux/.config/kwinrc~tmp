@@ -4,6 +4,12 @@ MoveFactor=25
 Stiffness=2
 WobblynessLevel=2
 
+[Effect-wobblywindows]
+Drag=70
+MoveFactor=25
+Stiffness=2
+WobblynessLevel=2
+
 [Effect-blur]
 BlurStrength=6
 NoiseStrength=0
