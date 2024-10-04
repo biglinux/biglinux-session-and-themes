@@ -57,7 +57,7 @@ fi
 # Checks if the shell has already been changed
 if [ ! -f "$HOME/.biglinux-shell-changed" ]; then
     biglinux-change-default-shell bash-power
-    touch "$HOME/.biglinux-shell-changed"
+    > "$HOME/.biglinux-shell-changed"
 fi
 
 # Use KDE dialog in some GTK apps like Firefox
@@ -97,6 +97,13 @@ first-login-theme
 
 if [ ! -e "$HOME/.kdebiglinux/lastlogin" ]; then
     big-theme-plasma --apply $(cut -f2 -d" " /etc/big_desktop_changed) quiet
+fi
+
+# In Plasma 6.1 if not use empty session, logoff lock system, change to empty
+if [ ! -e "$HOME/.kdebiglinux/ksmserver_changed" ]; then
+    mkdir -p ~/.kdebiglinux
+    > "$HOME/.kdebiglinux/ksmserver_changed"
+    kwriteconfig6 --file ~/.config/ksmserverrc --group 'General' --key 'shutdownType' '0'
 fi
 
 nowlogin="$(cat "$HOME/.kdebiglinux/lastused")"
