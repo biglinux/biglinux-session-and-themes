@@ -9,6 +9,7 @@ BlurStrength=5
 NoiseStrength=0
 
 [Plugins]
+shakecursorEnabled=false
 wobblywindowsEnabled=true
 
 [Windows]
