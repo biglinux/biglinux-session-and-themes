@@ -13,6 +13,7 @@ export QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor
 # Output true if using llvmpipe and false if using anotherr vulkan render
 if vulkaninfo --summary 2> /dev/null | grep 'deviceName' | grep -vq 'llvmpipe'; then
     export QSG_RENDER_LOOP=""
+    export GSK_RENDERER="vulkan"
 else
     export QSG_RENDER_LOOP="basic"
     export GSK_RENDERER="gl"
