@@ -226,7 +226,7 @@ marginRules=org.biglinux.appsmenu,0,0|luisbocanegra.panel.colorizer,0,0|org.kde.
 panelBgColorMode=1
 panelBgOpacity=0.65
 panelRealBgOpacity=0.5
-panelWidgets=org.kde.windowtitle,Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
+panelWidgets=Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
 panelWidgetsWithTray=org.kde.windowtitle,Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
 widgetBgEnabled=false
 
@@ -234,9 +234,7 @@ widgetBgEnabled=false
 immutability=1
 plugin=org.kde.plasma.trash
 
-[Containments][36][Applets][74]
-immutability=1
-plugin=org.kde.windowtitle
+
 
 [Containments][36][Applets][74][Configuration][ConfigDialog]
 DialogHeight=540
@@ -559,7 +557,7 @@ marginRules=org.biglinux.appsmenu,0,0|luisbocanegra.panel.colorizer,0,0|org.kde.
 panelBgColorMode=1
 panelBgOpacity=0.65
 panelRealBgOpacity=0.5
-panelWidgets=org.kde.windowtitle,Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
+panelWidgets=Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
 panelWidgetsWithTray=org.kde.windowtitle,Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
 widgetBgEnabled=false
 
@@ -567,9 +565,7 @@ widgetBgEnabled=false
 immutability=1
 plugin=org.kde.plasma.trash
 
-[Containments][38][Applets][74]
-immutability=1
-plugin=org.kde.windowtitle
+
 
 [Containments][38][Applets][74][Configuration][ConfigDialog]
 DialogHeight=540
@@ -892,7 +888,7 @@ marginRules=org.biglinux.appsmenu,0,0|luisbocanegra.panel.colorizer,0,0|org.kde.
 panelBgColorMode=1
 panelBgOpacity=0.65
 panelRealBgOpacity=0.5
-panelWidgets=org.kde.windowtitle,Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
+panelWidgets=Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
 panelWidgetsWithTray=org.kde.windowtitle,Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
 widgetBgEnabled=false
 
@@ -900,9 +896,7 @@ widgetBgEnabled=false
 immutability=1
 plugin=org.kde.plasma.trash
 
-[Containments][40][Applets][74]
-immutability=1
-plugin=org.kde.windowtitle
+
 
 [Containments][40][Applets][74][Configuration][ConfigDialog]
 DialogHeight=540
@@ -1225,7 +1219,7 @@ marginRules=org.biglinux.appsmenu,0,0|luisbocanegra.panel.colorizer,0,0|org.kde.
 panelBgColorMode=1
 panelBgOpacity=0.65
 panelRealBgOpacity=0.5
-panelWidgets=org.kde.windowtitle,Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
+panelWidgets=Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
 panelWidgetsWithTray=org.kde.windowtitle,Window Title,preferences-desktop|org.biglinux.appsmenu,big-favicon-new|luisbocanegra.panel.colorizer,Panel colorizer,desktop|org.kde.plasma.icontasks,preferences-system-windows|org.kde.plasma.panelspacer,|org.kde.plasma.trash,Lixeira,user-trash-symbolic
 widgetBgEnabled=false
 
@@ -1233,9 +1227,7 @@ widgetBgEnabled=false
 immutability=1
 plugin=org.kde.plasma.trash
 
-[Containments][42][Applets][74]
-immutability=1
-plugin=org.kde.windowtitle
+
 
 [Containments][42][Applets][74][Configuration][ConfigDialog]
 DialogHeight=540
