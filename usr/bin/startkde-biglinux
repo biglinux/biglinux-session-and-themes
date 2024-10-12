@@ -17,7 +17,7 @@ if vulkaninfo --summary 2> /dev/null | grep 'deviceName' | grep -vq 'llvmpipe'; 
     [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="vulkan"
 else
     export QSG_RENDER_LOOP="basic"
-    [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="gl"
+    [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="ngl"
 fi
 
 if [ "$1" = "wayland" ]; then
