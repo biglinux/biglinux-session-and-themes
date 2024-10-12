@@ -133,6 +133,9 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=248
 arrangement=1
 iconSize=2
+labelWidth=2
+textLines=3
+toolTips=true
 
 [Containments][41][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/abstract art2.avif
@@ -386,6 +389,9 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=248
 arrangement=1
 iconSize=2
+labelWidth=2
+textLines=3
+toolTips=true
 
 [Containments][42][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/abstract art2.avif
@@ -640,6 +646,9 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=248
 arrangement=1
 iconSize=2
+labelWidth=2
+textLines=3
+toolTips=true
 
 [Containments][43][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/abstract art2.avif
@@ -894,6 +903,9 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=248
 arrangement=1
 iconSize=2
+labelWidth=2
+textLines=3
+toolTips=true
 
 [Containments][44][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/abstract art2.avif

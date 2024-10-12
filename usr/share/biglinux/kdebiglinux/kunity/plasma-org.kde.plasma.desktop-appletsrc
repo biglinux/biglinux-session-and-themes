@@ -49,11 +49,12 @@ ToolBoxButtonX=233
 ToolBoxButtonY=32
 arrangement=1
 iconSize=2
-labelWidth=3
-positions={"1280x800":["1"\\,"8"\\,"desktop:/calamares-biglinux.desktop"\\,"0"\\,"0"]}
 sizeIcon=3
 sortMode=-1
 toolTips=true
+labelWidth=2
+textLines=3
+
 
 [Containments][27][Wallpaper][org.kde.image][General]
 FillMode=2
@@ -382,11 +383,11 @@ ToolBoxButtonX=233
 ToolBoxButtonY=32
 arrangement=1
 iconSize=2
-labelWidth=3
-positions={"1280x800":["1"\\,"8"\\,"desktop:/calamares-biglinux.desktop"\\,"0"\\,"0"]}
 sizeIcon=3
 sortMode=-1
 toolTips=true
+labelWidth=2
+textLines=3
 
 [Containments][28][Wallpaper][org.kde.image][General]
 FillMode=2
@@ -715,11 +716,11 @@ ToolBoxButtonX=233
 ToolBoxButtonY=32
 arrangement=1
 iconSize=2
-labelWidth=3
-positions={"1280x800":["1"\\,"8"\\,"desktop:/calamares-biglinux.desktop"\\,"0"\\,"0"]}
 sizeIcon=3
 sortMode=-1
 toolTips=true
+labelWidth=2
+textLines=3
 
 [Containments][29][Wallpaper][org.kde.image][General]
 FillMode=2
@@ -1048,11 +1049,11 @@ ToolBoxButtonX=233
 ToolBoxButtonY=32
 arrangement=1
 iconSize=2
-labelWidth=3
-positions={"1280x800":["1"\\,"8"\\,"desktop:/calamares-biglinux.desktop"\\,"0"\\,"0"]}
 sizeIcon=3
 sortMode=-1
 toolTips=true
+labelWidth=2
+textLines=3
 
 [Containments][30][Wallpaper][org.kde.image][General]
 FillMode=2

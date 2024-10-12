@@ -132,6 +132,9 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=233
 arrangement=1
 iconSize=2
+labelWidth=2
+textLines=3
+toolTips=true
 
 [Containments][36][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/animal cute6.avif
@@ -343,6 +346,9 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=233
 arrangement=1
 iconSize=2
+labelWidth=2
+textLines=3
+toolTips=true
 
 [Containments][37][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/animal cute6.avif
@@ -554,6 +560,9 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=233
 arrangement=1
 iconSize=2
+labelWidth=2
+textLines=3
+toolTips=true
 
 [Containments][38][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/animal cute6.avif
@@ -765,6 +774,9 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=233
 arrangement=1
 iconSize=2
+labelWidth=2
+textLines=3
+toolTips=true
 
 [Containments][39][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/animal cute6.avif

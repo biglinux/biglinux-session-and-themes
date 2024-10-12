@@ -150,6 +150,9 @@ ToolBoxButtonX=233
 ToolBoxButtonY=27
 arrangement=1
 iconSize=2
+labelWidth=2
+textLines=3
+toolTips=true
 
 [Containments][39][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/animal wolf2.avif
@@ -484,6 +487,9 @@ ToolBoxButtonX=233
 ToolBoxButtonY=27
 arrangement=1
 iconSize=2
+labelWidth=2
+textLines=3
+toolTips=true
 
 [Containments][43][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/animal wolf2.avif
@@ -821,6 +827,9 @@ ToolBoxButtonX=233
 ToolBoxButtonY=27
 arrangement=1
 iconSize=2
+labelWidth=2
+textLines=3
+toolTips=true
 
 [Containments][47][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/animal wolf2.avif
@@ -1158,6 +1167,9 @@ ToolBoxButtonX=233
 ToolBoxButtonY=27
 arrangement=1
 iconSize=2
+labelWidth=2
+textLines=3
+toolTips=true
 
 [Containments][51][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/animal wolf2.avif
