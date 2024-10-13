@@ -3,7 +3,8 @@
 # Directory containing the image files
 dir="/usr/share/wallpapers"
 
-if [ "$1" = "dark" ]; then
+# detect if use dark theme
+if [[ "$(dconf read /org/gnome/desktop/interface/color-scheme)" = "'prefer-dark'" ]]; then
     files=(
     "abstract colors1.avif"
     "art face1.avif"
