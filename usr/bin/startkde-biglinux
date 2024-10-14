@@ -3,9 +3,6 @@
 # Disable shader cache in QT to better speed https://invent.kde.org/plasma/kwin/-/merge_requests/5802
 # export QT_DISABLE_SHADER_DISK_CACHE=1
 
-# Fix to scaled apps, after QT 6.8 released, remove this line:
-[[ -z $QT_SCALE_FACTOR_ROUNDING_POLICY ]] && export QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor
-
 # Bolder font rendering
 #export FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
 
@@ -21,6 +18,9 @@ else
 fi
 
 if [ "$1" = "wayland" ]; then
+    # Fix to scaled apps, after QT 6.8 released, remove this line:
+    [[ -z $QT_SCALE_FACTOR_ROUNDING_POLICY ]] && export QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor
+
     [[ -z $ELECTRON_OZONE_PLATFORM_HINT ]] && export ELECTRON_OZONE_PLATFORM_HINT=auto
     [[ -z $SDL_VIDEODRIVER ]] && export SDL_VIDEODRIVER=wayland
     [[ -z $MOZ_ENABLE_WAYLAND ]] && export MOZ_ENABLE_WAYLAND=1
