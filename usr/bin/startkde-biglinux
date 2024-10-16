@@ -12,9 +12,10 @@ if vulkaninfo --summary 2> /dev/null | grep 'deviceName' | grep -vq 'llvmpipe'; 
     unset QSG_RENDER_LOOP
     # Temporarily forcing GTK Renderer GL since 2024/10/11
     [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="vulkan"
+    [[ -z $Vulkan_Supported ]]  && export Vulkan_Supported=1
 else
-    export QSG_RENDER_LOOP="basic"
-    [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="ngl"
+    [[ -z $QSG_RENDER_LOOP ]]   && export QSG_RENDER_LOOP="basic"
+    [[ -z $GSK_RENDERER ]]      && export GSK_RENDERER="ngl"
 fi
 
 if [ "$1" = "wayland" ]; then
