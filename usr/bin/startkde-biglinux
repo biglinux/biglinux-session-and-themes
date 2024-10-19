@@ -12,10 +12,16 @@ if vulkaninfo --summary 2> /dev/null | grep 'deviceName' | grep -vq 'llvmpipe'; 
     unset QSG_RENDER_LOOP
     # Temporarily forcing GTK Renderer GL since 2024/10/11
     [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="vulkan"
-    [[ -z $Vulkan_Supported ]]  && export Vulkan_Supported=1
+    [[ -z $Vulkan_Supported ]] && export Vulkan_Supported=1
 else
-    [[ -z $QSG_RENDER_LOOP ]]   && export QSG_RENDER_LOOP="basic"
-    [[ -z $GSK_RENDERER ]]      && export GSK_RENDERER="ngl"
+    [[ -z $QSG_RENDER_LOOP ]]  && export QSG_RENDER_LOOP="basic"
+    
+    # If using mesa amber force cairo renderer
+    if compgen -G /var/lib/pacman/local/mesa-amber-*; then
+        [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="cairo"
+    else
+        [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="ngl"
+    fi
 fi
 
 if [ "$1" = "wayland" ]; then
@@ -160,6 +166,6 @@ export XDG_SESSION_DESKTOP=KDE
 portal-kde-verify.sh &
 
 # In some laptops backlight not restore correctly, try fix this
-sudo biglinux-backlight-restore &
+sudo biglinux-backlight-restore 2> /dev/null &
 
 exec startplasma-$XDG_SESSION_TYPE
