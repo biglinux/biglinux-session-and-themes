@@ -115,15 +115,15 @@ lastlogin=$(cat "$HOME/.kdebiglinux/lastlogin")
 ID=$(grep -Eo '\[Containments\]\[[0-9]{1,5}\]\[Wallpaper\]\[org.kde.image\]' ~/.config/plasma-org.kde.plasma.desktop-appletsrc|head -n1|sed 's|\[||g;s|\]| |g'|cut -f2 -d' ')
 
 #Get path from last wallpaper
-WALLPAPER=$(kreadconfig6 --file ~/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $ID --group Wallpaper --group org.kde.image --group General --key Image|sed 's|file://||')
+WALLPAPER="$(kreadconfig6 --file ~/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $ID --group Wallpaper --group org.kde.image --group General --key Image|sed 's|file://||')"
 
 #Link from wallpaper to ksplash
 ln -sf "$WALLPAPER" /tmp/bigksplash.jpg
 chmod 777 /tmp/bigksplash.jpg
 
-if [[ "$XDG_SESSION_TYPE" != "wayland" ]]; then
-    feh --bg-fill "/tmp/bigksplash.jpg" &
-fi
+#if [[ "$XDG_SESSION_TYPE" != "wayland" ]]; then
+#    feh --bg-fill "/tmp/bigksplash.jpg" &
+#fi
 
 # Fix full screen when switch desktop for globalmenu on or off
 if [ "$nowlogin" != "$lastlogin" ]; then
@@ -163,7 +163,7 @@ fi
 
 export XDG_SESSION_DESKTOP=KDE
 
-portal-kde-verify.sh &
+#portal-kde-verify.sh &
 
 # In some laptops backlight not restore correctly, try fix this
 sudo biglinux-backlight-restore 2> /dev/null &
