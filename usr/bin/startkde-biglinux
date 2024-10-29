@@ -168,4 +168,7 @@ export XDG_SESSION_DESKTOP=KDE
 # In some laptops backlight not restore correctly, try fix this
 sudo biglinux-backlight-restore 2> /dev/null &
 
+# Force plasma to use opengl because software and vulkan mode is crashed in plasma 6
+kwriteconfig6 --file ~/.config/kdeglobals --group QtQuickRendererSettings --key SceneGraphBackend opengl
+
 exec startplasma-$XDG_SESSION_TYPE
