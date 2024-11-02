@@ -32,6 +32,10 @@ if [ "$1" = "wayland" ]; then
     [[ -z $SDL_VIDEODRIVER ]] && export SDL_VIDEODRIVER=wayland
     [[ -z $MOZ_ENABLE_WAYLAND ]] && export MOZ_ENABLE_WAYLAND=1
     [[ -z $KWIN_EFFECTS_FORCE_ANIMATIONS ]] && export KWIN_EFFECTS_FORCE_ANIMATIONS=1
+
+    # Less input lag for keyboard
+    [[ -z $IBUS_ENABLE_SYNC_MODE ]] && export IBUS_ENABLE_SYNC_MODE=1
+
     exec --no-startup-id /usr/lib/pam_kwallet_init
 
 else
@@ -41,21 +45,10 @@ else
     WIDTH=${RESOLUTION//x*}
     HEIGHT=${RESOLUTION//*x}
 
-    [[ -z $QT_AUTO_SCREEN_SCALE_FACTOR ]] && export QT_AUTO_SCREEN_SCALE_FACTOR=0
-    [[ -z $QT_ENABLE_HIGHDPI_SCALING ]] && export QT_ENABLE_HIGHDPI_SCALING=0
-    [[ -z $QT_SCALE_FACTOR ]] && export QT_SCALE_FACTOR=""
-    [[ -z $GDK_BACKEND ]] && export GDK_BACKEND=x11
     [[ -z $KWIN_EFFECTS_FORCE_ANIMATIONS ]] && export KWIN_EFFECTS_FORCE_ANIMATIONS=1
     [[ -z $MOZ_USE_XINPUT2 ]] && export MOZ_USE_XINPUT2=1
-    # Nvidia tweak
-    if [ "$(lsmod | grep nvidia_drm)" != "" ]; then
-        [[ -z $__GL_MaxFramesAllowed ]] && export __GL_MaxFramesAllowed=1
-    fi
 
 fi
-
-# Less input lag for keyboard
-[[ -z $IBUS_ENABLE_SYNC_MODE ]] && export IBUS_ENABLE_SYNC_MODE=1
 
 # Force language
 [[ -z $LANGUAGE ]] && export LANGUAGE=$LANG
@@ -78,7 +71,7 @@ fi
     [[ -z $RADV_PERFTEST ]] && export RADV_PERFTEST=sam,nggc,ext_ms
 
 # Vulkan ICD folder
-[[ -z $ICD_DIR ]] && export ICD_DIR=/usr/share/vulkan/icd.d
+# [[ -z $ICD_DIR ]] && export ICD_DIR=/usr/share/vulkan/icd.d
 
 #Keyboard LED
 if [ -e "$HOME/.config/ledkeyboard" ]; then
@@ -167,8 +160,5 @@ export XDG_SESSION_DESKTOP=KDE
 
 # In some laptops backlight not restore correctly, try fix this
 sudo biglinux-backlight-restore 2> /dev/null &
-
-# Force plasma to use opengl because software and vulkan mode is crashed in plasma 6
-kwriteconfig6 --file ~/.config/kdeglobals --group QtQuickRendererSettings --key SceneGraphBackend opengl
 
 exec startplasma-$XDG_SESSION_TYPE
