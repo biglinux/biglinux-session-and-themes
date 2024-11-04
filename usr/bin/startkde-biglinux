@@ -156,7 +156,7 @@ fi
 
 export XDG_SESSION_DESKTOP=KDE
 
-#portal-kde-verify.sh &
+portal-kde-verify.sh &
 
 # In some laptops backlight not restore correctly, try fix this
 sudo biglinux-backlight-restore 2> /dev/null &
