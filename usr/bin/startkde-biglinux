@@ -100,11 +100,6 @@ if [ ! -e "$HOME/.kdebiglinux/ksmserver_changed" ]; then
     kwriteconfig6 --file ~/.config/ksmserverrc --group 'General' --key 'loginMode' 'emptySession'
 fi
 
-# Force opengl if not specified to use vulkan or opengl (Software mode now is broken)
-if grep -qiE 'SceneGraphBackend=(vulkan|opengl)' ~/.config/kdeglobals; then
-    kwriteconfig6 --file ~/.config/kdeglobals --group QtQuickRendererSettings --key SceneGraphBackend opengl
-fi
-
 nowlogin="$(cat "$HOME/.kdebiglinux/lastused")"
 #ultimo login
 lastlogin=$(cat "$HOME/.kdebiglinux/lastlogin")
@@ -165,18 +160,5 @@ export XDG_SESSION_DESKTOP=KDE
 
 # In some laptops backlight not restore correctly, try fix this
 sudo biglinux-backlight-restore 2> /dev/null &
-
-# Verify if using nvidia proprietary driver in Xorg
-if [[ "$XDG_SESSION_TYPE" == "x11" ]] && lsmod | grep -q -m1 nvidia_drm && ! grep -q  -m1 'showToolTips=false' ~/.config/plasma-org.kde.plasma.desktop-appletsrc; then
-    # Detect and clean version of driver
-    nvidiaVersion=$(modinfo nvidia_drm -F version)
-    nvidiaVersion=${nvidiaVersion%%.*}
-    
-    # Only in versions before 560
-    if [[ $nvidiaVersion -lt 560 ]]; then
-        # Disable ToolTips in plasma taskbar because window preview crash plasma desktop
-        sed -i '/middleClickAction=None/a showToolTips=false' ~/.config/plasma-org.kde.plasma.desktop-appletsrc
-    fi
-fi
 
 exec startplasma-$XDG_SESSION_TYPE

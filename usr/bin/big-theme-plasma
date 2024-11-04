@@ -149,19 +149,6 @@ if [ "$2" = "vanilla" ]; then
     kwriteconfig6 --file ~/.config/kdeglobals --group Icons --key "Theme" "breeze"
 fi
 
-# Verify if using nvidia proprietary driver in Xorg
-if [[ "$XDG_SESSION_TYPE" == "x11" ]] && lsmod | grep -q -m1 nvidia_drm && ! grep -q  -m1 'showToolTips=false' ~/.config/plasma-org.kde.plasma.desktop-appletsrc; then
-    # Detect and clean version of driver
-    nvidiaVersion=$(modinfo nvidia_drm -F version)
-    nvidiaVersion=${nvidiaVersion%%.*}
-    
-    # Only in versions before 560
-    if [[ $nvidiaVersion -lt 560 ]]; then
-        # Disable ToolTips in plasma taskbar because window preview crash plasma desktop
-        sed -i '/middleClickAction=None/a showToolTips=false' ~/.config/plasma-org.kde.plasma.desktop-appletsrc
-    fi
-fi
-
 # Run specific desktop tweaks
 /usr/share/biglinux/multi-kde/$2
 

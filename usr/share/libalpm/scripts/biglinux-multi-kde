@@ -14,4 +14,7 @@ sed -i 's|TryExec=.*|TryExec=/usr/bin/startkde-biglinux|g' /usr/share/xsessions/
 #     sed -i '/Restart=on-failure/a RestartForceExitStatus=SIGTERM' /usr/lib/systemd/user/plasma-plasmashell.service 2> /dev/null
 # fi
 # # systemd more relaxed to stop apps like plasmashell
-sed -i 's|#DefaultRestartSec=100ms|DefaultRestartSec=1000ms|g;s|#DefaultStartLimitBurst=5|DefaultStartLimitBurst=10|g' /etc/systemd/user.conf  2> /dev/null
+sed -i 's|#DefaultRestartSec=100ms|DefaultRestartSec=1000ms|g;s|#DefaultStartLimitBurst=5|DefaultStartLimitBurst=10|g' /etc/systemd/user.conf 2> /dev/null
+
+# Remove /usr/bin for privilege goes to /usr/local/bin
+sed -i 's|ExecStart=/usr/bin/plasmashell|ExecStart=plasmashell|g' /usr/lib/systemd/user/plasma-plasmashell.service 2> /dev/null

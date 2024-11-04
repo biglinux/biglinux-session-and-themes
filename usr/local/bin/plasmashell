@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Verify if using nvidia proprietary driver in Xorg
+if [[ "$XDG_SESSION_TYPE" == "x11" ]] && lsmod | grep -q -m1 nvidia_drm; then
+    # Detect and clean version of driver
+    nvidiaVersion=$(modinfo nvidia_drm -F version)
+    nvidiaVersion=${nvidiaVersion%%.*}
+    
+    # Only in versions before 560
+    if [[ $nvidiaVersion -lt 560 ]]; then
+        if [[ $Vulkan_Supported == 1 ]]; then
+            # In Xorg and old driver with vulkan support, force to use vulkan
+            kwriteconfig6 --file ~/.config/kdeglobals --group QtQuickRendererSettings --key SceneGraphBackend vulkan
+        else
+            # In Xorg and old driver but without vulkan support, force opengl and disable transparency in XLIB
+            kwriteconfig6 --file ~/.config/kdeglobals --group QtQuickRendererSettings --key SceneGraphBackend opengl
+            export XLIB_SKIP_ARGB_VISUALS=1
+        fi
+    fi
+fi
+
+# In wayland force to use opengl
+if [[ "$XDG_SESSION_TYPE" == "wayland" ]] && ! grep -q 'SceneGraphBackend=opengl' ~/.config/kdeglobals; then
+    kwriteconfig6 --file ~/.config/kdeglobals --group QtQuickRendererSettings --key SceneGraphBackend opengl
+fi
+
+exec /usr/bin/plasmashell ${1+"$@"}
