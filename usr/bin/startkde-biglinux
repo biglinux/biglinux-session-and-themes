@@ -100,6 +100,17 @@ if [ ! -e "$HOME/.kdebiglinux/ksmserver_changed" ]; then
     kwriteconfig6 --file ~/.config/ksmserverrc --group 'General' --key 'loginMode' 'emptySession'
 fi
 
+OIFS=IFS
+IFS=$'\n'
+# Automatic rename wallpaper if needed
+for i in $(grep -o '/usr/share/wallpapers/.*.avif' ~/.config/plasma-org.kde.plasma.desktop-appletsrc); do
+    if [[ -e "${i/.avif/.heic}" ]]; then
+        sed -i "s|$i|${i/.avif/.heic}|" ~/.config/plasma-org.kde.plasma.desktop-appletsrc
+    fi
+done
+IFS=OIFS
+
+
 nowlogin="$(cat "$HOME/.kdebiglinux/lastused")"
 #ultimo login
 lastlogin=$(cat "$HOME/.kdebiglinux/lastlogin")
