@@ -122,9 +122,7 @@ widgetStyle=Breeze
 Theme=bigicons-papient
 
 [KDE]
-AnimationDurationFactor=
-ColorScheme=BreezeLight
-LookAndFeelPackage=org.kde.breeze.desktop
+AnimationDurationFactor=0.5
 ShowDeleteCommand=true
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true

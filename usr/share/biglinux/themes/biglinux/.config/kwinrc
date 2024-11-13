@@ -9,6 +9,9 @@ BlurStrength=3
 NoiseStrength=0
 
 [Plugins]
+loginEnabled=false
+contrastEnabled=true
+dimscreenEnabled=true
 shakecursorEnabled=false
 wobblywindowsEnabled=true
 
