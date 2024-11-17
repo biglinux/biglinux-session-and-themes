@@ -81,7 +81,7 @@ case "$1" in
                 #Configure GTK
                 qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
                 gtk-reload.py
-
+                systemctl --user restart plasma-xdg-desktop-portal-kde.service
         fi
         
         echo "$2" > "$HOME/.big_desktop_theme"
