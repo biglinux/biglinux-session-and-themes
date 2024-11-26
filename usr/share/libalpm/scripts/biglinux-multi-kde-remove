@@ -8,5 +8,3 @@ sed -i 's|Exec=.*|Exec=/usr/bin/startplasma-wayland|g' /usr/share/wayland-sessio
 sed -i 's|TryExec=.*|TryExec=/usr/bin/startplasma-wayland|g' /usr/share/wayland-sessions/plasmawayland.desktop 2> /dev/null
 sed -i 's|Exec=.*|Exec=/usr/bin/startplasma-x11|g' /usr/share/xsessions/plasma.desktop 2> /dev/null
 sed -i 's|TryExec=.*|TryExec=/usr/bin/startplasma-x11|g' /usr/share/xsessions/plasma.desktop 2> /dev/null
-
-sed -i 's|ExecStart=plasmashell|ExecStart=/usr/bin/plasmashell|g' /usr/lib/systemd/user/plasma-plasmashell.service 2> /dev/null

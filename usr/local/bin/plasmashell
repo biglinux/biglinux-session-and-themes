@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# In wayland force to use opengl
-if [[ "$XDG_SESSION_TYPE" == "wayland" ]] && grep -q 'SceneGraphBackend=vulkan' ~/.config/kdeglobals; then
-    kwriteconfig6 --file ~/.config/kdeglobals --group QtQuickRendererSettings --key SceneGraphBackend opengl
-fi
-
-exec /usr/bin/plasmashell ${1+"$@"}
