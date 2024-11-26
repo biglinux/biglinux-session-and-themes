@@ -9,7 +9,7 @@
 # Use Vulkaninfo to verify if only llvmpipe as vulkan render
 # Output true if using llvmpipe and false if using anotherr vulkan render
 if vulkaninfo --summary 2> /dev/null | grep 'deviceName' | grep -vq 'llvmpipe'; then
-    unset QSG_RENDER_LOOP
+    export QSG_RENDER_LOOP=""
     # Temporarily forcing GTK Renderer GL since 2024/10/11
     [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="vulkan"
     [[ -z $Vulkan_Supported ]] && export Vulkan_Supported=1
