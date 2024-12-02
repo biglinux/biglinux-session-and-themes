@@ -1020,9 +1020,9 @@ knownItems=org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnec
 shownItems=org.kde.plasma.brightness
 plugin=org.kde.plasma.icon
 
-
-
-
 [ScreenMapping]
 itemsOnDisabledScreens=
 screenMapping=desktop:/home.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/trash.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/bigcontrolcenter.desktop,0,86559bcf-6f06-4a99-8fcf-1043d1fb1792,desktop:/trash.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/home.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b,desktop:/bigcontrolcenter.desktop,0,75f7d8a1-682a-40a8-ba5d-13bdb1aa365a,desktop:/trash.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b,desktop:/bigcontrolcenter.desktop,0,82dd571b-19a5-41da-b9fa-e65d403c625b
+
+[General]
+immutability=2
