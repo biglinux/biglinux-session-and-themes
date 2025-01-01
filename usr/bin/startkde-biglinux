@@ -29,7 +29,6 @@ if [ "$1" = "wayland" ]; then
     [[ -z $QT_SCALE_FACTOR_ROUNDING_POLICY ]] && export QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor
 
     [[ -z $ELECTRON_OZONE_PLATFORM_HINT ]] && export ELECTRON_OZONE_PLATFORM_HINT=auto
-    [[ -z $SDL_VIDEODRIVER ]] && export SDL_VIDEODRIVER=wayland
     [[ -z $MOZ_ENABLE_WAYLAND ]] && export MOZ_ENABLE_WAYLAND=1
     [[ -z $KWIN_EFFECTS_FORCE_ANIMATIONS ]] && export KWIN_EFFECTS_FORCE_ANIMATIONS=1
 
