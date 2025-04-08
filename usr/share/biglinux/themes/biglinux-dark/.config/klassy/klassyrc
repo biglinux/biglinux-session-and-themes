@@ -44,9 +44,6 @@ ButtonSpacingLeft=5
 LockButtonSpacingLeftRight=true
 ScaleBackgroundPercent=150
 
-[Global]
-LookAndFeelSet=org.kde.breeze.desktop
-
 [ShadowStyle]
 ShadowSize=ShadowMedium
 ShadowStrength=102
@@ -67,6 +64,7 @@ ButtonShape=ShapeSmallCircle
 ColorizeThinWindowOutlineWithButton=false
 CornerRadius=3.6
 UseTitleBarColorForAllBorders=false
+WindowCornerRadius=6
 
 [WindowOutlineStyle]
 LockThinWindowOutlineStyleActiveInactive=true
