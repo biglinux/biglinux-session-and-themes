@@ -15,265 +15,10 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Desktop"
-msgstr "Radna površina"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Theme"
-msgstr "Tema"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Configuration"
-msgstr "Konfiguracija"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid ""
-"You've used this desktop before, do you want to restore your customization or use the original "
-"configuration?"
-msgstr ""
-"Koristili ste ovu radnu površinu prije, želite li vratiti svoje prilagodbe ili koristiti originalnu "
-"konfiguraciju?"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Original"
-msgstr "Izvorno"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Restore"
-msgstr "Obnovi"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Confirm Theme Change"
-msgstr "Potvrdi promjenu teme"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Do you want to apply the selected theme again?"
-msgstr "Želite li ponovno primijeniti odabrani temu?"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Yes"
-msgstr "Da"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "No"
-msgstr "Ne"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Confirm Desktop Change"
-msgstr "Potvrdi promjenu radne površine"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Do you want to reapply a clean configuration of that desktop?"
-msgstr "Želite li ponovno primijeniti čistu konfiguraciju tog radnog stola?"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Applying"
-msgstr "Primjena"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
-msgstr ""
-"Postavke su promijenjene. Da biste ih primijenili u cijelom sustavu, odjavite se i ponovno "
-"prijavite."
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "OK"
-msgstr "OK"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Post update adjustments"
-msgstr "Prilagodbe nakon ažuriranja"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid ""
-"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
-"settings."
-msgstr ""
-"Napravljena je velika nadogradnja, zbog čega su različite postavke radne površine nekompatibilne. "
-"Nastavite s primjenom novih postavki."
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid ""
-"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
-"proceed."
-msgstr "Ako imate napredno znanje sustava i radije biste ručno napravili prilagodbe, nemojte nastaviti."
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid ""
-"Continue\n"
-"            "
-msgstr "Nastavi"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Select a new theme configuration:"
-msgstr "Odaberite novu konfiguraciju teme:"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid ""
-"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
-"compatible configuration:"
-msgstr ""
-"Odaberite konfiguraciju radne površine. To će također ukloniti prilagodbe napravljene u Plasmi kako "
-"bi se primijenila nova kompatibilna konfiguracija:"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Completed."
-msgstr "Dovršeno."
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid ""
-"Reboot now!\n"
-"                    "
-msgstr "Ponovno pokreni sada!"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Configuration Complete"
-msgstr "Konfiguracija dovršena"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Your theme and desktop have been configured successfully."
-msgstr "Vaša tema i radna površina uspješno su konfigurirane."
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teme, Radna površina i Postavke"
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "Ako koristite preglednik, ponovno ga pokrenite kako biste primijenili promjene."
-msgid "Desempenho em modo otimizado!"
-msgstr "Performance u optimiziranom načinu rada!"
 msgid "Desempenho em modo performance!"
 msgstr "Performanse u načinu rada performansi!"
-msgid "Temas"
-msgstr "Teme"
-msgid "Ajustes"
-msgstr "Postavke"
-msgid "Desempenho do desktop"
-msgstr "Performanse radne površine"
-msgid "Desempenho"
-msgstr "Performance"
-msgid "Aceleração do navegador"
-msgstr "Browser acceleration"
-msgid "Tema dos aplicativos"
-msgstr "Theme of the applications"
-msgid "Abrir"
-msgstr "Otvori"
-msgid "Fechar"
-msgstr "Zatvoriti"
-msgid "Bordas arredondadas."
-msgstr "Zaobljeni rubovi."
-msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
-msgstr ""
-"Ovaj teme ima prozirnosti s efektima koji<br>mogu usporiti sustav na starijim računalima<br>ili "
-"virtualiziranim okruženjima."
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Klasični</b>, <b>Novi</b> i <b>Moderni</b> imaju bolje performanse."
-msgid "Renderizar o desktop via software"
-msgstr "Renderiranje radne površine putem softvera"
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr "Može biti korisno na starijim računalima, ali neki programi mogu prestati raditi."
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Odabir programa za učitavanje u memoriju tijekom pokretanja"
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr "Odaberite željenu opciju:"
-msgid "Ligar RGB do teclado"
-msgstr "Povežite RGB tipkovnicu"
-msgid "Automático"
-msgstr "Automatski"
-msgid "Ativar"
-msgstr "Activate"
-msgid "Desativar"
-msgstr "Isključiti"
-msgid "Configurações do Brave"
-msgstr "Postavke Brava"
-msgid "Escolha a opção desejada:"
-msgstr "Choose desired option:"
-msgid "Remover propagandas"
-msgstr "Ukloniti reklame"
-msgid "Suportar criptomoedas"
-msgstr "Podrška za kriptovalute"
-msgid "Usabilidade"
-msgstr "Korisničko sučelje"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Gumbi prozora na lijevoj strani"
-msgid "Rolagem do mouse invertida"
-msgstr "Inverzno pomicanje kotačića miša"
-msgid "Rolagem do touchpad invertida"
-msgstr "Invertirano klizanje dodirne površine"
-msgid "Pesquisar arquivos"
-msgstr "Pretraživanje datoteka"
-msgid "Bloquear a edição da área de trabalho "
-msgstr "Zaključaj uređivanje radne površine"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Sakrij Boot Manager (GRUB)"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Enable NumLock on system startup"
-msgid "Tema aplicado"
-msgstr "Applied Theme"
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "Potrebno je ponovno pokrenuti sesiju kako bi se dovršila konfiguracija."
-msgid "Configuração do Desktop"
-msgstr "Postavke radne površine"
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr ""
-"Jeste li već koristili ovaj radnu površinu prije, želite li vratiti svoje prilagodbe ili koristiti "
-"originalnu konfiguraciju?"
-msgid "Sim"
-msgstr "Sim"
-msgid "Não"
-msgstr "Ne postoji ništa za prevođenje."
-msgid "Restaurar"
-msgstr "Obnovi"
-msgid "Desktop aplicado"
-msgstr "Radna površina"
-msgid "Modo performance"
-msgstr "Mod način rada"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS bez fsync"
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Koristeći softversko renderiranje, kvaliteta prozirnosti je smanjena."
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Pazite, izgubit ćete pristup SnapShot-ovima, jeste li sigurni da želite sakriti grub?"
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "N/A"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Znate li pristupiti SnapShotovima bez pristupa Grafičkom načinu rada?"
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Jeste li potpuno sigurni u ovu aplikaciju?"
-msgid "Aplicando, aguarde..."
-msgstr "Primjenjivanje, pričekajte..."
-msgid "Concluído!"
-msgstr "Završeno!"
 msgid ""
 "\n"
 "A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
@@ -299,7 +44,17 @@ msgstr ""
 "primijenila."
 msgid "Desempenho em modo normal!"
 msgstr "Performanse u normalnom načinu rada!"
-msgid "Temas e Desktop"
-msgstr "Teme i radna površina"
-msgid "BigLinux Themes"
-msgstr "BigLinux Tema"
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Pazite, izgubit ćete pristup SnapShot-ovima, jeste li sigurni da želite sakriti grub?"
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "N/A"
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Znate li pristupiti SnapShotovima bez pristupa Grafičkom načinu rada?"
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Jeste li potpuno sigurni u ovu aplikaciju?"
+msgid "Aplicando, aguarde..."
+msgstr "Primjenjivanje, pričekajte..."
+msgid "Concluído!"
+msgstr "Završeno!"
+msgid "Desempenho em modo otimizado!"
+msgstr "Performance u optimiziranom načinu rada!"
