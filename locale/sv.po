@@ -15,7 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -25,7 +24,6 @@ msgstr ""
 # 
 msgid "Desktop"
 msgstr "Skrivbord"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -35,7 +33,6 @@ msgstr "Skrivbord"
 # 
 msgid "Theme"
 msgstr "Tema"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -45,7 +42,6 @@ msgstr "Tema"
 # 
 msgid "Configuration"
 msgstr "Konfiguration"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -59,7 +55,6 @@ msgid ""
 msgstr ""
 "Du har använt den här skrivbordet tidigare, vill du återställa din anpassning eller använda den "
 "ursprungliga konfigurationen?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -69,7 +64,6 @@ msgstr ""
 # 
 msgid "Original"
 msgstr "Ursprunglig"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -79,7 +73,6 @@ msgstr "Ursprunglig"
 # 
 msgid "Restore"
 msgstr "Återställ"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -89,7 +82,6 @@ msgstr "Återställ"
 # 
 msgid "Confirm Theme Change"
 msgstr "Bekräfta temabytet"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -99,7 +91,6 @@ msgstr "Bekräfta temabytet"
 # 
 msgid "Do you want to apply the selected theme again?"
 msgstr "Vill du tillämpa det valda temat igen?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -109,7 +100,6 @@ msgstr "Vill du tillämpa det valda temat igen?"
 # 
 msgid "Yes"
 msgstr "Ja"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -119,7 +109,6 @@ msgstr "Ja"
 # 
 msgid "No"
 msgstr "Nej"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -129,7 +118,6 @@ msgstr "Nej"
 # 
 msgid "Confirm Desktop Change"
 msgstr "Bekräfta skrivbordsändring"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -139,7 +127,6 @@ msgstr "Bekräfta skrivbordsändring"
 # 
 msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "Vill du återapplicera en ren konfiguration av den skrivbordet?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -149,7 +136,6 @@ msgstr "Vill du återapplicera en ren konfiguration av den skrivbordet?"
 # 
 msgid "Applying"
 msgstr "Tillämpar"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -159,7 +145,6 @@ msgstr "Tillämpar"
 # 
 msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr "Inställningarna har ändrats. För att tillämpa dem i hela systemet, logga ut och logga in igen."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -169,7 +154,6 @@ msgstr "Inställningarna har ändrats. För att tillämpa dem i hela systemet, l
 # 
 msgid "OK"
 msgstr "OK"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -179,7 +163,6 @@ msgstr "OK"
 # 
 msgid "Post update adjustments"
 msgstr "Inlägg uppdateringsjusteringar"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -193,7 +176,6 @@ msgid ""
 msgstr ""
 "En stor uppdatering har genomförts, vilket har gjort olika skrivbordsinställningar inkompatibla. "
 "Fortsätt att tillämpa nya inställningar."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -207,7 +189,6 @@ msgid ""
 msgstr ""
 "Om du har avancerade kunskaper om systemet och föredrar att göra justeringarna manuellt, fortsätt "
 "inte."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -219,7 +200,6 @@ msgid ""
 "Continue\n"
 "            "
 msgstr "Fortsätt"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -229,7 +209,6 @@ msgstr "Fortsätt"
 # 
 msgid "Select a new theme configuration:"
 msgstr "Välj en ny temakonfiguration:"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -243,7 +222,6 @@ msgid ""
 msgstr ""
 "Välj en skrivbordskonfiguration. Detta kommer också att ta bort anpassningar gjorda i Plasma för "
 "att tillämpa en ny kompatibel konfiguration:"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -253,7 +231,6 @@ msgstr ""
 # 
 msgid "Completed."
 msgstr "Slutförd."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -265,7 +242,6 @@ msgid ""
 "Reboot now!\n"
 "                    "
 msgstr "Starta om nu!"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -275,7 +251,6 @@ msgstr "Starta om nu!"
 # 
 msgid "Configuration Complete"
 msgstr "Konfigurationen klar"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -285,175 +260,122 @@ msgstr "Konfigurationen klar"
 # 
 msgid "Your theme and desktop have been configured successfully."
 msgstr "Ditt tema och skrivbord har konfigurerats framgångsrikt."
-
 msgid "Temas, Desktop e Ajustes"
 msgstr "Teman, Skrivbord och Inställningar"
-
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "Om du använder en webbläsare, starta om den för att tillämpa ändringarna."
-
 msgid "Desempenho em modo otimizado!"
 msgstr "Prestanda i optimerat läge!"
-
 msgid "Desempenho em modo performance!"
 msgstr "Prestanda i prestandaläge!"
-
 msgid "Temas"
 msgstr "Themes"
-
 msgid "Ajustes"
 msgstr "Inställningar"
-
 msgid "Desempenho do desktop"
 msgstr "Desktopprestanda"
-
 msgid "Desempenho"
 msgstr "Prestanda"
-
 msgid "Aceleração do navegador"
 msgstr "Browser acceleration"
-
 msgid "Tema dos aplicativos"
 msgstr "App-tema"
-
 msgid "Abrir"
 msgstr "Öppna"
-
 msgid "Fechar"
 msgstr "Close"
-
 msgid "Bordas arredondadas."
 msgstr "Rundade hörn."
-
 msgid ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
 "computadores<br>antigos ou ambientes virtualizados."
 msgstr ""
 "Detta tema har genomskinlighetseffekter som kan göra systemet långsamt på äldre datorer eller "
 "virtualiserade miljöer."
-
 msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
 msgstr "<b>Klassisk</b>, <b>Ny</b> och <b>Modern</b> har bättre prestanda."
-
 msgid "Renderizar o desktop via software"
 msgstr "Rendera skrivbordet via programvara"
-
 msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
 msgstr "(Kan vara användbart på äldre datorer, men vissa program slutar fungera)"
-
 msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Välj program att laddas i minnet under start."
-
 msgid ""
 "O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
 "causa lentidão. Escolha a opção desejada:"
 msgstr ""
 "Förhandsladdning laddar programfiler i minnet så att de startar snabbt. Överdriven användning kan "
 "orsaka långsamhet. Välj önskad alternativ:"
-
 msgid "Ligar RGB do teclado"
 msgstr "Connecta RGB-tangentbordet"
-
 msgid "Automático"
 msgstr "Automatisk"
-
 msgid "Ativar"
 msgstr "Activate"
-
 msgid "Desativar"
 msgstr "Inaktivera"
-
 msgid "Configurações do Brave"
 msgstr "Brave-inställningar"
-
 msgid "Escolha a opção desejada:"
 msgstr "Välj önskad alternativ:"
-
 msgid "Remover propagandas"
 msgstr "Ta bort annonser"
-
 msgid "Suportar criptomoedas"
 msgstr "Stödja kryptovalutor"
-
 msgid "Usabilidade"
 msgstr "Användbarhet"
-
 msgid "Botões da janela no lado esquerdo"
 msgstr "Window buttons on the left side"
-
 msgid "Rolagem do mouse invertida"
 msgstr "Inverter musklicksrullning"
-
 msgid "Rolagem do touchpad invertida"
 msgstr "Scrollning av pekplattan omvänd"
-
 msgid "Pesquisar arquivos"
 msgstr "Sök filer"
-
 msgid "Bloquear a edição da área de trabalho "
 msgstr "Blockera skrivbordsredigering"
-
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Hide Boot Manager (GRUB)"
-
 msgid "Ativar o NumLock ao ligar o sistema"
 msgstr "Enable NumLock on system startup"
-
 msgid "Tema aplicado"
 msgstr "Applied Theme"
-
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Det krävs att du startar om sessionen för att slutföra konfigurationen."
-
 msgid "Configuração do Desktop"
 msgstr "Skrivbordsinställningar"
-
 msgid ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
 "configuração original?"
 msgstr ""
 "Har du använt den här skrivbordsdatorn tidigare, vill du återställa din anpassning eller använda "
 "den ursprungliga konfigurationen?"
-
 msgid "Sim"
 msgstr "Sim"
-
 msgid "Não"
 msgstr "Jag förstår inte din förfrågan."
-
 msgid "Restaurar"
 msgstr "Återställ"
-
 msgid "Desktop aplicado"
 msgstr "Skrivbordsprogram"
-
 msgid "Modo performance"
 msgstr "Prestandaläge"
-
 msgid "BTRFS sem fsync"
 msgstr "BTRFS utan fsync"
-
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Med hjälp av programvarurendering är kvaliteten på transparensen reducerad."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Var försiktig, du kommer att förlora åtkomst till SnapShots, är du säker på att du vill dölja grub?"
-
 msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "Kan du återställa Grub vid fel?"
-
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
 msgstr "Kan du komma åt SnapShots utan grafiskt läge?"
-
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Är du helt säker på den här applikationen?"
-
 msgid "Aplicando, aguarde..."
 msgstr "Applicerar, vänta..."
-
 msgid "Concluído!"
 msgstr "Slutfört!"
-
 msgid ""
 "\n"
 "A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
@@ -465,7 +387,6 @@ msgstr ""
 "vill du återställa den använda konfigurationen?\n"
 "\n"
 "Välj nej för att använda systemets standardkonfiguration."
-
 msgid ""
 "Configuração aplicada!\n"
 "\n"
@@ -477,12 +398,9 @@ msgstr ""
 "\n"
 "Avsluta sessionen och logga in igen\n"
 "så att konfigurationen slutförs."
-
 msgid "Desempenho em modo normal!"
 msgstr "Prestanda i normalt läge!"
-
 msgid "Temas e Desktop"
 msgstr "Themes and Desktop"
-
 msgid "BigLinux Themes"
 msgstr "BigLinux Teman"

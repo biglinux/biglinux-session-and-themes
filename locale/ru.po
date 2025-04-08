@@ -15,7 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -25,7 +24,6 @@ msgstr ""
 # 
 msgid "Desktop"
 msgstr "Рабочий стол"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -35,7 +33,6 @@ msgstr "Рабочий стол"
 # 
 msgid "Theme"
 msgstr "Тема"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -45,7 +42,6 @@ msgstr "Тема"
 # 
 msgid "Configuration"
 msgstr "Конфигурация"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -59,7 +55,6 @@ msgid ""
 msgstr ""
 "Вы уже использовали этот рабочий стол ранее. Хотите восстановить свои настройки или использовать "
 "оригинальную конфигурацию?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -69,7 +64,6 @@ msgstr ""
 # 
 msgid "Original"
 msgstr "Оригинал"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -79,7 +73,6 @@ msgstr "Оригинал"
 # 
 msgid "Restore"
 msgstr "Восстановить"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -89,7 +82,6 @@ msgstr "Восстановить"
 # 
 msgid "Confirm Theme Change"
 msgstr "Подтвердить изменение темы"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -99,7 +91,6 @@ msgstr "Подтвердить изменение темы"
 # 
 msgid "Do you want to apply the selected theme again?"
 msgstr "Хотите применить выбранную тему снова?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -109,7 +100,6 @@ msgstr "Хотите применить выбранную тему снова?"
 # 
 msgid "Yes"
 msgstr "Да"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -119,7 +109,6 @@ msgstr "Да"
 # 
 msgid "No"
 msgstr "Нет"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -129,7 +118,6 @@ msgstr "Нет"
 # 
 msgid "Confirm Desktop Change"
 msgstr "Подтвердить изменение рабочего стола"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -139,7 +127,6 @@ msgstr "Подтвердить изменение рабочего стола"
 # 
 msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "Хотите повторно применить чистую конфигурацию этого рабочего стола?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -149,7 +136,6 @@ msgstr "Хотите повторно применить чистую конфи
 # 
 msgid "Applying"
 msgstr "Применение"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -161,7 +147,6 @@ msgid "The settings have been changed. To apply them throughout the system, log 
 msgstr ""
 "Настройки были изменены. Чтобы применить их во всей системе, выйдите из учетной записи и войдите "
 "снова."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -171,7 +156,6 @@ msgstr ""
 # 
 msgid "OK"
 msgstr "OK"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -181,7 +165,6 @@ msgstr "OK"
 # 
 msgid "Post update adjustments"
 msgstr "Настройки после обновления"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -195,7 +178,6 @@ msgid ""
 msgstr ""
 "Было применено крупное обновление, из-за чего некоторые настройки рабочего стола стали "
 "несовместимы. Продолжить и применить новые настройки."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -209,7 +191,6 @@ msgid ""
 msgstr ""
 "Если у вас есть продвинутые знания системы и вы предпочитаете вносить настройки вручную, не "
 "продолжайте."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -221,7 +202,6 @@ msgid ""
 "Continue\n"
 "            "
 msgstr "Продолжить"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -231,7 +211,6 @@ msgstr "Продолжить"
 # 
 msgid "Select a new theme configuration:"
 msgstr "Выберите новую конфигурацию темы:"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -245,7 +224,6 @@ msgid ""
 msgstr ""
 "Выберите конфигурацию рабочего стола. Это также удалит настройки, сделанные в Plasma, чтобы "
 "применить новую совместимую конфигурацию:"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -255,7 +233,6 @@ msgstr ""
 # 
 msgid "Completed."
 msgstr "Завершено."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -267,7 +244,6 @@ msgid ""
 "Reboot now!\n"
 "                    "
 msgstr "Перезагрузить сейчас!"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -277,7 +253,6 @@ msgstr "Перезагрузить сейчас!"
 # 
 msgid "Configuration Complete"
 msgstr "Конфигурация завершена"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -287,175 +262,122 @@ msgstr "Конфигурация завершена"
 # 
 msgid "Your theme and desktop have been configured successfully."
 msgstr "Ваша тема и рабочий стол были успешно настроены."
-
 msgid "Temas, Desktop e Ajustes"
 msgstr "Темы, Рабочий стол и Настройки"
-
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "Если вы используете браузер, перезапустите его, чтобы применить изменения."
-
 msgid "Desempenho em modo otimizado!"
 msgstr "Производительность в оптимизированном режиме!"
-
 msgid "Desempenho em modo performance!"
 msgstr "Производительность в режиме производительности!"
-
 msgid "Temas"
 msgstr "Темы"
-
 msgid "Ajustes"
 msgstr "Настройки"
-
 msgid "Desempenho do desktop"
 msgstr "Desempenho рабочего стола"
-
 msgid "Desempenho"
 msgstr "Performance"
-
 msgid "Aceleração do navegador"
 msgstr "Ускорение браузера"
-
 msgid "Tema dos aplicativos"
 msgstr "Тема приложений"
-
 msgid "Abrir"
 msgstr "Открыть"
-
 msgid "Fechar"
 msgstr "Close"
-
 msgid "Bordas arredondadas."
 msgstr "Round corners."
-
 msgid ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
 "computadores<br>antigos ou ambientes virtualizados."
 msgstr ""
 "Этот шаблон содержит прозрачности с эффектами, которые могут замедлить систему на старых "
 "компьютерах или в виртуальных средах."
-
 msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
 msgstr "<b>Классический</b>, <b>Новый</b> и <b>Современный</b> обеспечивают лучшую производительность."
-
 msgid "Renderizar o desktop via software"
 msgstr "Отображение рабочего стола через программное обеспечение"
-
 msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
 msgstr "(Pодходит для старых компьютеров, но некоторые программы могут перестать работать)"
-
 msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Выберите программы для загрузки в память во время загрузки"
-
 msgid ""
 "O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
 "causa lentidão. Escolha a opção desejada:"
 msgstr ""
 "Предварительная загрузка загружает файлы программ в память, чтобы они запускались быстро. "
 "Избыточное использование вызывает замедление. Выберите желаемый вариант:"
-
 msgid "Ligar RGB do teclado"
 msgstr "Подключить RGB на клавиатуре"
-
 msgid "Automático"
 msgstr "Автоматический"
-
 msgid "Ativar"
 msgstr "Enable"
-
 msgid "Desativar"
 msgstr "Отключить"
-
 msgid "Configurações do Brave"
 msgstr "Настройки Brave"
-
 msgid "Escolha a opção desejada:"
 msgstr "Выберите желаемый вариант:"
-
 msgid "Remover propagandas"
 msgstr "Удалить рекламу"
-
 msgid "Suportar criptomoedas"
 msgstr "Поддержка криптовалют"
-
 msgid "Usabilidade"
 msgstr "Usability"
-
 msgid "Botões da janela no lado esquerdo"
 msgstr "Кнопки окна слева"
-
 msgid "Rolagem do mouse invertida"
 msgstr "Инвертировать прокрутку колеса мыши"
-
 msgid "Rolagem do touchpad invertida"
 msgstr "Инвертированная прокрутка тачпада"
-
 msgid "Pesquisar arquivos"
 msgstr "Искать файлы"
-
 msgid "Bloquear a edição da área de trabalho "
 msgstr "Заблокировать редактирование рабочего стола"
-
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Скрыть загрузчик GRUB (Gerenciador de Boot)"
-
 msgid "Ativar o NumLock ao ligar o sistema"
 msgstr "Enable NumLock on system startup"
-
 msgid "Tema aplicado"
 msgstr "Applied Theme"
-
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "Необходимо перезапустить сеанс, чтобы завершить настройку."
-
 msgid "Configuração do Desktop"
 msgstr "Настройки рабочего стола"
-
 msgid ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
 "configuração original?"
 msgstr ""
 "Вы ранее использовали этот рабочий стол, хотите восстановить свою персонализацию или использовать "
 "оригинальную конфигурацию?"
-
 msgid "Sim"
 msgstr "Sim"
-
 msgid "Não"
 msgstr "Необходимо предоставить строку для перевода."
-
 msgid "Restaurar"
 msgstr "Восстановить"
-
 msgid "Desktop aplicado"
 msgstr "Рабочий стол"
-
 msgid "Modo performance"
 msgstr "Мощность режима"
-
 msgid "BTRFS sem fsync"
 msgstr "BTRFS sem fsync"
-
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Используя программную отрисовку, качество прозрачности снижено."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "Careful you will lose access to SnapShots, are you sure you want to hide the grub?"
-
 msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "Вы сможете восстановить Grub в случае сбоя?"
-
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
 msgstr "Вы сможете получить доступ к SnapShots без графического режима?"
-
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "Are you completely sure about this application?"
-
 msgid "Aplicando, aguarde..."
 msgstr "Применение, пожалуйста, подождите..."
-
 msgid "Concluído!"
 msgstr "Готово!"
-
 msgid ""
 "\n"
 "A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
@@ -467,7 +389,6 @@ msgstr ""
 "ранее использованную конфигурацию?\n"
 "\n"
 "Выберите \"нет\", чтобы использовать стандартную конфигурацию системы."
-
 msgid ""
 "Configuração aplicada!\n"
 "\n"
@@ -479,12 +400,9 @@ msgstr ""
 "\n"
 "Завершите сеанс и войдите в систему снова,\n"
 "чтобы завершить применение настроек."
-
 msgid "Desempenho em modo normal!"
 msgstr "Производительность в обычном режиме!"
-
 msgid "Temas e Desktop"
 msgstr "Темы и Рабочий стол"
-
 msgid "BigLinux Themes"
 msgstr "Темы BigLinux"

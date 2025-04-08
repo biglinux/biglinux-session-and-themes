@@ -15,25 +15,21 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Desktop"
 msgstr "שולחן עבודה"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Theme"
 msgstr "ערכת עיצוב"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Configuration"
 msgstr "הגדרות"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -41,79 +37,66 @@ msgid ""
 "You've used this desktop before, do you want to restore your customization or use the original "
 "configuration?"
 msgstr "השתמשת בשולחן העבודה הזה בעבר, האם ברצונך לשחזר את ההתאמה שלך או להשתמש בהגדרה המקורית?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Original"
 msgstr "מקור"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Restore"
 msgstr "שחזור"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Confirm Theme Change"
 msgstr "אשר שינוי ערכת נושא"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Do you want to apply the selected theme again?"
 msgstr "האם ברצונך להחיל שוב את הערכת הנושא שנבחרה?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Yes"
 msgstr "כן"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "No"
 msgstr "לא"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Confirm Desktop Change"
 msgstr "אישור שינוי שולחן העבודה"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "האם ברצונך להחידש את התצורה הנקייה של שולחן העבודה הזה?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Applying"
 msgstr "החלקה"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr "ההגדרות שונו. כדי להחיל אותן בכל המערכת, התנתק והתחבר שוב."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "OK"
 msgstr "אישור"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Post update adjustments"
 msgstr "התאם עדכון אחרון"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -121,7 +104,6 @@ msgid ""
 "A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
 "settings."
 msgstr "התקן עיקרי הוחל, וכעת הגדרות שולחן העבודה שונות אינן תואמות. האם להמשיך ולהחיל הגדרות חדשות."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -129,7 +111,6 @@ msgid ""
 "If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
 "proceed."
 msgstr "אם יש לך ידע מתקדם במערכת ואתה מעדיף לבצע את ההתאמות באופן ידני, אל תמשיך."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -137,13 +118,11 @@ msgid ""
 "Continue\n"
 "            "
 msgstr "המשך"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Select a new theme configuration:"
 msgstr "בחר הגדרת ערכת עיצוב חדשה:"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -151,13 +130,11 @@ msgid ""
 "Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
 "compatible configuration:"
 msgstr "בחר תצורת שולחן עבודה. זה יסיר גם את ההתאמות המותאמות ב-Plasma כדי להחיל תצורה חדשה ותואמת:"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Completed."
 msgstr "הושלם."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -165,183 +142,128 @@ msgid ""
 "Reboot now!\n"
 "                    "
 msgstr "אנא הפעל מחדש כעת!"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Configuration Complete"
 msgstr "הגדרות הושלמו"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Your theme and desktop have been configured successfully."
 msgstr "הערכת העיצוב ושולחן העבודה הוגדרו בהצלחה."
-
 msgid "Temas, Desktop e Ajustes"
 msgstr "ערכות נושא, שולחן עבודה והגדרות"
-
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "אנא אתחל את הדפדפן אם אתה משתמש בו, כדי להחיל את השינויים."
-
 msgid "Desempenho em modo otimizado!"
 msgstr "ביצועים במצב מיטוב!"
-
 msgid "Desempenho em modo performance!"
 msgstr "ביצועים במצב ביצועים!"
-
 msgid "Temas"
 msgstr "נושאים"
-
 msgid "Ajustes"
 msgstr "הגדרות"
-
 msgid "Desempenho do desktop"
 msgstr "ביצועי המחשב"
-
 msgid "Desempenho"
 msgstr "ביצועים"
-
 msgid "Aceleração do navegador"
 msgstr "תיבון הדפדפן"
-
 msgid "Tema dos aplicativos"
 msgstr "נושאי היישומים"
-
 msgid "Abrir"
 msgstr "פתח"
-
 msgid "Fechar"
 msgstr "סגור"
-
 msgid "Bordas arredondadas."
 msgstr "קצוות מעוגלים."
-
 msgid ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
 "computadores<br>antigos ou ambientes virtualizados."
 msgstr "מערכת"
-
 msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
 msgstr "<b>קלאסי</b>, <b>חדש</b> ו-<b>מודרני</b> מציגים ביצועים טובים יותר."
-
 msgid "Renderizar o desktop via software"
 msgstr "לעיבוד תמונת השולחן באמצעות תוכנה"
-
 msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
 msgstr "זה עשוי להיות שימושי במחשבים ישנים, אך יישומים מסוימים עשויים להפסיק לעבוד"
-
 msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "בחירת תוכניות להיטען לזכרון במהלך האתחול"
-
 msgid ""
 "O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
 "causa lentidão. Escolha a opção desejada:"
 msgstr ""
 "הָטַע אֶת הַקּוֹבְּצִים שֶׁל הַתוֹכְנוֹת לְזִכְרוֹן, כְּדֵי שֶׁיִּתְחַלְפוּ בְּמַהֵרָה. שִׁימוּש "
 "יֶתֶר גּוֹרֵם לַאֲטָיוּת. בַּחֲרוּ בָּאֹפְצְיָה הַרְצוּיָה:"
-
 msgid "Ligar RGB do teclado"
 msgstr "הפעלת RGB במקלדת"
-
 msgid "Automático"
 msgstr "אוטומטי"
-
 msgid "Ativar"
 msgstr "הפעל"
-
 msgid "Desativar"
 msgstr "השבת"
-
 msgid "Configurações do Brave"
 msgstr "הגדרות Brave"
-
 msgid "Escolha a opção desejada:"
 msgstr "בחר את האפשרות הרצויה:"
-
 msgid "Remover propagandas"
 msgstr "הסרת פרסומות"
-
 msgid "Suportar criptomoedas"
 msgstr "תמיכה במטבעות דיגיטליים"
-
 msgid "Usabilidade"
 msgstr "נגישות"
-
 msgid "Botões da janela no lado esquerdo"
 msgstr "כפתורי החלון בצד השמאל"
-
 msgid "Rolagem do mouse invertida"
 msgstr "הפיכת גלגול העכבר"
-
 msgid "Rolagem do touchpad invertida"
 msgstr "הפיכת גלילת המגע"
-
 msgid "Pesquisar arquivos"
 msgstr "חיפוש קבצים"
-
 msgid "Bloquear a edição da área de trabalho "
 msgstr "חסום עריכת שולחן העבודה"
-
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "הסתר מנהל האתחול (GRUB)"
-
 msgid "Ativar o NumLock ao ligar o sistema"
 msgstr "הפעל את NumLock בעת הפעלת המערכת"
-
 msgid "Tema aplicado"
 msgstr "נושא יישום"
-
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "יש לאתחל את ההפעלה כדי להשלים את ההגדרות."
-
 msgid "Configuração do Desktop"
 msgstr "הגדרות שולחן העבודה"
-
 msgid ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
 "configuração original?"
 msgstr "האם השתמשת בשולחן העבודה הזה בעבר, האם ברצונך לשחזר את ההתאמה האישית שלך או להשתמש בהגדרה המקורית?"
-
 msgid "Sim"
 msgstr "Sim"
-
 msgid "Não"
 msgstr "אל תגיב"
-
 msgid "Restaurar"
 msgstr "שחזור"
-
 msgid "Desktop aplicado"
 msgstr "אפליקציית שולחן העבודה"
-
 msgid "Modo performance"
 msgstr "ביצועים"
-
 msgid "BTRFS sem fsync"
 msgstr "BTRFS תמיכה ב־fsync"
-
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "באמצעות עיבוד תמונה בתוכנה, איכות השקיפויות נמוכה."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "האם אתה בטוח שברצונך להסתיר את ה-Grub?"
-
 msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "אתה יודע לשחזר את Grub במקרה של כשל?"
-
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
 msgstr "האם תוכל לגשת ל SnapShots בלי גישה לממשק גרפי?"
-
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "האם אתה בטוח לגבי אפליקציה זו?"
-
 msgid "Aplicando, aguarde..."
 msgstr "מבצע, אנא המתן..."
-
 msgid "Concluído!"
 msgstr "הושלם!"
-
 msgid ""
 "\n"
 "A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
@@ -352,7 +274,6 @@ msgstr ""
 "התצורה שנבחרה כבר הופעלה במערכת זו, האם ברצונך לשחזר את התצורה שכבר הופעלה?\n"
 "\n"
 "בחר \"לא\" כדי להשתמש בתצורה המוגדרת כברירת מחדל של המערכת."
-
 msgid ""
 "Configuração aplicada!\n"
 "\n"
@@ -364,12 +285,9 @@ msgstr ""
 "\n"
 "סיים את ההפעלה והתחבר מחדש\n"
 "כדי שההגדרה תושלם."
-
 msgid "Desempenho em modo normal!"
 msgstr "ביצועים במצב רגיל!"
-
 msgid "Temas e Desktop"
 msgstr "נושאים ושולחן עבודה"
-
 msgid "BigLinux Themes"
 msgstr "ערכות עיצוב BigLinux"

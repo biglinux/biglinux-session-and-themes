@@ -15,25 +15,21 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Desktop"
 msgstr "Escritorio"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Theme"
 msgstr "Tema"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Configuration"
 msgstr "Configuración"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -43,61 +39,51 @@ msgid ""
 msgstr ""
 "¿Has utilizado este escritorio antes, quieres restaurar tu personalización o usar la configuración "
 "original?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Original"
 msgstr "Original"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Restore"
 msgstr "Restaurar"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Confirm Theme Change"
 msgstr "Confirmar Cambio de Tema"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Do you want to apply the selected theme again?"
 msgstr "¿Desea aplicar el tema seleccionado de nuevo?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Yes"
 msgstr "Sí"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "No"
 msgstr "No"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Confirm Desktop Change"
 msgstr "Confirmar Cambio de Escritorio"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "¿Desea volver a aplicar una configuración limpia de ese escritorio?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Applying"
 msgstr "Aplicando"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -105,19 +91,16 @@ msgid "The settings have been changed. To apply them throughout the system, log 
 msgstr ""
 "La configuración ha sido cambiada. Para aplicarla en todo el sistema, cierra sesión e inicia de "
 "nuevo."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "OK"
 msgstr "OK"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Post update adjustments"
 msgstr "Ajustes posteriores a la actualización"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -127,7 +110,6 @@ msgid ""
 msgstr ""
 "Se ha aplicado una actualización importante, lo que hace que varias configuraciones de escritorio "
 "sean incompatibles. Procede a aplicar las nuevas configuraciones."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -137,7 +119,6 @@ msgid ""
 msgstr ""
 "Si tiene conocimientos avanzados del sistema y prefiere realizar los ajustes manualmente, no "
 "proceda."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -145,13 +126,11 @@ msgid ""
 "Continue\n"
 "            "
 msgstr "Continuar"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Select a new theme configuration:"
 msgstr "Seleccionar una nueva configuración de tema:"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -161,13 +140,11 @@ msgid ""
 msgstr ""
 "Elija una configuración de escritorio. Esto también eliminará las personalizaciones realizadas en "
 "Plasma para aplicar una nueva configuración compatible:"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Completed."
 msgstr "Completado."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -175,187 +152,132 @@ msgid ""
 "Reboot now!\n"
 "                    "
 msgstr "Reiniciar ahora."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Configuration Complete"
 msgstr "Configuración Completa"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
 msgid "Your theme and desktop have been configured successfully."
 msgstr "Su tema y escritorio se han configurado correctamente."
-
 msgid "Temas, Desktop e Ajustes"
 msgstr "Themes, Desktop, and Settings"
-
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "If you are using a browser, restart it to apply the changes."
-
 msgid "Desempenho em modo otimizado!"
 msgstr "Rendimiento en modo optimizado!"
-
 msgid "Desempenho em modo performance!"
 msgstr "Rendimiento en modo alto!"
-
 msgid "Temas"
 msgstr "Themes"
-
 msgid "Ajustes"
 msgstr "Configuración"
-
 msgid "Desempenho do desktop"
 msgstr "Rendimiento del escritorio"
-
 msgid "Desempenho"
 msgstr "Rendimiento"
-
 msgid "Aceleração do navegador"
 msgstr "Aceleración del navegador"
-
 msgid "Tema dos aplicativos"
 msgstr "Theme of the applications"
-
 msgid "Abrir"
 msgstr "Open"
-
 msgid "Fechar"
 msgstr "Close"
-
 msgid "Bordas arredondadas."
 msgstr "Rounded corners."
-
 msgid ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
 "computadores<br>antigos ou ambientes virtualizados."
 msgstr ""
 "Este tema tiene transparencias con efectos que<br>pueden ralentizar el sistema en "
 "computadoras<br>antiguas o entornos virtualizados."
-
 msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
 msgstr "<b>Clásico</b>, <b>Nuevo</b> y <b>Moderno</b> tienen un mejor rendimiento."
-
 msgid "Renderizar o desktop via software"
 msgstr "Renderizar el escritorio a través del software"
-
 msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
 msgstr "(Puede ser útil en computadoras antiguas, pero algunos programas dejan de funcionar)"
-
 msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Seleccionar programas para cargar en la memoria durante el arranque"
-
 msgid ""
 "O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
 "causa lentidão. Escolha a opção desejada:"
 msgstr ""
 "El Preload carga archivos de programas en la memoria para que inicien rápidamente. Un uso excesivo "
 "puede causar lentitud. Elija la opción deseada:"
-
 msgid "Ligar RGB do teclado"
 msgstr "Conectar el teclado RGB"
-
 msgid "Automático"
 msgstr "Automático"
-
 msgid "Ativar"
 msgstr "Activar"
-
 msgid "Desativar"
 msgstr "Desactivar"
-
 msgid "Configurações do Brave"
 msgstr "Configuraciones de Brave"
-
 msgid "Escolha a opção desejada:"
 msgstr "Seleccione la opción deseada:"
-
 msgid "Remover propagandas"
 msgstr "Eliminar anuncios"
-
 msgid "Suportar criptomoedas"
 msgstr "Soportar criptomonedas"
-
 msgid "Usabilidade"
 msgstr "Usability"
-
 msgid "Botões da janela no lado esquerdo"
 msgstr "Botones de la ventana en el lado izquierdo"
-
 msgid "Rolagem do mouse invertida"
 msgstr "Invertir desplazamiento del mouse"
-
 msgid "Rolagem do touchpad invertida"
 msgstr "Invertir desplazamiento del touchpad"
-
 msgid "Pesquisar arquivos"
 msgstr "Buscar archivos"
-
 msgid "Bloquear a edição da área de trabalho "
 msgstr "Bloquear la edición del escritorio"
-
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Ocultar Administrador de Arranque (GRUB)"
-
 msgid "Ativar o NumLock ao ligar o sistema"
 msgstr "Activar NumLock al encender el sistema"
-
 msgid "Tema aplicado"
 msgstr "Applied Theme"
-
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "It is necessary to restart the session to complete the configuration."
-
 msgid "Configuração do Desktop"
 msgstr "Configuración del escritorio"
-
 msgid ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
 "configuração original?"
 msgstr ""
 "¿Ha utilizado este escritorio antes, desea restaurar su personalización o utilizar la configuración "
 "original?"
-
 msgid "Sim"
 msgstr "Sim"
-
 msgid "Não"
 msgstr "No"
-
 msgid "Restaurar"
 msgstr "Restaurar"
-
 msgid "Desktop aplicado"
 msgstr "Desktop aplicado"
-
 msgid "Modo performance"
 msgstr "Modo rendimiento"
-
 msgid "BTRFS sem fsync"
 msgstr "BTRFS sin fsync"
-
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Usando renderización por software, la calidad de las transparencias se ve reducida."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "¿Estás seguro de que deseas ocultar el grub? ¡Ten cuidado, perderás acceso a los SnapShots!"
-
 msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "¿Puede restaurar el Grub en caso de fallo?"
-
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
 msgstr "¿Puede acceder a los SnapShots sin acceso al modo gráfico?"
-
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "¿Estás completamente seguro de esta aplicación?"
-
 msgid "Aplicando, aguarde..."
 msgstr "Applying, please wait..."
-
 msgid "Concluído!"
 msgstr "¡Completado!"
-
 msgid ""
 "\n"
 "A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
@@ -367,7 +289,6 @@ msgstr ""
 "¿desea restaurar la configuración previamente utilizada?\n"
 "\n"
 "Seleccione no para utilizar la configuración predeterminada del sistema."
-
 msgid ""
 "Configuração aplicada!\n"
 "\n"
@@ -379,12 +300,9 @@ msgstr ""
 "\n"
 "Finalice la sesión e inicie sesión nuevamente\n"
 "para que la configuración se aplique por completo."
-
 msgid "Desempenho em modo normal!"
 msgstr "Rendimiento en modo normal!"
-
 msgid "Temas e Desktop"
 msgstr "Temas y Escritorio"
-
 msgid "BigLinux Themes"
 msgstr "Temas de BigLinux"

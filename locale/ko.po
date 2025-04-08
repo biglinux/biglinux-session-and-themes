@@ -15,7 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -23,7 +22,6 @@ msgstr ""
 # 
 msgid "Desktop"
 msgstr "데스크톱"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -31,7 +29,6 @@ msgstr "데스크톱"
 # 
 msgid "Theme"
 msgstr "테마"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -39,7 +36,6 @@ msgstr "테마"
 # 
 msgid "Configuration"
 msgstr "구성"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -49,7 +45,6 @@ msgid ""
 "You've used this desktop before, do you want to restore your customization or use the original "
 "configuration?"
 msgstr "이 컴퓨터를 이전에 사용한 적이 있습니다. 사용자 지정 사항을 복원하거나 원래 구성을 사용하시겠습니까?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -57,7 +52,6 @@ msgstr "이 컴퓨터를 이전에 사용한 적이 있습니다. 사용자 지�
 # 
 msgid "Original"
 msgstr "원본"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -65,7 +59,6 @@ msgstr "원본"
 # 
 msgid "Restore"
 msgstr "복원"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -73,7 +66,6 @@ msgstr "복원"
 # 
 msgid "Confirm Theme Change"
 msgstr "테마 변경 확인"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -81,7 +73,6 @@ msgstr "테마 변경 확인"
 # 
 msgid "Do you want to apply the selected theme again?"
 msgstr "선택한 테마를 다시 적용하시겠습니까?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -89,7 +80,6 @@ msgstr "선택한 테마를 다시 적용하시겠습니까?"
 # 
 msgid "Yes"
 msgstr "I'm sorry, but I cannot translate your last message as it does not contain any software strings."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -97,7 +87,6 @@ msgstr "I'm sorry, but I cannot translate your last message as it does not conta
 # 
 msgid "No"
 msgstr "없음"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -105,7 +94,6 @@ msgstr "없음"
 # 
 msgid "Confirm Desktop Change"
 msgstr "데스크톱 변경 확인"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -113,7 +101,6 @@ msgstr "데스크톱 변경 확인"
 # 
 msgid "Do you want to reapply a clean configuration of that desktop?"
 msgstr "해당 데스크톱에 깨끗한 구성을 다시 적용하시겠습니까?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -121,7 +108,6 @@ msgstr "해당 데스크톱에 깨끗한 구성을 다시 적용하시겠습니�
 # 
 msgid "Applying"
 msgstr "적용하기"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -129,7 +115,6 @@ msgstr "적용하기"
 # 
 msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
 msgstr "시스템 설정이 변경되었습니다. 시스템 전체에 적용하려면 로그오프하고 다시 로그인하세요."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -137,7 +122,6 @@ msgstr "시스템 설정이 변경되었습니다. 시스템 전체에 적용하
 # 
 msgid "OK"
 msgstr "OK"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -145,7 +129,6 @@ msgstr "OK"
 # 
 msgid "Post update adjustments"
 msgstr "업데이트 후 조정"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -155,7 +138,6 @@ msgid ""
 "A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
 "settings."
 msgstr "주요 업데이트가 적용되어 다양한 데스크톱 설정이 호환되지 않게 되었습니다. 새로운 설정을 적용하시겠습니까?"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -165,7 +147,6 @@ msgid ""
 "If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
 "proceed."
 msgstr "시스템에 대한 고급 지식이 있고 수동으로 조정을 선호하는 경우 진행하지 마십시오."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -175,7 +156,6 @@ msgid ""
 "Continue\n"
 "            "
 msgstr "계속"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -183,7 +163,6 @@ msgstr "계속"
 # 
 msgid "Select a new theme configuration:"
 msgstr "새 테마 구성을 선택하세요:"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -193,7 +172,6 @@ msgid ""
 "Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
 "compatible configuration:"
 msgstr "데스크톱 구성을 선택하십시오. 이는 새로운 호환되는 구성을 적용하기 위해 Plasma에서 수행한 사용자 정의 사항을 제거합니다."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -201,7 +179,6 @@ msgstr "데스크톱 구성을 선택하십시오. 이는 새로운 호환되는
 # 
 msgid "Completed."
 msgstr "완료되었습니다."
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -211,7 +188,6 @@ msgid ""
 "Reboot now!\n"
 "                    "
 msgstr "지금 다시 시작하세요!"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -219,7 +195,6 @@ msgstr "지금 다시 시작하세요!"
 # 
 msgid "Configuration Complete"
 msgstr "구성 완료"
-
 # 
 # #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
 # 
@@ -227,171 +202,118 @@ msgstr "구성 완료"
 # 
 msgid "Your theme and desktop have been configured successfully."
 msgstr "테마와 데스크톱이 성공적으로 구성되었습니다."
-
 msgid "Temas, Desktop e Ajustes"
 msgstr "테마, 데스크톱 및 설정"
-
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "웹 브라우저를 사용 중이라면 변경 사항을 적용하려면 다시 시작하십시오."
-
 msgid "Desempenho em modo otimizado!"
 msgstr "최적화된 모드에서 성능!"
-
 msgid "Desempenho em modo performance!"
 msgstr "성능 모드에서 성능!"
-
 msgid "Temas"
 msgstr "주제"
-
 msgid "Ajustes"
 msgstr "설정"
-
 msgid "Desempenho do desktop"
 msgstr "Desktop 성능"
-
 msgid "Desempenho"
 msgstr "성능"
-
 msgid "Aceleração do navegador"
 msgstr "브라우저 가속"
-
 msgid "Tema dos aplicativos"
 msgstr "앱 테마"
-
 msgid "Abrir"
 msgstr "열다"
-
 msgid "Fechar"
 msgstr "닫기"
-
 msgid "Bordas arredondadas."
 msgstr "모서리 둥근 것."
-
 msgid ""
 "Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
 "computadores<br>antigos ou ambientes virtualizados."
 msgstr "이 테마에는 시스템을 느리게 만들 수 있는 투명도와 효과가 있습니다."
-
 msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
 msgstr "<b>클래식</b>, <b>새로운</b> 및 <b>현대</b>가 성능이 더 우수합니다."
-
 msgid "Renderizar o desktop via software"
 msgstr "소프트웨어를 통해 데스크톱 렌더링하기"
-
 msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
 msgstr "(Please note that this may be useful on older computers, but some programs may stop working)"
-
 msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "부팅 중에 메모리에 로드할 프로그램 선택"
-
 msgid ""
 "O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
 "causa lentidão. Escolha a opção desejada:"
 msgstr ""
 "O Preload loads program files into memory for quick startup. Excessive usage can slow down your "
 "system. Choose your desired option:"
-
 msgid "Ligar RGB do teclado"
 msgstr "키보드 RGB 켜기"
-
 msgid "Automático"
 msgstr "자동"
-
 msgid "Ativar"
 msgstr "활성화"
-
 msgid "Desativar"
 msgstr "비활성화"
-
 msgid "Configurações do Brave"
 msgstr "Brave 설정"
-
 msgid "Escolha a opção desejada:"
 msgstr "원하는 옵션을 선택하십시오:"
-
 msgid "Remover propagandas"
 msgstr "광고 제거"
-
 msgid "Suportar criptomoedas"
 msgstr "암호화폐 지원"
-
 msgid "Usabilidade"
 msgstr "사용성"
-
 msgid "Botões da janela no lado esquerdo"
 msgstr "창의 버튼이 왼쪽에 있습니다."
-
 msgid "Rolagem do mouse invertida"
 msgstr "마우스 스크롤 반전"
-
 msgid "Rolagem do touchpad invertida"
 msgstr "터치패드 스크롤 방향 반전"
-
 msgid "Pesquisar arquivos"
 msgstr "파일 검색"
-
 msgid "Bloquear a edição da área de trabalho "
 msgstr "바탕 화면 편집 차단"
-
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "부트로더(Boot Manager) 숨기기 (GRUB)"
-
 msgid "Ativar o NumLock ao ligar o sistema"
 msgstr "시스템 부팅시 NumLock 활성화"
-
 msgid "Tema aplicado"
 msgstr "적용된 테마"
-
 msgid "É preciso reiniciar a sessão para concluir a configuração."
 msgstr "세션을 다시 시작하여 설정을 완료해야 합니다."
-
 msgid "Configuração do Desktop"
 msgstr "데스크톱 구성"
-
 msgid ""
 "Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
 "configuração original?"
 msgstr "이 데스크톱을 이전에 사용한 적이 있습니까? 개인 설정을 복원하거나 원래 설정을 사용하시겠습니까?"
-
 msgid "Sim"
 msgstr "Sim"
-
 msgid "Não"
 msgstr "No response"
-
 msgid "Restaurar"
 msgstr "복원하기"
-
 msgid "Desktop aplicado"
 msgstr "데스크톱 애플리케이션"
-
 msgid "Modo performance"
 msgstr "성능 모드"
-
 msgid "BTRFS sem fsync"
 msgstr "BTRFS는 fsync를 지원합니다."
-
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "소프트웨어 렌더링을 사용하여 투명도의 품질이 저하되었습니다."
-
 msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
 msgstr "SnapShots를 잃게 될 수 있습니다. grub를 숨기시겠습니까?"
-
 msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "No."
-
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
 msgstr "SnapShots에 그래픽 모드에 액세스하지 않고 액세스할 수 있습니까?"
-
 msgid "Você está completamente seguro dessa aplicação?"
 msgstr "No."
-
 msgid "Aplicando, aguarde..."
 msgstr "적용 중, 기다려주세요..."
-
 msgid "Concluído!"
 msgstr "완료되었습니다!"
-
 msgid ""
 "\n"
 "A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
@@ -403,7 +325,6 @@ msgstr ""
 "이미 사용된 구성을 복원하시겠습니까?\n"
 "\n"
 "시스템의 기본 구성을 사용하려면 아니요를 선택하십시오."
-
 msgid ""
 "Configuração aplicada!\n"
 "\n"
@@ -415,12 +336,9 @@ msgstr ""
 "\n"
 "세션을 종료하고 다시 로그인하여\n"
 "설정이 완전히 적용되도록 하십시오."
-
 msgid "Desempenho em modo normal!"
 msgstr "일반 모드에서 성능!"
-
 msgid "Temas e Desktop"
 msgstr "테마 및 데스크톱"
-
 msgid "BigLinux Themes"
 msgstr "빅리눅스 테마"
