@@ -15,269 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Desktop"
-msgstr "Työpöytä"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Theme"
-msgstr "Teema"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Configuration"
-msgstr "Asetukset"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid ""
-"You've used this desktop before, do you want to restore your customization or use the original "
-"configuration?"
-msgstr ""
-"Olet käyttänyt tätä työpöytää aiemmin, haluatko palauttaa mukautuksesi vai käyttää alkuperäistä "
-"asetusta?"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Original"
-msgstr "Alkuperäinen"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Restore"
-msgstr "Palauta"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Confirm Theme Change"
-msgstr "Vahvista teeman vaihto"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Do you want to apply the selected theme again?"
-msgstr "Haluatko soveltaa valittua teemaa uudelleen?"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Yes"
-msgstr "Kyllä"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "No"
-msgstr "Ei"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Confirm Desktop Change"
-msgstr "Vahvista työpöydän vaihto"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Do you want to reapply a clean configuration of that desktop?"
-msgstr "Haluatko soveltaa puhdasta asetuskonfiguraatiota tuolle työpöydälle?"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Applying"
-msgstr "Soveltaminen"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "The settings have been changed. To apply them throughout the system, log off and log in again."
-msgstr ""
-"Asetukset on muutettu. Jotta ne otetaan käyttöön koko järjestelmässä, kirjaudu ulos ja kirjaudu "
-"uudelleen sisään."
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "OK"
-msgstr "OK"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Post update adjustments"
-msgstr "Päivityksen säädökset"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid ""
-"A major update has been applied, making various desktop settings incompatible. Proceed to apply new "
-"settings."
-msgstr ""
-"Merkittävä päivitys on otettu käyttöön, mikä tekee erilaisista työpöytäasetuksista "
-"yhteensopimattomia. Jatka uusien asetusten soveltamista."
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid ""
-"If you have advanced knowledge of the system and prefer to make the adjustments manually, do not "
-"proceed."
-msgstr ""
-"Jos sinulla on edistynyttä tietämystä järjestelmästä ja haluat tehdä säädöt manuaalisesti, älä "
-"jatka."
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid ""
-"Continue\n"
-"            "
-msgstr "Jatka"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Select a new theme configuration:"
-msgstr "Valitse uusi teeman määritys:"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid ""
-"Choose a desktop configuration. This will also remove customizations made in Plasma to apply a new "
-"compatible configuration:"
-msgstr ""
-"Valitse työpöydän kokoonpano. Tämä poistaa myös Plasmassa tehdyt mukautukset uuden yhteensopivan "
-"kokoonpanon soveltamiseksi:"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Completed."
-msgstr "Valmis."
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid ""
-"Reboot now!\n"
-"                    "
-msgstr "Käynnistä uudelleen nyt!"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Configuration Complete"
-msgstr "Asetukset valmiit"
-# 
-# #-#-#-#-#  biglinux-session-and-themes-bash.pot (biglinux-session-and-themes)  #-#-#-#-#
-# 
-msgid "Your theme and desktop have been configured successfully."
-msgstr "Teemasi ja työpöytäsi on määritetty onnistuneesti."
-msgid "Temas, Desktop e Ajustes"
-msgstr "Teemat, Työpöytä ja Asetukset"
+msgid "Desempenho em modo normal!"
+msgstr "Suorituskyky normaalitilassa!"
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "Jos käytät selainta, käynnistä se uudelleen muutosten voimassaantuloksi."
 msgid "Desempenho em modo otimizado!"
 msgstr "Suorituskyky optimoidussa tilassa!"
-msgid "Desempenho em modo performance!"
-msgstr "Suorituskyky tilassa!"
-msgid "Temas"
-msgstr "Teemat"
-msgid "Ajustes"
-msgstr "Asetukset"
-msgid "Desempenho do desktop"
-msgstr "Työpöydän suorituskyky"
-msgid "Desempenho"
-msgstr "Suorituskyky"
-msgid "Aceleração do navegador"
-msgstr "Selaimen kiihdytys"
-msgid "Tema dos aplicativos"
-msgstr "Sovellusten teema"
-msgid "Abrir"
-msgstr "Avata"
-msgid "Fechar"
-msgstr "Sulje"
-msgid "Bordas arredondadas."
-msgstr "Pyöristetyt reunat."
-msgid ""
-"Esse tema possui transparências com efeitos que<br>podem tornar o sistema lento em "
-"computadores<br>antigos ou ambientes virtualizados."
-msgstr ""
-"Tämä teema sisältää läpinäkyvyyksiä, joilla on vaikutuksia, jotka voivat hidastaa järjestelmää "
-"vanhoilla tietokoneilla tai virtualisoiduissa ympäristöissä."
-msgid "<b>Classic</b>, <b>New</b> e <b>Modern</b> têm melhor desempenho."
-msgstr "<b>Klassinen</b>, <b>Uusi</b> ja <b>Moderni</b> toimivat paremmin."
-msgid "Renderizar o desktop via software"
-msgstr "Renderoida työpöytä ohjelmiston avulla"
-msgid "(Pode ser útil em computadores antigos, porém alguns programas param de funcionar)"
-msgstr ""
-"(Palvelu voi olla hyödyllinen vanhoilla tietokoneilla, mutta jotkut ohjelmat saattavat lakata "
-"toimimasta)"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Valitse käynnistyksen aikana ladattavat ohjelmat muistiin"
-msgid ""
-"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo "
-"causa lentidão. Escolha a opção desejada:"
-msgstr "Escolha a opção desejada:"
-msgid "Ligar RGB do teclado"
-msgstr "Kytke RGB-näppäimistöön"
-msgid "Automático"
-msgstr "Automaattinen"
-msgid "Ativar"
-msgstr "Aktivoi"
-msgid "Desativar"
-msgstr "Poista käytöstä"
-msgid "Configurações do Brave"
-msgstr "Braven asetukset"
-msgid "Escolha a opção desejada:"
-msgstr "Valitse haluamasi vaihtoehto:"
-msgid "Remover propagandas"
-msgstr "Poista mainokset"
-msgid "Suportar criptomoedas"
-msgstr "Tukea kryptovaluutoille"
-msgid "Usabilidade"
-msgstr "Käytettävyys"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Ikkunapainikkeet vasemmalla puolella"
-msgid "Rolagem do mouse invertida"
-msgstr "Hiiren vierityksen kääntö"
-msgid "Rolagem do touchpad invertida"
-msgstr "Käänteinen kosketuslevyn vieritys"
-msgid "Pesquisar arquivos"
-msgstr "Etsi tiedostoja"
-msgid "Bloquear a edição da área de trabalho "
-msgstr "Esto ei ole käytettävissä."
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Piilota käynnistyslatauksen hallinta (GRUB)"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Enable NumLock on system startup"
-msgid "Tema aplicado"
-msgstr "Käytetty teema"
-msgid "É preciso reiniciar a sessão para concluir a configuração."
-msgstr "On tarpeen kirjautua ulos ja takaisin sisään asetusten viimeistelyä varten."
-msgid "Configuração do Desktop"
-msgstr "Työpöydän asetukset"
-msgid ""
-"Você já utilizou esse desktop antes, deseja  restaurar sua personalização ou utilizar a "
-"configuração original?"
-msgstr ""
-"Oletko käyttänyt tätä työpöytää aiemmin, haluatko palauttaa mukautuksesi tai käyttää alkuperäistä "
-"asetusta?"
-msgid "Sim"
-msgstr "Sim"
-msgid "Não"
-msgstr "Ei"
-msgid "Restaurar"
-msgstr "Palauta"
-msgid "Desktop aplicado"
-msgstr "Työpöytäsovellus"
-msgid "Modo performance"
-msgstr "Suorituskykytila"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS ilman fsyncia"
-msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
-msgstr "Käyttämällä ohjelmistopohjaista renderöintiä läpinäkyvyyksien laatu on heikentynyt."
-msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
-msgstr "Varoitus: menetät pääsyn SnapShoteihin, oletko varma, että haluat piilottaa grubin?"
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Et tiedäkö, miten palauttaa Grub, jos se epäonnistuu?"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Tiedätkö, miten pääset käsiksi SnapShoteihin ilman graafista tilaa?"
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Oletko varma tästä sovelluksesta?"
-msgid "Aplicando, aguarde..."
-msgstr "Käytetään, odota..."
-msgid "Concluído!"
-msgstr "Valmis!"
 msgid ""
 "\n"
 "A configuração de desktop selecionada já foi utilizada nesse sistema,\n"
@@ -297,9 +40,17 @@ msgstr ""
 "Kirjaudu ulos ja kirjaudu uudelleen\n"
 "jotta asetus saadaan loppuun\n"
 "asetettua."
-msgid "Desempenho em modo normal!"
-msgstr "Suorituskyky normaalitilassa!"
-msgid "Temas e Desktop"
-msgstr "Työpöytäteemat"
-msgid "BigLinux Themes"
-msgstr "BigLinux-teemat"
+msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocultar o grub?"
+msgstr "Varoitus: menetät pääsyn SnapShoteihin, oletko varma, että haluat piilottaa grubin?"
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Et tiedäkö, miten palauttaa Grub, jos se epäonnistuu?"
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Tiedätkö, miten pääset käsiksi SnapShoteihin ilman graafista tilaa?"
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Oletko varma tästä sovelluksesta?"
+msgid "Aplicando, aguarde..."
+msgstr "Käytetään, odota..."
+msgid "Concluído!"
+msgstr "Valmis!"
+msgid "Desempenho em modo performance!"
+msgstr "Suorituskyky tilassa!"
