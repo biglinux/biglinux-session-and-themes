@@ -5,4 +5,4 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=biglinux-session-and-themes
 
 cd /usr/share/bigbashview/apps/biglinux-themes-gui/
-bigbashview -s 900x700 -p 'big-theme-gui' -c transparent -w frameless index.html
+python main.py

@@ -77,7 +77,7 @@ ForegroundVisited=179,179,179
 
 [Colors:View]
 BackgroundAlternate=39,39,39
-BackgroundNormal=36,36,36
+BackgroundNormal=46,46,50
 DecorationFocus=120,174,237
 DecorationHover=53,132,228
 ForegroundActive=53,132,228
@@ -91,7 +91,7 @@ ForegroundVisited=179,179,179
 
 [Colors:Window]
 BackgroundAlternate=36,36,36
-BackgroundNormal=36,36,36
+BackgroundNormal=29,29,32
 DecorationFocus=120,174,237
 DecorationHover=53,132,228
 ForegroundActive=53,132,228
@@ -157,10 +157,10 @@ ToolButtonStyleOtherToolbars=TextBesideIcon
 SceneGraphBackend=opengl
 
 [WM]
-activeBackground=44,44,44
-activeBlend=36,36,36
+activeBackground=46,46,50
+activeBlend=46,46,50
 activeFont=Noto Sans Nerd Font,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
 activeForeground=255,255,255
-inactiveBackground=36,36,36
+inactiveBackground=40,40,44
 inactiveBlend=144,144,144
 inactiveForeground=255,255,255
