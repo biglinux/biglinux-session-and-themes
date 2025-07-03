@@ -23,6 +23,9 @@ msgid ""
 msgstr ""
 "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 
+msgid "Desempenho em modo performance!"
+msgstr "Desempenho em modo performance!"
+
 msgid "Desempenho em modo otimizado!"
 msgstr "Desempenho em modo otimizado!"
 
@@ -73,6 +76,3 @@ msgstr "Aplicando, aguarde..."
 
 msgid "Concluído!"
 msgstr "Concluído!"
-
-msgid "Desempenho em modo performance!"
-msgstr "Desempenho em modo performance!"
