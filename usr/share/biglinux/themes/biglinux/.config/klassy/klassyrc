@@ -13,6 +13,7 @@ AdjustBackgroundColorOnPoorContrastActive=false
 AdjustBackgroundColorOnPoorContrastInactive=false
 ButtonBackgroundOpacityActive=0
 ButtonBackgroundOpacityInactive=0
+ButtonIconColorsActive=TitleBarText
 ButtonOverrideColorsActiveApplicationMenu={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
 ButtonOverrideColorsActiveClose={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
 ButtonOverrideColorsActiveContextHelp={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
