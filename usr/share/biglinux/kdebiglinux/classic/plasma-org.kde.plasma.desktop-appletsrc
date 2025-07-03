@@ -67,6 +67,8 @@ DialogWidth=720
 customButtonImage=big-favicon-new
 favoritesPortedToKAstats=true
 useCustomButtonImage=true
+showRecentApps=false
+showRecentDocs=false
 
 [Containments][2][Applets][30][Configuration][Shortcuts]
 global=Alt+F1
@@ -281,6 +283,8 @@ DialogWidth=720
 customButtonImage=big-favicon-new
 favoritesPortedToKAstats=true
 useCustomButtonImage=true
+showRecentApps=false
+showRecentDocs=false
 
 [Containments][3][Applets][30][Configuration][Shortcuts]
 global=Alt+F1
@@ -495,6 +499,8 @@ DialogWidth=720
 customButtonImage=big-favicon-new
 favoritesPortedToKAstats=true
 useCustomButtonImage=true
+showRecentApps=false
+showRecentDocs=false
 
 [Containments][4][Applets][30][Configuration][Shortcuts]
 global=Alt+F1
@@ -709,6 +715,8 @@ DialogWidth=720
 customButtonImage=big-favicon-new
 favoritesPortedToKAstats=true
 useCustomButtonImage=true
+showRecentApps=false
+showRecentDocs=false
 
 [Containments][5][Applets][30][Configuration][Shortcuts]
 global=Alt+F1
