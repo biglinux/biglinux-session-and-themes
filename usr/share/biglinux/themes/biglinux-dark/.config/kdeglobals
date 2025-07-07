@@ -104,7 +104,7 @@ ForegroundPositive=143,240,164
 ForegroundVisited=179,179,179
 
 [General]
-ColorScheme=BigAdwaitaRoundDark14
+ColorScheme=BigAdwaitaRoundDark
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb

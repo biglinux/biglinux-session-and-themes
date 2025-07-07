@@ -105,8 +105,6 @@ ForegroundVisited=69,40,134
 
 [General]
 ColorScheme=BigAdwaitaRound
-ColorSchemeHash=5d4313a40d8c50ce19705c4366f809fecc708f72
-Name=Breeze
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
@@ -116,7 +114,6 @@ menuFont=Noto Sans Nerd Font,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
 shadeSortColumn=true
 smallestReadableFont=Noto Sans Nerd Font,8,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
 toolBarFont=Noto Sans Nerd Font,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
-widgetStyle=Breeze
 
 [Icons]
 Theme=bigicons-papient
