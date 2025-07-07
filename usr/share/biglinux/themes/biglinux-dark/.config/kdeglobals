@@ -6,8 +6,8 @@ ChangeSelectionColor=
 Color=112,111,110
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=0.65
-ContrastEffect=1
+ContrastAmount=0.15000000000000002
+ContrastEffect=0
 Enable=
 IntensityAmount=0.1
 IntensityEffect=0
@@ -15,10 +15,10 @@ IntensityEffect=0
 [ColorEffects:Inactive]
 ChangeSelectionColor=false
 Color=112,111,110
-ColorAmount=0.05
-ColorEffect=2
-ContrastAmount=0.25
-ContrastEffect=2
+ColorAmount=-0.9
+ColorEffect=0
+ContrastAmount=0.4
+ContrastEffect=1
 Enable=true
 IntensityAmount=0
 IntensityEffect=0
@@ -49,7 +49,7 @@ ForegroundVisited=216,125,255
 
 [Colors:Selection]
 BackgroundAlternate=195,218,247
-BackgroundNormal=53,132,228
+BackgroundNormal=75,108,149
 DecorationFocus=120,174,237
 DecorationHover=53,132,228
 ForegroundActive=53,132,228
@@ -90,8 +90,8 @@ ForegroundPositive=143,240,164
 ForegroundVisited=179,179,179
 
 [Colors:Window]
-BackgroundAlternate=36,36,36
-BackgroundNormal=29,29,32
+BackgroundAlternate=40,40,44
+BackgroundNormal=46,46,50
 DecorationFocus=120,174,237
 DecorationHover=53,132,228
 ForegroundActive=53,132,228
@@ -104,7 +104,7 @@ ForegroundPositive=143,240,164
 ForegroundVisited=179,179,179
 
 [General]
-ColorScheme=BigAdwaitaRoundDark
+ColorScheme=BigAdwaitaRoundDark14
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
@@ -152,9 +152,6 @@ MaximumRemoteSize=0
 [Toolbar style]
 ToolButtonStyle=TextBesideIcon
 ToolButtonStyleOtherToolbars=TextBesideIcon
-
-[QtQuickRendererSettings]
-SceneGraphBackend=opengl
 
 [WM]
 activeBackground=46,46,50
