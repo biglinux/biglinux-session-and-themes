@@ -9,15 +9,13 @@
 # Use Vulkaninfo to verify if only llvmpipe as vulkan render
 # Output true if using llvmpipe and false if using anotherr vulkan render
 if vulkaninfo --summary 2> /dev/null | grep 'deviceName' | grep -vq 'llvmpipe'; then
-    export QSG_RENDER_LOOP=""
-    # Temporarily forcing GTK Renderer GL since 2024/10/11
-    [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="vulkan"
+    unset QSG_RENDER_LOOP
     [[ -z $Vulkan_Supported ]] && export Vulkan_Supported=1
 else
     [[ -z $QSG_RENDER_LOOP ]]  && export QSG_RENDER_LOOP="basic"
     
     # If using mesa amber force cairo renderer
-    if compgen -G /var/lib/pacman/local/mesa-amber-*; then
+    if compgen -G /var/lib/pacman/local/mesa-amber-* || systemd-detect-virt -q; then
         [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="cairo"
     else
         [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="ngl"
@@ -25,9 +23,6 @@ else
 fi
 
 if [ "$1" = "wayland" ]; then
-    # Fix to scaled apps, after QT 6.8 released, remove this line:
-    [[ -z $QT_SCALE_FACTOR_ROUNDING_POLICY ]] && export QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor
-
     [[ -z $ELECTRON_OZONE_PLATFORM_HINT ]] && export ELECTRON_OZONE_PLATFORM_HINT=auto
     [[ -z $MOZ_ENABLE_WAYLAND ]] && export MOZ_ENABLE_WAYLAND=1
     [[ -z $KWIN_EFFECTS_FORCE_ANIMATIONS ]] && export KWIN_EFFECTS_FORCE_ANIMATIONS=1
