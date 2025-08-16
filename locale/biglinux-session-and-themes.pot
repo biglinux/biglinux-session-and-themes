@@ -14,14 +14,27 @@ msgstr  "Project-Id-Version: biglinux-session-and-themes\n"
         "Content-Type: text/plain; charset=UTF-8\n"
         "Content-Transfer-Encoding: 8bit\n"
 
-msgid   "Desempenho em modo normal!"
+msgid   "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja "
+        "ocultar o grub?"
+msgstr  ""
+
+msgid   "Você saberá retornar o Grub em caso de falha?"
+msgstr  ""
+
+msgid   "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr  ""
+
+msgid   "Você está completamente seguro dessa aplicação?"
+msgstr  ""
+
+msgid   "Aplicando, aguarde..."
+msgstr  ""
+
+msgid   "Concluído!"
 msgstr  ""
 
 msgid   "Se estiver utilizando algum navegador, reinicie-o para aplicar as "
         "alterações."
-msgstr  ""
-
-msgid   "Desempenho em modo performance!"
 msgstr  ""
 
 msgid   "Desempenho em modo otimizado!"
@@ -42,21 +55,8 @@ msgid   "Configuração aplicada!\n"
         "ser aplicada."
 msgstr  ""
 
-msgid   "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja "
-        "ocultar o grub?"
+msgid   "Desempenho em modo performance!"
 msgstr  ""
 
-msgid   "Você saberá retornar o Grub em caso de falha?"
-msgstr  ""
-
-msgid   "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr  ""
-
-msgid   "Você está completamente seguro dessa aplicação?"
-msgstr  ""
-
-msgid   "Aplicando, aguarde..."
-msgstr  ""
-
-msgid   "Concluído!"
+msgid   "Desempenho em modo normal!"
 msgstr  ""
