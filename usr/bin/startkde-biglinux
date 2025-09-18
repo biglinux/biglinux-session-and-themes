@@ -62,8 +62,14 @@ if [ $HEIGHT -gt 1400 ]  2>/dev/null; then
 else
     [[ -z $RADV_FORCE_VRS ]] && export RADV_FORCE_VRS=1x1
 fi
+    
+#Optimization for AMD GPU in kernel 6.6 and before
+kernel_version=$(uname -r | grep -oE '[0-9]\.[0-9][0-9]?')
+if [[ ${kernel_version/.} -le 66 ]] then
     [[ -z $RADV_PERFTEST ]] && export RADV_PERFTEST=sam,nggc,ext_ms
+fi
 
+    
 # Vulkan ICD folder
 # [[ -z $ICD_DIR ]] && export ICD_DIR=/usr/share/vulkan/icd.d
 
