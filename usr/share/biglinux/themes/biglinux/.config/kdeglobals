@@ -105,6 +105,8 @@ ForegroundVisited=69,40,134
 
 [General]
 ColorScheme=BigAdwaitaRound
+TerminalApplication=ashyterm %F
+TerminalService=org.communitybig.ashyterm.desktop
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb

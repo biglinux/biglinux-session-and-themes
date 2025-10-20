@@ -138,6 +138,8 @@ ForegroundVisited=155,89,182
 [General]
 ColorScheme=BreezeDark
 ColorSchemeHash=01662607e36cd33eacc7d7d7189f69c26b9a2cc8
+TerminalApplication=ashyterm %F
+TerminalService=org.communitybig.ashyterm.desktop
 Name=Breeze
 XftAntialias=true
 XftHintStyle=hintslight
