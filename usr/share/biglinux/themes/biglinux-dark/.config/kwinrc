@@ -23,9 +23,6 @@ trackLayoutPerScreen=true
 zoneOverlayIndicatorDisplay=1
 zoneSelectorTriggerDistance=0
 
-[Windows]
-FocusStealingPreventionLevel=0
-
 [org.kde.kdecoration2]
 BorderSize=NoSides
 BorderSizeAuto=false
