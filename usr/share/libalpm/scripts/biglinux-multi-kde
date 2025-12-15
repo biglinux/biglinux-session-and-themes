@@ -1,13 +1,9 @@
 #!/bin/sh
 
-if [ -e "/usr/share/divert/plasma.desktop" ] && [ ! -e "/usr/share/xsessions/plasma.desktop" ]; then
-  cp -f /usr/share/divert/plasma.desktop /usr/share/xsessions/plasma.desktop
-fi
-
-sed -i 's|Exec=.*|Exec=/usr/bin/startkde-biglinux wayland|g' /usr/share/wayland-sessions/plasmawayland.desktop 2> /dev/null
-sed -i 's|TryExec=.*|TryExec=/usr/bin/startkde-biglinux|g' /usr/share/wayland-sessions/plasmawayland.desktop 2> /dev/null
-sed -i 's|Exec=.*|Exec=/usr/bin/startkde-biglinux|g' /usr/share/xsessions/plasma.desktop 2> /dev/null
-sed -i 's|TryExec=.*|TryExec=/usr/bin/startkde-biglinux|g' /usr/share/xsessions/plasma.desktop 2> /dev/null
+sed -i 's|Exec=.*|Exec=/usr/bin/startkde-biglinux wayland|g' /usr/share/wayland-sessions/plasma.desktop 2> /dev/null
+sed -i 's|TryExec=.*|TryExec=/usr/bin/startkde-biglinux|g' /usr/share/wayland-sessions/plasma.desktop 2> /dev/null
+sed -i 's|Exec=.*|Exec=/usr/bin/startkde-biglinux|g' /usr/share/xsessions/plasmax11.desktop 2> /dev/null
+sed -i 's|TryExec=.*|TryExec=/usr/bin/startkde-biglinux|g' /usr/share/xsessions/plasmax11.desktop 2> /dev/null
 
 # sed -i 's|Restart=always|Restart=on-failure|g' /usr/lib/systemd/user/plasma-plasmashell.service 2> /dev/null
 # if [ "$(grep 'RestartForceExitStatus' /usr/lib/systemd/user/plasma-plasmashell.service 2> /dev/null)" = "" ]; then

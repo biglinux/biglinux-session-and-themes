@@ -4,7 +4,7 @@
 # mv -f /usr/share/divert/plasma.desktop /usr/share/xsessions/plasma.desktop 2> /dev/null
 # mv -f /usr/share/divert/plasmawayland.desktop /usr/share/wayland-sessions/plasmawayland.desktop 2> /dev/null
 
-sed -i 's|Exec=.*|Exec=/usr/bin/startplasma-wayland|g' /usr/share/wayland-sessions/plasmawayland.desktop 2> /dev/null
-sed -i 's|TryExec=.*|TryExec=/usr/bin/startplasma-wayland|g' /usr/share/wayland-sessions/plasmawayland.desktop 2> /dev/null
-sed -i 's|Exec=.*|Exec=/usr/bin/startplasma-x11|g' /usr/share/xsessions/plasma.desktop 2> /dev/null
-sed -i 's|TryExec=.*|TryExec=/usr/bin/startplasma-x11|g' /usr/share/xsessions/plasma.desktop 2> /dev/null
+sed -i 's|Exec=.*|Exec=/usr/bin/startplasma-wayland|g' /usr/share/wayland-sessions/plasma.desktop 2> /dev/null
+sed -i 's|TryExec=.*|TryExec=/usr/bin/startplasma-wayland|g' /usr/share/wayland-sessions/plasma.desktop 2> /dev/null
+sed -i 's|Exec=.*|Exec=/usr/bin/startplasma-x11|g' /usr/share/xsessions/plasmax11.desktop 2> /dev/null
+sed -i 's|TryExec=.*|TryExec=/usr/bin/startplasma-x11|g' /usr/share/xsessions/plasmax11.desktop 2> /dev/null
