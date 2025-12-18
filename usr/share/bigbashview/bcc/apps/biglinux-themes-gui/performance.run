@@ -25,7 +25,8 @@ if [ "$1" != "quiet" ]; then
     # Apply
     systemctl --user restart plasma-kwin_x11
     
-    kdialog  --attach="$windowID" --msgbox $"Desempenho em modo performance!" &
+    kdialog  --attach="$windowID" --msgbox $"Desempenho em modo performance!
+" &
     
     # Restart plasmashell
     # systemctl --user restart plasma-plasmashell

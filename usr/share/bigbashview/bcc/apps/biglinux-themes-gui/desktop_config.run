@@ -16,6 +16,7 @@ if [ -e "$HOME/.kdebiglinux/$1" ]; then
 deseja restaurar a configuração que já foi utilizada?
 
 Selecione não para utilizar a configuração padrão do sistema.
+
 "
 
     if [ "$?" = "0" ]; then
@@ -33,4 +34,5 @@ kdialog --attach="$windowID" --msgbox $"Configuração aplicada!
 
 Finalize a sessão e faça login novamente
 para que a configuração termine de
-ser aplicada." --title "Configuração"
+ser aplicada.
+" --title "Configuração"

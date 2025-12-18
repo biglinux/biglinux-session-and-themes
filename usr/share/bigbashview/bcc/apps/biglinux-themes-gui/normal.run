@@ -29,7 +29,8 @@ if [ "$1" != "quiet" ]; then
     # Apply
     systemctl --user restart plasma-kwin_x11
 
-    kdialog  --attach="$windowID" --msgbox $"Desempenho em modo normal!" &
+    kdialog  --attach="$windowID" --msgbox $"Desempenho em modo normal!
+" &
     
 
 fi
