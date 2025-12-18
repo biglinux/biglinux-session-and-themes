@@ -89,8 +89,12 @@ fi
 # Theme in first login
 first-login-theme
 
-if [ ! -e "$HOME/.kdebiglinux/lastlogin" ]; then
-    big-theme-plasma --apply $(cut -f2 -d" " /etc/big_desktop_changed) quiet
+# Desktop layout configuration
+CONFIG_DIR="/etc/big-default-config"
+DESKTOP_FILE="$CONFIG_DIR/desktop"
+
+if [ ! -e "$HOME/.kdebiglinux/lastlogin" ] && [ -e "$DESKTOP_FILE" ]; then
+    big-theme-plasma --apply $(cut -f2 -d" " "$DESKTOP_FILE") quiet
 fi
 
 # In Plasma 6.1 if not use empty session, logoff lock system, change to empty
@@ -111,9 +115,9 @@ done
 IFS=$OIFS
 
 
-nowlogin="$(cat "$HOME/.kdebiglinux/lastused")"
+nowlogin="$(<"$HOME/.kdebiglinux/lastused")"
 #ultimo login
-lastlogin=$(cat "$HOME/.kdebiglinux/lastlogin")
+lastlogin=$(<"$HOME/.kdebiglinux/lastlogin")
 
 #Get id from last wallpaper
 ID=$(grep -Eo '\[Containments\]\[[0-9]{1,5}\]\[Wallpaper\]\[org.kde.image\]' ~/.config/plasma-org.kde.plasma.desktop-appletsrc|head -n1|sed 's|\[||g;s|\]| |g'|cut -f2 -d' ')
@@ -131,7 +135,7 @@ chmod 777 /tmp/bigksplash.jpg
 
 # Fix full screen when switch desktop for globalmenu on or off
 if [ "$nowlogin" != "$lastlogin" ]; then
-    if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
+    if [ "$(<"$HOME/.config/kwin_maximized_disable")" = "1" ]; then
         sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
         sed -i 's|user_pref("browser.tabs.InTitlebar", 1);|user_pref("browser.tabs.InTitlebar", 0);|g' ~/.mozilla/firefox/*.default/prefs.js
         #Kwin

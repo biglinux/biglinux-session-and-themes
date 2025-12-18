@@ -30,7 +30,7 @@ else
     systemctl --user stop plasma-kglobalaccel.service
 fi
 
-LAST_USED="$(cat "$HOME/.kdebiglinux/lastused")"
+LAST_USED="$(<"$HOME/.kdebiglinux/lastused")"
 
 # Backup config
 if [ "$LAST_USED" != "" ]; then
@@ -81,7 +81,7 @@ else
     fi
 fi
 
-if [ "$(cat "$HOME/.config/kwin_left")" = "1" ]; then
+if [ "$(<"$HOME/.config/kwin_left")" = "1" ]; then
     kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
     gsettings set org.gnome.desktop.wm.preferences button-layout "close,maximize,minimize:menu"
     kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
@@ -94,7 +94,7 @@ else
 fi
 
 # Disable kwin border in maximized windows
-if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
+if [ "$(<"$HOME/.config/kwin_maximized_disable")" = "1" ]; then
 
     #Chromium Brave Chrome
     chromium_based_files=(
@@ -155,7 +155,7 @@ fi
 /usr/share/biglinux/multi-kde/$2
 
 # Enable gtkconfig in kde config
-kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded5rc --key autoload true
+kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded6rc --key autoload true
 
 if [ "$3" = "quiet" ] || [ "$4" = "quiet" ]; then
     echo "No start services"

@@ -1,20 +1,48 @@
 #!/bin/bash
 
+# BigLinux first login theme and configuration application
+# Applies theme, JamesDSP, and display profile settings from live session
+
+CONFIG_DIR="/etc/big-default-config"
+
 /usr/share/bigbashview/bcc/apps/biglinux-themes-gui/lock-desktop.run
 
 if [ ! -e "$HOME/.local/share/user-places-big.xbel" ]; then
-    #Hide recent files in dolphin
+    # Hide recent files in dolphin
     sed -i 's|<GroupState-RecentlySaved-IsHidden>false</GroupState-RecentlySaved-IsHidden>|<GroupState-RecentlySaved-IsHidden>true</GroupState-RecentlySaved-IsHidden>|g' ~/.local/share/user-places.xbel
     > "$HOME/.local/share/user-places-big.xbel"
 fi
-    
-if [ ! -e "/etc/default-theme-biglinux" ] || [ -e "$HOME/.big_desktop_theme" ] || [ -e "/tmp/big_desktop_theme" ]; then
-    exit
 
+# Theme configuration
+THEME_FILE="$CONFIG_DIR/theme"
+
+if [ ! -e "$THEME_FILE" ] || [ -e "$HOME/.big_desktop_theme" ] || [ -e "/tmp/big_desktop_theme" ]; then
+    # Skip theme application - either no config or user already has custom theme
+    :
 else
-
-    export BIG_THEME="$(cat /etc/default-theme-biglinux)"
+    export BIG_THEME="$(<"$THEME_FILE")"
     big-theme-apps --apply $BIG_THEME
     systemctl --user enable big-welcome
+fi
 
+# JamesDSP configuration - apply if flag exists
+JAMESDSP_FLAG="$CONFIG_DIR/jamesdsp"
+
+if [ -e "$JAMESDSP_FLAG" ] && [ -e "/usr/bin/jamesdsp" ]; then
+    mkdir -p "$HOME/.config/jamesdsp"
+    if [ -e "$HOME/.config/jamesdsp/application.conf" ]; then
+        sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
+    fi
+    # Enable JamesDSP autostart via systemd user service if available
+    systemctl --user enable jamesdsp.service 2>/dev/null || true
+fi
+
+# ICC/Display profile configuration - apply if flag exists
+DISPLAY_PROFILE_FLAG="$CONFIG_DIR/display-profile"
+
+if [ -e "$DISPLAY_PROFILE_FLAG" ] && [ -e "/usr/share/color/icc/colord/ECI-RGBv1.icc" ]; then
+    # Apply ICC profile to kwin output configuration
+    if [ -e "/usr/share/biglinux/livecd/script/icc_profile.sh" ]; then
+        /usr/share/biglinux/livecd/script/icc_profile.sh enable 2>/dev/null || true
+    fi
 fi

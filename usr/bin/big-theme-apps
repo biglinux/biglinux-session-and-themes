@@ -33,7 +33,7 @@ case "$1" in
 		fi
 
         #side of minimize maximize and close buttons
-        if [ "$(cat "$HOME/.config/kwin_left")" = "1" ]; then
+        if [ "$(<"$HOME/.config/kwin_left")" = "1" ]; then
             kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
             kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
             kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "M"
@@ -44,7 +44,7 @@ case "$1" in
         fi
 
         # Disable kwin border in maximized windows if needed for globalmenu
-        if [ "$(cat "$HOME/.config/kwin_maximized_disable")" = "1" ]; then
+        if [ "$(<"$HOME/.config/kwin_maximized_disable")" = "1" ]; then
             #Chromium Brave Chrome
             sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
             #Firefox
@@ -61,7 +61,7 @@ case "$1" in
         fi
 
         # Run specific desktop tweaks
-        /usr/share/biglinux/multi-kde/$(cat ~/.kdebiglinux/lastused)
+        /usr/share/biglinux/multi-kde/$(<~/.kdebiglinux/lastused)
         
         if pgrep plasmashell; then
 
@@ -76,7 +76,7 @@ case "$1" in
                 plasma-apply-colorscheme $(kreadconfig6 --group General --key ColorScheme --file "$folder/$2/.config/kdeglobals")
 
                 # Enable gtkconfig in kde config
-                kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded5rc --key autoload true
+                kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded6rc --key autoload true
 
                 #Configure GTK
                 qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
