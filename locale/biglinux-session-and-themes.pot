@@ -15,10 +15,10 @@ msgstr  "Project-Id-Version: biglinux-session-and-themes\n"
         "Content-Transfer-Encoding: 8bit\n"
 
 msgid   "Se estiver utilizando algum navegador, reinicie-o para aplicar as "
-        "alterações."
+        "alterações.\n"
 msgstr  ""
 
-msgid   "Desempenho em modo performance!"
+msgid   "Desempenho em modo performance!\n"
 msgstr  ""
 
 msgid   "A configuração de desktop selecionada já foi utilizada nesse "
@@ -26,36 +26,37 @@ msgid   "A configuração de desktop selecionada já foi utilizada nesse "
         "deseja restaurar a configuração que já foi utilizada?\n"
         "\n"
         "Selecione não para utilizar a configuração padrão do sistema.\n"
+        "\n"
 msgstr  ""
 
 msgid   "Configuração aplicada!\n"
         "\n"
         "Finalize a sessão e faça login novamente\n"
         "para que a configuração termine de\n"
-        "ser aplicada."
+        "ser aplicada.\n"
 msgstr  ""
 
 msgid   "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja "
-        "ocultar o grub?"
+        "ocultar o grub?\n"
 msgstr  ""
 
-msgid   "Você saberá retornar o Grub em caso de falha?"
+msgid   "Você saberá retornar o Grub em caso de falha?\n"
 msgstr  ""
 
-msgid   "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgid   "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?\n"
 msgstr  ""
 
-msgid   "Você está completamente seguro dessa aplicação?"
+msgid   "Você está completamente seguro dessa aplicação?\n"
 msgstr  ""
 
-msgid   "Aplicando, aguarde..."
+msgid   "Aplicando, aguarde...\n"
 msgstr  ""
 
-msgid   "Concluído!"
+msgid   "Concluído!\n"
 msgstr  ""
 
-msgid   "Desempenho em modo normal!"
+msgid   "Desempenho em modo normal!\n"
 msgstr  ""
 
-msgid   "Desempenho em modo otimizado!"
+msgid   "Desempenho em modo otimizado!\n"
 msgstr  ""
