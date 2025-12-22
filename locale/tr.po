@@ -44,6 +44,8 @@ msgid "Cuidado você perderá acesso aos SnapShots, tem certeza que deseja ocult
 msgstr "Dikkat, SnapShot'lara erişiminizi kaybedeceksiniz, grub'u gizlemek istediğinizden emin misiniz?"
 msgid "Você saberá retornar o Grub em caso de falha?\n"
 msgstr "Hata durumunda Grub'ı geri döndürebilecek misiniz?"
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?\n"
+msgstr "Erişim moduna ihtiyaç duymadan SnapShot'lara erişebilecek misiniz?"
 msgid "Você está completamente seguro dessa aplicação?\n"
 msgstr "Uygulamanın tamamen güvenli olduğundan emin misiniz?"
 msgid "Aplicando, aguarde...\n"
