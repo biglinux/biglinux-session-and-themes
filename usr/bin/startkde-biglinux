@@ -179,4 +179,16 @@ portal-kde-verify.sh &
 # In some laptops backlight not restore correctly, try fix this
 sudo biglinux-backlight-restore 2> /dev/null &
 
+# Fix accent problem in GTK
+if [[ ! -e ~/.config/big_enabled_fcitx ]] && [[ -e /usr/share/applications/fcitx5-wayland-launcher.desktop ]] && ! grep -q 'InputMethod\[$e\]=' "$HOME/.config/kwinrc"; then
+    # Create file to only enable one time
+    > ~/.config/big_enabled_fcitx
+
+    # Add without [ and ] because is incompatible with kwriteconfig6
+    kwriteconfig6 --group "Wayland" --key 'InputMethod$e' --file "$HOME/.config/kwinrc" "/usr/share/applications/fcitx5-wayland-launcher.desktop"
+
+    # Fix [$e]
+    sed -i 's|InputMethod$e|InputMethod[$e]|g' "$HOME/.config/kwinrc"
+fi
+
 exec startplasma-$XDG_SESSION_TYPE
