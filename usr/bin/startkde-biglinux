@@ -97,13 +97,6 @@ if [ ! -e "$HOME/.kdebiglinux/lastlogin" ] && [ -e "$DESKTOP_FILE" ]; then
     big-theme-plasma --apply $(cut -f2 -d" " "$DESKTOP_FILE") quiet
 fi
 
-# In Plasma 6.1 if not use empty session, logoff lock system, change to empty
-if [ ! -e "$HOME/.kdebiglinux/ksmserver_changed" ]; then
-    mkdir -p ~/.kdebiglinux
-    > "$HOME/.kdebiglinux/ksmserver_changed"
-    kwriteconfig6 --file ~/.config/ksmserverrc --group 'General' --key 'loginMode' 'emptySession'
-fi
-
 OIFS=$IFS
 IFS=$'\n'
 # Automatic rename wallpaper if needed
@@ -160,15 +153,6 @@ if [ ! -e "$HOME/.config/freespacenotifierrc" ] && [ ! -e "/livefs-pkgs.txt" ]; 
 minimumSpace=5000' > "$HOME/.config/freespacenotifierrc"
 fi
 
-# Remove old plasmoids from plasma5
-if [ -e "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.systemtray" ]; then
-    mv "$HOME/.local/share/plasma/plasmoids/" "$HOME/.local/share/plasma/plasmoids-old/"
-fi
-
-if [ -e "$HOME/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray" ]; then
-    mv "$HOME/.local/share/plasma/plasmoids/" "$HOME/.local/share/plasma/plasmoids-old/"
-fi
-
 export XDG_SESSION_DESKTOP=KDE
 
 # Enable support to import ssh key
@@ -180,7 +164,7 @@ portal-kde-verify.sh &
 sudo biglinux-backlight-restore 2> /dev/null &
 
 # Fix accent problem in GTK
-if [[ ! -e ~/.config/big_enabled_fcitx ]] && [[ -e /usr/share/applications/fcitx5-wayland-launcher.desktop ]] && ! grep -q 'InputMethod\[$e\]=' "$HOME/.config/kwinrc"; then
+if [[ ! -e ~/.config/big_enabled_fcitx || -e /livefs-pkgs.txt ]] && [[ "$1" = "wayland" && -e /usr/share/applications/fcitx5-wayland-launcher.desktop ]] && ! grep -q 'InputMethod\[$e\]=' "$HOME/.config/kwinrc"; then
     # Create file to only enable one time
     > ~/.config/big_enabled_fcitx
 
