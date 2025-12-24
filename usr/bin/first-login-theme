@@ -5,8 +5,6 @@
 
 CONFIG_DIR="/etc/big-default-config"
 
-/usr/share/bigbashview/bcc/apps/biglinux-themes-gui/lock-desktop.run
-
 if [ ! -e "$HOME/.local/share/user-places-big.xbel" ]; then
     # Hide recent files in dolphin
     sed -i 's|<GroupState-RecentlySaved-IsHidden>false</GroupState-RecentlySaved-IsHidden>|<GroupState-RecentlySaved-IsHidden>true</GroupState-RecentlySaved-IsHidden>|g' ~/.local/share/user-places.xbel
@@ -16,10 +14,7 @@ fi
 # Theme configuration
 THEME_FILE="$CONFIG_DIR/theme"
 
-if [ ! -e "$THEME_FILE" ] || [ -e "$HOME/.big_desktop_theme" ] || [ -e "/tmp/big_desktop_theme" ]; then
-    # Skip theme application - either no config or user already has custom theme
-    :
-else
+if [ -e "$THEME_FILE" ] || [ ! -e "$HOME/.big_desktop_theme" ] || [ ! -e "/tmp/big_desktop_theme" ]; then
     export BIG_THEME="$(<"$THEME_FILE")"
     big-theme-apps --apply $BIG_THEME
     systemctl --user enable big-welcome
@@ -29,12 +24,11 @@ fi
 JAMESDSP_FLAG="$CONFIG_DIR/jamesdsp"
 
 if [ -e "$JAMESDSP_FLAG" ] && [ -e "/usr/bin/jamesdsp" ]; then
-    mkdir -p "$HOME/.config/jamesdsp"
     if [ -e "$HOME/.config/jamesdsp/application.conf" ]; then
         sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
+    else
+        sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
     fi
-    # Enable JamesDSP autostart via systemd user service if available
-    systemctl --user enable jamesdsp.service 2>/dev/null || true
 fi
 
 # ICC/Display profile configuration - apply if flag exists
