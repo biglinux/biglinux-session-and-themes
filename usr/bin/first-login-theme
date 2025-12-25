@@ -5,7 +5,7 @@
 
 CONFIG_DIR="/etc/big-default-config"
 
-if [ ! -e "$HOME/.local/share/user-places-big.xbel" ]; then
+if [[ ! -e "$HOME/.local/share/user-places-big.xbel" ]]; then
     # Hide recent files in dolphin
     sed -i 's|<GroupState-RecentlySaved-IsHidden>false</GroupState-RecentlySaved-IsHidden>|<GroupState-RecentlySaved-IsHidden>true</GroupState-RecentlySaved-IsHidden>|g' ~/.local/share/user-places.xbel
     > "$HOME/.local/share/user-places-big.xbel"
@@ -14,7 +14,7 @@ fi
 # Theme configuration
 THEME_FILE="$CONFIG_DIR/theme"
 
-if [ -e "$THEME_FILE" ] || [ ! -e "$HOME/.big_desktop_theme" ] || [ ! -e "/tmp/big_desktop_theme" ]; then
+if [[ -e "$THEME_FILE" || ! -e "$HOME/.big_desktop_theme" || ! -e "/tmp/big_desktop_theme" ]]; then
     export BIG_THEME="$(<"$THEME_FILE")"
     big-theme-apps --apply $BIG_THEME
     systemctl --user enable big-welcome
@@ -23,7 +23,7 @@ fi
 # JamesDSP configuration - apply if flag exists
 JAMESDSP_FLAG="$CONFIG_DIR/jamesdsp"
 
-if [[ -e "$JAMESDSP_FLAG" && -e "/usr/bin/jamesdsp" -e "$HOME/.config/jamesdsp/application.conf" ]] ; then
+if [[ -e "$JAMESDSP_FLAG" && -e "/usr/bin/jamesdsp" && -e "$HOME/.config/jamesdsp/application.conf" ]] ; then
     sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
 else
     sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
