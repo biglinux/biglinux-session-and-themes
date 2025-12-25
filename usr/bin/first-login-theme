@@ -23,18 +23,16 @@ fi
 # JamesDSP configuration - apply if flag exists
 JAMESDSP_FLAG="$CONFIG_DIR/jamesdsp"
 
-if [ -e "$JAMESDSP_FLAG" ] && [ -e "/usr/bin/jamesdsp" ]; then
-    if [ -e "$HOME/.config/jamesdsp/application.conf" ]; then
-        sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
-    else
-        sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
-    fi
+if [[ -e "$JAMESDSP_FLAG" && -e "/usr/bin/jamesdsp" -e "$HOME/.config/jamesdsp/application.conf" ]] ; then
+    sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
+else
+    sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
 fi
 
 # ICC/Display profile configuration - apply if flag exists
 DISPLAY_PROFILE_FLAG="$CONFIG_DIR/display-profile"
 
-if [ -e "$DISPLAY_PROFILE_FLAG" ] && [ -e "/usr/share/color/icc/colord/ECI-RGBv1.icc" ]; then
+if [[ -e "$DISPLAY_PROFILE_FLAG" && -e "/usr/share/color/icc/colord/ECI-RGBv1.icc" && -e "/usr/share/biglinux/livecd/script/icc_profile.sh"  ]]; then
     # Apply ICC profile to kwin output configuration
     if [ -e "/usr/share/biglinux/livecd/script/icc_profile.sh" ]; then
         /usr/share/biglinux/livecd/script/icc_profile.sh enable 2>/dev/null || true
