@@ -33,8 +33,5 @@ fi
 DISPLAY_PROFILE_FLAG="$CONFIG_DIR/display-profile"
 
 if [[ -e "$DISPLAY_PROFILE_FLAG" && -e "/usr/share/color/icc/colord/ECI-RGBv1.icc" && -e "/usr/share/biglinux/livecd/script/icc_profile.sh"  ]]; then
-    # Apply ICC profile to kwin output configuration
-    if [ -e "/usr/share/biglinux/livecd/script/icc_profile.sh" ]; then
-        /usr/share/biglinux/livecd/script/icc_profile.sh enable 2>/dev/null || true
-    fi
+        icc_profile.sh enable 2>/dev/null
 fi
