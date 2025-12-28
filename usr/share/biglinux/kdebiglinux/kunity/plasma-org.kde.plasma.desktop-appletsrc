@@ -390,8 +390,8 @@ DialogWidth=720
 
 [Containments][36][Applets][61][Configuration][General]
 launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=false
+middleClickAction=None
+interactiveMute=false
 showOnlyCurrentScreen=true
 unhideOnAttention=false
 
@@ -634,8 +634,8 @@ DialogWidth=720
 
 [Containments][38][Applets][61][Configuration][General]
 launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=false
+middleClickAction=None
+interactiveMute=false
 showOnlyCurrentScreen=true
 unhideOnAttention=false
 
@@ -878,8 +878,8 @@ DialogWidth=720
 
 [Containments][40][Applets][61][Configuration][General]
 launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=false
+middleClickAction=None
+interactiveMute=false
 showOnlyCurrentScreen=true
 unhideOnAttention=false
 
@@ -1122,8 +1122,8 @@ DialogWidth=720
 
 [Containments][42][Applets][61][Configuration][General]
 launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=false
+middleClickAction=None
+interactiveMute=false
 showOnlyCurrentScreen=true
 unhideOnAttention=false
 

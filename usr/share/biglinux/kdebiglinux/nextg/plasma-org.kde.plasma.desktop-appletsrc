@@ -74,11 +74,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][38][Applets][38][Configuration][General]
-indicateAudioStreams=false
 launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:big-store.desktop,applications:bigcontrolcenter.desktop
 middleClickAction=None
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=false
+interactiveMute=false
 showOnlyCurrentScreen=true
 unhideOnAttention=false
 wheelEnabled=false
@@ -395,11 +393,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][42][Applets][38][Configuration][General]
-indicateAudioStreams=false
 launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:big-store.desktop,applications:bigcontrolcenter.desktop
 middleClickAction=None
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=false
+interactiveMute=false
 showOnlyCurrentScreen=true
 unhideOnAttention=false
 wheelEnabled=false
@@ -677,11 +673,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][46][Applets][38][Configuration][General]
-indicateAudioStreams=false
 launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:big-store.desktop,applications:bigcontrolcenter.desktop
 middleClickAction=None
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=false
+interactiveMute=false
 showOnlyCurrentScreen=true
 unhideOnAttention=false
 wheelEnabled=false
@@ -959,11 +953,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][50][Applets][38][Configuration][General]
-indicateAudioStreams=false
 launchers=preferred://filemanager,preferred://browser,applications:org.gnome.Calculator.desktop,applications:org.kde.kate.desktop,applications:big-store.desktop,applications:bigcontrolcenter.desktop
 middleClickAction=None
-showOnlyCurrentActivity=false
-showOnlyCurrentDesktop=false
+interactiveMute=false
 showOnlyCurrentScreen=true
 unhideOnAttention=false
 wheelEnabled=false

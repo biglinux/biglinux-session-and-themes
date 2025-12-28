@@ -95,9 +95,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][38][Configuration][General]
-indicateAudioStreams=false
 launchers=preferred://browser,preferred://filemanager
 middleClickAction=None
+interactiveMute=false
 showOnlyCurrentScreen=true
 wheelEnabled=false
 
@@ -322,9 +322,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][3][Applets][38][Configuration][General]
-indicateAudioStreams=false
 launchers=preferred://browser,preferred://filemanager
 middleClickAction=None
+interactiveMute=false
 showOnlyCurrentScreen=true
 wheelEnabled=false
 
@@ -550,9 +550,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][4][Applets][38][Configuration][General]
-indicateAudioStreams=false
 launchers=preferred://browser,preferred://filemanager
 middleClickAction=None
+interactiveMute=false
 showOnlyCurrentScreen=true
 wheelEnabled=false
 
@@ -777,9 +777,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][5][Applets][38][Configuration][General]
-indicateAudioStreams=false
 launchers=preferred://browser,preferred://filemanager
 middleClickAction=None
+interactiveMute=false
 showOnlyCurrentScreen=true
 wheelEnabled=false
 
