@@ -1,56 +1,94 @@
 #!/bin/bash
 #
 # ICC Profile Configuration Script
-# Enables or disables ICC color profile in KWin output configuration
+# Enables or disables ICC color profile for all connected displays
 #
-# Usage: icc_profile.sh enable|disable
+# Usage: icc_profile_apply enable|disable
 #
-# Requires: jaq (JSON processor)
+# Uses kscreen-doctor (KDE's official display configuration tool)
 #
 
-CONFIG_FILE="$HOME/.config/kwinoutputconfig.json"
 ICC_PROFILE_PATH="/usr/share/color/icc/colord/ECI-RGBv1.icc"
 
 show_usage() {
-    echo "Usage: $0 enable|disable"
-    echo "  enable  - Set colorProfileSource to ICC (use color profile)"
-    echo "  disable - Set colorProfileSource to sRGB (standard RGB)"
+    echo "Usage: $0 enable|disable|status"
+    echo "  enable  - Apply ICC color profile to all displays"
+    echo "  disable - Revert to sRGB color space"
+    echo "  status  - Show current ICC profile status for all displays"
     exit 1
 }
 
-# Check if config file exists
-if [ ! -f "$CONFIG_FILE" ]; then
-    echo "Error: KWin output config not found at $CONFIG_FILE"
+show_status() {
+    # Get list of connected outputs using JSON output
+   
+    echo "=== ICC Profile Status ==="
+    echo ""
+    
+    # Parse each output
+    kscreen-doctor -j 2>/dev/null | jq -r '.outputs[] | "\(.name)|\(.iccProfilePath // "None")"' | while IFS='|' read -r name profile; do
+        echo "Display: $name"
+        
+    
+        # Check if ICC profile is active
+        if grep -q '"colorProfileSource": "ICC"' ~/.config/kwinoutputconfig.json; then
+            echo "  Status: ACTIVE"
+            echo "  ICC Profile: $profile"
+        else
+            echo "  Status: INACTIVE"
+            echo "  ICC Profile: None"
+        fi
+    done
+}
+
+# Check for kscreen-doctor
+if ! command -v kscreen-doctor &> /dev/null; then
+    echo "Error: kscreen-doctor is required but not installed"
     exit 1
 fi
 
 # Parse argument
 case "$1" in
     enable)
-        COLOR_SOURCE="ICC"
+        ACTION="enable"
         ;;
     disable)
-        COLOR_SOURCE="sRGB"
+        ACTION="disable"
+        ;;
+    status)
+        show_status
+        exit 0
         ;;
     *)
         show_usage
         ;;
 esac
 
-# Apply configuration
-jq -i "map(
-  if .data then
-    .data |= map(
-      if has(\"edidHash\") then
-        .iccProfilePath = \"$ICC_PROFILE_PATH\"
-        | .colorProfileSource = \"$COLOR_SOURCE\"
-      else
-        .
-      end
-    )
-  else
-    .
-  end
-)" "$CONFIG_FILE"
+# Get list of connected outputs using JSON output (more reliable)
+OUTPUTS=$(kscreen-doctor -j 2>/dev/null | jq -r '.outputs[].name')
 
-echo "ICC profile $1d successfully"
+if [ -z "$OUTPUTS" ]; then
+    echo "Error: No display outputs found"
+    exit 1
+fi
+
+# Apply to each output
+for OUTPUT in $OUTPUTS; do
+    if [ "$ACTION" = "enable" ]; then
+        # Apply ICC profile and set source to ICC
+        kscreen-doctor "output.$OUTPUT.iccprofile.$ICC_PROFILE_PATH" 2>/dev/null
+        kscreen-doctor "output.$OUTPUT.colorprofilesource.ICC" 2>/dev/null
+        # Enable Wide Color Gamut for proper color display
+#         kscreen-doctor "output.$OUTPUT.wcg.disable" 2>/dev/null
+        # Set SDR Gamut Wideness to 100% for full wide color gamut
+#         kscreen-doctor "output.$OUTPUT.sdrGamut.100" 2>/dev/null
+    else
+        # Clear the ICC profile path (remove the profile)
+        kscreen-doctor "output.$OUTPUT.iccprofile." 2>/dev/null
+        # Revert to sRGB color source
+        kscreen-doctor "output.$OUTPUT.colorprofilesource.sRGB" 2>/dev/null
+        # Disable Wide Color Gamut
+#         kscreen-doctor "output.$OUTPUT.wcg.disable" 2>/dev/null
+    fi
+done
+
+echo "ICC profile ${ACTION}d successfully for outputs: $OUTPUTS"
