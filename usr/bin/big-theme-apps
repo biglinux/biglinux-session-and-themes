@@ -23,12 +23,25 @@ case "$1" in
 	#Confere se o arquivo existe
     if [ -e "$folder/$2" ]; then
         cp -Rf $folder/$2/. "$HOME"
+        
+        # Change GTK3 color
+        dconf write /org/gnome/desktop/interface/gtk-theme "'$(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)'"
 
-        #Fix icon color in smplayer
-        if [ "$(echo "$2" | grep -i dark)" = "" ]
-		then
+        if [[ "$2" =~ "dark" ]]; then
+            # Fix Gimp Color
+            if grep '(theme-color-scheme light)'  "$HOME/.config/GIMP/3.0/gimprc"; then
+                sed -i '/(theme-color-scheme light)/d' "$HOME/.config/GIMP/3.0/gimprc"
+            fi
+            
+            #Fix icon color in smplayer
             sed -i 's|^ *\biconset\b *=.*|iconset=Papirus|' ~/.config/smplayer/smplayer.ini
 		else
+            # Fix Gimp Color
+            if ! grep '(theme-color-scheme light)'  "$HOME/.config/GIMP/3.0/gimprc"; then
+                echo '(theme-color-scheme light)' >> "$HOME/.config/GIMP/3.0/gimprc"
+            fi
+            
+            #Fix icon color in smplayer
             sed -i 's|^ *\biconset\b *=.*|iconset=PapirusDark|' ~/.config/smplayer/smplayer.ini
 		fi
 
@@ -60,8 +73,8 @@ case "$1" in
             kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
         fi
 
-        # Run specific desktop tweaks
-        /usr/share/biglinux/multi-kde/$(<~/.kdebiglinux/lastused)
+        # Enable gtkconfig in kde config
+        kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded6rc --key autoload true
         
         if pgrep plasmashell; then
 
@@ -75,12 +88,8 @@ case "$1" in
                 # Apply Theme
                 plasma-apply-colorscheme $(kreadconfig6 --group General --key ColorScheme --file "$folder/$2/.config/kdeglobals")
 
-                # Enable gtkconfig in kde config
-                kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded6rc --key autoload true
-
                 #Configure GTK
                 qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
-                gtk-reload.py
                 systemctl --user restart plasma-xdg-desktop-portal-kde.service
         fi
         
