@@ -23,7 +23,7 @@ fi
 # JamesDSP configuration - apply if flag exists
 JAMESDSP_FLAG="$CONFIG_DIR/jamesdsp"
 
-if [[ -e "$JAMESDSP_FLAG" && -e "/usr/bin/jamesdsp" && -e "$HOME/.config/jamesdsp/application.conf" ]] ; then
+if [[ -e "$JAMESDSP_FLAG" && -e "/usr/bin/jamesdsp" && -e "$HOME/.config/jamesdsp/application.conf" ]] || [[ -e /tmp/big_enable_jamesdsp && -e /livefs-pkgs.txt ]] ; then
     sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
 else
     sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
