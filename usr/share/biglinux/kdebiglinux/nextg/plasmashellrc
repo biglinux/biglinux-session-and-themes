@@ -4,6 +4,7 @@ PreloadWeight=0
 [PlasmaViews][Panel 38]
 floating=1
 panelLengthMode=2
+panelOpacity=2
 panelVisibility=2
 
 [PlasmaViews][Panel 38][Defaults]
@@ -25,6 +26,7 @@ thickness=27
 [PlasmaViews][Panel 42]
 floating=1
 panelLengthMode=2
+panelOpacity=2
 panelVisibility=2
 
 [PlasmaViews][Panel 42][Defaults]
@@ -46,6 +48,7 @@ thickness=27
 [PlasmaViews][Panel 46]
 floating=1
 panelLengthMode=2
+panelOpacity=2
 panelVisibility=2
 
 [PlasmaViews][Panel 46][Defaults]
@@ -67,6 +70,7 @@ thickness=27
 [PlasmaViews][Panel 50]
 floating=1
 panelLengthMode=2
+panelOpacity=2
 panelVisibility=2
 
 [PlasmaViews][Panel 50][Defaults]
