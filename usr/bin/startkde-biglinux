@@ -87,8 +87,10 @@ fi
 # Theme, Desktop and JamesDSP configuration in first login
 themeFile="/etc/big-default-config/theme"
 if [[ -e "$themeFile" && ! -e "$HOME/.big_desktop_theme" ]] || [[ -e "/tmp/big_desktop_theme" && ! -e "$themeFile" ]]; then
-    export BIG_THEME="$(<"$themeFile")"
-    big-theme-apps --apply $BIG_THEME
+    if [[ ! -e "$themeFile" && -e "/tmp/big_desktop_theme" ]]; then
+        themeFile="/tmp/big_desktop_theme"
+    fi
+    big-theme-apps --apply "$(<"$themeFile")"
     systemctl --user enable big-welcome
 
     # JamesDSP
