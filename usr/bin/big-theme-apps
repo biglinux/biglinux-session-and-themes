@@ -29,6 +29,9 @@ case "$1" in
     if [ -e "$folder/$2" ]; then
         cp -Rf $folder/$2/. "$HOME"
         
+        # Change GTK3 color
+        dconf write /org/gnome/desktop/interface/gtk-theme "'$(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)'"
+
         # Restore InputMethod
         if [[ -n $inputMethod ]]; then
             kwriteconfig6 --group "Wayland" --key 'InputMethod$e' --file "$HOME/.config/kwinrc" "$inputMethod"
@@ -37,9 +40,6 @@ case "$1" in
         fi
 
         
-        # Change GTK3 color
-        dconf write /org/gnome/desktop/interface/gtk-theme "'$(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)'"
-
         if [[ "$2" =~ "dark" ]]; then
             # Fix Gimp Color
             if grep '(theme-color-scheme light)'  "$HOME/.config/GIMP/3.0/gimprc"; then
@@ -107,7 +107,7 @@ case "$1" in
                 qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme ${ grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=; }
                 systemctl --user restart plasma-xdg-desktop-portal-kde.service
         fi
-        
+
         echo "$2" > "$HOME/.big_desktop_theme"
         
    else
