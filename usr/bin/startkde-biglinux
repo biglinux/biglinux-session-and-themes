@@ -89,18 +89,18 @@ themeFile="/etc/big-default-config/theme"
 if [[ -e "$themeFile" && ! -e "$HOME/.big_desktop_theme" ]]; then
     big-theme-apps --apply "$(<"$themeFile")"
     systemctl --user enable big-welcome
+    
+    # JamesDSP
+    if [[ -e "/etc/big-default-config/jamesdsp" && -e "$HOME/.config/jamesdsp/application.conf" ]] || [[ -e /tmp/big_enable_jamesdsp && -e /livefs-pkgs.txt ]] ; then
+        sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
+    else
+        sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
+    fi
 fi
 
 if [[ ! -e "$themeFile" && -e "$HOME/.big_desktop_theme" ]]; then
     # Change GTK3 color
     dconf write /org/gnome/desktop/interface/gtk-theme "'$(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)'"
-fi
-
-# JamesDSP
-if [[ -e "/etc/big-default-config/jamesdsp" && -e "$HOME/.config/jamesdsp/application.conf" ]] || [[ -e /tmp/big_enable_jamesdsp && -e /livefs-pkgs.txt ]] ; then
-    sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
-else
-    sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
 fi
 
 # Desktop layout configuration
