@@ -1,0 +1,13 @@
+post_install() {
+    systemctl --global enable plasma-big-apply-icc
+}
+
+pre_remove() {
+    if [[ -e /usr/lib/systemd/user/plasma-big-apply-icc.service ]]; then
+       systemctl --global disable plasma-big-apply-icc
+    fi
+} 
+
+post_upgrade() {
+    systemctl --global enable plasma-big-apply-icc
+}

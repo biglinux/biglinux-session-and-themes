@@ -1,0 +1,23 @@
+[Unit]
+Description=If need apply icc profile
+PartOf=graphical-session.target
+
+[Unit]
+Description=Jamesdsp Autostart
+
+ConditionUser=!root
+Wants=plasma-kwin_wayland.service
+After=plasma-kscreen.service plasma-kwin_wayland.service
+
+[Service]
+Type=simple
+# If (exit code 1), the service will not start.
+# We use %h to represent the user's home folder.
+ExecCondition=/bin/sh -c "[ ! -e "%h/.kdebiglinux/icc_profile_used" && -e /etc/big-default-config/display-profile ]"
+
+ExecStart=icc_profile_apply enable
+Restart=on-failure
+Slice=session.slice
+
+[Install]
+WantedBy=default.target

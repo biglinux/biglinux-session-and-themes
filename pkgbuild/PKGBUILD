@@ -11,6 +11,7 @@ url="https://github.com/biglinux/biglinux-session-and-themes"
 pkgdesc="Essential package to BigLinux KDE session"
 source=("git+https://github.com/biglinux/biglinux-session-and-themes.git")
 md5sums=(SKIP)
+install=biglinux-session-and-themes.install
 
 package() {
     # Verify default folder

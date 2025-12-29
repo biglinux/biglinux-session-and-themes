@@ -28,10 +28,3 @@ if [[ -e "$JAMESDSP_FLAG" && -e "/usr/bin/jamesdsp" && -e "$HOME/.config/jamesds
 else
     sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
 fi
-
-# ICC/Display profile configuration - apply if flag exists
-DISPLAY_PROFILE_FLAG="$CONFIG_DIR/display-profile"
-
-if [[ -e "$DISPLAY_PROFILE_FLAG" && -e "/usr/share/color/icc/colord/ECI-RGBv1.icc"  ]]; then
-        icc_profile_apply enable 2>/dev/null
-fi
