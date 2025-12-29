@@ -71,6 +71,8 @@ if [ -z "$OUTPUTS" ]; then
     exit 1
 fi
 
+ExecCondition=/bin/sh -c "[ ! -e "%h/.kdebiglinux/icc_profile_used" ] && [ -e /etc/big-default-config/display-profile ]"
+
 # Apply to each output
 for OUTPUT in $OUTPUTS; do
     if [ "$ACTION" = "enable" ]; then
@@ -81,6 +83,12 @@ for OUTPUT in $OUTPUTS; do
 #         kscreen-doctor "output.$OUTPUT.wcg.disable" 2>/dev/null
         # Set SDR Gamut Wideness to 100% for full wide color gamut
         kscreen-doctor "output.$OUTPUT.sdrGamut.100" 2>/dev/null
+        
+        # Save info to not auto apply in next boot
+        if [[ ! -e "$HOME/.kdebiglinux/icc_profile_used" ]]; then
+            mkdir -p ~/.kdebiglinux
+            >  "$HOME/.kdebiglinux/icc_profile_used"
+        fi
     else
         # Clear the ICC profile path (remove the profile)
         kscreen-doctor "output.$OUTPUT.iccprofile." 2>/dev/null
