@@ -80,7 +80,7 @@ for OUTPUT in $OUTPUTS; do
         # Enable Wide Color Gamut for proper color display
 #         kscreen-doctor "output.$OUTPUT.wcg.disable" 2>/dev/null
         # Set SDR Gamut Wideness to 100% for full wide color gamut
-#         kscreen-doctor "output.$OUTPUT.sdrGamut.100" 2>/dev/null
+        kscreen-doctor "output.$OUTPUT.sdrGamut.100" 2>/dev/null
     else
         # Clear the ICC profile path (remove the profile)
         kscreen-doctor "output.$OUTPUT.iccprofile." 2>/dev/null
