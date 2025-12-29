@@ -1,0 +1,11 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = fcitx5
+Target = biglinux-session-and-themes
+
+[Action]
+Description = fcitx5-wayland-launcher without reopen
+When = PostTransaction
+Exec = /bin/sh -c 'sed -i "s|/usr/lib/fcitx5-wayland-launcher --reopen|/usr/lib/fcitx5-wayland-launcher|g" /usr/share/applications/fcitx5-wayland-launcher.desktop'
