@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Disable shader cache in QT to better speed https://invent.kde.org/plasma/kwin/-/merge_requests/5802
-# export QT_DISABLE_SHADER_DISK_CACHE=1
-
 # Bolder font rendering
 #export FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
 
@@ -12,13 +9,11 @@ if vulkaninfo --summary 2> /dev/null | grep 'deviceName' | grep -vq 'llvmpipe'; 
     unset QSG_RENDER_LOOP
     [[ -z $Vulkan_Supported ]] && export Vulkan_Supported=1
 else
-    [[ -z $QSG_RENDER_LOOP ]]  && export QSG_RENDER_LOOP="basic"
-    
-    # If using mesa amber force cairo renderer
+    # If using mesa amber or virtualization force cairo renderer
     if compgen -G /var/lib/pacman/local/mesa-amber-* || systemd-detect-virt -q; then
         [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="cairo"
     else
-        [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="ngl"
+        [[ -z $GSK_RENDERER ]] && export GSK_RENDERER="gl"
     fi
 fi
 
@@ -33,7 +28,7 @@ if [ "$1" = "wayland" ]; then
     exec --no-startup-id /usr/lib/pam_kwallet_init
 
 else
-
+    # X11 Config
     RESOLUTION="$(xdpyinfo | awk '/dimensions/ {print $2}')"
     SCREEN="$(xrandr | grep 'connected primary' | cut -f1 -d" ")"
     WIDTH=${RESOLUTION//x*}
@@ -69,10 +64,6 @@ if [[ ${kernel_version/.} -le 66 ]] then
     [[ -z $RADV_PERFTEST ]] && export RADV_PERFTEST=sam,nggc,ext_ms
 fi
 
-    
-# Vulkan ICD folder
-# [[ -z $ICD_DIR ]] && export ICD_DIR=/usr/share/vulkan/icd.d
-
 #Keyboard LED
 if [ -e "$HOME/.config/ledkeyboard" ]; then
    big-keyboard-led on
@@ -86,16 +77,34 @@ if [ -e "/usr/bin/obs-vkcapture" ]; then
     [[ -z $VK_INSTANCE_LAYERS ]] && export VK_INSTANCE_LAYERS=VK_LAYER_MANGOHUD_overlay:VK_LAYER_OBS_vkcapture_64:VK_LAYER_VALVE_steam_overlay_64
 fi
 
-# Theme in first login
-first-login-theme
-
-# Desktop layout configuration
-CONFIG_DIR="/etc/big-default-config"
-DESKTOP_FILE="$CONFIG_DIR/desktop"
-
-if [ ! -e "$HOME/.kdebiglinux/lastlogin" ] && [ -e "$DESKTOP_FILE" ]; then
-    big-theme-plasma --apply $(cut -f2 -d" " "$DESKTOP_FILE") quiet
+# Add this user-places in first login
+if [[ ! -e "$HOME/.local/share/user-places-big.xbel" ]]; then
+    # Hide recent files in dolphin
+    sed -i 's|<GroupState-RecentlySaved-IsHidden>false</GroupState-RecentlySaved-IsHidden>|<GroupState-RecentlySaved-IsHidden>true</GroupState-RecentlySaved-IsHidden>|g' ~/.local/share/user-places.xbel
+    > "$HOME/.local/share/user-places-big.xbel"
 fi
+
+# Theme, Desktop and JamesDSP configuration in first login
+themeFile="/etc/big-default-config/theme"
+if [[ -e "$themeFile" && ! -e "$HOME/.big_desktop_theme" ]] || [[ -e "/tmp/big_desktop_theme" && ! -e "$themeFile" ]]; then
+    export BIG_THEME="$(<"$themeFile")"
+    big-theme-apps --apply $BIG_THEME
+    systemctl --user enable big-welcome
+
+    # JamesDSP
+    if [[ -e "/etc/big-default-config/jamesdsp" && -e "$HOME/.config/jamesdsp/application.conf" ]] || [[ -e /tmp/big_enable_jamesdsp && -e /livefs-pkgs.txt ]] ; then
+        sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
+    else
+        sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
+    fi
+    
+    # Desktop layout configuration
+    desktopFile="/etc/big-default-config/desktop"
+    if [ ! -e "$HOME/.kdebiglinux/lastlogin" ] && [ -e "$desktopFile" ]; then
+        big-theme-plasma --apply $(cut -f2 -d" " "$desktopFile") quiet
+    fi
+fi
+
 
 OIFS=$IFS
 IFS=$'\n'
@@ -107,24 +116,18 @@ for i in $(grep -o '/usr/share/wallpapers/.*.avif' ~/.config/plasma-org.kde.plas
 done
 IFS=$OIFS
 
-
-nowlogin="$(<"$HOME/.kdebiglinux/lastused")"
-#ultimo login
-lastlogin=$(<"$HOME/.kdebiglinux/lastlogin")
-
 #Get id from last wallpaper
-ID=$(grep -Eo '\[Containments\]\[[0-9]{1,5}\]\[Wallpaper\]\[org.kde.image\]' ~/.config/plasma-org.kde.plasma.desktop-appletsrc|head -n1|sed 's|\[||g;s|\]| |g'|cut -f2 -d' ')
+wallpaperId=${ grep -m1 -Eo '\[Containments\]\[[0-9]{1,5}\]\[Wallpaper\]\[org.kde.image\]' ~/.config/plasma-org.kde.plasma.desktop-appletsrc | awk -F '\\[|\\]' '{print $4}'; }
 
 #Get path from last wallpaper
-WALLPAPER="$(kreadconfig6 --file ~/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $ID --group Wallpaper --group org.kde.image --group General --key Image|sed 's|file://||')"
+plasmaWallpaper=${ kreadconfig6 --file ~/.config/plasma-org.kde.plasma.desktop-appletsrc --group Containments --group $wallpaperId --group Wallpaper --group org.kde.image --group General --key Image; }
 
-#Link from wallpaper to ksplash
-ln -sf "$WALLPAPER" /tmp/bigksplash.jpg
+#Link from wallpaper to ksplash and if need remove file://
+ln -sf "${plasmaWallpaper#file://}" /tmp/bigksplash.jpg
 chmod 777 /tmp/bigksplash.jpg
 
-#if [[ "$XDG_SESSION_TYPE" != "wayland" ]]; then
-#    feh --bg-fill "/tmp/bigksplash.jpg" &
-#fi
+nowlogin=$(<"$HOME/.kdebiglinux/lastused")
+lastlogin=$(<"$HOME/.kdebiglinux/lastlogin")
 
 # Fix full screen when switch desktop for globalmenu on or off
 if [ "$nowlogin" != "$lastlogin" ]; then

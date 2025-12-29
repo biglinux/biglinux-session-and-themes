@@ -9,6 +9,11 @@ case "$1" in
 
     --apply)
 
+    # Verify if using not default InputMethod
+    if grep -q 'InputMethod\[$e\]=' ~/.config/kwinrc; then
+       inputMethod=${ grep 'InputMethod\[$e\]=' ~/.config/kwinrc | cut -f2- -d'='; }
+    fi
+    
     rm -Rf ~/.cache/plasma*
     rm -Rf ~/.cache/kwin
     rm -Rf ~/.cache/gtk-3.0
@@ -23,6 +28,14 @@ case "$1" in
 	#Confere se o arquivo existe
     if [ -e "$folder/$2" ]; then
         cp -Rf $folder/$2/. "$HOME"
+        
+        # Restore InputMethod
+        if [[ -n $inputMethod ]]; then
+            kwriteconfig6 --group "Wayland" --key 'InputMethod$e' --file "$HOME/.config/kwinrc" "$inputMethod"
+            # Fix [$e]
+            sed -i 's|InputMethod$e|InputMethod[$e]|g' "$HOME/.config/kwinrc"
+        fi
+
         
         # Change GTK3 color
         dconf write /org/gnome/desktop/interface/gtk-theme "'$(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)'"
@@ -83,15 +96,15 @@ case "$1" in
                 qdbus6 org.kde.KWin /KWin org.kde.KWin.reconfigure
                 # Clean icon theme and apply again to fix kwin buttons
                 kwriteconfig6 --group Icons --key Theme ""
-                /usr/lib/plasma-changeicons $(kreadconfig6 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals")
+                /usr/lib/plasma-changeicons ${ kreadconfig6 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals"; }
 
                 # Change theme color to change back and fix on the fly change
                 plasma-apply-colorscheme KvArc
                 # Apply Theme
-                plasma-apply-colorscheme $(kreadconfig6 --group General --key ColorScheme --file "$folder/$2/.config/kdeglobals")
+                plasma-apply-colorscheme ${ kreadconfig6 --group General --key ColorScheme --file "$folder/$2/.config/kdeglobals"; }
 
                 #Configure GTK
-                qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)
+                qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme ${ grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=; }
                 systemctl --user restart plasma-xdg-desktop-portal-kde.service
         fi
         
