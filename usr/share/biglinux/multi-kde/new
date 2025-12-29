@@ -1,3 +1,0 @@
-#!/bin/sh
-
-kwriteconfig6 --group Plugins --key slidingpopupsEnabled --file ~/.config/kwinrc false

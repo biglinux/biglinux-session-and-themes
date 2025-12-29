@@ -81,71 +81,7 @@ else
     fi
 fi
 
-if [ "$(<"$HOME/.config/kwin_left")" = "1" ]; then
-    kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
-    gsettings set org.gnome.desktop.wm.preferences button-layout "close,maximize,minimize:menu"
-    kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
-    kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
-else
-    kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
-    gsettings set org.gnome.desktop.wm.preferences button-layout "menu:minimize,maximize,close"
-    kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
-    kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
-fi
-
-# Disable kwin border in maximized windows
-if [ "$(<"$HOME/.config/kwin_maximized_disable")" = "1" ]; then
-
-    #Chromium Brave Chrome
-    chromium_based_files=(
-    "$HOME/.config/chromium/Default/Preferences"
-    "$HOME/.config/BraveSoftware/Brave-Browser/Default/Preferences"
-    "$HOME/.config/google-chrome/Default/Preferences"
-    )
-    for file in "${chromium_based_files[@]}"; do
-        if grep -q 'custom_chrome_frame' "$file"; then
-            sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' "$file"
-        else
-            sed -i 's|"has_seen_welcome_page":|"custom_chrome_frame":false,"has_seen_welcome_page":|g' "$file"
-        fi
-    done
-    
-    #Firefox
-    if grep -q 'user_pref("browser.tabs.inTitlebar", 1);' ~/.mozilla/firefox/*default*/prefs.js; then
-        sed -i 's/user_pref("browser.tabs.inTitlebar", 1);/user_pref("browser.tabs.inTitlebar", 0);/' ~/.mozilla/firefox/*default*/prefs.js
-    else
-        echo 'user_pref("browser.tabs.inTitlebar", 0);' >> ~/.mozilla/firefox/*default*/prefs.js
-    fi
-  
-    #Kwin
-    # sed -i '/BorderlessMaximizedWindows=false/d' ~/.config/kwinrc
-    kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows true
-else
-    #Chromium Brave Chrome
-    chromium_based_files=(
-    "$HOME/.config/chromium/Default/Preferences"
-    "$HOME/.config/BraveSoftware/Brave-Browser/Default/Preferences"
-    "$HOME/.config/google-chrome/Default/Preferences"
-    )
-    for file in "${chromium_based_files[@]}"; do
-        if grep -q 'custom_chrome_frame' "$file"; then
-            sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g' "$file"
-        else
-            sed -i 's|"has_seen_welcome_page":|"custom_chrome_frame":true,"has_seen_welcome_page":|g' "$file"
-        fi
-    done
-
-    #Firefox
-    if grep -q 'user_pref("browser.tabs.inTitlebar", 0);' ~/.mozilla/firefox/*default*/prefs.js; then
-        sed -i 's/user_pref("browser.tabs.inTitlebar", 0);/user_pref("browser.tabs.inTitlebar", 1);/' ~/.mozilla/firefox/*default*/prefs.js
-    else
-        echo 'user_pref("browser.tabs.inTitlebar", 1);' >> ~/.mozilla/firefox/*default*/prefs.js
-    fi
-
-    #Kwin
-    # sed -i '/BorderlessMaximizedWindows=true/d' ~/.config/kwinrc
-    kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
-fi
+big-theme-globalmenu
 
 if [ "$2" = "vanilla" ]; then
     kwriteconfig6 --file ~/.config/kdeglobals --group Icons --key "Theme" "breeze"

@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# Side of minimize maximize and close buttons
+if [ "$(<"$HOME/.config/kwin_left")" = "1" ]; then
+    # GTK3
+    kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
+    # GTK4
+    kwriteconfig6 --file ~/.config/gtk-4.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
+    # GNOME/GSettings
+    gsettings set org.gnome.desktop.wm.preferences button-layout "close,maximize,minimize:menu"
+    # Kwin
+    kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
+    kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
+else
+    # GTK3
+    kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
+    # GTK4 (Novo)
+    kwriteconfig6 --file ~/.config/gtk-4.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
+    # GNOME/GSettings
+    gsettings set org.gnome.desktop.wm.preferences button-layout "menu:minimize,maximize,close"
+    # Kwin
+    kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
+    kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
+fi
+
+# Disable kwin border in maximized windows if needed for globalmenu
+if [ "$(<"$HOME/.config/kwin_maximized_disable")" = "1" ]; then
+    #Chromium Brave Chrome
+    sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g;s|"system_theme":1|"system_theme":2|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
+
+    #Firefox
+    if grep -q 'user_pref("browser.tabs.inTitlebar"' ~/.mozilla/firefox/*default*/prefs.js; then
+        sed -i 's|user_pref("browser.tabs.inTitlebar", 1);|user_pref("browser.tabs.inTitlebar", 0);|g' ~/.mozilla/firefox/*default*/prefs.js
+    else
+        echo 'user_pref("browser.tabs.inTitlebar", 0);' >> ~/.mozilla/firefox/*default*/prefs.js
+    fi
+    
+    #Kwin
+    kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows true
+else
+    #Chromium Brave Chrome
+    sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g;s|"system_theme":2|"system_theme":1|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
+
+    #Firefox
+    if grep -q 'user_pref("browser.tabs.inTitlebar"' ~/.mozilla/firefox/*default*/prefs.js; then
+        sed -i 's|user_pref("browser.tabs.inTitlebar", 0);|user_pref("browser.tabs.inTitlebar", 1);|g' ~/.mozilla/firefox/*default*/prefs.js
+    else
+        echo 'user_pref("browser.tabs.inTitlebar", 1);' >> ~/.mozilla/firefox/*default*/prefs.js
+    fi
+
+    #Kwin
+    kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
+fi

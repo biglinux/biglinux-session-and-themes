@@ -56,7 +56,7 @@ DialogWidth=720
 alphaSort=true
 customButtonImage=big-favicon-new
 favoritesPortedToKAstats=true
-systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
+systemFavorites=suspend\,hibernate\,reboot\,shutdown
 useCustomButtonImage=true
 
 [Containments][38][Applets][36][Configuration][Shortcuts]
@@ -81,14 +81,6 @@ showOnlyCurrentScreen=true
 unhideOnAttention=false
 wheelEnabled=false
 
-[Containments][38][Applets][63]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
-[Containments][38][Applets][63][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][38][Applets][65]
 immutability=1
 plugin=org.kde.plasma.lock_logout
@@ -100,12 +92,24 @@ DialogWidth=720
 [Containments][38][Applets][65][Configuration][General]
 show_lockScreen=false
 
-[Containments][38][Applets][66]
+[Containments][38][Applets][76]
 immutability=1
-plugin=org.kde.plasma.marginsseparator
+plugin=org.kde.plasma.panelspacer
+
+[Containments][38][Applets][76][Configuration][General]
+expanding=false
+length=7
+
+[Containments][38][Applets][77]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][38][Applets][77][Configuration][General]
+expanding=false
+length=20
 
 [Containments][38][General]
-AppletOrder=36;34;38;66;63;65
+AppletOrder=36;77;34;38;76;65
 
 [Containments][39]
 ItemGeometries-1280x800=
@@ -375,7 +379,7 @@ DialogWidth=720
 alphaSort=true
 customButtonImage=big-favicon-new
 favoritesPortedToKAstats=true
-systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
+systemFavorites=suspend\,hibernate\,reboot\,shutdown
 useCustomButtonImage=true
 
 [Containments][42][Applets][36][Configuration][Shortcuts]
@@ -400,14 +404,6 @@ showOnlyCurrentScreen=true
 unhideOnAttention=false
 wheelEnabled=false
 
-[Containments][42][Applets][63]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
-[Containments][42][Applets][63][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][42][Applets][65]
 immutability=1
 plugin=org.kde.plasma.lock_logout
@@ -419,12 +415,24 @@ DialogWidth=720
 [Containments][42][Applets][65][Configuration][General]
 show_lockScreen=false
 
-[Containments][42][Applets][66]
+[Containments][42][Applets][76]
 immutability=1
-plugin=org.kde.plasma.marginsseparator
+plugin=org.kde.plasma.panelspacer
+
+[Containments][42][Applets][76][Configuration][General]
+expanding=false
+length=7
+
+[Containments][42][Applets][77]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][42][Applets][77][Configuration][General]
+expanding=false
+length=20
 
 [Containments][42][General]
-AppletOrder=36;34;38;66;63;65
+AppletOrder=36;77;34;38;76;65
 
 [Containments][43]
 ItemGeometries-1280x800=
@@ -655,7 +663,7 @@ DialogWidth=720
 alphaSort=true
 customButtonImage=big-favicon-new
 favoritesPortedToKAstats=true
-systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
+systemFavorites=suspend\,hibernate\,reboot\,shutdown
 useCustomButtonImage=true
 
 [Containments][46][Applets][36][Configuration][Shortcuts]
@@ -680,14 +688,6 @@ showOnlyCurrentScreen=true
 unhideOnAttention=false
 wheelEnabled=false
 
-[Containments][46][Applets][63]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
-[Containments][46][Applets][63][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][46][Applets][65]
 immutability=1
 plugin=org.kde.plasma.lock_logout
@@ -699,12 +699,24 @@ DialogWidth=720
 [Containments][46][Applets][65][Configuration][General]
 show_lockScreen=false
 
-[Containments][46][Applets][66]
+[Containments][46][Applets][76]
 immutability=1
-plugin=org.kde.plasma.marginsseparator
+plugin=org.kde.plasma.panelspacer
+
+[Containments][46][Applets][76][Configuration][General]
+expanding=false
+length=7
+
+[Containments][46][Applets][77]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][46][Applets][77][Configuration][General]
+expanding=false
+length=20
 
 [Containments][46][General]
-AppletOrder=36;34;38;66;63;65
+AppletOrder=36;77;34;38;76;65
 
 [Containments][47]
 ItemGeometries-1280x800=
@@ -935,7 +947,7 @@ DialogWidth=720
 alphaSort=true
 customButtonImage=big-favicon-new
 favoritesPortedToKAstats=true
-systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
+systemFavorites=suspend\,hibernate\,reboot\,shutdown
 useCustomButtonImage=true
 
 [Containments][50][Applets][36][Configuration][Shortcuts]
@@ -960,14 +972,6 @@ showOnlyCurrentScreen=true
 unhideOnAttention=false
 wheelEnabled=false
 
-[Containments][50][Applets][63]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
-[Containments][50][Applets][63][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][50][Applets][65]
 immutability=1
 plugin=org.kde.plasma.lock_logout
@@ -979,12 +983,24 @@ DialogWidth=720
 [Containments][50][Applets][65][Configuration][General]
 show_lockScreen=false
 
-[Containments][50][Applets][66]
+[Containments][50][Applets][76]
 immutability=1
-plugin=org.kde.plasma.marginsseparator
+plugin=org.kde.plasma.panelspacer
+
+[Containments][50][Applets][76][Configuration][General]
+expanding=false
+length=7
+
+[Containments][50][Applets][77]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][50][Applets][77][Configuration][General]
+expanding=false
+length=20
 
 [Containments][50][General]
-AppletOrder=36;34;38;66;63;65
+AppletOrder=36;77;34;38;76;65
 
 [Containments][51]
 ItemGeometries-1280x800=

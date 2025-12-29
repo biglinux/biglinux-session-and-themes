@@ -89,9 +89,9 @@ themeFile="/etc/big-default-config/theme"
 if [[ -e "$themeFile" && ! -e "$HOME/.big_desktop_theme" ]]; then
     big-theme-apps --apply "$(<"$themeFile")"
     systemctl --user enable big-welcome
-    
-    # JamesDSP
-    if [[ -e "/etc/big-default-config/jamesdsp" && -e "$HOME/.config/jamesdsp/application.conf" ]] || [[ -e /tmp/big_enable_jamesdsp && -e /livefs-pkgs.txt ]] ; then
+
+    # JamesDSP System Installed
+    if [[ -e "/etc/big-default-config/jamesdsp" && -e "$HOME/.config/jamesdsp/application.conf" ]]; then
         sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
     else
         sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
@@ -101,6 +101,13 @@ fi
 if [[ ! -e "$themeFile" && -e "$HOME/.big_desktop_theme" ]]; then
     # Change GTK3 color
     dconf write /org/gnome/desktop/interface/gtk-theme "'$(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)'"
+fi
+
+# JamesDSP in live mode
+if [[ -e /tmp/big_enable_jamesdsp && -e /livefs-pkgs.txt ]] ; then
+    sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
+else
+    sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
 fi
 
 # Desktop layout configuration
@@ -134,21 +141,7 @@ lastlogin=$(<"$HOME/.kdebiglinux/lastlogin")
 
 # Fix full screen when switch desktop for globalmenu on or off
 if [ "$nowlogin" != "$lastlogin" ]; then
-    if [ "$(<"$HOME/.config/kwin_maximized_disable")" = "1" ]; then
-        sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
-        sed -i 's|user_pref("browser.tabs.InTitlebar", 1);|user_pref("browser.tabs.InTitlebar", 0);|g' ~/.mozilla/firefox/*.default/prefs.js
-        #Kwin
-        sed -i '/BorderlessMaximizedWindows=false/d' ~/.config/kwinrc
-    else
-        #Chromium Brave Chrome
-        sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
-        #Firefox
-        sed -i 's|user_pref("browser.tabs.InTitlebar", 0);|user_pref("browser.tabs.InTitlebar", 1);|g' ~/.mozilla/firefox/*.default/prefs.js
-        #Menubar to kde apps
-        sed -i '/MenuBar=Disabled/d' ~/.config/okularrc
-        #Kwin
-        sed -i '/BorderlessMaximizedWindows=true/d' ~/.config/kwinrc
-    fi
+    big-theme-globalmenu
 fi
 
 echo "$nowlogin" > "$HOME/.kdebiglinux/lastlogin"

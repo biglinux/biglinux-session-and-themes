@@ -60,33 +60,7 @@ case "$1" in
 
 		fi
 
-        #side of minimize maximize and close buttons
-        if [ "$(<"$HOME/.config/kwin_left")" = "1" ]; then
-            kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
-            kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
-            kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "M"
-        else
-            kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
-            kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "M"
-            kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
-        fi
-
-        # Disable kwin border in maximized windows if needed for globalmenu
-        if [ "$(<"$HOME/.config/kwin_maximized_disable")" = "1" ]; then
-            #Chromium Brave Chrome
-            sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
-            #Firefox
-            sed -i 's|user_pref("browser.tabs.InTitlebar", 1);|user_pref("browser.tabs.InTitlebar", 0);|g' ~/.mozilla/firefox/*.default/prefs.js
-            #Kwin
-            kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows true
-        else
-            #Chromium Brave Chrome
-            sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
-            #Firefox
-            sed -i 's|user_pref("browser.tabs.InTitlebar", 0);|user_pref("browser.tabs.InTitlebar", 1);|g' ~/.mozilla/firefox/*.default/prefs.js
-            #Kwin
-            kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
-        fi
+        big-theme-globalmenu
 
         # Enable gtkconfig in kde config
         kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded6rc --key autoload true
