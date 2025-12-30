@@ -3,6 +3,7 @@ PreloadWeight=20
 
 [PlasmaViews][Panel 2]
 floating=0
+floatingApplets=1
 panelLengthMode=2
 
 [PlasmaViews][Panel 2][Defaults]
@@ -17,6 +18,7 @@ minLength=144
 
 [PlasmaViews][Panel 3]
 floating=0
+floatingApplets=1
 panelLengthMode=2
 
 [PlasmaViews][Panel 3][Defaults]
@@ -31,6 +33,7 @@ minLength=144
 
 [PlasmaViews][Panel 4]
 floating=0
+floatingApplets=1
 panelLengthMode=2
 
 [PlasmaViews][Panel 4][Defaults]
@@ -45,6 +48,7 @@ minLength=144
 
 [PlasmaViews][Panel 5]
 floating=0
+floatingApplets=1
 panelLengthMode=2
 
 [PlasmaViews][Panel 5][Defaults]
