@@ -104,10 +104,12 @@ if [[ ! -e "$themeFile" && -e "$HOME/.big_desktop_theme" ]]; then
 fi
 
 # JamesDSP in live mode
-if [[ -e /tmp/big_enable_jamesdsp && -e /livefs-pkgs.txt ]] ; then
-    sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
-else
-    sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
+if [[ -e /livefs-pkgs.txt ]] ; then
+    if [[ -e /tmp/big_enable_jamesdsp ]] ; then
+        sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
+    else
+        sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
+    fi
 fi
 
 # Desktop layout configuration
