@@ -1,4 +1,17 @@
 #!/bin/bash
+#===============================================================================
+# Script Name: big-theme-apps
+# Description: Application Theme Manager for BigLinux
+#              Applies unified color schemes across KDE, GTK3/4, and apps
+#              like GIMP and SMPlayer, maintaining visual consistency.
+# Package:     biglinux-session-and-themes
+#
+# Dependencies:
+#   - plasma-workspace (KDE Plasma)
+#   - kwriteconfig6/kreadconfig6 (KDE configuration tools)
+#   - qdbus6 (Qt D-Bus interface)
+#   - dconf (GNOME/GTK settings)
+#===============================================================================
 
 OIFS=$IFS
 IFS=$'\n'
@@ -8,101 +21,115 @@ folder="/usr/share/biglinux/themes"
 case "$1" in
 
     --apply)
+        #-----------------------------------------------------------------------
+        # Apply Theme Configuration
+        #-----------------------------------------------------------------------
 
-    # Verify if using not default InputMethod
-    if grep -q 'InputMethod\[$e\]=' ~/.config/kwinrc; then
-       inputMethod=${ grep 'InputMethod\[$e\]=' ~/.config/kwinrc | cut -f2- -d'='; }
-    fi
-    
-    rm -Rf ~/.cache/plasma*
-    rm -Rf ~/.cache/kwin
-    rm -Rf ~/.cache/gtk-3.0
-    rm -Rf ~/.cache/gtk-4.0
-    rm -Rf ~/.cache/icon-cache.kcache
-    rm -R ~/.cache/kcmshell5
-    # Clean GTK theme folders
-    rm -Rf ~/.config/gtk-3.0
-    rm -Rf ~/.config/gtk-4.0
-    rm -Rf ~/.config/xsettingsd
-
-	#Confere se o arquivo existe
-    if [ -e "$folder/$2" ]; then
-        cp -Rf $folder/$2/. "$HOME"
-        
-        # Change GTK3 color
-        dconf write /org/gnome/desktop/interface/gtk-theme "'$(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)'"
-
-        # Restore InputMethod
-        if [[ -n $inputMethod ]]; then
-            kwriteconfig6 --group "Wayland" --key 'InputMethod$e' --file "$HOME/.config/kwinrc" "$inputMethod"
-            # Fix [$e]
-            sed -i 's|InputMethod$e|InputMethod[$e]|g' "$HOME/.config/kwinrc"
+        # Preserve custom InputMethod setting if configured
+        if grep -q 'InputMethod\[$e\]=' ~/.config/kwinrc; then
+            inputMethod=${ grep 'InputMethod\[$e\]=' ~/.config/kwinrc | cut -f2- -d'='; }
         fi
 
-        
-        if [[ "$2" =~ "dark" ]]; then
-            # Fix Gimp Color
-            if grep '(theme-color-scheme light)'  "$HOME/.config/GIMP/3.0/gimprc"; then
-                sed -i '/(theme-color-scheme light)/d' "$HOME/.config/GIMP/3.0/gimprc"
+        # Clear caches for clean theme application
+        rm -Rf ~/.cache/plasma*
+        rm -Rf ~/.cache/kwin
+        rm -Rf ~/.cache/gtk-3.0
+        rm -Rf ~/.cache/gtk-4.0
+        rm -Rf ~/.cache/icon-cache.kcache
+        rm -R ~/.cache/kcmshell5
+
+        # Clean GTK theme folders for fresh configuration
+        rm -Rf ~/.config/gtk-3.0
+        rm -Rf ~/.config/gtk-4.0
+        rm -Rf ~/.config/xsettingsd
+
+        # Verify theme exists and apply
+        if [[ -e "$folder/$2" ]]; then
+            cp -Rf $folder/$2/. "$HOME"
+
+            # Sync GTK3 theme with dconf database
+            dconf write /org/gnome/desktop/interface/gtk-theme "'$(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)'"
+
+            # Restore InputMethod after config copy
+            if [[ -n $inputMethod ]]; then
+                kwriteconfig6 --group "Wayland" --key 'InputMethod$e' --file "$HOME/.config/kwinrc" "$inputMethod"
+                # Fix kconfig escaping: $e -> [$e]
+                sed -i 's|InputMethod$e|InputMethod[$e]|g' "$HOME/.config/kwinrc"
             fi
 
-            #Fix icon color in smplayer
-            sed -i 's|^ *\biconset\b *=.*|iconset=PapirusDark|' ~/.config/smplayer/smplayer.ini
-
-		else
-            # Fix Gimp Color
-            if ! grep '(theme-color-scheme light)'  "$HOME/.config/GIMP/3.0/gimprc"; then
-                echo '(theme-color-scheme light)' >> "$HOME/.config/GIMP/3.0/gimprc"
+            #-------------------------------------------------------------------
+            # Dark/Light Theme Specific Adjustments
+            #-------------------------------------------------------------------
+            if [[ "$2" =~ "dark" ]]; then
+                # GIMP: Remove light color scheme for dark mode
+                if grep '(theme-color-scheme light)' "$HOME/.config/GIMP/3.0/gimprc"; then
+                    sed -i '/(theme-color-scheme light)/d' "$HOME/.config/GIMP/3.0/gimprc"
+                fi
+                # SMPlayer: Use dark icon set
+                sed -i 's|^ *\biconset\b *=.*|iconset=PapirusDark|' ~/.config/smplayer/smplayer.ini
+            else
+                # GIMP: Add light color scheme for light mode
+                if ! grep '(theme-color-scheme light)' "$HOME/.config/GIMP/3.0/gimprc"; then
+                    echo '(theme-color-scheme light)' >> "$HOME/.config/GIMP/3.0/gimprc"
+                fi
+                # SMPlayer: Use light icon set
+                sed -i 's|^ *\biconset\b *=.*|iconset=Papirus|' ~/.config/smplayer/smplayer.ini
             fi
-            
-            #Fix icon color in smplayer
-            sed -i 's|^ *\biconset\b *=.*|iconset=Papirus|' ~/.config/smplayer/smplayer.ini
 
-		fi
+            # Apply global menu settings
+            big-theme-globalmenu
 
-        big-theme-globalmenu
+            # Enable GTK config module in KDE
+            kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded6rc --key autoload true
 
-        # Enable gtkconfig in kde config
-        kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded6rc --key autoload true
-        
-        if pgrep plasmashell; then
-
+            #-------------------------------------------------------------------
+            # Live Apply if Plasma is Running
+            #-------------------------------------------------------------------
+            if pgrep plasmashell; then
                 qdbus6 org.kde.KWin /KWin org.kde.KWin.reconfigure
-                # Clean icon theme and apply again to fix kwin buttons
+
+                # Reset and reapply icon theme (fixes kwin button icons)
                 kwriteconfig6 --group Icons --key Theme ""
                 /usr/lib/plasma-changeicons ${ kreadconfig6 --group Icons --key Theme --file "$folder/$2/.config/kdeglobals"; }
 
-                # Change theme color to change back and fix on the fly change
+                # Workaround: change then revert color scheme for immediate update
                 plasma-apply-colorscheme KvArc
-                # Apply Theme
                 plasma-apply-colorscheme ${ kreadconfig6 --group General --key ColorScheme --file "$folder/$2/.config/kdeglobals"; }
 
-                #Configure GTK
+                # Configure GTK theme via D-Bus
                 qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme ${ grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=; }
-                systemctl --user restart plasma-xdg-desktop-portal-kde.service
-        fi
 
-        echo "$2" > "$HOME/.big_desktop_theme"
-        
-   else
-        echo "Theme not found."
-    fi
-    exit
-    ;;
+                # Restart portal for theme changes to take effect
+                systemctl --user restart plasma-xdg-desktop-portal-kde.service
+            fi
+
+            # Save current theme name for reference
+            echo "$2" > "$HOME/.big_desktop_theme"
+        else
+            echo "Theme not found."
+        fi
+        exit
+        ;;
 
     --list)
-	for i  in  $(ls $folder); do
-        echo "$i"
-    done
-	exit
-    ;;
+        #-----------------------------------------------------------------------
+        # List Available Themes
+        #-----------------------------------------------------------------------
+        for i in $(ls $folder); do
+            echo "$i"
+        done
+        exit
+        ;;
 
     *)
-	echo " Usage:
+        #-----------------------------------------------------------------------
+        # Display Usage Information
+        #-----------------------------------------------------------------------
+        echo " Usage:
 	--list
 	--apply name-of-theme"
-	exit
-    ;;
+        exit
+        ;;
 
 esac
 

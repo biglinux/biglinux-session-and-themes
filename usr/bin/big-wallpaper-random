@@ -1,74 +1,88 @@
 #!/bin/bash
+#===============================================================================
+# Script Name: big-wallpaper-random
+# Description: Random Wallpaper Selector for KDE Plasma
+#              Selects a random wallpaper from curated lists (dark/light theme)
+#              and applies it to desktop and lock screen.
+# Package:     biglinux-session-and-themes
+#
+# Dependencies:
+#   - qdbus (Qt D-Bus interface)
+#   - dconf (GNOME settings - for theme detection)
+#===============================================================================
 
-# Directory containing the image files
+# Directory containing wallpaper files
 dir="/usr/share/wallpapers"
 
-# detect if use dark theme
+#-------------------------------------------------------------------------------
+# Curated Wallpaper Lists (Dark vs Light Theme)
+#-------------------------------------------------------------------------------
 if [[ "$(dconf read /org/gnome/desktop/interface/color-scheme)" = "'prefer-dark'" ]]; then
+    # Dark theme wallpapers
     files=(
-    "art face1.heic"
-    "cat steampunk5.heic"
-    "fluffy aliens.heic"
-    "future planet.heic"
-    "penguin steampunk2.heic"
-    "cat cute2.heic"
-    "space globe4.heic"
-    "z non sense cat3.heic"
-    "abstract natural2.heic"
-    "art paint10.heic"
-    "art paint48.heic"
-    "glass or crystal.heic"
-    "animal butterfly3.heic"
-    "ambiance6.heic"
-    "animal owl6.heic"
-    "art random6.heic"
-
+        "art face1.heic"
+        "cat steampunk5.heic"
+        "fluffy aliens.heic"
+        "future planet.heic"
+        "penguin steampunk2.heic"
+        "cat cute2.heic"
+        "space globe4.heic"
+        "z non sense cat3.heic"
+        "abstract natural2.heic"
+        "art paint10.heic"
+        "art paint48.heic"
+        "glass or crystal.heic"
+        "animal butterfly3.heic"
+        "ambiance6.heic"
+        "animal owl6.heic"
+        "art random6.heic"
     )
 else
+    # Light theme wallpapers
     files=(
-    "animal cute2.heic"
-    "fluffy aliens.heic"
-    "penguin art.heic"
-    "cat cute2.heic"
-    "future planet.heic"
-    "abstract natural2.heic"
-    "nature2.heic"
-    "clean blue4.heic"
-    "ambiance6.heic"
-    "ambiance39.heic"
-    "z nonsense4.heic"
-    "glass or crystal9.heic"
+        "animal cute2.heic"
+        "fluffy aliens.heic"
+        "penguin art.heic"
+        "cat cute2.heic"
+        "future planet.heic"
+        "abstract natural2.heic"
+        "nature2.heic"
+        "clean blue4.heic"
+        "ambiance6.heic"
+        "ambiance39.heic"
+        "z nonsense4.heic"
+        "glass or crystal9.heic"
     )
 fi
 
-# Array to store the existing files
+#-------------------------------------------------------------------------------
+# Filter to Only Existing Files
+#-------------------------------------------------------------------------------
 existing_files=()
-
-# Checks if the files exist and adds them to the 'existing_files' array
 for file in "${files[@]}"; do
-  if [ -e "$dir/$file" ]; then
-    existing_files+=("$file")
-  fi
+    if [[ -e "$dir/$file" ]]; then
+        existing_files+=("$file")
+    fi
 done
 
-# Checks if there are existing files
-if [ ${#existing_files[@]} -eq 0 ]; then
-  echo "No existing image files found."
-  exit 1
+if [[ ${#existing_files[@]} -eq 0 ]]; then
+    echo "No existing image files found."
+    exit 1
 fi
 
-# Selects a random file from the 'existing_files' array
+#-------------------------------------------------------------------------------
+# Select Random Wallpaper
+#-------------------------------------------------------------------------------
 random_file="$dir/${existing_files[$RANDOM % ${#existing_files[@]}]}"
 
+#-------------------------------------------------------------------------------
+# Apply Wallpaper to Plasma Desktop
+#-------------------------------------------------------------------------------
+qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript \
+    "var allDesktops = desktops();print (allDesktops);for (i=0;i<allDesktops.length;i++) {d = allDesktops[i];d.wallpaperPlugin = \"org.kde.image\";d.currentConfigGroup = Array(\"Wallpaper\", \"org.kde.image\", \"General\");d.writeConfig(\"Image\", \"$random_file\");}"
 
-# apply as plasma wallpaper
-qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "var allDesktops = desktops();print (allDesktops);for (i=0;i<allDesktops.length;i++) {d = allDesktops[i];d.wallpaperPlugin = \"org.kde.image\";d.currentConfigGroup = Array(\"Wallpaper\", \"org.kde.image\", \"General\");d.writeConfig(\"Image\", \"$random_file\");}"
-
-# apply as lock screen
+# Apply to lock screen configuration
 sed -i "s|^Image=.*|Image=$random_file|" ~/.config/kscreenlockerrc
-
 sed -i "s|^Image=.*|Image=$random_file|" ~/.config/plasma-org.kde.plasma.desktop-appletsrc
 
-
-# Displays the randomly selected file
 echo "$random_file"

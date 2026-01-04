@@ -1,13 +1,23 @@
+#!/usr/bin/env bash
+#===============================================================================
+# Package Install Script: biglinux-session-and-themes
+# Description: Arch Linux PKGBUILD install hooks for biglinux-session-and-themes.
+#              Manages plasma-big-apply-icc service for ICC profile application.
+#===============================================================================
+
 post_install() {
+    # Enable ICC profile service for color management
     systemctl --global enable plasma-big-apply-icc
 }
 
 pre_remove() {
+    # Disable ICC profile service before removal
     if [[ -e /usr/lib/systemd/user/plasma-big-apply-icc.service ]]; then
-       systemctl --global disable plasma-big-apply-icc
+        systemctl --global disable plasma-big-apply-icc
     fi
-} 
+}
 
 post_upgrade() {
+    # Re-enable ICC profile service after upgrade
     systemctl --global enable plasma-big-apply-icc
 }

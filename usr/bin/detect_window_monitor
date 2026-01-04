@@ -1,15 +1,15 @@
 #!/bin/bash
-
-
-# Original code from: https://gitlab.com/Kamcuk/kamilscripts/-/blob/master/bin/,x_lib
-# That's only simplified version
-
-# This is a collection of libraries that I seem to use over and over
-# again and again inm every script I write.
-# It's here to simplify my use of it.
-# Written by Kamil Cukrowski
-# Licensed jointly under MIT License and Beerware License
+#
+# detect_window_monitor - Detect Monitor for Active Window
+#
+# Returns the name of the monitor/display containing the currently
+# active window or window at specified position.
+#
+# Adapted from: https://gitlab.com/Kamcuk/kamilscripts/-/blob/master/bin/,x_lib
+# Original author: Kamil Cukrowski
+# Licensed under MIT License and Beerware License
 # SPDX-License-Identifier: MIT + Beerware
+#
 
 # shellcheck disable=SC2034
 

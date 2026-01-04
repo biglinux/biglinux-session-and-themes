@@ -1,11 +1,13 @@
 #!/bin/bash
 #
-# ICC Profile Configuration Script
-# Enables or disables ICC color profile for all connected displays
+# icc_profile_apply - ICC Color Profile Manager for KDE Plasma
 #
-# Usage: icc_profile_apply enable|disable
+# Enables, disables, or shows status of ICC color profiles
+# for all connected displays using kscreen-doctor.
 #
-# Uses kscreen-doctor (KDE's official display configuration tool)
+# Usage: icc_profile_apply enable|disable|status
+#
+# Dependencies: kscreen-doctor, jq
 #
 
 ICC_PROFILE_PATH="/usr/share/color/icc/colord/ECI-RGBv1.icc"
@@ -19,18 +21,15 @@ show_usage() {
 }
 
 show_status() {
-    # Get list of connected outputs using JSON output
-   
     echo "=== ICC Profile Status ==="
     echo ""
     
-    # Parse each output
+    # Parse each connected output and show its ICC profile status
     kscreen-doctor -j 2>/dev/null | jq -r '.outputs[] | "\(.name)|\(.iccProfilePath // "None")"' | while IFS='|' read -r name profile; do
         echo "Display: $name"
         
-    
-        # Check if ICC profile is active
-        if grep -q '"colorProfileSource": "ICC"' ~/.config/kwinoutputconfig.json; then
+        # Check if ICC profile source is active in KWin config
+        if grep -q '"colorProfileSource": "ICC"' ~/.config/kwinoutputconfig.json 2>/dev/null; then
             echo "  Status: ACTIVE"
             echo "  ICC Profile: $profile"
         else
@@ -40,13 +39,13 @@ show_status() {
     done
 }
 
-# Check for kscreen-doctor
+# Check for required dependency
 if ! command -v kscreen-doctor &> /dev/null; then
     echo "Error: kscreen-doctor is required but not installed"
     exit 1
 fi
 
-# Parse argument
+# Parse command line argument
 case "$1" in
     enable)
         ACTION="enable"
@@ -63,38 +62,32 @@ case "$1" in
         ;;
 esac
 
-# Get list of connected outputs using JSON output (more reliable)
+# Get list of connected display outputs
 OUTPUTS=$(kscreen-doctor -j 2>/dev/null | jq -r '.outputs[].name')
 
-if [ -z "$OUTPUTS" ]; then
+if [[ -z "$OUTPUTS" ]]; then
     echo "Error: No display outputs found"
     exit 1
 fi
 
-# Apply to each output
+# Apply ICC profile settings to each output
 for OUTPUT in $OUTPUTS; do
-    if [ "$ACTION" = "enable" ]; then
-        # Apply ICC profile and set source to ICC
+    if [[ "$ACTION" = "enable" ]]; then
+        # Apply ICC profile and configure color settings
         kscreen-doctor "output.$OUTPUT.iccprofile.$ICC_PROFILE_PATH" 2>/dev/null
         kscreen-doctor "output.$OUTPUT.colorprofilesource.ICC" 2>/dev/null
-        # Enable Wide Color Gamut for proper color display
-#         kscreen-doctor "output.$OUTPUT.wcg.disable" 2>/dev/null
-        # Set SDR Gamut Wideness to 100% for full wide color gamut
         kscreen-doctor "output.$OUTPUT.sdrGamut.100" 2>/dev/null
         
-        # Save info to not auto apply in next boot
+        # Create marker file to prevent auto-apply on next boot
         if [[ ! -e "$HOME/.kdebiglinux/icc_profile_used" ]]; then
             mkdir -p ~/.kdebiglinux
-            >  "$HOME/.kdebiglinux/icc_profile_used"
+            > "$HOME/.kdebiglinux/icc_profile_used"
         fi
     else
-        # Clear the ICC profile path (remove the profile)
+        # Remove ICC profile and revert to sRGB
         kscreen-doctor "output.$OUTPUT.iccprofile." 2>/dev/null
-        # Revert to sRGB color source
         kscreen-doctor "output.$OUTPUT.colorprofilesource.sRGB" 2>/dev/null
-        # Disable Wide Color Gamut
-#         kscreen-doctor "output.$OUTPUT.wcg.disable" 2>/dev/null
     fi
 done
 
-echo "ICC profile ${ACTION}d successfully for outputs: $OUTPUTS"
+echo "ICC profile $ACTION successfully for outputs: $OUTPUTS"

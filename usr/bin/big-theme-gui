@@ -1,8 +1,18 @@
 #!/usr/bin/env bash
+#
+# big-theme-gui - BigLinux Themes GUI Application Launcher
+#
+# Launches the Python-based graphical interface for managing
+# system themes and visual customization options in BigLinux.
+#
+# This script sets up the translation environment and starts
+# the main Python application from its installation directory.
+#
 
-#Translation
+# Translation configuration
 export TEXTDOMAINDIR="/usr/share/locale"
-export TEXTDOMAIN=biglinux-session-and-themes
+export TEXTDOMAIN=biglinux-themes-gui
 
-cd /usr/share/bigbashview/apps/biglinux-themes-gui/
+# Launch the Python GUI application
+cd /usr/share/biglinux/biglinux-themes-gui/ || exit 1
 python main.py

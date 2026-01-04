@@ -1,29 +1,34 @@
 #!/bin/bash
-
-# Usage
+#===============================================================================
+# Script Name: big-keyboard-led
+# Description: Keyboard LED Toggle Utility
+#              Controls the Scroll Lock LED for visual feedback or aesthetics.
+# Package:     biglinux-session-and-themes
 #
-# change-keyboard-led on
-# change-keyboard-led off
-# change-keyboard-led
-# if not use on or off, just switch
+# Usage:
+#   big-keyboard-led on    - Turn LED on
+#   big-keyboard-led off   - Turn LED off
+#   big-keyboard-led       - Toggle current state
+#===============================================================================
 
-if [ "$1" = "on" ]; then
-   echo > "$HOME/.config/ledkeyboard"
-   xset led named "Scroll Lock"
-   #xset led
+if [[ "$1" = "on" ]]; then
+    # Enable LED and save state
+    echo > "$HOME/.config/ledkeyboard"
+    xset led named "Scroll Lock"
 
-elif [ "$1" = "off" ]; then
-   rm -f "$HOME/.config/ledkeyboard"
-   xset -led named "Scroll Lock"
-   #xset -led
+elif [[ "$1" = "off" ]]; then
+    # Disable LED and remove state file
+    rm -f "$HOME/.config/ledkeyboard"
+    xset -led named "Scroll Lock"
+
 else
-
-   Led_on=$(xset -q | grep -o 'Scroll Lock:.*')
-   if [ "$Led_on" = "Scroll Lock: off" ]; then
-      change-keyboard-led on
-   else
-      change-keyboard-led off
-   fi 
+    # Toggle mode: detect current state and switch
+    Led_on=$(xset -q | grep -o 'Scroll Lock:.*')
+    if [[ "$Led_on" = "Scroll Lock: off" ]]; then
+        change-keyboard-led on
+    else
+        change-keyboard-led off
+    fi
 fi
 
 

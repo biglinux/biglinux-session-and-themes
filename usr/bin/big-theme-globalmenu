@@ -1,53 +1,82 @@
 #!/bin/bash
+#===============================================================================
+# Script Name: big-theme-globalmenu
+# Description: Window Button Layout and Global Menu Configuration
+#              Syncs window button positions (min/max/close) across KDE, GTK,
+#              and GNOME settings. Also handles borderless maximized windows.
+# Package:     biglinux-session-and-themes
+#
+# Dependencies:
+#   - kwriteconfig6 (KDE configuration tool)
+#   - gsettings (GNOME settings)
+#===============================================================================
 
-# Side of minimize maximize and close buttons
-if [ "$(<"$HOME/.config/kwin_left")" = "1" ]; then
+#-------------------------------------------------------------------------------
+# Window Button Position (Left vs Right)
+#-------------------------------------------------------------------------------
+if [[ "$(<"$HOME/.config/kwin_left")" = "1" ]]; then
+    # Left-side buttons: Close, Maximize, Minimize
+    
     # GTK3
     kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
     # GTK4
     kwriteconfig6 --file ~/.config/gtk-4.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
     # GNOME/GSettings
     gsettings set org.gnome.desktop.wm.preferences button-layout "close,maximize,minimize:menu"
-    # Kwin
+    # KWin (X=Close, I=Minimize, A=Maximize on Left; F=Spacer, S=On-all-desktops, M=Menu on Right)
     kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
     kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
 else
+    # Right-side buttons: Minimize, Maximize, Close (default)
+    
     # GTK3
     kwriteconfig6 --file ~/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
-    # GTK4 (Novo)
+    # GTK4
     kwriteconfig6 --file ~/.config/gtk-4.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
     # GNOME/GSettings
     gsettings set org.gnome.desktop.wm.preferences button-layout "menu:minimize,maximize,close"
-    # Kwin
+    # KWin
     kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
     kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
 fi
 
-# Disable kwin border in maximized windows if needed for globalmenu
-if [ "$(<"$HOME/.config/kwin_maximized_disable")" = "1" ]; then
-    #Chromium Brave Chrome
-    sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g;s|"system_theme":1|"system_theme":2|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
+#-------------------------------------------------------------------------------
+# Borderless Maximized Windows (for Global Menu integration)
+#-------------------------------------------------------------------------------
+if [[ "$(<"$HOME/.config/kwin_maximized_disable")" = "1" ]]; then
+    # Enable borderless maximized windows
+    
+    # Chromium/Brave/Chrome: Use system title bar
+    sed -i 's|"custom_chrome_frame":true|"custom_chrome_frame":false|g;s|"system_theme":1|"system_theme":2|g' \
+        ~/.config/chromium/Default/Preferences \
+        ~/.config/google-chrome/Default/Preferences \
+        ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
 
-    #Firefox
+    # Firefox: Disable tabs in title bar
     if grep -q 'user_pref("browser.tabs.inTitlebar"' ~/.mozilla/firefox/*default*/prefs.js; then
         sed -i 's|user_pref("browser.tabs.inTitlebar", 1);|user_pref("browser.tabs.inTitlebar", 0);|g' ~/.mozilla/firefox/*default*/prefs.js
     else
         echo 'user_pref("browser.tabs.inTitlebar", 0);' >> ~/.mozilla/firefox/*default*/prefs.js
     fi
-    
-    #Kwin
+
+    # KWin: Remove borders from maximized windows
     kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows true
 else
-    #Chromium Brave Chrome
-    sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g;s|"system_theme":2|"system_theme":1|g' ~/.config/chromium/Default/Preferences ~/.config/google-chrome/Default/Preferences ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
+    # Disable borderless maximized windows (show normal borders)
+    
+    # Chromium/Brave/Chrome: Use custom frame
+    sed -i 's|"custom_chrome_frame":false|"custom_chrome_frame":true|g;s|"system_theme":2|"system_theme":1|g' \
+        ~/.config/chromium/Default/Preferences \
+        ~/.config/google-chrome/Default/Preferences \
+        ~/.config/BraveSoftware/Brave-Browser/Default/Preferences
 
-    #Firefox
+    # Firefox: Enable tabs in title bar
     if grep -q 'user_pref("browser.tabs.inTitlebar"' ~/.mozilla/firefox/*default*/prefs.js; then
         sed -i 's|user_pref("browser.tabs.inTitlebar", 0);|user_pref("browser.tabs.inTitlebar", 1);|g' ~/.mozilla/firefox/*default*/prefs.js
     else
         echo 'user_pref("browser.tabs.inTitlebar", 1);' >> ~/.mozilla/firefox/*default*/prefs.js
     fi
 
-    #Kwin
+    # KWin: Show borders on maximized windows
     kwriteconfig6 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows false
 fi
