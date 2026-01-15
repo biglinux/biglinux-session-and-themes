@@ -13,14 +13,6 @@
 #   - big-theme-plasma, big-theme-apps (theme management)
 #===============================================================================
 
-#-------------------------------------------------------------------------------
-# GPU Detection and Renderer Selection
-# Determines optimal renderer based on available GPU hardware
-#-------------------------------------------------------------------------------
-
-# Bolder font rendering (optional)
-#export FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
-
 # Check for hardware Vulkan support (not just llvmpipe software renderer)
 if vulkaninfo --summary 2>/dev/null | grep 'deviceName' | grep -vq 'llvmpipe'; then
     unset QSG_RENDER_LOOP
@@ -74,36 +66,10 @@ fi
 [[ -z $GTK_USE_PORTAL ]] && export GTK_USE_PORTAL=1
 
 #-------------------------------------------------------------------------------
-# AMD GPU Optimizations
-# Use Variable Rate Shading (VRS) based on screen resolution
-#-------------------------------------------------------------------------------
-if [[ $HEIGHT -gt 1400 ]] 2>/dev/null; then
-    [[ -z $RADV_FORCE_VRS ]] && export RADV_FORCE_VRS=2x2
-else
-    [[ -z $RADV_FORCE_VRS ]] && export RADV_FORCE_VRS=1x1
-fi
-
-# AMD GPU optimizations for kernel 6.6 and earlier
-kernel_version=$(uname -r | grep -oE '[0-9]\.[0-9][0-9]?')
-if [[ ${kernel_version/.} -le 66 ]]; then
-    [[ -z $RADV_PERFTEST ]] && export RADV_PERFTEST=sam,nggc,ext_ms
-fi
-
-#-------------------------------------------------------------------------------
 # Keyboard LED Control
 #-------------------------------------------------------------------------------
 if [[ -e "$HOME/.config/ledkeyboard" ]]; then
     big-keyboard-led on
-fi
-
-#-------------------------------------------------------------------------------
-# OBS Studio Vulkan Game Capture Support
-#-------------------------------------------------------------------------------
-if [[ -e /usr/bin/obs-vkcapture ]]; then
-    [[ -z $OBS_USE_EGL ]] && export OBS_USE_EGL=1
-    [[ -z $OBS_VKCAPTURE ]] && export OBS_VKCAPTURE=1
-    # Layer stack: MangoHud + OBS capture + Steam overlay
-    [[ -z $VK_INSTANCE_LAYERS ]] && export VK_INSTANCE_LAYERS=VK_LAYER_MANGOHUD_overlay:VK_LAYER_OBS_vkcapture_64:VK_LAYER_VALVE_steam_overlay_64
 fi
 
 #-------------------------------------------------------------------------------
