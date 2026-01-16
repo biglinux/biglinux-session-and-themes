@@ -14,133 +14,127 @@
 
 case "$1" in
 
-    --apply)
-        #-----------------------------------------------------------------------
-        # Apply Theme Configuration
-        #-----------------------------------------------------------------------
+--apply)
+	#-----------------------------------------------------------------------
+	# Apply Theme Configuration
+	#-----------------------------------------------------------------------
 
-        # List of KDE configuration files to save/restore
-        kde=(
-            kactivitymanagerdrc
-            kscreenlockerrc
-            ksmserverrc
-            ksplashrc
-            plasma-org.kde.plasma.desktop-appletsrc
-            plasmashellrc
-            kwin_left
-            kwin_maximized_disable
-            kglobalshortcutsrc
-            klassyrc
-            panel-colorizer
-        )
+	# List of KDE configuration files to save/restore
+	kde=(
+		kactivitymanagerdrc
+		kscreenlockerrc
+		ksmserverrc
+		ksplashrc
+		plasma-org.kde.plasma.desktop-appletsrc
+		plasmashellrc
+		kwin_left
+		kwin_maximized_disable
+		kglobalshortcutsrc
+		klassyrc
+		panel-colorizer
+	)
 
-        mkdir -p ~/.kdebiglinux
-        rm -f ~/.config/enable_latte  # Remove old conflict files
+	mkdir -p ~/.kdebiglinux
 
-        # Stop Plasma services unless quiet mode
-        if [[ "$3" = "quiet" ]] || [[ "$4" = "quiet" ]]; then
-            echo "No stop services"
-        else
-            systemctl --user stop plasma-plasmashell
-            systemctl --user stop plasma-kglobalaccel.service
-        fi
+	# Stop Plasma services unless quiet mode
+	if [[ "$3" = "quiet" ]] || [[ "$4" = "quiet" ]]; then
+		echo "No stop services"
+	else
+		systemctl --user stop plasma-plasmashell
+		systemctl --user stop plasma-kglobalaccel.service
+	fi
 
-        LAST_USED="$(<"$HOME/.kdebiglinux/lastused")"
+	LAST_USED="$(<"$HOME/.kdebiglinux/lastused")"
 
-        #-----------------------------------------------------------------------
-        # Backup Current Configuration
-        #-----------------------------------------------------------------------
-        if [[ "$LAST_USED" != "" ]]; then
-            mkdir -p "$HOME/.kdebiglinux/$LAST_USED"
-            rm -Rf "$HOME/.kdebiglinux/$LAST_USED/latte"  # Clean latte legacy
-            for i in "${kde[@]}"; do
-                cp -Rf "$HOME/.config/$i" "$HOME/.kdebiglinux/$LAST_USED"
-            done
-        fi
+	#-----------------------------------------------------------------------
+	# Backup Current Configuration
+	#-----------------------------------------------------------------------
+	if [[ "$LAST_USED" != "" ]]; then
+		mkdir -p "$HOME/.kdebiglinux/$LAST_USED"
+		for i in "${kde[@]}"; do
+			cp -Rf "$HOME/.config/$i" "$HOME/.kdebiglinux/$LAST_USED"
+		done
+	fi
 
-        #-----------------------------------------------------------------------
-        # Clean Mode: Reset to default configuration
-        #-----------------------------------------------------------------------
-        if [[ "$3" = "clean" ]] && [[ -e "/usr/share/biglinux/kdebiglinux/$2" ]]; then
-            rm -Rf "$HOME/.kdebiglinux/$2"
-        fi
+	#-----------------------------------------------------------------------
+	# Clean Mode: Reset to default configuration
+	#-----------------------------------------------------------------------
+	if [[ "$3" = "clean" ]] && [[ -e "/usr/share/biglinux/kdebiglinux/$2" ]]; then
+		rm -Rf "$HOME/.kdebiglinux/$2"
+	fi
 
-        #-----------------------------------------------------------------------
-        # Apply Theme from User Backup or System Default
-        #-----------------------------------------------------------------------
-        if [[ -e "$HOME/.kdebiglinux/$2" ]]; then
-            # Apply from user's saved configuration
-            rm -f "$HOME/.config/kwin_left"
-            rm -f "$HOME/.config/kwin_maximized_disable"
-            echo "$2" > $HOME/.kdebiglinux/lastused
+	#-----------------------------------------------------------------------
+	# Apply Theme from User Backup or System Default
+	#-----------------------------------------------------------------------
+	if [[ -e "$HOME/.kdebiglinux/$2" ]]; then
+		# Apply from user's saved configuration
+		rm -f "$HOME/.config/kwin_left"
+		rm -f "$HOME/.config/kwin_maximized_disable"
+		echo "$2" >$HOME/.kdebiglinux/lastused
 
-            for i in "${kde[@]}"; do
-                cp -Rf "$HOME/.kdebiglinux/$2/$i" "/$HOME/.config/$i"
-            done
-        else
-            # Apply from system default if available
-            if [[ -e "/usr/share/biglinux/kdebiglinux/$2" ]]; then
-                rm -Rf "$HOME/.config/kwin_left"
-                rm -f "$HOME/.config/kwin_maximized_disable"
-                echo "$2" > $HOME/.kdebiglinux/lastused
+		for i in "${kde[@]}"; do
+			cp -Rf "$HOME/.kdebiglinux/$2/$i" "/$HOME/.config/$i"
+		done
+	else
+		# Apply from system default if available
+		if [[ -e "/usr/share/biglinux/kdebiglinux/$2" ]]; then
+			rm -Rf "$HOME/.config/kwin_left"
+			rm -f "$HOME/.config/kwin_maximized_disable"
+			echo "$2" >$HOME/.kdebiglinux/lastused
 
-                for i in "${kde[@]}"; do
-                    cp -Rf /usr/share/biglinux/kdebiglinux/$2/$i ~/.config/
-                done
-                big-wallpaper-random
-            fi
-        fi
+			for i in "${kde[@]}"; do
+				cp -Rf /usr/share/biglinux/kdebiglinux/$2/$i ~/.config/
+			done
+			big-wallpaper-random
+		fi
+	fi
 
-        # Apply global menu settings
-        big-theme-globalmenu
+	# Apply global menu settings
+	big-theme-globalmenu
 
-        # Special case: vanilla theme uses Breeze icons
-        if [[ "$2" = "vanilla" ]]; then
-            kwriteconfig6 --file ~/.config/kdeglobals --group Icons --key "Theme" "breeze"
-        fi
+	# Special case: vanilla theme uses Breeze icons
+	if [[ "$2" = "vanilla" ]]; then
+		kwriteconfig6 --file ~/.config/kdeglobals --group Icons --key "Theme" "breeze"
+	fi
 
-        # Run theme-specific desktop tweaks
-        /usr/share/biglinux/multi-kde/$2
+	# Run theme-specific desktop tweaks
+	/usr/share/biglinux/multi-kde/$2
 
-        # Enable GTK config module in KDE
-        kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded6rc --key autoload true
+	# Enable GTK config module in KDE
+	kwriteconfig6 --group Module-gtkconfig --file ~/.config/kded6rc --key autoload true
 
-        #-----------------------------------------------------------------------
-        # Restart Plasma Services (unless quiet mode)
-        #-----------------------------------------------------------------------
-        if [[ "$3" = "quiet" ]] || [[ "$4" = "quiet" ]]; then
-            echo "No start services"
-        else
-            qdbus6 org.kde.KWin /KWin org.kde.KWin.reconfigure
-            qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.gtkTheme)
-            gtk-reload.py
-            systemctl --user start plasma-plasmashell
-            systemctl --user start plasma-kglobalaccel.service
-        fi
+	#-----------------------------------------------------------------------
+	# Restart Plasma Services (unless quiet mode)
+	#-----------------------------------------------------------------------
+	if [[ "$3" = "quiet" ]] || [[ "$4" = "quiet" ]]; then
+		echo "No start services"
+	else
+		qdbus6 org.kde.KWin /KWin org.kde.KWin.reconfigure
+		qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.setGtkTheme $(qdbus6 org.kde.GtkConfig /GtkConfig org.kde.GtkConfig.gtkTheme)
+		gtk-reload.py
+		systemctl --user start plasma-plasmashell
+		systemctl --user start plasma-kglobalaccel.service
+	fi
 
-        # Restore panel lock state
-        if [[ -e "$HOME/.config/lockplasma" ]]; then
-            qdbus6 org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(true)"
-        else
-            qdbus6 org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(false)"
-        fi
-        ;;
+	# lock after theme changes
+	qdbus6 org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(true)"
+	;;
 
-    --list)
-        #-----------------------------------------------------------------------
-        # List Available Themes
-        #-----------------------------------------------------------------------
-        for i in $(ls /usr/share/biglinux/kdebiglinux/); do
-            echo "$i"
-        done
-        exit
-        ;;
+--list)
+	#-----------------------------------------------------------------------
+	# List Available Themes
+	#-----------------------------------------------------------------------
+	for i in $(ls /usr/share/biglinux/kdebiglinux/); do
+		echo "$i"
+	done
+	exit
+	;;
 
-    *)
-        #-----------------------------------------------------------------------
-        # Display Usage Information
-        #-----------------------------------------------------------------------
-        echo " Usage:
+*)
+	#-----------------------------------------------------------------------
+	# Display Usage Information
+	#-----------------------------------------------------------------------
+	echo " Usage:
 --list
 --apply name-of-theme
 --clean to restart theme
@@ -157,9 +151,7 @@ big-theme-plasma --apply classic quiet
 If use clean, remove configuration in home folder and use clean configuration.
 
 Use quiet to change files but not instant apply"
-        exit
-        ;;
+	exit
+	;;
 
 esac
-
-
