@@ -41,8 +41,8 @@ OnPoorIconContrastActive=Nothing
 OnPoorIconContrastInactive=Nothing
 
 [ButtonSizing]
-ButtonSpacingLeft=5
-ButtonSpacingRight=5
+ButtonSpacingLeft=10
+ButtonSpacingRight=10
 LockButtonSpacingLeftRight=true
 ScaleBackgroundPercent=150
 SpacerButtonWidthRelative=33
