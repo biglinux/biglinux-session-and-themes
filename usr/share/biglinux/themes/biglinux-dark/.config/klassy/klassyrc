@@ -13,17 +13,16 @@ AdjustBackgroundColorOnPoorContrastActive=false
 AdjustBackgroundColorOnPoorContrastInactive=false
 ButtonBackgroundOpacityActive=0
 ButtonBackgroundOpacityInactive=0
-ButtonIconColorsActive=TitleBarText
-ButtonOverrideColorsActiveApplicationMenu={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
-ButtonOverrideColorsActiveClose={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
-ButtonOverrideColorsActiveContextHelp={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
-ButtonOverrideColorsActiveKeepAbove={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
-ButtonOverrideColorsActiveKeepBelow={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
-ButtonOverrideColorsActiveMaximize={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
-ButtonOverrideColorsActiveMenu={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
-ButtonOverrideColorsActiveMinimize={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
-ButtonOverrideColorsActiveOnAllDesktops={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
-ButtonOverrideColorsActiveShade={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
+ButtonOverrideColorsActiveApplicationMenu={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15],"IconHover":["TitleBarTextAuto"],"IconNormal":["TitleBarTextAuto"],"IconPress":["TitleBarTextAuto"]}
+ButtonOverrideColorsActiveClose={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15],"IconHover":["TitleBarTextAuto"],"IconNormal":["TitleBarTextAuto"],"IconPress":["TitleBarTextAuto"]}
+ButtonOverrideColorsActiveContextHelp={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15],"IconHover":["TitleBarTextAuto"],"IconNormal":["TitleBarTextAuto"],"IconPress":["TitleBarTextAuto"]}
+ButtonOverrideColorsActiveKeepAbove={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15],"IconHover":["TitleBarTextAuto"],"IconNormal":["TitleBarTextAuto"],"IconPress":["TitleBarTextAuto"]}
+ButtonOverrideColorsActiveKeepBelow={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15],"IconHover":["TitleBarTextAuto"],"IconNormal":["TitleBarTextAuto"],"IconPress":["TitleBarTextAuto"]}
+ButtonOverrideColorsActiveMaximize={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15],"IconHover":["TitleBarTextAuto"],"IconNormal":["TitleBarTextAuto"],"IconPress":["TitleBarTextAuto"]}
+ButtonOverrideColorsActiveMenu={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15],"IconHover":["TitleBarTextAuto"],"IconNormal":["TitleBarTextAuto"],"IconPress":["TitleBarTextAuto"]}
+ButtonOverrideColorsActiveMinimize={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15],"IconHover":["TitleBarTextAuto"],"IconNormal":["TitleBarTextAuto"],"IconPress":["TitleBarTextAuto"]}
+ButtonOverrideColorsActiveOnAllDesktops={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15],"IconHover":["TitleBarTextAuto"],"IconNormal":["TitleBarTextAuto"],"IconPress":["TitleBarTextAuto"]}
+ButtonOverrideColorsActiveShade={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15],"IconHover":["TitleBarTextAuto"],"IconNormal":["TitleBarTextAuto"],"IconPress":["TitleBarTextAuto"]}
 ButtonOverrideColorsInactiveApplicationMenu={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
 ButtonOverrideColorsInactiveClose={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
 ButtonOverrideColorsInactiveContextHelp={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
@@ -34,7 +33,8 @@ ButtonOverrideColorsInactiveMenu={"BackgroundHover":["TitleBarTextAuto",11],"Bac
 ButtonOverrideColorsInactiveMinimize={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
 ButtonOverrideColorsInactiveOnAllDesktops={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
 ButtonOverrideColorsInactiveShade={"BackgroundHover":["TitleBarTextAuto",11],"BackgroundNormal":["TitleBarTextAuto",8],"BackgroundPress":["WindowOutlineAuto",15]}
-ButtonOverrideColorsLockStatesActive=["IconNormal","IconHover","IconPress","BackgroundNormal","BackgroundHover","BackgroundPress","OutlineNormal"]
+ButtonOverrideColorsLockStatesActive=["IconNormal","IconHover","IconPress","BackgroundNormal","BackgroundHover","BackgroundPress"]
+ButtonOverrideColorsLockStatesInactive=["BackgroundNormal","BackgroundHover","BackgroundPress"]
 CloseButtonIconColorActive=AsSelected
 CloseButtonIconColorInactive=AsSelected
 OnPoorIconContrastActive=Nothing
@@ -42,8 +42,13 @@ OnPoorIconContrastInactive=Nothing
 
 [ButtonSizing]
 ButtonSpacingLeft=5
+ButtonSpacingRight=5
 LockButtonSpacingLeftRight=true
 ScaleBackgroundPercent=150
+SpacerButtonWidthRelative=33
+
+[Global]
+RefreshedConfig=6.5.1
 
 [ShadowStyle]
 ShadowSize=ShadowMedium
@@ -60,10 +65,13 @@ TitleSidePadding=0
 
 [Windeco]
 BoldButtonIcons=BoldIconsFine
+BoldTitle=false
 ButtonIconStyle=StyleSystemIconTheme
 ButtonShape=ShapeSmallCircle
 ColorizeThinWindowOutlineWithButton=false
+ColorizeWindowOutlineWithButton=false
 CornerRadius=3.6
+DrawTitleBarSeparator=false
 UseTitleBarColorForAllBorders=false
 WindowCornerRadius=6
 
@@ -76,8 +84,5 @@ ThinWindowOutlineStyleInactive=WindowOutlineContrast
 ThinWindowOutlineThickness=1
 WindowOutlineContrastOpacityActive=15
 WindowOutlineContrastOpacityInactive=15
-WindowOutlineCustomColorOpacityActive=100
-WindowOutlineCustomColorOpacityInactive=100
-WindowOutlineCustomWithContrastOpacityActive=70
-WindowOutlineCustomWithContrastOpacityInactive=70
-WindowOutlineShadowColorOpacity=100
+WindowOutlineStyleActive=WindowOutlineContrast
+WindowOutlineStyleInactive=WindowOutlineContrast
