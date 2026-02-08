@@ -1,0 +1,49 @@
+#!/bin/bash
+#===============================================================================
+# Script Name: biglinux-dolphin-baloo-sync
+# Description: Synchronizes Dolphin's "Recently Saved" group visibility with
+#              Baloo file indexer status. Only intervenes when Baloo status
+#              changes, preserving manual user preferences.
+# Package:     biglinux-session-and-themes
+#===============================================================================
+
+STATE_FILE="$HOME/.local/share/biglinux-baloo-state"
+PLACES_FILE="$HOME/.local/share/user-places.xbel"
+
+# Exit if user-places.xbel doesn't exist yet
+[[ ! -f "$PLACES_FILE" ]] && exit 0
+
+#-------------------------------------------------------------------------------
+# Get current Baloo status
+#-------------------------------------------------------------------------------
+if systemctl --user is-active --quiet kde-baloo.service 2>/dev/null; then
+	BALOO_RUNNING=true
+else
+	BALOO_RUNNING=false
+fi
+
+#-------------------------------------------------------------------------------
+# Read previous state (if exists)
+#-------------------------------------------------------------------------------
+PREV_BALOO_STATE=""
+if [[ -f "$STATE_FILE" ]]; then
+	# shellcheck source=/dev/null
+	source "$STATE_FILE"
+	PREV_BALOO_STATE="${baloo_enabled:-}"
+fi
+
+#-------------------------------------------------------------------------------
+# Only modify if state changed or first run
+#-------------------------------------------------------------------------------
+if [[ "$PREV_BALOO_STATE" != "$BALOO_RUNNING" ]]; then
+	if [[ "$BALOO_RUNNING" == "true" ]]; then
+		# Baloo is running: show recent files
+		sed -i 's|<GroupState-RecentlySaved-IsHidden>true</GroupState-RecentlySaved-IsHidden>|<GroupState-RecentlySaved-IsHidden>false</GroupState-RecentlySaved-IsHidden>|g' "$PLACES_FILE"
+	else
+		# Baloo is not running: hide recent files
+		sed -i 's|<GroupState-RecentlySaved-IsHidden>false</GroupState-RecentlySaved-IsHidden>|<GroupState-RecentlySaved-IsHidden>true</GroupState-RecentlySaved-IsHidden>|g' "$PLACES_FILE"
+	fi
+
+	# Save current state
+	echo "baloo_enabled=$BALOO_RUNNING" >"$STATE_FILE"
+fi

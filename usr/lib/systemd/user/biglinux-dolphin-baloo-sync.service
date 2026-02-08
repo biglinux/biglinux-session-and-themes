@@ -1,0 +1,16 @@
+# BigLinux Dolphin-Baloo Sync Service
+# Synchronizes Dolphin's "Recently Saved" visibility with Baloo file indexer status
+
+[Unit]
+Description=BigLinux Dolphin Baloo Sync
+Documentation=https://github.com/biglinux
+PartOf=graphical-session.target
+After=plasma-core.target kde-baloo.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/biglinux-dolphin-baloo-sync
+Slice=session.slice
+
+[Install]
+WantedBy=default.target

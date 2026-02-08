@@ -8,6 +8,7 @@
 post_install() {
     # Enable ICC profile service for color management
     systemctl --global enable plasma-big-apply-icc
+    systemctl --global enable biglinux-dolphin-baloo-sync
 }
 
 pre_remove() {
@@ -15,9 +16,15 @@ pre_remove() {
     if [[ -e /usr/lib/systemd/user/plasma-big-apply-icc.service ]]; then
         systemctl --global disable plasma-big-apply-icc
     fi
+
+    # Disable biglinux-dolphin-baloo-sync before removal
+    if [[ -e /usr/lib/systemd/user/biglinux-dolphin-baloo-sync.service ]]; then
+        systemctl --global disable biglinux-dolphin-baloo-sync
+    fi
 }
 
 post_upgrade() {
     # Re-enable ICC profile service after upgrade
     systemctl --global enable plasma-big-apply-icc
+    systemctl --global enable biglinux-dolphin-baloo-sync
 }
