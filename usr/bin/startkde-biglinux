@@ -76,9 +76,8 @@ fi
 # First Login: Dolphin Configuration
 # Hide recent files in file manager
 #-------------------------------------------------------------------------------
-if [[ ! -e "$HOME/.local/share/user-places-big.xbel" ]]; then
+if [[ -e "$HOME/.local/share/user-places-big.xbel" ]]; then
     sed -i 's|<GroupState-RecentlySaved-IsHidden>false</GroupState-RecentlySaved-IsHidden>|<GroupState-RecentlySaved-IsHidden>true</GroupState-RecentlySaved-IsHidden>|g' ~/.local/share/user-places.xbel
-    : > "$HOME/.local/share/user-places-big.xbel"
 fi
 
 #-------------------------------------------------------------------------------
