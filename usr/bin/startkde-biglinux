@@ -166,6 +166,15 @@ if [[ ! -e ~/.config/big_enabled_fcitx || -e /livefs-pkgs.txt ]] && \
 fi
 
 #-------------------------------------------------------------------------------
+# Klassy fix theme after update to 6.5 or more recently version
+#-------------------------------------------------------------------------------
+if [[ ! -e "$HOME/.config/klassy/klassy-verify-update" ]]; then
+    cp -f /usr/share/biglinux/themes/biglinux/.config/klassy/klassyrc "$HOME/.config/klassy/klassyrc"
+    cp -f /usr/share/biglinux/themes/biglinux/.config/klassy/windecopresetsrc "$HOME/.config/klassy/windecopresetsrc"
+    > "$HOME/.config/klassy/klassy-verify-update"
+fi
+
+#-------------------------------------------------------------------------------
 # Start Plasma Session
 #-------------------------------------------------------------------------------
 exec startplasma-$XDG_SESSION_TYPE
