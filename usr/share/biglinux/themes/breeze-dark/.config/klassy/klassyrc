@@ -42,7 +42,6 @@ OnPoorIconContrastInactive=Nothing
 
 [ButtonSizing]
 ButtonSpacingLeft=10
-ButtonSpacingRight=10
 LockButtonSpacingLeftRight=true
 ScaleBackgroundPercent=150
 SpacerButtonWidthRelative=33
@@ -58,8 +57,8 @@ ShadowStrength=102
 LockTitleBarTopBottomMargins=false
 PercentMaximizedTopBottomMargins=50
 TitleBarBottomMargin=0.5
-TitleBarLeftMargin=3
-TitleBarRightMargin=3
+TitleBarLeftMargin=9
+TitleBarRightMargin=9
 TitleBarTopMargin=1.5
 TitleSidePadding=0
 
@@ -73,7 +72,7 @@ ColorizeWindowOutlineWithButton=false
 CornerRadius=3.6
 DrawTitleBarSeparator=false
 UseTitleBarColorForAllBorders=false
-WindowCornerRadius=6
+WindowCornerRadius=13
 
 [WindowOutlineStyle]
 LockThinWindowOutlineStyleActiveInactive=true

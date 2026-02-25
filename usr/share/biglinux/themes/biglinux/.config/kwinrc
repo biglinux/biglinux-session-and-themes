@@ -24,9 +24,11 @@ zoneOverlayIndicatorDisplay=1
 zoneSelectorTriggerDistance=0
 
 [org.kde.kdecoration2]
-BorderSize=NoSides
+BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=XIA
-ButtonsOnRight=FSM
+ButtonsOnRight=M
 library=org.kde.klassy
 theme=Klassy
+
+
