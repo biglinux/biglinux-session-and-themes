@@ -57,8 +57,8 @@ ShadowStrength=102
 LockTitleBarTopBottomMargins=false
 PercentMaximizedTopBottomMargins=50
 TitleBarBottomMargin=0.5
-TitleBarLeftMargin=9
-TitleBarRightMargin=9
+TitleBarLeftMargin=3
+TitleBarRightMargin=3
 TitleBarTopMargin=1.5
 TitleSidePadding=0
 
