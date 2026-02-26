@@ -26,15 +26,13 @@ else
     fi
 fi
 
+# Enable animations in virtualized mode
+[[ -z $KWIN_EFFECTS_FORCE_ANIMATIONS ]] && export KWIN_EFFECTS_FORCE_ANIMATIONS=1
+
 #-------------------------------------------------------------------------------
 # Session-specific Configuration
 #-------------------------------------------------------------------------------
 if [[ "$1" == "wayland" ]]; then
-    # Wayland-specific environment
-    [[ -z $ELECTRON_OZONE_PLATFORM_HINT ]] && export ELECTRON_OZONE_PLATFORM_HINT=auto
-    [[ -z $MOZ_ENABLE_WAYLAND ]] && export MOZ_ENABLE_WAYLAND=1
-    [[ -z $KWIN_EFFECTS_FORCE_ANIMATIONS ]] && export KWIN_EFFECTS_FORCE_ANIMATIONS=1
-
     # Reduce input lag for keyboard input methods
     [[ -z $IBUS_ENABLE_SYNC_MODE ]] && export IBUS_ENABLE_SYNC_MODE=1
 
@@ -47,7 +45,6 @@ else
     WIDTH=${RESOLUTION//x*}
     HEIGHT=${RESOLUTION//*x}
 
-    [[ -z $KWIN_EFFECTS_FORCE_ANIMATIONS ]] && export KWIN_EFFECTS_FORCE_ANIMATIONS=1
     [[ -z $MOZ_USE_XINPUT2 ]] && export MOZ_USE_XINPUT2=1
 fi
 
@@ -93,8 +90,6 @@ fi
 if [[ ! -e "$themeFile" && -e "$HOME/.big_desktop_theme" ]]; then
     dconf write /org/gnome/desktop/interface/gtk-theme "'$(grep 'gtk-theme-name=' "$HOME/.config/gtk-3.0/settings.ini" | cut -f2-5 -d=)'"
 fi
-
-# NOTE: JamesDSP live mode configuration is handled by biglinux-livecd
 
 #-------------------------------------------------------------------------------
 # First Login: Desktop Layout Configuration
