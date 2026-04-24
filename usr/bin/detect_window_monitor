@@ -123,7 +123,7 @@ x_get_monitor_from_mouse() {
 					X >= xoff &&
 					Y >= yoff &&
 					X < xoff + width &&
-					Y < yoff + width
+					Y < yoff + height
 					)); then
 		        printf "%s\n" "$name" "$width" "$height" "$xoff" "$yoff" "$X" "$Y" | paste -sd' '
 				exit 0

@@ -36,7 +36,7 @@ if [[ "$1" == "wayland" ]]; then
     # Reduce input lag for keyboard input methods
     [[ -z $IBUS_ENABLE_SYNC_MODE ]] && export IBUS_ENABLE_SYNC_MODE=1
 
-    exec --no-startup-id /usr/lib/pam_kwallet_init
+    /usr/lib/pam_kwallet_init &
 
 else
     # X11-specific configuration

@@ -25,9 +25,9 @@ else
     # Toggle mode: detect current state and switch
     Led_on=$(xset -q | grep -o 'Scroll Lock:.*')
     if [[ "$Led_on" = "Scroll Lock: off" ]]; then
-        change-keyboard-led on
+        big-keyboard-led on
     else
-        change-keyboard-led off
+        big-keyboard-led off
     fi
 fi
 

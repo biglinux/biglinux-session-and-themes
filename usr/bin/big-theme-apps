@@ -36,7 +36,7 @@ case "$1" in
         rm -Rf ~/.cache/gtk-3.0
         rm -Rf ~/.cache/gtk-4.0
         rm -Rf ~/.cache/icon-cache.kcache
-        rm -R ~/.cache/kcmshell5
+        rm -Rf ~/.cache/kcmshell5
 
         # Clean GTK theme folders for fresh configuration
         rm -Rf ~/.config/gtk-3.0

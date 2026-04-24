@@ -73,7 +73,7 @@ case "$1" in
 		echo "$2" >$HOME/.kdebiglinux/lastused
 
 		for i in "${kde[@]}"; do
-			cp -Rf "$HOME/.kdebiglinux/$2/$i" "/$HOME/.config/$i"
+			cp -Rf "$HOME/.kdebiglinux/$2/$i" "$HOME/.config/$i"
 		done
 	else
 		# Apply from system default if available
