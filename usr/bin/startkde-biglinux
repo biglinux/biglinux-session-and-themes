@@ -29,6 +29,11 @@ fi
 # Enable animations in virtualized mode
 [[ -z $KWIN_EFFECTS_FORCE_ANIMATIONS ]] && export KWIN_EFFECTS_FORCE_ANIMATIONS=1
 
+
+# libcanberra's "multi" backend falls back to ALSA when a stream fails on
+# PipeWire, and that fallback blocks plasmashell's main thread for ~25s
+[[ -z $CANBERRA_DRIVER ]] && export CANBERRA_DRIVER=pulse
+
 #-------------------------------------------------------------------------------
 # Session-specific Configuration
 #-------------------------------------------------------------------------------
