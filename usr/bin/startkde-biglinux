@@ -148,13 +148,13 @@ sudo biglinux-backlight-restore 2>/dev/null &
 # Fixes accent/special character input problems in GTK apps
 #-------------------------------------------------------------------------------
 if [[ ! -e ~/.config/big_enabled_plasma_keyboard || -e /livefs-pkgs.txt ]] && \
-   [[ "$1" == "wayland" && -e  ]] && \
+   [[ "$1" == "wayland" && -e /usr/share/applications/org.kde.plasma.keyboard.desktop ]] && \
    ! grep -q 'InputMethod\[$e\]=' "$HOME/.config/kwinrc"; then
     # Mark as enabled to only run once
     : > ~/.config/big_enabled_plasma_keyboard
 
     # Add InputMethod config (without [$e] due to kwriteconfig6 limitation)
-    kwriteconfig6 --group "Wayland" --key 'InputMethod$e' --file "$HOME/.config/kwinrc" ""
+    kwriteconfig6 --group "Wayland" --key 'InputMethod$e' --file "$HOME/.config/kwinrc" "/usr/share/applications/org.kde.plasma.keyboard.desktop"
 
     # Fix the key format: InputMethod$e -> InputMethod[$e]
     sed -i 's|InputMethod$e|InputMethod[$e]|g' "$HOME/.config/kwinrc"
