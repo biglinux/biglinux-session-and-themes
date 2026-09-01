@@ -83,11 +83,30 @@ if [[ -e "$themeFile" && ! -e "$HOME/.big_desktop_theme" ]]; then
     big-theme-apps --apply "$(<"$themeFile")"
     systemctl --user enable big-welcome
 
-    # Configure JamesDSP audio enhancement
-    if [[ -e /etc/big-default-config/jamesdsp && -e "$HOME/.config/jamesdsp/application.conf" ]]; then
-        sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
+    # Configure JamesDSP audio enhancement.
+    #
+    # Autostart goes through biglinux-jamesdsp-autostart, which drives the upstream
+    # mechanism (~/.config/autostart/jdsp-gui.desktop). We used to only flip the flag
+    # here and rely on a separate jamesdsp-autostart.service; that unit was a second
+    # autostart path competing with the app's own, and the loser looped on the D-Bus
+    # single-instance check until it tore down the PipeWire filter.
+    if [[ -e /etc/big-default-config/jamesdsp ]]; then
+        jamesdspAction=enable
     else
-        sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
+        jamesdspAction=disable
+    fi
+
+    if [[ -x /usr/bin/biglinux-jamesdsp-autostart ]]; then
+        /usr/bin/biglinux-jamesdsp-autostart "$jamesdspAction"
+    elif [[ -e "$HOME/.config/jamesdsp/application.conf" ]]; then
+        # Fallback: biglinux-improve-compatibility is not installed, so at least keep
+        # the flag consistent. Guarded because the original code ran sed on this file
+        # even when it did not exist.
+        if [[ "$jamesdspAction" == "enable" ]]; then
+            sed -i "s|AutoStartEnabled=false|AutoStartEnabled=true|g" "$HOME/.config/jamesdsp/application.conf"
+        else
+            sed -i "s|AutoStartEnabled=true|AutoStartEnabled=false|g" "$HOME/.config/jamesdsp/application.conf"
+        fi
     fi
 fi
 
