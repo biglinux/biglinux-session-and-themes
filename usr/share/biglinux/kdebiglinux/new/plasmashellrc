@@ -2,33 +2,25 @@
 PreloadWeight=0
 
 [PlasmaViews][Panel 2]
-floating=0
-floatingApplets=0
-panelOpacity=1
+floating=1
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=40
 
 [PlasmaViews][Panel 3]
-floating=0
-floatingApplets=0
-panelOpacity=1
+floating=1
 
 [PlasmaViews][Panel 3][Defaults]
 thickness=40
 
 [PlasmaViews][Panel 4]
-floating=0
-floatingApplets=0
-panelOpacity=1
+floating=1
 
 [PlasmaViews][Panel 4][Defaults]
 thickness=40
 
 [PlasmaViews][Panel 5]
-floating=0
-floatingApplets=0
-panelOpacity=1
+floating=1
 
 [PlasmaViews][Panel 5][Defaults]
 thickness=40

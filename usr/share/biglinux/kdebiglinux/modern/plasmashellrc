@@ -3,9 +3,8 @@ PreloadWeight=20
 
 [PlasmaViews][Panel 2]
 floating=0
-floatingApplets=0
+floatingApplets=1
 panelLengthMode=2
-panelOpacity=1
 
 [PlasmaViews][Panel 2][Defaults]
 maxLength=1280
@@ -14,9 +13,8 @@ thickness=40
 
 [PlasmaViews][Panel 3]
 floating=0
-floatingApplets=0
+floatingApplets=1
 panelLengthMode=2
-panelOpacity=1
 
 [PlasmaViews][Panel 3][Defaults]
 maxLength=1280
@@ -25,9 +23,8 @@ thickness=40
 
 [PlasmaViews][Panel 4]
 floating=0
-floatingApplets=0
+floatingApplets=1
 panelLengthMode=2
-panelOpacity=1
 
 [PlasmaViews][Panel 4][Defaults]
 maxLength=1280
@@ -36,9 +33,8 @@ thickness=40
 
 [PlasmaViews][Panel 5]
 floating=0
-floatingApplets=0
+floatingApplets=1
 panelLengthMode=2
-panelOpacity=1
 
 [PlasmaViews][Panel 5][Defaults]
 maxLength=1280

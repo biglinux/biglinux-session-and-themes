@@ -2,10 +2,9 @@
 PreloadWeight=0
 
 [PlasmaViews][Panel 38]
-floating=0
-floatingApplets=0
+floating=1
 panelLengthMode=2
-panelOpacity=1
+panelOpacity=2
 panelVisibility=2
 
 [PlasmaViews][Panel 38][Defaults]
@@ -14,16 +13,15 @@ minLength=144
 thickness=56
 
 [PlasmaViews][Panel 40]
-floating=0
+floating=1
 
 [PlasmaViews][Panel 40][Defaults]
 thickness=27
 
 [PlasmaViews][Panel 42]
-floating=0
-floatingApplets=0
+floating=1
 panelLengthMode=2
-panelOpacity=1
+panelOpacity=2
 panelVisibility=2
 
 [PlasmaViews][Panel 42][Defaults]
@@ -32,16 +30,15 @@ minLength=144
 thickness=56
 
 [PlasmaViews][Panel 44]
-floating=0
+floating=1
 
 [PlasmaViews][Panel 44][Defaults]
 thickness=27
 
 [PlasmaViews][Panel 46]
-floating=0
-floatingApplets=0
+floating=1
 panelLengthMode=2
-panelOpacity=1
+panelOpacity=2
 panelVisibility=2
 
 [PlasmaViews][Panel 46][Defaults]
@@ -50,16 +47,15 @@ minLength=144
 thickness=56
 
 [PlasmaViews][Panel 48]
-floating=0
+floating=1
 
 [PlasmaViews][Panel 48][Defaults]
 thickness=27
 
 [PlasmaViews][Panel 50]
-floating=0
-floatingApplets=0
+floating=1
 panelLengthMode=2
-panelOpacity=1
+panelOpacity=2
 panelVisibility=2
 
 [PlasmaViews][Panel 50][Defaults]
@@ -68,7 +64,7 @@ minLength=144
 thickness=56
 
 [PlasmaViews][Panel 52]
-floating=0
+floating=1
 
 [PlasmaViews][Panel 52][Defaults]
 thickness=27
