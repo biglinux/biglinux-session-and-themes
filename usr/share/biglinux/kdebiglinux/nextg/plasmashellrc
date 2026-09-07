@@ -13,10 +13,11 @@ minLength=144
 thickness=56
 
 [PlasmaViews][Panel 40]
-floating=1
+floating=0
 
 [PlasmaViews][Panel 40][Defaults]
 thickness=27
+
 
 [PlasmaViews][Panel 42]
 floating=1
@@ -30,10 +31,11 @@ minLength=144
 thickness=56
 
 [PlasmaViews][Panel 44]
-floating=1
+floating=0
 
 [PlasmaViews][Panel 44][Defaults]
 thickness=27
+
 
 [PlasmaViews][Panel 46]
 floating=1
@@ -47,10 +49,11 @@ minLength=144
 thickness=56
 
 [PlasmaViews][Panel 48]
-floating=1
+floating=0
 
 [PlasmaViews][Panel 48][Defaults]
 thickness=27
+
 
 [PlasmaViews][Panel 50]
 floating=1
@@ -64,10 +67,11 @@ minLength=144
 thickness=56
 
 [PlasmaViews][Panel 52]
-floating=1
+floating=0
 
 [PlasmaViews][Panel 52][Defaults]
 thickness=27
+
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_showseconds_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/folderview_fix_recursive_screenmapping.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/mediaframe_migrate_useBackground_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/migrate_font_weights.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js
