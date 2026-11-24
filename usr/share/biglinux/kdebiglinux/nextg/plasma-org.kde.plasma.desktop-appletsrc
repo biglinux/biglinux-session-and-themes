@@ -168,7 +168,7 @@ wallpaperplugin=org.kde.image
 
 [Containments][40][Applets][42][Applets][44]
 immutability=1
-plugin=org.biglinux.micnoise
+plugin=br.com.biglinux.micnoise
 
 [Containments][40][Applets][42][Applets][45]
 immutability=1
@@ -255,9 +255,9 @@ PreloadWeight=60
 
 [Containments][40][Applets][42][General]
 disabledStatusNotifiers=Fcitx
-extraItems=org.kde.plasma.weather,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
+extraItems=org.kde.plasma.weather,br.com.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
 hiddenItems=org.kde.plasma.vault,org.kde.plasma.weather
-knownItems=org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.weather
+knownItems=br.com.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.weather
 
 [Containments][40][Applets][62]
 immutability=1
@@ -490,7 +490,7 @@ wallpaperplugin=org.kde.image
 
 [Containments][44][Applets][42][Applets][44]
 immutability=1
-plugin=org.biglinux.micnoise
+plugin=br.com.biglinux.micnoise
 
 [Containments][44][Applets][42][Applets][45]
 immutability=1
@@ -577,9 +577,9 @@ PreloadWeight=60
 
 [Containments][44][Applets][42][General]
 disabledStatusNotifiers=Fcitx
-extraItems=org.kde.plasma.weather,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
+extraItems=org.kde.plasma.weather,br.com.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
 hiddenItems=org.kde.plasma.vault,org.kde.plasma.weather
-knownItems=org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.weather
+knownItems=br.com.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.weather
 
 [Containments][44][Applets][61]
 immutability=1
@@ -774,7 +774,7 @@ wallpaperplugin=org.kde.image
 
 [Containments][48][Applets][42][Applets][44]
 immutability=1
-plugin=org.biglinux.micnoise
+plugin=br.com.biglinux.micnoise
 
 [Containments][48][Applets][42][Applets][45]
 immutability=1
@@ -861,9 +861,9 @@ PreloadWeight=60
 
 [Containments][48][Applets][42][General]
 disabledStatusNotifiers=Fcitx
-extraItems=org.kde.plasma.weather,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
+extraItems=org.kde.plasma.weather,br.com.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
 hiddenItems=org.kde.plasma.vault,org.kde.plasma.weather
-knownItems=org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.weather
+knownItems=br.com.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.weather
 
 [Containments][48][Applets][61]
 immutability=1
@@ -1058,7 +1058,7 @@ wallpaperplugin=org.kde.image
 
 [Containments][52][Applets][42][Applets][44]
 immutability=1
-plugin=org.biglinux.micnoise
+plugin=br.com.biglinux.micnoise
 
 [Containments][52][Applets][42][Applets][45]
 immutability=1
@@ -1145,9 +1145,9 @@ PreloadWeight=60
 
 [Containments][52][Applets][42][General]
 disabledStatusNotifiers=Fcitx
-extraItems=org.kde.plasma.weather,org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
+extraItems=org.kde.plasma.weather,br.com.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
 hiddenItems=org.kde.plasma.vault,org.kde.plasma.weather
-knownItems=org.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.weather
+knownItems=br.com.biglinux.micnoise,org.biglinux.lock_edit_plasma,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.weather
 
 [Containments][52][Applets][61]
 immutability=1
