@@ -124,6 +124,60 @@ if [[ ! -e "$HOME/.kdebiglinux/lastlogin" && -e "$desktopFile" ]]; then
 fi
 
 #-------------------------------------------------------------------------------
+# Calendar Plugins: Undo plasma-workspace's migrate-calendar-to-plugin-id.py
+#-------------------------------------------------------------------------------
+# The migration splits every entry that is not a library path into letters
+# ("holidaysevents" -> "h,o,l,i,d,a,y,s,e,v,e,n,t,s,"), so the clock loses
+# holidays. Skip it, convert library paths to ids here, and join the letters
+# back where it already ran.
+if ! grep -qs '^\[migrate-calendar-to-plugin-id.upd\]' "$HOME/.config/kconf_updaterc"; then
+    kwriteconfig6 --file kconf_updaterc --group migrate-calendar-to-plugin-id.upd --key 'done' migrate-calendar-plugins
+fi
+
+appletsFile="$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc"
+calendarPluginsLine='^enabledCalendarPlugins=(.*,)?(.,.,|[^,]*/)'
+if grep -Eqs "$calendarPluginsLine" "$appletsFile"; then
+    calendarPluginIds=(/usr/lib/qt6/plugins/plasmacalendarplugins/*.so)
+    calendarPluginIds=("${calendarPluginIds[@]##*/}")
+    gawk -i /usr/share/awk/inplace.awk -v pattern="$calendarPluginsLine" -v ids="${calendarPluginIds[*]%.so}" '
+        BEGIN { split(ids, list, " "); for (i in list) known[list[i]] = 1 }
+        $0 !~ pattern { print; next }
+        {
+            count = split(substr($0, length("enabledCalendarPlugins=") + 1), tokens, ",")
+            plugins = ""
+            letters = ""
+            for (i = 1; i <= count; i++) {
+                token = tokens[i]
+                if (index(token, "/")) {
+                    sub(/.*\//, "", token)
+                    sub(/\.so$/, "", token)
+                }
+                if (length(token) > 1) {
+                    plugins = plugins "," token
+                    continue
+                }
+                letters = letters token
+                # A plugin that is no longer installed leaves letters no id matches,
+                # so the id that completes them is found as a suffix.
+                match_id = ""
+                for (id in known) {
+                    if (length(id) > length(match_id) && substr(letters, length(letters) - length(id) + 1) == id) {
+                        match_id = id
+                    }
+                }
+                if (match_id != "") {
+                    if (letters != match_id) plugins = plugins "," substr(letters, 1, length(letters) - length(match_id))
+                    plugins = plugins "," match_id
+                    letters = ""
+                }
+            }
+            if (letters != "") plugins = plugins "," letters
+            print "enabledCalendarPlugins=" substr(plugins, 2)
+        }
+    ' "$appletsFile"
+fi
+
+#-------------------------------------------------------------------------------
 # KSplash: Link Current Wallpaper for Boot Splash
 #-------------------------------------------------------------------------------
 # Get containment ID of current wallpaper
