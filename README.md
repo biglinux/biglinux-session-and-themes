@@ -74,7 +74,6 @@ Settings are sourced from the following files, populated by the installer:
 ```tree
 biglinux-session-and-themes/
 ├── pkgbuild/                 # Arch Linux packaging files
-├── locale/                   # Translations
 └── usr/
     ├── bin/
     │   ├── startkde-biglinux      # Main session bootstrapper
